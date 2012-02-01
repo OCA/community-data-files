@@ -26,7 +26,7 @@ import csv
 LANGS = ['bg','cz','da','de','ee','el','fi','fr','hr','hu','it','lt',
          'lv','mt','nl','pt','ro','ru','si','sk','sv','tr']
 
-# All the genreated record ids will be in this forms 
+# All the generated record ids will be in this forms 
 ID_TEMPLATE = "nace_%s"
 
 print "Generating the English CSV file..."
