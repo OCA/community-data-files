@@ -19,6 +19,6 @@
 #
 ##############################################################################
 
-"""There's nothing here really, but it would not be a module without this file."""
+import partner
 
 # vim:expandtab:smartindent:tabstop=4:softtabstop=4:shiftwidth=4:
