@@ -19,16 +19,23 @@
 #
 ##############################################################################
 
-from osv import osv, fields
+from osv import osv
 
-class Partner(osv.osv):
-    """Add the French APE (official main activity of the company)"""
-    _inherit = 'res.partner'
-    _columns = {
-        'ape_id': fields.many2one('res.partner.category', 'APE',
-            help="If the partner is a French company, enter it's official "
-                 "main activity in this field. The APE is chosen among the "
-                 "NAF nomenclature."),
-    }
-Partner()
+class PartnerCategory(osv.osv):
+    """Let users search on code without a dot"""
+    _inherit = 'res.partner.category'
+    
+    def name_search(self, cr, uid, name, args=None, operator='ilike', context=None, limit=80):
+        """When no results are found, try again with an additional "."."""
+        results = super(PartnerCategory, self).name_search(cr, uid, name, args=args,
+                               operator=operator, context=context, limit=limit)
+        if not results and name and len(name)>2:
+            # Add a "." after the 2nd character, in case that makes it a NACE code
+            results = super(PartnerCategory, self).name_search(cr, uid, 
+                    '%s.%s' % (name[:2], name[2:]),
+                    args=args, operator=operator, context=context, limit=limit)
+        return results
+
+PartnerCategory()
+
 # vim:expandtab:smartindent:tabstop=4:softtabstop=4:shiftwidth=4:
