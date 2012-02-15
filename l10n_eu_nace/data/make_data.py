@@ -23,8 +23,11 @@
 import csv
 
 # List of languages to generate translations for
-LANGS = ['bg','cz','da','de','ee','el','fi','fr','hr','hu','it','lt',
-         'lv','mt','nl','pt','ro','ru','si','sk','sv','tr']
+LANGS = [
+         'bg', 'cz', 'da', 'de', 'ee', 'en', 'el', 'fi',
+         'fr', 'hr', 'hu', 'it', 'lt', 'lv', 'mt', 'nl',
+         'pt', 'ro', 'ru', 'si', 'sk', 'sv', 'tr',
+        ]
 
 # All the generated record ids will be in this forms 
 ID_TEMPLATE = "nace_%s"
@@ -55,12 +58,13 @@ for row in src:
 print "Done.\n"
 
 for lang in LANGS:
-    print "Generating the translation files for %s..."% lang
+    filename = lang!="en" and ("%s.po" % lang) or "l10n_eu_nace.pot"
+    print "Generating %s..." % filename  
     src = csv.reader(open("NACE_REV2_%s.csv" % lang, "rU"))
     # Skip first line
     src.next()
     # Write file header
-    dest = open("../i18n/%s.po" % lang, "w")
+    dest = open("../i18n/%s" % filename, "w")
     dest.write("""# Translation of OpenERP Server.
 # This file contains the translation of the following modules:
 #    * l10n_eu_nace
@@ -88,7 +92,7 @@ msgstr ""
 msgid "%s"
 msgstr "%s"
 
-""" % (id, english[id], name) )
+""" % (id, english[id], lang!="en" and name or ""   ) )
 print "Done.\n"
 
 # vim:expandtab:smartindent:tabstop=4:softtabstop=4:shiftwidth=4:
