@@ -24,9 +24,9 @@ import csv
 
 # List of languages to generate translations for
 LANGS = [
-         'bg', 'cz', 'da', 'de', 'ee', 'en', 'el', 'fi',
+         'bg', 'cs', 'da', 'de', 'et', 'en', 'el', 'fi',
          'fr', 'hr', 'hu', 'it', 'lt', 'lv', 'mt', 'nl',
-         'pt', 'ro', 'ru', 'si', 'sk', 'sv', 'tr',
+         'pt', 'ro', 'ru', 'sl', 'sk', 'sv', 'tr',
         ]
 
 # All the generated record ids will be in this forms 
@@ -59,7 +59,7 @@ print "Done.\n"
 
 for lang in LANGS:
     filename = lang!="en" and ("%s.po" % lang) or "l10n_eu_nace.pot"
-    print "Generating %s..." % filename  
+    print "Generating %s..." % filename     
     src = csv.reader(open("NACE_REV2_%s.csv" % lang, "rU"))
     # Skip first line
     src.next()
