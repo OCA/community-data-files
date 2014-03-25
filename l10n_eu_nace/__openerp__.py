@@ -20,24 +20,24 @@
 ##############################################################################
 
 {
-    "name" : "European NACE partner categories",
-    "version" : "2.0",
-    'author' : u'Numérigraphe SARL, Sistheo',
-    "category" : "Hidden",
-    "description" : """This module imports the NACE rev. 2 classification \
-categories as partner categories in 23 languages, courtesy of the EU. 
+    "name": "European NACE partner categories",
+    "version": "2.0",
+    'author': u'Numérigraphe SARL, Sistheo',
+    "category": "Hidden",
+    "description": """This module imports the NACE rev. 2 classification
+categories as partner categories in 23 languages, courtesy of the EU.
 
-The Statistical Classification of Economic Activities in the European Community \
-commonly referred to as NACE, is a European industry standard classification \
+The Statistical Classification of Economic Activities in the European Community
+commonly referred to as NACE, is a European industry standard classification
 system consisting of a 6 digit code.
 NACE is equivalent to the SIC and NAICS system:
     * Standard Industrial Classification
     * North American Industry Classification System.
 
-This module is a rewrite of the older community module "partner_nace" from \
+This module is a rewrite of the older community module "partner_nace" from
 the extra-addons repository.
 
-The data imported into OpenERP is generated from the files downloaded \
+The data imported into OpenERP is generated from the files downloaded
 from the RAMON service:
     http://ec.europa.eu/eurostat/ramon/nomenclatures/index.cfm?TargetUrl=LST_CLS_DLD&StrNom=NACE_REV2&StrLanguageCode=DE&StrLayoutCode=#
 
@@ -45,10 +45,10 @@ If you want to update the data or add another translation, download the
 corresponding file from RAMON using ',' as a separator, save it
 to the directory "data" and name it according to the language code:
     NACE_REV2_<language code>.csv
-Then update the LANGS constant in the script "make_data.py" and run it to \
+Then update the LANGS constant in the script "make_data.py" and run it to
 refresh the OpenERP data files. Finally, upgrade the module to load the data.
 """,
-    "data" : [
+    "data": [
         "data/res.partner.category.csv",
     ],
 }

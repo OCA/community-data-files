@@ -24,12 +24,11 @@ import csv
 
 # List of languages to generate translations for
 LANGS = [
-         'bg', 'cs', 'da', 'de', 'et', 'en', 'el', 'fi',
-         'fr', 'hr', 'hu', 'it', 'lt', 'lv', 'mt', 'nl',
-         'pt', 'ro', 'ru', 'sl', 'sk', 'sv', 'tr',
-        ]
+    'bg', 'cs', 'da', 'de', 'et', 'en', 'el', 'fi', 'fr', 'hr', 'hu', 'it',
+    'lt', 'lv', 'mt', 'nl', 'pt', 'ro', 'ru', 'sl', 'sk', 'sv', 'tr',
+]
 
-# All the generated record ids will be in this forms 
+# All the generated record ids will be in this forms
 ID_TEMPLATE = "nace_%s"
 
 print "Generating the English CSV file..."
@@ -45,11 +44,11 @@ dest.writerow([parent_ids[0], "", "NACE"])
 src.next()
 english = {}
 for row in src:
-    id = ID_TEMPLATE % row[1].replace('.','_')
+    id = ID_TEMPLATE % row[1].replace('.', '_')
     name = "[%s] %s" % (row[1], row[2])
     # determine the parent
     level = int(row[0])
-    parent_id = parent_ids[level-1]
+    parent_id = parent_ids[level - 1]
     # Remember the current id as a parent
     parent_ids[level] = id
     # Remember the English name and the id
@@ -58,8 +57,8 @@ for row in src:
 print "Done.\n"
 
 for lang in LANGS:
-    filename = lang!="en" and ("%s.po" % lang) or "l10n_eu_nace.pot"
-    print "Generating %s..." % filename     
+    filename = lang != "en" and ("%s.po" % lang) or "l10n_eu_nace.pot"
+    print "Generating %s..." % filename
     src = csv.reader(open("NACE_REV2_%s.csv" % lang, "rU"))
     # Skip first line
     src.next()
@@ -85,12 +84,11 @@ msgstr ""
 """)
     for row in src:
         name = "[%s] %s" % (row[1], row[2])
-        id = ID_TEMPLATE % row[1].replace('.','_')
-        dest.write(
-"""#. module: l10n_eu_nace
+        id = ID_TEMPLATE % row[1].replace('.', '_')
+        dest.write("""#. module: l10n_eu_nace
 #: model:res.partner.category,name:l10n_eu_nace.%s
 msgid "%s"
 msgstr "%s"
 
-""" % (id, english[id], lang!="en" and name or ""   ) )
+""" % (id, english[id], lang != "en" and name or ""))
 print "Done.\n"
