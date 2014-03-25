@@ -1,4 +1,4 @@
-# -*- encoding: utf-8 -*-
+# -*- coding: utf-8 -*-
 ##############################################################################
 #
 #    OpenERP, Open Source Management Solution
@@ -19,9 +19,9 @@
 #
 ##############################################################################
 
-from osv import osv
+from openerp.osv import osv
 
-class PartnerCategory(osv.osv):
+class PartnerCategory(osv.Model):
     """Let users search on code without a dot"""
     _inherit = 'res.partner.category'
     
@@ -35,7 +35,3 @@ class PartnerCategory(osv.osv):
                     '%s.%s' % (name[:2], name[2:]),
                     args=args, operator=operator, context=context, limit=limit)
         return results
-
-PartnerCategory()
-
-# vim:expandtab:smartindent:tabstop=4:softtabstop=4:shiftwidth=4:
