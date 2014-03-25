@@ -1,4 +1,4 @@
-# -*- encoding: utf-8 -*-
+# -*- coding: utf-8 -*-
 ##############################################################################
 #
 #    OpenERP, Open Source Management Solution
@@ -48,14 +48,7 @@ to the directory "data" and name it according to the language code:
 Then update the LANGS constant in the script "make_data.py" and run it to \
 refresh the OpenERP data files. Finally, upgrade the module to load the data.
 """,
-    "depends" : ["base"],
-    "init_xml" : [],
-    "demo_xml" : [],
-    "update_xml" : [
+    "data" : [
         "data/res.partner.category.csv",
     ],
-    "active": False,
-    "installable": True
 }
-
-# vim:expandtab:smartindent:tabstop=4:softtabstop=4:shiftwidth=4:
