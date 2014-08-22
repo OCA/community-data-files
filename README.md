@@ -1,5 +1,5 @@
-[![Build Status](https://travis-ci.org/OCA/community-data-files.svg?branch=7.0)](https://travis-ci.org/OCA/community-data-files)
-[![Coverage Status](https://coveralls.io/repos/OCA/community-data-files/badge.png?branch=7.0)](https://coveralls.io/r/OCA/community-data-files?branch=7.0)
+[![Build Status](https://travis-ci.org/OCA/community-data-files.svg?branch=8.0)](https://travis-ci.org/OCA/community-data-files)
+[![Coverage Status](https://coveralls.io/repos/OCA/community-data-files/badge.png?branch=8.0)](https://coveralls.io/r/OCA/community-data-files?branch=8.0)
 
 Community Data Files
 ====================
