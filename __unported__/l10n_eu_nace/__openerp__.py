@@ -51,4 +51,5 @@ refresh the OpenERP data files. Finally, upgrade the module to load the data.
     "data": [
         "data/res.partner.category.csv",
     ],
+    'installable': False,
 }

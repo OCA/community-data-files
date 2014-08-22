@@ -38,4 +38,5 @@ It will also add a field to the partner form, to enter the partner's APE \
         'data/res.partner.category.csv',
         'partner_view.xml',
     ],
+    'installable': False,
 }
