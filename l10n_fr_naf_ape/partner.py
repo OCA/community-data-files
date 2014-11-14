@@ -23,6 +23,7 @@ from openerp.osv import osv, fields
 
 
 class Partner(osv.Model):
+
     """Add the French APE (official main activity of the company)"""
     _inherit = 'res.partner'
     _columns = {
