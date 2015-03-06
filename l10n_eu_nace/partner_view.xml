@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<openerp>
+    <data>
+        <record model="ir.ui.view" id="view_partner_form">
+            <field name="name">Partner form : short category name</field>
+            <field name="model">res.partner</field>
+            <field name="inherit_id" ref="base.view_partner_form" />
+            <field name="arch" type="xml">
+                <field name="category_id" position="attributes">
+                    <attribute name="context">{'partner_category_display': 'short'}</attribute>
+                    <attribute name="options">{"always_reload": True}</attribute>
+                </field>
+            </field>
+        </record>
+        <!-- Only show the short category name, NACE titles are very long -->
+        <record model="ir.ui.view" id="res_partner_kanban_view">
+            <field name="name">Partner kanban : short category name</field>
+            <field name="model">res.partner</field>
+            <field name="inherit_id" ref="base.res_partner_kanban_view" />
+            <field name="arch" type="xml">
+                <field name="category_id" position="attributes">
+                    <attribute name="context">{'partner_category_display': 'short'}</attribute>
+                    <attribute name="options">{"always_reload": True}</attribute>
+                </field>
+            </field>
+        </record>
+    </data>
+</openerp>
