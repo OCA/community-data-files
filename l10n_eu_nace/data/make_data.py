@@ -44,16 +44,16 @@ dest.writerow([parent_ids[0], "", "NACE"])
 src.next()
 english = {}
 for row in src:
-    id = ID_TEMPLATE % row[1].replace('.', '_')
+    xml_id = ID_TEMPLATE % row[1].replace('.', '_')
     name = "[%s] %s" % (row[1], row[2])
     # determine the parent
     level = int(row[0])
     parent_id = parent_ids[level - 1]
     # Remember the current id as a parent
-    parent_ids[level] = id
+    parent_ids[level] = xml_id
     # Remember the English name and the id
-    english[id] = name
-    dest.writerow([id, parent_id, name])
+    english[xml_id] = name
+    dest.writerow([xml_id, parent_id, name])
 print "Done.\n"
 
 for lang in LANGS:
@@ -84,11 +84,11 @@ msgstr ""
 """)
     for row in src:
         name = "[%s] %s" % (row[1], row[2])
-        id = ID_TEMPLATE % row[1].replace('.', '_')
+        xml_id = ID_TEMPLATE % row[1].replace('.', '_')
         dest.write("""#. module: l10n_eu_nace
 #: model:res.partner.category,name:l10n_eu_nace.%s
 msgid "%s"
 msgstr "%s"
 
-""" % (id, english[id], lang != "en" and name or ""))
+""" % (xml_id, english[xml_id], lang != "en" and name or ""))
 print "Done.\n"

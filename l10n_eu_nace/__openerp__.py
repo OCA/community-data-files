@@ -19,4 +19,15 @@
 #
 ##############################################################################
 
-from . import partner
+{
+    "name": "European NACE partner categories",
+    "version": "2.1",
+    'author': u'Numérigraphe SARL,Sistheo,Odoo Community Association (OCA)',
+    "category": "Localization",
+    "data": [
+        "data/res.partner.category.csv",
+        'partner_view.xml',
+    ],
+    'installable': True,
+    'license': 'AGPL-3',
+}
