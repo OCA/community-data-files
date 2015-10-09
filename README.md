@@ -19,6 +19,6 @@ Available addons
 ----------------
 addon | version | summary
 --- | --- | ---
-[l10n_eu_nace](l10n_eu_nace/) | 2.1 | European NACE partner categories
+[l10n_eu_nace](l10n_eu_nace/) | 8.0.2.1.0 | European NACE partner categories
 
 [//]: # (end addons)
