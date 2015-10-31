@@ -36,6 +36,7 @@ Save it to the directory "data" and name it according to the language
 code::
 
     NACE_REV2_<language code>.csv
+
 Then update the LANGS constant in the script "make_data.py" and run it to
 refresh the OpenERP data files. Finally, upgrade the module to load the data.
 
