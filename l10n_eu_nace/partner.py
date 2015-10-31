@@ -29,8 +29,8 @@ class PartnerCategory(models.Model):
     @api.model
     def name_search(self, name, args=None, operator='ilike', limit=100):
         """When no results are found, try again with an additional "."."""
-        results = super(PartnerCategory, self).name_search(name, args=args,
-            operator=operator, limit=limit)
+        results = super(PartnerCategory, self).name_search(
+            name, args=args, operator=operator, limit=limit)
         if not results and name and len(name) > 2:
             # Add a "." after the 2nd character, in case that makes a NACE code
             results = super(PartnerCategory, self).name_search(
