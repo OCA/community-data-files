@@ -15,10 +15,10 @@ This project is the continuation of OpenERP-Nomenclatures, which had a narrower
 scope limited to only official files provided by government agencies.
 
 [//]: # (addons)
-Unported addons
----------------
+Available addons
+----------------
 addon | version | summary
 --- | --- | ---
-[l10n_eu_nace](l10n_eu_nace/) | 8.0.2.1.0 (unported) | European NACE partner categories
+[l10n_eu_nace](l10n_eu_nace/) | 9.0.2.1.0 | European NACE partner categories
 
 [//]: # (end addons)

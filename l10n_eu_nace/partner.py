@@ -19,22 +19,21 @@
 #
 ##############################################################################
 
-from openerp.osv import osv
+from openerp import models, api
 
 
-class PartnerCategory(osv.Model):
+class PartnerCategory(models.Model):
     """Let users search on code without a dot"""
     _inherit = 'res.partner.category'
 
-    def name_search(self, cr, uid, name, args=None, operator='ilike',
-                    context=None, limit=80):
+    @api.model
+    def name_search(self, name, args=None, operator='ilike', limit=100):
         """When no results are found, try again with an additional "."."""
         results = super(PartnerCategory, self).name_search(
-            cr, uid, name, args=args, operator=operator, context=context,
-            limit=limit)
+            name, args=args, operator=operator, limit=limit)
         if not results and name and len(name) > 2:
             # Add a "." after the 2nd character, in case that makes a NACE code
             results = super(PartnerCategory, self).name_search(
-                cr, uid, '%s.%s' % (name[:2], name[2:]),
-                args=args, operator=operator, context=context, limit=limit)
+                '%s.%s' % (name[:2], name[2:]), args=args, operator=operator,
+                limit=limit)
         return results
