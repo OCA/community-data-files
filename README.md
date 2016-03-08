@@ -5,7 +5,7 @@ Community Data Files
 ====================
 
 
-This project is a collection of OpenERP modules containing various data files
+This project is a collection of Odoo modules containing various data files
 that are too big to fit the official addons or the other Community projects.
 
 Such data files may include for example tax tables, lists of ZIP codes,
