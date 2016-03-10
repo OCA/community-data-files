@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<openerp>
+    <data>
+        <menuitem id="menu_res_bank_iban_bic_mapping"
+            action="action_res_bank_iban_bic_mapping"
+            parent="account.account_account_menu"
+        />
+    </data>
+</openerp>

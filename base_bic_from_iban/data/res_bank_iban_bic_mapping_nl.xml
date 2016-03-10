@@ -1,0 +1,402 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<openerp>
+  <data>
+    <record id="bic_mapping_nl_INSI" model="res.bank.iban.bic.mapping">
+      <field name="match_type">regex</field>
+      <field name="country_id" ref="base.nl"/>
+      <field eval="'^INSI'" name="data"/>
+      <field name="bic">INSINL2A</field>
+    </record>
+    <record id="bic_mapping_nl_GILL" model="res.bank.iban.bic.mapping">
+      <field name="match_type">regex</field>
+      <field name="country_id" ref="base.nl"/>
+      <field eval="'^GILL'" name="data"/>
+      <field name="bic">GILLNL2A</field>
+    </record>
+    <record id="bic_mapping_nl_RBRB" model="res.bank.iban.bic.mapping">
+      <field name="match_type">regex</field>
+      <field name="country_id" ref="base.nl"/>
+      <field eval="'^RBRB'" name="data"/>
+      <field name="bic">RBRBNL21</field>
+    </record>
+    <record id="bic_mapping_nl_FVLB" model="res.bank.iban.bic.mapping">
+      <field name="match_type">regex</field>
+      <field name="country_id" ref="base.nl"/>
+      <field eval="'^FVLB'" name="data"/>
+      <field name="bic">FVLBNL22</field>
+    </record>
+    <record id="bic_mapping_nl_ISBK" model="res.bank.iban.bic.mapping">
+      <field name="match_type">regex</field>
+      <field name="country_id" ref="base.nl"/>
+      <field eval="'^ISBK'" name="data"/>
+      <field name="bic">ISBKNL2A</field>
+    </record>
+    <record id="bic_mapping_nl_LOYD" model="res.bank.iban.bic.mapping">
+      <field name="match_type">regex</field>
+      <field name="country_id" ref="base.nl"/>
+      <field eval="'^LOYD'" name="data"/>
+      <field name="bic">LOYDNL2A</field>
+    </record>
+    <record id="bic_mapping_nl_DLBK" model="res.bank.iban.bic.mapping">
+      <field name="match_type">regex</field>
+      <field name="country_id" ref="base.nl"/>
+      <field eval="'^DLBK'" name="data"/>
+      <field name="bic">DLBKNL2A</field>
+    </record>
+    <record id="bic_mapping_nl_TRIO" model="res.bank.iban.bic.mapping">
+      <field name="match_type">regex</field>
+      <field name="country_id" ref="base.nl"/>
+      <field eval="'^TRIO'" name="data"/>
+      <field name="bic">TRIONL2U</field>
+    </record>
+    <record id="bic_mapping_nl_ATBA" model="res.bank.iban.bic.mapping">
+      <field name="match_type">regex</field>
+      <field name="country_id" ref="base.nl"/>
+      <field eval="'^ATBA'" name="data"/>
+      <field name="bic">ATBANL2A</field>
+    </record>
+    <record id="bic_mapping_nl_BNGH" model="res.bank.iban.bic.mapping">
+      <field name="match_type">regex</field>
+      <field name="country_id" ref="base.nl"/>
+      <field eval="'^BNGH'" name="data"/>
+      <field name="bic">BNGHNL2G</field>
+    </record>
+    <record id="bic_mapping_nl_HHBA" model="res.bank.iban.bic.mapping">
+      <field name="match_type">regex</field>
+      <field name="country_id" ref="base.nl"/>
+      <field eval="'^HHBA'" name="data"/>
+      <field name="bic">HHBANL22</field>
+    </record>
+    <record id="bic_mapping_nl_RBOS" model="res.bank.iban.bic.mapping">
+      <field name="match_type">regex</field>
+      <field name="country_id" ref="base.nl"/>
+      <field eval="'^RBOS'" name="data"/>
+      <field name="bic">RBOSNL2A</field>
+    </record>
+    <record id="bic_mapping_nl_FRGH" model="res.bank.iban.bic.mapping">
+      <field name="match_type">regex</field>
+      <field name="country_id" ref="base.nl"/>
+      <field eval="'^FRGH'" name="data"/>
+      <field name="bic">FRGHNL21</field>
+    </record>
+    <record id="bic_mapping_nl_BLGW" model="res.bank.iban.bic.mapping">
+      <field name="match_type">regex</field>
+      <field name="country_id" ref="base.nl"/>
+      <field eval="'^BLGW'" name="data"/>
+      <field name="bic">BLGWNL21</field>
+    </record>
+    <record id="bic_mapping_nl_STAL" model="res.bank.iban.bic.mapping">
+      <field name="match_type">regex</field>
+      <field name="country_id" ref="base.nl"/>
+      <field eval="'^STAL'" name="data"/>
+      <field name="bic">STALNL2G</field>
+    </record>
+    <record id="bic_mapping_nl_BNPA" model="res.bank.iban.bic.mapping">
+      <field name="match_type">regex</field>
+      <field name="country_id" ref="base.nl"/>
+      <field eval="'^BNPA'" name="data"/>
+      <field name="bic">BNPANL2A</field>
+    </record>
+    <record id="bic_mapping_nl_FTSB" model="res.bank.iban.bic.mapping">
+      <field name="match_type">regex</field>
+      <field name="country_id" ref="base.nl"/>
+      <field eval="'^FTSB'" name="data"/>
+      <field name="bic">ABNANL2A</field>
+    </record>
+    <record id="bic_mapping_nl_ASRB" model="res.bank.iban.bic.mapping">
+      <field name="match_type">regex</field>
+      <field name="country_id" ref="base.nl"/>
+      <field eval="'^ASRB'" name="data"/>
+      <field name="bic">ASRBNL2R</field>
+    </record>
+    <record id="bic_mapping_nl_ANDL" model="res.bank.iban.bic.mapping">
+      <field name="match_type">regex</field>
+      <field name="country_id" ref="base.nl"/>
+      <field eval="'^ANDL'" name="data"/>
+      <field name="bic">ANDLNL2A</field>
+    </record>
+    <record id="bic_mapping_nl_BOTK" model="res.bank.iban.bic.mapping">
+      <field name="match_type">regex</field>
+      <field name="country_id" ref="base.nl"/>
+      <field eval="'^BOTK'" name="data"/>
+      <field name="bic">BOTKNL2X</field>
+    </record>
+    <record id="bic_mapping_nl_VPVG" model="res.bank.iban.bic.mapping">
+      <field name="match_type">regex</field>
+      <field name="country_id" ref="base.nl"/>
+      <field eval="'^VPVG'" name="data"/>
+      <field name="bic">VPVGNL22</field>
+    </record>
+    <record id="bic_mapping_nl_SNSB" model="res.bank.iban.bic.mapping">
+      <field name="match_type">regex</field>
+      <field name="country_id" ref="base.nl"/>
+      <field eval="'^SNSB'" name="data"/>
+      <field name="bic">SNSBNL2A</field>
+    </record>
+    <record id="bic_mapping_nl_FBHL" model="res.bank.iban.bic.mapping">
+      <field name="match_type">regex</field>
+      <field name="country_id" ref="base.nl"/>
+      <field eval="'^FBHL'" name="data"/>
+      <field name="bic">FBHLNL2A</field>
+    </record>
+    <record id="bic_mapping_nl_BCDM" model="res.bank.iban.bic.mapping">
+      <field name="match_type">regex</field>
+      <field name="country_id" ref="base.nl"/>
+      <field eval="'^BCDM'" name="data"/>
+      <field name="bic">BCDMNL22</field>
+    </record>
+    <record id="bic_mapping_nl_FLOR" model="res.bank.iban.bic.mapping">
+      <field name="match_type">regex</field>
+      <field name="country_id" ref="base.nl"/>
+      <field eval="'^FLOR'" name="data"/>
+      <field name="bic">FLORNL2A</field>
+    </record>
+    <record id="bic_mapping_nl_MHCB" model="res.bank.iban.bic.mapping">
+      <field name="match_type">regex</field>
+      <field name="country_id" ref="base.nl"/>
+      <field eval="'^MHCB'" name="data"/>
+      <field name="bic">MHCBNL2A</field>
+    </record>
+    <record id="bic_mapping_nl_INGB" model="res.bank.iban.bic.mapping">
+      <field name="match_type">regex</field>
+      <field name="country_id" ref="base.nl"/>
+      <field eval="'^INGB'" name="data"/>
+      <field name="bic">INGBNL2A</field>
+    </record>
+    <record id="bic_mapping_nl_SOGE" model="res.bank.iban.bic.mapping">
+      <field name="match_type">regex</field>
+      <field name="country_id" ref="base.nl"/>
+      <field eval="'^SOGE'" name="data"/>
+      <field name="bic">SOGENL2A</field>
+    </record>
+    <record id="bic_mapping_nl_KOEX" model="res.bank.iban.bic.mapping">
+      <field name="match_type">regex</field>
+      <field name="country_id" ref="base.nl"/>
+      <field eval="'^KOEX'" name="data"/>
+      <field name="bic">KOEXNL2A</field>
+    </record>
+    <record id="bic_mapping_nl_UGBI" model="res.bank.iban.bic.mapping">
+      <field name="match_type">regex</field>
+      <field name="country_id" ref="base.nl"/>
+      <field eval="'^UGBI'" name="data"/>
+      <field name="bic">UGBINL2A</field>
+    </record>
+    <record id="bic_mapping_nl_AEGO" model="res.bank.iban.bic.mapping">
+      <field name="match_type">regex</field>
+      <field name="country_id" ref="base.nl"/>
+      <field eval="'^AEGO'" name="data"/>
+      <field name="bic">AEGONL2U</field>
+    </record>
+    <record id="bic_mapping_nl_FRBK" model="res.bank.iban.bic.mapping">
+      <field name="match_type">regex</field>
+      <field name="country_id" ref="base.nl"/>
+      <field eval="'^FRBK'" name="data"/>
+      <field name="bic">FRBKNL2L</field>
+    </record>
+    <record id="bic_mapping_nl_ARTE" model="res.bank.iban.bic.mapping">
+      <field name="match_type">regex</field>
+      <field name="country_id" ref="base.nl"/>
+      <field eval="'^ARTE'" name="data"/>
+      <field name="bic">ARTENL2A</field>
+    </record>
+    <record id="bic_mapping_nl_LPLN" model="res.bank.iban.bic.mapping">
+      <field name="match_type">regex</field>
+      <field name="country_id" ref="base.nl"/>
+      <field eval="'^LPLN'" name="data"/>
+      <field name="bic">LPLNNL2F</field>
+    </record>
+    <record id="bic_mapping_nl_BKMG" model="res.bank.iban.bic.mapping">
+      <field name="match_type">regex</field>
+      <field name="country_id" ref="base.nl"/>
+      <field eval="'^BKMG'" name="data"/>
+      <field name="bic">BKMGNL2A</field>
+    </record>
+    <record id="bic_mapping_nl_VOWA" model="res.bank.iban.bic.mapping">
+      <field name="match_type">regex</field>
+      <field name="country_id" ref="base.nl"/>
+      <field eval="'^VOWA'" name="data"/>
+      <field name="bic">VOWANL21</field>
+    </record>
+    <record id="bic_mapping_nl_BOFS" model="res.bank.iban.bic.mapping">
+      <field name="match_type">regex</field>
+      <field name="country_id" ref="base.nl"/>
+      <field eval="'^BOFS'" name="data"/>
+      <field name="bic">BOFSNL21002</field>
+    </record>
+    <record id="bic_mapping_nl_DHBN" model="res.bank.iban.bic.mapping">
+      <field name="match_type">regex</field>
+      <field name="country_id" ref="base.nl"/>
+      <field eval="'^DHBN'" name="data"/>
+      <field name="bic">DHBNNL2R</field>
+    </record>
+    <record id="bic_mapping_nl_BCIT" model="res.bank.iban.bic.mapping">
+      <field name="match_type">regex</field>
+      <field name="country_id" ref="base.nl"/>
+      <field eval="'^BCIT'" name="data"/>
+      <field name="bic">BCITNL2A</field>
+    </record>
+    <record id="bic_mapping_nl_BICK" model="res.bank.iban.bic.mapping">
+      <field name="match_type">regex</field>
+      <field name="country_id" ref="base.nl"/>
+      <field eval="'^BICK'" name="data"/>
+      <field name="bic">BICKNL2A</field>
+    </record>
+    <record id="bic_mapping_nl_BBRU" model="res.bank.iban.bic.mapping">
+      <field name="match_type">regex</field>
+      <field name="country_id" ref="base.nl"/>
+      <field eval="'^BBRU'" name="data"/>
+      <field name="bic">BBRUNL2X</field>
+    </record>
+    <record id="bic_mapping_nl_KNAB" model="res.bank.iban.bic.mapping">
+      <field name="match_type">regex</field>
+      <field name="country_id" ref="base.nl"/>
+      <field eval="'^KNAB'" name="data"/>
+      <field name="bic">KNABNL2H</field>
+    </record>
+    <record id="bic_mapping_nl_HAND" model="res.bank.iban.bic.mapping">
+      <field name="match_type">regex</field>
+      <field name="country_id" ref="base.nl"/>
+      <field eval="'^HAND'" name="data"/>
+      <field name="bic">HANDNL2A</field>
+    </record>
+    <record id="bic_mapping_nl_BOFA" model="res.bank.iban.bic.mapping">
+      <field name="match_type">regex</field>
+      <field name="country_id" ref="base.nl"/>
+      <field eval="'^BOFA'" name="data"/>
+      <field name="bic">BOFANLNX</field>
+    </record>
+    <record id="bic_mapping_nl_OVBN" model="res.bank.iban.bic.mapping">
+      <field name="match_type">regex</field>
+      <field name="country_id" ref="base.nl"/>
+      <field eval="'^OVBN'" name="data"/>
+      <field name="bic">OVBNNL22</field>
+    </record>
+    <record id="bic_mapping_nl_KRED" model="res.bank.iban.bic.mapping">
+      <field name="match_type">regex</field>
+      <field name="country_id" ref="base.nl"/>
+      <field eval="'^KRED'" name="data"/>
+      <field name="bic">KREDNL2X</field>
+    </record>
+    <record id="bic_mapping_nl_ARBN" model="res.bank.iban.bic.mapping">
+      <field name="match_type">regex</field>
+      <field name="country_id" ref="base.nl"/>
+      <field eval="'^ARBN'" name="data"/>
+      <field name="bic">ARBNNL22</field>
+    </record>
+    <record id="bic_mapping_nl_NNBA" model="res.bank.iban.bic.mapping">
+      <field name="match_type">regex</field>
+      <field name="country_id" ref="base.nl"/>
+      <field eval="'^NNBA'" name="data"/>
+      <field name="bic">NNBANL2G</field>
+    </record>
+    <record id="bic_mapping_nl_LOCY" model="res.bank.iban.bic.mapping">
+      <field name="match_type">regex</field>
+      <field name="country_id" ref="base.nl"/>
+      <field eval="'^LOCY'" name="data"/>
+      <field name="bic">LOCYNL2A</field>
+    </record>
+    <record id="bic_mapping_nl_KASA" model="res.bank.iban.bic.mapping">
+      <field name="match_type">regex</field>
+      <field name="country_id" ref="base.nl"/>
+      <field eval="'^KASA'" name="data"/>
+      <field name="bic">KASANL2A</field>
+    </record>
+    <record id="bic_mapping_nl_ABNA" model="res.bank.iban.bic.mapping">
+      <field name="match_type">regex</field>
+      <field name="country_id" ref="base.nl"/>
+      <field eval="'^ABNA'" name="data"/>
+      <field name="bic">ABNANL2A</field>
+    </record>
+    <record id="bic_mapping_nl_KABA" model="res.bank.iban.bic.mapping">
+      <field name="match_type">regex</field>
+      <field name="country_id" ref="base.nl"/>
+      <field eval="'^KABA'" name="data"/>
+      <field name="bic">KABANL2A</field>
+    </record>
+    <record id="bic_mapping_nl_NWAB" model="res.bank.iban.bic.mapping">
+      <field name="match_type">regex</field>
+      <field name="country_id" ref="base.nl"/>
+      <field eval="'^NWAB'" name="data"/>
+      <field name="bic">NWABNL2G</field>
+    </record>
+    <record id="bic_mapping_nl_ICBK" model="res.bank.iban.bic.mapping">
+      <field name="match_type">regex</field>
+      <field name="country_id" ref="base.nl"/>
+      <field eval="'^ICBK'" name="data"/>
+      <field name="bic">ICBKNL2A</field>
+    </record>
+    <record id="bic_mapping_nl_ARSN" model="res.bank.iban.bic.mapping">
+      <field name="match_type">regex</field>
+      <field name="country_id" ref="base.nl"/>
+      <field eval="'^ARSN'" name="data"/>
+      <field name="bic">ARSNNL21</field>
+    </record>
+    <record id="bic_mapping_nl_DNIB" model="res.bank.iban.bic.mapping">
+      <field name="match_type">regex</field>
+      <field name="country_id" ref="base.nl"/>
+      <field eval="'^DNIB'" name="data"/>
+      <field name="bic">DNIBNL2G</field>
+    </record>
+    <record id="bic_mapping_nl_HSBC" model="res.bank.iban.bic.mapping">
+      <field name="match_type">regex</field>
+      <field name="country_id" ref="base.nl"/>
+      <field eval="'^HSBC'" name="data"/>
+      <field name="bic">HSBCNL2A</field>
+    </record>
+    <record id="bic_mapping_nl_CITI" model="res.bank.iban.bic.mapping">
+      <field name="match_type">regex</field>
+      <field name="country_id" ref="base.nl"/>
+      <field eval="'^CITI'" name="data"/>
+      <field name="bic">CITINL2X</field>
+    </record>
+    <record id="bic_mapping_nl_ZWLB" model="res.bank.iban.bic.mapping">
+      <field name="match_type">regex</field>
+      <field name="country_id" ref="base.nl"/>
+      <field eval="'^ZWLB'" name="data"/>
+      <field name="bic">ZWLBNL21</field>
+    </record>
+    <record id="bic_mapping_nl_COBA" model="res.bank.iban.bic.mapping">
+      <field name="match_type">regex</field>
+      <field name="country_id" ref="base.nl"/>
+      <field eval="'^COBA'" name="data"/>
+      <field name="bic">COBANL2X</field>
+    </record>
+    <record id="bic_mapping_nl_DEUT" model="res.bank.iban.bic.mapping">
+      <field name="match_type">regex</field>
+      <field name="country_id" ref="base.nl"/>
+      <field eval="'^DEUT'" name="data"/>
+      <field name="bic">DEUTNL2N</field>
+    </record>
+    <record id="bic_mapping_nl_CITC" model="res.bank.iban.bic.mapping">
+      <field name="match_type">regex</field>
+      <field name="country_id" ref="base.nl"/>
+      <field eval="'^CITC'" name="data"/>
+      <field name="bic">CITCNL2A</field>
+    </record>
+    <record id="bic_mapping_nl_ASNB" model="res.bank.iban.bic.mapping">
+      <field name="match_type">regex</field>
+      <field name="country_id" ref="base.nl"/>
+      <field eval="'^ASNB'" name="data"/>
+      <field name="bic">ASNBNL21</field>
+    </record>
+    <record id="bic_mapping_nl_TEBU" model="res.bank.iban.bic.mapping">
+      <field name="match_type">regex</field>
+      <field name="country_id" ref="base.nl"/>
+      <field eval="'^TEBU'" name="data"/>
+      <field name="bic">TEBUNL2A</field>
+    </record>
+    <record id="bic_mapping_nl_RABO" model="res.bank.iban.bic.mapping">
+      <field name="match_type">regex</field>
+      <field name="country_id" ref="base.nl"/>
+      <field eval="'^RABO'" name="data"/>
+      <field name="bic">RABONL2U</field>
+    </record>
+    <record id="bic_mapping_nl_UBSW" model="res.bank.iban.bic.mapping">
+      <field name="match_type">regex</field>
+      <field name="country_id" ref="base.nl"/>
+      <field eval="'^UBSW'" name="data"/>
+      <field name="bic">UBSWNL2A</field>
+    </record>
+  </data>
+</openerp>
+

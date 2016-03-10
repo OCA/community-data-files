@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<openerp>
+    <data>
+        <record id="form_res_bank_iban_bic_mapping" model="ir.ui.view">
+            <field name="model">res.bank.iban.bic.mapping</field>
+            <field name="arch" type="xml">
+                <form>
+                    <sheet>
+                        <group name="main">
+                            <group name="left">
+                                <field name="country_id" />
+                                <field name="match_type" />
+                            </group>
+                            <group name="right">
+                                <field name="bic" />
+                            </group>
+                        </group>
+                        <label for="data" />
+                        <field name="data" widget="text" />
+                    </sheet>
+                </form>
+            </field>
+        </record>
+        <record id="tree_res_bank_iban_bic_mapping" model="ir.ui.view">
+            <field name="model">res.bank.iban.bic.mapping</field>
+            <field name="arch" type="xml">
+                <tree>
+                    <field name="country_id" />
+                    <field name="match_type" />
+                    <field name="bic" />
+                </tree>
+            </field>
+        </record>
+        <act_window id="action_res_bank_iban_bic_mapping"
+            name="IBAN-BIC mappings"
+            res_model="res.bank.iban.bic.mapping"
+            view_mode="tree,form"
+        />
+    </data>
+</openerp>
