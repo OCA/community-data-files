@@ -19,6 +19,7 @@ Available addons
 ----------------
 addon | version | summary
 --- | --- | ---
+[base_iso3166](base_iso3166/) | 8.0.1.0.0 | ISO 3166
 [l10n_eu_nace](l10n_eu_nace/) | 8.0.2.1.0 | European NACE partner categories
 
 [//]: # (end addons)
