@@ -334,6 +334,17 @@ Source : http://www.unece.org/trade/untdid/d99b/tred/tred4461.htm  -->
     <field name="description">Payment by means of a card issued by a bank or other financial institution.</field>
 </record>
 
+<!-- Payment Mean 49 is not present in all versions:
+it is present in this version: http://www.unece.org/trade/untdid/d03a/tred/tred4461.htm
+but not in this one: http://www.unece.org/trade/untdid/d99b/tred/tred4461.htm
+But it is used in real life (cf Chorus specs for example: http://www.economie.gouv.fr/files/20160729_solution_portail_dossier_specificationsv3.24_versions_fr_et_en.zip), so we need it -->
+<record id="payment_means_49" model="unece.code.list">
+    <field name="type">payment_means</field>
+    <field name="code">49</field>
+    <field name="name">Direct debit</field>
+    <field name="description">The amount is to be, or has been, directly debited to the customer's bank account.</field>
+</record>
+
 <record id="payment_means_50" model="unece.code.list">
     <field name="type">payment_means</field>
     <field name="code">50</field>
