@@ -1,5 +1,5 @@
-[![Build Status](https://travis-ci.org/OCA/community-data-files.svg?branch=9.0)](https://travis-ci.org/OCA/community-data-files)
-[![Coverage Status](https://coveralls.io/repos/OCA/community-data-files/badge.png?branch=9.0)](https://coveralls.io/r/OCA/community-data-files?branch=9.0)
+[![Build Status](https://travis-ci.org/OCA/community-data-files.svg?branch=10.0)](https://travis-ci.org/OCA/community-data-files)
+[![Coverage Status](https://coveralls.io/repos/OCA/community-data-files/badge.png?branch=10.0)](https://coveralls.io/r/OCA/community-data-files?branch=10.0)
 
 Community Data Files
 ====================
@@ -15,10 +15,4 @@ This project is the continuation of OpenERP-Nomenclatures, which had a narrower
 scope limited to only official files provided by government agencies.
 
 [//]: # (addons)
-Available addons
-----------------
-addon | version | summary
---- | --- | ---
-[l10n_eu_nace](l10n_eu_nace/) | 9.0.2.1.0 | European NACE partner categories
-
 [//]: # (end addons)
