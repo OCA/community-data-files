@@ -5,16 +5,16 @@
 
 {
     'name': 'Account Payment UNECE',
-    'version': '8.0.1.0.0',
+    'version': '10.0.1.0.0',
     'category': 'Accounting & Finance',
     'license': 'AGPL-3',
-    'summary': 'UNECE nomenclature for the payment mode types',
+    'summary': 'UNECE nomenclature for the payment methods',
     'author': 'Akretion,Odoo Community Association (OCA)',
     'website': 'http://www.akretion.com',
-    'depends': ['account_banking_payment_export', 'base_unece'],
+    'depends': ['account_payment_mode', 'base_unece'],
     'data': [
         'data/unece.xml',
-        'views/payment_mode_type.xml',
+        'views/account_payment_method.xml',
         ],
     'installable': True,
 }
