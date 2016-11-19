@@ -4,17 +4,18 @@
 # @author Alexis de Lattre <alexis.delattre@akretion.com>
 
 {
-    'name': 'Account Payment UNECE',
-    'version': '8.0.1.0.0',
+    'name': 'Account Tax UNECE',
+    'version': '10.0.1.0.0',
     'category': 'Accounting & Finance',
     'license': 'AGPL-3',
-    'summary': 'UNECE nomenclature for the payment mode types',
+    'summary': 'UNECE nomenclature for taxes',
     'author': 'Akretion,Odoo Community Association (OCA)',
     'website': 'http://www.akretion.com',
-    'depends': ['account_banking_payment_export', 'base_unece'],
+    'depends': ['account', 'base_unece'],
     'data': [
-        'data/unece.xml',
-        'views/payment_mode_type.xml',
+        'views/account_tax.xml',
+        'data/unece_tax_type.xml',
+        'data/unece_tax_categ.xml',
         ],
     'installable': True,
 }
