@@ -3,7 +3,7 @@
 # @author: Alexis de Lattre <alexis.delattre@akretion.com>
 # License AGPL-3.0 or later (http://www.gnu.org/licenses/agpl.html).
 
-from openerp import models, fields
+from odoo import models, fields
 
 
 class AccountTax(models.Model):
@@ -11,7 +11,7 @@ class AccountTax(models.Model):
 
     unece_type_id = fields.Many2one(
         'unece.code.list', string='UNECE Tax Type',
-        domain=[('type', '=', 'tax_type')],
+        domain=[('type', '=', 'tax_type')], ondelete='restrict',
         help="Select the Tax Type Code of the official "
         "nomenclature of the United Nations Economic "
         "Commission for Europe (UNECE), DataElement 5153")
@@ -20,7 +20,7 @@ class AccountTax(models.Model):
         string='UNECE Type Code')
     unece_categ_id = fields.Many2one(
         'unece.code.list', string='UNECE Tax Category',
-        domain=[('type', '=', 'tax_categ')],
+        domain=[('type', '=', 'tax_categ')], ondelete='restrict',
         help="Select the Tax Category Code of the official "
         "nomenclature of the United Nations Economic "
         "Commission for Europe (UNECE), DataElement 5305")
