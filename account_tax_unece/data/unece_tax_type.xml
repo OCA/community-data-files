@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<openerp>
-<data noupdate="0">
+<odoo noupdate="0">
 
 <!-- unece.code.list
 Source : http://www.unece.org/trade/untdid/d97b/uncl/uncl5153.htm  -->
@@ -321,5 +320,4 @@ Source : http://www.unece.org/trade/untdid/d97b/uncl/uncl5153.htm  -->
 </record>
 
 
-</data>
-</openerp>
+</odoo>
