@@ -6,7 +6,7 @@
 Account Payment UNECE
 =====================
 
-This module adds a field *UNECE Payment Mean* on *Payment Mode Types* to be able to use a standard written by the `United Nations Economic Commission for Europe <http://www.unece.org>`_ (which has 56 members states in Europe, America and Central Asia, cf `Wikipedia <https://en.wikipedia.org/wiki/United_Nations_Economic_Commission_for_Europe>`_). This standard define a codification of the payment modes, cf the `official code list <http://www.unece.org/trade/untdid/d99b/tred/tred4461.htm>`_.
+This module adds a field *UNECE Payment Mean* on *Payment Methods* to be able to use a standard written by the `United Nations Economic Commission for Europe <http://www.unece.org>`_ (which has 56 members states in Europe, America and Central Asia, cf `Wikipedia <https://en.wikipedia.org/wiki/United_Nations_Economic_Commission_for_Europe>`_). This standard define a codification of the payment modes, cf the `official code list <http://www.unece.org/trade/untdid/d99b/tred/tred4461.htm>`_.
 
 This codification is used for example in the two main international standards for electronic invoicing:
 
@@ -16,7 +16,7 @@ This codification is used for example in the two main international standards fo
 Configuration
 =============
 
-Go to the menu *Accounting > Configuration > Miscellaneous > Payment Export Types* and select the appropriate value for the *UNECE Code*.
+Go to the menu *Accounting > Configuration > Management > Payment Methods* and, on each payment method, select the appropriate value for the *UNECE Code*.
 
 Usage
 =====
@@ -24,7 +24,7 @@ Usage
 
 .. image:: https://odoo-community.org/website/image/ir.attachment/5784_f2813bd/datas
    :alt: Try me on Runbot
-   :target: https://runbot.odoo-community.org/runbot/101/8.0
+   :target: https://runbot.odoo-community.org/runbot/101/10.0
 
 Bug Tracker
 ===========
@@ -32,11 +32,7 @@ Bug Tracker
 Bugs are tracked on `GitHub Issues
 <https://github.com/OCA/community-data-files/issues>`_. In case of trouble, please
 check there if your issue has already been reported. If you spotted it first,
-help us smashing it by providing a detailed and welcomed `feedback
-<https://github.com/OCA/
-community-data-files/issues/new?body=module:%20
-account_payment_unece%0Aversion:%20
-8.0%0A%0A**Steps%20to%20reproduce**%0A-%20...%0A%0A**Current%20behavior**%0A%0A**Expected%20behavior**>`_.
+help us smashing it by providing a detailed and welcomed feedback.
 
 Credits
 =======
