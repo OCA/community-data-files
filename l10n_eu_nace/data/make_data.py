@@ -24,8 +24,9 @@ import csv
 
 # List of languages to generate translations for
 LANGS = [
-    'bg', 'cs', 'da', 'de', 'et', 'en', 'el', 'fi', 'fr', 'hr', 'hu', 'it',
-    'lt', 'lv', 'mt', 'nl', 'pt', 'ro', 'ru', 'sl', 'sk', 'sv', 'tr',
+    'bg', 'cs', 'da', 'de', 'et', 'en', 'es', 'el', 'fi', 'fr', 'hr', 'hu',
+    'it', 'lt', 'lv', 'mt', 'nl', 'no', 'pl', 'pt', 'ro', 'ru', 'sk', 'sl',
+    'sv', 'tr',
 ]
 
 # All the generated record ids will be in this forms
