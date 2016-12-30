@@ -18,14 +18,14 @@ class UneceCodeList(models.Model):
 
     @api.multi
     @api.depends('code', 'name')
-    def compute_display_name(self):
+    def _compute_display_name(self):
         for entry in self:
             entry.display_name = '[%s] %s' % (entry.code, entry.name)
 
     code = fields.Char(string='Code', required=True, copy=False)
     name = fields.Char(string='Name', required=True, copy=False)
     display_name = fields.Char(
-        compute='compute_display_name', store=True, string='Display Name')
+        compute='_compute_display_name', store=True, string='Display Name')
     type = fields.Selection([], string='Type', required=True)
     description = fields.Text(string='Description')
 

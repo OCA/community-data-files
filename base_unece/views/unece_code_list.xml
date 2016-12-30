@@ -57,7 +57,7 @@
 </record>
 
 <menuitem id="unece_code_list_menu" action="unece_code_list_action"
-    parent="base.menu_base_config" sequence="150"/>
+    parent="base.menu_administration" sequence="150"/>
 
 </data>
 </openerp>

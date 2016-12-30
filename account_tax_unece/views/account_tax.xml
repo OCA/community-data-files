@@ -14,7 +14,7 @@
     <field name="model">account.tax</field>
     <field name="inherit_id" ref="account.view_tax_form"/>
     <field name="arch" type="xml">
-        <field name="child_depend" position="after">
+        <field name="include_base_amount" position="after">
              <field name="unece_type_id"/>
              <field name="unece_categ_id"/>
         </field>

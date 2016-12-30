@@ -23,7 +23,7 @@
 
 {
     'name': 'Product UoM UNECE',
-    'version': '8.0.0.1.0',
+    'version': '9.0.0.1.0',
     'category': 'Sales Management',
     'license': 'AGPL-3',
     'summary': 'UNECE nomenclature for the units of measure',
