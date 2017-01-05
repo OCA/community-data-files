@@ -23,6 +23,7 @@ from openerp.osv import osv
 
 
 class PartnerCategory(osv.Model):
+
     """Let users search on code without a dot"""
     _inherit = 'res.partner.category'
 
