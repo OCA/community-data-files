@@ -17,7 +17,7 @@ Check https://en.wikipedia.org/wiki/ISO_3166 for more info.
 Installation
 ============
 
-This module requires the Python library pycountry >= 0.19 installed in the
+This module requires the Python library pycountry >= 0.19 (and < 16.10.23rc1) installed in the
 system.
 
 Usage
@@ -29,8 +29,18 @@ Usage
 
 Known issues / Roadmap
 ======================
-
+Roadmap
+-------
 * Include 3166-2 country subdivision codes
+
+Issue
+-----
+Since 16.10.23rc1 (new date version name) there is a breaking change in api: 
+
+  “alpha2”, “alpha4”, etc. are now using an underscore as that’s the pattern in the upstream packages. So it’s “alpha_2” now
+
+This odoo module is not currently up to date with this new api
+
 
 Bug Tracker
 ===========
