@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  © 2016 Akretion (http://www.akretion.com/)
+  @author Alexis de Lattre <alexis.delattre@akretion.com>
+  License AGPL-3.0 or later (http://www.gnu.org/licenses/agpl).
+-->
+
+<odoo>
+
+
+<record id="view_tax_form" model="ir.ui.view">
+    <field name="name">unece.account.tax.form</field>
+    <field name="model">account.tax</field>
+    <field name="inherit_id" ref="account.view_tax_form"/>
+    <field name="arch" type="xml">
+        <group name="advanced_booleans" position="inside">
+            <field name="unece_type_id" context="{'default_type': 'tax_type'}"/>
+            <field name="unece_categ_id" context="{'default_type': 'tax_categ'}"/>
+        </group>
+    </field>
+</record>
+
+
+</odoo>
