@@ -15,6 +15,7 @@ This project is the continuation of OpenERP-Nomenclatures, which had a narrower
 scope limited to only official files provided by government agencies.
 
 [//]: # (addons)
+
 Available addons
 ----------------
 addon | version | summary
