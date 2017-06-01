@@ -2,23 +2,21 @@
 # © 2017 Akretion (Alexis de Lattre <alexis.delattre@akretion.com>)
 # License AGPL-3.0 or later (http://www.gnu.org/licenses/agpl.html).
 
-from odoo import models, api
+from odoo.tests.common import TransactionCase
 
 
-class AccountInvoice(models.Model):
-    _inherit = 'account.invoice'
+class TestAccountInvoice(TransactionCase):
 
-    # This method is ONLY for automated tests. Since odoo v9, there are no
-    # more demo invoices.
+    # Since odoo v9, there are no more demo invoices.
     # This method is used by both account_invoice_ubl and
     # account_invoice_factur-x. As those 2 modules use account_payment_unece,
     # it allows to factorise the code.
     # Creating a new invoice in automated tests requires so many lines of code
     # that I decided to mutualise the code here.
-    @api.model
-    def _test_only_create_invoice(
+    def test_only_create_invoice(
             self, product=False, qty=1, price=12.42, discount=0,
             validate=True):
+        aio = self.env['account.invoice']
         ailo = self.env['account.invoice.line']
         aao = self.env['account.account']
         ato = self.env['account.tax']
@@ -62,7 +60,7 @@ class AccountInvoice(models.Model):
                 'unece_categ_id': unece_categ_id,
                 })
         # validate invoice
-        invoice = self.create({
+        invoice = aio.create({
             'partner_id': self.env.ref("base.res_partner_2").id,
             'currency_id': self.env.ref("base.EUR").id,
             'type': 'out_invoice',
