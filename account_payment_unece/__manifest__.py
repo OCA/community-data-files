@@ -14,6 +14,7 @@
     'depends': ['account_payment_mode', 'base_unece'],
     'data': [
         'data/unece.xml',
+        'data/account_payment_method.xml',
         'views/account_payment_method.xml',
         ],
     'installable': True,
