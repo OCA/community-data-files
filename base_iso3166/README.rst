@@ -1,5 +1,5 @@
 .. image:: https://img.shields.io/badge/licence-AGPL--3-blue.svg
-   :target: http://www.gnu.org/licenses/agpl-3.0-standalone.html
+   :target: https://www.gnu.org/licenses/agpl-3.0-standalone.html
    :alt: License: AGPL-3
 
 ===========================
@@ -17,8 +17,8 @@ Check https://en.wikipedia.org/wiki/ISO_3166 for more info.
 Installation
 ============
 
-This module requires the Python library pycountry >= 0.19 (and < 16.10.23rc1) installed in the
-system.
+This module requires the Python library pycountry >= 0.19 installed in the
+system. It works also with pycountry >= 16.11.8
 
 Usage
 =====
@@ -29,18 +29,8 @@ Usage
 
 Known issues / Roadmap
 ======================
-Roadmap
--------
+
 * Include 3166-2 country subdivision codes
-
-Issue
------
-Since 16.10.23rc1 (new date version name) there is a breaking change in api: 
-
-  “alpha2”, “alpha4”, etc. are now using an underscore as that’s the pattern in the upstream packages. So it’s “alpha_2” now
-
-This odoo module is not currently up to date with this new api
-
 
 Bug Tracker
 ===========
@@ -48,11 +38,8 @@ Bug Tracker
 Bugs are tracked on `GitHub Issues
 <https://github.com/OCA/community-data-files/issues>`_. In case of trouble, please
 check there if your issue has already been reported. If you spotted it first,
-help us smashing it by providing a detailed and welcomed `feedback
-<https://github.com/OCA/
-community-data-files/issues/new?body=module:%20
-base_iso3166%0Aversion:%20
-8.0%0A%0A**Steps%20to%20reproduce**%0A-%20...%0A%0A**Current%20behavior**%0A%0A**Expected%20behavior**>`_.
+help us smash it by providing detailed and welcomed feedback.
+
 
 Credits
 =======
@@ -61,6 +48,7 @@ Contributors
 ------------
 
 * Pedro M. Baeza <pedro.baeza@serviciosbaeza.com>
+* Enric Tobella <etobella@creublanca.es>
 
 Icon
 ----
@@ -70,9 +58,9 @@ Icon
 Maintainer
 ----------
 
-.. image:: http://odoo-community.org/logo.png
+.. image:: https://odoo-community.org/logo.png
    :alt: Odoo Community Association
-   :target: http://odoo-community.org
+   :target: https://odoo-community.org
 
 This module is maintained by the OCA.
 
@@ -80,4 +68,4 @@ OCA, or the Odoo Community Association, is a nonprofit organization whose
 mission is to support the collaborative development of Odoo features and
 promote its widespread use.
 
-To contribute to this module, please visit http://odoo-community.org.
+To contribute to this module, please visit https://odoo-community.org.
