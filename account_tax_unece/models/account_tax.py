@@ -16,7 +16,7 @@ class AccountTax(models.Model):
         "nomenclature of the United Nations Economic "
         "Commission for Europe (UNECE), DataElement 5153")
     unece_type_code = fields.Char(
-        related='unece_type_id.code', store=True,
+        related='unece_type_id.code', store=True, readonly=True,
         string='UNECE Type Code')
     unece_categ_id = fields.Many2one(
         'unece.code.list', string='UNECE Tax Category',
@@ -25,7 +25,7 @@ class AccountTax(models.Model):
         "nomenclature of the United Nations Economic "
         "Commission for Europe (UNECE), DataElement 5305")
     unece_categ_code = fields.Char(
-        related='unece_categ_id.code', store=True,
+        related='unece_categ_id.code', store=True, readonly=True,
         string='UNECE Category Code')
     unece_due_date_id = fields.Many2one(
         'unece.code.list', string='UNECE Due Date',
@@ -37,5 +37,5 @@ class AccountTax(models.Model):
         "fiscal administration. For a purchase VAT tax, it is the date "
         "on which that VAT can be deducted.")
     unece_due_date_code = fields.Char(
-        related='unece_due_date_id.code', store=True,
+        related='unece_due_date_id.code', store=True, readonly=True,
         string='UNECE Due Date Code')
