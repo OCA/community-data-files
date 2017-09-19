@@ -1,29 +1,31 @@
 <?xml version="1.0" encoding="utf-8"?>
 <odoo noupdate="0">
 
-<!-- unece.code.list
-Source : https://www.unece.org/fileadmin/DAM/trade/untdid/d16b/tred/tred2005.htm -->
+<!-- unece.code.list UNTDID 2475
+Source : https://www.unece.org/fileadmin/DAM/trade/untdid/d16b/tred/tred2475.htm
+The beta 1.1 version of Factur-X was using UNTDID 2005, but they changed it in
+September 2017 before the publication of the final version of Factur-X -->
 
-<!-- As there are several hundreads of entries in this nomenclature,
-I don't create all of them in Odoo for the moment, but only those that
+<!--
+I don't create the full nomenclature in Odoo for the moment, but only those that
 are used in the Factur-X standard. Feel free to add more if you need.
 In Factur-X, there are 2 possibilities for VAT on invoice date
-("TVA sur les débits" in French): code 2 or 3. We use 3 in Odoo for
+("TVA sur les débits" in French): code 5 or 29. We use 5 in Odoo for
 invoice generation and have a hack in the module
-account_invoice_import_factur-x to remap 2 on 3. -->
+account_invoice_import_factur-x to remap 29 on 5. -->
 
-<record id="date_3" model="unece.code.list">
+<record id="date_5" model="unece.code.list">
     <field name="type">date</field>
-    <field name="code">3</field>
-    <field name="name">Invoice document issue date time</field>
-    <field name="description">Date of issue of an invoice.</field>
+    <field name="code">5</field>
+    <field name="name">Date of invoice</field>
+    <field name="description">Payment time reference is date of invoice.</field>
 </record>
 
-<record id="date_432" model="unece.code.list">
+<record id="date_72" model="unece.code.list">
     <field name="type">date</field>
-    <field name="code">432</field>
-    <field name="name">Paid to date</field>
-    <field name="description">Date to which payments have been paid.</field>
+    <field name="code">72</field>
+    <field name="name">Payment date</field>
+    <field name="description">Date when a payment was made.</field>
 </record>
 
 
