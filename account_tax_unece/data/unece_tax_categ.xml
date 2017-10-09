@@ -8,7 +8,7 @@ Source : https://www.unece.org/fileadmin/DAM/trade/untdid/d16b/tred/tred5305.htm
     <field name="type">tax_categ</field>
     <field name="code">A</field>
     <field name="name">Mixed tax rate</field>
-    <field name="description">Self explanatory.</field>
+    <field name="description">Code specifying that the rate is based on mixed tax.</field>
 </record>
 
 <record id="tax_categ_aa" model="unece.code.list">
@@ -71,7 +71,7 @@ Source : https://www.unece.org/fileadmin/DAM/trade/untdid/d16b/tred/tred5305.htm
     <field name="type">tax_categ</field>
     <field name="code">E</field>
     <field name="name">Exempt from tax</field>
-    <field name="description">Self explanatory.</field>
+    <field name="description">Code specifying that taxes are not applicable.</field>
 </record>
 
 <record id="tax_categ_f" model="unece.code.list">
@@ -85,14 +85,14 @@ Source : https://www.unece.org/fileadmin/DAM/trade/untdid/d16b/tred/tred5305.htm
     <field name="type">tax_categ</field>
     <field name="code">G</field>
     <field name="name">Free export item, tax not charged</field>
-    <field name="description">Self explanatory.</field>
+    <field name="description">Code specifying that the item is free export and taxes are not charged.</field>
 </record>
 
 <record id="tax_categ_h" model="unece.code.list">
     <field name="type">tax_categ</field>
     <field name="code">H</field>
     <field name="name">Higher rate</field>
-    <field name="description">Self explanatory.</field>
+    <field name="description">Code specifying a higher rate of duty or tax or fee.</field>
 </record>
 
 <record id="tax_categ_i" model="unece.code.list">
@@ -134,21 +134,21 @@ Source : https://www.unece.org/fileadmin/DAM/trade/untdid/d16b/tred/tred5305.htm
     <field name="type">tax_categ</field>
     <field name="code">O</field>
     <field name="name">Services outside scope of tax</field>
-    <field name="description">Self explanatory.</field>
+    <field name="description">Code specifying that taxes are not applicable to the services.</field>
 </record>
 
 <record id="tax_categ_s" model="unece.code.list">
     <field name="type">tax_categ</field>
     <field name="code">S</field>
     <field name="name">Standard rate</field>
-    <field name="description">Self explanatory.</field>
+    <field name="description">Code specifying the standard rate.</field>
 </record>
 
 <record id="tax_categ_z" model="unece.code.list">
     <field name="type">tax_categ</field>
     <field name="code">Z</field>
     <field name="name">Zero rated goods</field>
-    <field name="description">Self explanatory.</field>
+    <field name="description">Code specifying that the goods are at a zero rate.</field>
 </record>
 
 
