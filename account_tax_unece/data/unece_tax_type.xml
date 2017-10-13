@@ -2,13 +2,13 @@
 <odoo noupdate="0">
 
 <!-- unece.code.list
-Source : http://www.unece.org/trade/untdid/d97b/uncl/uncl5153.htm  -->
+Source : https://www.unece.org/fileadmin/DAM/trade/untdid/d16b/tred/tred5153.htm  -->
 
 <record id="tax_type_aaa" model="unece.code.list">
     <field name="type">tax_type</field>
     <field name="code">AAA</field>
     <field name="name">Petroleum tax</field>
-    <field name="description">Self explanatory.</field>
+    <field name="description">A tax levied on the volume of petroleum being transacted.</field>
 </record>
 
 <record id="tax_type_aab" model="unece.code.list">
@@ -30,6 +30,69 @@ Source : http://www.unece.org/trade/untdid/d97b/uncl/uncl5153.htm  -->
     <field name="code">AAD</field>
     <field name="name">Tobacco tax</field>
     <field name="description">A tax levied on tobacco products.</field>
+</record>
+
+<record id="tax_type_aae" model="unece.code.list">
+    <field name="type">tax_type</field>
+    <field name="code">AAE</field>
+    <field name="name">Energy fee</field>
+    <field name="description">General fee or tax for the use of energy.</field>
+</record>
+
+<record id="tax_type_aaf" model="unece.code.list">
+    <field name="type">tax_type</field>
+    <field name="code">AAF</field>
+    <field name="name">Coffee tax</field>
+    <field name="description">A tax levied specifically on coffee products.</field>
+</record>
+
+<record id="tax_type_aag" model="unece.code.list">
+    <field name="type">tax_type</field>
+    <field name="code">AAG</field>
+    <field name="name">Harmonised sales tax, Canadian</field>
+    <field name="description">A harmonized sales tax consisting of a goods and service tax, a Canadian provincial sales tax and, as applicable, a Quebec sales tax which is recoverable.</field>
+</record>
+
+<record id="tax_type_aah" model="unece.code.list">
+    <field name="type">tax_type</field>
+    <field name="code">AAH</field>
+    <field name="name">Quebec sales tax</field>
+    <field name="description">A sales tax charged within the Canadian province of Quebec which is recoverable.</field>
+</record>
+
+<record id="tax_type_aai" model="unece.code.list">
+    <field name="type">tax_type</field>
+    <field name="code">AAI</field>
+    <field name="name">Canadian provincial sales tax</field>
+    <field name="description">A sales tax charged within Canadian provinces which is non-recoverable.</field>
+</record>
+
+<record id="tax_type_aaj" model="unece.code.list">
+    <field name="type">tax_type</field>
+    <field name="code">AAJ</field>
+    <field name="name">Tax on replacement part</field>
+    <field name="description">A tax levied on a replacement part, where the original part is returned.</field>
+</record>
+
+<record id="tax_type_aak" model="unece.code.list">
+    <field name="type">tax_type</field>
+    <field name="code">AAK</field>
+    <field name="name">Mineral oil tax</field>
+    <field name="description">Tax that is levied specifically on products containing mineral oil.</field>
+</record>
+
+<record id="tax_type_aal" model="unece.code.list">
+    <field name="type">tax_type</field>
+    <field name="code">AAL</field>
+    <field name="name">Special tax</field>
+    <field name="description">To indicate a special type of tax.</field>
+</record>
+
+<record id="tax_type_aam" model="unece.code.list">
+    <field name="type">tax_type</field>
+    <field name="code">AAM</field>
+    <field name="name">Insurance tax</field>
+    <field name="description">A tax levied specifically on insurances.</field>
 </record>
 
 <record id="tax_type_add" model="unece.code.list">
@@ -57,7 +120,7 @@ Source : http://www.unece.org/trade/untdid/d97b/uncl/uncl5153.htm  -->
     <field name="type">tax_type</field>
     <field name="code">CAR</field>
     <field name="name">Car tax</field>
-    <field name="description">Self explanatory.</field>
+    <field name="description">A tax that is levied on the value of the automobile.</field>
 </record>
 
 <record id="tax_type_coc" model="unece.code.list">
@@ -120,7 +183,7 @@ Source : http://www.unece.org/trade/untdid/d97b/uncl/uncl5153.htm  -->
     <field name="type">tax_type</field>
     <field name="code">FRE</field>
     <field name="name">Free</field>
-    <field name="description">Self explanatory.</field>
+    <field name="description">No tax levied.</field>
 </record>
 
 <record id="tax_type_gcn" model="unece.code.list">
@@ -155,7 +218,7 @@ Source : http://www.unece.org/trade/untdid/d97b/uncl/uncl5153.htm  -->
     <field name="type">tax_type</field>
     <field name="code">IND</field>
     <field name="name">Individual tax</field>
-    <field name="description">Self explanatory.</field>
+    <field name="description">A tax levied based on an individual's ability to pay.</field>
 </record>
 
 <record id="tax_type_lac" model="unece.code.list">
@@ -232,7 +295,7 @@ Source : http://www.unece.org/trade/untdid/d97b/uncl/uncl5153.htm  -->
     <field name="type">tax_type</field>
     <field name="code">PRF</field>
     <field name="name">Preference duty</field>
-    <field name="description">Self explanatory.</field>
+    <field name="description">Duties laid down in the Customs tariff, to which goods are liable on entering or leaving the Customs territory falling under a preferential regime such as Generalised System of Preferences (GSP).</field>
 </record>
 
 <record id="tax_type_scn" model="unece.code.list">
@@ -274,21 +337,21 @@ Source : http://www.unece.org/trade/untdid/d97b/uncl/uncl5153.htm  -->
     <field name="type">tax_type</field>
     <field name="code">SWT</field>
     <field name="name">Shifted wage tax</field>
-    <field name="description">Wage tax share of the invoice amount to be paid directly to the tax collector(s office).</field>
+    <field name="description">Wage tax share of the invoice amount to be paid directly to the tax collector's office).</field>
 </record>
 
 <record id="tax_type_tac" model="unece.code.list">
     <field name="type">tax_type</field>
     <field name="code">TAC</field>
     <field name="name">Alcohol mark tax</field>
-    <field name="description">Self explanatory.</field>
+    <field name="description">A tax levied based on the type of alcohol being obtained.</field>
 </record>
 
 <record id="tax_type_tot" model="unece.code.list">
     <field name="type">tax_type</field>
     <field name="code">TOT</field>
     <field name="name">Total</field>
-    <field name="description">Self explanatory.</field>
+    <field name="description">The summary amount of all taxes.</field>
 </record>
 
 <record id="tax_type_tox" model="unece.code.list">
