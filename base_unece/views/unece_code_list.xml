@@ -41,6 +41,9 @@
     <field name="model">unece.code.list</field>
     <field name="arch" type="xml">
         <search string="Search UNECE Code Lists">
+            <field name="name" string="Name or Code" filter_domain="['|', ('name', 'ilike', self), ('code', 'ilike', self)]"/>
+            <field name="code"/>
+            <field name="type"/>
             <group string="Group By" name="groupby">
                 <filter name="type_groupby" string="Type" context="{'group_by': 'type'}"/>
             </group>
