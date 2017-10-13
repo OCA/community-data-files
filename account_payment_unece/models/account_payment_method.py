@@ -16,4 +16,5 @@ class AccountPaymentMethod(models.Model):
         "Commission for Europe (UNECE) defined in UN/EDIFACT Data "
         "Element 4461")
     unece_code = fields.Char(
-        related='unece_id.code', store=True, string='UNECE Code')
+        related='unece_id.code', store=True, readonly=True,
+        string='UNECE Code')
