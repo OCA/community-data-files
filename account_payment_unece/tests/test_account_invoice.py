@@ -2,10 +2,10 @@
 # © 2017 Akretion (Alexis de Lattre <alexis.delattre@akretion.com>)
 # License AGPL-3.0 or later (http://www.gnu.org/licenses/agpl.html).
 
-from odoo.tests.common import TransactionCase
+from odoo.tests.common import HttpCase
 
 
-class TestAccountInvoice(TransactionCase):
+class TestAccountInvoice(HttpCase):
 
     # Since odoo v9, there are no more demo invoices.
     # This method is used by both account_invoice_ubl and
