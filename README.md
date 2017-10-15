@@ -20,8 +20,8 @@ Available addons
 ----------------
 addon | version | summary
 --- | --- | ---
-[account_payment_unece](account_payment_unece/) | 10.0.1.0.0 | UNECE nomenclature for the payment methods
-[account_tax_unece](account_tax_unece/) | 10.0.1.0.0 | UNECE nomenclature for taxes
+[account_payment_unece](account_payment_unece/) | 10.0.1.0.1 | UNECE nomenclature for the payment methods
+[account_tax_unece](account_tax_unece/) | 10.0.1.1.1 | UNECE nomenclature for taxes
 [base_iso3166](base_iso3166/) | 10.0.1.0.0 | ISO 3166
 [base_unece](base_unece/) | 10.0.1.0.0 | Base module for UNECE code lists
 [l10n_eu_nace](l10n_eu_nace/) | 10.0.1.0.0 | European NACE partner categories
