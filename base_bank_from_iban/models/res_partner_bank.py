@@ -9,7 +9,6 @@ from odoo.addons.base_iban.models.res_partner_bank import \
 class ResPartnerBank(models.Model):
     _inherit = 'res.partner.bank'
 
-    @api.multi
     @api.onchange('acc_number')
     def _onchange_acc_number_base_bank_from_iban(self):
         if self.acc_type != 'iban':

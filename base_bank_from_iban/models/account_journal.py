@@ -7,7 +7,6 @@ from odoo import api, models
 class AccountJournal(models.Model):
     _inherit = 'account.journal'
 
-    @api.multi
     @api.onchange('bank_acc_number')
     def _onchange_bank_acc_number_base_bank_from_iban(self):
         if not self.bank_acc_number:
