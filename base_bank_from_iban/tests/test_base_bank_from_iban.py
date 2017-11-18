@@ -48,10 +48,16 @@ class TestBaseBankFromIban(common.SavepointCase):
                 journal.bank_acc_number, 'ES12 9999 9999 5099 9999 9999',
             )
             self.assertEqual(journal.bank_id, self.bank)
+            journal.bank_acc_number = ''
+            journal._onchange_bank_acc_number_base_bank_from_iban()
+            self.assertEqual(journal.bank_id, self.bank)
 
     def test_onchange_acc_number_no_iban_journal(self):
         with self.env.do_in_onchange():
             journal = self.env['account.journal'].new()
             journal.bank_acc_number = '99999999509999999999'
+            journal._onchange_bank_acc_number_base_bank_from_iban()
+            self.assertFalse(journal.bank_id)
+            journal.bank_acc_number = ''
             journal._onchange_bank_acc_number_base_bank_from_iban()
             self.assertFalse(journal.bank_id)
