@@ -1,9 +1,8 @@
-# -*- coding: utf-8 -*-
-# © 2016 Akretion (http://www.akretion.com)
+# Copyright 2016 Akretion (http://www.akretion.com)
 # @author: Alexis de Lattre <alexis.delattre@akretion.com>
-# License AGPL-3.0 or later (http://www.gnu.org/licenses/agpl.html).
+# License AGPL-3.0 or later (https://www.gnu.org/licenses/agpl).
 
-from odoo import models, fields, api
+from odoo import api, fields, models
 
 
 # There are so many UNCL that can be usefull in Odoo
@@ -13,24 +12,29 @@ from odoo import models, fields, api
 class UneceCodeList(models.Model):
     _name = 'unece.code.list'
     _description = 'UNECE nomenclatures'
-    _rec_name = 'display_name'
     _order = 'type, code'
 
-    @api.multi
     @api.depends('code', 'name')
-    def compute_display_name(self):
+    def _compute_display_name(self):
         for entry in self:
             entry.display_name = '[%s] %s' % (entry.code, entry.name)
 
-    code = fields.Char(string='Code', required=True, copy=False)
-    name = fields.Char(string='Name', required=True, copy=False)
+    code = fields.Char(required=True, copy=False)
+    name = fields.Char(required=True, copy=False)
     display_name = fields.Char(
-        compute='compute_display_name', store=True, string='Display Name')
-    type = fields.Selection([], string='Type', required=True)
-    description = fields.Text(string='Description')
+        compute='_compute_display_name', store=True)
+    type = fields.Selection([], required=True)
+    description = fields.Text()
 
     _sql_constraints = [(
         'type_code_uniq',
         'unique(type, code)',
         'An UNECE code of the same type already exists'
-        )]
+    )]
+
+    @api.multi
+    def name_get(self):
+        res = []
+        for entry in self:
+            res.append((entry.id, '[%s] %s' % (entry.code, entry.name)))
+        return res
