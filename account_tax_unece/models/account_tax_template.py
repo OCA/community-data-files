@@ -1,6 +1,5 @@
-# -*- coding: utf-8 -*-
 # Copyright 2017 Onestein (<http://www.onestein.eu>)
-# License AGPL-3.0 or later (http://www.gnu.org/licenses/agpl.html).
+# License AGPL-3.0 or later (https://www.gnu.org/licenses/agpl).
 
 from odoo import fields, models
 
@@ -23,9 +22,12 @@ class AccountTaxTemplate(models.Model):
         "Commission for Europe (UNECE), DataElement 5305"
     )
 
-    def _get_tax_vals(self, company):
+    def _get_tax_vals(self, company, tax_template_to_tax):
         self.ensure_one()
-        res = super(AccountTaxTemplate, self)._get_tax_vals(company)
+        res = super(AccountTaxTemplate, self)._get_tax_vals(
+            company,
+            tax_template_to_tax
+        )
         res['unece_type_id'] = self.unece_type_id.id or False
         res['unece_categ_id'] = self.unece_categ_id.id or False
         return res
