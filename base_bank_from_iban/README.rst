@@ -6,12 +6,18 @@
 Bank from IBAN
 ==============
 
-This module adds code to bank and fill bank from IBAN in Bank Account
+This module adds a code to bank definition for using it as matching for filling the bank
+from the IBAN bank account number. It uses the existing by country bank mapping in 
+standard Odoo (https://github.com/odoo/odoo/blob/12b15cb55414d1f6dfc6b3b4e0c38638551ee54d/addons/base_iban/models/res_partner_bank.py#L81-L149),
+taken from ISO 3166-1 -> IBAN template, as described here:
+http://en.wikipedia.org/wiki/International_Bank_Account_Number#IBAN_formats_by_country
 
 Configuration
 =============
 
-Create/modify bank setting code
+#. Go to *Contacts > Configuration > Bank Accounts > Banks*.
+#. Create or modify a bank.
+#. Put the corresponding code for that bank in the field "Code".
 
 Usage
 =====
@@ -19,8 +25,10 @@ Usage
 To use this module, you need to:
 
 #. Go to Partner
-#. Click Bank Account(s) in Sales & Purchases tab
-#. Create/modify IBAN bank account
+#. Click *Bank Account(s)* in "Sales & Purchases" page.
+#. Create/modify IBAN bank account.
+#. When you put the bank account number, module extracts bank digits from the format of the country, and try to match an existing bank by country and code.
+#. If there's a match, the bank is selected automatically.
 
 .. image:: https://odoo-community.org/website/image/ir.attachment/5784_f2813bd/datas
    :alt: Try me on Runbot
