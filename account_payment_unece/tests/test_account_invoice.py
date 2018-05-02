@@ -19,26 +19,34 @@ class TestAccountInvoice(HttpCase):
         ailo = self.env['account.invoice.line']
         aao = self.env['account.account']
         ato = self.env['account.tax']
-        account_receivable = aao.search(
-            [('code', '=', '411100')], limit=1)
+        company = self.env.ref('base.main_company')
+        account_receivable = aao.search([
+            ('code', '=', '411100'),
+            ('company_id', '=', company.id),
+            ], limit=1)
         if not account_receivable:
-            account_receivable = aao.create(
-                {"code": '411100',
-                 "name": "Debtors - (test)",
-                 "reconcile": True,
-                 "user_type_id":
-                 self.env.ref('account.data_account_type_receivable').id,
-                 })
-        account_revenue = aao.search(
-            [('code', '=', '707100')], limit=1)
+            account_receivable = aao.create({
+                "code": '411100',
+                "name": "Debtors - (test)",
+                "company_id": company.id,
+                "reconcile": True,
+                "user_type_id":
+                self.env.ref('account.data_account_type_receivable').id,
+                })
+        account_revenue = aao.search([
+            ('code', '=', '707100'),
+            ('company_id', '=', company.id),
+            ], limit=1)
         if not account_revenue:
-            account_revenue = aao.create(
-                {"code": '707100',
-                 "name": "Product Sales - (test)",
-                 "user_type_id":
-                 self.env.ref('account.data_account_type_revenue').id,
-                 })
+            account_revenue = aao.create({
+                "code": '707100',
+                "name": "Product Sales - (test)",
+                "company_id": company.id,
+                "user_type_id":
+                self.env.ref('account.data_account_type_revenue').id,
+                })
         taxes = ato.search([
+            ('company_id', '=', company.id),
             ('type_tax_use', '=', 'sale'),
             ('unece_type_id', '!=', False),
             ('unece_categ_id', '!=', False),
@@ -51,6 +59,7 @@ class TestAccountInvoice(HttpCase):
             tax = ato.create({
                 'name': u'German VAT purchase 18.0%',
                 'description': 'DE-VAT-sale-18.0',
+                'company_id': company.id,
                 'type_tax_use': 'sale',
                 'price_include': False,
                 'amount': 18,
@@ -63,6 +72,7 @@ class TestAccountInvoice(HttpCase):
             'partner_id': self.env.ref("base.res_partner_2").id,
             'currency_id': self.env.ref("base.EUR").id,
             'type': 'out_invoice',
+            'company_id': company.id,
             'account_id': account_receivable.id,
             'name': 'SO1242',
         })
