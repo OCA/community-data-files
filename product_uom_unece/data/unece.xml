@@ -46,5 +46,40 @@
     <field name="unece_code">LTR</field>
 </record>
 
+<record id="product.product_uom_lb" model="product.uom">
+    <field name="unece_code">LBR</field>
+</record>
+
+<record id="product.product_uom_oz" model="product.uom">
+    <field name="unece_code">ONZ</field>
+</record>
+
+<record id="product.product_uom_inch" model="product.uom">
+    <field name="unece_code">INH</field>
+</record>
+
+<record id="product.product_uom_foot" model="product.uom">
+    <field name="unece_code">FOT</field>
+</record>
+
+<record id="product.product_uom_mile" model="product.uom">
+    <field name="unece_code">SMI</field>
+</record>
+
+<!-- given the 'factor' preconfigured in Odoo
+in addons/product/data/product_data.xml
+Odoo defines the AMERICAN volume unit of measures and not the imperial ones -->
+<record id="product.product_uom_floz" model="product.uom">
+    <field name="unece_code">OZA</field>
+</record>
+
+<record id="product.product_uom_qt" model="product.uom">
+    <field name="unece_code">QT</field>
+</record>
+
+<record id="product.product_uom_gal" model="product.uom">
+    <field name="unece_code">GLL</field>
+</record>
+
 
 </odoo>
