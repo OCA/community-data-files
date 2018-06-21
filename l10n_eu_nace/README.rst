@@ -1,44 +1,65 @@
 .. image:: https://img.shields.io/badge/licence-AGPL--3-blue.svg
-    :alt: License
+   :target: http://www.gnu.org/licenses/agpl-3.0-standalone.html
+   :alt: License: AGPL-3
 
-European NACE partner categories
-================================
+==========================
+NACE Activities in Partner
+==========================
 
-This module imports the NACE rev. 2 classification
-categories as partner categories in 23 languages, courtesy of the EU.
+This module adds the concept of NACE activity to the partner.
 
-The *Statistical Classification of Economic Activities in the European Community*
-commonly referred to as NACE, is a European industry standard classification
-system using a 6 digit code.
-NACE is equivalent to the SIC and NAICS system:
-* Standard Industrial Classification
-* North American Industry Classification System.
+NACE is the Statistical Classification of Economic Activities in the European
+Community. More info at http://ec.europa.eu/eurostat/en/web/products-manuals-and-guidelines/-/KS-RA-07-015
 
-This module is a rewrite of the older community module "partner_nace" from
-the former `extra-addons` repository of Odoo v5 (called OpenERP at the time).
+Allows you to select in partner form:
+
+* Main NACE activity in a dropdown (many2one)
+* Secondary NACE activities in a multi label input (many2many)
+
+This addon is inspired in OCA/community-data-files/l10n_eu_nace, but it does
+not use partner categories to assign NACE activities to partner.
+
+
+Installation
+============
+
+To install this module, you need request python module:
+
+* pip intall requests
+
+
+Configuration
+=============
+
+After installation, you must click at import wizard to populate NACE items
+in Odoo database in:
+Contacts > Configuration > NACE Configuration > Import NACE Rev.2 from RAMON
+
+This wizard will download from Europe RAMON service the metadata to
+build NACE database in Odoo in all installed languages.
+
+If you add a new language (or want to re-build NACE database), you should call
+import wizard again.
+
 
 Usage
 =====
-Each NACE code is represented by a partner category.
-Once this module is installed, you can assign NACE categories to your partners
-by simply adding the corresponding category in the partner's form.
 
-Obtaining updated data
+Only Administrator can manage NACE activity list (it is not neccesary because
+it is an European convention) but any registered user can read them,
+in order to allow to assign them to partner object.
+
+After configuration, all NACE activities are available to be selected in
+partner form as main and secondary activities.
+
+Applies only to partners marked as companies
+
+
+Known issues / Roadmap
 ======================
-The data imported into OpenERP is generated from the files downloaded
-from the RAMON service::
 
-    http://ec.europa.eu/eurostat/ramon/nomenclatures/index.cfm?TargetUrl=LST_CLS_DLD&StrNom=NACE_REV2&StrLanguageCode=FR&StrLayoutCode=#
+* Improve import algorithm: Use context lang key to translate NACE items
 
-If you want to update the data or add another translation, download the
-corresponding file from RAMON in CSV format, using ',' as a separator.
-Save it to the directory "data" and name it according to the language
-code::
-
-    NACE_REV2_<language code>.csv
-
-Then update the LANGS constant in the script "make_data.py" and run it to
-refresh the OpenERP data files. Finally, upgrade the module to load the data.
 
 Credits
 =======
@@ -48,7 +69,11 @@ Contributors
 
 * Lionel Sausin (Numérigraphe) <ls@numerigraphe.com>
 * Sistheo
+* Antonio Espinosa <antonioea@tecnativa.com>
+* David Vidal <david.vidal@tecnativa.com>
+* Oihane Crucelaegui <oihanecrucelaegi@avanzosc.es>
 * data files courtesy of the European Union
+
 
 Maintainer
 ----------
@@ -62,6 +87,3 @@ This module is maintained by the OCA.
 OCA, or the Odoo Community Association, is a nonprofit organization whose mission is to support the collaborative development of Odoo features and promote its widespread use.
 
 To contribute to this module, please visit http://odoo-community.org.
-
-
-
