@@ -1,9 +1,10 @@
 # Copyright 2017 Tecnativa - Carlos Dauden <carlos.dauden@tecnativa.com>
+# Copyright 2018 Tecnativa - Pedro M. Baeza
 # License AGPL-3.0 or later (https://www.gnu.org/licenses/agpl-3).
 
 {
     "name": "Bank from IBAN",
-    "version": "11.0.1.0.0",
+    "version": "12.0.1.0.0",
     "author": "Tecnativa, "
               "Odoo Community Association (OCA)",
     "website": "https://github.com/OCA/community-data-files",
