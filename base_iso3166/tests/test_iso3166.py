@@ -1,4 +1,3 @@
-# -*- coding: utf-8 -*-
 # Copyright 2017 Creu Blanca
 # License AGPL-3.0 or later (http://www.gnu.org/licenses/agpl).
 
@@ -10,3 +9,11 @@ class TestBaseIso3166(common.TransactionCase):
         country = self.env.ref('base.ad')
         self.assertEqual(country.code_alpha3, 'AND')
         self.assertEqual(country.code_numeric, '020')
+
+    def test_historic_countries(self):
+        ussr = self.env['res.country'].create({
+            'code': 'SU',
+            'name': 'USSR, Union of Soviet Socialist Republics',
+        })
+        self.assertEqual(ussr.code_alpha3, 'SUN')
+        self.assertEqual(ussr.code_numeric, '810')
