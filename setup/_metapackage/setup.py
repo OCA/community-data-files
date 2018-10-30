@@ -11,6 +11,7 @@ setuptools.setup(
         'odoo11-addon-account_payment_unece',
         'odoo11-addon-account_tax_unece',
         'odoo11-addon-base_bank_from_iban',
+        'odoo11-addon-base_currency_iso_4217',
         'odoo11-addon-base_iso3166',
         'odoo11-addon-base_unece',
         'odoo11-addon-product_uom_unece',
