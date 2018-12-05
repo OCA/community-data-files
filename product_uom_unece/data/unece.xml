@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo noupdate="0">
+
+
+<record id="product.product_uom_unit" model="product.uom">
+    <field name="unece_code">C62</field>
+</record>
+
+<record id="product.product_uom_dozen" model="product.uom">
+    <field name="unece_code">DPC</field>
+</record>
+
+<record id="product.product_uom_kgm" model="product.uom">
+    <field name="unece_code">KGM</field>
+</record>
+
+<record id="product.product_uom_gram" model="product.uom">
+    <field name="unece_code">GRM</field>
+</record>
+
+<record id="product.product_uom_hour" model="product.uom">
+    <field name="unece_code">HUR</field>
+</record>
+
+<record id="product.product_uom_day" model="product.uom">
+    <field name="unece_code">DAY</field>
+</record>
+
+<record id="product.product_uom_ton" model="product.uom">
+    <field name="unece_code">TNE</field>
+</record>
+
+<record id="product.product_uom_meter" model="product.uom">
+    <field name="unece_code">MTR</field>
+</record>
+
+<record id="product.product_uom_km" model="product.uom">
+    <field name="unece_code">KTM</field>
+</record>
+
+<record id="product.product_uom_cm" model="product.uom">
+    <field name="unece_code">CMT</field>
+</record>
+
+<record id="product.product_uom_litre" model="product.uom">
+    <field name="unece_code">LTR</field>
+</record>
+
+<record id="product.product_uom_lb" model="product.uom">
+    <field name="unece_code">LBR</field>
+</record>
+
+<record id="product.product_uom_oz" model="product.uom">
+    <field name="unece_code">ONZ</field>
+</record>
+
+<record id="product.product_uom_inch" model="product.uom">
+    <field name="unece_code">INH</field>
+</record>
+
+<record id="product.product_uom_foot" model="product.uom">
+    <field name="unece_code">FOT</field>
+</record>
+
+<record id="product.product_uom_mile" model="product.uom">
+    <field name="unece_code">SMI</field>
+</record>
+
+<!-- given the 'factor' preconfigured in Odoo
+in addons/product/data/product_data.xml
+Odoo defines the AMERICAN volume unit of measures and not the imperial ones -->
+<record id="product.product_uom_floz" model="product.uom">
+    <field name="unece_code">OZA</field>
+</record>
+
+<record id="product.product_uom_qt" model="product.uom">
+    <field name="unece_code">QT</field>
+</record>
+
+<record id="product.product_uom_gal" model="product.uom">
+    <field name="unece_code">GLL</field>
+</record>
+
+
+</odoo>
