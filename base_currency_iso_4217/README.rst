@@ -32,8 +32,10 @@ ISO 4127 standard:
 
 * Full Name
 
-The module also updates the existing currencies in Odoo,
-based on https://github.com/datasets/currency-codes
+The module also updates the numeric code, full name and decimal places fields
+of existing currencies in Odoo according to ISO 4217:2015.
+
+https://www.iso.org/iso-4217-currency-codes.html
 
 **Table of contents**
 
@@ -62,6 +64,7 @@ Contributors
 ~~~~~~~~~~~~
 
 * Jordi Ballester Alomar <jordi.ballester@eficent.com> (https://www.eficent.com)
+* Levent Karakaş <leventk@eskayazilim.com.tr> (https://www.eskayazilim.com.tr)
 
 
 Maintainers
