@@ -24,7 +24,7 @@ Usage
 
 .. image:: https://odoo-community.org/website/image/ir.attachment/5784_f2813bd/datas
    :alt: Try me on Runbot
-   :target: https://runbot.odoo-community.org/runbot/101/11.0
+   :target: https://runbot.odoo-community.org/runbot/101/12.0
 
 Bug Tracker
 ===========
@@ -55,4 +55,4 @@ OCA, or the Odoo Community Association, is a nonprofit organization whose
 mission is to support the collaborative development of Odoo features and
 promote its widespread use.
 
-To contribute to this module, please visit https://odoo-community.org.
+To contribute to this module, please visit https://odoo-community.org. 

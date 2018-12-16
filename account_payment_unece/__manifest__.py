@@ -4,7 +4,7 @@
 
 {
     'name': 'Account Payment UNECE',
-    'version': '11.0.1.0.0',
+    'version': '12.0.1.0.0',
     'category': 'Accounting & Finance',
     'license': 'AGPL-3',
     'summary': 'UNECE nomenclature for the payment methods',
@@ -13,7 +13,6 @@
     'depends': [
         'account_payment_mode',
         'base_unece',
-        'account_tax_unece'
     ],
     'data': [
         'data/unece.xml',
