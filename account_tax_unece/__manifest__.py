@@ -4,7 +4,7 @@
 
 {
     'name': 'Account Tax UNECE',
-    'version': '11.0.1.1.1',
+    'version': '12.0.1.0.0',
     'category': 'Accounting & Finance',
     'license': 'AGPL-3',
     'summary': 'UNECE nomenclature for taxes',
