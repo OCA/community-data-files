@@ -10,8 +10,11 @@ class ResCurrency(models.Model):
 
     numeric_code = fields.Char(
         string='Numeric Code',
-        help="ISO Numeric Code for currency, according to ISO 4217 standard.")
-    full_name = fields.Char(string='Full name',
-                            help="Currency name, according to ISO 4217 "
-                                 "standard",
-                            translate=True)
+        help="ISO Numeric Code for currency, according to ISO 4217 standard.",
+    )
+
+    full_name = fields.Char(
+        string='Full name',
+        help="Currency name, according to ISO 4217 standard",
+        translate=True,
+    )
