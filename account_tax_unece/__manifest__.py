@@ -4,11 +4,13 @@
 
 {
     'name': 'Account Tax UNECE',
-    'version': '11.0.1.1.1',
+    'version': '12.0.1.1.1',
     'category': 'Accounting & Finance',
     'license': 'AGPL-3',
     'summary': 'UNECE nomenclature for taxes',
-    'author': 'Akretion,Odoo Community Association (OCA)',
+    'author': 'Akretion, '
+              'Shine IT<contact@openerp.cn>, '
+              'Odoo Community Association (OCA)',
     'website': 'http://www.akretion.com',
     'depends': ['account', 'base_unece'],
     'data': [
@@ -17,6 +19,6 @@
         'data/unece_tax_type.xml',
         'data/unece_tax_categ.xml',
         'data/unece_date.xml',
-        ],
+    ],
     'installable': True,
 }
