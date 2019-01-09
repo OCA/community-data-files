@@ -2,9 +2,9 @@
    :target: https://www.gnu.org/licenses/agpl
    :alt: License: AGPL-3
 
-================
-Unit of Measures
-================
+======================
+Extra Unit of Measures
+======================
 
 This module adds missing unit of measures and their categories:
 
