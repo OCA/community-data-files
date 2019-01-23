@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+
+    <record id="res_partner_nace_tree" model="ir.ui.view">
+        <field name="name">NACE Activities tree</field>
+        <field name="model">res.partner.nace</field>
+        <field name="arch" type="xml">
+            <tree>
+                <field name="level"/>
+                <field name="code"/>
+                <field name="name"/>
+            </tree>
+        </field>
+    </record>
+
+    <record id="res_partner_nace_form" model="ir.ui.view">
+        <field name="name">NACE Activities tree</field>
+        <field name="model">res.partner.nace</field>
+        <field name="target">current</field>
+        <field name="arch" type="xml">
+            <form string="NACE Activity">
+                <div class="oe_button_box" name="button_box">
+                    <button name="toggle_active" type="object"
+                            class="oe_stat_button" icon="fa-archive">
+                        <field name="active" widget="boolean_button"/>
+                    </button>
+                </div>
+                <group>
+                    <group>
+                        <field name="level"/>
+                        <field name="code"/>
+                    </group>
+                </group>
+                <group>
+                    <field name="parent_id"/>
+                    <field name="name"/>
+                    <field name="rules"/>
+                    <field name="generic"/>
+                    <field name="central_content"/>
+                    <field name="limit_content"/>
+                    <field name="exclusions"/>
+                </group>
+                <notebook>
+                    <page name="nace_childs" string="Childs"
+                            attrs="{'invisible': [('child_ids', '=', [])]}">
+                        <field name="child_ids"/>
+                    </page>
+                </notebook>
+            </form>
+        </field>
+    </record>
+
+    <record id="res_partner_nace_search" model="ir.ui.view">
+        <field name="model">res.partner.nace</field>
+        <field name="arch" type="xml">
+            <search>
+                <field name="name" string="Name or Code" filter_domain="['|', ('name', 'ilike', self), ('code', 'ilike', self)]"/>
+                <field name="central_content" string="Content" filter_domain="['|', ('central_content', 'ilike', self), ('limit_content', 'ilike', self)]"/>
+                <field name="parent_id"/>
+                <field name="child_ids"/>
+                <group string="Group By" name="groupby">
+                    <filter name="level_groupby" string="Level" context="{'group_by': 'level'}"/>
+                </group>
+            </search>
+        </field>
+    </record>
+
+    <record id="res_partner_nace_action" model="ir.actions.act_window">
+        <field name="name">NACE Activities</field>
+        <field name="type">ir.actions.act_window</field>
+        <field name="res_model">res.partner.nace</field>
+        <field name="view_type">form</field>
+        <field name="view_mode">tree,form</field>
+        <field name="help">You must click at import wizard to populate NACE items
+            in Odoo database in:
+            Sales > Configuration > Address Book > Import NACE Rev.2</field>
+    </record>
+
+    <menuitem action="res_partner_nace_action"
+              id="res_partner_nace_menu"
+              name="NACE Activities"
+              parent="sale.menu_sale_config"
+              sequence="40"/>
+
+</odoo>

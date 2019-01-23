@@ -1,4 +1,3 @@
-# -*- coding: utf-8 -*-
 ##############################################################################
 #
 #    OpenERP, Open Source Management Solution
@@ -21,12 +20,17 @@
 
 {
     "name": "European NACE partner categories",
-    "version": "11.0.1.0.0",
-    'author': u'Numérigraphe SARL,Sistheo,Odoo Community Association (OCA)',
+    "version": "11.0.2.0.0",
+    'author': 'Odoo Community Association (OCA)',
     "category": "Localization",
+    "depends": [
+        'sale',
+    ],
     "data": [
-        "data/res.partner.category.csv",
-        'views/partner_view.xml',
+        'views/res_partner_nace.xml',
+        'views/res_partner.xml',
+        'wizards/nace_import.xml',
+        'security/ir.model.access.csv',
     ],
     'installable': True,
     'license': 'AGPL-3',
