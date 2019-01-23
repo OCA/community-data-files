@@ -1,4 +1,3 @@
-# -*- coding: utf-8 -*-
 ##############################################################################
 #
 #    OpenERP, Open Source Management Solution
@@ -21,7 +20,7 @@
 
 {
     "name": "European NACE partner categories",
-    "version": "10.0.1.0.0",
+    "version": "11.0.1.0.0",
     'author': u'Numérigraphe SARL,Sistheo,Odoo Community Association (OCA)',
     "category": "Localization",
     "data": [
