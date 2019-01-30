@@ -26,25 +26,23 @@ class ResCountry(models.Model):
     @api.depends('code')
     def _compute_codes(self):
         for country in self:
-            try:
+            c = False
+            for country_type in ['countries', 'historic_countries']:
                 try:
-                    c = pycountry.countries.get(alpha_2=country.code)
+                    c = getattr(pycountry, country_type).get(
+                        alpha_2=country.code)
                 except KeyError:
-                    c = pycountry.countries.get(alpha2=country.code)
+                    try:
+                        c = getattr(pycountry, country_type).get(
+                            alpha2=country.code)
+                    except KeyError:
+                        pass
+                if c:
+                    break
+            if c:
                 country.code_alpha3 = getattr(c, 'alpha_3',
                                               getattr(c, 'alpha3', False))
                 country.code_numeric = c.numeric
-            except KeyError:
-                try:
-                    try:
-                        c = pycountry.historic_countries.get(
-                            alpha_2=country.code)
-                    except KeyError:
-                        c = pycountry.historic_countries.get(
-                            alpha2=country.code)
-                    country.code_alpha3 = getattr(c, 'alpha_3',
-                                                  getattr(c, 'alpha3', False))
-                    country.code_numeric = c.numeric
-                except KeyError:
-                    country.code_alpha3 = False
-                    country.code_numeric = False
+            else:
+                country.code_alpha3 = False
+                country.code_numeric = False
