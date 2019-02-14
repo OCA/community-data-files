@@ -10,6 +10,7 @@ setuptools.setup(
     install_requires=[
         'odoo12-addon-base_bank_from_iban',
         'odoo12-addon-base_iso3166',
+        'odoo12-addon-base_unece',
     ],
     classifiers=[
         'Programming Language :: Python',
