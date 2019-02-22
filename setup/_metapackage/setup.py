@@ -13,6 +13,7 @@ setuptools.setup(
         'odoo12-addon-base_bank_from_iban',
         'odoo12-addon-base_iso3166',
         'odoo12-addon-base_unece',
+        'odoo12-addon-uom_unece',
     ],
     classifiers=[
         'Programming Language :: Python',
