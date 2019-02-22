@@ -19,6 +19,11 @@ msgid "Date, Time or Period Qualifier (UNTDID 2005)"
 msgstr ""
 
 #. module: account_tax_unece
+#: selection:unece.code.list,type:0
+msgid "Payment Means (UNCL 4461)"
+msgstr ""
+
+#. module: account_tax_unece
 #: model:ir.model.fields,help:account_tax_unece.field_account_tax__unece_categ_id
 #: model:ir.model.fields,help:account_tax_unece.field_account_tax_template__unece_categ_id
 msgid "Select the Tax Category Code of the official nomenclature of the United Nations Economic Commission for Europe (UNECE), DataElement 5305"
