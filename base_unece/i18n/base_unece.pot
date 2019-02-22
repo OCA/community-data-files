@@ -34,6 +34,11 @@ msgid "Created on"
 msgstr ""
 
 #. module: base_unece
+#: selection:unece.code.list,type:0
+msgid "Date, Time or Period Qualifier (UNTDID 2005)"
+msgstr ""
+
+#. module: base_unece
 #: model:ir.model.fields,field_description:base_unece.field_unece_code_list__description
 msgid "Description"
 msgstr ""
@@ -76,6 +81,16 @@ msgstr ""
 #. module: base_unece
 #: model_terms:ir.ui.view,arch_db:base_unece.unece_code_list_search
 msgid "Name or Code"
+msgstr ""
+
+#. module: base_unece
+#: selection:unece.code.list,type:0
+msgid "Tax Categories (UNCL 5305)"
+msgstr ""
+
+#. module: base_unece
+#: selection:unece.code.list,type:0
+msgid "Tax Types (UNCL 5153)"
 msgstr ""
 
 #. module: base_unece
