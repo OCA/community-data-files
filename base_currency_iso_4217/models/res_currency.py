@@ -18,3 +18,10 @@ class ResCurrency(models.Model):
         help="Currency name, according to ISO 4217 standard",
         translate=True,
     )
+
+    number_digits = fields.Integer(
+        string='Number of digits',
+        help='Number of digits after the decimal separator, '
+             'according to ISO 4217 standard',
+        default=2
+    )
