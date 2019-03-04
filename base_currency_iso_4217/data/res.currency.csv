@@ -1,4 +1,4 @@
-"id","numeric_code","full_name","number_digits"
+"id","numeric_code","full_name","digits_number"
 "base.AED","784","UAE Dirham","2"
 "base.AFN","971","Afghani","2"
 "base.ALL","008","Lek","2"

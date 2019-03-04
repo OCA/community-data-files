@@ -19,7 +19,7 @@ class ResCurrency(models.Model):
         translate=True,
     )
 
-    number_digits = fields.Integer(
+    digits_number = fields.Integer(
         string='Number of digits',
         help='Number of digits after the decimal separator, '
              'according to ISO 4217 standard',
