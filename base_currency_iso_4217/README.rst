@@ -17,7 +17,7 @@ Base Currency ISO 4217
     :target: https://github.com/OCA/community-data-files/tree/12.0/base_currency_iso_4217
     :alt: OCA/community-data-files
 .. |badge4| image:: https://img.shields.io/badge/weblate-Translate%20me-F47D42.png
-    :target: https://translation.odoo-community.org/projects/community-data-files-11-0/community-data-files-11-0-base_currency_iso_4217
+    :target: https://translation.odoo-community.org/projects/community-data-files-12-0/community-data-files-12-0-base_currency_iso_4217
     :alt: Translate me on Weblate
 .. |badge5| image:: https://img.shields.io/badge/runbot-Try%20me-875A7B.png
     :target: https://runbot.odoo-community.org/runbot/101/12.0
@@ -82,4 +82,4 @@ promote its widespread use.
 
 This module is part of the `OCA/community-data-files <https://github.com/OCA/community-data-files/tree/12.0/base_currency_iso_4217>`_ project on GitHub.
 
-You are welcome to contribute. To learn how please visit https://odoo-community.org/page/Contribute. 
+You are welcome to contribute. To learn how please visit https://odoo-community.org/page/Contribute.
