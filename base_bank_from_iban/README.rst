@@ -23,7 +23,7 @@ Bank from IBAN
     :target: https://runbot.odoo-community.org/runbot/101/12.0
     :alt: Try me on Runbot
 
-|badge1| |badge2| |badge3| |badge4| |badge5| 
+|badge1| |badge2| |badge3| |badge4| |badge5|
 
 This module adds a code to bank definition for using it as matching for filling the bank
 from the IBAN bank account number. It uses the existing by country bank mapping in
@@ -49,7 +49,7 @@ Usage
 To use this module, you need to:
 
 #. Go to Partner
-#. Click *Bank Account(s)* in "Sales & Purchases" page.
+#. Click *Bank Account(s)* in "Invoicing" page.
 #. Create/modify IBAN bank account.
 #. When you put the bank account number, module extracts bank digits from the format of the country, and try to match an existing bank by country and code.
 #. If there's a match, the bank is selected automatically.
