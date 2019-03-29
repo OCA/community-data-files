@@ -14,6 +14,7 @@ setuptools.setup(
         'odoo11-addon-base_currency_iso_4217',
         'odoo11-addon-base_iso3166',
         'odoo11-addon-base_unece',
+        'odoo11-addon-product_fao_fishing',
         'odoo11-addon-product_uom_extra_data',
         'odoo11-addon-product_uom_unece',
     ],
