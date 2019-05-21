@@ -15,6 +15,7 @@
                 <field name="symbol" position="after">
                     <field name="full_name"/>
                     <field name="numeric_code"/>
+                    <field name="digits_number"/>
                 </field>
             </field>
         </record>
@@ -28,6 +29,7 @@
                 <field name="name" position="after">
                     <field name="full_name"/>
                     <field name="numeric_code"/>
+                    <field name="digits_number"/>
                 </field>
             </field>
         </record>
