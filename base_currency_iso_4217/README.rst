@@ -32,6 +32,8 @@ ISO 4127 standard:
 
 * Full Name
 
+* Number of digits after the decimal separator
+
 The module also updates the numeric code, full name and decimal places fields
 of existing currencies in Odoo according to ISO 4217:2015.
 
