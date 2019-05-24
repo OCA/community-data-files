@@ -9,7 +9,7 @@
     'license': 'AGPL-3',
     'summary': 'UNECE nomenclature for the payment methods',
     'author': 'Akretion,Odoo Community Association (OCA)',
-    'website': 'http://www.akretion.com',
+    'website': 'https://github.com/OCA/community-data-files',
     'depends': [
         'account_payment_mode',
         'base_unece',
