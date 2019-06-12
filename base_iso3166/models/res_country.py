@@ -1,8 +1,10 @@
 # -*- coding: utf-8 -*-
 # © 2016 Serv. Tecnol. Avanzados - Pedro M. Baeza
+# © 2017  Creu Blanca <www.creublanca.es>
 # License AGPL-3.0 or later (http://www.gnu.org/licenses/agpl.html).
 
 from openerp import api, fields, models
+
 try:
     import pycountry
 except ImportError:
@@ -10,7 +12,6 @@ except ImportError:
 
 
 class ResCountry(models.Model):
-
     _inherit = 'res.country'
 
     code_alpha3 = fields.Char(
@@ -27,13 +28,23 @@ class ResCountry(models.Model):
     def _compute_codes(self):
         for country in self:
             try:
-                c = pycountry.countries.get(alpha2=country.code)
-                country.code_alpha3 = c.alpha3
+                try:
+                    c = pycountry.countries.get(alpha_2=country.code)
+                except KeyError:
+                    c = pycountry.countries.get(alpha2=country.code)
+                country.code_alpha3 = getattr(c, 'alpha_3',
+                                              getattr(c, 'alpha3', False))
                 country.code_numeric = c.numeric
             except KeyError:
                 try:
-                    c = pycountry.historic_countries.get(alpha2=country.code)
-                    country.code_alpha3 = c.alpha3
+                    try:
+                        c = pycountry.historic_countries.get(
+                            alpha_2=country.code)
+                    except KeyError:
+                        c = pycountry.historic_countries.get(
+                            alpha2=country.code)
+                    country.code_alpha3 = getattr(c, 'alpha_3',
+                                                  getattr(c, 'alpha3', False))
                     country.code_numeric = c.numeric
                 except KeyError:
                     country.code_alpha3 = False
