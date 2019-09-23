@@ -40,18 +40,19 @@ ID_TEMPLATE = "nace_%s"
 
 print("Generating the English CSV file...")
 src = csv.reader(open("NACE_REV2_en.csv", "rU"))
-dest = csv.writer(open("res.partner.category.csv", "w"), quoting=csv.QUOTE_ALL)
+dest = csv.writer(open("res.partner.nace.csv", "w"), quoting=csv.QUOTE_ALL)
 # Write the file header
-dest.writerow(["id", "parent_id:id", "name"])
+dest.writerow(["id", "parent_id:id", "code", "name"])
 # Write the root category
 parent_ids = {0: ID_TEMPLATE % "root"}
-dest.writerow([parent_ids[0], "", "NACE"])
+dest.writerow([parent_ids[0], "", "", "NACE"])
 # Skip first line
 src.next()
 english = {}
 for row in src:
     xml_id = ID_TEMPLATE % row[1].replace('.', '_')
-    name = "[%s] %s" % (row[1], row[2])
+    code = row[1]
+    name = row[2]
     # determine the parent
     level = int(row[0])
     parent_id = parent_ids[level - 1]
@@ -59,7 +60,7 @@ for row in src:
     parent_ids[level] = xml_id
     # Remember the English name and the id
     english[xml_id] = name
-    dest.writerow([xml_id, parent_id, name])
+    dest.writerow([xml_id, parent_id, code, name])
 print("Done.\n")
 
 for lang in LANGS:
@@ -77,7 +78,7 @@ for lang in LANGS:
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: OpenERP Server 6.1beta\\n"
+"Project-Id-Version: Odoo Server 12.0\\n"
 "Report-Msgid-Bugs-To: \\n"
 "POT-Creation-Date: 2011-12-12 10:49+0000\\n"
 "PO-Revision-Date: 2011-12-12 10:49+0000\\n"
@@ -95,7 +96,7 @@ msgstr ""
         xml_id = ID_TEMPLATE % row[1].replace('.', '_')
         dest.write(
             """#. module: l10n_eu_nace
-#: model:res.partner.category,name:l10n_eu_nace.%s
+#: model:res.partner.nace,name:l10n_eu_nace.%s
 msgid "%s"
 msgstr "%s"
 
