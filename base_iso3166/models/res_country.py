@@ -32,9 +32,15 @@ class ResCountry(models.Model):
                     c = pycountry.countries.get(alpha_2=country.code)
                 except KeyError:
                     c = pycountry.countries.get(alpha2=country.code)
-                country.code_alpha3 = getattr(c, 'alpha_3',
-                                              getattr(c, 'alpha3', False))
-                country.code_numeric = c.numeric
+
+                country.code_alpha3 = getattr(
+                    c,
+                    'alpha_3',
+                    getattr(c, 'alpha3', False))
+                country.code_numeric = getattr(
+                    c,
+                    'numeric',
+                    getattr(c, 'numeric', False))
             except KeyError:
                 try:
                     try:
@@ -43,8 +49,11 @@ class ResCountry(models.Model):
                     except KeyError:
                         c = pycountry.historic_countries.get(
                             alpha2=country.code)
-                    country.code_alpha3 = getattr(c, 'alpha_3',
-                                                  getattr(c, 'alpha3', False))
+
+                    country.code_alpha3 = getattr(
+                        c,
+                        'alpha_3',
+                        getattr(c, 'alpha3', False))
                     country.code_numeric = c.numeric
                 except KeyError:
                     country.code_alpha3 = False
