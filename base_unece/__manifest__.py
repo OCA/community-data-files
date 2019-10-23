@@ -3,17 +3,16 @@
 # @author Alexis de Lattre <alexis.delattre@akretion.com>
 
 {
-    'name': 'Base UNECE',
-    'version': '12.0.1.0.0',
-    'category': 'Tools',
-    'license': 'AGPL-3',
-    'summary': 'Base module for UNECE code lists',
-    'author': 'Akretion,Odoo Community Association (OCA)',
-    'website': 'http://www.akretion.com',
-    'depends': ['base'],
-    'data': [
-        'views/unece_code_list.xml',
-        'security/ir.model.access.csv',
-        ],
-    'installable': True,
+    "name": "Base UNECE",
+    "version": "13.0.1.0.0",
+    "category": "Tools",
+    "license": "AGPL-3",
+    "development_status": "Production/Stable",
+    "summary": "Base module for UNECE code lists",
+    "author": "Akretion,Odoo Community Association (OCA)",
+    "maintainers": ["astirpe"],
+    "website": "https://github.com/OCA/community-data-files/",
+    "depends": ["base"],
+    "data": ["views/unece_code_list.xml", "security/ir.model.access.csv"],
+    "installable": True,
 }
