@@ -10,31 +10,31 @@ from odoo import api, fields, models
 # because it would duplicate the python code, views, menu entries, ACL, etc...
 # So I decided to have a single object with a type field
 class UneceCodeList(models.Model):
-    _name = 'unece.code.list'
-    _description = 'UNECE nomenclatures'
-    _order = 'type, code'
+    _name = "unece.code.list"
+    _description = "UNECE nomenclatures"
+    _order = "type, code"
 
-    @api.depends('code', 'name')
+    @api.depends("code", "name")
     def _compute_display_name(self):
         for entry in self:
-            entry.display_name = '[%s] %s' % (entry.code, entry.name)
+            entry.display_name = "[{}] {}".format(entry.code, entry.name)
 
     code = fields.Char(required=True, copy=False)
     name = fields.Char(required=True, copy=False)
-    display_name = fields.Char(
-        compute='_compute_display_name', store=True)
+    display_name = fields.Char(compute="_compute_display_name", store=True)
     type = fields.Selection([], required=True)
     description = fields.Text()
 
-    _sql_constraints = [(
-        'type_code_uniq',
-        'unique(type, code)',
-        'An UNECE code of the same type already exists'
-    )]
+    _sql_constraints = [
+        (
+            "type_code_uniq",
+            "unique(type, code)",
+            "An UNECE code of the same type already exists",
+        )
+    ]
 
-    @api.multi
     def name_get(self):
         res = []
         for entry in self:
-            res.append((entry.id, '[%s] %s' % (entry.code, entry.name)))
+            res.append((entry.id, "[{}] {}".format(entry.code, entry.name)))
         return res
