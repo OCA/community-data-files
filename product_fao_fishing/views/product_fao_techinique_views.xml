@@ -53,9 +53,4 @@
         <field name="view_id" ref="product_fao_techique_list_view"/>
     </record>
 
-    <!--<menuitem id="product_fao_fishing_technique_menu" -->
-              <!--action="product_fao_techique_action_form" -->
-              <!--parent="stock.menu_warehouse_report" -->
-              <!--sequence="150"/>-->
-
 </odoo>
