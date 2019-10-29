@@ -3,7 +3,7 @@
 
     <record id="fao_fishing_area" model="product.attribute">
         <field name="name">FAO Fishing Areas</field>
-        <field name="create_variant">False</field>
+        <field name="create_variant">no_variant</field>
     </record>
 
     <record id="fao_fishing_area_1" model="product.attribute.value">
