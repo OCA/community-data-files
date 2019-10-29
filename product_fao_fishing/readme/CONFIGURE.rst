@@ -1,3 +1,3 @@
-#. Go to Sales > Settings > Attributes or Attribute Values
+#. Go to *Sales > Configuration > Products > Attribute Values*
 
    * Update fish FAO areas if you want
