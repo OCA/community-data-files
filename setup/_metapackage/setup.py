@@ -14,6 +14,7 @@ setuptools.setup(
         'odoo12-addon-base_currency_iso_4217',
         'odoo12-addon-base_iso3166',
         'odoo12-addon-base_unece',
+        'odoo12-addon-product_fao_fishing',
         'odoo12-addon-uom_unece',
     ],
     classifiers=[
