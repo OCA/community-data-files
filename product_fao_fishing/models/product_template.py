@@ -23,8 +23,9 @@ class ProductTemplate(models.Model):
         """
         fao_fishing_area_attribute = self.env.ref(
             'product_fao_fishing.fao_fishing_area')
+        ptal_obj = self.env['product.template.attribute.line']
         for template in self:
-            attribute_line = self.env['product.attribute.line'].search([
+            attribute_line = ptal_obj.search([
                 ('product_tmpl_id', '=', template.id),
                 ('attribute_id', '=', fao_fishing_area_attribute.id),
             ])
