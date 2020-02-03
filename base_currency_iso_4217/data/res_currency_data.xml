@@ -369,6 +369,10 @@
         <field name="full_name">Pataca</field>
         <field name="numeric_code">446</field>
     </record>
+    <record id="base.MRU" model="res.currency">
+        <field name="full_name">Ouguiya</field>
+        <field name="numeric_code">929</field>
+    </record>
     <record id="base.MUR" model="res.currency">
         <field name="full_name">Mauritius Rupee</field>
         <field name="numeric_code">480</field>
@@ -504,6 +508,10 @@
         <field name="full_name">Leone</field>
         <field name="numeric_code">694</field>
     </record>
+    <record id="base.SRD" model="res.currency">
+        <field name="full_name">Surinam Dollar</field>
+        <field name="numeric_code">968</field>
+    </record>
     <record id="base.SSP" model="res.currency">
         <field name="full_name">South Sudanese Pound</field>
         <field name="numeric_code">728</field>
@@ -527,6 +535,10 @@
     <record id="base.TJS" model="res.currency">
         <field name="full_name">Somoni</field>
         <field name="numeric_code">972</field>
+    </record>
+    <record id="base.TMT" model="res.currency">
+        <field name="full_name">Turkmenistan New Manat</field>
+        <field name="numeric_code">934</field>
     </record>
     <record id="base.TND" model="res.currency">
         <field name="full_name">Tunisian Dinar</field>
@@ -614,5 +626,13 @@
     <record id="base.ZAR" model="res.currency">
         <field name="full_name">Rand</field>
         <field name="numeric_code">710</field>
+    </record>
+    <record id="base.ZMW" model="res.currency">
+        <field name="full_name">Zambian Kwacha</field>
+        <field name="numeric_code">967</field>
+    </record>
+    <record id="base.ZWL" model="res.currency">
+        <field name="full_name">Zimbabwe Dollar</field>
+        <field name="numeric_code">932</field>
     </record>
 </odoo>
