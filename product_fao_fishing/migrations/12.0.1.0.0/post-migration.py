@@ -6,4 +6,4 @@ from openupgradelib import openupgrade
 
 @openupgrade.migrate(use_env=True)
 def migrate(env, version):
-    env['product.fao.fishing.technique']._parent_store_compute()
+    env["product.fao.fishing.technique"]._parent_store_compute()
