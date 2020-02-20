@@ -5,13 +5,12 @@ from odoo import fields, models
 
 
 class ProductAttributeValue(models.Model):
-    _inherit = 'product.attribute.value'
+    _inherit = "product.attribute.value"
 
-    fao_zone_code = fields.Char(string='Zone Code')
+    fao_zone_code = fields.Char(string="Zone Code")
 
 
 class ProductTemplateAttributeValue(models.Model):
-    _inherit = 'product.template.attribute.value'
+    _inherit = "product.template.attribute.value"
 
-    fao_zone_code = fields.Char(
-        related="product_attribute_value_id.fao_zone_code")
+    fao_zone_code = fields.Char(related="product_attribute_value_id.fao_zone_code")
