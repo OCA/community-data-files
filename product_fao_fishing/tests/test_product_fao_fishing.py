@@ -1,6 +1,6 @@
 # Copyright 2018 Tecnativa - Sergio Teruel
 # License AGPL-3.0 or later (https://www.gnu.org/licenses/agpl).
-from odoo.exceptions import ValidationError
+from odoo.exceptions import UserError
 from odoo.tests import SavepointCase
 
 
@@ -47,7 +47,7 @@ class TestProductFaoFishing(SavepointCase):
         )
 
     def test_recursion(self):
-        with self.assertRaises(ValidationError):
+        with self.assertRaises(UserError):
             self.my_tech.parent_id = self.my_tech
 
     def test_fishing_areas_from_attribute(self):
