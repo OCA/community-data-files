@@ -14,15 +14,8 @@ class UneceCodeList(models.Model):
     _description = 'UNECE nomenclatures'
     _order = 'type, code'
 
-    @api.depends('code', 'name')
-    def _compute_display_name(self):
-        for entry in self:
-            entry.display_name = '[%s] %s' % (entry.code, entry.name)
-
     code = fields.Char(required=True, copy=False)
     name = fields.Char(required=True, copy=False)
-    display_name = fields.Char(
-        compute='_compute_display_name', store=True)
     type = fields.Selection([], required=True)
     description = fields.Text()
 
@@ -32,9 +25,22 @@ class UneceCodeList(models.Model):
         'An UNECE code of the same type already exists'
     )]
 
-    @api.multi
+    @api.depends('code', 'name')
     def name_get(self):
         res = []
         for entry in self:
             res.append((entry.id, '[%s] %s' % (entry.code, entry.name)))
         return res
+
+    @api.model
+    def name_search(
+            self, name='', args=None, operator='ilike', limit=80):
+        if args is None:
+            args = []
+        if name and operator == 'ilike':
+            recs = self.search(
+                [('code', '=', name)] + args, limit=limit)
+            if recs:
+                return recs.name_get()
+        return super().name_search(
+            name=name, args=args, operator=operator, limit=limit)
