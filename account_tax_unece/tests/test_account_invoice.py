@@ -1,4 +1,5 @@
-# Copyright 2017 Akretion (Alexis de Lattre <alexis.delattre@akretion.com>)
+# Copyright 2017-2020 Akretion France (http://www.akretion.com/)
+# @author: Alexis de Lattre <alexis.delattre@akretion.com>
 # License AGPL-3.0 or later (https://www.gnu.org/licenses/agpl).
 
 from odoo.tests.common import HttpCase
@@ -16,7 +17,6 @@ class TestAccountInvoice(HttpCase):
             self, product=False, qty=1, price=12.42, discount=0,
             validate=True):
         aio = self.env['account.invoice']
-        ailo = self.env['account.invoice.line']
         aao = self.env['account.account']
         ato = self.env['account.tax']
         company = self.env.ref('base.main_company')
@@ -67,7 +67,18 @@ class TestAccountInvoice(HttpCase):
                 'unece_type_id': unece_type_id,
                 'unece_categ_id': unece_categ_id,
                 })
-        # validate invoice
+        if not product:
+            product = self.env.ref("product.product_product_4")
+        line_vals = {
+            'product_id': product.id,
+            'uom_id': product.uom_id.id,
+            'quantity': qty,
+            'price_unit': price,
+            'discount': discount,
+            'name': product.name,
+            'account_id': account_revenue.id,
+            'invoice_line_tax_ids': [(6, 0, [tax.id])],
+        }
         invoice = aio.create({
             'partner_id': self.env.ref("base.res_partner_2").id,
             'currency_id': self.env.ref("base.EUR").id,
@@ -75,20 +86,9 @@ class TestAccountInvoice(HttpCase):
             'company_id': company.id,
             'account_id': account_receivable.id,
             'name': 'SO1242',
+            'invoice_line_ids': [(0, 0, line_vals)],
         })
-        if not product:
-            product = self.env.ref("product.product_product_4")
-        ailo.create({
-            'product_id': product.id,
-            'uom_id': product.uom_id.id,
-            'quantity': qty,
-            'price_unit': price,
-            'discount': discount,
-            'invoice_id': invoice.id,
-            'name': product.name,
-            'account_id': account_revenue.id,
-            'invoice_line_tax_ids': [(6, 0, [tax.id])],
-        })
+        # validate invoice
         if validate:
             invoice.action_invoice_open()
         return invoice
