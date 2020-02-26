@@ -10,6 +10,7 @@ setuptools.setup(
     install_requires=[
         'odoo13-addon-base_bank_from_iban',
         'odoo13-addon-base_unece',
+        'odoo13-addon-product_fao_fishing',
         'odoo13-addon-uom_unece',
     ],
     classifiers=[
