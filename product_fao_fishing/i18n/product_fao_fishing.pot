@@ -1,12 +1,12 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
-#	* product_fao_fishing
+# 	* product_fao_fishing
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 12.0\n"
+"Project-Id-Version: Odoo Server 13.0\n"
 "Report-Msgid-Bugs-To: \n"
-"Last-Translator: <>\n"
+"Last-Translator: \n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -129,7 +129,7 @@ msgid "Enmanelle nets and similar"
 msgstr ""
 
 #. module: product_fao_fishing
-#: code:addons/product_fao_fishing/models/product_fao_fishing_technique.py:50
+#: code:addons/product_fao_fishing/models/product_fao_fishing_technique.py:0
 #, python-format
 msgid "Error ! You cannot create recursive techniques."
 msgstr ""
@@ -282,11 +282,6 @@ msgid "Parent Technique"
 msgstr ""
 
 #. module: product_fao_fishing
-#: model:ir.model,name:product_fao_fishing.model_product_template_attribute_value
-msgid "Product Attribute Value"
-msgstr ""
-
-#. module: product_fao_fishing
 #: model_terms:ir.ui.view,arch_db:product_fao_fishing.product_fao_techique_search_view
 msgid "Product Fao Fishing Techniques"
 msgstr ""
@@ -304,6 +299,11 @@ msgstr ""
 #. module: product_fao_fishing
 #: model:ir.model,name:product_fao_fishing.model_product_template
 msgid "Product Template"
+msgstr ""
+
+#. module: product_fao_fishing
+#: model:ir.model,name:product_fao_fishing.model_product_template_attribute_value
+msgid "Product Template Attribute Value"
 msgstr ""
 
 #. module: product_fao_fishing
@@ -336,4 +336,3 @@ msgstr ""
 #: model:ir.model.fields,field_description:product_fao_fishing.field_product_template_attribute_value__fao_zone_code
 msgid "Zone Code"
 msgstr ""
-
