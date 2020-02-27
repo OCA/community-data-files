@@ -139,7 +139,7 @@ msgid "Enmanelle nets and similar"
 msgstr ""
 
 #. module: product_fao_fishing
-#: code:addons/product_fao_fishing/models/product_fao_fishing_technique.py:50
+#: code:addons/product_fao_fishing/models/product_fao_fishing_technique.py:0
 #, python-format
 msgid "Error ! You cannot create recursive techniques."
 msgstr "¡Error! No puede crear técnicas recursivas"
@@ -304,12 +304,6 @@ msgid "Parent Technique"
 msgstr "Padre"
 
 #. module: product_fao_fishing
-#: model:ir.model,name:product_fao_fishing.model_product_template_attribute_value
-#, fuzzy
-msgid "Product Attribute Value"
-msgstr "product.attribute.value"
-
-#. module: product_fao_fishing
 #: model_terms:ir.ui.view,arch_db:product_fao_fishing.product_fao_techique_search_view
 msgid "Product Fao Fishing Techniques"
 msgstr ""
@@ -328,6 +322,12 @@ msgstr "Técnicas de pesca"
 #: model:ir.model,name:product_fao_fishing.model_product_template
 msgid "Product Template"
 msgstr "Plantilla de producto"
+
+#. module: product_fao_fishing
+#: model:ir.model,name:product_fao_fishing.model_product_template_attribute_value
+#, fuzzy
+msgid "Product Template Attribute Value"
+msgstr "product.attribute.value"
 
 #. module: product_fao_fishing
 #: model:product.fao.fishing.technique,name:product_fao_fishing.fishing_technique_purse_nets
