@@ -8,6 +8,7 @@ setuptools.setup(
     description="Meta package for oca-community-data-files Odoo addons",
     version=version,
     install_requires=[
+        'odoo13-addon-account_payment_unece',
         'odoo13-addon-base_bank_from_iban',
         'odoo13-addon-base_unece',
         'odoo13-addon-product_fao_fishing',
