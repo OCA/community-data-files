@@ -14,8 +14,19 @@ msgstr ""
 "Plural-Forms: \n"
 
 #. module: base_unece
+#: model:ir.model.fields,field_description:base_unece.field_unece_code_list__active
+msgid "Active"
+msgstr ""
+
+#. module: base_unece
 #: model:ir.model.constraint,message:base_unece.constraint_unece_code_list_type_code_uniq
 msgid "An UNECE code of the same type already exists"
+msgstr ""
+
+#. module: base_unece
+#: model_terms:ir.ui.view,arch_db:base_unece.unece_code_list_form
+#: model_terms:ir.ui.view,arch_db:base_unece.unece_code_list_search
+msgid "Archived"
 msgstr ""
 
 #. module: base_unece
