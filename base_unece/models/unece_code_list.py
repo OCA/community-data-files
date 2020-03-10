@@ -24,6 +24,7 @@ class UneceCodeList(models.Model):
     display_name = fields.Char(compute="_compute_display_name", store=True)
     type = fields.Selection([], required=True)
     description = fields.Text()
+    active = fields.Boolean(default=True)
 
     _sql_constraints = [
         (
