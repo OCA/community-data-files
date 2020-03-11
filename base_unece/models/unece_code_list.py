@@ -39,3 +39,13 @@ class UneceCodeList(models.Model):
         for entry in self:
             res.append((entry.id, "[{}] {}".format(entry.code, entry.name)))
         return res
+
+    @api.model
+    def name_search(self, name="", args=None, operator="ilike", limit=100):
+        args = args or []
+        recs = self.browse()
+        if name:
+            recs = self.search([("code", "=", name)] + args, limit=limit)
+        if not recs:
+            recs = self.search([("name", operator, name)] + args, limit=limit)
+        return recs.name_get()
