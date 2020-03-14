@@ -1,582 +1,679 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8" ?>
 <odoo noupdate="0">
-
-<!-- unece.code.list
+    <!-- unece.code.list
 Source : https://www.unece.org/fileadmin/DAM/trade/untdid/d16b/tred/tred4461.htm  -->
-
-<record id="payment_means_1" model="unece.code.list">
-    <field name="type">payment_means</field>
-    <field name="code">1</field>
-    <field name="name">Instrument not defined</field>
-    <field name="description">Not defined legally enforceable agreement between two or more parties (expressing a contractual right or a right to the payment of money).</field>
-</record>
-
-<record id="payment_means_2" model="unece.code.list">
-    <field name="type">payment_means</field>
-    <field name="code">2</field>
-    <field name="name">Automated clearing house credit</field>
-    <field name="description">A credit transaction made through the automated clearing house system.</field>
-</record>
-
-<record id="payment_means_3" model="unece.code.list">
-    <field name="type">payment_means</field>
-    <field name="code">3</field>
-    <field name="name">Automated clearing house debit</field>
-    <field name="description">A debit transaction made through the automated clearing house system.</field>
-</record>
-
-<record id="payment_means_4" model="unece.code.list">
-    <field name="type">payment_means</field>
-    <field name="code">4</field>
-    <field name="name">ACH demand debit reversal</field>
-    <field name="description">A request to reverse an ACH debit transaction to a demand deposit account.</field>
-</record>
-
-<record id="payment_means_5" model="unece.code.list">
-    <field name="type">payment_means</field>
-    <field name="code">5</field>
-    <field name="name">ACH demand credit reversal</field>
-    <field name="description">A request to reverse a credit transaction to a demand deposit account.</field>
-</record>
-
-<record id="payment_means_6" model="unece.code.list">
-    <field name="type">payment_means</field>
-    <field name="code">6</field>
-    <field name="name">ACH demand credit</field>
-    <field name="description">A credit transaction made through the ACH system to a demand deposit account.</field>
-</record>
-
-<record id="payment_means_7" model="unece.code.list">
-    <field name="type">payment_means</field>
-    <field name="code">7</field>
-    <field name="name">ACH demand debit</field>
-    <field name="description">A debit transaction made through the ACH system to a demand deposit account.</field>
-</record>
-
-<record id="payment_means_8" model="unece.code.list">
-    <field name="type">payment_means</field>
-    <field name="code">8</field>
-    <field name="name">Hold</field>
-    <field name="description">Indicates that the bank should hold the payment for collection by the beneficiary or other instructions.</field>
-</record>
-
-<record id="payment_means_9" model="unece.code.list">
-    <field name="type">payment_means</field>
-    <field name="code">9</field>
-    <field name="name">National or regional clearing</field>
-    <field name="description">Indicates that the payment should be made using the national or regional clearing.</field>
-</record>
-
-<record id="payment_means_10" model="unece.code.list">
-    <field name="type">payment_means</field>
-    <field name="code">10</field>
-    <field name="name">In cash</field>
-    <field name="description">Payment by currency (including bills and coins) in circulation, including checking account deposits.</field>
-</record>
-
-<record id="payment_means_11" model="unece.code.list">
-    <field name="type">payment_means</field>
-    <field name="code">11</field>
-    <field name="name">ACH savings credit reversal</field>
-    <field name="description">A request to reverse an ACH credit transaction to a savings account.</field>
-</record>
-
-<record id="payment_means_12" model="unece.code.list">
-    <field name="type">payment_means</field>
-    <field name="code">12</field>
-    <field name="name">ACH savings debit reversal</field>
-    <field name="description">A request to reverse an ACH debit transaction to a savings account.</field>
-</record>
-
-<record id="payment_means_13" model="unece.code.list">
-    <field name="type">payment_means</field>
-    <field name="code">13</field>
-    <field name="name">ACH savings credit</field>
-    <field name="description">A credit transaction made through the ACH system to a savings account.</field>
-</record>
-
-<record id="payment_means_14" model="unece.code.list">
-    <field name="type">payment_means</field>
-    <field name="code">14</field>
-    <field name="name">ACH savings debit</field>
-    <field name="description">A debit transaction made through the ACH system to a savings account.</field>
-</record>
-
-<record id="payment_means_15" model="unece.code.list">
-    <field name="type">payment_means</field>
-    <field name="code">15</field>
-    <field name="name">Bookentry credit</field>
-    <field name="description">A credit entry between two accounts at the same bank branch. Synonym: house credit.</field>
-</record>
-
-<record id="payment_means_16" model="unece.code.list">
-    <field name="type">payment_means</field>
-    <field name="code">16</field>
-    <field name="name">Bookentry debit</field>
-    <field name="description">A debit entry between two accounts at the same bank branch. Synonym: house debit.</field>
-</record>
-
-<record id="payment_means_17" model="unece.code.list">
-    <field name="type">payment_means</field>
-    <field name="code">17</field>
-    <field name="name">ACH demand cash concentration/disbursement (CCD) credit</field>
-    <field name="description">A credit transaction made through the ACH system to a demand deposit account using the CCD payment format.</field>
-</record>
-
-<record id="payment_means_18" model="unece.code.list">
-    <field name="type">payment_means</field>
-    <field name="code">18</field>
-    <field name="name">ACH demand cash concentration/disbursement (CCD) debit</field>
-    <field name="description">A debit transaction made through the ACH system to a demand deposit account using the CCD payment format.</field>
-</record>
-
-<record id="payment_means_19" model="unece.code.list">
-    <field name="type">payment_means</field>
-    <field name="code">19</field>
-    <field name="name">ACH demand corporate trade payment (CTP) credit</field>
-    <field name="description">A credit transaction made through the ACH system to a demand deposit account using the CTP payment format.</field>
-</record>
-
-<record id="payment_means_20" model="unece.code.list">
-    <field name="type">payment_means</field>
-    <field name="code">20</field>
-    <field name="name">Cheque</field>
-    <field name="description">Payment by a pre-printed form on which instructions are given to an account holder (a bank or building society) to pay a stated sum to a named recipient.</field>
-</record>
-
-<record id="payment_means_21" model="unece.code.list">
-    <field name="type">payment_means</field>
-    <field name="code">21</field>
-    <field name="name">Banker's draft</field>
-    <field name="description">Issue of a banker's draft in payment of the funds.</field>
-</record>
-
-<record id="payment_means_22" model="unece.code.list">
-    <field name="type">payment_means</field>
-    <field name="code">22</field>
-    <field name="name">Certified banker's draft</field>
-    <field name="description">Cheque drawn by a bank on itself or its agent. A person who owes money to another buys the draft from a bank for cash and hands it to the creditor who need have no fear that it might be dishonoured.</field>
-</record>
-
-<record id="payment_means_23" model="unece.code.list">
-    <field name="type">payment_means</field>
-    <field name="code">23</field>
-    <field name="name">Bank cheque (issued by a banking or similar establishment)</field>
-    <field name="description">Payment by a pre-printed form, which has been completed by a financial institution, on which instructions are given to an account holder (a bank or building society) to pay a stated sum to a named recipient.</field>
-</record>
-
-<record id="payment_means_24" model="unece.code.list">
-    <field name="type">payment_means</field>
-    <field name="code">24</field>
-    <field name="name">Bill of exchange awaiting acceptance</field>
-    <field name="description">Bill drawn by the creditor on the debtor but not yet accepted by the debtor.</field>
-</record>
-
-<record id="payment_means_25" model="unece.code.list">
-    <field name="type">payment_means</field>
-    <field name="code">25</field>
-    <field name="name">Certified cheque</field>
-    <field name="description">Payment by a pre-printed form stamped with the paying bank's certification on which instructions are given to an account holder (a bank or building society) to pay a stated sum to a named recipient.</field>
-</record>
-
-<record id="payment_means_26" model="unece.code.list">
-    <field name="type">payment_means</field>
-    <field name="code">26</field>
-    <field name="name">Local cheque</field>
-    <field name="description">Indicates that the cheque is given local to the recipient.</field>
-</record>
-
-<record id="payment_means_27" model="unece.code.list">
-    <field name="type">payment_means</field>
-    <field name="code">27</field>
-    <field name="name">ACH demand corporate trade payment (CTP) debit</field>
-    <field name="description">A debit transaction made through the ACH system to a demand deposit account using the CTP payment format.</field>
-</record>
-
-<record id="payment_means_28" model="unece.code.list">
-    <field name="type">payment_means</field>
-    <field name="code">28</field>
-    <field name="name">ACH demand corporate trade exchange (CTX) credit</field>
-    <field name="description">A credit transaction made through the ACH system to a demand deposit account using the CTX payment format.</field>
-</record>
-
-<record id="payment_means_29" model="unece.code.list">
-    <field name="type">payment_means</field>
-    <field name="code">29</field>
-    <field name="name">ACH demand corporate trade exchange (CTX) debit</field>
-    <field name="description">A debit transaction made through the ACH system to a demand account using the CTX payment format.</field>
-</record>
-
-<record id="payment_means_30" model="unece.code.list">
-    <field name="type">payment_means</field>
-    <field name="code">30</field>
-    <field name="name">Credit transfer</field>
-    <field name="description">Payment by credit movement of funds from one account to another.</field>
-</record>
-
-<record id="payment_means_31" model="unece.code.list">
-    <field name="type">payment_means</field>
-    <field name="code">31</field>
-    <field name="name">Debit transfer</field>
-    <field name="description">Payment by debit movement of funds from one account to another.</field>
-</record>
-
-<record id="payment_means_32" model="unece.code.list">
-    <field name="type">payment_means</field>
-    <field name="code">32</field>
-    <field name="name">ACH demand cash concentration/disbursement plus (CCD+) credit</field>
-    <field name="description">A credit transaction made through the ACH system to a demand deposit account using the CCD+ payment format.</field>
-</record>
-
-<record id="payment_means_33" model="unece.code.list">
-    <field name="type">payment_means</field>
-    <field name="code">33</field>
-    <field name="name">ACH demand cash concentration/disbursement plus (CCD+) debit</field>
-    <field name="description">A debit transaction made through the ACH system to a demand deposit account using the CCD+ payment format.</field>
-</record>
-
-<record id="payment_means_34" model="unece.code.list">
-    <field name="type">payment_means</field>
-    <field name="code">34</field>
-    <field name="name">ACH prearranged payment and deposit (PPD)</field>
-    <field name="description">A consumer credit transaction made through the ACH system to a demand deposit or savings account.</field>
-</record>
-
-<record id="payment_means_35" model="unece.code.list">
-    <field name="type">payment_means</field>
-    <field name="code">35</field>
-    <field name="name">ACH savings cash concentration/disbursement (CCD) credit</field>
-    <field name="description">A credit transaction made through the ACH system to a demand deposit or savings account.</field>
-</record>
-
-<record id="payment_means_36" model="unece.code.list">
-    <field name="type">payment_means</field>
-    <field name="code">36</field>
-    <field name="name">ACH savings cash concentration/disbursement (CCD) debit</field>
-    <field name="description">A debit transaction made through the ACH system to a savings account using the CCD payment format.</field>
-</record>
-
-<record id="payment_means_37" model="unece.code.list">
-    <field name="type">payment_means</field>
-    <field name="code">37</field>
-    <field name="name">ACH savings corporate trade payment (CTP) credit</field>
-    <field name="description">A credit transaction made through the ACH system to a savings account using the CTP payment format.</field>
-</record>
-
-<record id="payment_means_38" model="unece.code.list">
-    <field name="type">payment_means</field>
-    <field name="code">38</field>
-    <field name="name">ACH savings corporate trade payment (CTP) debit</field>
-    <field name="description">A debit transaction made through the ACH system to a savings account using the CTP payment format.</field>
-</record>
-
-<record id="payment_means_39" model="unece.code.list">
-    <field name="type">payment_means</field>
-    <field name="code">39</field>
-    <field name="name">ACH savings corporate trade exchange (CTX) credit</field>
-    <field name="description">A credit transaction made through the ACH system to a savings account using the CTX payment format.</field>
-</record>
-
-<record id="payment_means_40" model="unece.code.list">
-    <field name="type">payment_means</field>
-    <field name="code">40</field>
-    <field name="name">ACH savings corporate trade exchange (CTX) debit</field>
-    <field name="description">A debit transaction made through the ACH system to a savings account using the CTX payment format.</field>
-</record>
-
-<record id="payment_means_41" model="unece.code.list">
-    <field name="type">payment_means</field>
-    <field name="code">41</field>
-    <field name="name">ACH savings cash concentration/disbursement plus (CCD+) credit</field>
-    <field name="description">A credit transaction made through the ACH system to a savings account using the CCD+ payment format.</field>
-</record>
-
-<record id="payment_means_42" model="unece.code.list">
-    <field name="type">payment_means</field>
-    <field name="code">42</field>
-    <field name="name">Payment to bank account</field>
-    <field name="description">Payment by an arrangement for settling debts that is operated by the Post Office.</field>
-</record>
-
-<record id="payment_means_43" model="unece.code.list">
-    <field name="type">payment_means</field>
-    <field name="code">43</field>
-    <field name="name">ACH savings cash concentration/disbursement plus (CCD+) debit</field>
-    <field name="description">A debit transaction made through the ACH system to a savings account using the CCD+ payment format.</field>
-</record>
-
-<record id="payment_means_44" model="unece.code.list">
-    <field name="type">payment_means</field>
-    <field name="code">44</field>
-    <field name="name">Accepted bill of exchange</field>
-    <field name="description">Bill drawn by the creditor on the debtor and accepted by the debtor.</field>
-</record>
-
-<record id="payment_means_45" model="unece.code.list">
-    <field name="type">payment_means</field>
-    <field name="code">45</field>
-    <field name="name">Referenced home-banking credit transfer</field>
-    <field name="description">A referenced credit transfer initiated through home-banking.</field>
-</record>
-
-<record id="payment_means_46" model="unece.code.list">
-    <field name="type">payment_means</field>
-    <field name="code">46</field>
-    <field name="name">Interbank debit transfer</field>
-    <field name="description">A debit transfer via interbank means.</field>
-</record>
-
-<record id="payment_means_47" model="unece.code.list">
-    <field name="type">payment_means</field>
-    <field name="code">47</field>
-    <field name="name">Home-banking debit transfer</field>
-    <field name="description">A debit transfer initiated through home-banking.</field>
-</record>
-
-<record id="payment_means_48" model="unece.code.list">
-    <field name="type">payment_means</field>
-    <field name="code">48</field>
-    <field name="name">Bank card</field>
-    <field name="description">Payment by means of a card issued by a bank or other financial institution.</field>
-</record>
-
-<record id="payment_means_49" model="unece.code.list">
-    <field name="type">payment_means</field>
-    <field name="code">49</field>
-    <field name="name">Direct debit</field>
-    <field name="description">The amount is to be, or has been, directly debited to the customer's bank account.</field>
-</record>
-
-<record id="payment_means_50" model="unece.code.list">
-    <field name="type">payment_means</field>
-    <field name="code">50</field>
-    <field name="name">Payment by postgiro</field>
-    <field name="description">A method for the transmission of funds through the postal system rather than through the banking system.</field>
-</record>
-
-<record id="payment_means_51" model="unece.code.list">
-    <field name="type">payment_means</field>
-    <field name="code">51</field>
-    <field name="name">FR, norme 6 97-Telereglement CFONB (French Organisation for Banking Standards) - Option A</field>
-    <field name="description">A French standard procedure that allows a debtor to pay an amount due to a creditor. The creditor will forward it to its bank, which will collect the money on the bank account of the debtor.</field>
-</record>
-
-<record id="payment_means_52" model="unece.code.list">
-    <field name="type">payment_means</field>
-    <field name="code">52</field>
-    <field name="name">Urgent commercial payment</field>
-    <field name="description">Payment order which requires guaranteed processing by the most appropriate means to ensure it occurs on the requested execution date, provided that it is issued to the ordered bank before the agreed cut-off time.</field>
-</record>
-
-<record id="payment_means_53" model="unece.code.list">
-    <field name="type">payment_means</field>
-    <field name="code">53</field>
-    <field name="name">Urgent Treasury Payment</field>
-    <field name="description">Payment order or transfer which must be executed, by the most appropriate means, as urgently as possible and before urgent commercial payments.</field>
-</record>
-
-<record id="payment_means_54" model="unece.code.list">
-    <field name="type">payment_means</field>
-    <field name="code">54</field>
-    <field name="name">Credit card</field>
-    <field name="description">Payment made by means of credit card.</field>
-</record>
-
-<record id="payment_means_55" model="unece.code.list">
-    <field name="type">payment_means</field>
-    <field name="code">55</field>
-    <field name="name">Debit card</field>
-    <field name="description">Payment made by means of debit card.</field>
-</record>
-
-<record id="payment_means_56" model="unece.code.list">
-    <field name="type">payment_means</field>
-    <field name="code">56</field>
-    <field name="name">Bankgiro</field>
-    <field name="description">Payment will be, or has been, made by bankgiro.</field>
-</record>
-
-<record id="payment_means_57" model="unece.code.list">
-    <field name="type">payment_means</field>
-    <field name="code">57</field>
-    <field name="name">Standing agreement</field>
-    <field name="description">The payment means have been previously agreed between seller and buyer and thus are not stated again.</field>
-</record>
-
-<record id="payment_means_58" model="unece.code.list">
-    <field name="type">payment_means</field>
-    <field name="code">58</field>
-    <field name="name">SEPA credit transfer</field>
-    <field name="description">Credit transfer inside the Single Euro Payment Area (SEPA) system.</field>
-</record>
-
-<record id="payment_means_59" model="unece.code.list">
-    <field name="type">payment_means</field>
-    <field name="code">59</field>
-    <field name="name">SEPA direct debit</field>
-    <field name="description">Direct debit inside the Single Euro Payment Area (SEPA) system.</field>
-</record>
-
-<record id="payment_means_60" model="unece.code.list">
-    <field name="type">payment_means</field>
-    <field name="code">60</field>
-    <field name="name">Promissory note</field>
-    <field name="description">Payment by an unconditional promise in writing made by one person to another, signed by the maker, engaging to pay on demand or at a fixed or determinable future time a sum certain in money, to order or to bearer.</field>
-</record>
-
-<record id="payment_means_61" model="unece.code.list">
-    <field name="type">payment_means</field>
-    <field name="code">61</field>
-    <field name="name">Promissory note signed by the debtor</field>
-    <field name="description">Payment by an unconditional promise in writing made by the debtor to another person, signed by the debtor, engaging to pay on demand or at a fixed or determinable future time a sum certain in money, to order or to bearer.</field>
-</record>
-
-<record id="payment_means_62" model="unece.code.list">
-    <field name="type">payment_means</field>
-    <field name="code">62</field>
-    <field name="name">Promissory note signed by the debtor and endorsed by a bank</field>
-    <field name="description">Payment by an unconditional promise in writing made by the debtor to another person, signed by the debtor and endorsed by a bank, engaging to pay on demand or at a fixed or determinable future time a sum certain in money, to order or to bearer.</field>
-</record>
-
-<record id="payment_means_63" model="unece.code.list">
-    <field name="type">payment_means</field>
-    <field name="code">63</field>
-    <field name="name">Promissory note signed by the debtor and endorsed by a third party</field>
-    <field name="description">Payment by an unconditional promise in writing made by the debtor to another person, signed by the debtor and endorsed by a third party, engaging to pay on demand or at a fixed or determinable future time a sum certain in money, to order or to bearer.</field>
-</record>
-
-<record id="payment_means_64" model="unece.code.list">
-    <field name="type">payment_means</field>
-    <field name="code">64</field>
-    <field name="name">Promissory note signed by a bank</field>
-    <field name="description">Payment by an unconditional promise in writing made by the bank to another person, signed by the bank, engaging to pay on demand or at a fixed or determinable future time a sum certain in money, to order or to bearer.</field>
-</record>
-
-<record id="payment_means_65" model="unece.code.list">
-    <field name="type">payment_means</field>
-    <field name="code">65</field>
-    <field name="name">Promissory note signed by a bank and endorsed by another bank</field>
-    <field name="description">Payment by an unconditional promise in writing made by the bank to another person, signed by the bank and endorsed by another bank, engaging to pay on demand or at a fixed or determinable future time a sum certain in money, to order or to bearer.</field>
-</record>
-
-<record id="payment_means_66" model="unece.code.list">
-    <field name="type">payment_means</field>
-    <field name="code">66</field>
-    <field name="name">Promissory note signed by a third party</field>
-    <field name="description">Payment by an unconditional promise in writing made by a third party to another person, signed by the third party, engaging to pay on demand or at a fixed or determinable future time a sum certain in money, to order or to bearer.</field>
-</record>
-
-<record id="payment_means_67" model="unece.code.list">
-    <field name="type">payment_means</field>
-    <field name="code">67</field>
-    <field name="name">Promissory note signed by a third party and endorsed by a bank</field>
-    <field name="description">Payment by an unconditional promise in writing made by a third party to another person, signed by the third party and endorsed by a bank, engaging to pay on demand or at a fixed or determinable future time a sum certain in money, to order or to bearer.</field>
-</record>
-
-<record id="payment_means_68" model="unece.code.list">
-    <field name="type">payment_means</field>
-    <field name="code">68</field>
-    <field name="name">Online payment service</field>
-    <field name="description">Payment will be made or has been made by an online payment service.</field>
-</record>
-
-<record id="payment_means_70" model="unece.code.list">
-    <field name="type">payment_means</field>
-    <field name="code">70</field>
-    <field name="name">Bill drawn by the creditor on the debtor</field>
-    <field name="description">Bill drawn by the creditor on the debtor.</field>
-</record>
-
-<record id="payment_means_74" model="unece.code.list">
-    <field name="type">payment_means</field>
-    <field name="code">74</field>
-    <field name="name">Bill drawn by the creditor on a bank</field>
-    <field name="description">Bill drawn by the creditor on a bank.</field>
-</record>
-
-<record id="payment_means_75" model="unece.code.list">
-    <field name="type">payment_means</field>
-    <field name="code">75</field>
-    <field name="name">Bill drawn by the creditor, endorsed by another bank</field>
-    <field name="description">Bill drawn by the creditor, endorsed by another bank.</field>
-</record>
-
-<record id="payment_means_76" model="unece.code.list">
-    <field name="type">payment_means</field>
-    <field name="code">76</field>
-    <field name="name">Bill drawn by the creditor on a bank and endorsed by a third party</field>
-    <field name="description">Bill drawn by the creditor on a bank and endorsed by a third party.</field>
-</record>
-
-<record id="payment_means_77" model="unece.code.list">
-    <field name="type">payment_means</field>
-    <field name="code">77</field>
-    <field name="name">Bill drawn by the creditor on a third party</field>
-    <field name="description">Bill drawn by the creditor on a third party.</field>
-</record>
-
-<record id="payment_means_78" model="unece.code.list">
-    <field name="type">payment_means</field>
-    <field name="code">78</field>
-    <field name="name">Bill drawn by creditor on third party, accepted and endorsed by bank</field>
-    <field name="description">Bill drawn by creditor on third party, accepted and endorsed by bank.</field>
-</record>
-
-<record id="payment_means_91" model="unece.code.list">
-    <field name="type">payment_means</field>
-    <field name="code">91</field>
-    <field name="name">Not transferable banker's draft</field>
-    <field name="description">Issue a bankers draft not endorsable.</field>
-</record>
-
-<record id="payment_means_92" model="unece.code.list">
-    <field name="type">payment_means</field>
-    <field name="code">92</field>
-    <field name="name">Not transferable local cheque</field>
-    <field name="description">Issue a cheque not endorsable in payment of the funds.</field>
-</record>
-
-<record id="payment_means_93" model="unece.code.list">
-    <field name="type">payment_means</field>
-    <field name="code">93</field>
-    <field name="name">Reference giro</field>
-    <field name="description">Ordering customer tells the bank to use the payment system 'Reference giro'. Used in the Finnish national banking system.</field>
-</record>
-
-<record id="payment_means_94" model="unece.code.list">
-    <field name="type">payment_means</field>
-    <field name="code">94</field>
-    <field name="name">Urgent giro</field>
-    <field name="description">Ordering customer tells the bank to use the bank service 'Urgent Giro' when transferring the payment. Used in Finnish national banking system.</field>
-</record>
-
-<record id="payment_means_95" model="unece.code.list">
-    <field name="type">payment_means</field>
-    <field name="code">95</field>
-    <field name="name">Free format giro</field>
-    <field name="description">Ordering customer tells the ordering bank to use the bank service 'Free Format Giro' when transferring the payment. Used in Finnish national banking system.</field>
-</record>
-
-<record id="payment_means_96" model="unece.code.list">
-    <field name="type">payment_means</field>
-    <field name="code">96</field>
-    <field name="name">Requested method for payment was not used</field>
-    <field name="description">If the requested method for payment was or could not be used, this code indicates that.</field>
-</record>
-
-<record id="payment_means_97" model="unece.code.list">
-    <field name="type">payment_means</field>
-    <field name="code">97</field>
-    <field name="name">Clearing between partners</field>
-    <field name="description">Amounts which two partners owe to each other to be compensated in order to avoid useless payments.</field>
-</record>
-
-<record id="payment_means_ZZZ" model="unece.code.list">
-    <field name="type">payment_means</field>
-    <field name="code">ZZZ</field>
-    <field name="name">Mutually defined</field>
-    <field name="description">A code assigned within a code list to be used on an interim basis and as defined among trading partners until a precise code can be assigned to the code list.</field>
-</record>
-
-
+    <record id="payment_means_1" model="unece.code.list">
+        <field name="type">payment_means</field>
+        <field name="code">1</field>
+        <field name="name">Instrument not defined</field>
+        <field
+            name="description"
+        >Not defined legally enforceable agreement between two or more parties (expressing a contractual right or a right to the payment of money).</field>
+    </record>
+    <record id="payment_means_2" model="unece.code.list">
+        <field name="type">payment_means</field>
+        <field name="code">2</field>
+        <field name="name">Automated clearing house credit</field>
+        <field
+            name="description"
+        >A credit transaction made through the automated clearing house system.</field>
+    </record>
+    <record id="payment_means_3" model="unece.code.list">
+        <field name="type">payment_means</field>
+        <field name="code">3</field>
+        <field name="name">Automated clearing house debit</field>
+        <field
+            name="description"
+        >A debit transaction made through the automated clearing house system.</field>
+    </record>
+    <record id="payment_means_4" model="unece.code.list">
+        <field name="type">payment_means</field>
+        <field name="code">4</field>
+        <field name="name">ACH demand debit reversal</field>
+        <field
+            name="description"
+        >A request to reverse an ACH debit transaction to a demand deposit account.</field>
+    </record>
+    <record id="payment_means_5" model="unece.code.list">
+        <field name="type">payment_means</field>
+        <field name="code">5</field>
+        <field name="name">ACH demand credit reversal</field>
+        <field
+            name="description"
+        >A request to reverse a credit transaction to a demand deposit account.</field>
+    </record>
+    <record id="payment_means_6" model="unece.code.list">
+        <field name="type">payment_means</field>
+        <field name="code">6</field>
+        <field name="name">ACH demand credit</field>
+        <field
+            name="description"
+        >A credit transaction made through the ACH system to a demand deposit account.</field>
+    </record>
+    <record id="payment_means_7" model="unece.code.list">
+        <field name="type">payment_means</field>
+        <field name="code">7</field>
+        <field name="name">ACH demand debit</field>
+        <field
+            name="description"
+        >A debit transaction made through the ACH system to a demand deposit account.</field>
+    </record>
+    <record id="payment_means_8" model="unece.code.list">
+        <field name="type">payment_means</field>
+        <field name="code">8</field>
+        <field name="name">Hold</field>
+        <field
+            name="description"
+        >Indicates that the bank should hold the payment for collection by the beneficiary or other instructions.</field>
+    </record>
+    <record id="payment_means_9" model="unece.code.list">
+        <field name="type">payment_means</field>
+        <field name="code">9</field>
+        <field name="name">National or regional clearing</field>
+        <field
+            name="description"
+        >Indicates that the payment should be made using the national or regional clearing.</field>
+    </record>
+    <record id="payment_means_10" model="unece.code.list">
+        <field name="type">payment_means</field>
+        <field name="code">10</field>
+        <field name="name">In cash</field>
+        <field
+            name="description"
+        >Payment by currency (including bills and coins) in circulation, including checking account deposits.</field>
+    </record>
+    <record id="payment_means_11" model="unece.code.list">
+        <field name="type">payment_means</field>
+        <field name="code">11</field>
+        <field name="name">ACH savings credit reversal</field>
+        <field
+            name="description"
+        >A request to reverse an ACH credit transaction to a savings account.</field>
+    </record>
+    <record id="payment_means_12" model="unece.code.list">
+        <field name="type">payment_means</field>
+        <field name="code">12</field>
+        <field name="name">ACH savings debit reversal</field>
+        <field
+            name="description"
+        >A request to reverse an ACH debit transaction to a savings account.</field>
+    </record>
+    <record id="payment_means_13" model="unece.code.list">
+        <field name="type">payment_means</field>
+        <field name="code">13</field>
+        <field name="name">ACH savings credit</field>
+        <field
+            name="description"
+        >A credit transaction made through the ACH system to a savings account.</field>
+    </record>
+    <record id="payment_means_14" model="unece.code.list">
+        <field name="type">payment_means</field>
+        <field name="code">14</field>
+        <field name="name">ACH savings debit</field>
+        <field
+            name="description"
+        >A debit transaction made through the ACH system to a savings account.</field>
+    </record>
+    <record id="payment_means_15" model="unece.code.list">
+        <field name="type">payment_means</field>
+        <field name="code">15</field>
+        <field name="name">Bookentry credit</field>
+        <field
+            name="description"
+        >A credit entry between two accounts at the same bank branch. Synonym: house credit.</field>
+    </record>
+    <record id="payment_means_16" model="unece.code.list">
+        <field name="type">payment_means</field>
+        <field name="code">16</field>
+        <field name="name">Bookentry debit</field>
+        <field
+            name="description"
+        >A debit entry between two accounts at the same bank branch. Synonym: house debit.</field>
+    </record>
+    <record id="payment_means_17" model="unece.code.list">
+        <field name="type">payment_means</field>
+        <field name="code">17</field>
+        <field
+            name="name"
+        >ACH demand cash concentration/disbursement (CCD) credit</field>
+        <field
+            name="description"
+        >A credit transaction made through the ACH system to a demand deposit account using the CCD payment format.</field>
+    </record>
+    <record id="payment_means_18" model="unece.code.list">
+        <field name="type">payment_means</field>
+        <field name="code">18</field>
+        <field
+            name="name"
+        >ACH demand cash concentration/disbursement (CCD) debit</field>
+        <field
+            name="description"
+        >A debit transaction made through the ACH system to a demand deposit account using the CCD payment format.</field>
+    </record>
+    <record id="payment_means_19" model="unece.code.list">
+        <field name="type">payment_means</field>
+        <field name="code">19</field>
+        <field name="name">ACH demand corporate trade payment (CTP) credit</field>
+        <field
+            name="description"
+        >A credit transaction made through the ACH system to a demand deposit account using the CTP payment format.</field>
+    </record>
+    <record id="payment_means_20" model="unece.code.list">
+        <field name="type">payment_means</field>
+        <field name="code">20</field>
+        <field name="name">Cheque</field>
+        <field
+            name="description"
+        >Payment by a pre-printed form on which instructions are given to an account holder (a bank or building society) to pay a stated sum to a named recipient.</field>
+    </record>
+    <record id="payment_means_21" model="unece.code.list">
+        <field name="type">payment_means</field>
+        <field name="code">21</field>
+        <field name="name">Banker's draft</field>
+        <field
+            name="description"
+        >Issue of a banker's draft in payment of the funds.</field>
+    </record>
+    <record id="payment_means_22" model="unece.code.list">
+        <field name="type">payment_means</field>
+        <field name="code">22</field>
+        <field name="name">Certified banker's draft</field>
+        <field
+            name="description"
+        >Cheque drawn by a bank on itself or its agent. A person who owes money to another buys the draft from a bank for cash and hands it to the creditor who need have no fear that it might be dishonoured.</field>
+    </record>
+    <record id="payment_means_23" model="unece.code.list">
+        <field name="type">payment_means</field>
+        <field name="code">23</field>
+        <field
+            name="name"
+        >Bank cheque (issued by a banking or similar establishment)</field>
+        <field
+            name="description"
+        >Payment by a pre-printed form, which has been completed by a financial institution, on which instructions are given to an account holder (a bank or building society) to pay a stated sum to a named recipient.</field>
+    </record>
+    <record id="payment_means_24" model="unece.code.list">
+        <field name="type">payment_means</field>
+        <field name="code">24</field>
+        <field name="name">Bill of exchange awaiting acceptance</field>
+        <field
+            name="description"
+        >Bill drawn by the creditor on the debtor but not yet accepted by the debtor.</field>
+    </record>
+    <record id="payment_means_25" model="unece.code.list">
+        <field name="type">payment_means</field>
+        <field name="code">25</field>
+        <field name="name">Certified cheque</field>
+        <field
+            name="description"
+        >Payment by a pre-printed form stamped with the paying bank's certification on which instructions are given to an account holder (a bank or building society) to pay a stated sum to a named recipient.</field>
+    </record>
+    <record id="payment_means_26" model="unece.code.list">
+        <field name="type">payment_means</field>
+        <field name="code">26</field>
+        <field name="name">Local cheque</field>
+        <field
+            name="description"
+        >Indicates that the cheque is given local to the recipient.</field>
+    </record>
+    <record id="payment_means_27" model="unece.code.list">
+        <field name="type">payment_means</field>
+        <field name="code">27</field>
+        <field name="name">ACH demand corporate trade payment (CTP) debit</field>
+        <field
+            name="description"
+        >A debit transaction made through the ACH system to a demand deposit account using the CTP payment format.</field>
+    </record>
+    <record id="payment_means_28" model="unece.code.list">
+        <field name="type">payment_means</field>
+        <field name="code">28</field>
+        <field name="name">ACH demand corporate trade exchange (CTX) credit</field>
+        <field
+            name="description"
+        >A credit transaction made through the ACH system to a demand deposit account using the CTX payment format.</field>
+    </record>
+    <record id="payment_means_29" model="unece.code.list">
+        <field name="type">payment_means</field>
+        <field name="code">29</field>
+        <field name="name">ACH demand corporate trade exchange (CTX) debit</field>
+        <field
+            name="description"
+        >A debit transaction made through the ACH system to a demand account using the CTX payment format.</field>
+    </record>
+    <record id="payment_means_30" model="unece.code.list">
+        <field name="type">payment_means</field>
+        <field name="code">30</field>
+        <field name="name">Credit transfer</field>
+        <field
+            name="description"
+        >Payment by credit movement of funds from one account to another.</field>
+    </record>
+    <record id="payment_means_31" model="unece.code.list">
+        <field name="type">payment_means</field>
+        <field name="code">31</field>
+        <field name="name">Debit transfer</field>
+        <field
+            name="description"
+        >Payment by debit movement of funds from one account to another.</field>
+    </record>
+    <record id="payment_means_32" model="unece.code.list">
+        <field name="type">payment_means</field>
+        <field name="code">32</field>
+        <field
+            name="name"
+        >ACH demand cash concentration/disbursement plus (CCD+) credit</field>
+        <field
+            name="description"
+        >A credit transaction made through the ACH system to a demand deposit account using the CCD+ payment format.</field>
+    </record>
+    <record id="payment_means_33" model="unece.code.list">
+        <field name="type">payment_means</field>
+        <field name="code">33</field>
+        <field
+            name="name"
+        >ACH demand cash concentration/disbursement plus (CCD+) debit</field>
+        <field
+            name="description"
+        >A debit transaction made through the ACH system to a demand deposit account using the CCD+ payment format.</field>
+    </record>
+    <record id="payment_means_34" model="unece.code.list">
+        <field name="type">payment_means</field>
+        <field name="code">34</field>
+        <field name="name">ACH prearranged payment and deposit (PPD)</field>
+        <field
+            name="description"
+        >A consumer credit transaction made through the ACH system to a demand deposit or savings account.</field>
+    </record>
+    <record id="payment_means_35" model="unece.code.list">
+        <field name="type">payment_means</field>
+        <field name="code">35</field>
+        <field
+            name="name"
+        >ACH savings cash concentration/disbursement (CCD) credit</field>
+        <field
+            name="description"
+        >A credit transaction made through the ACH system to a demand deposit or savings account.</field>
+    </record>
+    <record id="payment_means_36" model="unece.code.list">
+        <field name="type">payment_means</field>
+        <field name="code">36</field>
+        <field
+            name="name"
+        >ACH savings cash concentration/disbursement (CCD) debit</field>
+        <field
+            name="description"
+        >A debit transaction made through the ACH system to a savings account using the CCD payment format.</field>
+    </record>
+    <record id="payment_means_37" model="unece.code.list">
+        <field name="type">payment_means</field>
+        <field name="code">37</field>
+        <field name="name">ACH savings corporate trade payment (CTP) credit</field>
+        <field
+            name="description"
+        >A credit transaction made through the ACH system to a savings account using the CTP payment format.</field>
+    </record>
+    <record id="payment_means_38" model="unece.code.list">
+        <field name="type">payment_means</field>
+        <field name="code">38</field>
+        <field name="name">ACH savings corporate trade payment (CTP) debit</field>
+        <field
+            name="description"
+        >A debit transaction made through the ACH system to a savings account using the CTP payment format.</field>
+    </record>
+    <record id="payment_means_39" model="unece.code.list">
+        <field name="type">payment_means</field>
+        <field name="code">39</field>
+        <field name="name">ACH savings corporate trade exchange (CTX) credit</field>
+        <field
+            name="description"
+        >A credit transaction made through the ACH system to a savings account using the CTX payment format.</field>
+    </record>
+    <record id="payment_means_40" model="unece.code.list">
+        <field name="type">payment_means</field>
+        <field name="code">40</field>
+        <field name="name">ACH savings corporate trade exchange (CTX) debit</field>
+        <field
+            name="description"
+        >A debit transaction made through the ACH system to a savings account using the CTX payment format.</field>
+    </record>
+    <record id="payment_means_41" model="unece.code.list">
+        <field name="type">payment_means</field>
+        <field name="code">41</field>
+        <field
+            name="name"
+        >ACH savings cash concentration/disbursement plus (CCD+) credit</field>
+        <field
+            name="description"
+        >A credit transaction made through the ACH system to a savings account using the CCD+ payment format.</field>
+    </record>
+    <record id="payment_means_42" model="unece.code.list">
+        <field name="type">payment_means</field>
+        <field name="code">42</field>
+        <field name="name">Payment to bank account</field>
+        <field
+            name="description"
+        >Payment by an arrangement for settling debts that is operated by the Post Office.</field>
+    </record>
+    <record id="payment_means_43" model="unece.code.list">
+        <field name="type">payment_means</field>
+        <field name="code">43</field>
+        <field
+            name="name"
+        >ACH savings cash concentration/disbursement plus (CCD+) debit</field>
+        <field
+            name="description"
+        >A debit transaction made through the ACH system to a savings account using the CCD+ payment format.</field>
+    </record>
+    <record id="payment_means_44" model="unece.code.list">
+        <field name="type">payment_means</field>
+        <field name="code">44</field>
+        <field name="name">Accepted bill of exchange</field>
+        <field
+            name="description"
+        >Bill drawn by the creditor on the debtor and accepted by the debtor.</field>
+    </record>
+    <record id="payment_means_45" model="unece.code.list">
+        <field name="type">payment_means</field>
+        <field name="code">45</field>
+        <field name="name">Referenced home-banking credit transfer</field>
+        <field
+            name="description"
+        >A referenced credit transfer initiated through home-banking.</field>
+    </record>
+    <record id="payment_means_46" model="unece.code.list">
+        <field name="type">payment_means</field>
+        <field name="code">46</field>
+        <field name="name">Interbank debit transfer</field>
+        <field name="description">A debit transfer via interbank means.</field>
+    </record>
+    <record id="payment_means_47" model="unece.code.list">
+        <field name="type">payment_means</field>
+        <field name="code">47</field>
+        <field name="name">Home-banking debit transfer</field>
+        <field
+            name="description"
+        >A debit transfer initiated through home-banking.</field>
+    </record>
+    <record id="payment_means_48" model="unece.code.list">
+        <field name="type">payment_means</field>
+        <field name="code">48</field>
+        <field name="name">Bank card</field>
+        <field
+            name="description"
+        >Payment by means of a card issued by a bank or other financial institution.</field>
+    </record>
+    <record id="payment_means_49" model="unece.code.list">
+        <field name="type">payment_means</field>
+        <field name="code">49</field>
+        <field name="name">Direct debit</field>
+        <field
+            name="description"
+        >The amount is to be, or has been, directly debited to the customer's bank account.</field>
+    </record>
+    <record id="payment_means_50" model="unece.code.list">
+        <field name="type">payment_means</field>
+        <field name="code">50</field>
+        <field name="name">Payment by postgiro</field>
+        <field
+            name="description"
+        >A method for the transmission of funds through the postal system rather than through the banking system.</field>
+    </record>
+    <record id="payment_means_51" model="unece.code.list">
+        <field name="type">payment_means</field>
+        <field name="code">51</field>
+        <field
+            name="name"
+        >FR, norme 6 97-Telereglement CFONB (French Organisation for Banking Standards) - Option A</field>
+        <field
+            name="description"
+        >A French standard procedure that allows a debtor to pay an amount due to a creditor. The creditor will forward it to its bank, which will collect the money on the bank account of the debtor.</field>
+    </record>
+    <record id="payment_means_52" model="unece.code.list">
+        <field name="type">payment_means</field>
+        <field name="code">52</field>
+        <field name="name">Urgent commercial payment</field>
+        <field
+            name="description"
+        >Payment order which requires guaranteed processing by the most appropriate means to ensure it occurs on the requested execution date, provided that it is issued to the ordered bank before the agreed cut-off time.</field>
+    </record>
+    <record id="payment_means_53" model="unece.code.list">
+        <field name="type">payment_means</field>
+        <field name="code">53</field>
+        <field name="name">Urgent Treasury Payment</field>
+        <field
+            name="description"
+        >Payment order or transfer which must be executed, by the most appropriate means, as urgently as possible and before urgent commercial payments.</field>
+    </record>
+    <record id="payment_means_54" model="unece.code.list">
+        <field name="type">payment_means</field>
+        <field name="code">54</field>
+        <field name="name">Credit card</field>
+        <field name="description">Payment made by means of credit card.</field>
+    </record>
+    <record id="payment_means_55" model="unece.code.list">
+        <field name="type">payment_means</field>
+        <field name="code">55</field>
+        <field name="name">Debit card</field>
+        <field name="description">Payment made by means of debit card.</field>
+    </record>
+    <record id="payment_means_56" model="unece.code.list">
+        <field name="type">payment_means</field>
+        <field name="code">56</field>
+        <field name="name">Bankgiro</field>
+        <field
+            name="description"
+        >Payment will be, or has been, made by bankgiro.</field>
+    </record>
+    <record id="payment_means_57" model="unece.code.list">
+        <field name="type">payment_means</field>
+        <field name="code">57</field>
+        <field name="name">Standing agreement</field>
+        <field
+            name="description"
+        >The payment means have been previously agreed between seller and buyer and thus are not stated again.</field>
+    </record>
+    <record id="payment_means_58" model="unece.code.list">
+        <field name="type">payment_means</field>
+        <field name="code">58</field>
+        <field name="name">SEPA credit transfer</field>
+        <field
+            name="description"
+        >Credit transfer inside the Single Euro Payment Area (SEPA) system.</field>
+    </record>
+    <record id="payment_means_59" model="unece.code.list">
+        <field name="type">payment_means</field>
+        <field name="code">59</field>
+        <field name="name">SEPA direct debit</field>
+        <field
+            name="description"
+        >Direct debit inside the Single Euro Payment Area (SEPA) system.</field>
+    </record>
+    <record id="payment_means_60" model="unece.code.list">
+        <field name="type">payment_means</field>
+        <field name="code">60</field>
+        <field name="name">Promissory note</field>
+        <field
+            name="description"
+        >Payment by an unconditional promise in writing made by one person to another, signed by the maker, engaging to pay on demand or at a fixed or determinable future time a sum certain in money, to order or to bearer.</field>
+    </record>
+    <record id="payment_means_61" model="unece.code.list">
+        <field name="type">payment_means</field>
+        <field name="code">61</field>
+        <field name="name">Promissory note signed by the debtor</field>
+        <field
+            name="description"
+        >Payment by an unconditional promise in writing made by the debtor to another person, signed by the debtor, engaging to pay on demand or at a fixed or determinable future time a sum certain in money, to order or to bearer.</field>
+    </record>
+    <record id="payment_means_62" model="unece.code.list">
+        <field name="type">payment_means</field>
+        <field name="code">62</field>
+        <field
+            name="name"
+        >Promissory note signed by the debtor and endorsed by a bank</field>
+        <field
+            name="description"
+        >Payment by an unconditional promise in writing made by the debtor to another person, signed by the debtor and endorsed by a bank, engaging to pay on demand or at a fixed or determinable future time a sum certain in money, to order or to bearer.</field>
+    </record>
+    <record id="payment_means_63" model="unece.code.list">
+        <field name="type">payment_means</field>
+        <field name="code">63</field>
+        <field
+            name="name"
+        >Promissory note signed by the debtor and endorsed by a third party</field>
+        <field
+            name="description"
+        >Payment by an unconditional promise in writing made by the debtor to another person, signed by the debtor and endorsed by a third party, engaging to pay on demand or at a fixed or determinable future time a sum certain in money, to order or to bearer.</field>
+    </record>
+    <record id="payment_means_64" model="unece.code.list">
+        <field name="type">payment_means</field>
+        <field name="code">64</field>
+        <field name="name">Promissory note signed by a bank</field>
+        <field
+            name="description"
+        >Payment by an unconditional promise in writing made by the bank to another person, signed by the bank, engaging to pay on demand or at a fixed or determinable future time a sum certain in money, to order or to bearer.</field>
+    </record>
+    <record id="payment_means_65" model="unece.code.list">
+        <field name="type">payment_means</field>
+        <field name="code">65</field>
+        <field
+            name="name"
+        >Promissory note signed by a bank and endorsed by another bank</field>
+        <field
+            name="description"
+        >Payment by an unconditional promise in writing made by the bank to another person, signed by the bank and endorsed by another bank, engaging to pay on demand or at a fixed or determinable future time a sum certain in money, to order or to bearer.</field>
+    </record>
+    <record id="payment_means_66" model="unece.code.list">
+        <field name="type">payment_means</field>
+        <field name="code">66</field>
+        <field name="name">Promissory note signed by a third party</field>
+        <field
+            name="description"
+        >Payment by an unconditional promise in writing made by a third party to another person, signed by the third party, engaging to pay on demand or at a fixed or determinable future time a sum certain in money, to order or to bearer.</field>
+    </record>
+    <record id="payment_means_67" model="unece.code.list">
+        <field name="type">payment_means</field>
+        <field name="code">67</field>
+        <field
+            name="name"
+        >Promissory note signed by a third party and endorsed by a bank</field>
+        <field
+            name="description"
+        >Payment by an unconditional promise in writing made by a third party to another person, signed by the third party and endorsed by a bank, engaging to pay on demand or at a fixed or determinable future time a sum certain in money, to order or to bearer.</field>
+    </record>
+    <record id="payment_means_68" model="unece.code.list">
+        <field name="type">payment_means</field>
+        <field name="code">68</field>
+        <field name="name">Online payment service</field>
+        <field
+            name="description"
+        >Payment will be made or has been made by an online payment service.</field>
+    </record>
+    <record id="payment_means_70" model="unece.code.list">
+        <field name="type">payment_means</field>
+        <field name="code">70</field>
+        <field name="name">Bill drawn by the creditor on the debtor</field>
+        <field name="description">Bill drawn by the creditor on the debtor.</field>
+    </record>
+    <record id="payment_means_74" model="unece.code.list">
+        <field name="type">payment_means</field>
+        <field name="code">74</field>
+        <field name="name">Bill drawn by the creditor on a bank</field>
+        <field name="description">Bill drawn by the creditor on a bank.</field>
+    </record>
+    <record id="payment_means_75" model="unece.code.list">
+        <field name="type">payment_means</field>
+        <field name="code">75</field>
+        <field name="name">Bill drawn by the creditor, endorsed by another bank</field>
+        <field
+            name="description"
+        >Bill drawn by the creditor, endorsed by another bank.</field>
+    </record>
+    <record id="payment_means_76" model="unece.code.list">
+        <field name="type">payment_means</field>
+        <field name="code">76</field>
+        <field
+            name="name"
+        >Bill drawn by the creditor on a bank and endorsed by a third party</field>
+        <field
+            name="description"
+        >Bill drawn by the creditor on a bank and endorsed by a third party.</field>
+    </record>
+    <record id="payment_means_77" model="unece.code.list">
+        <field name="type">payment_means</field>
+        <field name="code">77</field>
+        <field name="name">Bill drawn by the creditor on a third party</field>
+        <field name="description">Bill drawn by the creditor on a third party.</field>
+    </record>
+    <record id="payment_means_78" model="unece.code.list">
+        <field name="type">payment_means</field>
+        <field name="code">78</field>
+        <field
+            name="name"
+        >Bill drawn by creditor on third party, accepted and endorsed by bank</field>
+        <field
+            name="description"
+        >Bill drawn by creditor on third party, accepted and endorsed by bank.</field>
+    </record>
+    <record id="payment_means_91" model="unece.code.list">
+        <field name="type">payment_means</field>
+        <field name="code">91</field>
+        <field name="name">Not transferable banker's draft</field>
+        <field name="description">Issue a bankers draft not endorsable.</field>
+    </record>
+    <record id="payment_means_92" model="unece.code.list">
+        <field name="type">payment_means</field>
+        <field name="code">92</field>
+        <field name="name">Not transferable local cheque</field>
+        <field
+            name="description"
+        >Issue a cheque not endorsable in payment of the funds.</field>
+    </record>
+    <record id="payment_means_93" model="unece.code.list">
+        <field name="type">payment_means</field>
+        <field name="code">93</field>
+        <field name="name">Reference giro</field>
+        <field
+            name="description"
+        >Ordering customer tells the bank to use the payment system 'Reference giro'. Used in the Finnish national banking system.</field>
+    </record>
+    <record id="payment_means_94" model="unece.code.list">
+        <field name="type">payment_means</field>
+        <field name="code">94</field>
+        <field name="name">Urgent giro</field>
+        <field
+            name="description"
+        >Ordering customer tells the bank to use the bank service 'Urgent Giro' when transferring the payment. Used in Finnish national banking system.</field>
+    </record>
+    <record id="payment_means_95" model="unece.code.list">
+        <field name="type">payment_means</field>
+        <field name="code">95</field>
+        <field name="name">Free format giro</field>
+        <field
+            name="description"
+        >Ordering customer tells the ordering bank to use the bank service 'Free Format Giro' when transferring the payment. Used in Finnish national banking system.</field>
+    </record>
+    <record id="payment_means_96" model="unece.code.list">
+        <field name="type">payment_means</field>
+        <field name="code">96</field>
+        <field name="name">Requested method for payment was not used</field>
+        <field
+            name="description"
+        >If the requested method for payment was or could not be used, this code indicates that.</field>
+    </record>
+    <record id="payment_means_97" model="unece.code.list">
+        <field name="type">payment_means</field>
+        <field name="code">97</field>
+        <field name="name">Clearing between partners</field>
+        <field
+            name="description"
+        >Amounts which two partners owe to each other to be compensated in order to avoid useless payments.</field>
+    </record>
+    <record id="payment_means_ZZZ" model="unece.code.list">
+        <field name="type">payment_means</field>
+        <field name="code">ZZZ</field>
+        <field name="name">Mutually defined</field>
+        <field
+            name="description"
+        >A code assigned within a code list to be used on an interim basis and as defined among trading partners until a precise code can be assigned to the code list.</field>
+    </record>
 </odoo>
