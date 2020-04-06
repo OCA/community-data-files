@@ -32,7 +32,7 @@ standardized by the
 `Wikipedia <https://en.wikipedia.org/wiki/United_Nations_Economic_Commission_for_Europe>`_.
 These code lists are sometimes called UNCL (United Nations Code List). UNECE
 has standardized code lists for many different things: units of measure,
-payment means, modes of transport, packacing, taxes, etc....
+payment means, modes of transport, packaging, taxes, etc....
 
 **Table of contents**
 
