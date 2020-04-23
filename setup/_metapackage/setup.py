@@ -11,6 +11,7 @@ setuptools.setup(
         'odoo13-addon-account_payment_unece',
         'odoo13-addon-account_tax_unece',
         'odoo13-addon-base_bank_from_iban',
+        'odoo13-addon-base_currency_iso_4217',
         'odoo13-addon-base_unece',
         'odoo13-addon-product_fao_fishing',
         'odoo13-addon-uom_unece',
