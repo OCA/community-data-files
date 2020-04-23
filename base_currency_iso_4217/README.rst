@@ -23,7 +23,7 @@ Base Currency ISO 4217
     :target: https://runbot.odoo-community.org/runbot/101/13.0
     :alt: Try me on Runbot
 
-|badge1| |badge2| |badge3| |badge4| |badge5|
+|badge1| |badge2| |badge3| |badge4| |badge5| 
 
 This module adds the following fields to the currencies, as defined by the the
 ISO 4127 standard:
@@ -65,7 +65,6 @@ Contributors
 
 * Jordi Ballester Alomar <jordi.ballester@forgeflow.com> (https://www.forgeflow.com)
 * Levent Karakaş <leventk@eskayazilim.com.tr> (https://www.eskayazilim.com.tr)
-
 
 Maintainers
 ~~~~~~~~~~~
