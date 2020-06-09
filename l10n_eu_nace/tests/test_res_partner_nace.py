@@ -10,10 +10,27 @@ class TestResPartnerNace(TransactionCase):
         self.nace = self.env['res.partner.nace'].create(
             {'name': 'nace_test', 'code': 'code_nace'}
         )
+        self.child_nace = self.env['res.partner.nace'].create(
+            {
+                'name': 'nace_child',
+                'code': 'code_child',
+                'parent_id': self.nace.id,
+            }
+        )
 
-    def test_name_get(self):
+    def test_complete_name_1(self):
         self.assertEqual(self.nace.name, 'nace_test')
-        self.assertEqual(self.nace.display_name, '[code_nace] nace_test')
+        self.assertEqual(self.nace.complete_name, '[code_nace] nace_test')
+        self.assertEqual(
+            self.child_nace.complete_name,
+            '[code_nace] nace_test / [code_child] nace_child',
+        )
+
+    def test_complete_name_2(self):
+        self.assertEqual(
+            self.child_nace.with_context(nace_display="short").complete_name,
+            '[code_child] nace_child',
+        )
 
     def test_name_search(self):
         self.assertEqual(
