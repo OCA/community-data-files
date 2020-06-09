@@ -2,6 +2,7 @@
 # License AGPL-3.0 or later (http://www.gnu.org/licenses/agpl).
 
 from odoo import api, fields, models, _
+from odoo.osv.expression import NEGATIVE_TERM_OPERATORS
 
 
 class ResPartnerNace(models.Model):
@@ -10,7 +11,11 @@ class ResPartnerNace(models.Model):
     _description = 'European NACE partner category'
     _order = 'code'
     _parent_store = True
+    _rec_name = "complete_name"
 
+    complete_name = fields.Char(
+        compute="_compute_complete_name", search="_search_complete_name"
+    )
     name = fields.Char(index=True, translate=True)
     parent_id = fields.Many2one(comodel_name="res.partner.nace", index=True)
     code = fields.Char(index=True)
@@ -23,14 +28,11 @@ class ResPartnerNace(models.Model):
         comodel_name="res.partner", inverse_name="nace_id", string="Partners"
     )
 
-    @api.multi
-    def name_get(self):
-        res = []
+    @api.depends("code", "name")
+    def _compute_complete_name(self):
         for category in self:
             if self._context.get('nace_display') == 'short':
-                res.append(
-                    (category.id, "[%s] %s" % (category.code, category.name))
-                )
+                category.complete_name = "[%s] %s" % (category.code, category.name)
             else:
                 names = []
                 current = category
@@ -40,16 +42,23 @@ class ResPartnerNace(models.Model):
                     else:
                         names.append(current.name)
                     current = current.parent_id
-                res.append((category.id, ' / '.join(reversed(names))))
-        return res
+                category.complete_name = ' / '.join(reversed(names))
 
-    @api.model
-    def name_search(self, name, args=None, operator='ilike', limit=100):
-        args = list(args or [])
-        if not (name == "" and operator == "ilike"):
-            args += ["|"]
-        args += [("code", operator, name)]
-        return super().name_search(name, args, operator, limit)
+    @api.multi
+    def _search_complete_name(self, operator, value):
+        if operator in NEGATIVE_TERM_OPERATORS:
+            domain = [
+                '&',
+                ('name', operator, value),
+                ('code', operator, value),
+            ]
+        else:
+            domain = [
+                '|',
+                ('name', operator, value),
+                ('code', operator, value),
+            ]
+        return [('id', 'in', self.search(domain).ids)]
 
     _sql_constraints = [
         ("ref_code", "unique (code)", _("NACE Code must be unique!"))
