@@ -11,10 +11,10 @@
               u'Sistheo,Odoo Community Association (OCA)',
     "category": "Localization",
     "data": [
-        'views/res_partner.xml',
-        'security/res_partner_nace.xml',
-        'views/res_partner_nace.xml',
         "data/res.partner.nace.csv",
+        'security/res_partner_nace.xml',
+        'views/res_partner.xml',
+        'views/res_partner_nace.xml',
     ],
     'depends': ['contacts'],
     'installable': True,

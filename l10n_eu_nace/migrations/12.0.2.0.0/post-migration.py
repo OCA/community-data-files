@@ -2,27 +2,17 @@
 # Copyright 2020 Tecnativa - Jairo Llopis
 # License AGPL-3.0 or later (http://www.gnu.org/licenses/agpl).
 
-from openupgradelib import openupgrade
 
-
-@openupgrade.migrate()
-def migrate(env):
-    nace_categories = env['ir.model_data'].search(
-        [
-            ('module', '=', 'l10_eu_nace'),
-            ('model', '=', 'res.partner.category'),
-        ]
+def migrate(cr, version):
+    cr.execute(
+        """
+            UPDATE res_partner rp
+            SET nace_id = imd2.res_id
+            FROM ir_model_data imd1
+            LEFT JOIN ir_model_data imd2
+                ON  imd2.module = imd1.module
+                AND imd2.name = substring(imd1.name, 5)
+            WHERE imd1.name LIKE 'old_%'
+                AND rp.category_id = imd1.res_is
+            """
     )
-    for category_imd in nace_categories:
-        partners = env['res.partner'].search(
-            [('category_id', 'in', [category_imd.res_id])]
-        )
-
-        partners.write(
-            {
-                'nace_id': env.ref(
-                    'l10n_eu_nace.%s'
-                    % category_imd.name.replace('old_', '', 1)
-                ).id
-            }
-        )
