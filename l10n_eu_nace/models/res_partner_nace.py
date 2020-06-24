@@ -1,7 +1,7 @@
 # Copyright 2019 ACSONE SA/NV
 # License AGPL-3.0 or later (http://www.gnu.org/licenses/agpl).
 
-from odoo import api, fields, models, _
+from odoo import api, fields, models
 from odoo.osv.expression import NEGATIVE_TERM_OPERATORS
 
 
@@ -58,8 +58,8 @@ class ResPartnerNace(models.Model):
                 ('name', operator, value),
                 ('code', operator, value),
             ]
-        return [('id', 'in', self.search(domain).ids)]
+        return domain
 
     _sql_constraints = [
-        ("ref_code", "unique (code)", _("NACE Code must be unique!"))
+        ("ref_code", "unique (code)", "NACE Code must be unique!")
     ]
