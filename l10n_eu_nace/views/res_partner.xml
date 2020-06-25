@@ -12,6 +12,7 @@
             <xpath expr="//field[@name='category_id']" position="after">
                 <field name="nace_id"
                        options="{'always_reload': True}"/>
+                <field name="secondary_nace_ids" widget="many2many_tags"/>
             </xpath>
         </field>
     </record>
