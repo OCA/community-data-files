@@ -1466,6 +1466,12 @@ msgid "Machining"
 msgstr "[25.62] Metallien työstö"
 
 #. module: l10n_eu_nace
+#: model:ir.model.fields,field_description:l10n_eu_nace.field_res_partner__nace_id
+#: model:ir.model.fields,field_description:l10n_eu_nace.field_res_users__nace_id
+msgid "Main NACE"
+msgstr ""
+
+#. module: l10n_eu_nace
 #: model:res.partner.nace,name:l10n_eu_nace.nace_45_2
 #: model:res.partner.nace,name:l10n_eu_nace.nace_45_20
 #, fuzzy
@@ -3241,8 +3247,6 @@ msgstr "[91.02] Museoiden toiminta"
 
 #. module: l10n_eu_nace
 #: model:ir.actions.act_window,name:l10n_eu_nace.res_partner_nace_act_window
-#: model:ir.model.fields,field_description:l10n_eu_nace.field_res_partner__nace_id
-#: model:ir.model.fields,field_description:l10n_eu_nace.field_res_users__nace_id
 #: model:ir.ui.menu,name:l10n_eu_nace.res_partner_nace_menu
 #: model:res.partner.nace,name:l10n_eu_nace.nace_root
 msgid "NACE"
@@ -4814,6 +4818,13 @@ msgstr "[50.2] Meri- ja rannikkovesiliikenteen tavarakuljetus"
 #, fuzzy
 msgid "Sea and coastal passenger water transport"
 msgstr "[50.1] Meri- ja rannikkovesiliikenteen henkilökuljetus"
+
+#. module: l10n_eu_nace
+#: model:ir.model.fields,field_description:l10n_eu_nace.field_res_partner__secondary_nace_ids
+#: model:ir.model.fields,field_description:l10n_eu_nace.field_res_users__secondary_nace_ids
+#, fuzzy
+msgid "Secondary NACE"
+msgstr "[85.3] Ylemmän perusasteen ja keskiasteen koulutus"
 
 #. module: l10n_eu_nace
 #: model:res.partner.nace,name:l10n_eu_nace.nace_85_3
