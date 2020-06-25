@@ -31,7 +31,7 @@ class ResPartnerNace(models.Model):
     @api.depends("code", "name")
     def _compute_complete_name(self):
         for category in self:
-            if self._context.get('nace_display') == 'short':
+            if self._context.get('nace_display') != 'long':
                 category.complete_name = "[%s] %s" % (category.code, category.name)
             else:
                 names = []
