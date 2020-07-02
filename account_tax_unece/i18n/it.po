@@ -6,13 +6,15 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 12.0\n"
 "Report-Msgid-Bugs-To: \n"
-"Last-Translator: Automatically generated\n"
+"PO-Revision-Date: 2020-07-02 15:19+0000\n"
+"Last-Translator: Sergio Zanchetta <primes2h@gmail.com>\n"
 "Language-Team: none\n"
 "Language: it\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 3.10\n"
 
 #. module: account_tax_unece
 #: selection:unece.code.list,type:0
@@ -45,7 +47,7 @@ msgstr ""
 #. module: account_tax_unece
 #: model:ir.model,name:account_tax_unece.model_account_tax
 msgid "Tax"
-msgstr ""
+msgstr "Imposta"
 
 #. module: account_tax_unece
 #: selection:unece.code.list,type:0
@@ -60,7 +62,7 @@ msgstr ""
 #. module: account_tax_unece
 #: model:ir.model,name:account_tax_unece.model_account_tax_template
 msgid "Templates for Taxes"
-msgstr ""
+msgstr "Modelli per imposte"
 
 #. module: account_tax_unece
 #: model:ir.model.fields,field_description:account_tax_unece.field_unece_code_list__type
