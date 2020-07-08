@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!-- Copyright 2020 ACSONE SA/NV
+     License AGPL-3.0 or later (http://www.gnu.org/licenses/agpl). -->
+<odoo>
+    <record model="ir.ui.view" id="product_template_form_view">
+        <field name="name">product.template.form (in product_meat_unece)</field>
+        <field name="model">product.template</field>
+        <field name="inherit_id" ref="product.product_template_form_view" />
+        <field name="arch" type="xml">
+            <page name="inventory" position="after">
+                <page string="UNECE Meat" name="page_unece_meat">
+                    <group name="group_unece_meat" col="4">
+                        <field
+                            name="unece_meat_species_id"
+                            context="{'default_type': 'meat_species'}"
+                        />
+                        <field
+                            name="unece_meat_product_cut_id"
+                            context="{'default_type': 'meat_product_cut'}"
+                        />
+                        <field
+                            name="unece_meat_refrigeration_id"
+                            context="{'default_type': 'meat_refrigeration'}"
+                        />
+                        <field
+                            name="unece_meat_bovine_category_id"
+                            context="{'default_type': 'meat_bovine_category'}"
+                        />
+                        <field
+                            name="unece_meat_production_system_id"
+                            context="{'default_type': 'meat_production_system'}"
+                        />
+                        <field
+                            name="unece_meat_feeding_system_id"
+                            context="{'default_type': 'meat_feeding_system'}"
+                        />
+                        <field
+                            name="unece_meat_slaughter_system_id"
+                            context="{'default_type': 'meat_slaughter_system'}"
+                        />
+                        <field
+                            name="unece_meat_post_slaughter_system_id"
+                            context="{'default_type': 'meat_post_slaughter_system'}"
+                        />
+                        <field
+                            name="unece_meat_fat_thickness_id"
+                            context="{'default_type': 'meat_fat_thickness'}"
+                        />
+                        <field
+                            name="unece_meat_bovine_quality_system_id"
+                            context="{'default_type': 'meat_bovine_quality_system'}"
+                        />
+                        <field
+                            name="unece_meat_weight_range_id"
+                            context="{'default_type': 'meat_weight_range'}"
+                        />
+                        <field
+                            name="unece_meat_packing_id"
+                            context="{'default_type': 'meat_packing'}"
+                        />
+                        <field
+                            name="unece_meat_conformity_assessment_id"
+                            context="{'default_type': 'meat_conformity_assessment'}"
+                        />
+                        <field name="unece_meat_code" />
+                    </group>
+                </page>
+            </page>
+        </field>
+    </record>
+</odoo>
