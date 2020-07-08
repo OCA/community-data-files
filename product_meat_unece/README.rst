@@ -23,7 +23,7 @@ Product Meat Unece
     :target: https://runbot.odoo-community.org/runbot/101/13.0
     :alt: Try me on Runbot
 
-|badge1| |badge2| |badge3| |badge4| |badge5|
+|badge1| |badge2| |badge3| |badge4| |badge5| 
 
 This module adds the `UNECE Meat Carcasses and Cuts Classification <https://www.unece.org/trade/agr/standard/meat/meat_e.html>`_ standardized by the
 `United Nations Economic Commission for Europe <https://www.unece.org>`_
