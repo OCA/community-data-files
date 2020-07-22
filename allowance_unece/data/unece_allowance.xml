@@ -1,0 +1,397 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo noupdate="0">
+<!-- unece.code.list
+Source : http://www.unece.org/trade/untdid/d97b/uncl/uncl5189.htm  -->
+    <record id="allowance_1" model="unece.code.list">
+        <field name="type">allowance</field>
+        <field name="code">1</field>
+        <field name="name">Handling commission</field>
+        <field name="description">Fee for the processing of documentary credit,
+collection and payment which are charged to the customer.
+        </field>
+    </record>
+    <record id="allowance_2" model="unece.code.list">
+        <field name="type">allowance</field>
+        <field name="code">2</field>
+        <field name="name">Amendment commission</field>
+        <field name="description">Fee for amendments in documentary credit and collection
+business (not extensions and increases of documentary
+credits).
+        </field>
+    </record>
+    <record id="allowance_3" model="unece.code.list">
+        <field name="type">allowance</field>
+        <field name="code">3</field>
+        <field name="name">Acceptance commission</field>
+        <field name="description">Fee for the acceptance of draft in documentary credit and
+collection business which are drawn on us (also to be
+seen as a kind of 'guarantee commission').
+        </field>
+    </record>
+    <record id="allowance_4" model="unece.code.list">
+        <field name="type">allowance</field>
+        <field name="code">4</field>
+        <field name="name">Commission for obtaining acceptance</field>
+        <field name="description">Fee for obtaining an acceptance under collections on the
+basis of 'documents against acceptance'.
+        </field>
+    </record>
+    <record id="allowance_5" model="unece.code.list">
+        <field name="type">allowance</field>
+        <field name="code">5</field>
+        <field name="name">Commission on delivery</field>
+        <field name="description">Fee for delivery of documents without corresponding payment.
+        </field>
+    </record>
+    <record id="allowance_6" model="unece.code.list">
+        <field name="type">allowance</field>
+        <field name="code">6</field>
+        <field name="name">Advising commission</field>
+        <field name="description">Fee for advising documentary credits (charged also in
+case of confirmed credits).
+        </field>
+    </record>
+    <record id="allowance_7" model="unece.code.list">
+        <field name="type">allowance</field>
+        <field name="code">7</field>
+        <field name="name">Confirmation commission</field>
+        <field name="description">Fee for confirmation of credit.
+        </field>
+    </record>
+    <record id="allowance_8" model="unece.code.list">
+        <field name="type">allowance</field>
+        <field name="code">8</field>
+        <field name="name">Deferred payment commission</field>
+        <field name="description">Fee for the deferred payment period under documentary
+credits confirmed by bank. This fee are charges for the
+period from presentation of the document until due date
+of payment.
+        </field>
+    </record>
+    <record id="allowance_9" model="unece.code.list">
+        <field name="type">allowance</field>
+        <field name="code">9</field>
+        <field name="name">Commission for taking up documents</field>
+        <field name="description">Fee charged to the foreign bank for the processing of
+documentary credit.
+        </field>
+    </record>
+    <record id="allowance_10" model="unece.code.list">
+        <field name="type">allowance</field>
+        <field name="code">10</field>
+        <field name="name">Opening commission</field>
+        <field name="description">Fee for opening revocable documentary credit.
+        </field>
+    </record>
+    <record id="allowance_11" model="unece.code.list">
+        <field name="type">allowance</field>
+        <field name="code">11</field>
+        <field name="name">Fee for payment under reserve</field>
+        <field name="description">Fee charged to the customer for discrepancies in credit
+documents in the case of which the bank have to stipulate
+payment under reserve.
+        </field>
+    </record>
+    <record id="allowance_12" model="unece.code.list">
+        <field name="type">allowance</field>
+        <field name="code">12</field>
+        <field name="name">Discrepancy fee</field>
+        <field name="description">Fee charged to the foreign bank for discrepancies in
+credit documents.
+        </field>
+    </record>
+    <record id="allowance_13" model="unece.code.list">
+        <field name="type">allowance</field>
+        <field name="code">13</field>
+        <field name="name">Domicilation commission</field>
+        <field name="description">Fee for the domicilation of bills with the bank.
+        </field>
+    </record>
+    <record id="allowance_14" model="unece.code.list">
+        <field name="type">allowance</field>
+        <field name="code">14</field>
+        <field name="name">Commission for release of goods</field>
+        <field name="description">Commission for the release of goods sent to the bank.
+        </field>
+    </record>
+    <record id="allowance_15" model="unece.code.list">
+        <field name="type">allowance</field>
+        <field name="code">15</field>
+        <field name="name">Collection commission</field>
+        <field name="description">Fee for settling collections on the basis of 'documents  against payments'.
+        </field>
+    </record>
+    <record id="allowance_16" model="unece.code.list">
+        <field name="type">allowance</field>
+        <field name="code">16</field>
+        <field name="name">Negotiation commission</field>
+        <field name="description">Fee for the purchase of documents under sight credit for the first ten days.
+        </field>
+    </record>
+    <record id="allowance_17" model="unece.code.list">
+        <field name="type">allowance</field>
+        <field name="code">17</field>
+        <field name="name">Return commission</field>
+        <field name="description">Fee for cheques, bills and collections returned unpaid and/or recalled.
+        </field>
+    </record>
+    <record id="allowance_18" model="unece.code.list">
+        <field name="type">allowance</field>
+        <field name="code">18</field>
+        <field name="name">B/L splitting charges</field>
+        <field name="description">Fee for the splitting of bills of lading.
+        </field>
+    </record>
+    <record id="allowance_19" model="unece.code.list">
+        <field name="type">allowance</field>
+        <field name="code">19</field>
+        <field name="name">Trust commission</field>
+        <field name="description">Fee for the handling on a fiduciary basis of imported goods that have been warehoused.
+        </field>
+    </record>
+    <record id="allowance_20" model="unece.code.list">
+        <field name="type">allowance</field>
+        <field name="code">20</field>
+        <field name="name">Transfer commission</field>
+        <field name="description">Fee for the transfer of transferable documentary credits.
+        </field>
+    </record>
+    <record id="allowance_21" model="unece.code.list">
+        <field name="type">allowance</field>
+        <field name="code">21</field>
+        <field name="name">Commission for opening irrevocable doc. credits</field>
+        <field name="description">Fee for opening irrevocable documentary credits. This fee
+is a kind of 'Guarantee commission' as compensation for
+the commitment into which the bank have entered on the
+customers behalf; similar to confirmation commission,
+acceptance commission.
+        </field>
+    </record>
+    <record id="allowance_22" model="unece.code.list">
+        <field name="type">allowance</field>
+        <field name="code">22</field>
+        <field name="name">Pre-advice commission</field>
+        <field name="description">Fee for the pre-advice of a documentary credit.
+        </field>
+    </record>
+    <record id="allowance_23" model="unece.code.list">
+        <field name="type">allowance</field>
+        <field name="code">23</field>
+        <field name="name">Supervisory commission</field>
+        <field name="description">Fee for the supervising unconfirmed documentary credits
+with a deferred payment period.
+        </field>
+    </record>
+    <record id="allowance_24" model="unece.code.list">
+        <field name="type">allowance</field>
+        <field name="code">24</field>
+        <field name="name">Model charges</field>
+        <field name="description">Fee for decoding telex messages.
+        </field>
+    </record>
+    <record id="allowance_25" model="unece.code.list">
+        <field name="type">allowance</field>
+        <field name="code">25</field>
+        <field name="name">Risk commission</field>
+        <field name="description">Commission in addition to the confirmation commission for
+documentary credits from sensitive countries.
+        </field>
+    </record>
+    <record id="allowance_26" model="unece.code.list">
+        <field name="type">allowance</field>
+        <field name="code">26</field>
+        <field name="name">Guarantee commission</field>
+        <field name="description">Commission for drawing up guaranties.
+        </field>
+    </record>
+    <record id="allowance_27" model="unece.code.list">
+        <field name="type">allowance</field>
+        <field name="code">27</field>
+        <field name="name">Reimbursement commission</field>
+        <field name="description">Fee for reimbursement of, for example, documentary credits.
+        </field>
+    </record>
+    <record id="allowance_28" model="unece.code.list">
+        <field name="type">allowance</field>
+        <field name="code">28</field>
+        <field name="name">Stamp duty</field>
+        <field name="description">Tax payable on bills in accordance with national bill of exchange legislations.
+        </field>
+    </record>
+    <record id="allowance_29" model="unece.code.list">
+        <field name="type">allowance</field>
+        <field name="code">29</field>
+        <field name="name">Brokerage</field>
+        <field name="description">Brokers commission arising, in trade with foreign currencies.
+        </field>
+    </record>
+    <record id="allowance_30" model="unece.code.list">
+        <field name="type">allowance</field>
+        <field name="code">30</field>
+        <field name="name">Bank charges</field>
+        <field name="description">Charges deducted/claimed by other banks involved in the transaction.
+        </field>
+    </record>
+    <record id="allowance_31" model="unece.code.list">
+        <field name="type">allowance</field>
+        <field name="code">31</field>
+        <field name="name">Bank charges information</field>
+        <field name="description">Charges not included in the total charge amount i.e. the charges are for information only.
+        </field>
+    </record>
+    <record id="allowance_32" model="unece.code.list">
+        <field name="type">allowance</field>
+        <field name="code">32</field>
+        <field name="name">Courier fee</field>
+        <field name="description">Fee for use of courier service.
+        </field>
+    </record>
+    <record id="allowance_33" model="unece.code.list">
+        <field name="type">allowance</field>
+        <field name="code">33</field>
+        <field name="name">Phone fee</field>
+        <field name="description">Fee for use of phone.
+        </field>
+    </record>
+    <record id="allowance_34" model="unece.code.list">
+        <field name="type">allowance</field>
+        <field name="code">34</field>
+        <field name="name">Postage fee</field>
+        <field name="description">Fee for postage.
+        </field>
+    </record>
+    <record id="allowance_35" model="unece.code.list">
+        <field name="type">allowance</field>
+        <field name="code">35</field>
+        <field name="name">S.W.I.F.T. fee</field>
+        <field name="description">Fee for use of S.W.I.F.T.
+        </field>
+    </record>
+    <record id="allowance_36" model="unece.code.list">
+        <field name="type">allowance</field>
+        <field name="code">36</field>
+        <field name="name">Telex fee</field>
+        <field name="description">Fee for telex.
+        </field>
+    </record>
+    <record id="allowance_37" model="unece.code.list">
+        <field name="type">allowance</field>
+        <field name="code">37</field>
+        <field name="name">Penalty for late delivery of documents</field>
+        <field name="description">Self explanatory.
+        </field>
+    </record>
+    <record id="allowance_38" model="unece.code.list">
+        <field name="type">allowance</field>
+        <field name="code">38</field>
+        <field name="name">Penalty for late delivery of valuation of works</field>
+        <field name="description">Self explanatory.
+        </field>
+    </record>
+    <record id="allowance_39" model="unece.code.list">
+        <field name="type">allowance</field>
+        <field name="code">39</field>
+        <field name="name">Penalty for execution of works behind schedule</field>
+        <field name="description">Self explanatory.
+        </field>
+    </record>
+    <record id="allowance_40" model="unece.code.list">
+        <field name="type">allowance</field>
+        <field name="code">40</field>
+        <field name="name">Other penalties</field>
+        <field name="description">Self explanatory.
+        </field>
+    </record>
+    <record id="allowance_41" model="unece.code.list">
+        <field name="type">allowance</field>
+        <field name="code">41</field>
+        <field name="name">Bonus for works ahead of schedule</field>
+        <field name="description">Self explanatory.
+        </field>
+    </record>
+    <record id="allowance_42" model="unece.code.list">
+        <field name="type">allowance</field>
+        <field name="code">42</field>
+        <field name="name">Other bonus</field>
+        <field name="description">Self explanatory.
+        </field>
+    </record>
+    <record id="allowance_43" model="unece.code.list">
+        <field name="type">allowance</field>
+        <field name="code">43</field>
+        <field name="name">Penalty refund</field>
+        <field name="description">Self explanatory.
+        </field>
+    </record>
+    <record id="allowance_44" model="unece.code.list">
+        <field name="type">allowance</field>
+        <field name="code">44</field>
+        <field name="name">Project management cost</field>
+        <field name="description">Self explanatory.
+        </field>
+    </record>
+    <record id="allowance_45" model="unece.code.list">
+        <field name="type">allowance</field>
+        <field name="code">45</field>
+        <field name="name">Pro rata retention</field>
+        <field name="description">Self explanatory.
+        </field>
+    </record>
+    <record id="allowance_46" model="unece.code.list">
+        <field name="type">allowance</field>
+        <field name="code">46</field>
+        <field name="name">Contractual retention</field>
+        <field name="description">Self explanatory.
+        </field>
+    </record>
+    <record id="allowance_47" model="unece.code.list">
+        <field name="type">allowance</field>
+        <field name="code">47</field>
+        <field name="name">Other retentions</field>
+        <field name="description">Self explanatory.
+        </field>
+    </record>
+    <record id="allowance_48" model="unece.code.list">
+        <field name="type">allowance</field>
+        <field name="code">48</field>
+        <field name="name">Interest on arrears</field>
+        <field name="description">Interest for late payment.
+        </field>
+    </record>
+    <record id="allowance_49" model="unece.code.list">
+        <field name="type">allowance</field>
+        <field name="code">49</field>
+        <field name="name">Interest</field>
+        <field name="description">Cost of using money.
+        </field>
+    </record>
+    <record id="allowance_50" model="unece.code.list">
+        <field name="type">allowance</field>
+        <field name="code">50</field>
+        <field name="name">Charge per credit cover</field>
+        <field name="description">Unit charge per credit cover established.
+        </field>
+    </record>
+    <record id="allowance_51" model="unece.code.list">
+        <field name="type">allowance</field>
+        <field name="code">51</field>
+        <field name="name">Charge per unused credit cover</field>
+        <field name="description">Unit charge per unused credit cover.
+        </field>
+    </record>
+    <record id="allowance_52" model="unece.code.list">
+        <field name="type">allowance</field>
+        <field name="code">52</field>
+        <field name="name">Minimum commission</field>
+        <field name="description">Minimum commission charge.
+        </field>
+    </record>
+    <record id="allowance_53" model="unece.code.list">
+        <field name="type">allowance</field>
+        <field name="code">53</field>
+        <field name="name">Factoring commission</field>
+        <field name="description">Commission charged for factoring services.
+        </field>
+    </record>
+
+</odoo>
