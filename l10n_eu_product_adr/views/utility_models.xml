@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<odoo>
+    <record id="un_reference_form" model="ir.ui.view">
+        <field name="name">un.reference.form</field>
+        <field name="model">un.reference</field>
+        <field name="arch" type="xml">
+            <form string="UN Reference">
+                <sheet>
+                    <group>
+                        <field name="name" />
+                        <field name="description" />
+                    </group>
+                </sheet>
+            </form>
+        </field>
+    </record>
+    <record id="un_reference_action" model="ir.actions.act_window">
+        <field name="name">UN Reference</field>
+        <field name="res_model">un.reference</field>
+        <field name="view_mode">form</field>
+    </record>
+</odoo>
