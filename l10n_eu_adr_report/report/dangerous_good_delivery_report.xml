@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<odoo>
+    <report
+        string="Dangerous Delivery Report"
+        id="action_report_dangerous_delivery"
+        model="stock.picking"
+        report_type="qweb-pdf"
+        name="l10n_eu_adr_report.report_delivery_dangerous"
+        file="l10n_eu_adr_report.report_delivery_dangerous"
+    />
+    <template id="report_delivery_adr_details">
+        <table class="table table-condensed adr-report adr_details">
+            <tbody>
+                <tr>
+                    <td>14 Shipping marks</td>
+                    <td
+                        class="wide-col"
+                    >Number and kind of packages; description of goods</td>
+                    <td>Gross mass (kg)</td>
+                    <td>Net mass (kg)</td>
+                    <td>Cube (m 3 )</td>
+                </tr>
+                <t t-foreach="page_lines['dg_lines']" t-as="line">
+                    <tr>
+                        <td />
+                        <td class="wide-col"><span t-esc="line['class']" /> (  ) </td>
+                        <td t-esc="line['qty_amount']" />
+                        <td t-esc="line['product_weight']" />
+                        <td />
+                    </tr>
+                </t>
+            </tbody>
+        </table>
+    </template>
+    <template id="report_delivery_adr_text_7">
+        <span class="adr-text"><span
+                class="uppercase emphatic"
+            > SHIPPER’S DECLARATION</span>
+            I hereby declare that the contents of this consignement are fully and accurately described below by the Proper Shipping Name, and are classified, packaged, marked and labeled/placarded and are in all respects in proper condition for transport according to the applicable international and national government regulations.
+        </span>
+    </template>
+    <template id="report_delivery_adr_text_15">
+        <span class="adr-text">
+            <span
+                class="uppercase emphatic"
+            >Container / VEHICLE PACKING CERTIFICATE</span>
+            <span
+            >I hereby declare that the goods described above have been packed/loaded into the container/vehicle identified above in accordance with the applicable provisions.</span>
+            <span
+                class="uppercase emphatic"
+            >must be COMPLETED AND SIGNED FOR ALL COUNTAINER/VEHICLE LOADS BY PERSON RESPONSIBLE FOR PACKING/LOADING </span>
+        </span>
+    </template>
+    <template id="report_delivery_adr_text_21">
+        <span class="adr-text"><span
+                class="uppercase emphatic"
+            >21 RECEIVING ORGANIZATION RECEIPT</span>
+            Received the above number of packages/containers/trailers in apparent good order andcondition, unless stated here on:
+            <span class="uppercase">RECEIVING ORGANIZATION REMARKS:</span>
+        </span>
+    </template>
+    <template id="report_delivery_adr_text_footer">
+        <span class="adr-text"><span class="uppercase emphatic"> DANGEROUS GOODS</span>
+            You must specify: Proper Shipping Name, hazard class, UN No., packing group, (where assigned) marine pollutant and observe the mandatory requirements under applicable national and international government regulations. For the purposes of the IMDG Code see 5.4.1.1
+            +For the purpose of the IMDG Code, see 5.4.2
+        </span>
+    </template>
+    <template id="report_delivery_adr_document">
+        <t t-call="web.html_container">
+            <t t-call="web.basic_layout">
+                <div class="page adr-report">
+                    <t t-set="o" t-value="o.with_context(lang=o.partner_id.lang)" />
+                    <h5>
+                        <span
+                            class="uppercase emphatic"
+                        >MULTIMODAL DANGEROUS GOODS FORM</span>
+                    </h5>
+                    <table class="table table-condensed">
+                        <tbody>
+                            <tr>
+                                <td
+                                    colspan="2"
+                                    rowspan="3"
+                                    class="wide-col"
+                                >1 Shipper/Consignor/Sender</td>
+                                <td colspan="4">2 Transport document number</td>
+                            </tr>
+                            <tr>
+                                <td colspan="2">3 Page of pages</td>
+                                <td colspan="2">4 Shipper’s reference</td>
+                            </tr>
+                            <tr>
+                                <td colspan="2" />
+                                <td colspan="2">5 Freight forwarder’s reference</td>
+                            </tr>
+                            <tr>
+                                <td colspan="2">6 Consignee</td>
+                                <td
+                                    colspan="4"
+                                >7 Carrier (to be completed by the Carrier)</td>
+                            </tr>
+                            <tr>
+                                <td colspan="2" />
+                                <td colspan="4">
+                                    <t
+                                        t-call="l10n_eu_adr_report.report_delivery_adr_text_7"
+                                    />
+                                </td>
+                            </tr>
+                            <tr>
+                                <td
+                                    colspan="2"
+                                >8 This shipment is within the limitations prescribed for:
+                                    (Delete non-applicable)
+                                </td>
+                                <td
+                                    colspan="4"
+                                    rowspan="4"
+                                >9 Additional handling information</td>
+                            </tr>
+                            <tr>
+                                <td class="uppercase">PASSENGER AND CARGO AIRCRAFT</td>
+                                <td class="uppercase">CARGO AIRCRAFT ONLY</td>
+                            </tr>
+                            <tr>
+                                <td>10 Vessel/flight no. and date </td>
+                                <td>11 Port/place of loading</td>
+                            </tr>
+                            <tr>
+                                <td>12 Port/place of discharge</td>
+                                <td>13 Destination</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <t t-call="l10n_eu_adr_report.report_delivery_adr_details" />
+                    <table class="table table-condensed adr-report">
+                        <tbody>
+                            <tr>
+                                <td class="wide-col">15 Container identification No.
+                                        Vehicle registration No.
+                                    </td>
+                                <td>16 Seal number(s)</td>
+                                <td>17 Container/vehicle &amp; type</td>
+                                <td>18 Tare mass (kg)</td>
+                                <td
+                                    colspan="2"
+                                >19 Total gross mass (including tare) (kg)</td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <t
+                                        t-call="l10n_eu_adr_report.report_delivery_adr_text_15"
+                                    />
+                                </td>
+                                <td colspan="4">
+                                    <t
+                                        t-call="l10n_eu_adr_report.report_delivery_adr_text_21"
+                                    />
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="adr-text">20 Name of company
+                                        <span t-field='o.company_id.name' />
+                                    </td>
+                                <td
+                                    class="adr-text"
+                                    colspan="2"
+                                    rowspan="3"
+                                >Haulier’s name
+
+                                        Vehicle registration no.
+
+
+                                        Signature and date
+
+                                    </td>
+                                <td colspan="2">22 Name of company
+                                    <span
+                                        class="uppercase"
+                                    >(OF SHIPPER PREPARING THIS NOTE)</span></td>
+                            </tr>
+                            <tr>
+                                <td>Name/status of declarant</td>
+                                <td colspan="2">Name/status of declarant</td>
+                            </tr>
+                            <tr>
+                                <td>Place and date
+                                        <t t-if="o.state == 'done'">
+                                        <span t-field="o.date_done" />
+                                    </t>
+                                        <t t-if="o.state != 'done'">
+                                        <span t-field="o.scheduled_date" />
+                                    </t>
+                                    </td>
+                                <td colspan="2">Place and date</td>
+                            </tr>
+                            <tr>
+                                <td>Signature of declarant</td>
+                                <td
+                                    colspan="2"
+                                    class="uppercase"
+                                >driver’s signature</td>
+                                <td colspan="2">Signature of declarant</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <t t-call="l10n_eu_adr_report.report_delivery_adr_text_footer" />
+                </div>
+            </t>
+        </t>
+    </template>
+    <template id="report_delivery_dangerous">
+        <t t-foreach="docs" t-as="o">
+            <t
+                t-call="l10n_eu_adr_report.report_delivery_adr_document"
+                t-lang="o.partner_id.lang"
+            />
+        </t>
+    </template>
+</odoo>
