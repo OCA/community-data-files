@@ -1,0 +1,23 @@
+id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
+access_product_dangerous_class_user,product.dangerous.class user,model_product_dangerous_class,base.group_user,1,0,0,0
+access_product_dangerous_class_manager,product.dangerous.class manager,model_product_dangerous_class,base.group_erp_manager,1,1,1,1
+access_product_dangerous_class_type_user,product.dangerous.class.type user,model_product_dangerous_class_type,base.group_user,1,0,0,0
+access_product_dangerous_class_type_manager,product.dangerous.class.type manager,model_product_dangerous_class_type,base.group_erp_manager,1,1,1,1
+access_great_class_user,access_great_class,model_great_class,base.group_user,1,0,0,0
+access_great_class_manager,access_great_class,model_great_class,base.group_erp_manager,1,1,1,1
+access_limited_amount_user,access_limited_amount,model_limited_amount,base.group_user,1,0,0,0
+access_limited_amount_manager,access_limited_amount,model_limited_amount,base.group_erp_manager,1,1,1,1
+access_storage_class_user,access_storage_class,model_storage_class,base.group_user,1,0,0,0
+access_storage_class_manager,access_storage_class,model_storage_class,base.group_erp_manager,1,1,1,1
+access_packaging_type_user,access_packaging_type,model_packaging_type,base.group_user,1,0,0,0
+access_packaging_type_manager,access_packaging_type,model_packaging_type,base.group_erp_manager,1,1,1,1
+access_storage_temp_user,access_storage_temp,model_storage_temp,base.group_user,1,0,0,0
+access_storage_temp_manager,access_storage_temp,model_storage_temp,base.group_erp_manager,1,1,1,1
+access_dangerous_goods_user,access_dangerous_goods,model_dangerous_goods,base.group_user,1,0,0,0
+access_dangerous_goods_manager,access_dangerous_goods,model_dangerous_goods,base.group_erp_manager,1,1,1,1
+access_wgk_class_user,access_wgk_class,model_wgk_class,base.group_user,1,0,0,0
+access_wgk_class_manager,access_wgk_class,model_wgk_class,base.group_erp_manager,1,1,1,1
+access_un_ref_class_user,access_un_ref_class,model_un_reference,base.group_user,1,0,0,0
+access_un_ref_class_manager,access_un_ref_class_manager,model_un_reference,base.group_erp_manager,1,1,1,1
+access_dang_uom_user,access_dang_uom_class,model_dangerous_uom,base.group_user,1,0,0,0
+access_dang_uom_manager,access_dang_uom_class_manager,model_dangerous_uom,base.group_erp_manager,1,1,1,1
