@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<odoo>
+    <!-- <odoo noupdate=1> -->
+    <record id="great_class_1" model="great.class">
+        <field name="name">2</field>
+    </record>
+    <record id="great_class_2" model="great.class">
+        <field name="name">2.1 </field>
+    </record>
+    <record id="great_class_3" model="great.class">
+        <field name="name">2.2</field>
+    </record>
+    <record id="great_class_4" model="great.class">
+        <field name="name">3</field>
+    </record>
+    <record id="great_class_5" model="great.class">
+        <field name="name">4.1</field>
+    </record>
+    <record id="great_class_6" model="great.class">
+        <field name="name">4.2</field>
+    </record>
+    <record id="great_class_7" model="great.class">
+        <field name="name">4.3</field>
+    </record>
+    <record id="great_class_8" model="great.class">
+        <field name="name">5.1</field>
+    </record>
+    <record id="great_class_9" model="great.class">
+        <field name="name">5.2</field>
+    </record>
+    <record id="great_class_10" model="great.class">
+        <field name="name">8</field>
+    </record>
+    <record id="great_class_11" model="great.class">
+        <field name="name">9</field>
+    </record>
+    <record id="great_class_12" model="great.class">
+        <field name="name">9A</field>
+    </record>
+    <record id="limited_amount_1" model="limited.amount">
+        <field name="name">LQ (Limited Quantity)</field>
+    </record>
+    <record id="limited_amount_2" model="limited.amount">
+        <field name="name">DG (Dangerous Goods)</field>
+    </record>
+    <record id="storage_class_1" model="storage.class">
+        <field name="name">LK 2</field>
+    </record>
+    <record id="storage_class_2" model="storage.class">
+        <field name="name">LK 3</field>
+    </record>
+    <record id="storage_class_3" model="storage.class">
+        <field name="name">LK 4.1</field>
+    </record>
+    <record id="storage_class_4" model="storage.class">
+        <field name="name">LK 4.2</field>
+    </record>
+    <record id="storage_class_5" model="storage.class">
+        <field name="name">LK 4.3</field>
+    </record>
+    <record id="storage_class_6" model="storage.class">
+        <field name="name">LK 5</field>
+    </record>
+    <record id="storage_class_7" model="storage.class">
+        <field name="name">LK 6.1</field>
+    </record>
+    <record id="storage_class_8" model="storage.class">
+        <field name="name">LK 8</field>
+    </record>
+    <record id="storage_class_9" model="storage.class">
+        <field name="name">LK 10,12</field>
+    </record>
+    <record id="storage_class_10" model="storage.class">
+        <field name="name">LK 11,13</field>
+    </record>
+    <record id="packaging_type_1" model="packaging.type">
+        <field name="name">Bottle</field>
+    </record>
+    <record id="packaging_type_2" model="packaging.type">
+        <field name="name">Canister</field>
+    </record>
+    <record id="packaging_type_3" model="packaging.type">
+        <field name="name">Cartridge</field>
+    </record>
+    <record id="packaging_type_4" model="packaging.type">
+        <field name="name">Box</field>
+    </record>
+    <record id="packaging_type_5" model="packaging.type">
+        <field name="name">Bag</field>
+    </record>
+    <record id="packaging_type_6" model="packaging.type">
+        <field name="name">Spray</field>
+    </record>
+    <record id="packaging_type_7" model="packaging.type">
+        <field name="name">Can</field>
+    </record>
+    <record id="packaging_type_8" model="packaging.type">
+        <field name="name">Tube</field>
+    </record>
+    <record id="storage_temp_1" model="storage.temp">
+        <field name="name">to 25°C</field>
+    </record>
+    <record id="storage_temp_2" model="storage.temp">
+        <field name="name">over 25°C</field>
+    </record>
+    <record id="storage_temp_3" model="storage.temp">
+        <field name="name">to 30°C</field>
+    </record>
+    <record id="dangerous_goods_1" model="dangerous.goods">
+        <field name="name">Dangerous goods</field>
+    </record>
+    <record id="dangerous_goods_2" model="dangerous.goods">
+        <field name="name">Hazardous substances</field>
+    </record>
+    <record id="wgk_class_1" model="wgk.class">
+        <field name="name">WGK 1</field>
+    </record>
+    <record id="wgk_class_2" model="wgk.class">
+        <field name="name">WGK 2</field>
+    </record>
+    <record id="wgk_class_3" model="wgk.class">
+        <field name="name">WGK 3</field>
+    </record>
+    <record id="wgk_class_4" model="wgk.class">
+        <field name="name">WGK A</field>
+    </record>
+    <record id="wgk_class_5" model="wgk.class">
+        <field name="name">WGK B</field>
+    </record>
+    <record id="dangerous_uom_1" model="dangerous.uom">
+        <field name="name">l (Liter)</field>
+    </record>
+    <record id="dangerous_uom_2" model="dangerous.uom">
+        <field name="name">kg (Kilogramm)</field>
+    </record>
+    <record id="dangerous_uom_3" model="dangerous.uom">
+        <field name="name">g (Gramm)</field>
+    </record>
+</odoo>
