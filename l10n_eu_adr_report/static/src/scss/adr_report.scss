@@ -1,0 +1,26 @@
+.adr-report {
+    font-size: 12px;
+    table,
+    td {
+        border: 1px solid grey;
+        padding: 0.25rem;
+    }
+    table {
+        margin-bottom: 0px;
+    }
+    .adr-text {
+        white-space: pre-line;
+    }
+    .wide-col {
+        width: 40%;
+    }
+    .uppercase {
+        text-transform: uppercase;
+    }
+    .emphatic {
+        font-weight: bold;
+    }
+    h5 {
+        text-align: right;
+    }
+}
