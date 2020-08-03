@@ -4,9 +4,8 @@
     'name': "Base UBL allowance",
     'version': "12.0.1.0.0",
     "author": "Decodio Applications, Odoo Community Association (OCA)",
-    "development_status": "RC",
     "summary": "Discount codes for UBL",
-    'website': "https://github.com/OCA/edi",
+    'website': "https://github.com/OCA/community-data-files",
     'license': "LGPL-3",
     'depends': [
         "base_unece"
