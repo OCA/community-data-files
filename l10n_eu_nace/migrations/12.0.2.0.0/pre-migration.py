@@ -6,7 +6,7 @@ def migrate(cr, version):
     cr.execute(
         """
         UPDATE ir_model_data
-        SET name=concat('old_', name), noupdate=1
+        SET name=concat('old_', name), noupdate=TRUE
         WHERE model = 'res.partner.category'
         AND module='l10n_eu_nace'
         """
