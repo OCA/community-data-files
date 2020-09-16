@@ -12,6 +12,7 @@ class ResPartnerBank(models.Model):
     @api.onchange('acc_number', 'acc_type')
     def _onchange_acc_number_base_bank_from_iban(self):
         if self.acc_type != 'iban':
+            self.bank_id = False
             return
         acc_number = pretty_iban(normalize_iban(self.acc_number)).upper()
         country_code = self.acc_number[:2].lower()
@@ -19,10 +20,10 @@ class ResPartnerBank(models.Model):
         first_match = iban_template[2:].find('B') + 2
         last_match = iban_template.rfind('B') + 1
         bank_code = acc_number[first_match:last_match].replace(' ', '')
-        bank = self.env['res.bank'].search([
+        bank = self.env['res.bank.code'].search([
             ('code', '=', bank_code),
-            ('country.code', '=', country_code.upper()),
-        ], limit=1)
+            ('bank_id.country.code', '=', country_code.upper()),
+        ], limit=1).bank_id
         self.update({
             'bank_id': bank.id,
             'acc_number': acc_number,

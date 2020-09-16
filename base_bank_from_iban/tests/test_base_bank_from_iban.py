@@ -11,7 +11,7 @@ class TestBaseBankFromIban(common.SavepointCase):
         cls.country_spain = cls.env.ref('base.es')
         cls.bank = cls.env['res.bank'].create({
             'name': 'BDE',
-            'code': '9999',
+            'bank_code_ids': [(0, 0, {'code': '9999'})],
             'country': cls.country_spain.id,
         })
         cls.partner = cls.env['res.partner'].create({

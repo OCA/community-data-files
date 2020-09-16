@@ -14,6 +14,7 @@
         "base_iban",
     ],
     "data": [
+        "security/res_bank_code.xml",
         "views/res_bank_view.xml",
     ],
     'installable': True,

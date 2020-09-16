@@ -7,4 +7,8 @@ from odoo import fields, models
 class ResBank(models.Model):
     _inherit = 'res.bank'
 
-    code = fields.Char()
+    bank_code_ids = fields.One2many(
+        comodel_name="res.bank.code",
+        inverse_name="bank_id",
+        string="Codes",
+    )

@@ -5,9 +5,13 @@
         <field name="model">res.bank</field>
         <field name="inherit_id" ref="base.view_res_bank_form"/>
         <field name="arch" type="xml">
-            <field name="name" position="after">
-                <field name="code" />
-            </field>
+            <xpath expr="//form" position="inside">
+                <field name="bank_code_ids">
+                    <tree editable="bottom">
+                        <field name="code"/>
+                    </tree>
+                </field>
+            </xpath>
         </field>
     </record>
 
@@ -16,7 +20,7 @@
         <field name="inherit_id" ref="base.view_res_bank_tree"/>
         <field name="arch" type="xml">
             <field name="name" position="after">
-                <field name="code" />
+                <field name="bank_code_ids" widget="many2many_tags"/>
             </field>
         </field>
     </record>
