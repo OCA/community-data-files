@@ -12,7 +12,7 @@ class TestBaseIso3166(common.TransactionCase):
 
     def test_historic_countries(self):
         ussr = self.env["res.country"].create(
-            {"code": "SU", "name": "USSR, Union of Soviet Socialist Republics",}
+            {"code": "SU", "name": "USSR, Union of Soviet Socialist Republics"}
         )
         self.assertEqual(ussr.code_alpha3, "SUN")
         self.assertEqual(ussr.code_numeric, "810")
