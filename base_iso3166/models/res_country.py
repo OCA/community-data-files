@@ -2,12 +2,9 @@
 # Copyright 2017  Creu Blanca <www.creublanca.es>
 # License AGPL-3.0 or later (http://www.gnu.org/licenses/agpl.html).
 
-from odoo import api, fields, models
+import pycountry
 
-try:
-    import pycountry
-except ImportError:
-    pass
+from odoo import api, fields, models
 
 
 class ResCountry(models.Model):
@@ -28,7 +25,6 @@ class ResCountry(models.Model):
         compute="_compute_codes",
     )
 
-    @api.multi
     @api.depends("code")
     def _compute_codes(self):
         for country in self:
@@ -37,10 +33,7 @@ class ResCountry(models.Model):
                 try:
                     c = getattr(pycountry, country_type).get(alpha_2=country.code)
                 except KeyError:
-                    try:
-                        c = getattr(pycountry, country_type).get(alpha2=country.code)
-                    except KeyError:
-                        pass
+                    c = getattr(pycountry, country_type).get(alpha2=country.code)
                 if c:
                     break
             if c:
