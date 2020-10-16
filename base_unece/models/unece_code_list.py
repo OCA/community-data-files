@@ -1,4 +1,4 @@
-# Copyright 2016 Akretion (http://www.akretion.com)
+# Copyright 2016-2020 Akretion France (http://www.akretion.com)
 # @author: Alexis de Lattre <alexis.delattre@akretion.com>
 # License AGPL-3.0 or later (https://www.gnu.org/licenses/agpl).
 
@@ -14,14 +14,8 @@ class UneceCodeList(models.Model):
     _description = "UNECE nomenclatures"
     _order = "type, code"
 
-    @api.depends("code", "name")
-    def _compute_display_name(self):
-        for entry in self:
-            entry.display_name = "[{}] {}".format(entry.code, entry.name)
-
     code = fields.Char(required=True, copy=False)
     name = fields.Char(required=True, copy=False)
-    display_name = fields.Char(compute="_compute_display_name", store=True)
     type = fields.Selection([], required=True)
     description = fields.Text()
     active = fields.Boolean(default=True)
@@ -34,8 +28,19 @@ class UneceCodeList(models.Model):
         )
     ]
 
+    @api.depends("code", "name")
     def name_get(self):
         res = []
         for entry in self:
             res.append((entry.id, "[{}] {}".format(entry.code, entry.name)))
         return res
+
+    @api.model
+    def name_search(self, name="", args=None, operator="ilike", limit=80):
+        if args is None:
+            args = []
+        if name and operator == "ilike":
+            recs = self.search([("code", "=", name)] + args, limit=limit)
+            if recs:
+                return recs.name_get()
+        return super().name_search(name=name, args=args, operator=operator, limit=limit)
