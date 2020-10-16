@@ -1,4 +1,4 @@
-# Copyright 2016-2017 Akretion (http://www.akretion.com)
+# Copyright 2016-2020 Akretion France (http://www.akretion.com)
 # @author: Alexis de Lattre <alexis.delattre@akretion.com>
 # License AGPL-3.0 or later (https://www.gnu.org/licenses/agpl).
 
@@ -38,21 +38,6 @@ class AccountTax(models.Model):
         readonly=True,
         string="UNECE Category Code",
     )
-    unece_due_date_id = fields.Many2one(
-        "unece.code.list",
-        string="UNECE Due Date",
-        domain=[("type", "=", "date")],
-        ondelete="restrict",
-        help="Select the due date of that tax from the official "
-        "nomenclature of the United Nations Economic "
-        "Commission for Europe (UNECE), DataElement 2005. For a "
-        "sale VAT tax, it is the date on which that VAT is due to the "
-        "fiscal administration. For a purchase VAT tax, it is the date "
-        "on which that VAT can be deducted.",
-    )
-    unece_due_date_code = fields.Char(
-        related="unece_due_date_id.code",
-        store=True,
-        readonly=True,
-        string="UNECE Due Date Code",
-    )
+    # We now have a selection field "tax_exigibility"
+    # with 2 possible values: "on_invoice" or "on_payment"
+    # So we don't need unece_due_date_id any more
