@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <!--
-  Copyright 2016 Akretion (http://www.akretion.com/)
+  Copyright 2016-2020 Akretion France (http://www.akretion.com/)
   @author Alexis de Lattre <alexis.delattre@akretion.com>
   License AGPL-3.0 or later (https://www.gnu.org/licenses/agpl).
 -->
@@ -13,7 +13,11 @@
         />
         <field name="arch" type="xml">
             <group name="main" position="inside">
-                <field name="unece_id" context="{'default_type': 'payment_means'}" />
+                <field
+                    name="unece_id"
+                    context="{'default_type': 'payment_means'}"
+                    options="{'no_create': True, 'no_create_edit': True}"
+                />
             </group>
         </field>
     </record>
