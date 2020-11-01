@@ -11,7 +11,7 @@
     "summary": "Base module for UNECE code lists",
     "author": "Akretion,Odoo Community Association (OCA)",
     "maintainers": ["astirpe", "alexis-via"],
-    "website": "https://github.com/OCA/community-data-files/",
+    "website": "https://github.com/OCA/community-data-files",
     "depends": ["base"],
     "data": ["views/unece_code_list.xml", "security/ir.model.access.csv"],
     "installable": True,
