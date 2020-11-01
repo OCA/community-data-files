@@ -11,7 +11,7 @@
     "summary": "UNECE nomenclature for the units of measure",
     "author": "Akretion,Odoo Community Association (OCA)",
     "maintainers": ["astirpe", "alexis-via"],
-    "website": "https://github.com/OCA/community-data-files/",
+    "website": "https://github.com/OCA/community-data-files",
     "depends": ["uom"],
     "data": ["data/unece.xml", "views/uom_uom.xml"],
     "installable": True,
