@@ -2,7 +2,7 @@
 # @author: Alexis de Lattre <alexis.delattre@akretion.com>
 # License AGPL-3.0 or later (https://www.gnu.org/licenses/agpl).
 
-from odoo import fields, models
+from odoo import api, fields, models
 
 
 class AccountTax(models.Model):
@@ -40,4 +40,34 @@ class AccountTax(models.Model):
     )
     # We now have a selection field "tax_exigibility"
     # with 2 possible values: "on_invoice" or "on_payment"
-    # So we don't need unece_due_date_id any more
+    # So we don't need the field unece_due_date_id any more.
+    # We replace it by _get_unece_due_date_type_code() below.
+
+    @api.model
+    def _get_unece_code_from_tax_exigibility(self, tax_exigibility):
+        mapping = {
+            "on_invoice": "5",
+            "on_payment": "72",
+        }
+        return mapping.get(tax_exigibility)
+
+    @api.model
+    def _get_tax_exigibility_from_unece_code(self, unece_code):
+        if isinstance(unece_code, int):
+            unece_code = str(unece_code)
+        mapping = {
+            "5": "on_invoice",
+            "29": "on_invoice",
+            "72": "on_payment",
+        }
+        if unece_code in mapping:
+            return mapping[unece_code]
+        else:
+            return None
+
+    def _get_unece_due_date_type_code(self):
+        self.ensure_one()
+        if self.tax_exigibility:
+            return self._get_unece_code_from_tax_exigibility(self.tax_exigibility)
+        else:
+            return None
