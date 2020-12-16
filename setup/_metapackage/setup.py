@@ -14,6 +14,8 @@ setuptools.setup(
         'odoo13-addon-base_currency_iso_4217',
         'odoo13-addon-base_iso3166',
         'odoo13-addon-base_unece',
+        'odoo13-addon-l10n_eu_adr_report',
+        'odoo13-addon-l10n_eu_product_adr',
         'odoo13-addon-product_fao_fishing',
         'odoo13-addon-product_meat_unece',
         'odoo13-addon-uom_unece',
