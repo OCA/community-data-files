@@ -6,13 +6,15 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 13.0\n"
 "Report-Msgid-Bugs-To: \n"
-"Last-Translator: Automatically generated\n"
+"PO-Revision-Date: 2020-12-17 19:19+0000\n"
+"Last-Translator: Bosd <c5e2fd43-d292-4c90-9d1f-74ff3436329a@anonaddy.me>\n"
 "Language-Team: none\n"
 "Language: nl\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 4.3.2\n"
 
 #. module: l10n_eu_product_adr
 #: model:product.dangerous.class,name:l10n_eu_product_adr.dangerous_class_8
@@ -23,112 +25,114 @@ msgstr ""
 #: code:addons/l10n_eu_product_adr/models/product_template.py:0
 #, python-format
 msgid " WASTE"
-msgstr ""
+msgstr " AFVAL"
 
 #. module: l10n_eu_product_adr
 #: model:ir.model.fields.selection,name:l10n_eu_product_adr.selection__product_template__tunnel_code__4
+#, fuzzy
 msgid "(D,E)"
-msgstr ""
+msgstr "(D,E)"
 
 #. module: l10n_eu_product_adr
 #: code:addons/l10n_eu_product_adr/models/product_template.py:0
-#, python-format
+#, fuzzy, python-format
 msgid ", N.A.G ({})"
-msgstr ""
+msgstr ", N.A.G ({})"
 
 #. module: l10n_eu_product_adr
 #: model:ir.model.fields.selection,name:l10n_eu_product_adr.selection__product_template__label_first__2
 #: model:ir.model.fields.selection,name:l10n_eu_product_adr.selection__product_template__label_second__2
 #: model:ir.model.fields.selection,name:l10n_eu_product_adr.selection__product_template__label_third__2
 msgid "2.1"
-msgstr ""
+msgstr "2.1"
 
 #. module: l10n_eu_product_adr
 #: model:ir.model.fields.selection,name:l10n_eu_product_adr.selection__product_template__label_first__3
 #: model:ir.model.fields.selection,name:l10n_eu_product_adr.selection__product_template__label_second__3
 #: model:ir.model.fields.selection,name:l10n_eu_product_adr.selection__product_template__label_third__3
 msgid "2.2"
-msgstr ""
+msgstr "2.2"
 
 #. module: l10n_eu_product_adr
 #: model:ir.model.fields.selection,name:l10n_eu_product_adr.selection__product_template__label_first__5
 #: model:ir.model.fields.selection,name:l10n_eu_product_adr.selection__product_template__label_second__5
 #: model:ir.model.fields.selection,name:l10n_eu_product_adr.selection__product_template__label_third__5
 msgid "4.1"
-msgstr ""
+msgstr "4.1"
 
 #. module: l10n_eu_product_adr
 #: model:ir.model.fields.selection,name:l10n_eu_product_adr.selection__product_template__label_first__6
 #: model:ir.model.fields.selection,name:l10n_eu_product_adr.selection__product_template__label_second__6
 #: model:ir.model.fields.selection,name:l10n_eu_product_adr.selection__product_template__label_third__6
 msgid "4.2"
-msgstr ""
+msgstr "4.2"
 
 #. module: l10n_eu_product_adr
 #: model:ir.model.fields.selection,name:l10n_eu_product_adr.selection__product_template__label_first__7
 #: model:ir.model.fields.selection,name:l10n_eu_product_adr.selection__product_template__label_second__7
 #: model:ir.model.fields.selection,name:l10n_eu_product_adr.selection__product_template__label_third__7
 msgid "4.3"
-msgstr ""
+msgstr "4.3"
 
 #. module: l10n_eu_product_adr
 #: model:ir.model.fields.selection,name:l10n_eu_product_adr.selection__product_template__label_first__8
 #: model:ir.model.fields.selection,name:l10n_eu_product_adr.selection__product_template__label_second__8
 #: model:ir.model.fields.selection,name:l10n_eu_product_adr.selection__product_template__label_third__8
 msgid "5.1"
-msgstr ""
+msgstr "5.1"
 
 #. module: l10n_eu_product_adr
 #: model:ir.model.fields.selection,name:l10n_eu_product_adr.selection__product_template__label_first__9
 #: model:ir.model.fields.selection,name:l10n_eu_product_adr.selection__product_template__label_second__9
 #: model:ir.model.fields.selection,name:l10n_eu_product_adr.selection__product_template__label_third__9
 msgid "5.2"
-msgstr ""
+msgstr "5.2"
 
 #. module: l10n_eu_product_adr
 #: model:product.dangerous.class,name:l10n_eu_product_adr.dangerous_class_15
 msgid "9 Miscellaneous dangerous substances"
-msgstr ""
+msgstr "9 Diverse gevaarlijke stoffen en voorwerpen"
 
 #. module: l10n_eu_product_adr
 #: model:ir.model.fields.selection,name:l10n_eu_product_adr.selection__product_template__label_first__12
 #: model:ir.model.fields.selection,name:l10n_eu_product_adr.selection__product_template__label_second__12
 #: model:ir.model.fields.selection,name:l10n_eu_product_adr.selection__product_template__label_third__12
 msgid "9A"
-msgstr ""
+msgstr "9A"
 
 #. module: l10n_eu_product_adr
 #: model:product.dangerous.class,name:l10n_eu_product_adr.dangerous_class_16
 msgid "9A Lithium Ion Batteries "
 msgstr ""
+"9A Lithium-Ion-Batterijen (met inbegrip van lithium-ion-polymeer-batterijen) "
 
 #. module: l10n_eu_product_adr
 #: model:ir.model.fields,field_description:l10n_eu_product_adr.field_product_product__class_id
 #: model:ir.model.fields,field_description:l10n_eu_product_adr.field_product_template__class_id
 msgid "Class"
-msgstr ""
+msgstr "Klasse"
 
 #. module: l10n_eu_product_adr
 #: model:ir.model.fields,field_description:l10n_eu_product_adr.field_product_dangerous_class__code
 #: model:ir.model.fields,field_description:l10n_eu_product_adr.field_un_reference__name
 msgid "Code"
-msgstr ""
+msgstr "Code"
 
 #. module: l10n_eu_product_adr
 #: model:ir.model.fields,field_description:l10n_eu_product_adr.field_product_product__content_package
 #: model:ir.model.fields,field_description:l10n_eu_product_adr.field_product_template__content_package
 msgid "Content Packaging"
-msgstr ""
+msgstr "Verpakkingsinhoud"
 
 #. module: l10n_eu_product_adr
 #: model:product.dangerous.class,name:l10n_eu_product_adr.dangerous_class_14
 msgid "Corrosive"
-msgstr ""
+msgstr "Oxiderend"
 
 #. module: l10n_eu_product_adr
 #: model:product.dangerous.class.type,name:l10n_eu_product_adr.dangerous_type_class_8
 msgid "Corrosive substances"
-msgstr ""
+msgstr "Oxiderende stoffen"
 
 #. module: l10n_eu_product_adr
 #: model:ir.model.fields,field_description:l10n_eu_product_adr.field_dangerous_goods__create_uid
@@ -144,7 +148,7 @@ msgstr ""
 #: model:ir.model.fields,field_description:l10n_eu_product_adr.field_un_reference__create_uid
 #: model:ir.model.fields,field_description:l10n_eu_product_adr.field_wgk_class__create_uid
 msgid "Created by"
-msgstr ""
+msgstr "Aangemaakt door"
 
 #. module: l10n_eu_product_adr
 #: model:ir.model.fields,field_description:l10n_eu_product_adr.field_dangerous_goods__create_date
@@ -160,34 +164,34 @@ msgstr ""
 #: model:ir.model.fields,field_description:l10n_eu_product_adr.field_un_reference__create_date
 #: model:ir.model.fields,field_description:l10n_eu_product_adr.field_wgk_class__create_date
 msgid "Created on"
-msgstr ""
+msgstr "Aangemaakt op"
 
 #. module: l10n_eu_product_adr
 #: model:ir.model.fields,field_description:l10n_eu_product_adr.field_product_product__currency_id
 #: model:ir.model.fields,field_description:l10n_eu_product_adr.field_product_template__currency_id
 msgid "Currency"
-msgstr ""
+msgstr "Valuta"
 
 #. module: l10n_eu_product_adr
 #: model:ir.model.fields,field_description:l10n_eu_product_adr.field_product_product__dg_unit
 #: model:ir.model.fields,field_description:l10n_eu_product_adr.field_product_template__dg_unit
 msgid "DG - Unit"
-msgstr ""
+msgstr "Gevaarlijkestof eenheid"
 
 #. module: l10n_eu_product_adr
 #: model_terms:ir.ui.view,arch_db:l10n_eu_product_adr.product_dangerous_class_view_form
 msgid "Dangerous Class"
-msgstr ""
+msgstr "Gevarenklasse"
 
 #. module: l10n_eu_product_adr
 #: model_terms:ir.ui.view,arch_db:l10n_eu_product_adr.product_dangerous_class_type_view_tree
 msgid "Dangerous Class Types"
-msgstr ""
+msgstr "Gevaarlijkheids type"
 
 #. module: l10n_eu_product_adr
 #: model:ir.ui.menu,name:l10n_eu_product_adr.menu_l10n_eu_product_adr
 msgid "Dangerous Good Classes"
-msgstr ""
+msgstr "Gevaarlijke goederen Klasse"
 
 #. module: l10n_eu_product_adr
 #: model:ir.ui.menu,name:l10n_eu_product_adr.menu_l10n_eu_product_adr_type
@@ -198,7 +202,7 @@ msgstr ""
 #: model:ir.actions.act_window,name:l10n_eu_product_adr.product_dangerous_class_action
 #: model:ir.model,name:l10n_eu_product_adr.model_dangerous_goods
 msgid "Dangerous Goods"
-msgstr ""
+msgstr "Gevaarlijke goederen"
 
 #. module: l10n_eu_product_adr
 #: model:ir.actions.act_window,name:l10n_eu_product_adr.product_dangerous_class_type_action
@@ -208,50 +212,52 @@ msgstr ""
 #. module: l10n_eu_product_adr
 #: model_terms:ir.ui.view,arch_db:l10n_eu_product_adr.product_template_form_view
 msgid "Dangerous Packaging"
-msgstr ""
+msgstr "Gevaarlijkestoffen Verpakking"
 
 #. module: l10n_eu_product_adr
 #: model:ir.model.fields,field_description:l10n_eu_product_adr.field_product_product__dangerous_selection_id
 #: model:ir.model.fields,field_description:l10n_eu_product_adr.field_product_template__dangerous_selection_id
+#, fuzzy
 msgid "Dangerous Selection"
-msgstr ""
+msgstr "Gevarenselectie"
 
 #. module: l10n_eu_product_adr
 #: model:ir.model.fields,field_description:l10n_eu_product_adr.field_product_dangerous_class__class_type_id
 msgid "Dangerous Type"
-msgstr ""
+msgstr "Gevaarlijkheids type"
 
 #. module: l10n_eu_product_adr
 #: model:ir.model,name:l10n_eu_product_adr.model_dangerous_uom
+#, fuzzy
 msgid "Dangerous UOM"
-msgstr ""
+msgstr "Gevareneenheid"
 
 #. module: l10n_eu_product_adr
 #: model_terms:ir.ui.view,arch_db:l10n_eu_product_adr.product_template_form_view
 msgid "Dangerous attributes"
-msgstr ""
+msgstr "Zorgwekkende stoffen eigenschappen"
 
 #. module: l10n_eu_product_adr
 #: model:ir.model.fields,field_description:l10n_eu_product_adr.field_product_product__dangerous_class_id
 #: model:ir.model.fields,field_description:l10n_eu_product_adr.field_product_template__dangerous_class_id
 msgid "Dangerous class"
-msgstr ""
+msgstr "Gevarenklasse"
 
 #. module: l10n_eu_product_adr
 #: model:ir.model.fields,field_description:l10n_eu_product_adr.field_product_product__is_dangerous
 #: model:ir.model.fields,field_description:l10n_eu_product_adr.field_product_template__is_dangerous
 msgid "Dangerous product"
-msgstr ""
+msgstr "Product met zorgwekkende stoffen"
 
 #. module: l10n_eu_product_adr
 #: model_terms:ir.ui.view,arch_db:l10n_eu_product_adr.product_dangerous_class_view_tree
 msgid "Dangerous types"
-msgstr ""
+msgstr "Gevaarlijkheid"
 
 #. module: l10n_eu_product_adr
 #: model:ir.model.fields,field_description:l10n_eu_product_adr.field_un_reference__description
 msgid "Description"
-msgstr ""
+msgstr "Omschrijving"
 
 #. module: l10n_eu_product_adr
 #: model:ir.model.fields,field_description:l10n_eu_product_adr.field_dangerous_goods__display_name
@@ -267,12 +273,12 @@ msgstr ""
 #: model:ir.model.fields,field_description:l10n_eu_product_adr.field_un_reference__display_name
 #: model:ir.model.fields,field_description:l10n_eu_product_adr.field_wgk_class__display_name
 msgid "Display Name"
-msgstr ""
+msgstr "Naam"
 
 #. module: l10n_eu_product_adr
 #: model:ir.model.fields,field_description:l10n_eu_product_adr.field_product_dangerous_class_type__division
 msgid "Division"
-msgstr ""
+msgstr "Onderverdeling"
 
 #. module: l10n_eu_product_adr
 #: code:addons/l10n_eu_product_adr/models/product_template.py:0
@@ -280,38 +286,38 @@ msgstr ""
 #: model:ir.model.fields,field_description:l10n_eu_product_adr.field_product_template__envir_hazardous
 #, python-format
 msgid "Environmentally hazardous"
-msgstr ""
+msgstr "Milieugevaarlijk stof"
 
 #. module: l10n_eu_product_adr
 #: model:product.dangerous.class,name:l10n_eu_product_adr.dangerous_class_1
 msgid "Explosive substances and articles"
-msgstr ""
+msgstr "Ontplofbare stoffen en voorwerpen"
 
 #. module: l10n_eu_product_adr
 #: model:product.dangerous.class.type,name:l10n_eu_product_adr.dangerous_type_class_1
 msgid "Explosives"
-msgstr ""
+msgstr "Ontplofbare stoffen"
 
 #. module: l10n_eu_product_adr
 #: model:product.dangerous.class.type,name:l10n_eu_product_adr.dangerous_type_class_2_1
 msgid "Flammable gases"
-msgstr ""
+msgstr "Brandbaar gas"
 
 #. module: l10n_eu_product_adr
 #: model:product.dangerous.class,name:l10n_eu_product_adr.dangerous_class_2
 msgid "Flammable gases "
-msgstr ""
+msgstr "Brandbaar gas "
 
 #. module: l10n_eu_product_adr
 #: model:product.dangerous.class,name:l10n_eu_product_adr.dangerous_class_5
 #: model:product.dangerous.class.type,name:l10n_eu_product_adr.dangerous_type_class_3
 msgid "Flammable liquids"
-msgstr ""
+msgstr "Brandbare vloeistoffen"
 
 #. module: l10n_eu_product_adr
 #: model:product.dangerous.class,name:l10n_eu_product_adr.dangerous_class_6
 msgid "Flammable solids "
-msgstr ""
+msgstr "Brandbare vaste stoffen "
 
 #. module: l10n_eu_product_adr
 #: model:product.dangerous.class.type,name:l10n_eu_product_adr.dangerous_type_class_4_1
@@ -319,19 +325,24 @@ msgid ""
 "Flammable solids, self-reactive substances, and solid desensitized "
 "explosives"
 msgstr ""
+"Brandbare vaste stoffen, zelfontledende stoffen en vaste gedesensibiliseerde "
+"ontplofbare stoffen"
 
 #. module: l10n_eu_product_adr
 #: model:ir.model.fields,field_description:l10n_eu_product_adr.field_product_product__flash_point
 #: model:ir.model.fields,field_description:l10n_eu_product_adr.field_product_template__flash_point
 msgid "Flash point(°C)"
-msgstr ""
+msgstr "Ontbrandingspunt(°C)"
 
 #. module: l10n_eu_product_adr
 #: model:product.dangerous.class.type,name:l10n_eu_product_adr.dangerous_type_class_2
+#, fuzzy
 msgid ""
 "Gases, including compressed, liquified, and dissolved under pressure gases "
 "and vapors "
 msgstr ""
+"Gassen, inclusief gecomprimeerde, vloeibare en onder druk opgeloste gassen "
+"en dampen "
 
 #. module: l10n_eu_product_adr
 #: model:ir.model,name:l10n_eu_product_adr.model_great_class
@@ -364,68 +375,68 @@ msgstr ""
 #: model:ir.model.fields,field_description:l10n_eu_product_adr.field_un_reference__id
 #: model:ir.model.fields,field_description:l10n_eu_product_adr.field_wgk_class__id
 msgid "ID"
-msgstr ""
+msgstr "ID"
 
 #. module: l10n_eu_product_adr
 #: model:ir.model.fields.selection,name:l10n_eu_product_adr.selection__product_template__packaging_group__3
 msgid "II"
-msgstr ""
+msgstr "II"
 
 #. module: l10n_eu_product_adr
 #: model:ir.model.fields.selection,name:l10n_eu_product_adr.selection__product_template__packaging_group__4
 msgid "III"
-msgstr ""
+msgstr "III"
 
 #. module: l10n_eu_product_adr
 #: model:ir.model.fields,field_description:l10n_eu_product_adr.field_product_dangerous_class__image
 msgid "Icon"
-msgstr ""
+msgstr "Etiket"
 
 #. module: l10n_eu_product_adr
 #: model:product.dangerous.class.type,name:l10n_eu_product_adr.dangerous_type_class_6_2
 msgid "Infectious substances"
-msgstr ""
+msgstr "Infectueuze stoffen (besmettelijke stoffen)"
 
 #. module: l10n_eu_product_adr
 #: model:product.dangerous.class,name:l10n_eu_product_adr.dangerous_class_12
 msgid "Infectious substances "
-msgstr ""
+msgstr "Infectueuze stoffen (besmettelijke stoffen) "
 
 #. module: l10n_eu_product_adr
 #: model:ir.model.fields,field_description:l10n_eu_product_adr.field_product_product__is_dangerous_good
 #: model:ir.model.fields,field_description:l10n_eu_product_adr.field_product_template__is_dangerous_good
 msgid "Is Dangerous Good"
-msgstr ""
+msgstr "Is een zorgwekkende stof"
 
 #. module: l10n_eu_product_adr
 #: model:ir.model.fields,field_description:l10n_eu_product_adr.field_product_product__is_dangerous_waste
 #: model:ir.model.fields,field_description:l10n_eu_product_adr.field_product_template__is_dangerous_waste
 msgid "Is Dangerous Waste"
-msgstr ""
+msgstr "Is gevaarlijk afval"
 
 #. module: l10n_eu_product_adr
 #: model:ir.model.fields,field_description:l10n_eu_product_adr.field_product_product__adr_amount
 #: model:ir.model.fields,field_description:l10n_eu_product_adr.field_product_template__adr_amount
 msgid "LQ - ADR amount"
-msgstr ""
+msgstr "LQ Gelimiteerde ADR hoeveelheid"
 
 #. module: l10n_eu_product_adr
 #: model:ir.model.fields,field_description:l10n_eu_product_adr.field_product_product__label_first
 #: model:ir.model.fields,field_description:l10n_eu_product_adr.field_product_template__label_first
 msgid "Label 1"
-msgstr ""
+msgstr "Etiket 1"
 
 #. module: l10n_eu_product_adr
 #: model:ir.model.fields,field_description:l10n_eu_product_adr.field_product_product__label_second
 #: model:ir.model.fields,field_description:l10n_eu_product_adr.field_product_template__label_second
 msgid "Label 2"
-msgstr ""
+msgstr "Etiket 2"
 
 #. module: l10n_eu_product_adr
 #: model:ir.model.fields,field_description:l10n_eu_product_adr.field_product_product__label_third
 #: model:ir.model.fields,field_description:l10n_eu_product_adr.field_product_template__label_third
 msgid "Label 3"
-msgstr ""
+msgstr "Etiket 3"
 
 #. module: l10n_eu_product_adr
 #: model:ir.model.fields,field_description:l10n_eu_product_adr.field_dangerous_goods____last_update
@@ -441,7 +452,7 @@ msgstr ""
 #: model:ir.model.fields,field_description:l10n_eu_product_adr.field_un_reference____last_update
 #: model:ir.model.fields,field_description:l10n_eu_product_adr.field_wgk_class____last_update
 msgid "Last Modified on"
-msgstr ""
+msgstr "Laatst gewijzigd op"
 
 #. module: l10n_eu_product_adr
 #: model:ir.model.fields,field_description:l10n_eu_product_adr.field_dangerous_goods__write_uid
@@ -457,7 +468,7 @@ msgstr ""
 #: model:ir.model.fields,field_description:l10n_eu_product_adr.field_un_reference__write_uid
 #: model:ir.model.fields,field_description:l10n_eu_product_adr.field_wgk_class__write_uid
 msgid "Last Updated by"
-msgstr ""
+msgstr "Laatst gewijzigd door"
 
 #. module: l10n_eu_product_adr
 #: model:ir.model.fields,field_description:l10n_eu_product_adr.field_dangerous_goods__write_date
@@ -473,19 +484,19 @@ msgstr ""
 #: model:ir.model.fields,field_description:l10n_eu_product_adr.field_un_reference__write_date
 #: model:ir.model.fields,field_description:l10n_eu_product_adr.field_wgk_class__write_date
 msgid "Last Updated on"
-msgstr ""
+msgstr "Laatst gewijzigd op"
 
 #. module: l10n_eu_product_adr
 #: model:ir.model,name:l10n_eu_product_adr.model_limited_amount
 #: model:ir.model.fields,field_description:l10n_eu_product_adr.field_product_product__limited_amount_id
 #: model:ir.model.fields,field_description:l10n_eu_product_adr.field_product_template__limited_amount_id
 msgid "Limited Amount"
-msgstr ""
+msgstr "Gelimiteerde hoeveelheid"
 
 #. module: l10n_eu_product_adr
 #: model:product.dangerous.class.type,name:l10n_eu_product_adr.dangerous_type_class_9
 msgid "Miscellaneous dangerous substances and articles"
-msgstr ""
+msgstr "Diverse gevaarlijke stoffen en voorwerpen"
 
 #. module: l10n_eu_product_adr
 #: model:ir.model.fields,field_description:l10n_eu_product_adr.field_product_product__nag
@@ -505,51 +516,51 @@ msgstr ""
 #: model:ir.model.fields,field_description:l10n_eu_product_adr.field_storage_temp__name
 #: model:ir.model.fields,field_description:l10n_eu_product_adr.field_wgk_class__name
 msgid "Name"
-msgstr ""
+msgstr "Naam"
 
 #. module: l10n_eu_product_adr
 #: model:ir.model.fields.selection,name:l10n_eu_product_adr.selection__product_template__envir_hazardous__no
 msgid "No"
-msgstr ""
+msgstr "Nummer"
 
 #. module: l10n_eu_product_adr
 #: model:product.dangerous.class,name:l10n_eu_product_adr.dangerous_class_3
 #: model:product.dangerous.class.type,name:l10n_eu_product_adr.dangerous_type_class_2_2
 msgid "Non-toxic and non-flammable gases"
-msgstr ""
+msgstr "Niet brandbare, niet giftige gassen"
 
 #. module: l10n_eu_product_adr
 #: model:product.dangerous.class,name:l10n_eu_product_adr.dangerous_class_10
 #: model:product.dangerous.class.type,name:l10n_eu_product_adr.dangerous_type_class_5_2
 msgid "Organic peroxides"
-msgstr ""
+msgstr "Organische peroxiden"
 
 #. module: l10n_eu_product_adr
 #: model:product.dangerous.class,name:l10n_eu_product_adr.dangerous_class_9
 msgid "Oxidizers"
-msgstr ""
+msgstr "Oxiderende"
 
 #. module: l10n_eu_product_adr
 #: model:product.dangerous.class.type,name:l10n_eu_product_adr.dangerous_type_class_5_1
 msgid "Oxidizing substances"
-msgstr ""
+msgstr "Oxiderende stoffen"
 
 #. module: l10n_eu_product_adr
 #: model:ir.model,name:l10n_eu_product_adr.model_packaging_type
 msgid "Packaging"
-msgstr ""
+msgstr "Verpakking"
 
 #. module: l10n_eu_product_adr
 #: model:ir.model.fields,field_description:l10n_eu_product_adr.field_product_product__packaging_group
 #: model:ir.model.fields,field_description:l10n_eu_product_adr.field_product_template__packaging_group
 msgid "Packaging Group"
-msgstr ""
+msgstr "Verpakkingsgroep"
 
 #. module: l10n_eu_product_adr
 #: model:ir.model.fields,field_description:l10n_eu_product_adr.field_product_product__packaging_type_id
 #: model:ir.model.fields,field_description:l10n_eu_product_adr.field_product_template__packaging_type_id
 msgid "Packaging Type"
-msgstr ""
+msgstr "Verpakkingstype"
 
 #. module: l10n_eu_product_adr
 #: model:ir.model.fields,field_description:l10n_eu_product_adr.field_dangerous_goods_handler__picking_ids
@@ -559,12 +570,12 @@ msgstr ""
 #. module: l10n_eu_product_adr
 #: model:product.dangerous.class,name:l10n_eu_product_adr.dangerous_class_11
 msgid "Poison"
-msgstr ""
+msgstr "Giftig"
 
 #. module: l10n_eu_product_adr
 #: model:product.dangerous.class,name:l10n_eu_product_adr.dangerous_class_4
 msgid "Poison gases "
-msgstr ""
+msgstr "Giftige gassen "
 
 #. module: l10n_eu_product_adr
 #: model:ir.model,name:l10n_eu_product_adr.model_product_dangerous_class
@@ -579,17 +590,17 @@ msgstr ""
 #. module: l10n_eu_product_adr
 #: model:ir.model,name:l10n_eu_product_adr.model_product_template
 msgid "Product Template"
-msgstr ""
+msgstr "Product sjabloon"
 
 #. module: l10n_eu_product_adr
 #: model:product.dangerous.class,name:l10n_eu_product_adr.dangerous_class_13
 msgid "Radioactive"
-msgstr ""
+msgstr "Radioactief"
 
 #. module: l10n_eu_product_adr
 #: model:product.dangerous.class.type,name:l10n_eu_product_adr.dangerous_type_class_7
 msgid "Radioactive material"
-msgstr ""
+msgstr "Radioactieve stoffen"
 
 #. module: l10n_eu_product_adr
 #: model:ir.model.fields,field_description:l10n_eu_product_adr.field_product_product__sds
@@ -600,104 +611,104 @@ msgstr ""
 #. module: l10n_eu_product_adr
 #: model:product.dangerous.class,name:l10n_eu_product_adr.dangerous_class_7
 msgid "Spontaneously combustibles"
-msgstr ""
+msgstr "zelfontbrandbare stoffen"
 
 #. module: l10n_eu_product_adr
 #: model_terms:ir.ui.view,arch_db:l10n_eu_product_adr.product_template_form_view
 msgid "Storage"
-msgstr ""
+msgstr "Opslag"
 
 #. module: l10n_eu_product_adr
 #: model:ir.model.fields,field_description:l10n_eu_product_adr.field_product_product__storage_class_id
 #: model:ir.model.fields,field_description:l10n_eu_product_adr.field_product_template__storage_class_id
 msgid "Storage Class"
-msgstr ""
+msgstr "Opslagsklasse"
 
 #. module: l10n_eu_product_adr
 #: model:ir.model,name:l10n_eu_product_adr.model_storage_temp
 #: model:ir.model.fields,field_description:l10n_eu_product_adr.field_product_product__storage_temp_id
 #: model:ir.model.fields,field_description:l10n_eu_product_adr.field_product_template__storage_temp_id
 msgid "Storage Temp"
-msgstr ""
+msgstr "Opslag temperatuur"
 
 #. module: l10n_eu_product_adr
 #: model:ir.model,name:l10n_eu_product_adr.model_storage_class
 msgid "Storage class"
-msgstr ""
+msgstr "Opslagsklasse"
 
 #. module: l10n_eu_product_adr
 #: model:product.dangerous.class.type,name:l10n_eu_product_adr.dangerous_type_class_4_2
 msgid "Substances liable to spontaneous combustion"
-msgstr ""
+msgstr "zelfontbranding vatbare stoffen"
 
 #. module: l10n_eu_product_adr
 #: model:product.dangerous.class.type,name:l10n_eu_product_adr.dangerous_type_class_4_3
 msgid "Substances which, in contact with water, emit flammable gases"
-msgstr ""
+msgstr "Stoffen die in contact met water brandbare gassen ontwikkelen"
 
 #. module: l10n_eu_product_adr
 #: model:ir.model.constraint,message:l10n_eu_product_adr.constraint_product_dangerous_class_code_unique
 msgid "This code already exist"
-msgstr ""
+msgstr "Deze code bestaat reeds"
 
 #. module: l10n_eu_product_adr
 #: model:ir.model.constraint,message:l10n_eu_product_adr.constraint_un_reference_un_description_unique
 #: model:ir.model.constraint,message:l10n_eu_product_adr.constraint_un_reference_un_name_unique
 msgid "This description already exist"
-msgstr ""
+msgstr "Deze omschrijving is reeds in gebruik"
 
 #. module: l10n_eu_product_adr
 #: model:ir.model.fields,help:l10n_eu_product_adr.field_product_product__is_dangerous_good
 #: model:ir.model.fields,help:l10n_eu_product_adr.field_product_template__is_dangerous_good
 msgid "This product belongs to a dangerous class"
-msgstr ""
+msgstr "Dit product behoort tot een gevaarlijkegoederen classificering"
 
 #. module: l10n_eu_product_adr
 #: model:product.dangerous.class.type,name:l10n_eu_product_adr.dangerous_type_class_2_3
 msgid "Toxic"
-msgstr ""
+msgstr "Giftig"
 
 #. module: l10n_eu_product_adr
 #: model:product.dangerous.class.type,name:l10n_eu_product_adr.dangerous_type_class_6_1
 msgid "Toxic substances"
-msgstr ""
+msgstr "Giftige stoffen"
 
 #. module: l10n_eu_product_adr
 #: model:ir.model.fields,field_description:l10n_eu_product_adr.field_product_product__transport_category
 #: model:ir.model.fields,field_description:l10n_eu_product_adr.field_product_template__transport_category
 msgid "Transport Category"
-msgstr ""
+msgstr "Transport Categorie"
 
 #. module: l10n_eu_product_adr
 #: model:ir.model.fields,field_description:l10n_eu_product_adr.field_product_product__tunnel_code
 #: model:ir.model.fields,field_description:l10n_eu_product_adr.field_product_template__tunnel_code
 msgid "Tunnel code"
-msgstr ""
+msgstr "Tunnelcategorie"
 
 #. module: l10n_eu_product_adr
 #: code:addons/l10n_eu_product_adr/models/product_template.py:0
 #, python-format
 msgid "UN"
-msgstr ""
+msgstr "UN"
 
 #. module: l10n_eu_product_adr
 #: model:ir.model.fields,field_description:l10n_eu_product_adr.field_product_product__un_ref
 #: model:ir.model.fields,field_description:l10n_eu_product_adr.field_product_template__un_ref
 msgid "UN Number"
-msgstr ""
+msgstr "UN Nummer"
 
 #. module: l10n_eu_product_adr
 #: model:ir.actions.act_window,name:l10n_eu_product_adr.un_reference_action
 #: model:ir.model,name:l10n_eu_product_adr.model_un_reference
 #: model_terms:ir.ui.view,arch_db:l10n_eu_product_adr.un_reference_form
 msgid "UN Reference"
-msgstr ""
+msgstr "UN Referentie"
 
 #. module: l10n_eu_product_adr
 #: model:ir.model.fields,field_description:l10n_eu_product_adr.field_product_product__un_report
 #: model:ir.model.fields,field_description:l10n_eu_product_adr.field_product_template__un_report
 msgid "UN Report 38.3"
-msgstr ""
+msgstr "UN Rapport 38.3"
 
 #. module: l10n_eu_product_adr
 #: model:ir.model.fields,field_description:l10n_eu_product_adr.field_product_product__veg
@@ -742,40 +753,41 @@ msgstr ""
 
 #. module: l10n_eu_product_adr
 #: model:ir.model,name:l10n_eu_product_adr.model_dangerous_goods_handler
+#, fuzzy
 msgid "Wizard to count and prepare data fro dangerous goods report"
-msgstr ""
+msgstr "Wizard to count and prepare data for dangerous goods report"
 
 #. module: l10n_eu_product_adr
 #: model:ir.model.fields.selection,name:l10n_eu_product_adr.selection__product_template__envir_hazardous__yes
 msgid "Yes"
-msgstr ""
+msgstr "Ja"
 
 #. module: l10n_eu_product_adr
 #: model:dangerous.uom,name:l10n_eu_product_adr.dangerous_uom_3
 msgid "g (Gramm)"
-msgstr ""
+msgstr "g (Gram)"
 
 #. module: l10n_eu_product_adr
 #: model:dangerous.uom,name:l10n_eu_product_adr.dangerous_uom_2
 msgid "kg (Kilogramm)"
-msgstr ""
+msgstr "kg (Kilogram)"
 
 #. module: l10n_eu_product_adr
 #: model:dangerous.uom,name:l10n_eu_product_adr.dangerous_uom_1
 msgid "l (Liter)"
-msgstr ""
+msgstr "l (Liter)"
 
 #. module: l10n_eu_product_adr
 #: model:storage.temp,name:l10n_eu_product_adr.storage_temp_2
 msgid "over 25°C"
-msgstr ""
+msgstr "boven 25°C"
 
 #. module: l10n_eu_product_adr
 #: model:storage.temp,name:l10n_eu_product_adr.storage_temp_1
 msgid "to 25°C"
-msgstr ""
+msgstr "tot 25°C"
 
 #. module: l10n_eu_product_adr
 #: model:storage.temp,name:l10n_eu_product_adr.storage_temp_3
 msgid "to 30°C"
-msgstr ""
+msgstr "tot 30°C"
