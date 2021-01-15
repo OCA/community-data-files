@@ -4,7 +4,7 @@
 
 {
     "name": "Base Currency ISO 4217",
-    "version": "13.0.1.0.0",
+    "version": "14.0.1.0.0",
     "category": "Base",
     "license": "AGPL-3",
     "summary": "Adds numeric code and full name to currencies, "
