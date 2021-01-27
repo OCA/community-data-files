@@ -43,8 +43,6 @@ class ProductTemplate(models.Model):
     veva_code_empty = fields.Char(string="VeVA Code: Empty packaging")
     veva_code_full = fields.Char(string="VeVA Code: Full package")
     un_report = fields.Char(string="UN Report 38.3")
-    sds = fields.Char(string="SDS")
-    content_package = fields.Float(string="Content Packaging")
     flash_point = fields.Char(string="Flash point(°C)")
     h_no = fields.Char(string="H-No")
     hazard_ind = fields.Char(string="Hazard identification")

@@ -34,10 +34,6 @@
                             <field name="label_first" />
                             <field name="label_second" />
                             <field name="label_third" />
-                            <field
-                                name="content_package"
-                                attrs="{'required':[('is_dangerous','=',True)]}"
-                            />
                             <field name="flash_point" />
                         </group>
                         <group name="hazardous_details">
@@ -50,7 +46,6 @@
                             <field name="veva_code_empty" />
                             <field name="veva_code_full" />
                             <field name="un_report" widget="url" />
-                            <field name="sds" widget="url" />
                             <field name="h_no" />
                             <field name="hazard_ind" />
                             <field

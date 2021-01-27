@@ -3,7 +3,7 @@
 {
     "name": "ADR Products",
     "summary": "Allows to set appropriate danger class and components",
-    "version": "13.0.1.0.1",
+    "version": "13.0.1.0.2",
     "category": "Product",
     "website": "https://github.com/OCA/community-data-files",
     "author": "Camptocamp, Odoo Community Association (OCA)",
@@ -16,6 +16,7 @@
         "data/product_dangerous_class_data.xml",
         "data/utility_models_data.xml",
         "security/ir.model.access.csv",
+        "views/product_product_view.xml",
         "views/product_template_view.xml",
         "views/product_dangerous.xml",
         "views/utility_models.xml",
