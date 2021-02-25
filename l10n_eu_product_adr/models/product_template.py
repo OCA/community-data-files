@@ -36,7 +36,7 @@ class ProductTemplate(models.Model):
     currency_id = fields.Many2one(
         "res.currency",
         string="Currency",
-        default=lambda self: self.env.company.currency_id.id,
+        default=lambda self: self.env.user.company_id.currency_id.id,
     )
     veg = fields.Monetary(string="VEG in currency")
     nag = fields.Char(string="N.A.G.")
@@ -76,10 +76,12 @@ class ProductTemplate(models.Model):
     )
 
     @api.onchange("is_dangerous")
-    def _ochange_is_dangerous(self):
+    def _onchange_is_dangerous(self):
         self.is_dangerous_good = self.is_dangerous
 
+    @api.multi
     def get_full_class_name(self):
+        self.ensure_one()
         class_name = _("UN")
 
         if self.is_dangerous_waste:

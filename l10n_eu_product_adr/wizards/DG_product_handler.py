@@ -3,15 +3,16 @@
 
 from itertools import groupby
 
-from odoo import fields, models
+from odoo import fields, models, api
 
 
 class DGProductCounter(models.TransientModel):
     _name = "dangerous.goods.handler"
-    _description = "Wizard to count and prepare data fro dangerous goods report"
+    _description = "Wizard to count and prepare data for dangerous goods report"
 
     picking_ids = fields.Many2many("stock.picking", string="Pickings")
 
+    @api.multi
     def prepare_DG_data(self):
         """
         Result is lines for dangerous products
@@ -35,7 +36,7 @@ class DGProductCounter(models.TransientModel):
             }
         }
         """
-
+        self.ensure_one()
         vals = {
             "dg_lines": [],
             "total_section": {},
