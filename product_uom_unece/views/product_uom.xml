@@ -8,8 +8,8 @@
 <odoo>
 
 <record id="product_uom_form_view" model="ir.ui.view">
-    <field name="model">product.uom</field>
-    <field name="inherit_id" ref="product.product_uom_form_view" />
+    <field name="model">uom.uom</field>
+    <field name="inherit_id" ref="uom.product_uom_form_view" />
     <field name="arch" type="xml">
         <field name="rounding" position="after">
             <field name="unece_code"/>
@@ -18,8 +18,8 @@
 </record>
 
 <record id="product_uom_tree_view" model="ir.ui.view">
-    <field name="model">product.uom</field>
-    <field name="inherit_id" ref="product.product_uom_tree_view" />
+    <field name="model">uom.uom</field>
+    <field name="inherit_id" ref="uom.product_uom_tree_view" />
     <field name="arch" type="xml">
         <field name="category_id" position="after">
             <field name="unece_code"/>

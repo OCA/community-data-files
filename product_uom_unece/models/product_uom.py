@@ -6,7 +6,7 @@ from odoo import models, fields
 
 
 class ProductUom(models.Model):
-    _inherit = 'product.uom'
+    _inherit = 'uom.uom'
 
     unece_code = fields.Char(
         string='UNECE Code',
