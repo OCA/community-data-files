@@ -2,8 +2,8 @@
 # License AGPL-3.0 or later (https://www.gnu.org/licenses/agpl)
 {
     "name": "ADR Products Report",
-    "summary": "Print Delivery report to ADR standart",
-    "version": "13.0.1.0.1",
+    "summary": "Print Delivery report to ADR standard",
+    "version": "12.0.1.0.1",
     "development_status": "Alpha",
     "category": "Product",
     "website": "https://github.com/OCA/stock-logistic-reporting",
