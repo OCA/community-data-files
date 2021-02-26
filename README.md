@@ -19,6 +19,7 @@ Available addons
 ----------------
 addon | version | summary
 --- | --- | ---
+[account_tax_unece](account_tax_unece/) | 14.0.1.0.0 | UNECE nomenclature for taxes
 [base_bank_from_iban](base_bank_from_iban/) | 14.0.1.0.0 | Bank from IBAN
 [base_unece](base_unece/) | 14.0.1.1.0 | Base module for UNECE code lists
 [uom_unece](uom_unece/) | 14.0.1.0.0 | UNECE nomenclature for the units of measure
