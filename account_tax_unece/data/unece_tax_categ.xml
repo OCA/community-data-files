@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<odoo noupdate="0">
+    <!-- unece.code.list
+Source : https://www.unece.org/fileadmin/DAM/trade/untdid/d16b/tred/tred5305.htm  -->
+    <record id="tax_categ_a" model="unece.code.list">
+        <field name="type">tax_categ</field>
+        <field name="code">A</field>
+        <field name="name">Mixed tax rate</field>
+        <field name="description">
+            Code specifying that the rate is based on mixed tax.
+        </field>
+    </record>
+    <record id="tax_categ_aa" model="unece.code.list">
+        <field name="type">tax_categ</field>
+        <field name="code">AA</field>
+        <field name="name">Lower rate</field>
+        <field name="description">Tax rate is lower than standard rate.</field>
+    </record>
+    <record id="tax_categ_ab" model="unece.code.list">
+        <field name="type">tax_categ</field>
+        <field name="code">AB</field>
+        <field name="name">Exempt for resale</field>
+        <field name="description">
+            A tax category code indicating the item is tax exempt when the item is
+            bought for future resale.
+        </field>
+    </record>
+    <record id="tax_categ_ac" model="unece.code.list">
+        <field name="type">tax_categ</field>
+        <field name="code">AC</field>
+        <field name="name">Value Added Tax (VAT) not now due for payment</field>
+        <field name="description">
+            A code to indicate that the Value Added Tax (VAT) amount which is due on the
+            current invoice is to be paid on receipt of a separate VAT payment request.
+        </field>
+    </record>
+    <record id="tax_categ_ad" model="unece.code.list">
+        <field name="type">tax_categ</field>
+        <field name="code">AD</field>
+        <field name="name">Value Added Tax (VAT) due from a previous invoice</field>
+        <field name="description">
+            A code to indicate that the Value Added Tax (VAT) amount of a previous
+            invoice is to be paid.
+        </field>
+    </record>
+    <record id="tax_categ_ae" model="unece.code.list">
+        <field name="type">tax_categ</field>
+        <field name="code">AE</field>
+        <field name="name">VAT Reverse Charge</field>
+        <field name="description">
+            Code specifying that the standard VAT rate is levied from the invoicee.
+        </field>
+    </record>
+    <record id="tax_categ_b" model="unece.code.list">
+        <field name="type">tax_categ</field>
+        <field name="code">B</field>
+        <field name="name">Transferred (VAT)</field>
+        <field name="description">
+            VAT not to be paid to the issuer of the invoice but directly to relevant tax
+            authority.
+        </field>
+    </record>
+    <record id="tax_categ_c" model="unece.code.list">
+        <field name="type">tax_categ</field>
+        <field name="code">C</field>
+        <field name="name">Duty paid by supplier</field>
+        <field name="description">
+            Duty associated with shipment of goods is paid by the supplier; customer
+            receives goods with duty paid.
+        </field>
+    </record>
+    <record id="tax_categ_d" model="unece.code.list">
+        <field name="type">tax_categ</field>
+        <field name="code">D</field>
+        <field name="name">Value Added Tax (VAT) margin scheme - travel agents</field>
+        <field name="description">
+            Indication that the VAT margin scheme for travel agents is applied.
+        </field>
+    </record>
+    <record id="tax_categ_e" model="unece.code.list">
+        <field name="type">tax_categ</field>
+        <field name="code">E</field>
+        <field name="name">Exempt from tax</field>
+        <field name="description">Code specifying that taxes are not applicable.</field>
+    </record>
+    <record id="tax_categ_f" model="unece.code.list">
+        <field name="type">tax_categ</field>
+        <field name="code">F</field>
+        <field name="name">
+            Value Added Tax (VAT) margin scheme - second-hand goods
+        </field>
+        <field name="description">
+            Indication that the VAT margin scheme for second-hand goods is applied.
+        </field>
+    </record>
+    <record id="tax_categ_g" model="unece.code.list">
+        <field name="type">tax_categ</field>
+        <field name="code">G</field>
+        <field name="name">Free export item, tax not charged</field>
+        <field name="description">
+            Code specifying that the item is free export and taxes are not charged.
+        </field>
+    </record>
+    <record id="tax_categ_h" model="unece.code.list">
+        <field name="type">tax_categ</field>
+        <field name="code">H</field>
+        <field name="name">Higher rate</field>
+        <field name="description">
+            Code specifying a higher rate of duty or tax or fee.
+        </field>
+    </record>
+    <record id="tax_categ_i" model="unece.code.list">
+        <field name="type">tax_categ</field>
+        <field name="code">I</field>
+        <field name="name">Value Added Tax (VAT) margin scheme - works of art</field>
+        <field name="description">
+            Indication that the VAT margin scheme for works of art is applied.
+        </field>
+    </record>
+    <record id="tax_categ_j" model="unece.code.list">
+        <field name="type">tax_categ</field>
+        <field name="code">J</field>
+        <field name="name">
+            Value Added Tax (VAT) margin scheme - collector's items and antiques
+        </field>
+        <field name="description">
+            Indication that the VAT margin scheme for collector's items and antiques is
+            applied.
+        </field>
+    </record>
+    <record id="tax_categ_k" model="unece.code.list">
+        <field name="type">tax_categ</field>
+        <field name="code">K</field>
+        <field name="name">
+            VAT exempt for EEA intra-community supply of goods and services
+        </field>
+        <field name="description">
+            A tax category code indicating the item is VAT exempt due to an
+            intra-community supply in the European Economic Area.
+        </field>
+    </record>
+    <record id="tax_categ_l" model="unece.code.list">
+        <field name="type">tax_categ</field>
+        <field name="code">L</field>
+        <field name="name">Canary Islands general indirect tax</field>
+        <field name="description">
+            Impuesto General Indirecto Canario (IGIC) is an indirect tax levied on goods
+            and services supplied in the Canary Islands (Spain) by traders and
+            professionals, as well as on import of goods.
+        </field>
+    </record>
+    <record id="tax_categ_m" model="unece.code.list">
+        <field name="type">tax_categ</field>
+        <field name="code">M</field>
+        <field name="name">
+            Tax for production, services and importation in Ceuta and Melilla
+        </field>
+        <field name="description">
+            Impuesto sobre la Producción, los Servicios y la Importación (IPSI) is an
+            indirect municipal tax, levied on the production, processing and import of
+            all kinds of movable tangible property, the supply of services and the
+            transfer of immovable property located in the cities of Ceuta and Melilla.
+        </field>
+    </record>
+    <record id="tax_categ_o" model="unece.code.list">
+        <field name="type">tax_categ</field>
+        <field name="code">O</field>
+        <field name="name">Services outside scope of tax</field>
+        <field name="description">
+            Code specifying that taxes are not applicable to the services.
+        </field>
+    </record>
+    <record id="tax_categ_s" model="unece.code.list">
+        <field name="type">tax_categ</field>
+        <field name="code">S</field>
+        <field name="name">Standard rate</field>
+        <field name="description">Code specifying the standard rate.</field>
+    </record>
+    <record id="tax_categ_z" model="unece.code.list">
+        <field name="type">tax_categ</field>
+        <field name="code">Z</field>
+        <field name="name">Zero rated goods</field>
+        <field name="description">
+            Code specifying that the goods are at a zero rate.
+        </field>
+    </record>
+</odoo>
