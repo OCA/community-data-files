@@ -6,106 +6,117 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 12.0\n"
 "Report-Msgid-Bugs-To: \n"
-"Last-Translator: Automatically generated\n"
+"PO-Revision-Date: 2021-03-12 02:46+0000\n"
+"Last-Translator: Pedro Castro Silva <pedrocs@exo.pt>\n"
 "Language-Team: none\n"
 "Language: pt\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
+"X-Generator: Weblate 4.3.2\n"
 
 #. module: account_tax_unece
 #: selection:unece.code.list,type:0
 msgid "Date, Time or Period Qualifier (UNTDID 2005)"
-msgstr ""
+msgstr "Data, Hora ou Qualificador de Período (UNTDID 2005)"
 
 #. module: account_tax_unece
 #: selection:unece.code.list,type:0
 msgid "Payment Means (UNCL 4461)"
-msgstr ""
+msgstr "Meios de Pagamento (UNCL 4461)"
 
 #. module: account_tax_unece
 #: model:ir.model.fields,help:account_tax_unece.field_account_tax__unece_categ_id
 #: model:ir.model.fields,help:account_tax_unece.field_account_tax_template__unece_categ_id
 msgid "Select the Tax Category Code of the official nomenclature of the United Nations Economic Commission for Europe (UNECE), DataElement 5305"
 msgstr ""
+"Selecione o Código de Categoria de Imposto da nomenclatura oficial da "
+"Comissão Económica das Nações Unidas para a Europa (UNECE), DataElement 5305"
 
 #. module: account_tax_unece
 #: model:ir.model.fields,help:account_tax_unece.field_account_tax__unece_type_id
 #: model:ir.model.fields,help:account_tax_unece.field_account_tax_template__unece_type_id
 msgid "Select the Tax Type Code of the official nomenclature of the United Nations Economic Commission for Europe (UNECE), DataElement 5153"
 msgstr ""
+"Selecione o Código de Tipo de Imposto da nomenclatura oficial da Comissão "
+"Económica das Nações Unidas para a Europa (UNECE), DataElement 5153"
 
 #. module: account_tax_unece
 #: model:ir.model.fields,help:account_tax_unece.field_account_tax__unece_due_date_id
 #: model:ir.model.fields,help:account_tax_unece.field_account_tax_template__unece_due_date_id
 msgid "Select the due date of that tax from the official nomenclature of the United Nations Economic Commission for Europe (UNECE), DataElement 2005. For a sale VAT tax, it is the date on which that VAT is due to the fiscal administration. For a purchase VAT tax, it is the date on which that VAT can be deducted."
 msgstr ""
+"Selecione a data de vencimento desse imposto na nomenclatura oficial da "
+"Comissão Económica das Nações Unidas para a Europa (UNECE), DataElement "
+"2005. Para um IVA sobre a venda, é a data em que esse imposto é devido à "
+"administração fiscal. Para um IVA de compra, é a data na qual esse IVA pode "
+"ser deduzido."
 
 #. module: account_tax_unece
 #: model:ir.model,name:account_tax_unece.model_account_tax
 msgid "Tax"
-msgstr ""
+msgstr "Imposto"
 
 #. module: account_tax_unece
 #: selection:unece.code.list,type:0
 msgid "Tax Categories (UNCL 5305)"
-msgstr ""
+msgstr "Categorias de Impostos (UNCL 5305)"
 
 #. module: account_tax_unece
 #: selection:unece.code.list,type:0
 msgid "Tax Types (UNCL 5153)"
-msgstr ""
+msgstr "Tipos de Impostos (UNCL 5153)"
 
 #. module: account_tax_unece
 #: model:ir.model,name:account_tax_unece.model_account_tax_template
 msgid "Templates for Taxes"
-msgstr ""
+msgstr "Modelos para Impostos"
 
 #. module: account_tax_unece
 #: model:ir.model.fields,field_description:account_tax_unece.field_unece_code_list__type
 msgid "Type"
-msgstr ""
+msgstr "Tipo"
 
 #. module: account_tax_unece
 #: model:ir.model.fields,field_description:account_tax_unece.field_account_tax__unece_categ_code
 msgid "UNECE Category Code"
-msgstr ""
+msgstr "Código de Categoria UNECE"
 
 #. module: account_tax_unece
 #: model:ir.model.fields,field_description:account_tax_unece.field_account_tax__unece_due_date_id
 #: model:ir.model.fields,field_description:account_tax_unece.field_account_tax_template__unece_due_date_id
 msgid "UNECE Due Date"
-msgstr ""
+msgstr "Data de Vencimento UNECE"
 
 #. module: account_tax_unece
 #: model:ir.model.fields,field_description:account_tax_unece.field_account_tax__unece_due_date_code
 msgid "UNECE Due Date Code"
-msgstr ""
+msgstr "Código de Data de Vencimento UNECE"
 
 #. module: account_tax_unece
 #: model:ir.model.fields,field_description:account_tax_unece.field_account_tax__unece_categ_id
 #: model:ir.model.fields,field_description:account_tax_unece.field_account_tax_template__unece_categ_id
 msgid "UNECE Tax Category"
-msgstr ""
+msgstr "Categoria de Imposto UNECE"
 
 #. module: account_tax_unece
 #: model:ir.model.fields,field_description:account_tax_unece.field_account_tax__unece_type_id
 #: model:ir.model.fields,field_description:account_tax_unece.field_account_tax_template__unece_type_id
 msgid "UNECE Tax Type"
-msgstr ""
+msgstr "Tipo de imposto UNECE"
 
 #. module: account_tax_unece
 #: model:ir.model.fields,field_description:account_tax_unece.field_account_tax__unece_type_code
 msgid "UNECE Type Code"
-msgstr ""
+msgstr "Código de Tipo UNECE"
 
 #. module: account_tax_unece
 #: model:ir.model,name:account_tax_unece.model_unece_code_list
 msgid "UNECE nomenclatures"
-msgstr ""
+msgstr "Nomenclaturas UNECE"
 
 #. module: account_tax_unece
 #: model_terms:ir.ui.view,arch_db:account_tax_unece.view_tax_template_form
 msgid "Unece"
-msgstr ""
+msgstr "Unece"
