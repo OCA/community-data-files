@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 13.0\n"
 "Report-Msgid-Bugs-To: \n"
-"PO-Revision-Date: 2020-12-17 19:19+0000\n"
+"PO-Revision-Date: 2021-04-22 18:47+0000\n"
 "Last-Translator: Bosd <c5e2fd43-d292-4c90-9d1f-74ff3436329a@anonaddy.me>\n"
 "Language-Team: none\n"
 "Language: nl\n"
@@ -19,7 +19,7 @@ msgstr ""
 #. module: l10n_eu_product_adr
 #: model:product.dangerous.class,name:l10n_eu_product_adr.dangerous_class_8
 msgid " Dangerous when wet"
-msgstr ""
+msgstr " Gevaarlijk indien nat"
 
 #. module: l10n_eu_product_adr
 #: code:addons/l10n_eu_product_adr/models/product_template.py:0
