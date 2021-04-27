@@ -63,7 +63,7 @@ class StorageClass(models.Model):
     name = fields.Char(string="Name", required=True)
 
 
-class PackaginType(models.Model):
+class PackagingType(models.Model):
     _name = "packaging.type"
     _description = "Packaging"
 
