@@ -21,3 +21,4 @@ access_un_ref_class_user,access_un_ref_class,model_un_reference,base.group_user,
 access_un_ref_class_manager,access_un_ref_class_manager,model_un_reference,base.group_erp_manager,1,1,1,1
 access_dang_uom_user,access_dang_uom_class,model_dangerous_uom,base.group_user,1,0,0,0
 access_dang_uom_manager,access_dang_uom_class_manager,model_dangerous_uom,base.group_erp_manager,1,1,1,1
+access_dangerous_goods_handler,access_dangerous_goods_handler,model_dangerous_goods_handler,stock.group_stock_user,1,1,1,1
