@@ -23,6 +23,7 @@ addon | version | summary
 [account_tax_unece](account_tax_unece/) | 14.0.1.0.0 | UNECE nomenclature for taxes
 [base_bank_from_iban](base_bank_from_iban/) | 14.0.1.0.0 | Bank from IBAN
 [base_currency_iso_4217](base_currency_iso_4217/) | 14.0.1.0.0 | Adds numeric code and full name to currencies, following the ISO 4217 specification
+[base_iso3166](base_iso3166/) | 14.0.1.0.0 | ISO 3166
 [base_unece](base_unece/) | 14.0.1.1.0 | Base module for UNECE code lists
 [uom_unece](uom_unece/) | 14.0.1.0.0 | UNECE nomenclature for the units of measure
 
