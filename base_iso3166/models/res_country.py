@@ -42,7 +42,7 @@ class ResCountry(models.Model):
             if c:
                 country.code_alpha3 = getattr(c, 'alpha_3',
                                               getattr(c, 'alpha3', False))
-                country.code_numeric = c.numeric
+                country.code_numeric = getattr(c, 'numeric', False)
             else:
                 country.code_alpha3 = False
                 country.code_numeric = False
