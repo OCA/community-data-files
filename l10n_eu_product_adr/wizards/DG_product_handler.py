@@ -112,7 +112,7 @@ class DGProductCounter(models.TransientModel):
                 {
                     "product": product,
                     "dg_unit": product.dg_unit.name,
-                    "class": product.product_tmpl_id.get_full_class_name()
+                    "class": product.get_full_class_name()
                     + ", {}, {}, {}, {}".format(
                         qty,
                         product.packaging_type_id.name,

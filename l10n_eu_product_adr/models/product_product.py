@@ -20,8 +20,8 @@ LABELS_SELECTION = [
 TRANSPORT_CATEGORY = [("1", "0"), ("2", "1"), ("3", "2"), ("4", "3"), ("5", "4")]
 
 
-class ProductTemplate(models.Model):
-    _inherit = "product.template"
+class ProductProduct(models.Model):
+    _inherit = "product.product"
 
     is_dangerous = fields.Boolean(string="Dangerous product")
     dangerous_class_id = fields.Many2one(
