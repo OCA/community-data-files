@@ -33,6 +33,11 @@ Read more
 https://en.wikipedia.org/wiki/ADR_(treaty)
 Unece standards https://www.unece.org/trans/danger/publi/adr/adr2011/11ContentsE.html
 
+from 13.0.2.x.x
+===============
+
+ - [BREAKING] Dangerous fields moved from `product.template` to `product.product` (`#112 <https://github.com/OCA/community-data-files/pull/112>`_)
+
 **Table of contents**
 
 .. contents::
@@ -45,14 +50,6 @@ Dangerous products may also have temperature control to track goods in stock and
 delivery
 May more complex name generation needed for computing shipping name, base on
 dangerous class
-
-Changelog
-=========
-
-13.0.2.0.1 (2021-06-08)
-=======================
-
- - [BREAKING] Dangerous fields moved from `product.template` to `product.product` (`#112 <https://github.com/OCA/community-data-files/pull/112>`_)
 
 Bug Tracker
 ===========
