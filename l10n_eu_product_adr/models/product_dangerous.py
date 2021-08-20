@@ -6,10 +6,10 @@ from odoo import api, fields, models
 class ProductDangerousClass(models.Model):
     _name = "product.dangerous.class"
     _description = "Product Dangerous Class"
-    _rec_name = "name_full"
+    _rec_name = "complete_name"
 
     name = fields.Char(required=True, translate=True)
-    name_full = fields.Char(compute="_compute_name_full")
+    complete_name = fields.Char(compute="_compute_complete_name")
     code = fields.Char(required=True)
     image = fields.Binary(string="Icon", required=True)
     class_type_id = fields.Many2one(
@@ -19,9 +19,9 @@ class ProductDangerousClass(models.Model):
     )
 
     @api.depends("name", "code")
-    def _compute_name_full(self):
+    def _compute_complete_name(self):
         for record in self:
-            record.name_full = " ".join([record.code, record.name])
+            record.complete_name = " ".join([record.code, record.name])
 
     _sql_constraints = [("code_unique", "unique(code)", "This code already exist")]
 
