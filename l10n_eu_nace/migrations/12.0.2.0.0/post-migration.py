@@ -7,7 +7,7 @@ def migrate(cr, version):
     cr.execute(
         """
         WITH imd_new AS(
-            SELECT 
+            SELECT
                 imd_new.name AS xml_id,
                 imd_new.res_id AS new_res_id
             FROM ir_model_data AS imd_new
@@ -37,7 +37,7 @@ def migrate(cr, version):
                 rpc.category_id,
                 match_old_new.new_res_id
             FROM res_partner AS rp
-            INNER JOIN res_partner_res_partner_category_rel AS rpc 
+            INNER JOIN res_partner_res_partner_category_rel AS rpc
                                      ON rpc.partner_id = rp.id
             INNER JOIN match_old_new ON match_old_new.old_res_id = rpc.category_id
         )
