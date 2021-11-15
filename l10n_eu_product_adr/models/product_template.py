@@ -20,8 +20,12 @@ class ProductTemplate(models.Model):
         "adr.label",
         related="adr_goods_id.label_ids",
     )
-    adr_limited_quantity = fields.Char(
+    adr_limited_quantity = fields.Float(
         related="adr_goods_id.limited_quantity",
+        readonly=True,
+    )
+    adr_limited_quantity_uom_id = fields.Many2one(
+        related="adr_goods_id.limited_quantity_uom_id",
     )
     adr_packing_instruction_ids = fields.Many2many(
         "adr.packing.instruction",

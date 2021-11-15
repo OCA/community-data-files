@@ -31,7 +31,11 @@
                             <field name="adr_classification_code" />
                         </group>
                         <group string="Transport">
-                            <field name="adr_limited_quantity" />
+                            <label for="adr_limited_quantity" />
+                            <div>
+                                <field name="adr_limited_quantity" />
+                                <field name="adr_limited_quantity_uom_id" />
+                            </div>
                             <field
                                 name="adr_packing_instruction_ids"
                                 widget="many2many_tags"
