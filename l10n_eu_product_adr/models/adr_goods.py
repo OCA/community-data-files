@@ -50,7 +50,8 @@ class AdrGoods(models.Model):
             "vehicles.)"
         ),
     )
-    limited_quantity = fields.Char()
+    limited_quantity = fields.Float(digits="Product Unit of Measure")
+    limited_quantity_uom_id = fields.Many2one("uom.uom", string="Limited Quantity UoM")
     packing_instruction_ids = fields.Many2many(
         comodel_name="adr.packing.instruction",
         string="Packing Instructions",
@@ -95,7 +96,10 @@ class AdrGoods(models.Model):
             if rec.transport_category != "-":
                 affixes.append(_("cat:%s") % rec.transport_category)
             if rec.limited_quantity:
-                affixes.append(_("qty:%s") % rec.limited_quantity)
+                affixes.append(
+                    _("qty:%s %s")
+                    % (rec.limited_quantity, rec.limited_quantity_uom_id.name)
+                )
             if affixes:
                 name += " (%s)" % (", ".join(affixes))
             res.append((rec.id, name))

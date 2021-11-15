@@ -23,7 +23,14 @@
                             <field name="active" invisible="1" />
                         </group>
                         <group string="Transport">
-                            <field name="limited_quantity" />
+                            <label for="limited_quantity" />
+                            <div>
+                                <field name="limited_quantity" />
+                                <field
+                                    name="limited_quantity_uom_id"
+                                    options="{'no_create': True}"
+                                />
+                            </div>
                             <field
                                 name="packing_instruction_ids"
                                 options="{'no_create': True}"
@@ -61,6 +68,7 @@
                 <field name="class_id" />
                 <field name="classification_code" />
                 <field name="limited_quantity" />
+                <field name="limited_quantity_uom_id" />
                 <field name="transport_category" />
                 <field name="tunnel_restriction_code" />
             </tree>
