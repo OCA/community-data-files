@@ -104,6 +104,13 @@ valid_labels = [
     "9A",
 ]
 
+uom_map = {
+    "g": "uom.product_uom_gram",
+    "kg": "uom.product_uom_kgm",
+    "l": "uom.product_uom_litre",
+    "ml": "l10n_eu_product_adr.product_uom_mililiter",
+}
+
 # Keytypes
 single = []
 by_qty = []
@@ -153,9 +160,29 @@ def parse_packing_instructions(row):
     return res
 
 
-def parse_limited_quantity(row):
+def parse_limited_quantity(row, split=True):
+    """
+    :param split: when set, parse into float and Odoo uom. Otherwise, return
+    text representation as is.
+    """
     value = row[index["limited_quantity"]] or ""
-    return (value if value != "0" else "").strip()
+    if not value or value == "0":
+        return "" if not split else (False, False)
+    value = value.strip()
+    if not split:
+        return value
+    match = re.match(r"([0-9]+\.?[0-9]?)\s+([a-zA-Z]+)", value)
+    if not match:
+        if "BP 251" in value:  # known case
+            return False, False
+        else:
+            raise ValueError("Cannot parse limited quantity: %s (%s)" % (value, row))
+    quantity, uom_name = match.groups()
+    if uom_name.lower() not in uom_map:
+        raise ValueError(
+            "Unknown uom %s in limited quantity %s (%s)" % (uom_name, value, row)
+        )
+    return quantity, uom_map[uom_name.lower()]
 
 
 def apply_description_quirk(row):
@@ -172,7 +199,7 @@ def get_xml_id(row):
     if un_number in single:
         parts = [un_number]
     else:
-        qty = parse_limited_quantity(row).replace(" ", "")
+        qty = parse_limited_quantity(row, split=False).replace(" ", "")
         if un_number in by_qty:
             parts = [un_number, qty]
         else:
@@ -226,10 +253,19 @@ def packing_instruction_ids(record, value, row):
 
 @transformer
 def limited_quantity(record, value, row):
-    value = parse_limited_quantity(row)
-    el = etree.SubElement(record, "field", attrib={"name": "limited_quantity"})
-    if value:
-        el.text = value
+    quantity, uom = parse_limited_quantity(row)
+    if quantity:
+        etree.SubElement(
+            record, "field", attrib={"name": "limited_quantity"}
+        ).text = quantity
+        etree.SubElement(
+            record,
+            "field",
+            attrib={
+                "name": "limited_quantity_uom_id",
+                "ref": uom,
+            },
+        )
 
 
 @transformer
@@ -285,8 +321,7 @@ def parse_transport_category(row):
         if not match:
             raise ValueError(
                 "Unknown value for transport code/tunnel restriction code: "
-                "%s" % value,
-                row,
+                "%s (%s)" % (value, row)
             )
         category = match.groups()[0].strip()
         tunnel_restriction_code = match.groups()[1].strip()
@@ -410,7 +445,7 @@ def populate_key_types(sheet):
         if len(rows) == 1:
             single.append(key)
         else:
-            qtys = [parse_limited_quantity(row) for row in rows]
+            qtys = [parse_limited_quantity(row, split=False) for row in rows]
             if len(set(qtys)) == len(qtys):
                 by_qty.append(key)
             else:

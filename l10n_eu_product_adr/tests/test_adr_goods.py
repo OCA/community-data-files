@@ -55,9 +55,17 @@ class TestAdrModels(SavepointCase):
         self.assertEqual(
             adr_goods.name_get(), [(adr_goods.id, "9999 test goods (cat:4)")]
         )
-        adr_goods.limited_quantity = "5 ml"
+        adr_goods.write(
+            {
+                "limited_quantity": 5,
+                "limited_quantity_uom_id": self.env.ref(
+                    "l10n_eu_product_adr.product_uom_mililiter"
+                ).id,
+            }
+        )
         self.assertEqual(
-            adr_goods.name_get(), [(adr_goods.id, "9999 test goods (cat:4, qty:5 ml)")]
+            adr_goods.name_get(),
+            [(adr_goods.id, "9999 test goods (cat:4, qty:5.0 ml)")],
         )
 
     def test_03_adr_label(self):

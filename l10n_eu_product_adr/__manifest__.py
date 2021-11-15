@@ -11,9 +11,10 @@
     "license": "AGPL-3",
     "application": False,
     "installable": True,
-    "depends": ["product", "stock"],
+    "depends": ["stock"],
     "development_status": "Beta",
     "data": [
+        "data/uom_uom.xml",
         "data/adr_class.xml",
         "data/adr_label.xml",
         "data/adr_packing_instruction.xml",
