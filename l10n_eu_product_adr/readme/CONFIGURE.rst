@@ -4,6 +4,8 @@ goods that applies to this particular product, out of a list of dangerous
 goods that represents Table A from chapter 3 of the ADR specifications
 document.
 
+It is possible to specify a different, or no goods per product variant.
+
 The data in this module is generated based on a spreadsheet from
 https://cepa.be. This spreadsheet, just like the specifications themselves
 sometimes contain multiple options for each dangerous good, or additional
