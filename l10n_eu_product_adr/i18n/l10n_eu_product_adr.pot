@@ -113,6 +113,11 @@ msgid "Code"
 msgstr ""
 
 #. module: l10n_eu_product_adr
+#: model:ir.model.fields,field_description:l10n_eu_product_adr.field_product_dangerous_class__complete_name
+msgid "Complete Name"
+msgstr ""
+
+#. module: l10n_eu_product_adr
 #: model:ir.model.fields,field_description:l10n_eu_product_adr.field_product_product__content_package
 msgid "Content Packaging"
 msgstr ""
