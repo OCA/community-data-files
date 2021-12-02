@@ -1,0 +1,1 @@
+odoo14-addon-l10n_eu_product_adr @ git+https://github.com/OCA/community-data-files@refs/pull/109/head#subdirectory=setup/l10n_eu_product_adr
