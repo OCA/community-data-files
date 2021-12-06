@@ -24,11 +24,17 @@
     <record id="uom.product_uom_meter" model="uom.uom">
         <field name="unece_code">MTR</field>
     </record>
+    <record id="uom.product_uom_millimeter" model="uom.uom">
+        <field name="unece_code">MMT</field>
+    </record>
     <record id="uom.product_uom_km" model="uom.uom">
         <field name="unece_code">KTM</field>
     </record>
     <record id="uom.product_uom_cm" model="uom.uom">
         <field name="unece_code">CMT</field>
+    </record>
+    <record id="uom.uom_square_meter" model="uom.uom">
+        <field name="unece_code">MTK</field>
     </record>
     <record id="uom.product_uom_litre" model="uom.uom">
         <field name="unece_code">LTR</field>
@@ -50,6 +56,9 @@
     </record>
     <record id="uom.product_uom_mile" model="uom.uom">
         <field name="unece_code">SMI</field>
+    </record>
+    <record id="uom.uom_square_foot" model="uom.uom">
+        <field name="unece_code">FTK</field>
     </record>
     <record id="uom.product_uom_floz" model="uom.uom">
         <field name="unece_code">OZA</field>
