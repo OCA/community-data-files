@@ -1,4 +1,4 @@
-# Copyright 2016-2020 Akretion France (http://www.akretion.com)
+# Copyright 2016-2021 Akretion France (http://www.akretion.com)
 # @author: Alexis de Lattre <alexis.delattre@akretion.com>
 # License AGPL-3.0 or later (https://www.gnu.org/licenses/agpl).
 
@@ -36,7 +36,7 @@ class UneceCodeList(models.Model):
         return res
 
     @api.model
-    def name_search(self, name="", args=None, operator="ilike", limit=80):
+    def name_search(self, name="", args=None, operator="ilike", limit=100):
         if args is None:
             args = []
         if name and operator == "ilike":

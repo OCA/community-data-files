@@ -1,10 +1,10 @@
-# Copyright 2016-2020 Akretion France (http://www.akretion.com)
+# Copyright 2016-2021 Akretion France (http://www.akretion.com)
 # License AGPL-3.0 or later (https://www.gnu.org/licenses/agpl).
 # @author Alexis de Lattre <alexis.delattre@akretion.com>
 
 {
     "name": "Base UNECE",
-    "version": "14.0.1.1.0",
+    "version": "15.0.1.0.0",
     "category": "Tools",
     "license": "AGPL-3",
     "development_status": "Production/Stable",
