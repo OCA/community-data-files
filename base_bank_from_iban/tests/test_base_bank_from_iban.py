@@ -4,7 +4,7 @@
 from odoo.tests import common
 
 
-class TestBaseBankFromIban(common.SavepointCase):
+class TestBaseBankFromIban(common.TransactionCase):
     @classmethod
     def setUpClass(cls):
         super(TestBaseBankFromIban, cls).setUpClass()
