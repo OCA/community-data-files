@@ -10,6 +10,7 @@
     "category": "Localization",
     "license": "AGPL-3",
     "depends": ["base_iban"],
+    "development_status": "Mature",
     "data": ["views/res_bank_view.xml"],
     "installable": True,
 }
