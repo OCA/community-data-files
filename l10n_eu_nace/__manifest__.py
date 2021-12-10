@@ -9,6 +9,7 @@
     "version": "14.0.2.1.1",
     "author": u"Numérigraphe SARL," u"Sistheo,Odoo Community Association (OCA)",
     "category": "Localization",
+    "website": "https://github.com/OCA/community-data-files",
     "data": [
         "data/res.partner.nace.csv",
         "security/res_partner_nace.xml",

@@ -44,7 +44,6 @@ class ResPartnerNace(models.Model):
                     current = current.parent_id
                 category.complete_name = " / ".join(reversed(names))
 
-    @api.multi
     def _search_complete_name(self, operator, value):
         if operator in NEGATIVE_TERM_OPERATORS:
             domain = [

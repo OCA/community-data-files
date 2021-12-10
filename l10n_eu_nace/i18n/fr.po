@@ -4888,7 +4888,7 @@ msgstr "[50.1] Transports maritimes et côtiers de passagers"
 #: model:ir.model.fields,field_description:l10n_eu_nace.field_res_users__secondary_nace_ids
 #, fuzzy
 msgid "Secondary NACE"
-msgstr "[85.3] Enseignement secondaire"
+msgstr "Code NACE secondaire"
 
 #. module: l10n_eu_nace
 #: model:res.partner.nace,name:l10n_eu_nace.nace_85_3
