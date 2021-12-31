@@ -6,25 +6,29 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 12.0\n"
 "Report-Msgid-Bugs-To: \n"
-"Last-Translator: Automatically generated\n"
+"PO-Revision-Date: 2021-12-31 09:39+0000\n"
+"Last-Translator: Yavuz Avci <yavuzavci@gmail.com>\n"
 "Language-Team: none\n"
 "Language: tr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 4.3.2\n"
 
 #. module: uom_unece
 #: model:ir.model,name:uom_unece.model_uom_uom
 msgid "Product Unit of Measure"
-msgstr ""
+msgstr "Ürün Ölçü Birimi"
 
 #. module: uom_unece
 #: model:ir.model.fields,help:uom_unece.field_uom_uom__unece_code
 msgid "Standard nomenclature of the United Nations Economic Commission for Europe (UNECE)."
 msgstr ""
+"Birleşmiş Milletler Avrupa Ekonomik Komisyonu'nun (UNECE) standart "
+"isimlendirmesi."
 
 #. module: uom_unece
 #: model:ir.model.fields,field_description:uom_unece.field_uom_uom__unece_code
 msgid "UNECE Code"
-msgstr ""
+msgstr "UNECE Kodu"
