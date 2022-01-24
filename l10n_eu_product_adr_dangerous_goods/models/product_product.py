@@ -27,11 +27,11 @@ class ProductProduct(models.Model):
     limited_amount_id = fields.Many2one("limited.amount")
 
     # package-related fields
-    content_package = fields.Float(string="Content Packaging")
+    content_package = fields.Float(string="Content Packaging", digits=(16, 5))
+    dg_unit = fields.Many2one("dangerous.uom")
     nag = fields.Char(string="N.A.G.")
     veva_code_empty = fields.Char(string="VeVA Code: Empty packaging")
     veva_code_full = fields.Char(string="VeVA Code: Full package")
-    un_report = fields.Char(string="UN Report 38.3")
 
     # storage-related fields
     storage_class_id = fields.Many2one("storage.class")
@@ -48,15 +48,7 @@ class ProductProduct(models.Model):
         [("1", "(-)"), ("2", "I"), ("3", "II"), ("4", "III")], string="Packaging Group"
     )
     hazard_ind = fields.Char(string="Hazard identification")
-    sds = fields.Char(string="SDS")
-    currency_id = fields.Many2one(
-        "res.currency",
-        string="Currency",
-        default=lambda self: self.env.company.currency_id.id,
-    )
-    veg = fields.Monetary(string="VEG in currency")
     voc = fields.Char(string="VOC in%")
-    content_package = fields.Float(string="Content Packaging")
     label_first = fields.Selection(LABELS_SELECTION, string="Label 1")
     label_second = fields.Selection(LABELS_SELECTION, string="Label 2")
     label_third = fields.Selection(LABELS_SELECTION, string="Label 3")

@@ -37,3 +37,10 @@ class LimitedAmount(models.Model):
     _description = "Limited Amount"
 
     name = fields.Char(string="Name", required=True)
+
+
+class DangerousUOM(models.Model):
+    _name = "dangerous.uom"
+    _description = "Dangerous UOM"
+
+    name = fields.Char(string="Name", required=True, translate=True)

@@ -9,14 +9,20 @@
                 <group>
                     <group name="dangerous_packing" string="Dangerous Packaging">
                         <field name="packaging_group" />
-                        <field
-                            name="content_package"
-                            attrs="{'required':[('is_dangerous','=',True)]}"
-                        />
+                        <label for="content_package" />
+                        <div>
+                            <field
+                                name="content_package"
+                                attrs="{'required':[('is_dangerous','=',True)]}"
+                            />
+                            <field
+                                name="dg_unit"
+                                attrs="{'required':[('is_dangerous','=',True)]}"
+                            />
+                        </div>
                         <field name="label_first" />
                         <field name="label_second" />
                         <field name="label_third" />
-                        <field name="content_package" />
                         <field name="flash_point" />
                     </group>
                     <group name="storage" string="Storage">
@@ -32,13 +38,9 @@
                 <group name="hazard_details">
                     <field name="envir_hazardous" />
                     <field name="voc" />
-                    <field name="currency_id" />
-                    <field name="veg" />
                     <field name="nag" />
                     <field name="veva_code_empty" />
                     <field name="veva_code_full" />
-                    <field name="un_report" />
-                    <field name="sds" />
                     <field name="h_no" />
                     <field name="hazard_ind" />
                 </group>

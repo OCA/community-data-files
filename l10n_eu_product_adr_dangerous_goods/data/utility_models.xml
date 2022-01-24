@@ -98,4 +98,15 @@
         <field name="name">DG (Dangerous Goods)</field>
     </record>
 
+    <!--dangerous uom-->
+    <record id="dangerous_uom_1" model="dangerous.uom">
+        <field name="name">l (Liter)</field>
+    </record>
+    <record id="dangerous_uom_2" model="dangerous.uom">
+        <field name="name">kg (Kilogramm)</field>
+    </record>
+    <record id="dangerous_uom_3" model="dangerous.uom">
+        <field name="name">g (Gramm)</field>
+    </record>
+
 </odoo>
