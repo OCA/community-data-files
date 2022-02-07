@@ -6,7 +6,7 @@ from odoo import fields, models
 
 class ResPartner(models.Model):
 
-    _inherit = 'res.partner'
+    _inherit = "res.partner"
 
     nace_id = fields.Many2one(
         comodel_name="res.partner.nace", string="Main NACE", index=True

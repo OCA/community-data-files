@@ -7,16 +7,15 @@
 {
     "name": "European NACE partner categories",
     "version": "12.0.2.1.1",
-    'author': u'Numérigraphe SARL,'
-              u'Sistheo,Odoo Community Association (OCA)',
+    "author": u"Numérigraphe SARL," u"Sistheo,Odoo Community Association (OCA)",
     "category": "Localization",
     "data": [
         "data/res.partner.nace.csv",
-        'security/res_partner_nace.xml',
-        'views/res_partner.xml',
-        'views/res_partner_nace.xml',
+        "security/res_partner_nace.xml",
+        "views/res_partner.xml",
+        "views/res_partner_nace.xml",
     ],
-    'depends': ['contacts'],
-    'installable': True,
-    'license': 'AGPL-3',
+    "depends": ["contacts"],
+    "installable": True,
+    "license": "AGPL-3",
 }

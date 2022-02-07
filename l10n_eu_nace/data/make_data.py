@@ -7,32 +7,32 @@ import csv
 
 # List of languages to generate translations for
 LANGS = [
-    'bg',
-    'cs',
-    'da',
-    'de',
-    'et',
-    'en',
-    'es',
-    'el',
-    'fi',
-    'fr',
-    'hr',
-    'hu',
-    'it',
-    'lt',
-    'lv',
-    'mt',
-    'nl',
-    'no',
-    'pl',
-    'pt',
-    'ro',
-    'ru',
-    'sk',
-    'sl',
-    'sv',
-    'tr',
+    "bg",
+    "cs",
+    "da",
+    "de",
+    "et",
+    "en",
+    "es",
+    "el",
+    "fi",
+    "fr",
+    "hr",
+    "hu",
+    "it",
+    "lt",
+    "lv",
+    "mt",
+    "nl",
+    "no",
+    "pl",
+    "pt",
+    "ro",
+    "ru",
+    "sk",
+    "sl",
+    "sv",
+    "tr",
 ]
 
 # All the generated record ids will be in this forms
@@ -50,7 +50,7 @@ dest.writerow([parent_ids[0], "", "", "NACE"])
 src.next()
 english = {}
 for row in src:
-    xml_id = ID_TEMPLATE % row[1].replace('.', '_')
+    xml_id = ID_TEMPLATE % row[1].replace(".", "_")
     code = row[1]
     name = row[2]
     # determine the parent
@@ -93,7 +93,7 @@ msgstr ""
     )
     for row in src:
         name = "[%s] %s" % (row[1], row[2])
-        xml_id = ID_TEMPLATE % row[1].replace('.', '_')
+        xml_id = ID_TEMPLATE % row[1].replace(".", "_")
         dest.write(
             """#. module: l10n_eu_nace
 #: model:res.partner.nace,name:l10n_eu_nace.%s
