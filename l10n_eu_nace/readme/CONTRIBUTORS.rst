@@ -2,4 +2,7 @@
 * Sistheo
 * data files courtesy of the European Union
 * Souheil Bejaoui <souheil.bejaoui@acsone.eu>
-* Jairo Llopis <jairo.llopis@tecnativa.com>
+* `Tecnativa <https://www.tecnativa.com>`_:
+
+  * Jairo Llopis
+  * Ernesto Tejeda
