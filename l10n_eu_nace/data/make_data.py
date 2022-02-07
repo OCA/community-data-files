@@ -4,6 +4,9 @@
 
 
 import csv
+import logging
+
+_logger = logging.getLogger(__name__)
 
 # List of languages to generate translations for
 LANGS = [
@@ -38,7 +41,7 @@ LANGS = [
 # All the generated record ids will be in this forms
 ID_TEMPLATE = "nace_%s"
 
-print("Generating the English CSV file...")
+_logger.info("Generating the English CSV file...")
 src = csv.reader(open("NACE_REV2_en.csv", "rU"))
 dest = csv.writer(open("res.partner.nace.csv", "w"), quoting=csv.QUOTE_ALL)
 # Write the file header
@@ -47,7 +50,7 @@ dest.writerow(["id", "parent_id:id", "code", "name"])
 parent_ids = {0: ID_TEMPLATE % "root"}
 dest.writerow([parent_ids[0], "", "", "NACE"])
 # Skip first line
-src.next()
+next(src)
 english = {}
 for row in src:
     xml_id = ID_TEMPLATE % row[1].replace(".", "_")
@@ -61,14 +64,14 @@ for row in src:
     # Remember the English name and the id
     english[xml_id] = name
     dest.writerow([xml_id, parent_id, code, name])
-print("Done.\n")
+_logger.info("Done.\n")
 
 for lang in LANGS:
     filename = lang != "en" and ("%s.po" % lang) or "l10n_eu_nace.pot"
-    print("Generating %s..." % filename)
+    _logger.info("Generating %s..." % filename)
     src = csv.reader(open("NACE_REV2_%s.csv" % lang, "rU"))
     # Skip first line
-    src.next()
+    next(src)
     # Write file header
     dest = open("../i18n/%s" % filename, "w")
     dest.write(
@@ -103,4 +106,4 @@ msgstr "%s"
 """
             % (xml_id, english[xml_id], lang != "en" and name or "")
         )
-print("Done.\n")
+_logger.info("Done.\n")
