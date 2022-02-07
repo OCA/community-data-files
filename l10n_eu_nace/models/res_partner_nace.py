@@ -7,9 +7,9 @@ from odoo.osv.expression import NEGATIVE_TERM_OPERATORS
 
 class ResPartnerNace(models.Model):
 
-    _name = 'res.partner.nace'
-    _description = 'European NACE partner category'
-    _order = 'code'
+    _name = "res.partner.nace"
+    _description = "European NACE partner category"
+    _order = "code"
     _parent_store = True
     _rec_name = "complete_name"
 
@@ -20,7 +20,7 @@ class ResPartnerNace(models.Model):
     parent_id = fields.Many2one(comodel_name="res.partner.nace", index=True)
     code = fields.Char(index=True)
     child_ids = fields.One2many(
-        'res.partner.nace', 'parent_id', string='NACE subcategories'
+        "res.partner.nace", "parent_id", string="NACE subcategories"
     )
     active = fields.Boolean(index=True, default=True)
     parent_path = fields.Char(index=True)
@@ -31,7 +31,7 @@ class ResPartnerNace(models.Model):
     @api.depends("code", "name")
     def _compute_complete_name(self):
         for category in self:
-            if self._context.get('nace_display') != 'long':
+            if self._context.get("nace_display") != "long":
                 category.complete_name = "[%s] %s" % (category.code, category.name)
             else:
                 names = []
@@ -42,24 +42,22 @@ class ResPartnerNace(models.Model):
                     else:
                         names.append(current.name)
                     current = current.parent_id
-                category.complete_name = ' / '.join(reversed(names))
+                category.complete_name = " / ".join(reversed(names))
 
     @api.multi
     def _search_complete_name(self, operator, value):
         if operator in NEGATIVE_TERM_OPERATORS:
             domain = [
-                '&',
-                ('name', operator, value),
-                ('code', operator, value),
+                "&",
+                ("name", operator, value),
+                ("code", operator, value),
             ]
         else:
             domain = [
-                '|',
-                ('name', operator, value),
-                ('code', operator, value),
+                "|",
+                ("name", operator, value),
+                ("code", operator, value),
             ]
         return domain
 
-    _sql_constraints = [
-        ("ref_code", "unique (code)", "NACE Code must be unique!")
-    ]
+    _sql_constraints = [("ref_code", "unique (code)", "NACE Code must be unique!")]
