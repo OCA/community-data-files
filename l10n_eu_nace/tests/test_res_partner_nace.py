@@ -7,29 +7,29 @@ from odoo.tests.common import TransactionCase
 class TestResPartnerNace(TransactionCase):
     def setUp(self):
         super(TestResPartnerNace, self).setUp()
-        self.nace = self.env['res.partner.nace'].create(
-            {'name': 'nace_test', 'code': 'code_nace'}
+        self.nace = self.env["res.partner.nace"].create(
+            {"name": "nace_test", "code": "code_nace"}
         )
-        self.child_nace = self.env['res.partner.nace'].create(
+        self.child_nace = self.env["res.partner.nace"].create(
             {
-                'name': 'nace_child',
-                'code': 'code_child',
-                'parent_id': self.nace.id,
+                "name": "nace_child",
+                "code": "code_child",
+                "parent_id": self.nace.id,
             }
         )
 
     def test_complete_name_1(self):
-        self.assertEqual(self.nace.name, 'nace_test')
-        self.assertEqual(self.nace.complete_name, '[code_nace] nace_test')
+        self.assertEqual(self.nace.name, "nace_test")
+        self.assertEqual(self.nace.complete_name, "[code_nace] nace_test")
         self.assertEqual(
             self.child_nace.complete_name,
-            '[code_child] nace_child',
+            "[code_child] nace_child",
         )
 
     def test_complete_name_2(self):
         self.assertEqual(
             self.child_nace.with_context(nace_display="long").complete_name,
-            '[code_nace] nace_test / [code_child] nace_child',
+            "[code_nace] nace_test / [code_child] nace_child",
         )
 
     def test_name_search(self):
@@ -57,13 +57,9 @@ class TestResPartnerNace(TransactionCase):
         )
         self.assertEquals(
             self.nace.name_get(),
-            self.env['res.partner.nace'].name_search(
-                'nace_test', operator="="
-            ),
+            self.env["res.partner.nace"].name_search("nace_test", operator="="),
         )
         self.assertEquals(
             self.nace.name_get(),
-            self.env['res.partner.nace'].name_search(
-                'code_nace', operator="="
-            ),
+            self.env["res.partner.nace"].name_search("code_nace", operator="="),
         )
