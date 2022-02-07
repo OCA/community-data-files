@@ -47,19 +47,19 @@ class TestResPartnerNace(TransactionCase):
                 "code_nace", args=[("id", "=", self.nace.id)]
             ),
         )
-        self.assertEquals(
+        self.assertEqual(
             self.nace.name_get(),
             self.env["res.partner.nace"].name_search("ode_nac"),
         )
-        self.assertEquals(
+        self.assertEqual(
             self.nace.name_get(),
             self.env["res.partner.nace"].name_search("ace_te"),
         )
-        self.assertEquals(
+        self.assertEqual(
             self.nace.name_get(),
             self.env["res.partner.nace"].name_search("nace_test", operator="="),
         )
-        self.assertEquals(
+        self.assertEqual(
             self.nace.name_get(),
             self.env["res.partner.nace"].name_search("code_nace", operator="="),
         )

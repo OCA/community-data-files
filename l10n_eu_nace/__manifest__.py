@@ -6,8 +6,9 @@
 
 {
     "name": "European NACE partner categories",
-    "version": "12.0.2.1.1",
-    "author": u"Numérigraphe SARL," u"Sistheo,Odoo Community Association (OCA)",
+    "version": "14.0.1.0.0",
+    "author": "Numérigraphe SARL, Sistheo, Odoo Community Association (OCA)",
+    "website": "https://github.com/OCA/community-data-files",
     "category": "Localization",
     "data": [
         "data/res.partner.nace.csv",

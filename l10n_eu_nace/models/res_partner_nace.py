@@ -6,7 +6,6 @@ from odoo.osv.expression import NEGATIVE_TERM_OPERATORS
 
 
 class ResPartnerNace(models.Model):
-
     _name = "res.partner.nace"
     _description = "European NACE partner category"
     _order = "code"
@@ -44,7 +43,6 @@ class ResPartnerNace(models.Model):
                     current = current.parent_id
                 category.complete_name = " / ".join(reversed(names))
 
-    @api.multi
     def _search_complete_name(self, operator, value):
         if operator in NEGATIVE_TERM_OPERATORS:
             domain = [
