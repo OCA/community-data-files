@@ -1,18 +1,16 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8" ?>
 <!-- Copyright 2019 ACSONE SA/NV
      License AGPL-3.0 or later (http://www.gnu.org/licenses/agpl). -->
-
 <odoo>
 
     <record model="ir.ui.view" id="view_partner_form">
         <field name="name">res.partner.form (in l10n_eu_nace)</field>
         <field name="model">res.partner</field>
-        <field name="inherit_id" ref="base.view_partner_form"/>
+        <field name="inherit_id" ref="base.view_partner_form" />
         <field name="arch" type="xml">
             <xpath expr="//field[@name='category_id']" position="after">
-                <field name="nace_id"
-                       options="{'always_reload': True}"/>
-                <field name="secondary_nace_ids" widget="many2many_tags"/>
+                <field name="nace_id" options="{'always_reload': True}" />
+                <field name="secondary_nace_ids" widget="many2many_tags" />
             </xpath>
         </field>
     </record>
