@@ -14,6 +14,7 @@ setuptools.setup(
         'odoo14-addon-base_currency_iso_4217',
         'odoo14-addon-base_iso3166',
         'odoo14-addon-base_unece',
+        'odoo14-addon-l10n_eu_nace',
         'odoo14-addon-uom_unece',
     ],
     classifiers=[
