@@ -1,12 +1,12 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
-#	* l10n_eu_nace
+# 	* l10n_eu_nace
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 12.0\n"
+"Project-Id-Version: Odoo Server 14.0\n"
 "Report-Msgid-Bugs-To: \n"
-"Last-Translator: <>\n"
+"Last-Translator: \n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -25,7 +25,9 @@ msgstr ""
 
 #. module: l10n_eu_nace
 #: model:res.partner.nace,name:l10n_eu_nace.nace_T
-msgid "ACTIVITIES OF HOUSEHOLDS AS EMPLOYERS; U0NDIFFERENTIATED GOODS- AND SERVICES-PRODUCING ACTIVITIES OF HOUSEHOLDS FOR OWN USE"
+msgid ""
+"ACTIVITIES OF HOUSEHOLDS AS EMPLOYERS; U0NDIFFERENTIATED GOODS- AND "
+"SERVICES-PRODUCING ACTIVITIES OF HOUSEHOLDS FOR OWN USE"
 msgstr ""
 
 #. module: l10n_eu_nace
@@ -66,7 +68,9 @@ msgstr ""
 
 #. module: l10n_eu_nace
 #: model:res.partner.nace,name:l10n_eu_nace.nace_66_1
-msgid "Activities auxiliary to financial services, except insurance and pension funding"
+msgid ""
+"Activities auxiliary to financial services, except insurance and pension "
+"funding"
 msgstr ""
 
 #. module: l10n_eu_nace
@@ -86,7 +90,8 @@ msgstr ""
 
 #. module: l10n_eu_nace
 #: model:res.partner.nace,name:l10n_eu_nace.nace_94_1
-msgid "Activities of business, employers and professional membership organisations"
+msgid ""
+"Activities of business, employers and professional membership organisations"
 msgstr ""
 
 #. module: l10n_eu_nace
@@ -190,7 +195,9 @@ msgstr ""
 
 #. module: l10n_eu_nace
 #: model:res.partner.nace,name:l10n_eu_nace.nace_84_1
-msgid "Administration of the State and the economic and social policy of the community"
+msgid ""
+"Administration of the State and the economic and social policy of the "
+"community"
 msgstr ""
 
 #. module: l10n_eu_nace
@@ -215,7 +222,9 @@ msgstr ""
 
 #. module: l10n_eu_nace
 #: model:res.partner.nace,name:l10n_eu_nace.nace_46_11
-msgid "Agents involved in the sale of agricultural raw materials, live animals, textile raw materials and semi-finished goods"
+msgid ""
+"Agents involved in the sale of agricultural raw materials, live animals, "
+"textile raw materials and semi-finished goods"
 msgstr ""
 
 #. module: l10n_eu_nace
@@ -225,22 +234,29 @@ msgstr ""
 
 #. module: l10n_eu_nace
 #: model:res.partner.nace,name:l10n_eu_nace.nace_46_12
-msgid "Agents involved in the sale of fuels, ores, metals and industrial chemicals"
+msgid ""
+"Agents involved in the sale of fuels, ores, metals and industrial chemicals"
 msgstr ""
 
 #. module: l10n_eu_nace
 #: model:res.partner.nace,name:l10n_eu_nace.nace_46_15
-msgid "Agents involved in the sale of furniture, household goods, hardware and ironmongery"
+msgid ""
+"Agents involved in the sale of furniture, household goods, hardware and "
+"ironmongery"
 msgstr ""
 
 #. module: l10n_eu_nace
 #: model:res.partner.nace,name:l10n_eu_nace.nace_46_14
-msgid "Agents involved in the sale of machinery, industrial equipment, ships and aircraft"
+msgid ""
+"Agents involved in the sale of machinery, industrial equipment, ships and "
+"aircraft"
 msgstr ""
 
 #. module: l10n_eu_nace
 #: model:res.partner.nace,name:l10n_eu_nace.nace_46_16
-msgid "Agents involved in the sale of textiles, clothing, fur, footwear and leather goods"
+msgid ""
+"Agents involved in the sale of textiles, clothing, fur, footwear and leather"
+" goods"
 msgstr ""
 
 #. module: l10n_eu_nace
@@ -285,12 +301,14 @@ msgstr ""
 
 #. module: l10n_eu_nace
 #: model:res.partner.nace,name:l10n_eu_nace.nace_71_1
-msgid "Architectural and engineering activities and related technical consultancy"
+msgid ""
+"Architectural and engineering activities and related technical consultancy"
 msgstr ""
 
 #. module: l10n_eu_nace
 #: model:res.partner.nace,name:l10n_eu_nace.nace_71
-msgid "Architectural and engineering activities; technical testing and analysis"
+msgid ""
+"Architectural and engineering activities; technical testing and analysis"
 msgstr ""
 
 #. module: l10n_eu_nace
@@ -542,7 +560,8 @@ msgstr ""
 
 #. module: l10n_eu_nace
 #: model:res.partner.nace,name:l10n_eu_nace.nace_42_22
-msgid "Construction of utility projects for electricity and telecommunications"
+msgid ""
+"Construction of utility projects for electricity and telecommunications"
 msgstr ""
 
 #. module: l10n_eu_nace
@@ -644,6 +663,7 @@ msgid "Dispensing chemist in specialised stores"
 msgstr ""
 
 #. module: l10n_eu_nace
+#: model:ir.model.fields,field_description:l10n_eu_nace.field_res_partner__display_name
 #: model:ir.model.fields,field_description:l10n_eu_nace.field_res_partner_nace__display_name
 msgid "Display Name"
 msgstr ""
@@ -825,7 +845,8 @@ msgstr ""
 #. module: l10n_eu_nace
 #: model:res.partner.nace,name:l10n_eu_nace.nace_25_5
 #: model:res.partner.nace,name:l10n_eu_nace.nace_25_50
-msgid "Forging, pressing, stamping and roll-forming of metal; powder metallurgy"
+msgid ""
+"Forging, pressing, stamping and roll-forming of metal; powder metallurgy"
 msgstr ""
 
 #. module: l10n_eu_nace
@@ -1043,6 +1064,7 @@ msgid "Hunting, trapping and related service activities"
 msgstr ""
 
 #. module: l10n_eu_nace
+#: model:ir.model.fields,field_description:l10n_eu_nace.field_res_partner__id
 #: model:ir.model.fields,field_description:l10n_eu_nace.field_res_partner_nace__id
 msgid "ID"
 msgstr ""
@@ -1082,7 +1104,9 @@ msgstr ""
 
 #. module: l10n_eu_nace
 #: model:res.partner.nace,name:l10n_eu_nace.nace_65
-msgid "Insurance, reinsurance and pension funding, except compulsory social security"
+msgid ""
+"Insurance, reinsurance and pension funding, except compulsory social "
+"security"
 msgstr ""
 
 #. module: l10n_eu_nace
@@ -1113,6 +1137,7 @@ msgid "Landscape service activities"
 msgstr ""
 
 #. module: l10n_eu_nace
+#: model:ir.model.fields,field_description:l10n_eu_nace.field_res_partner____last_update
 #: model:ir.model.fields,field_description:l10n_eu_nace.field_res_partner_nace____last_update
 msgid "Last Modified on"
 msgstr ""
@@ -1135,7 +1160,9 @@ msgstr ""
 #. module: l10n_eu_nace
 #: model:res.partner.nace,name:l10n_eu_nace.nace_77_4
 #: model:res.partner.nace,name:l10n_eu_nace.nace_77_40
-msgid "Leasing of intellectual property and similar products, except copyrighted works"
+msgid ""
+"Leasing of intellectual property and similar products, except copyrighted "
+"works"
 msgstr ""
 
 #. module: l10n_eu_nace
@@ -1210,12 +1237,14 @@ msgstr ""
 
 #. module: l10n_eu_nace
 #: model:res.partner.nace,name:l10n_eu_nace.nace_23_19
-msgid "Manufacture and processing of other glass, including technical glassware"
+msgid ""
+"Manufacture and processing of other glass, including technical glassware"
 msgstr ""
 
 #. module: l10n_eu_nace
 #: model:res.partner.nace,name:l10n_eu_nace.nace_23_9
-msgid "Manufacture of abrasive products and non-metallic mineral products n.e.c."
+msgid ""
+"Manufacture of abrasive products and non-metallic mineral products n.e.c."
 msgstr ""
 
 #. module: l10n_eu_nace
@@ -1258,7 +1287,9 @@ msgstr ""
 
 #. module: l10n_eu_nace
 #: model:res.partner.nace,name:l10n_eu_nace.nace_20_1
-msgid "Manufacture of basic chemicals, fertilisers and nitrogen compounds, plastics and synthetic rubber in primary forms"
+msgid ""
+"Manufacture of basic chemicals, fertilisers and nitrogen compounds, plastics"
+" and synthetic rubber in primary forms"
 msgstr ""
 
 #. module: l10n_eu_nace
@@ -1284,7 +1315,8 @@ msgstr ""
 
 #. module: l10n_eu_nace
 #: model:res.partner.nace,name:l10n_eu_nace.nace_21
-msgid "Manufacture of basic pharmaceutical products and pharmaceutical preparations"
+msgid ""
+"Manufacture of basic pharmaceutical products and pharmaceutical preparations"
 msgstr ""
 
 #. module: l10n_eu_nace
@@ -1322,7 +1354,9 @@ msgstr ""
 #. module: l10n_eu_nace
 #: model:res.partner.nace,name:l10n_eu_nace.nace_29_2
 #: model:res.partner.nace,name:l10n_eu_nace.nace_29_20
-msgid "Manufacture of bodies (coachwork) for motor vehicles; manufacture of trailers and semi-trailers"
+msgid ""
+"Manufacture of bodies (coachwork) for motor vehicles; manufacture of "
+"trailers and semi-trailers"
 msgstr ""
 
 #. module: l10n_eu_nace
@@ -1456,7 +1490,9 @@ msgstr ""
 
 #. module: l10n_eu_nace
 #: model:res.partner.nace,name:l10n_eu_nace.nace_17_21
-msgid "Manufacture of corrugated paper and paperboard and of containers of paper and paperboard"
+msgid ""
+"Manufacture of corrugated paper and paperboard and of containers of paper "
+"and paperboard"
 msgstr ""
 
 #. module: l10n_eu_nace
@@ -1507,7 +1543,9 @@ msgstr ""
 
 #. module: l10n_eu_nace
 #: model:res.partner.nace,name:l10n_eu_nace.nace_27_1
-msgid "Manufacture of electric motors, generators, transformers and electricity distribution and control apparatus"
+msgid ""
+"Manufacture of electric motors, generators, transformers and electricity "
+"distribution and control apparatus"
 msgstr ""
 
 #. module: l10n_eu_nace
@@ -1537,7 +1575,9 @@ msgstr ""
 
 #. module: l10n_eu_nace
 #: model:res.partner.nace,name:l10n_eu_nace.nace_28_11
-msgid "Manufacture of engines and turbines, except aircraft, vehicle and cycle engines"
+msgid ""
+"Manufacture of engines and turbines, except aircraft, vehicle and cycle "
+"engines"
 msgstr ""
 
 #. module: l10n_eu_nace
@@ -1552,7 +1592,8 @@ msgstr ""
 
 #. module: l10n_eu_nace
 #: model:res.partner.nace,name:l10n_eu_nace.nace_25
-msgid "Manufacture of fabricated metal products, except machinery and equipment"
+msgid ""
+"Manufacture of fabricated metal products, except machinery and equipment"
 msgstr ""
 
 #. module: l10n_eu_nace
@@ -1685,18 +1726,23 @@ msgstr ""
 
 #. module: l10n_eu_nace
 #: model:res.partner.nace,name:l10n_eu_nace.nace_26_51
-msgid "Manufacture of instruments and appliances for measuring, testing and navigation"
+msgid ""
+"Manufacture of instruments and appliances for measuring, testing and "
+"navigation"
 msgstr ""
 
 #. module: l10n_eu_nace
 #: model:res.partner.nace,name:l10n_eu_nace.nace_26_5
-msgid "Manufacture of instruments and appliances for measuring, testing and navigation; watches and clocks"
+msgid ""
+"Manufacture of instruments and appliances for measuring, testing and "
+"navigation; watches and clocks"
 msgstr ""
 
 #. module: l10n_eu_nace
 #: model:res.partner.nace,name:l10n_eu_nace.nace_26_6
 #: model:res.partner.nace,name:l10n_eu_nace.nace_26_60
-msgid "Manufacture of irradiation, electromedical and electrotherapeutic equipment"
+msgid ""
+"Manufacture of irradiation, electromedical and electrotherapeutic equipment"
 msgstr ""
 
 #. module: l10n_eu_nace
@@ -1771,7 +1817,8 @@ msgstr ""
 
 #. module: l10n_eu_nace
 #: model:res.partner.nace,name:l10n_eu_nace.nace_10_73
-msgid "Manufacture of macaroni, noodles, couscous and similar farinaceous products"
+msgid ""
+"Manufacture of macaroni, noodles, couscous and similar farinaceous products"
 msgstr ""
 
 #. module: l10n_eu_nace
@@ -1902,7 +1949,8 @@ msgstr ""
 
 #. module: l10n_eu_nace
 #: model:res.partner.nace,name:l10n_eu_nace.nace_13_95
-msgid "Manufacture of non-wovens and articles made from non-wovens, except apparel"
+msgid ""
+"Manufacture of non-wovens and articles made from non-wovens, except apparel"
 msgstr ""
 
 #. module: l10n_eu_nace
@@ -1912,7 +1960,9 @@ msgstr ""
 
 #. module: l10n_eu_nace
 #: model:res.partner.nace,name:l10n_eu_nace.nace_28_23
-msgid "Manufacture of office machinery and equipment (except computers and peripheral equipment)"
+msgid ""
+"Manufacture of office machinery and equipment (except computers and "
+"peripheral equipment)"
 msgstr ""
 
 #. module: l10n_eu_nace
@@ -2064,7 +2114,9 @@ msgstr ""
 
 #. module: l10n_eu_nace
 #: model:res.partner.nace,name:l10n_eu_nace.nace_16_29
-msgid "Manufacture of other products of wood; manufacture of articles of cork, straw and plaiting materials"
+msgid ""
+"Manufacture of other products of wood; manufacture of articles of cork, "
+"straw and plaiting materials"
 msgstr ""
 
 #. module: l10n_eu_nace
@@ -2140,7 +2192,9 @@ msgstr ""
 #. module: l10n_eu_nace
 #: model:res.partner.nace,name:l10n_eu_nace.nace_20_3
 #: model:res.partner.nace,name:l10n_eu_nace.nace_20_30
-msgid "Manufacture of paints, varnishes and similar coatings, printing ink and mastics"
+msgid ""
+"Manufacture of paints, varnishes and similar coatings, printing ink and "
+"mastics"
 msgstr ""
 
 #. module: l10n_eu_nace
@@ -2285,27 +2339,36 @@ msgstr ""
 
 #. module: l10n_eu_nace
 #: model:res.partner.nace,name:l10n_eu_nace.nace_22_11
-msgid "Manufacture of rubber tyres and tubes; retreading and rebuilding of rubber tyres"
+msgid ""
+"Manufacture of rubber tyres and tubes; retreading and rebuilding of rubber "
+"tyres"
 msgstr ""
 
 #. module: l10n_eu_nace
 #: model:res.partner.nace,name:l10n_eu_nace.nace_10_72
-msgid "Manufacture of rusks and biscuits; manufacture of preserved pastry goods and cakes"
+msgid ""
+"Manufacture of rusks and biscuits; manufacture of preserved pastry goods and"
+" cakes"
 msgstr ""
 
 #. module: l10n_eu_nace
 #: model:res.partner.nace,name:l10n_eu_nace.nace_20_41
-msgid "Manufacture of soap and detergents, cleaning and polishing preparations"
+msgid ""
+"Manufacture of soap and detergents, cleaning and polishing preparations"
 msgstr ""
 
 #. module: l10n_eu_nace
 #: model:res.partner.nace,name:l10n_eu_nace.nace_20_4
-msgid "Manufacture of soap and detergents, cleaning and polishing preparations, perfumes and toilet preparations"
+msgid ""
+"Manufacture of soap and detergents, cleaning and polishing preparations, "
+"perfumes and toilet preparations"
 msgstr ""
 
 #. module: l10n_eu_nace
 #: model:res.partner.nace,name:l10n_eu_nace.nace_11_07
-msgid "Manufacture of soft drinks; production of mineral waters and other bottled waters"
+msgid ""
+"Manufacture of soft drinks; production of mineral waters and other bottled "
+"waters"
 msgstr ""
 
 #. module: l10n_eu_nace
@@ -2322,7 +2385,8 @@ msgstr ""
 #. module: l10n_eu_nace
 #: model:res.partner.nace,name:l10n_eu_nace.nace_25_3
 #: model:res.partner.nace,name:l10n_eu_nace.nace_25_30
-msgid "Manufacture of steam generators, except central heating hot water boilers"
+msgid ""
+"Manufacture of steam generators, except central heating hot water boilers"
 msgstr ""
 
 #. module: l10n_eu_nace
@@ -2375,7 +2439,8 @@ msgstr ""
 #. module: l10n_eu_nace
 #: model:res.partner.nace,name:l10n_eu_nace.nace_24_2
 #: model:res.partner.nace,name:l10n_eu_nace.nace_24_20
-msgid "Manufacture of tubes, pipes, hollow profiles and related fittings, of steel"
+msgid ""
+"Manufacture of tubes, pipes, hollow profiles and related fittings, of steel"
 msgstr ""
 
 #. module: l10n_eu_nace
@@ -2441,7 +2506,9 @@ msgstr ""
 
 #. module: l10n_eu_nace
 #: model:res.partner.nace,name:l10n_eu_nace.nace_16
-msgid "Manufacture of wood and of products of wood and cork, except furniture; manufacture of articles of straw and plaiting materials"
+msgid ""
+"Manufacture of wood and of products of wood and cork, except furniture; "
+"manufacture of articles of straw and plaiting materials"
 msgstr ""
 
 #. module: l10n_eu_nace
@@ -2576,7 +2643,8 @@ msgstr ""
 
 #. module: l10n_eu_nace
 #: model:res.partner.nace,name:l10n_eu_nace.nace_59_12
-msgid "Motion picture, video and television programme post-production activities"
+msgid ""
+"Motion picture, video and television programme post-production activities"
 msgstr ""
 
 #. module: l10n_eu_nace
@@ -2586,7 +2654,9 @@ msgstr ""
 
 #. module: l10n_eu_nace
 #: model:res.partner.nace,name:l10n_eu_nace.nace_59
-msgid "Motion picture, video and television programme production, sound recording and music publishing activities"
+msgid ""
+"Motion picture, video and television programme production, sound recording "
+"and music publishing activities"
 msgstr ""
 
 #. module: l10n_eu_nace
@@ -2602,7 +2672,7 @@ msgid "NACE"
 msgstr ""
 
 #. module: l10n_eu_nace
-#: sql_constraint:res.partner.nace:0
+#: model:ir.model.constraint,message:l10n_eu_nace.constraint_res_partner_nace_ref_code
 msgid "NACE Code must be unique!"
 msgstr ""
 
@@ -2649,7 +2719,8 @@ msgstr ""
 
 #. module: l10n_eu_nace
 #: model:res.partner.nace,name:l10n_eu_nace.nace_82
-msgid "Office administrative, office support and other business support activities"
+msgid ""
+"Office administrative, office support and other business support activities"
 msgstr ""
 
 #. module: l10n_eu_nace
@@ -2669,7 +2740,8 @@ msgstr ""
 
 #. module: l10n_eu_nace
 #: model:res.partner.nace,name:l10n_eu_nace.nace_91_03
-msgid "Operation of historical sites and buildings and similar visitor attractions"
+msgid ""
+"Operation of historical sites and buildings and similar visitor attractions"
 msgstr ""
 
 #. module: l10n_eu_nace
@@ -2691,7 +2763,9 @@ msgstr ""
 
 #. module: l10n_eu_nace
 #: model:res.partner.nace,name:l10n_eu_nace.nace_66_19
-msgid "Other activities auxiliary to financial services, except insurance and pension funding"
+msgid ""
+"Other activities auxiliary to financial services, except insurance and "
+"pension funding"
 msgstr ""
 
 #. module: l10n_eu_nace
@@ -2746,12 +2820,15 @@ msgstr ""
 
 #. module: l10n_eu_nace
 #: model:res.partner.nace,name:l10n_eu_nace.nace_64_9
-msgid "Other financial service activities, except insurance and pension funding"
+msgid ""
+"Other financial service activities, except insurance and pension funding"
 msgstr ""
 
 #. module: l10n_eu_nace
 #: model:res.partner.nace,name:l10n_eu_nace.nace_64_99
-msgid "Other financial service activities, except insurance and pension funding n.e.c."
+msgid ""
+"Other financial service activities, except insurance and pension funding "
+"n.e.c."
 msgstr ""
 
 #. module: l10n_eu_nace
@@ -2871,7 +2948,9 @@ msgstr ""
 
 #. module: l10n_eu_nace
 #: model:res.partner.nace,name:l10n_eu_nace.nace_72_19
-msgid "Other research and experimental development on natural sciences and engineering"
+msgid ""
+"Other research and experimental development on natural sciences and "
+"engineering"
 msgstr ""
 
 #. module: l10n_eu_nace
@@ -3012,7 +3091,9 @@ msgstr ""
 
 #. module: l10n_eu_nace
 #: model:res.partner.nace,name:l10n_eu_nace.nace_82_19
-msgid "Photocopying, document preparation and other specialised office support activities"
+msgid ""
+"Photocopying, document preparation and other specialised office support "
+"activities"
 msgstr ""
 
 #. module: l10n_eu_nace
@@ -3233,7 +3314,9 @@ msgstr ""
 
 #. module: l10n_eu_nace
 #: model:res.partner.nace,name:l10n_eu_nace.nace_08_11
-msgid "Quarrying of ornamental and building stone, limestone, gypsum, chalk and slate"
+msgid ""
+"Quarrying of ornamental and building stone, limestone, gypsum, chalk and "
+"slate"
 msgstr ""
 
 #. module: l10n_eu_nace
@@ -3314,12 +3397,15 @@ msgstr ""
 
 #. module: l10n_eu_nace
 #: model:res.partner.nace,name:l10n_eu_nace.nace_84_13
-msgid "Regulation of and contribution to more efficient operation of businesses"
+msgid ""
+"Regulation of and contribution to more efficient operation of businesses"
 msgstr ""
 
 #. module: l10n_eu_nace
 #: model:res.partner.nace,name:l10n_eu_nace.nace_84_12
-msgid "Regulation of the activities of providing health care, education, cultural services and other social services, excluding social security"
+msgid ""
+"Regulation of the activities of providing health care, education, cultural "
+"services and other social services, excluding social security"
 msgstr ""
 
 #. module: l10n_eu_nace
@@ -3362,7 +3448,9 @@ msgstr ""
 
 #. module: l10n_eu_nace
 #: model:res.partner.nace,name:l10n_eu_nace.nace_77_32
-msgid "Rental and leasing of construction and civil engineering machinery and equipment"
+msgid ""
+"Rental and leasing of construction and civil engineering machinery and "
+"equipment"
 msgstr ""
 
 #. module: l10n_eu_nace
@@ -3372,7 +3460,8 @@ msgstr ""
 
 #. module: l10n_eu_nace
 #: model:res.partner.nace,name:l10n_eu_nace.nace_77_33
-msgid "Rental and leasing of office machinery and equipment (including computers)"
+msgid ""
+"Rental and leasing of office machinery and equipment (including computers)"
 msgstr ""
 
 #. module: l10n_eu_nace
@@ -3382,7 +3471,8 @@ msgstr ""
 
 #. module: l10n_eu_nace
 #: model:res.partner.nace,name:l10n_eu_nace.nace_77_39
-msgid "Rental and leasing of other machinery, equipment and tangible goods n.e.c."
+msgid ""
+"Rental and leasing of other machinery, equipment and tangible goods n.e.c."
 msgstr ""
 
 #. module: l10n_eu_nace
@@ -3539,13 +3629,15 @@ msgstr ""
 
 #. module: l10n_eu_nace
 #: model:res.partner.nace,name:l10n_eu_nace.nace_72_1
-msgid "Research and experimental development on natural sciences and engineering"
+msgid ""
+"Research and experimental development on natural sciences and engineering"
 msgstr ""
 
 #. module: l10n_eu_nace
 #: model:res.partner.nace,name:l10n_eu_nace.nace_72_2
 #: model:res.partner.nace,name:l10n_eu_nace.nace_72_20
-msgid "Research and experimental development on social sciences and humanities"
+msgid ""
+"Research and experimental development on social sciences and humanities"
 msgstr ""
 
 #. module: l10n_eu_nace
@@ -3556,7 +3648,9 @@ msgstr ""
 #. module: l10n_eu_nace
 #: model:res.partner.nace,name:l10n_eu_nace.nace_87_2
 #: model:res.partner.nace,name:l10n_eu_nace.nace_87_20
-msgid "Residential care activities for mental retardation, mental health and substance abuse"
+msgid ""
+"Residential care activities for mental retardation, mental health and "
+"substance abuse"
 msgstr ""
 
 #. module: l10n_eu_nace
@@ -3584,7 +3678,9 @@ msgstr ""
 
 #. module: l10n_eu_nace
 #: model:res.partner.nace,name:l10n_eu_nace.nace_47_11
-msgid "Retail sale in non-specialised stores with food, beverages or tobacco predominating"
+msgid ""
+"Retail sale in non-specialised stores with food, beverages or tobacco "
+"predominating"
 msgstr ""
 
 #. module: l10n_eu_nace
@@ -3610,12 +3706,15 @@ msgstr ""
 
 #. module: l10n_eu_nace
 #: model:res.partner.nace,name:l10n_eu_nace.nace_47_24
-msgid "Retail sale of bread, cakes, flour confectionery and sugar confectionery in specialised stores"
+msgid ""
+"Retail sale of bread, cakes, flour confectionery and sugar confectionery in "
+"specialised stores"
 msgstr ""
 
 #. module: l10n_eu_nace
 #: model:res.partner.nace,name:l10n_eu_nace.nace_47_53
-msgid "Retail sale of carpets, rugs, wall and floor coverings in specialised stores"
+msgid ""
+"Retail sale of carpets, rugs, wall and floor coverings in specialised stores"
 msgstr ""
 
 #. module: l10n_eu_nace
@@ -3625,7 +3724,9 @@ msgstr ""
 
 #. module: l10n_eu_nace
 #: model:res.partner.nace,name:l10n_eu_nace.nace_47_41
-msgid "Retail sale of computers, peripheral units and software in specialised stores"
+msgid ""
+"Retail sale of computers, peripheral units and software in specialised "
+"stores"
 msgstr ""
 
 #. module: l10n_eu_nace
@@ -3650,7 +3751,9 @@ msgstr ""
 
 #. module: l10n_eu_nace
 #: model:res.partner.nace,name:l10n_eu_nace.nace_47_76
-msgid "Retail sale of flowers, plants, seeds, fertilisers, pet animals and pet food in specialised stores"
+msgid ""
+"Retail sale of flowers, plants, seeds, fertilisers, pet animals and pet food"
+" in specialised stores"
 msgstr ""
 
 #. module: l10n_eu_nace
@@ -3670,7 +3773,9 @@ msgstr ""
 
 #. module: l10n_eu_nace
 #: model:res.partner.nace,name:l10n_eu_nace.nace_47_59
-msgid "Retail sale of furniture, lighting equipment and other household articles in specialised stores"
+msgid ""
+"Retail sale of furniture, lighting equipment and other household articles in"
+" specialised stores"
 msgstr ""
 
 #. module: l10n_eu_nace
@@ -3685,7 +3790,8 @@ msgstr ""
 
 #. module: l10n_eu_nace
 #: model:res.partner.nace,name:l10n_eu_nace.nace_47_4
-msgid "Retail sale of information and communication equipment in specialised stores"
+msgid ""
+"Retail sale of information and communication equipment in specialised stores"
 msgstr ""
 
 #. module: l10n_eu_nace
@@ -3760,7 +3866,8 @@ msgstr ""
 
 #. module: l10n_eu_nace
 #: model:res.partner.nace,name:l10n_eu_nace.nace_47_81
-msgid "Retail sale via stalls and markets of food, beverages and tobacco products"
+msgid ""
+"Retail sale via stalls and markets of food, beverages and tobacco products"
 msgstr ""
 
 #. module: l10n_eu_nace
@@ -3821,7 +3928,9 @@ msgstr ""
 #. module: l10n_eu_nace
 #: model:res.partner.nace,name:l10n_eu_nace.nace_45_4
 #: model:res.partner.nace,name:l10n_eu_nace.nace_45_40
-msgid "Sale, maintenance and repair of motorcycles and related parts and accessories"
+msgid ""
+"Sale, maintenance and repair of motorcycles and related parts and "
+"accessories"
 msgstr ""
 
 #. module: l10n_eu_nace
@@ -3936,7 +4045,8 @@ msgstr ""
 #. module: l10n_eu_nace
 #: model:res.partner.nace,name:l10n_eu_nace.nace_88_1
 #: model:res.partner.nace,name:l10n_eu_nace.nace_88_10
-msgid "Social work activities without accommodation for the elderly and disabled"
+msgid ""
+"Social work activities without accommodation for the elderly and disabled"
 msgstr ""
 
 #. module: l10n_eu_nace
@@ -4052,7 +4162,9 @@ msgstr ""
 
 #. module: l10n_eu_nace
 #: model:res.partner.nace,name:l10n_eu_nace.nace_15_1
-msgid "Tanning and dressing of leather; manufacture of luggage, handbags, saddlery and harness; dressing and dyeing of fur"
+msgid ""
+"Tanning and dressing of leather; manufacture of luggage, handbags, saddlery "
+"and harness; dressing and dyeing of fur"
 msgstr ""
 
 #. module: l10n_eu_nace
@@ -4142,7 +4254,9 @@ msgstr ""
 
 #. module: l10n_eu_nace
 #: model:res.partner.nace,name:l10n_eu_nace.nace_79
-msgid "Travel agency, tour operator and other reservation service and related activities"
+msgid ""
+"Travel agency, tour operator and other reservation service and related "
+"activities"
 msgstr ""
 
 #. module: l10n_eu_nace
@@ -4173,19 +4287,25 @@ msgstr ""
 
 #. module: l10n_eu_nace
 #: model:res.partner.nace,name:l10n_eu_nace.nace_98
-msgid "Undifferentiated goods- and services-producing activities of private households for own use"
+msgid ""
+"Undifferentiated goods- and services-producing activities of private "
+"households for own use"
 msgstr ""
 
 #. module: l10n_eu_nace
 #: model:res.partner.nace,name:l10n_eu_nace.nace_98_1
 #: model:res.partner.nace,name:l10n_eu_nace.nace_98_10
-msgid "Undifferentiated goods-producing activities of private households for own use"
+msgid ""
+"Undifferentiated goods-producing activities of private households for own "
+"use"
 msgstr ""
 
 #. module: l10n_eu_nace
 #: model:res.partner.nace,name:l10n_eu_nace.nace_98_2
 #: model:res.partner.nace,name:l10n_eu_nace.nace_98_20
-msgid "Undifferentiated service-producing activities of private households for own use"
+msgid ""
+"Undifferentiated service-producing activities of private households for own "
+"use"
 msgstr ""
 
 #. module: l10n_eu_nace
@@ -4233,7 +4353,8 @@ msgstr ""
 
 #. module: l10n_eu_nace
 #: model:res.partner.nace,name:l10n_eu_nace.nace_38
-msgid "Waste collection, treatment and disposal activities; materials recovery"
+msgid ""
+"Waste collection, treatment and disposal activities; materials recovery"
 msgstr ""
 
 #. module: l10n_eu_nace
@@ -4266,7 +4387,8 @@ msgstr ""
 
 #. module: l10n_eu_nace
 #: model:res.partner.nace,name:l10n_eu_nace.nace_45
-msgid "Wholesale and retail trade and repair of motor vehicles and motorcycles"
+msgid ""
+"Wholesale and retail trade and repair of motor vehicles and motorcycles"
 msgstr ""
 
 #. module: l10n_eu_nace
@@ -4381,7 +4503,9 @@ msgstr ""
 
 #. module: l10n_eu_nace
 #: model:res.partner.nace,name:l10n_eu_nace.nace_46_64
-msgid "Wholesale of machinery for the textile industry and of sewing and knitting machines"
+msgid ""
+"Wholesale of machinery for the textile industry and of sewing and knitting "
+"machines"
 msgstr ""
 
 #. module: l10n_eu_nace
@@ -4505,4 +4629,3 @@ msgstr ""
 #: model:res.partner.nace,name:l10n_eu_nace.nace_61_20
 msgid "Wireless telecommunications activities"
 msgstr ""
-
