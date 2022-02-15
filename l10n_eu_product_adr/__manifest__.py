@@ -19,6 +19,8 @@
         "data/adr_label.xml",
         "data/adr_packing_instruction.xml",
         "data/adr_goods.xml",
+        "security/res_groups.xml",
+        "security/ir.model.access.csv",
         "views/adr_class_views.xml",
         "views/adr_goods_views.xml",
         "views/adr_label_views.xml",
@@ -28,6 +30,5 @@
         "views/product_template_views.xml",
         "views/product_product_views.xml",
         "views/stock_picking_views.xml",
-        "security/ir.model.access.csv",
     ],
 }

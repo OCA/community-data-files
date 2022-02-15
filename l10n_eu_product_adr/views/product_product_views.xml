@@ -4,6 +4,7 @@
         <field name="name">Dangerous goods settings on variants</field>
         <field name="model">product.product</field>
         <field name="priority" eval="999" />
+        <field name="groups_id" eval="[(4, ref('group_adr_goods_user'))]" />
         <field name="inherit_id" ref="product.product_normal_form_view" />
         <field name="arch" type="xml">
             <page name="adr" position="attributes">
