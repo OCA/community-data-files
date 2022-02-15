@@ -14,6 +14,7 @@ class StockMove(models.Model):
         compute="_compute_adr_points",
         string="ADR Points",
         digits="Product Unit of Measure",
+        compute_sudo=True,
     )
 
     @api.depends("product_id", "product_uom_qty")
