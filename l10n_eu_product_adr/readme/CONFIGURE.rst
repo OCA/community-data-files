@@ -21,3 +21,7 @@ Goods*.
 The number of ADR points on the picking is based on the product weight field
 if it is filled in, or otherwise on the UoM quantity in the product's reference
 UoM (presumably Liter or Kilogram).
+
+This module defines an ADR user group and an ADR admin group. Membership of
+one of these groups is required to access the product tab with the ADR info.
+By default, all inventory users are added to the ADR user group.
