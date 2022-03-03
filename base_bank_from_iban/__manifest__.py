@@ -5,7 +5,8 @@
 {
     "name": "Bank from IBAN",
     "version": "13.0.1.0.0",
-    "author": "Tecnativa, " "Odoo Community Association (OCA)",
+    "author": "Tecnativa, Odoo Community Association (OCA)",
+    "development_status": "Mature",
     "website": "https://github.com/OCA/community-data-files",
     "category": "Localization",
     "license": "AGPL-3",
