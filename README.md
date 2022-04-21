@@ -24,7 +24,7 @@ addon | version | maintainers | summary
 [account_payment_unece](account_payment_unece/) | 15.0.1.0.0 |  | UNECE nomenclature for the payment methods
 [account_tax_unece](account_tax_unece/) | 15.0.1.0.0 | [![alexis-via](https://github.com/alexis-via.png?size=30px)](https://github.com/alexis-via) | UNECE nomenclature for taxes
 [base_bank_from_iban](base_bank_from_iban/) | 15.0.1.0.0 |  | Bank from IBAN
-[base_iso3166](base_iso3166/) | 15.0.1.0.0 |  | ISO 3166
+[base_iso3166](base_iso3166/) | 15.0.1.0.1 |  | ISO 3166
 [base_unece](base_unece/) | 15.0.1.0.0 | [![astirpe](https://github.com/astirpe.png?size=30px)](https://github.com/astirpe) [![alexis-via](https://github.com/alexis-via.png?size=30px)](https://github.com/alexis-via) | Base module for UNECE code lists
 [uom_unece](uom_unece/) | 15.0.1.0.0 | [![astirpe](https://github.com/astirpe.png?size=30px)](https://github.com/astirpe) [![alexis-via](https://github.com/alexis-via.png?size=30px)](https://github.com/alexis-via) | UNECE nomenclature for the units of measure
 
