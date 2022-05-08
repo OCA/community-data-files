@@ -12,8 +12,10 @@
                 <page string="Unece">
                     <group name="unece">
                         <group>
-                            <field name="unece_type_id" />
-                            <field name="unece_categ_id" />
+                            <field name="unece_type_id"
+                               options="{'no_create': True, 'no_create_edit': True}"/>
+                            <field name="unece_categ_id"
+                               options="{'no_create': True, 'no_create_edit': True}"/>
                         </group>
                         <group>
                         </group>

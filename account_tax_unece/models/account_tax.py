@@ -2,7 +2,7 @@
 # @author: Alexis de Lattre <alexis.delattre@akretion.com>
 # License AGPL-3.0 or later (https://www.gnu.org/licenses/agpl).
 
-from odoo import models, fields
+from odoo import api, fields, models
 
 
 class AccountTax(models.Model):
@@ -26,15 +26,36 @@ class AccountTax(models.Model):
     unece_categ_code = fields.Char(
         related='unece_categ_id.code', store=True, readonly=True,
         string='UNECE Category Code')
-    unece_due_date_id = fields.Many2one(
-        'unece.code.list', string='UNECE Due Date',
-        domain=[('type', '=', 'date')], ondelete='restrict',
-        help="Select the due date of that tax from the official "
-        "nomenclature of the United Nations Economic "
-        "Commission for Europe (UNECE), DataElement 2005. For a "
-        "sale VAT tax, it is the date on which that VAT is due to the "
-        "fiscal administration. For a purchase VAT tax, it is the date "
-        "on which that VAT can be deducted.")
-    unece_due_date_code = fields.Char(
-        related='unece_due_date_id.code', store=True, readonly=True,
-        string='UNECE Due Date Code')
+    # We now have a selection field "tax_exigibility"
+    # with 2 possible values: "on_invoice" or "on_payment"
+    # So we don't need the field unece_due_date_id any more.
+    # We replace it by _get_unece_due_date_type_code() below.
+
+    @api.model
+    def _get_unece_code_from_tax_exigibility(self, tax_exigibility):
+        mapping = {
+            "on_invoice": "5",
+            "on_payment": "72",
+        }
+        return mapping.get(tax_exigibility)
+
+    @api.model
+    def _get_tax_exigibility_from_unece_code(self, unece_code):
+        if isinstance(unece_code, int):
+            unece_code = str(unece_code)
+        mapping = {
+            "5": "on_invoice",
+            "29": "on_invoice",
+            "72": "on_payment",
+        }
+        if unece_code in mapping:
+            return mapping[unece_code]
+        else:
+            return None
+
+    def _get_unece_due_date_type_code(self):
+        self.ensure_one()
+        if self.tax_exigibility:
+            return self._get_unece_code_from_tax_exigibility(self.tax_exigibility)
+        else:
+            return None

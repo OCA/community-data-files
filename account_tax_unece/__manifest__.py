@@ -16,7 +16,6 @@
         'views/account_tax_template.xml',
         'data/unece_tax_type.xml',
         'data/unece_tax_categ.xml',
-        'data/unece_date.xml',
         ],
     'installable': True,
 }

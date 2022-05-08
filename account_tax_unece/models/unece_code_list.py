@@ -11,5 +11,4 @@ class UneceCodeList(models.Model):
     type = fields.Selection(selection_add=[
         ('tax_type', 'Tax Types (UNCL 5153)'),
         ('tax_categ', 'Tax Categories (UNCL 5305)'),
-        ('date', 'Date, Time or Period Qualifier (UNTDID 2005)'),
         ])

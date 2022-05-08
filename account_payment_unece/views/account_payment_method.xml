@@ -11,7 +11,8 @@
     <field name="inherit_id" ref="account_payment_mode.account_payment_method_form"/>
     <field name="arch" type="xml">
         <group name="main" position="inside">
-            <field name="unece_id" context="{'default_type': 'payment_means'}"/>
+            <field name="unece_id" context="{'default_type': 'payment_means'}"
+                options="{'no_create': True, 'no_create_edit': True}" />
         </group>
     </field>
 </record>

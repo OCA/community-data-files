@@ -24,10 +24,7 @@ class AccountTaxTemplate(models.Model):
 
     def _get_tax_vals(self, company, tax_template_to_tax):
         self.ensure_one()
-        res = super(AccountTaxTemplate, self)._get_tax_vals(
-            company,
-            tax_template_to_tax
-        )
+        res = super()._get_tax_vals(company, tax_template_to_tax)
         res['unece_type_id'] = self.unece_type_id.id or False
         res['unece_categ_id'] = self.unece_categ_id.id or False
         return res
