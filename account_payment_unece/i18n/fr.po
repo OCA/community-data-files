@@ -1,0 +1,47 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* account_payment_unece
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 11.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-07-01 16:20+0000\n"
+"PO-Revision-Date: 2022-07-01 18:35+0200\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Generator: Poedit 2.3\n"
+"Last-Translator: \n"
+"Language: fr_FR\n"
+
+#. module: account_payment_unece
+#: model:ir.model,name:account_payment_unece.model_account_payment_method
+msgid "Payment Methods"
+msgstr "Méthodes de paiement"
+
+#. module: account_payment_unece
+#: model:ir.model.fields,help:account_payment_unece.field_account_payment_method_unece_id
+msgid ""
+"Standard nomenclature of the United Nations Economic Commission for Europe "
+"(UNECE) defined in UN/EDIFACT Data Element 4461"
+msgstr ""
+"Nomenclature standard de la Commission Économique des Nations Unies pour "
+"l’Europe (CEE-ONU) définie dans la Donnée EDIFACT-ONU 4461"
+
+#. module: account_payment_unece
+#: model:ir.model.fields,field_description:account_payment_unece.field_account_payment_method_unece_code
+msgid "UNECE Code"
+msgstr "Code CEE-ONU"
+
+#. module: account_payment_unece
+#: model:ir.model.fields,field_description:account_payment_unece.field_account_payment_method_unece_id
+msgid "UNECE Payment Mean"
+msgstr "Moyen de paiement CEE-ONU"
+
+#. module: account_payment_unece
+#: model:ir.model,name:account_payment_unece.model_unece_code_list
+msgid "UNECE nomenclatures"
+msgstr "Nomenclatures CEE-ONU"
