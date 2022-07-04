@@ -1,0 +1,125 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* base_unece
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 11.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-07-01 16:03+0000\n"
+"PO-Revision-Date: 2022-07-01 18:04+0200\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: fr_FR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Generator: Poedit 2.3\n"
+
+#. module: base_unece
+#: model:ir.model.fields,field_description:base_unece.field_unece_code_list_active
+msgid "Active"
+msgstr "Actif"
+
+#. module: base_unece
+#: sql_constraint:unece.code.list:0
+msgid "An UNECE code of the same type already exists"
+msgstr "Un code CEE-ONU de type identique existe déjà"
+
+#. module: base_unece
+#: model:ir.ui.view,arch_db:base_unece.unece_code_list_search
+msgid "Archived"
+msgstr "Archivé"
+
+#. module: base_unece
+#: model:ir.model.fields,field_description:base_unece.field_unece_code_list_code
+msgid "Code"
+msgstr "Code"
+
+#. module: base_unece
+#: model:ir.model.fields,field_description:base_unece.field_unece_code_list_create_uid
+msgid "Created by"
+msgstr "Créé par"
+
+#. module: base_unece
+#: model:ir.model.fields,field_description:base_unece.field_unece_code_list_create_date
+msgid "Created on"
+msgstr "Créé le"
+
+#. module: base_unece
+#: model:ir.model.fields,field_description:base_unece.field_unece_code_list_description
+msgid "Description"
+msgstr "Description"
+
+#. module: base_unece
+#: model:ir.model.fields,field_description:base_unece.field_unece_code_list_display_name
+msgid "Display Name"
+msgstr "Nom d’affichage"
+
+#. module: base_unece
+#: model:ir.ui.view,arch_db:base_unece.unece_code_list_search
+msgid "Group By"
+msgstr "Regrouper par…"
+
+#. module: base_unece
+#: model:ir.model.fields,field_description:base_unece.field_unece_code_list_id
+msgid "ID"
+msgstr "ID"
+
+#. module: base_unece
+#: model:ir.model.fields,field_description:base_unece.field_unece_code_list___last_update
+msgid "Last Modified on"
+msgstr "Dernière modification le"
+
+#. module: base_unece
+#: model:ir.model.fields,field_description:base_unece.field_unece_code_list_write_uid
+msgid "Last Updated by"
+msgstr "Dernière mise à jour par"
+
+#. module: base_unece
+#: model:ir.model.fields,field_description:base_unece.field_unece_code_list_write_date
+msgid "Last Updated on"
+msgstr "Dernière mise à jour le"
+
+#. module: base_unece
+#: model:ir.model.fields,field_description:base_unece.field_unece_code_list_name
+msgid "Name"
+msgstr "Nom"
+
+#. module: base_unece
+#: model:ir.ui.view,arch_db:base_unece.unece_code_list_search
+msgid "Name or Code"
+msgstr "Nom ou Code"
+
+#. module: base_unece
+#: selection:unece.code.list,type:0
+msgid "Payment Means (UNCL 4461)"
+msgstr "Moyens de paiement (UNCL 4461)"
+
+#. module: base_unece
+#: selection:unece.code.list,type:0
+msgid "Tax Categories (UNCL 5305)"
+msgstr "Catégories de taxe (UNCL 5305)"
+
+#. module: base_unece
+#: selection:unece.code.list,type:0
+msgid "Tax Types (UNCL 5153)"
+msgstr "Types de taxe (UNCL 5153)"
+
+#. module: base_unece
+#: model:ir.model.fields,field_description:base_unece.field_unece_code_list_type
+#: model:ir.ui.view,arch_db:base_unece.unece_code_list_search
+msgid "Type"
+msgstr "Type"
+
+#. module: base_unece
+#: model:ir.actions.act_window,name:base_unece.unece_code_list_action
+#: model:ir.ui.menu,name:base_unece.unece_code_list_menu
+msgid "UNECE Code Lists"
+msgstr "Listes de codes CEE-ONU"
+
+#. module: base_unece
+#: model:ir.model,name:base_unece.model_unece_code_list
+msgid "UNECE nomenclatures"
+msgstr "Nomenclatures CEE-ONU"
