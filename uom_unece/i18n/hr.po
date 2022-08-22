@@ -6,7 +6,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 14.0\n"
 "Report-Msgid-Bugs-To: \n"
-"Last-Translator: Automatically generated\n"
+"PO-Revision-Date: 2022-08-22 14:07+0000\n"
+"Last-Translator: Bole <bole@dajmi5.com>\n"
 "Language-Team: none\n"
 "Language: hr\n"
 "MIME-Version: 1.0\n"
@@ -14,35 +15,36 @@ msgstr ""
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
 "%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
+"X-Generator: Weblate 4.3.2\n"
 
 #. module: uom_unece
 #: model:ir.model.fields,field_description:uom_unece.field_uom_uom__display_name
 msgid "Display Name"
-msgstr ""
+msgstr "Prikazani naziv"
 
 #. module: uom_unece
 #: model:ir.model.fields,field_description:uom_unece.field_uom_uom__id
 msgid "ID"
-msgstr ""
+msgstr "ID"
 
 #. module: uom_unece
 #: model:ir.model.fields,field_description:uom_unece.field_uom_uom____last_update
 msgid "Last Modified on"
-msgstr ""
+msgstr "Zadnje modificirano"
 
 #. module: uom_unece
 #: model:ir.model,name:uom_unece.model_uom_uom
 msgid "Product Unit of Measure"
-msgstr ""
+msgstr "Jedinica mjere proizvoda"
 
 #. module: uom_unece
 #: model:ir.model.fields,help:uom_unece.field_uom_uom__unece_code
 msgid ""
 "Standard nomenclature of the United Nations Economic Commission for Europe "
 "(UNECE)."
-msgstr ""
+msgstr "Standardna nomenklatura Ekonomske komisije UN (UNECE)."
 
 #. module: uom_unece
 #: model:ir.model.fields,field_description:uom_unece.field_uom_uom__unece_code
 msgid "UNECE Code"
-msgstr ""
+msgstr "UNECE Šifra"
