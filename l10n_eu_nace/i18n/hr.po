@@ -1,0 +1,4633 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* l10n_eu_nace
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 14.0\n"
+"Report-Msgid-Bugs-To: \n"
+"Last-Translator: Automatically generated\n"
+"Language-Team: none\n"
+"Language: hr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_I
+msgid "ACCOMMODATION AND FOOD SERVICE ACTIVITIES"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_U
+msgid "ACTIVITIES OF EXTRATERRITORIAL ORGANISATIONS AND BODIES"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_T
+msgid ""
+"ACTIVITIES OF HOUSEHOLDS AS EMPLOYERS; U0NDIFFERENTIATED GOODS- AND "
+"SERVICES-PRODUCING ACTIVITIES OF HOUSEHOLDS FOR OWN USE"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_N
+msgid "ADMINISTRATIVE AND SUPPORT SERVICE ACTIVITIES"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_A
+msgid "AGRICULTURE, FORESTRY AND FISHING"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_R
+msgid "ARTS, ENTERTAINMENT AND RECREATION"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_55
+msgid "Accommodation"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_69_2
+#: model:res.partner.nace,name:l10n_eu_nace.nace_69_20
+msgid "Accounting, bookkeeping and auditing activities; tax consultancy"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:ir.model.fields,field_description:l10n_eu_nace.field_res_partner_nace__active
+msgid "Active"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_66
+msgid "Activities auxiliary to financial services and insurance activities"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_66_1
+msgid ""
+"Activities auxiliary to financial services, except insurance and pension "
+"funding"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_66_2
+msgid "Activities auxiliary to insurance and pension funding"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_93_21
+msgid "Activities of amusement parks and theme parks"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_94_11
+msgid "Activities of business and employers membership organisations"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_94_1
+msgid ""
+"Activities of business, employers and professional membership organisations"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_82_2
+#: model:res.partner.nace,name:l10n_eu_nace.nace_82_20
+msgid "Activities of call centres"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_82_91
+msgid "Activities of collection agencies and credit bureaus"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_78_1
+#: model:res.partner.nace,name:l10n_eu_nace.nace_78_10
+msgid "Activities of employment placement agencies"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_99
+#: model:res.partner.nace,name:l10n_eu_nace.nace_99_0
+#: model:res.partner.nace,name:l10n_eu_nace.nace_99_00
+msgid "Activities of extraterritorial organisations and bodies"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_70_1
+#: model:res.partner.nace,name:l10n_eu_nace.nace_70_10
+msgid "Activities of head offices"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_70
+msgid "Activities of head offices; management consultancy activities"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_64_2
+#: model:res.partner.nace,name:l10n_eu_nace.nace_64_20
+msgid "Activities of holding companies"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_97
+#: model:res.partner.nace,name:l10n_eu_nace.nace_97_0
+#: model:res.partner.nace,name:l10n_eu_nace.nace_97_00
+msgid "Activities of households as employers of domestic personnel"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_66_22
+msgid "Activities of insurance agents and brokers"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_94
+msgid "Activities of membership organisations"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_94_9
+msgid "Activities of other membership organisations"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_94_99
+msgid "Activities of other membership organisations n.e.c."
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_94_92
+msgid "Activities of political organisations"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_94_12
+msgid "Activities of professional membership organisations"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_94_91
+msgid "Activities of religious organisations"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_93_12
+msgid "Activities of sports clubs"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_94_2
+#: model:res.partner.nace,name:l10n_eu_nace.nace_94_20
+msgid "Activities of trade unions"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_66_11
+msgid "Administration of financial markets"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_84_1
+msgid ""
+"Administration of the State and the economic and social policy of the "
+"community"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_73_1
+msgid "Advertising"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_73_11
+msgid "Advertising agencies"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_73
+msgid "Advertising and market research"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_46_19
+msgid "Agents involved in the sale of a variety of goods"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_46_11
+msgid ""
+"Agents involved in the sale of agricultural raw materials, live animals, "
+"textile raw materials and semi-finished goods"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_46_17
+msgid "Agents involved in the sale of food, beverages and tobacco"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_46_12
+msgid ""
+"Agents involved in the sale of fuels, ores, metals and industrial chemicals"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_46_15
+msgid ""
+"Agents involved in the sale of furniture, household goods, hardware and "
+"ironmongery"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_46_14
+msgid ""
+"Agents involved in the sale of machinery, industrial equipment, ships and "
+"aircraft"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_46_16
+msgid ""
+"Agents involved in the sale of textiles, clothing, fur, footwear and leather"
+" goods"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_46_13
+msgid "Agents involved in the sale of timber and building materials"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_46_18
+msgid "Agents specialised in the sale of other particular products"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_51
+msgid "Air transport"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_24_42
+msgid "Aluminium production"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_93_2
+msgid "Amusement and recreation activities"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_01_4
+msgid "Animal production"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_03_2
+msgid "Aquaculture"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_71_11
+msgid "Architectural activities "
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_71_1
+msgid ""
+"Architectural and engineering activities and related technical consultancy"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_71
+msgid ""
+"Architectural and engineering activities; technical testing and analysis"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_90_03
+msgid "Artistic creation"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_56_3
+#: model:res.partner.nace,name:l10n_eu_nace.nace_56_30
+msgid "Beverage serving activities"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_18_14
+msgid "Binding and related services"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_58_11
+msgid "Book publishing"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_91_04
+msgid "Botanical and zoological gardens and nature reserves activities"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_43_3
+msgid "Building completion and finishing"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_30_12
+msgid "Building of pleasure and sporting boats"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_30_1
+msgid "Building of ships and boats"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_30_11
+msgid "Building of ships and floating structures"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_70_22
+msgid "Business and other management consultancy activities"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_82_9
+msgid "Business support service activities n.e.c."
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_68_1
+#: model:res.partner.nace,name:l10n_eu_nace.nace_68_10
+msgid "Buying and selling of own real estate"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_F
+msgid "CONSTRUCTION"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_55_3
+#: model:res.partner.nace,name:l10n_eu_nace.nace_55_30
+msgid "Camping grounds, recreational vehicle parks and trailer parks"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_52_24
+msgid "Cargo handling"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_24_51
+msgid "Casting of iron"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_24_53
+msgid "Casting of light metals"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_24_5
+msgid "Casting of metals"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_24_54
+msgid "Casting of other non-ferrous metals"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_24_52
+msgid "Casting of steel"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_64_11
+msgid "Central banking"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_88_91
+msgid "Child day-care activities"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_42
+msgid "Civil engineering"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_81_2
+msgid "Cleaning activities"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:ir.model.fields,field_description:l10n_eu_nace.field_res_partner_nace__code
+msgid "Code"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_24_31
+msgid "Cold drawing of bars"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_24_34
+msgid "Cold drawing of wire"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_24_33
+msgid "Cold forming or folding"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_24_32
+msgid "Cold rolling of narrow strip"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_38_12
+msgid "Collection of hazardous waste"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_38_11
+msgid "Collection of non-hazardous waste"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_81_1
+#: model:res.partner.nace,name:l10n_eu_nace.nace_81_10
+msgid "Combined facilities support activities"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_82_11
+msgid "Combined office administrative service activities"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:ir.model.fields,field_description:l10n_eu_nace.field_res_partner_nace__complete_name
+msgid "Complete Name"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_84_3
+#: model:res.partner.nace,name:l10n_eu_nace.nace_84_30
+msgid "Compulsory social security activities"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_62_02
+msgid "Computer consultancy activities"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_62_03
+msgid "Computer facilities management activities"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_62_01
+msgid "Computer programming activities"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_62
+#: model:res.partner.nace,name:l10n_eu_nace.nace_62_0
+msgid "Computer programming, consultancy and related activities"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_42_13
+msgid "Construction of bridges and tunnels"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_41
+msgid "Construction of buildings"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_42_9
+msgid "Construction of other civil engineering projects"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_42_99
+msgid "Construction of other civil engineering projects n.e.c."
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_42_12
+msgid "Construction of railways and underground railways"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_41_2
+#: model:res.partner.nace,name:l10n_eu_nace.nace_41_20
+msgid "Construction of residential and non-residential buildings"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_42_11
+msgid "Construction of roads and motorways"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_42_1
+msgid "Construction of roads and railways"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_42_2
+msgid "Construction of utility projects"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_42_22
+msgid ""
+"Construction of utility projects for electricity and telecommunications"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_42_21
+msgid "Construction of utility projects for fluids"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_42_91
+msgid "Construction of water projects"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:ir.model,name:l10n_eu_nace.model_res_partner
+msgid "Contact"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_24_44
+msgid "Copper production"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:ir.model.fields,field_description:l10n_eu_nace.field_res_partner_nace__create_uid
+msgid "Created by"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:ir.model.fields,field_description:l10n_eu_nace.field_res_partner_nace__create_date
+msgid "Created on"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_90
+#: model:res.partner.nace,name:l10n_eu_nace.nace_90_0
+msgid "Creative, arts and entertainment activities"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_01
+msgid "Crop and animal production, hunting and related service activities"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_85_52
+msgid "Cultural education"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_23_7
+#: model:res.partner.nace,name:l10n_eu_nace.nace_23_70
+msgid "Cutting, shaping and finishing of stone"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_63_11
+msgid "Data processing, hosting and related activities"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_63_1
+msgid "Data processing, hosting and related activities; web portals"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_84_22
+msgid "Defence activities"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_43_11
+msgid "Demolition"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_43_1
+msgid "Demolition and site preparation"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_86_23
+msgid "Dental practice activities"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_41_1
+#: model:res.partner.nace,name:l10n_eu_nace.nace_41_10
+msgid "Development of building projects"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_38_31
+msgid "Dismantling of wrecks"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_47_73
+msgid "Dispensing chemist in specialised stores"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:ir.model.fields,field_description:l10n_eu_nace.field_res_partner__display_name
+#: model:ir.model.fields,field_description:l10n_eu_nace.field_res_partner_nace__display_name
+msgid "Display Name"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_11_01
+msgid "Distilling, rectifying and blending of spirits"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_35_13
+msgid "Distribution of electricity"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_35_22
+msgid "Distribution of gaseous fuels through mains"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_85_53
+msgid "Driving school activities"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_P
+msgid "EDUCATION"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_D
+msgid "ELECTRICITY, GAS, STEAM AND AIR CONDITIONING SUPPLY"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_85
+msgid "Education"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_85_6
+#: model:res.partner.nace,name:l10n_eu_nace.nace_85_60
+msgid "Educational support activities"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_35_1
+msgid "Electric power generation, transmission and distribution"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_43_21
+msgid "Electrical installation"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_43_2
+msgid "Electrical, plumbing and other construction installation activities"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_35
+msgid "Electricity, gas, steam and air conditioning supply"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_78
+msgid "Employment activities"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_71_12
+msgid "Engineering activities and related technical consultancy"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:ir.model,name:l10n_eu_nace.model_res_partner_nace
+msgid "European NACE partner category"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_56_21
+msgid "Event catering activities"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_56_2
+msgid "Event catering and other food service activities"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_06_1
+#: model:res.partner.nace,name:l10n_eu_nace.nace_06_10
+msgid "Extraction of crude petroleum"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_06
+msgid "Extraction of crude petroleum and natural gas"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_06_2
+#: model:res.partner.nace,name:l10n_eu_nace.nace_06_20
+msgid "Extraction of natural gas"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_08_92
+msgid "Extraction of peat"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_08_93
+msgid "Extraction of salt"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_K
+msgid "FINANCIAL AND INSURANCE ACTIVITIES"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_64_91
+msgid "Financial leasing"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_64
+msgid "Financial service activities, except insurance and pension funding"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_13_3
+#: model:res.partner.nace,name:l10n_eu_nace.nace_13_30
+msgid "Finishing of textiles"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_84_25
+msgid "Fire service activities"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_03_1
+msgid "Fishing"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_03
+msgid "Fishing and aquaculture"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_93_13
+msgid "Fitness facilities"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_43_33
+msgid "Floor and wall covering"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_56
+msgid "Food and beverage service activities"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_84_21
+msgid "Foreign affairs"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_02
+msgid "Forestry and logging"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_25_5
+#: model:res.partner.nace,name:l10n_eu_nace.nace_25_50
+msgid ""
+"Forging, pressing, stamping and roll-forming of metal; powder metallurgy"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_51_21
+msgid "Freight air transport"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_51_2
+msgid "Freight air transport and space transport"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_49_2
+#: model:res.partner.nace,name:l10n_eu_nace.nace_49_20
+msgid "Freight rail transport"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_49_41
+msgid "Freight transport by road"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_49_4
+msgid "Freight transport by road and removal services"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_03_22
+msgid "Freshwater aquaculture"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_03_12
+msgid "Freshwater fishing"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_66_3
+#: model:res.partner.nace,name:l10n_eu_nace.nace_66_30
+msgid "Fund management activities"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_96_03
+msgid "Funeral and related activities"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_92
+#: model:res.partner.nace,name:l10n_eu_nace.nace_92_0
+#: model:res.partner.nace,name:l10n_eu_nace.nace_92_00
+msgid "Gambling and betting activities"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_02_3
+#: model:res.partner.nace,name:l10n_eu_nace.nace_02_30
+msgid "Gathering of wild growing non-wood products"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_81_21
+msgid "General cleaning of buildings"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_86_21
+msgid "General medical practice activities"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_84_11
+msgid "General public administration activities"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_85_31
+msgid "General secondary education "
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_01_27
+msgid "Growing of beverage crops"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_01_11
+msgid "Growing of cereals (except rice), leguminous crops and oil seeds"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_01_23
+msgid "Growing of citrus fruits"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_01_16
+msgid "Growing of fibre crops"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_01_21
+msgid "Growing of grapes"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_01_1
+msgid "Growing of non-perennial crops"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_01_26
+msgid "Growing of oleaginous fruits"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_01_19
+msgid "Growing of other non-perennial crops"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_01_29
+msgid "Growing of other perennial crops"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_01_25
+msgid "Growing of other tree and bush fruits and nuts"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_01_2
+msgid "Growing of perennial crops"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_01_24
+msgid "Growing of pome fruits and stone fruits"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_01_12
+msgid "Growing of rice"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_01_28
+msgid "Growing of spices, aromatic, drug and pharmaceutical crops"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_01_14
+msgid "Growing of sugar cane"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_01_15
+msgid "Growing of tobacco"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_01_22
+msgid "Growing of tropical and subtropical fruits"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_01_13
+msgid "Growing of vegetables and melons, roots and tubers"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_Q
+msgid "HUMAN HEALTH AND SOCIAL WORK ACTIVITIES"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_96_02
+msgid "Hairdressing and other beauty treatment"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_85_4
+msgid "Higher education"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_55_2
+#: model:res.partner.nace,name:l10n_eu_nace.nace_55_20
+msgid "Holiday and other short-stay accommodation"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_86_1
+#: model:res.partner.nace,name:l10n_eu_nace.nace_86_10
+msgid "Hospital activities"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_55_1
+#: model:res.partner.nace,name:l10n_eu_nace.nace_55_10
+msgid "Hotels and similar accommodation"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_86
+msgid "Human health activities"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_01_7
+#: model:res.partner.nace,name:l10n_eu_nace.nace_01_70
+msgid "Hunting, trapping and related service activities"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:ir.model.fields,field_description:l10n_eu_nace.field_res_partner__id
+#: model:ir.model.fields,field_description:l10n_eu_nace.field_res_partner_nace__id
+msgid "ID"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_J
+msgid "INFORMATION AND COMMUNICATION"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_63
+msgid "Information service activities"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_50_4
+#: model:res.partner.nace,name:l10n_eu_nace.nace_50_40
+msgid "Inland freight water transport"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_50_3
+#: model:res.partner.nace,name:l10n_eu_nace.nace_50_30
+msgid "Inland passenger water transport"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_33_2
+#: model:res.partner.nace,name:l10n_eu_nace.nace_33_20
+msgid "Installation of industrial machinery and equipment"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_65_1
+msgid "Insurance"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_65
+msgid ""
+"Insurance, reinsurance and pension funding, except compulsory social "
+"security"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_80_3
+#: model:res.partner.nace,name:l10n_eu_nace.nace_80_30
+msgid "Investigation activities"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_43_32
+msgid "Joinery installation"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_84_23
+msgid "Justice and judicial activities"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_49
+msgid "Land transport and transport via pipelines"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_81_3
+#: model:res.partner.nace,name:l10n_eu_nace.nace_81_30
+msgid "Landscape service activities"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:ir.model.fields,field_description:l10n_eu_nace.field_res_partner____last_update
+#: model:ir.model.fields,field_description:l10n_eu_nace.field_res_partner_nace____last_update
+msgid "Last Modified on"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:ir.model.fields,field_description:l10n_eu_nace.field_res_partner_nace__write_uid
+msgid "Last Updated by"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:ir.model.fields,field_description:l10n_eu_nace.field_res_partner_nace__write_date
+msgid "Last Updated on"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_24_43
+msgid "Lead, zinc and tin production"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_77_4
+#: model:res.partner.nace,name:l10n_eu_nace.nace_77_40
+msgid ""
+"Leasing of intellectual property and similar products, except copyrighted "
+"works"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_69_1
+#: model:res.partner.nace,name:l10n_eu_nace.nace_69_10
+msgid "Legal activities"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_69
+msgid "Legal and accounting activities"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_91
+#: model:res.partner.nace,name:l10n_eu_nace.nace_91_0
+msgid "Libraries, archives, museums and other cultural activities"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_91_01
+msgid "Library and archives activities"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_65_11
+msgid "Life insurance"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_02_2
+#: model:res.partner.nace,name:l10n_eu_nace.nace_02_20
+msgid "Logging"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_C
+msgid "MANUFACTURING"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_B
+msgid "MINING AND QUARRYING"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_25_62
+msgid "Machining"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:ir.model.fields,field_description:l10n_eu_nace.field_res_partner__nace_id
+#: model:ir.model.fields,field_description:l10n_eu_nace.field_res_users__nace_id
+msgid "Main NACE"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_45_2
+#: model:res.partner.nace,name:l10n_eu_nace.nace_45_20
+msgid "Maintenance and repair of motor vehicles"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_70_2
+msgid "Management consultancy activities"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_68_32
+msgid "Management of real estate on a fee or contract basis"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_23_19
+msgid ""
+"Manufacture and processing of other glass, including technical glassware"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_23_9
+msgid ""
+"Manufacture of abrasive products and non-metallic mineral products n.e.c."
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_28_3
+#: model:res.partner.nace,name:l10n_eu_nace.nace_28_30
+msgid "Manufacture of agricultural and forestry machinery"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_30_3
+#: model:res.partner.nace,name:l10n_eu_nace.nace_30_30
+msgid "Manufacture of air and spacecraft and related machinery"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_23_6
+msgid "Manufacture of articles of concrete, cement and plaster"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_14_2
+#: model:res.partner.nace,name:l10n_eu_nace.nace_14_20
+msgid "Manufacture of articles of fur"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_17_2
+msgid "Manufacture of articles of paper and paperboard "
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_16_22
+msgid "Manufacture of assembled parquet floors"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_10_7
+msgid "Manufacture of bakery and farinaceous products"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_20_1
+msgid ""
+"Manufacture of basic chemicals, fertilisers and nitrogen compounds, plastics"
+" and synthetic rubber in primary forms"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_24_1
+msgid "Manufacture of basic iron and steel and of ferro-alloys"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_24_10
+msgid "Manufacture of basic iron and steel and of ferro-alloys "
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_24
+msgid "Manufacture of basic metals"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_21_1
+#: model:res.partner.nace,name:l10n_eu_nace.nace_21_10
+msgid "Manufacture of basic pharmaceutical products"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_21
+msgid ""
+"Manufacture of basic pharmaceutical products and pharmaceutical preparations"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_24_4
+msgid "Manufacture of basic precious and other non-ferrous metals"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_27_2
+#: model:res.partner.nace,name:l10n_eu_nace.nace_27_20
+msgid "Manufacture of batteries and accumulators"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_28_15
+msgid "Manufacture of bearings, gears, gearing and driving elements"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_11_05
+msgid "Manufacture of beer"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_11
+#: model:res.partner.nace,name:l10n_eu_nace.nace_11_0
+msgid "Manufacture of beverages"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_30_92
+msgid "Manufacture of bicycles and invalid carriages"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_29_2
+#: model:res.partner.nace,name:l10n_eu_nace.nace_29_20
+msgid ""
+"Manufacture of bodies (coachwork) for motor vehicles; manufacture of "
+"trailers and semi-trailers"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_10_71
+msgid "Manufacture of bread; manufacture of fresh pastry goods and cakes"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_23_32
+msgid "Manufacture of bricks, tiles and construction products, in baked clay"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_32_91
+msgid "Manufacture of brooms and brushes"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_22_23
+msgid "Manufacture of builders’ ware of plastic"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_13_93
+msgid "Manufacture of carpets and rugs"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_23_51
+msgid "Manufacture of cement"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_23_5
+msgid "Manufacture of cement, lime and plaster"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_25_21
+msgid "Manufacture of central heating radiators and boilers"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_23_41
+msgid "Manufacture of ceramic household and ornamental articles"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_23_43
+msgid "Manufacture of ceramic insulators and insulating fittings"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_23_42
+msgid "Manufacture of ceramic sanitary fixtures"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_23_31
+msgid "Manufacture of ceramic tiles and flags"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_20
+msgid "Manufacture of chemicals and chemical products"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_11_03
+msgid "Manufacture of cider and other fruit wines"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_23_3
+msgid "Manufacture of clay building materials"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_10_82
+msgid "Manufacture of cocoa, chocolate and sugar confectionery"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_19
+msgid "Manufacture of coke and refined petroleum products"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_19_1
+#: model:res.partner.nace,name:l10n_eu_nace.nace_19_10
+msgid "Manufacture of coke oven products"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_26_3
+#: model:res.partner.nace,name:l10n_eu_nace.nace_26_30
+msgid "Manufacture of communication equipment"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_26
+msgid "Manufacture of computer, electronic and optical products"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_26_2
+#: model:res.partner.nace,name:l10n_eu_nace.nace_26_20
+msgid "Manufacture of computers and peripheral equipment"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_23_61
+msgid "Manufacture of concrete products for construction purposes"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_10_84
+msgid "Manufacture of condiments and seasonings"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_26_4
+#: model:res.partner.nace,name:l10n_eu_nace.nace_26_40
+msgid "Manufacture of consumer electronics"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_13_94
+msgid "Manufacture of cordage, rope, twine and netting"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_17_21
+msgid ""
+"Manufacture of corrugated paper and paperboard and of containers of paper "
+"and paperboard"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_25_71
+msgid "Manufacture of cutlery"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_25_7
+msgid "Manufacture of cutlery, tools and general hardware"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_10_5
+msgid "Manufacture of dairy products"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_27_5
+msgid "Manufacture of domestic appliances"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_25_12
+msgid "Manufacture of doors and windows of metal"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_20_12
+msgid "Manufacture of dyes and pigments"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_27_51
+msgid "Manufacture of electric domestic appliances"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_27_4
+#: model:res.partner.nace,name:l10n_eu_nace.nace_27_40
+msgid "Manufacture of electric lighting equipment"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_27_11
+msgid "Manufacture of electric motors, generators and transformers"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_27_1
+msgid ""
+"Manufacture of electric motors, generators, transformers and electricity "
+"distribution and control apparatus"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_29_31
+msgid "Manufacture of electrical and electronic equipment for motor vehicles"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_27
+msgid "Manufacture of electrical equipment"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_27_12
+msgid "Manufacture of electricity distribution and control apparatus"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_26_11
+msgid "Manufacture of electronic components"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_26_1
+msgid "Manufacture of electronic components and boards"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_28_11
+msgid ""
+"Manufacture of engines and turbines, except aircraft, vehicle and cycle "
+"engines"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_20_53
+msgid "Manufacture of essential oils"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_20_51
+msgid "Manufacture of explosives"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_25
+msgid ""
+"Manufacture of fabricated metal products, except machinery and equipment"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_25_94
+msgid "Manufacture of fasteners and screw machine products"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_20_15
+msgid "Manufacture of fertilisers and nitrogen compounds"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_23_65
+msgid "Manufacture of fibre cement"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_27_31
+msgid "Manufacture of fibre optic cables"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_23_11
+msgid "Manufacture of flat glass"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_28_12
+msgid "Manufacture of fluid power equipment"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_10
+msgid "Manufacture of food products"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_15_2
+#: model:res.partner.nace,name:l10n_eu_nace.nace_15_20
+msgid "Manufacture of footwear"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_10_32
+msgid "Manufacture of fruit and vegetable juice"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_31
+#: model:res.partner.nace,name:l10n_eu_nace.nace_31_0
+msgid "Manufacture of furniture"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_32_4
+#: model:res.partner.nace,name:l10n_eu_nace.nace_32_40
+msgid "Manufacture of games and toys"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_35_21
+msgid "Manufacture of gas"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_35_2
+msgid "Manufacture of gas; distribution of gaseous fuels through mains"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_28_1
+msgid "Manufacture of general-purpose machinery"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_23_1
+msgid "Manufacture of glass and glass products"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_23_14
+msgid "Manufacture of glass fibres"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_20_52
+msgid "Manufacture of glues"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_10_61
+msgid "Manufacture of grain mill products"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_10_6
+msgid "Manufacture of grain mill products, starches and starch products"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_23_13
+msgid "Manufacture of hollow glass"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_10_86
+msgid "Manufacture of homogenised food preparations and dietetic food"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_17_22
+msgid "Manufacture of household and sanitary goods and of toilet requisites"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_10_52
+msgid "Manufacture of ice cream"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_32_13
+msgid "Manufacture of imitation jewellery and related articles"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_20_11
+msgid "Manufacture of industrial gases"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_26_51
+msgid ""
+"Manufacture of instruments and appliances for measuring, testing and "
+"navigation"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_26_5
+msgid ""
+"Manufacture of instruments and appliances for measuring, testing and "
+"navigation; watches and clocks"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_26_6
+#: model:res.partner.nace,name:l10n_eu_nace.nace_26_60
+msgid ""
+"Manufacture of irradiation, electromedical and electrotherapeutic equipment"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_32_12
+msgid "Manufacture of jewellery and related articles"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_32_1
+msgid "Manufacture of jewellery, bijouterie and related articles"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_31_02
+msgid "Manufacture of kitchen furniture"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_14_3
+msgid "Manufacture of knitted and crocheted apparel"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_13_91
+msgid "Manufacture of knitted and crocheted fabrics"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_14_31
+msgid "Manufacture of knitted and crocheted hosiery"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_15
+msgid "Manufacture of leather and related products"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_14_11
+msgid "Manufacture of leather clothes"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_28_22
+msgid "Manufacture of lifting and handling equipment"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_25_92
+msgid "Manufacture of light metal packaging "
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_23_52
+msgid "Manufacture of lime and plaster"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_26_12
+msgid "Manufacture of loaded electronic boards"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_25_72
+msgid "Manufacture of locks and hinges"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_15_12
+msgid "Manufacture of luggage, handbags and the like, saddlery and harness"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_10_73
+msgid ""
+"Manufacture of macaroni, noodles, couscous and similar farinaceous products"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_28
+msgid "Manufacture of machinery and equipment n.e.c."
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_28_93
+msgid "Manufacture of machinery for food, beverage and tobacco processing"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_28_91
+msgid "Manufacture of machinery for metallurgy"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_28_92
+msgid "Manufacture of machinery for mining, quarrying and construction"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_28_95
+msgid "Manufacture of machinery for paper and paperboard production"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_28_94
+msgid "Manufacture of machinery for textile, apparel and leather production"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_13_92
+msgid "Manufacture of made-up textile articles, except apparel"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_26_8
+#: model:res.partner.nace,name:l10n_eu_nace.nace_26_80
+msgid "Manufacture of magnetic and optical media"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_11_06
+msgid "Manufacture of malt"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_20_6
+#: model:res.partner.nace,name:l10n_eu_nace.nace_20_60
+msgid "Manufacture of man-made fibres"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_10_42
+msgid "Manufacture of margarine and similar edible fats"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_31_03
+msgid "Manufacture of mattresses"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_32_5
+#: model:res.partner.nace,name:l10n_eu_nace.nace_32_50
+msgid "Manufacture of medical and dental instruments and supplies"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_28_41
+msgid "Manufacture of metal forming machinery"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_28_4
+msgid "Manufacture of metal forming machinery and machine tools"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_25_11
+msgid "Manufacture of metal structures and parts of structures"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_30_4
+#: model:res.partner.nace,name:l10n_eu_nace.nace_30_40
+msgid "Manufacture of military fighting vehicles"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_23_64
+msgid "Manufacture of mortars"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_29_1
+#: model:res.partner.nace,name:l10n_eu_nace.nace_29_10
+msgid "Manufacture of motor vehicles"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_29
+msgid "Manufacture of motor vehicles, trailers and semi-trailers"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_30_91
+msgid "Manufacture of motorcycles"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_32_2
+#: model:res.partner.nace,name:l10n_eu_nace.nace_32_20
+msgid "Manufacture of musical instruments"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_28_25
+msgid "Manufacture of non-domestic cooling and ventilation equipment"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_27_52
+msgid "Manufacture of non-electric domestic appliances"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_13_95
+msgid ""
+"Manufacture of non-wovens and articles made from non-wovens, except apparel"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_31_01
+msgid "Manufacture of office and shop furniture"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_28_23
+msgid ""
+"Manufacture of office machinery and equipment (except computers and "
+"peripheral equipment)"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_10_41
+msgid "Manufacture of oils and fats"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_26_7
+#: model:res.partner.nace,name:l10n_eu_nace.nace_26_70
+msgid "Manufacture of optical instruments and photographic equipment"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_23_69
+msgid "Manufacture of other articles of concrete, plaster and cement"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_17_29
+msgid "Manufacture of other articles of paper and paperboard"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_16_23
+msgid "Manufacture of other builders' carpentry and joinery"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_23_49
+msgid "Manufacture of other ceramic products"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_20_5
+msgid "Manufacture of other chemical products"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_20_59
+msgid "Manufacture of other chemical products n.e.c."
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_27_9
+#: model:res.partner.nace,name:l10n_eu_nace.nace_27_90
+msgid "Manufacture of other electrical equipment"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_27_32
+msgid "Manufacture of other electronic and electric wires and cables"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_25_9
+msgid "Manufacture of other fabricated metal products"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_25_99
+msgid "Manufacture of other fabricated metal products n.e.c."
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_10_8
+msgid "Manufacture of other food products"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_10_89
+msgid "Manufacture of other food products n.e.c."
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_31_09
+msgid "Manufacture of other furniture"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_28_2
+msgid "Manufacture of other general-purpose machinery"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_28_29
+msgid "Manufacture of other general-purpose machinery n.e.c."
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_20_13
+msgid "Manufacture of other inorganic basic chemicals"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_14_39
+msgid "Manufacture of other knitted and crocheted apparel"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_28_49
+msgid "Manufacture of other machine tools"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_11_04
+msgid "Manufacture of other non-distilled fermented beverages"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_23
+msgid "Manufacture of other non-metallic mineral products"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_23_99
+msgid "Manufacture of other non-metallic mineral products n.e.c."
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_20_14
+msgid "Manufacture of other organic basic chemicals"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_14_13
+msgid "Manufacture of other outerwear"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_29_32
+msgid "Manufacture of other parts and accessories for motor vehicles"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_22_29
+msgid "Manufacture of other plastic products"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_23_4
+msgid "Manufacture of other porcelain and ceramic products"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_24_3
+msgid "Manufacture of other products of first processing of steel"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_16_29
+msgid ""
+"Manufacture of other products of wood; manufacture of articles of cork, "
+"straw and plaiting materials"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_28_13
+msgid "Manufacture of other pumps and compressors"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_22_19
+msgid "Manufacture of other rubber products"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_28_9
+msgid "Manufacture of other special-purpose machinery"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_28_99
+msgid "Manufacture of other special-purpose machinery n.e.c."
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_25_29
+msgid "Manufacture of other tanks, reservoirs and containers of metal"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_28_14
+msgid "Manufacture of other taps and valves"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_13_96
+msgid "Manufacture of other technical and industrial textiles"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_23_44
+msgid "Manufacture of other technical ceramic products"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_13_9
+msgid "Manufacture of other textiles"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_13_99
+msgid "Manufacture of other textiles n.e.c."
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_30
+msgid "Manufacture of other transport equipment"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_30_99
+msgid "Manufacture of other transport equipment n.e.c."
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_14_19
+msgid "Manufacture of other wearing apparel and accessories"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_28_21
+msgid "Manufacture of ovens, furnaces and furnace burners"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_20_3
+#: model:res.partner.nace,name:l10n_eu_nace.nace_20_30
+msgid ""
+"Manufacture of paints, varnishes and similar coatings, printing ink and "
+"mastics"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_17
+msgid "Manufacture of paper and paper products"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_17_12
+msgid "Manufacture of paper and paperboard"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_17_23
+msgid "Manufacture of paper stationery"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_29_3
+msgid "Manufacture of parts and accessories for motor vehicles"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_20_42
+msgid "Manufacture of perfumes and toilet preparations"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_20_2
+#: model:res.partner.nace,name:l10n_eu_nace.nace_20_20
+msgid "Manufacture of pesticides and other agrochemical products"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_21_2
+#: model:res.partner.nace,name:l10n_eu_nace.nace_21_20
+msgid "Manufacture of pharmaceutical preparations"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_23_62
+msgid "Manufacture of plaster products for construction purposes"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_22_22
+msgid "Manufacture of plastic packing goods"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_22_21
+msgid "Manufacture of plastic plates, sheets, tubes and profiles"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_22_2
+msgid "Manufacture of plastic products"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_28_96
+msgid "Manufacture of plastics and rubber machinery"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_20_16
+msgid "Manufacture of plastics in primary forms"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_28_24
+msgid "Manufacture of power-driven hand tools"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_10_9
+msgid "Manufacture of prepared animal feeds"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_10_91
+msgid "Manufacture of prepared feeds for farm animals"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_10_85
+msgid "Manufacture of prepared meals and dishes"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_10_92
+msgid "Manufacture of prepared pet foods"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_16_2
+msgid "Manufacture of products of wood, cork, straw and plaiting materials"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_17_11
+msgid "Manufacture of pulp"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_17_1
+msgid "Manufacture of pulp, paper and paperboard"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_30_2
+#: model:res.partner.nace,name:l10n_eu_nace.nace_30_20
+msgid "Manufacture of railway locomotives and rolling stock"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_23_63
+msgid "Manufacture of ready-mixed concrete"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_19_2
+#: model:res.partner.nace,name:l10n_eu_nace.nace_19_20
+msgid "Manufacture of refined petroleum products"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_23_2
+#: model:res.partner.nace,name:l10n_eu_nace.nace_23_20
+msgid "Manufacture of refractory products"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_22
+msgid "Manufacture of rubber and plastic products"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_22_1
+msgid "Manufacture of rubber products"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_22_11
+msgid ""
+"Manufacture of rubber tyres and tubes; retreading and rebuilding of rubber "
+"tyres"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_10_72
+msgid ""
+"Manufacture of rusks and biscuits; manufacture of preserved pastry goods and"
+" cakes"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_20_41
+msgid ""
+"Manufacture of soap and detergents, cleaning and polishing preparations"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_20_4
+msgid ""
+"Manufacture of soap and detergents, cleaning and polishing preparations, "
+"perfumes and toilet preparations"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_11_07
+msgid ""
+"Manufacture of soft drinks; production of mineral waters and other bottled "
+"waters"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_32_3
+#: model:res.partner.nace,name:l10n_eu_nace.nace_32_30
+msgid "Manufacture of sports goods"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_10_62
+msgid "Manufacture of starches and starch products"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_25_3
+#: model:res.partner.nace,name:l10n_eu_nace.nace_25_30
+msgid ""
+"Manufacture of steam generators, except central heating hot water boilers"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_25_91
+msgid "Manufacture of steel drums and similar containers"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_25_1
+msgid "Manufacture of structural metal products"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_10_81
+msgid "Manufacture of sugar"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_20_17
+msgid "Manufacture of synthetic rubber in primary forms"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_25_2
+msgid "Manufacture of tanks, reservoirs and containers of metal"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_13
+msgid "Manufacture of textiles"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_12
+#: model:res.partner.nace,name:l10n_eu_nace.nace_12_0
+#: model:res.partner.nace,name:l10n_eu_nace.nace_12_00
+msgid "Manufacture of tobacco products"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_25_73
+msgid "Manufacture of tools"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_30_9
+msgid "Manufacture of transport equipment n.e.c."
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_24_2
+#: model:res.partner.nace,name:l10n_eu_nace.nace_24_20
+msgid ""
+"Manufacture of tubes, pipes, hollow profiles and related fittings, of steel"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_14_14
+msgid "Manufacture of underwear"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_10_4
+msgid "Manufacture of vegetable and animal oils and fats"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_16_21
+msgid "Manufacture of veneer sheets and wood-based panels"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_17_24
+msgid "Manufacture of wallpaper"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_26_52
+msgid "Manufacture of watches and clocks"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_25_4
+#: model:res.partner.nace,name:l10n_eu_nace.nace_25_40
+msgid "Manufacture of weapons and ammunition"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_14
+msgid "Manufacture of wearing apparel"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_14_1
+msgid "Manufacture of wearing apparel, except fur apparel"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_11_02
+msgid "Manufacture of wine from grape"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_25_93
+msgid "Manufacture of wire products, chain and springs"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_27_3
+msgid "Manufacture of wiring and wiring devices"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_27_33
+msgid "Manufacture of wiring devices"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_16
+msgid ""
+"Manufacture of wood and of products of wood and cork, except furniture; "
+"manufacture of articles of straw and plaiting materials"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_16_24
+msgid "Manufacture of wooden containers"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_14_12
+msgid "Manufacture of workwear"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_32_9
+msgid "Manufacturing n.e.c."
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_03_21
+msgid "Marine aquaculture"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_03_11
+msgid "Marine fishing"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_73_2
+#: model:res.partner.nace,name:l10n_eu_nace.nace_73_20
+msgid "Market research and public opinion polling"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_38_3
+msgid "Materials recovery"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_73_12
+msgid "Media representation"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_86_2
+msgid "Medical and dental practice activities"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_08_9
+msgid "Mining and quarrying n.e.c."
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_08_91
+msgid "Mining of chemical and fertiliser minerals"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_05
+msgid "Mining of coal and lignite"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_05_1
+#: model:res.partner.nace,name:l10n_eu_nace.nace_05_10
+msgid "Mining of hard coal"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_07_1
+#: model:res.partner.nace,name:l10n_eu_nace.nace_07_10
+msgid "Mining of iron ores"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_05_2
+#: model:res.partner.nace,name:l10n_eu_nace.nace_05_20
+msgid "Mining of lignite"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_07
+msgid "Mining of metal ores"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_07_2
+msgid "Mining of non-ferrous metal ores"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_07_29
+msgid "Mining of other non-ferrous metal ores"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_07_21
+msgid "Mining of uranium and thorium ores"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_09
+msgid "Mining support service activities"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_01_5
+#: model:res.partner.nace,name:l10n_eu_nace.nace_01_50
+msgid "Mixed farming"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_64_1
+msgid "Monetary intermediation"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_59_14
+msgid "Motion picture projection activities"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_59_1
+msgid "Motion picture, video and television programme activities"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_59_13
+msgid "Motion picture, video and television programme distribution activities"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_59_12
+msgid ""
+"Motion picture, video and television programme post-production activities"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_59_11
+msgid "Motion picture, video and television programme production activities"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_59
+msgid ""
+"Motion picture, video and television programme production, sound recording "
+"and music publishing activities"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_91_02
+msgid "Museums activities"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:ir.actions.act_window,name:l10n_eu_nace.res_partner_nace_act_window
+#: model:ir.ui.menu,name:l10n_eu_nace.res_partner_nace_menu
+#: model:res.partner.nace,name:l10n_eu_nace.nace_root
+msgid "NACE"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:ir.model.constraint,message:l10n_eu_nace.constraint_res_partner_nace_ref_code
+msgid "NACE Code must be unique!"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:ir.model.fields,field_description:l10n_eu_nace.field_res_partner_nace__child_ids
+msgid "NACE subcategories"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:ir.model.fields,field_description:l10n_eu_nace.field_res_partner_nace__name
+msgid "Name"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_63_91
+msgid "News agency activities"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_65_12
+msgid "Non-life insurance"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_46_39
+msgid "Non-specialised wholesale of food, beverages and tobacco"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_46_9
+#: model:res.partner.nace,name:l10n_eu_nace.nace_46_90
+msgid "Non-specialised wholesale trade"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_S
+msgid "OTHER SERVICE ACTIVITIES"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_82_1
+msgid "Office administrative and support activities"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_82
+msgid ""
+"Office administrative, office support and other business support activities"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_90_04
+msgid "Operation of arts facilities"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_10_51
+msgid "Operation of dairies and cheese making"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_08_12
+msgid "Operation of gravel and sand pits; mining of clays and kaolin"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_91_03
+msgid ""
+"Operation of historical sites and buildings and similar visitor attractions"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_93_11
+msgid "Operation of sports facilities"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_82_3
+#: model:res.partner.nace,name:l10n_eu_nace.nace_82_30
+msgid "Organisation of conventions and trade shows"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_55_9
+#: model:res.partner.nace,name:l10n_eu_nace.nace_55_90
+msgid "Other accommodation"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_66_19
+msgid ""
+"Other activities auxiliary to financial services, except insurance and "
+"pension funding"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_66_29
+msgid "Other activities auxiliary to insurance and pension funding"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_93_29
+msgid "Other amusement and recreation activities"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_81_22
+msgid "Other building and industrial cleaning activities"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_43_39
+msgid "Other building completion and finishing"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_82_99
+msgid "Other business support service activities n.e.c."
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_81_29
+msgid "Other cleaning activities"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_43_29
+msgid "Other construction installation"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_64_92
+msgid "Other credit granting"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_85_5
+msgid "Other education"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_85_59
+msgid "Other education n.e.c."
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_64_9
+msgid ""
+"Other financial service activities, except insurance and pension funding"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_64_99
+msgid ""
+"Other financial service activities, except insurance and pension funding "
+"n.e.c."
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_56_29
+msgid "Other food service activities"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_86_9
+#: model:res.partner.nace,name:l10n_eu_nace.nace_86_90
+msgid "Other human health activities"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_78_3
+#: model:res.partner.nace,name:l10n_eu_nace.nace_78_30
+msgid "Other human resources provision"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_63_9
+msgid "Other information service activities"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_63_99
+msgid "Other information service activities n.e.c."
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_62_09
+msgid "Other information technology and computer service activities"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_32
+msgid "Other manufacturing"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_32_99
+msgid "Other manufacturing n.e.c. "
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_08
+msgid "Other mining and quarrying"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_08_99
+msgid "Other mining and quarrying n.e.c."
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_64_19
+msgid "Other monetary intermediation"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_24_45
+msgid "Other non-ferrous metal production"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_49_3
+msgid "Other passenger land transport "
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_49_39
+msgid "Other passenger land transport n.e.c."
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_96
+#: model:res.partner.nace,name:l10n_eu_nace.nace_96_0
+msgid "Other personal service activities"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_96_09
+msgid "Other personal service activities n.e.c."
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_53_2
+#: model:res.partner.nace,name:l10n_eu_nace.nace_53_20
+msgid "Other postal and courier activities"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_18_12
+msgid "Other printing"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_10_39
+msgid "Other processing and preserving of fruit and vegetables"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_74
+msgid "Other professional, scientific and technical activities"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_74_9
+#: model:res.partner.nace,name:l10n_eu_nace.nace_74_90
+msgid "Other professional, scientific and technical activities n.e.c."
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_58_19
+msgid "Other publishing activities"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_72_19
+msgid ""
+"Other research and experimental development on natural sciences and "
+"engineering"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_79_9
+#: model:res.partner.nace,name:l10n_eu_nace.nace_79_90
+msgid "Other reservation service and related activities"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_87_9
+#: model:res.partner.nace,name:l10n_eu_nace.nace_87_90
+msgid "Other residential care activities"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_47_19
+msgid "Other retail sale in non-specialised stores"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_47_99
+msgid "Other retail sale not in stores, stalls or markets"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_47_29
+msgid "Other retail sale of food in specialised stores"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_47_78
+msgid "Other retail sale of new goods in specialised stores"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_88_9
+msgid "Other social work activities without accommodation"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_88_99
+msgid "Other social work activities without accommodation n.e.c."
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_58_29
+msgid "Other software publishing"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_43_9
+msgid "Other specialised construction activities"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_43_99
+msgid "Other specialised construction activities n.e.c."
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_46_7
+msgid "Other specialised wholesale"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_93_19
+msgid "Other sports activities"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_61_9
+#: model:res.partner.nace,name:l10n_eu_nace.nace_61_90
+msgid "Other telecommunications activities"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_52_29
+msgid "Other transportation support activities "
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_M
+msgid "PROFESSIONAL, SCIENTIFIC AND TECHNICAL ACTIVITIES"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_O
+msgid "PUBLIC ADMINISTRATION AND DEFENCE; COMPULSORY SOCIAL SECURITY"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_82_92
+msgid "Packaging activities"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_43_34
+msgid "Painting and glazing"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:ir.model.fields,field_description:l10n_eu_nace.field_res_partner_nace__parent_id
+msgid "Parent"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:ir.model.fields,field_description:l10n_eu_nace.field_res_partner_nace__parent_path
+msgid "Parent Path"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:ir.model.fields,field_description:l10n_eu_nace.field_res_partner_nace__partner_ids
+msgid "Partners"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_51_1
+#: model:res.partner.nace,name:l10n_eu_nace.nace_51_10
+msgid "Passenger air transport"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_49_1
+#: model:res.partner.nace,name:l10n_eu_nace.nace_49_10
+msgid "Passenger rail transport, interurban"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_65_3
+#: model:res.partner.nace,name:l10n_eu_nace.nace_65_30
+msgid "Pension funding"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_90_01
+msgid "Performing arts"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_82_19
+msgid ""
+"Photocopying, document preparation and other specialised office support "
+"activities"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_74_2
+#: model:res.partner.nace,name:l10n_eu_nace.nace_74_20
+msgid "Photographic activities"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_96_04
+msgid "Physical well-being activities"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_01_3
+#: model:res.partner.nace,name:l10n_eu_nace.nace_01_30
+msgid "Plant propagation"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_43_31
+msgid "Plastering"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_43_22
+msgid "Plumbing, heat and air-conditioning installation"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_01_63
+msgid "Post-harvest crop activities"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_85_41
+msgid "Post-secondary non-tertiary education"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_53_1
+#: model:res.partner.nace,name:l10n_eu_nace.nace_53_10
+msgid "Postal activities under universal service obligation"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_53
+msgid "Postal and courier activities"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_18_13
+msgid "Pre-press and pre-media services"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_85_1
+msgid "Pre-primary education"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_85_10
+msgid "Pre-primary education "
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_24_41
+msgid "Precious metals production"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_13_1
+#: model:res.partner.nace,name:l10n_eu_nace.nace_13_10
+msgid "Preparation and spinning of textile fibres"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_85_2
+msgid "Primary education"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_85_20
+msgid "Primary education "
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_18
+msgid "Printing and reproduction of recorded media"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_18_1
+msgid "Printing and service activities related to printing"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_18_11
+msgid "Printing of newspapers"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_80_1
+#: model:res.partner.nace,name:l10n_eu_nace.nace_80_10
+msgid "Private security activities"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_10_2
+#: model:res.partner.nace,name:l10n_eu_nace.nace_10_20
+msgid "Processing and preserving of fish, crustaceans and molluscs"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_10_3
+msgid "Processing and preserving of fruit and vegetables"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_10_11
+msgid "Processing and preserving of meat"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_10_1
+msgid "Processing and preserving of meat and production of meat products"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_10_31
+msgid "Processing and preserving of potatoes"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_10_12
+msgid "Processing and preserving of poultry meat"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_24_46
+msgid "Processing of nuclear fuel "
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_10_83
+msgid "Processing of tea and coffee"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_23_91
+msgid "Production of abrasive products"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_35_11
+msgid "Production of electricity"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_10_13
+msgid "Production of meat and poultry meat products"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_60
+msgid "Programming and broadcasting activities"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_84_2
+msgid "Provision of services to the community as a whole"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_84
+msgid "Public administration and defence; compulsory social security"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_84_24
+msgid "Public order and safety activities"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_70_21
+msgid "Public relations and communication activities"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_58
+msgid "Publishing activities"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_58_1
+msgid "Publishing of books, periodicals and other publishing activities"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_58_21
+msgid "Publishing of computer games"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_58_12
+msgid "Publishing of directories and mailing lists"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_58_14
+msgid "Publishing of journals and periodicals"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_58_13
+msgid "Publishing of newspapers"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_08_11
+msgid ""
+"Quarrying of ornamental and building stone, limestone, gypsum, chalk and "
+"slate"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_08_1
+msgid "Quarrying of stone, sand and clay"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_L
+msgid "REAL ESTATE ACTIVITIES"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_60_1
+#: model:res.partner.nace,name:l10n_eu_nace.nace_60_10
+msgid "Radio broadcasting"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_01_44
+msgid "Raising of camels and camelids"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_01_41
+msgid "Raising of dairy cattle"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_01_43
+msgid "Raising of horses and other equines"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_01_49
+msgid "Raising of other animals"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_01_42
+msgid "Raising of other cattle and buffaloes"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_01_47
+msgid "Raising of poultry"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_01_45
+msgid "Raising of sheep and goats"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_01_46
+msgid "Raising of swine/pigs"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_68
+msgid "Real estate activities"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_68_3
+msgid "Real estate activities on a fee or contract basis"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_68_31
+msgid "Real estate agencies"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_38_32
+msgid "Recovery of sorted materials"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_84_13
+msgid ""
+"Regulation of and contribution to more efficient operation of businesses"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_84_12
+msgid ""
+"Regulation of the activities of providing health care, education, cultural "
+"services and other social services, excluding social security"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_65_2
+#: model:res.partner.nace,name:l10n_eu_nace.nace_65_20
+msgid "Reinsurance"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_39
+#: model:res.partner.nace,name:l10n_eu_nace.nace_39_0
+#: model:res.partner.nace,name:l10n_eu_nace.nace_39_00
+msgid "Remediation activities and other waste management services"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_49_42
+msgid "Removal services"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_77
+msgid "Rental and leasing activities"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_77_31
+msgid "Rental and leasing of agricultural machinery and equipment"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_77_35
+msgid "Rental and leasing of air transport equipment"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_77_11
+msgid "Rental and leasing of cars and light motor vehicles"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_77_32
+msgid ""
+"Rental and leasing of construction and civil engineering machinery and "
+"equipment"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_77_1
+msgid "Rental and leasing of motor vehicles"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_77_33
+msgid ""
+"Rental and leasing of office machinery and equipment (including computers)"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_77_3
+msgid "Rental and leasing of other machinery, equipment and tangible goods"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_77_39
+msgid ""
+"Rental and leasing of other machinery, equipment and tangible goods n.e.c."
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_77_29
+msgid "Rental and leasing of other personal and household goods"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_77_2
+msgid "Rental and leasing of personal and household goods"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_77_21
+msgid "Rental and leasing of recreational and sports goods"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_77_12
+msgid "Rental and leasing of trucks"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_77_34
+msgid "Rental and leasing of water transport equipment"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_68_2
+#: model:res.partner.nace,name:l10n_eu_nace.nace_68_20
+msgid "Rental and operating of own or leased real estate"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_77_22
+msgid "Rental of video tapes and disks"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_33
+msgid "Repair and installation of machinery and equipment"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_33_16
+msgid "Repair and maintenance of aircraft and spacecraft"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_33_17
+msgid "Repair and maintenance of other transport equipment"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_33_15
+msgid "Repair and maintenance of ships and boats"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_95_12
+msgid "Repair of communication equipment"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_95_1
+msgid "Repair of computers and communication equipment"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_95_11
+msgid "Repair of computers and peripheral equipment"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_95
+msgid "Repair of computers and personal and household goods"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_95_21
+msgid "Repair of consumer electronics"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_33_14
+msgid "Repair of electrical equipment"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_33_13
+msgid "Repair of electronic and optical equipment"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_33_11
+msgid "Repair of fabricated metal products"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_33_1
+msgid "Repair of fabricated metal products, machinery and equipment"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_95_23
+msgid "Repair of footwear and leather goods"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_95_24
+msgid "Repair of furniture and home furnishings"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_95_22
+msgid "Repair of household appliances and home and garden equipment"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_33_12
+msgid "Repair of machinery"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_33_19
+msgid "Repair of other equipment"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_95_29
+msgid "Repair of other personal and household goods"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_95_2
+msgid "Repair of personal and household goods"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_95_25
+msgid "Repair of watches, clocks and jewellery"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_18_2
+#: model:res.partner.nace,name:l10n_eu_nace.nace_18_20
+msgid "Reproduction of recorded media"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_72_11
+msgid "Research and experimental development on biotechnology"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_72_1
+msgid ""
+"Research and experimental development on natural sciences and engineering"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_72_2
+#: model:res.partner.nace,name:l10n_eu_nace.nace_72_20
+msgid ""
+"Research and experimental development on social sciences and humanities"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_87
+msgid "Residential care activities"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_87_2
+#: model:res.partner.nace,name:l10n_eu_nace.nace_87_20
+msgid ""
+"Residential care activities for mental retardation, mental health and "
+"substance abuse"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_87_3
+#: model:res.partner.nace,name:l10n_eu_nace.nace_87_30
+msgid "Residential care activities for the elderly and disabled"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_87_1
+#: model:res.partner.nace,name:l10n_eu_nace.nace_87_10
+msgid "Residential nursing care activities"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_56_1
+#: model:res.partner.nace,name:l10n_eu_nace.nace_56_10
+msgid "Restaurants and mobile food service activities"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_47_1
+msgid "Retail sale in non-specialised stores"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_47_11
+msgid ""
+"Retail sale in non-specialised stores with food, beverages or tobacco "
+"predominating"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_47_43
+msgid "Retail sale of audio and video equipment in specialised stores"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_47_3
+#: model:res.partner.nace,name:l10n_eu_nace.nace_47_30
+msgid "Retail sale of automotive fuel in specialised stores"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_47_25
+msgid "Retail sale of beverages in specialised stores"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_47_61
+msgid "Retail sale of books in specialised stores"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_47_24
+msgid ""
+"Retail sale of bread, cakes, flour confectionery and sugar confectionery in "
+"specialised stores"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_47_53
+msgid ""
+"Retail sale of carpets, rugs, wall and floor coverings in specialised stores"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_47_71
+msgid "Retail sale of clothing in specialised stores"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_47_41
+msgid ""
+"Retail sale of computers, peripheral units and software in specialised "
+"stores"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_47_75
+msgid "Retail sale of cosmetic and toilet articles in specialised stores"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_47_6
+msgid "Retail sale of cultural and recreation goods in specialised stores"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_47_54
+msgid "Retail sale of electrical household appliances in specialised stores"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_47_23
+msgid "Retail sale of fish, crustaceans and molluscs in specialised stores"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_47_76
+msgid ""
+"Retail sale of flowers, plants, seeds, fertilisers, pet animals and pet food"
+" in specialised stores"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_47_2
+msgid "Retail sale of food, beverages and tobacco in specialised stores"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_47_72
+msgid "Retail sale of footwear and leather goods in specialised stores"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_47_21
+msgid "Retail sale of fruit and vegetables in specialised stores"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_47_59
+msgid ""
+"Retail sale of furniture, lighting equipment and other household articles in"
+" specialised stores"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_47_65
+msgid "Retail sale of games and toys in specialised stores"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_47_52
+msgid "Retail sale of hardware, paints and glass in specialised stores"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_47_4
+msgid ""
+"Retail sale of information and communication equipment in specialised stores"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_47_22
+msgid "Retail sale of meat and meat products in specialised stores"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_47_74
+msgid "Retail sale of medical and orthopaedic goods in specialised stores"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_47_63
+msgid "Retail sale of music and video recordings in specialised stores"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_47_62
+msgid "Retail sale of newspapers and stationery in specialised stores"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_47_7
+msgid "Retail sale of other goods in specialised stores"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_47_5
+msgid "Retail sale of other household equipment in specialised stores"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_47_79
+msgid "Retail sale of second-hand goods in stores"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_47_64
+msgid "Retail sale of sporting equipment in specialised stores"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_47_42
+msgid "Retail sale of telecommunications equipment in specialised stores"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_47_51
+msgid "Retail sale of textiles in specialised stores"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_47_26
+msgid "Retail sale of tobacco products in specialised stores"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_47_77
+msgid "Retail sale of watches and jewellery in specialised stores"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_47_91
+msgid "Retail sale via mail order houses or via Internet"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_47_8
+msgid "Retail sale via stalls and markets"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_47_81
+msgid ""
+"Retail sale via stalls and markets of food, beverages and tobacco products"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_47_89
+msgid "Retail sale via stalls and markets of other goods"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_47_82
+msgid "Retail sale via stalls and markets of textiles, clothing and footwear"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_47_9
+msgid "Retail trade not in stores, stalls or markets"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_45_32
+msgid "Retail trade of motor vehicle parts and accessories"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_47
+msgid "Retail trade, except of motor vehicles and motorcycles"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_66_21
+msgid "Risk and damage evaluation"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_43_91
+msgid "Roofing activities"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_45_11
+msgid "Sale of cars and light motor vehicles"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_45_3
+msgid "Sale of motor vehicle parts and accessories"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_45_1
+msgid "Sale of motor vehicles"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_45_19
+msgid "Sale of other motor vehicles"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_45_4
+#: model:res.partner.nace,name:l10n_eu_nace.nace_45_40
+msgid ""
+"Sale, maintenance and repair of motorcycles and related parts and "
+"accessories"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_61_3
+#: model:res.partner.nace,name:l10n_eu_nace.nace_61_30
+msgid "Satellite telecommunications activities"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_16_1
+#: model:res.partner.nace,name:l10n_eu_nace.nace_16_10
+msgid "Sawmilling and planing of wood"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_72
+msgid "Scientific research and development "
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_50_2
+#: model:res.partner.nace,name:l10n_eu_nace.nace_50_20
+msgid "Sea and coastal freight water transport"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_50_1
+#: model:res.partner.nace,name:l10n_eu_nace.nace_50_10
+msgid "Sea and coastal passenger water transport"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:ir.model.fields,field_description:l10n_eu_nace.field_res_partner__secondary_nace_ids
+#: model:ir.model.fields,field_description:l10n_eu_nace.field_res_users__secondary_nace_ids
+msgid "Secondary NACE"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_85_3
+msgid "Secondary education"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_66_12
+msgid "Security and commodity contracts brokerage"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_80
+msgid "Security and investigation activities"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_80_2
+#: model:res.partner.nace,name:l10n_eu_nace.nace_80_20
+msgid "Security systems service activities"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_01_64
+msgid "Seed processing for propagation"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_52_23
+msgid "Service activities incidental to air transportation"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_52_21
+msgid "Service activities incidental to land transportation"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_52_22
+msgid "Service activities incidental to water transportation"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_81
+msgid "Services to buildings and landscape activities"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_37
+#: model:res.partner.nace,name:l10n_eu_nace.nace_37_0
+#: model:res.partner.nace,name:l10n_eu_nace.nace_37_00
+msgid "Sewerage"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_23_12
+msgid "Shaping and processing of flat glass"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_02_1
+#: model:res.partner.nace,name:l10n_eu_nace.nace_02_10
+msgid "Silviculture and other forestry activities"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_43_12
+msgid "Site preparation"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_88
+msgid "Social work activities without accommodation"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_88_1
+#: model:res.partner.nace,name:l10n_eu_nace.nace_88_10
+msgid ""
+"Social work activities without accommodation for the elderly and disabled"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_58_2
+msgid "Software publishing"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_59_2
+#: model:res.partner.nace,name:l10n_eu_nace.nace_59_20
+msgid "Sound recording and music publishing activities"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_51_22
+msgid "Space transport"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_43
+msgid "Specialised construction activities"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_74_1
+#: model:res.partner.nace,name:l10n_eu_nace.nace_74_10
+msgid "Specialised design activities"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_86_22
+msgid "Specialist medical practice activities"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_93_1
+msgid "Sports activities"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_93
+msgid "Sports activities and amusement and recreation activities"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_85_51
+msgid "Sports and recreation education"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_35_3
+#: model:res.partner.nace,name:l10n_eu_nace.nace_35_30
+msgid "Steam and air conditioning supply"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_32_11
+msgid "Striking of coins"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_01_62
+msgid "Support activities for animal production"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_01_61
+msgid "Support activities for crop production"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_09_9
+#: model:res.partner.nace,name:l10n_eu_nace.nace_09_90
+msgid "Support activities for other mining and quarrying"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_09_1
+#: model:res.partner.nace,name:l10n_eu_nace.nace_09_10
+msgid "Support activities for petroleum and natural gas extraction"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_52_2
+msgid "Support activities for transportation"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_01_6
+msgid "Support activities to agriculture and post-harvest crop activities"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_90_02
+msgid "Support activities to performing arts"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_02_4
+#: model:res.partner.nace,name:l10n_eu_nace.nace_02_40
+msgid "Support services to forestry"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_H
+msgid "TRANSPORTATION AND STORAGE"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_15_11
+msgid "Tanning and dressing of leather; dressing and dyeing of fur"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_15_1
+msgid ""
+"Tanning and dressing of leather; manufacture of luggage, handbags, saddlery "
+"and harness; dressing and dyeing of fur"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_49_32
+msgid "Taxi operation"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_85_32
+msgid "Technical and vocational secondary education "
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_71_2
+#: model:res.partner.nace,name:l10n_eu_nace.nace_71_20
+msgid "Technical testing and analysis"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_61
+msgid "Telecommunications"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_60_2
+#: model:res.partner.nace,name:l10n_eu_nace.nace_60_20
+msgid "Television programming and broadcasting activities"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_78_2
+#: model:res.partner.nace,name:l10n_eu_nace.nace_78_20
+msgid "Temporary employment agency activities"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_85_42
+msgid "Tertiary education"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_43_13
+msgid "Test drilling and boring"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_79_12
+msgid "Tour operator activities"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_35_14
+msgid "Trade of electricity"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_35_23
+msgid "Trade of gas through mains"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_74_3
+#: model:res.partner.nace,name:l10n_eu_nace.nace_74_30
+msgid "Translation and interpretation activities"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_35_12
+msgid "Transmission of electricity"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_49_5
+#: model:res.partner.nace,name:l10n_eu_nace.nace_49_50
+msgid "Transport via pipeline"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_79_11
+msgid "Travel agency activities"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_79_1
+msgid "Travel agency and tour operator activities"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_79
+msgid ""
+"Travel agency, tour operator and other reservation service and related "
+"activities"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_25_61
+msgid "Treatment and coating of metals"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_25_6
+msgid "Treatment and coating of metals; machining"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_38_22
+msgid "Treatment and disposal of hazardous waste"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_38_21
+msgid "Treatment and disposal of non-hazardous waste"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_64_3
+#: model:res.partner.nace,name:l10n_eu_nace.nace_64_30
+msgid "Trusts, funds and similar financial entities"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_98
+msgid ""
+"Undifferentiated goods- and services-producing activities of private "
+"households for own use"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_98_1
+#: model:res.partner.nace,name:l10n_eu_nace.nace_98_10
+msgid ""
+"Undifferentiated goods-producing activities of private households for own "
+"use"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_98_2
+#: model:res.partner.nace,name:l10n_eu_nace.nace_98_20
+msgid ""
+"Undifferentiated service-producing activities of private households for own "
+"use"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_49_31
+msgid "Urban and suburban passenger land transport"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_75
+#: model:res.partner.nace,name:l10n_eu_nace.nace_75_0
+#: model:res.partner.nace,name:l10n_eu_nace.nace_75_00
+msgid "Veterinary activities"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_E
+msgid "WATER SUPPLY; SEWERAGE, WASTE MANAGEMENT AND REMEDIATION ACTIVITIES"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_G
+msgid "WHOLESALE AND RETAIL TRADE; REPAIR OF MOTOR VEHICLES AND MOTORCYCLES"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_52_1
+#: model:res.partner.nace,name:l10n_eu_nace.nace_52_10
+msgid "Warehousing and storage"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_52
+msgid "Warehousing and support activities for transportation"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_96_01
+msgid "Washing and (dry-)cleaning of textile and fur products"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_38_1
+msgid "Waste collection"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_38
+msgid ""
+"Waste collection, treatment and disposal activities; materials recovery"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_38_2
+msgid "Waste treatment and disposal"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_36
+#: model:res.partner.nace,name:l10n_eu_nace.nace_36_0
+#: model:res.partner.nace,name:l10n_eu_nace.nace_36_00
+msgid "Water collection, treatment and supply"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_50
+msgid "Water transport"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_13_2
+#: model:res.partner.nace,name:l10n_eu_nace.nace_13_20
+msgid "Weaving of textiles"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_63_12
+msgid "Web portals"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_45
+msgid ""
+"Wholesale and retail trade and repair of motor vehicles and motorcycles"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_46_61
+msgid "Wholesale of agricultural machinery, equipment and supplies"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_46_2
+msgid "Wholesale of agricultural raw materials and live animals"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_46_34
+msgid "Wholesale of beverages"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_46_75
+msgid "Wholesale of chemical products"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_46_44
+msgid "Wholesale of china and glassware and cleaning materials"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_46_42
+msgid "Wholesale of clothing and footwear"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_46_37
+msgid "Wholesale of coffee, tea, cocoa and spices"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_46_51
+msgid "Wholesale of computers, computer peripheral equipment and software"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_46_33
+msgid "Wholesale of dairy products, eggs and edible oils and fats"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_46_43
+msgid "Wholesale of electrical household appliances"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_46_52
+msgid "Wholesale of electronic and telecommunications equipment and parts"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_46_22
+msgid "Wholesale of flowers and plants"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_46_3
+msgid "Wholesale of food, beverages and tobacco"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_46_31
+msgid "Wholesale of fruit and vegetables"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_46_47
+msgid "Wholesale of furniture, carpets and lighting equipment"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_46_21
+msgid "Wholesale of grain, unmanufactured tobacco, seeds and animal feeds"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_46_74
+msgid "Wholesale of hardware, plumbing and heating equipment and supplies"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_46_24
+msgid "Wholesale of hides, skins and leather"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_46_4
+msgid "Wholesale of household goods"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_46_5
+msgid "Wholesale of information and communication equipment"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_46_23
+msgid "Wholesale of live animals"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_46_62
+msgid "Wholesale of machine tools"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_46_64
+msgid ""
+"Wholesale of machinery for the textile industry and of sewing and knitting "
+"machines"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_46_32
+msgid "Wholesale of meat and meat products"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_46_72
+msgid "Wholesale of metals and metal ores"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_46_63
+msgid "Wholesale of mining, construction and civil engineering machinery"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_46_65
+msgid "Wholesale of office furniture"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_46_38
+msgid "Wholesale of other food, including fish, crustaceans and molluscs"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_46_49
+msgid "Wholesale of other household goods"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_46_76
+msgid "Wholesale of other intermediate products"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_46_69
+msgid "Wholesale of other machinery and equipment"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_46_6
+msgid "Wholesale of other machinery, equipment and supplies"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_46_66
+msgid "Wholesale of other office machinery and equipment"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_46_45
+msgid "Wholesale of perfume and cosmetics"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_46_46
+msgid "Wholesale of pharmaceutical goods"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_46_71
+msgid "Wholesale of solid, liquid and gaseous fuels and related products"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_46_36
+msgid "Wholesale of sugar and chocolate and sugar confectionery"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_46_41
+msgid "Wholesale of textiles"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_46_35
+msgid "Wholesale of tobacco products"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_46_77
+msgid "Wholesale of waste and scrap"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_46_48
+msgid "Wholesale of watches and jewellery"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_46_73
+msgid "Wholesale of wood, construction materials and sanitary equipment"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_46_1
+msgid "Wholesale on a fee or contract basis"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_45_31
+msgid "Wholesale trade of motor vehicle parts and accessories"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_46
+msgid "Wholesale trade, except of motor vehicles and motorcycles"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_61_1
+#: model:res.partner.nace,name:l10n_eu_nace.nace_61_10
+msgid "Wired telecommunications activities"
+msgstr ""
+
+#. module: l10n_eu_nace
+#: model:res.partner.nace,name:l10n_eu_nace.nace_61_2
+#: model:res.partner.nace,name:l10n_eu_nace.nace_61_20
+msgid "Wireless telecommunications activities"
+msgstr ""
