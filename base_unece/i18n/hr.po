@@ -6,7 +6,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 14.0\n"
 "Report-Msgid-Bugs-To: \n"
-"Last-Translator: Automatically generated\n"
+"PO-Revision-Date: 2022-08-22 14:07+0000\n"
+"Last-Translator: Bole <bole@dajmi5.com>\n"
 "Language-Team: none\n"
 "Language: hr\n"
 "MIME-Version: 1.0\n"
@@ -14,37 +15,38 @@ msgstr ""
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
 "%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
+"X-Generator: Weblate 4.3.2\n"
 
 #. module: base_unece
 #: model:ir.model.fields,field_description:base_unece.field_unece_code_list__active
 msgid "Active"
-msgstr ""
+msgstr "Aktivan"
 
 #. module: base_unece
 #: model:ir.model.constraint,message:base_unece.constraint_unece_code_list_type_code_uniq
 msgid "An UNECE code of the same type already exists"
-msgstr ""
+msgstr "UNECE šifra ovog tipa već postoji"
 
 #. module: base_unece
 #: model_terms:ir.ui.view,arch_db:base_unece.unece_code_list_form
 #: model_terms:ir.ui.view,arch_db:base_unece.unece_code_list_search
 msgid "Archived"
-msgstr ""
+msgstr "Arhivirano"
 
 #. module: base_unece
 #: model:ir.model.fields,field_description:base_unece.field_unece_code_list__code
 msgid "Code"
-msgstr ""
+msgstr "Šifra"
 
 #. module: base_unece
 #: model:ir.model.fields,field_description:base_unece.field_unece_code_list__create_uid
 msgid "Created by"
-msgstr ""
+msgstr "Kreirao"
 
 #. module: base_unece
 #: model:ir.model.fields,field_description:base_unece.field_unece_code_list__create_date
 msgid "Created on"
-msgstr ""
+msgstr "Kreirano"
 
 #. module: base_unece
 #: model:ir.model.fields,field_description:base_unece.field_unece_code_list__description
