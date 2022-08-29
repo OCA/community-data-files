@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<odoo>
+    <record id="adr_label_view_form" model="ir.ui.view">
+        <field name="model">adr.label</field>
+        <field name="arch" type="xml">
+            <form>
+                <sheet>
+                    <group>
+                        <field name="code" />
+                        <field name="name" />
+                        <field name="image" widget="image" />
+                    </group>
+                </sheet>
+            </form>
+        </field>
+    </record>
+    <record id="adr_label_kanban_form" model="ir.ui.view">
+        <field name="model">adr.label</field>
+        <field name="arch" type="xml">
+            <kanban>
+                <field name="id" />
+                <templates>
+                    <t t-name="kanban-box">
+                        <div t-attf-class="oe_kanban_global_click">
+                            <div class="o_kanban_image">
+                                <img
+                                    alt="Label image"
+                                    t-att-src="kanban_image('adr.label', 'image', record.id.raw_value)"
+                                />
+                            </div>
+                            <div>
+                                <p>
+                                    <strong><field name="code" /></strong>
+                                </p>
+                                <p>
+                                    <field name="name" />
+                                </p>
+                            </div>
+                        </div>
+                    </t>
+                </templates>
+            </kanban>
+        </field>
+    </record>
+    <record id="adr_label_view_search" model="ir.ui.view">
+        <field name="model">adr.label</field>
+        <field name="arch" type="xml">
+            <search>
+                <field name="code" />
+                <field name="name" />
+            </search>
+        </field>
+    </record>
+    <record id="adr_label_action" model="ir.actions.act_window">
+        <field name="name">Dangerous Goods Labels</field>
+        <field name="type">ir.actions.act_window</field>
+        <field name="res_model">adr.label</field>
+        <field name="view_mode">kanban,form</field>
+    </record>
+</odoo>
