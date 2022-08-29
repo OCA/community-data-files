@@ -6,8 +6,6 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 14.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-05-18 12:25+0000\n"
-"PO-Revision-Date: 2021-05-18 12:25+0000\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -702,6 +700,21 @@ msgstr ""
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_2205
 msgid "ADIPONITRILE"
+msgstr ""
+
+#. module: l10n_eu_product_adr
+#: model:ir.model.fields,field_description:l10n_eu_product_adr.field_adr_label__goods_ids
+msgid "ADR Goods"
+msgstr ""
+
+#. module: l10n_eu_product_adr
+#: model:res.groups,name:l10n_eu_product_adr.group_adr_goods_admin
+msgid "ADR Goods Administrator"
+msgstr ""
+
+#. module: l10n_eu_product_adr
+#: model:res.groups,name:l10n_eu_product_adr.group_adr_goods_user
+msgid "ADR Goods User"
 msgstr ""
 
 #. module: l10n_eu_product_adr
@@ -1850,6 +1863,12 @@ msgstr ""
 #: model:ir.model.fields,field_description:l10n_eu_product_adr.field_adr_goods__active
 #: model_terms:ir.ui.view,arch_db:l10n_eu_product_adr.adr_goods_view_search
 msgid "Active"
+msgstr ""
+
+#. module: l10n_eu_product_adr
+#: model:ir.model.fields,field_description:l10n_eu_product_adr.field_product_product__adr_goods_on_variants
+#: model:ir.model.fields,field_description:l10n_eu_product_adr.field_product_template__adr_goods_on_variants
+msgid "Adr Goods On Variants"
 msgstr ""
 
 #. module: l10n_eu_product_adr
@@ -4816,7 +4835,7 @@ msgstr ""
 #, python-format
 msgid ""
 "Dangerous Goods Label %s cannot be deleted because it is in use on one or "
-"more classes: %s"
+"more dangerous goods: %s"
 msgstr ""
 
 #. module: l10n_eu_product_adr
@@ -4837,10 +4856,18 @@ msgid "Dangerous Goods Packing Instructions"
 msgstr ""
 
 #. module: l10n_eu_product_adr
+#: model_terms:ir.ui.view,arch_db:l10n_eu_product_adr.product_template_form_view
+msgid ""
+"Dangerous goods settings differ per variant of this product. Please "
+"configure the dangerous goods settings on each variant."
+msgstr ""
+
+#. module: l10n_eu_product_adr
 #: model:ir.model.fields,field_description:l10n_eu_product_adr.field_adr_class__display_name
 #: model:ir.model.fields,field_description:l10n_eu_product_adr.field_adr_goods__display_name
 #: model:ir.model.fields,field_description:l10n_eu_product_adr.field_adr_label__display_name
 #: model:ir.model.fields,field_description:l10n_eu_product_adr.field_adr_packing_instruction__display_name
+#: model:ir.model.fields,field_description:l10n_eu_product_adr.field_product_product__display_name
 #: model:ir.model.fields,field_description:l10n_eu_product_adr.field_product_template__display_name
 #: model:ir.model.fields,field_description:l10n_eu_product_adr.field_stock_move__display_name
 #: model:ir.model.fields,field_description:l10n_eu_product_adr.field_stock_picking__display_name
@@ -6429,6 +6456,7 @@ msgstr ""
 #: model:ir.model.fields,field_description:l10n_eu_product_adr.field_adr_goods__id
 #: model:ir.model.fields,field_description:l10n_eu_product_adr.field_adr_label__id
 #: model:ir.model.fields,field_description:l10n_eu_product_adr.field_adr_packing_instruction__id
+#: model:ir.model.fields,field_description:l10n_eu_product_adr.field_product_product__id
 #: model:ir.model.fields,field_description:l10n_eu_product_adr.field_product_template__id
 #: model:ir.model.fields,field_description:l10n_eu_product_adr.field_stock_move__id
 #: model:ir.model.fields,field_description:l10n_eu_product_adr.field_stock_picking__id
@@ -6767,6 +6795,12 @@ msgid "Image"
 msgstr ""
 
 #. module: l10n_eu_product_adr
+#: model:ir.model.fields,help:l10n_eu_product_adr.field_product_product__adr_goods_on_variants
+#: model:ir.model.fields,help:l10n_eu_product_adr.field_product_template__adr_goods_on_variants
+msgid "Indicates whether the adr configuration is different for each variant."
+msgstr ""
+
+#. module: l10n_eu_product_adr
 #: model:adr.class,name:l10n_eu_product_adr.adr_class_6_2
 #: model:adr.label,name:l10n_eu_product_adr.adr_label_6_2
 msgid "Infectious substances"
@@ -7092,6 +7126,7 @@ msgstr ""
 #: model:ir.model.fields,field_description:l10n_eu_product_adr.field_adr_goods____last_update
 #: model:ir.model.fields,field_description:l10n_eu_product_adr.field_adr_label____last_update
 #: model:ir.model.fields,field_description:l10n_eu_product_adr.field_adr_packing_instruction____last_update
+#: model:ir.model.fields,field_description:l10n_eu_product_adr.field_product_product____last_update
 #: model:ir.model.fields,field_description:l10n_eu_product_adr.field_product_template____last_update
 #: model:ir.model.fields,field_description:l10n_eu_product_adr.field_stock_move____last_update
 #: model:ir.model.fields,field_description:l10n_eu_product_adr.field_stock_picking____last_update
@@ -7119,6 +7154,13 @@ msgstr ""
 #: model:ir.model.fields,field_description:l10n_eu_product_adr.field_product_product__adr_limited_quantity
 #: model:ir.model.fields,field_description:l10n_eu_product_adr.field_product_template__adr_limited_quantity
 msgid "Limited Quantity"
+msgstr ""
+
+#. module: l10n_eu_product_adr
+#: model:ir.model.fields,field_description:l10n_eu_product_adr.field_adr_goods__limited_quantity_uom_id
+#: model:ir.model.fields,field_description:l10n_eu_product_adr.field_product_product__adr_limited_quantity_uom_id
+#: model:ir.model.fields,field_description:l10n_eu_product_adr.field_product_template__adr_limited_quantity_uom_id
+msgid "Limited Quantity UoM"
 msgstr ""
 
 #. module: l10n_eu_product_adr
@@ -10182,6 +10224,11 @@ msgid "Packing Instructions"
 msgstr ""
 
 #. module: l10n_eu_product_adr
+#: model:ir.model,name:l10n_eu_product_adr.model_product_product
+msgid "Product"
+msgstr ""
+
+#. module: l10n_eu_product_adr
 #: model:ir.model,name:l10n_eu_product_adr.model_product_template
 msgid "Product Template"
 msgstr ""
@@ -12432,12 +12479,26 @@ msgid "Textile waste, wet"
 msgstr ""
 
 #. module: l10n_eu_product_adr
+#: model:ir.model.fields,help:l10n_eu_product_adr.field_adr_label__goods_ids
+msgid "The dangerous goods to which this label is applied"
+msgstr ""
+
+#. module: l10n_eu_product_adr
 #: model:ir.model.fields,help:l10n_eu_product_adr.field_adr_goods__label_ids
 #: model:ir.model.fields,help:l10n_eu_product_adr.field_product_product__adr_label_ids
 #: model:ir.model.fields,help:l10n_eu_product_adr.field_product_template__adr_label_ids
 msgid ""
 "The labels/placards (see 5.2.2.2 and 5.3.1.7) that have to be affixed to "
 "packages, containers, tank-containers, portable tanks, MEGCs and vehicles.)"
+msgstr ""
+
+#. module: l10n_eu_product_adr
+#: code:addons/l10n_eu_product_adr/models/product_template.py:0
+#, python-format
+msgid ""
+"There are different dangerous goods configured on this product's variant, so"
+" you cannot update the dangerous goods from here. Please reconfigure each "
+"variant separately."
 msgstr ""
 
 #. module: l10n_eu_product_adr
@@ -13010,6 +13071,11 @@ msgid "cat:%s"
 msgstr ""
 
 #. module: l10n_eu_product_adr
+#: model:uom.uom,name:l10n_eu_product_adr.product_uom_mililiter
+msgid "ml"
+msgstr ""
+
+#. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_1110
 msgid "n-AMYL METHYL KETONE"
 msgstr ""
@@ -13098,7 +13164,7 @@ msgstr ""
 #. module: l10n_eu_product_adr
 #: code:addons/l10n_eu_product_adr/models/adr_goods.py:0
 #, python-format
-msgid "qty:%s"
+msgid "qty:%s %s"
 msgstr ""
 
 #. module: l10n_eu_product_adr
