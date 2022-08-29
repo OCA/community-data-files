@@ -3,7 +3,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<meta name="generator" content="Docutils: http://docutils.sourceforge.net/" />
+<meta name="generator" content="Docutils 0.15.1: http://docutils.sourceforge.net/" />
 <title>ADR Dangerous Goods</title>
 <style type="text/css">
 
@@ -408,6 +408,7 @@ a new tab on the product form’s notebook on which you can select the dangerous
 goods that applies to this particular product, out of a list of dangerous
 goods that represents Table A from chapter 3 of the ADR specifications
 document.</p>
+<p>It is possible to specify a different, or no goods per product variant.</p>
 <p>The data in this module is generated based on a spreadsheet from
 <a class="reference external" href="https://cepa.be">https://cepa.be</a>. This spreadsheet, just like the specifications themselves
 sometimes contain multiple options for each dangerous good, or additional
@@ -422,6 +423,9 @@ Goods</em>.</p>
 <p>The number of ADR points on the picking is based on the product weight field
 if it is filled in, or otherwise on the UoM quantity in the product’s reference
 UoM (presumably Liter or Kilogram).</p>
+<p>This module defines an ADR user group and an ADR admin group. Membership of
+one of these groups is required to access the product tab with the ADR info.
+By default, all inventory users are added to the ADR user group.</p>
 </div>
 <div class="section" id="known-issues-roadmap">
 <h1><a class="toc-backref" href="#id3">Known issues / Roadmap</a></h1>
