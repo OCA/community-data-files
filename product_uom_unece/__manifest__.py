@@ -9,7 +9,7 @@
     'license': 'AGPL-3',
     'summary': 'UNECE nomenclature for the units of measure',
     'author': 'Akretion,Odoo Community Association (OCA)',
-    'website': 'https://github.com/OCA/community-data-files/',
+    "website": "https://github.com/OCA/community-data-files",
     'depends': ['product'],
     'data': [
         'data/unece.xml',

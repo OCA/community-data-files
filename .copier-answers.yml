@@ -1,0 +1,33 @@
+# Do NOT update manually; changes here will be overwritten by Copier
+_commit: v1.8.0
+_src_path: gh:oca/oca-addons-repo-template
+ci: GitHub
+dependency_installation_mode: PIP
+generate_requirements_txt: false
+github_check_license: false
+github_enable_codecov: true
+github_enable_makepot: true
+github_enable_stale_action: false
+github_enforce_dev_status_compatibility: false
+include_wkhtmltopdf: false
+odoo_version: 11.0
+org_name: Odoo Community Association (OCA)
+org_slug: OCA
+rebel_module_groups: []
+repo_description: 'This project is a collection of OpenERP modules containing various
+    data files that are too big to fit the official addons or the other Community
+    projects.
+
+
+    Such data files may include for example tax tables, lists of ZIP codes, official
+    activity nomenclatures...
+
+
+    This project is the continuation of OpenERP-Nomenclatures, which had a narrower
+    scope limited to only official files provided by government agencies.'
+repo_name: Community Data Files
+repo_slug: community-data-files
+repo_website: https://github.com/OCA/community-data-files
+travis_apt_packages: []
+travis_apt_sources: []
+
