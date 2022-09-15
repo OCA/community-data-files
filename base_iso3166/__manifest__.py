@@ -5,7 +5,7 @@
 
 {
     "name": "ISO 3166",
-    "version": "11.0.1.0.0",
+    "version": "11.0.1.0.1",
     "author": "Tecnativa, "
               "Creu Blanca, "
               "Odoo Community Association (OCA)",
