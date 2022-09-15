@@ -18,77 +18,77 @@ msgstr ""
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
 
-#. module: product_uom
-#: model:product.uom,name:product_uom.product_uom_calorie
+#. module: product_uom_extra_data
+#: model:product.uom,name:product_uom_extra_data.product_uom_calorie
 msgid "Calorie(s)"
 msgstr ""
 
-#. module: product_uom
-#: model:product.uom,name:product_uom.product_uom_day
+#. module: product_uom_extra_data
+#: model:product.uom,name:product_uom_extra_data.product_uom_day
 msgid "Day(s)"
 msgstr "Jour(s)"
 
-#. module: product_uom
-#: model:product.uom.categ,name:product_uom.product_category_energy
+#. module: product_uom_extra_data
+#: model:product.uom.categ,name:product_uom_extra_data.product_category_energy
 msgid "Energy / Heat"
 msgstr "Energie / Chaleur"
 
-#. module: product_uom
-#: model:product.uom,name:product_uom.product_uom_hour
+#. module: product_uom_extra_data
+#: model:product.uom,name:product_uom_extra_data.product_uom_hour
 msgid "Hour(s)"
 msgstr "Heure(s)"
 
-#. module: product_uom
-#: model:product.uom,name:product_uom.product_uom_indef
+#. module: product_uom_extra_data
+#: model:product.uom,name:product_uom_extra_data.product_uom_indef
 msgid "Indefinitely"
 msgstr "Indéfiniment"
 
-#. module: product_uom
-#: model:product.uom,name:product_uom.product_uom_kilocalorie
+#. module: product_uom_extra_data
+#: model:product.uom,name:product_uom_extra_data.product_uom_kilocalorie
 msgid "Kilocalorie(s)"
 msgstr ""
 
-#. module: product_uom
-#: model:product.uom,name:product_uom.product_uom_kilojoule
+#. module: product_uom_extra_data
+#: model:product.uom,name:product_uom_extra_data.product_uom_kilojoule
 msgid "Kilojoule(s)"
 msgstr ""
 
-#. module: product_uom
-#: model:product.uom,name:product_uom.product_uom_minute
+#. module: product_uom_extra_data
+#: model:product.uom,name:product_uom_extra_data.product_uom_minute
 msgid "Minute(s)"
 msgstr ""
 
-#. module: product_uom
-#: model:product.uom,name:product_uom.product_uom_month
+#. module: product_uom_extra_data
+#: model:product.uom,name:product_uom_extra_data.product_uom_month
 msgid "Month(s)"
 msgstr "Mois"
 
-#. module: product_uom
-#: model:product.uom.categ,name:product_uom.product_uom_category_time
+#. module: product_uom_extra_data
+#: model:product.uom.categ,name:product_uom_extra_data.product_uom_category_time
 msgid "Time"
 msgstr "Temps"
 
-#. module: product_uom
-#: model:product.uom,name:product_uom.product_uom_year
+#. module: product_uom_extra_data
+#: model:product.uom,name:product_uom_extra_data.product_uom_year
 msgid "Year(s)"
 msgstr "Année(s)"
 
-#. module: product_uom
-#: model:product.uom,name:product_uom.product_uom_ml
+#. module: product_uom_extra_data
+#: model:product.uom,name:product_uom_extra_data.product_uom_ml
 msgid "mL"
 msgstr ""
 
-#. module: product_uom
-#: model:product.uom,name:product_uom.product_uom_mg
+#. module: product_uom_extra_data
+#: model:product.uom,name:product_uom_extra_data.product_uom_mg
 msgid "mg"
 msgstr ""
 
-#. module: product_uom
-#: model:product.uom,name:product_uom.product_uom_mmol
+#. module: product_uom_extra_data
+#: model:product.uom,name:product_uom_extra_data.product_uom_mmol
 msgid "mmol"
 msgstr ""
 
-#. module: product_uom
-#: model:product.uom,name:product_uom.product_uom_ug
+#. module: product_uom_extra_data
+#: model:product.uom,name:product_uom_extra_data.product_uom_ug
 msgid "ug"
 msgstr ""
