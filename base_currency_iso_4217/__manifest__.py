@@ -10,7 +10,7 @@
     'summary': 'Adds numeric code, full name to currencies and number of '
                'digits, following the ISO 4217 specification',
     'author': 'Eficent,Odoo Community Association (OCA)',
-    'website': 'https://github.com/OCA/currency/',
+    "website": "https://github.com/OCA/community-data-files",
     'depends': ['base'],
     'data': [
         'data/res.currency.csv',
