@@ -13,6 +13,7 @@ class UneceCodeList(models.Model):
     _name = "unece.code.list"
     _description = "UNECE nomenclatures"
     _order = "type, code"
+    _rec_names_search = ["name", "code"]
 
     code = fields.Char(required=True, copy=False)
     name = fields.Char(required=True, copy=False)
@@ -34,13 +35,3 @@ class UneceCodeList(models.Model):
         for entry in self:
             res.append((entry.id, "[{}] {}".format(entry.code, entry.name)))
         return res
-
-    @api.model
-    def name_search(self, name="", args=None, operator="ilike", limit=100):
-        if args is None:
-            args = []
-        if name and operator == "ilike":
-            recs = self.search([("code", "=", name)] + args, limit=limit)
-            if recs:
-                return recs.name_get()
-        return super().name_search(name=name, args=args, operator=operator, limit=limit)
