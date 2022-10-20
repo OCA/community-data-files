@@ -4,7 +4,7 @@
 
 {
     "name": "Base UNECE",
-    "version": "15.0.1.0.0",
+    "version": "16.0.1.0.0",
     "category": "Tools",
     "license": "AGPL-3",
     "development_status": "Production/Stable",
