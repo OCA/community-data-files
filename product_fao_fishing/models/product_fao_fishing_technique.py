@@ -13,10 +13,8 @@ class ProductFaoFishingTechnique(models.Model):
     _rec_name = "complete_name"
     _order = "parent_path"
 
-    name = fields.Char(string="Name", index=True, required=True, translate=True)
-    complete_name = fields.Char(
-        "Complete Name", compute="_compute_complete_name", store=True
-    )
+    name = fields.Char(index=True, required=True, translate=True)
+    complete_name = fields.Char(compute="_compute_complete_name", store=True)
     parent_id = fields.Many2one(
         comodel_name="product.fao.fishing.technique",
         string="Parent Technique",
