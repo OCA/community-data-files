@@ -12,11 +12,8 @@
     "installable": True,
     "depends": ["product"],
     "data": [
-        "security/ir.model.access.csv",
         "data/product_fao_fishing_data.xml",
-        "data/product_fao_fishing_techique_data.xml",
+        "data/product_fao_fishing_technique_data.xml",
         "views/product_attribute_views.xml",
-        "views/product_fao_techinique_views.xml",
-        "views/product_template_views.xml",
     ],
 }
