@@ -9,7 +9,7 @@ class AccountPaymentMethod(models.Model):
     _inherit = "account.payment.method"
 
     unece_id = fields.Many2one(
-        "unece.code.list",
+        comodel_name="unece.code.list",
         string="UNECE Payment Mean",
         domain=[("type", "=", "payment_means")],
         ondelete="restrict",
@@ -17,6 +17,4 @@ class AccountPaymentMethod(models.Model):
         "Commission for Europe (UNECE) defined in UN/EDIFACT Data "
         "Element 4461",
     )
-    unece_code = fields.Char(
-        related="unece_id.code", store=True, readonly=True, string="UNECE Code"
-    )
+    unece_code = fields.Char(related="unece_id.code", store=True, string="UNECE Code")

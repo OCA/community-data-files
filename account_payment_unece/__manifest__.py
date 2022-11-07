@@ -4,11 +4,12 @@
 
 {
     "name": "Account Payment UNECE",
-    "version": "14.0.1.0.0",
+    "version": "16.0.1.0.0",
     "category": "Accounting & Finance",
     "license": "AGPL-3",
     "summary": "UNECE nomenclature for the payment methods",
     "author": "Akretion,Odoo Community Association (OCA)",
+    "maintainers": ["alexis-via"],
     "website": "https://github.com/OCA/community-data-files",
     "depends": ["account_payment_mode", "base_unece"],
     "data": [
