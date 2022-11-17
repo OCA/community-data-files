@@ -8,6 +8,7 @@ setuptools.setup(
     description="Meta package for oca-community-data-files Odoo addons",
     version=version,
     install_requires=[
+        'odoo-addon-base_iso3166>=16.0dev,<16.1dev',
         'odoo-addon-base_unece>=16.0dev,<16.1dev',
         'odoo-addon-uom_unece>=16.0dev,<16.1dev',
     ],
