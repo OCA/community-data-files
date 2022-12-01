@@ -19,3 +19,10 @@ class TestTaxUnece(HttpCase):
             res = template._get_tax_vals(self.env.company, {})
             self.assertFalse(res["unece_type_id"])
             self.assertFalse(res["unece_categ_id"])
+
+    def test_company_speeddict_methods(self):
+        company = self.env.ref("base.main_company")
+        res_tax = company._get_tax_unece_speeddict()
+        self.assertTrue(isinstance(res_tax, dict))
+        res_fp = company._get_fiscal_position_speeddict("en_US")
+        self.assertTrue(isinstance(res_fp, dict))
