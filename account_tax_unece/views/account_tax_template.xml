@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!-- Copyright 2017-2020 Onestein (<http://www.onestein.eu>)
+     License AGPL-3.0 or later (http://www.gnu.org/licenses/agpl). -->
+<odoo>
+    <record id="view_tax_template_form" model="ir.ui.view">
+        <field name="model">account.tax.template</field>
+        <field name="inherit_id" ref="account.view_account_tax_template_form" />
+        <field name="arch" type="xml">
+            <notebook position="inside">
+                <page string="Unece">
+                    <group name="unece">
+                        <field
+                            name="unece_type_id"
+                            options="{'no_create': True, 'no_create_edit': True}"
+                        />
+                        <field
+                            name="unece_categ_id"
+                            options="{'no_create': True, 'no_create_edit': True}"
+                        />
+                    </group>
+                </page>
+            </notebook>
+        </field>
+    </record>
+</odoo>
