@@ -6,8 +6,6 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 15.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-10-24 13:56+0000\n"
-"PO-Revision-Date: 2022-10-24 13:56+0000\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -31,7 +29,7 @@ msgid "America, South - Inland waters"
 msgstr ""
 
 #. module: product_fao_fishing
-#: model:product.attribute.value,name:product_fao_fishing.fishing_technique_angling
+#: model:product.attribute.value,name:product_fao_fishing.fishing_technique_att_value_angling
 msgid "Angling"
 msgstr ""
 
@@ -46,7 +44,7 @@ msgid "Antarctica - Inland waters"
 msgstr ""
 
 #. module: product_fao_fishing
-#: model:product.attribute.value,name:product_fao_fishing.fishing_technique_aquaculture
+#: model:product.attribute.value,name:product_fao_fishing.fishing_technique_att_value_aquaculture
 msgid "Aquaculture"
 msgstr ""
 
@@ -101,7 +99,7 @@ msgid "Attribute Value"
 msgstr ""
 
 #. module: product_fao_fishing
-#: model:product.attribute.value,name:product_fao_fishing.fishing_technique_enmanelle_nets
+#: model:product.attribute.value,name:product_fao_fishing.fishing_technique_att_value_enmanelle_nets
 msgid "Enmanelle nets and similar"
 msgstr ""
 
@@ -138,7 +136,7 @@ msgid "Former USSR area - Inland waters"
 msgstr ""
 
 #. module: product_fao_fishing
-#: model:product.attribute.value,name:product_fao_fishing.fishing_technique_harrows
+#: model:product.attribute.value,name:product_fao_fishing.fishing_technique_att_value_harrows
 msgid "Harrows"
 msgstr ""
 
@@ -168,7 +166,7 @@ msgid "Mediterranean and Black Sea"
 msgstr ""
 
 #. module: product_fao_fishing
-#: model:product.attribute.value,name:product_fao_fishing.fishing_technique_netting
+#: model:product.attribute.value,name:product_fao_fishing.fishing_technique_att_value_netting
 msgid "Netting"
 msgstr ""
 
@@ -223,22 +221,22 @@ msgid "Product Template Attribute Value"
 msgstr ""
 
 #. module: product_fao_fishing
-#: model:product.attribute.value,name:product_fao_fishing.fishing_technique_purse_nets
+#: model:product.attribute.value,name:product_fao_fishing.fishing_technique_att_value_purse_nets
 msgid "Purse seines and nets hoisted"
 msgstr ""
 
 #. module: product_fao_fishing
-#: model:product.attribute.value,name:product_fao_fishing.fishing_technique_spearfishing
+#: model:product.attribute.value,name:product_fao_fishing.fishing_technique_att_value_spearfishing
 msgid "Spearfishing"
 msgstr ""
 
 #. module: product_fao_fishing
-#: model:product.attribute.value,name:product_fao_fishing.fishing_technique_trapping
+#: model:product.attribute.value,name:product_fao_fishing.fishing_technique_att_value_trapping
 msgid "Trapping"
 msgstr ""
 
 #. module: product_fao_fishing
-#: model:product.attribute.value,name:product_fao_fishing.fishing_technique_trawl_nets
+#: model:product.attribute.value,name:product_fao_fishing.fishing_technique_att_value_trawl_nets
 msgid "Trawl nets"
 msgstr ""
 
