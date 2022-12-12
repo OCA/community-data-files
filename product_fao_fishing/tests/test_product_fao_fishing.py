@@ -18,10 +18,10 @@ class TestProductFaoFishing(SavepointCase):
             "product_fao_fishing.fao_fishing_area_2"
         )
         cls.technique_attribute_value_1 = cls.env.ref(
-            "product_fao_fishing.fishing_technique_spearfishing"
+            "product_fao_fishing.fishing_technique_att_value_spearfishing"
         )
         cls.technique_attribute_value_2 = cls.env.ref(
-            "product_fao_fishing.fishing_technique_harrows"
+            "product_fao_fishing.fishing_technique_att_value_harrows"
         )
         cls.product = cls.env["product.template"].create(
             {
@@ -53,7 +53,7 @@ class TestProductFaoFishing(SavepointCase):
             }
         )
         cls.fishing_tech_arrow = cls.env.ref(
-            "product_fao_fishing.fishing_technique_harrows"
+            "product_fao_fishing.fishing_technique_att_value_harrows"
         )
 
     def test_fishing_areas_from_attribute(self):
