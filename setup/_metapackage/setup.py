@@ -10,6 +10,7 @@ setuptools.setup(
     install_requires=[
         'odoo-addon-account_payment_unece>=16.0dev,<16.1dev',
         'odoo-addon-account_tax_unece>=16.0dev,<16.1dev',
+        'odoo-addon-base_bank_from_iban>=16.0dev,<16.1dev',
         'odoo-addon-base_iso3166>=16.0dev,<16.1dev',
         'odoo-addon-base_unece>=16.0dev,<16.1dev',
         'odoo-addon-uom_unece>=16.0dev,<16.1dev',
