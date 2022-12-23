@@ -28,32 +28,35 @@ msgid "Bank Accounts"
 msgstr "Bankovni računi"
 
 #. module: base_bank_from_iban
+#: model:ir.model,name:base_bank_from_iban.model_account_setup_bank_manual_config
+msgid "Bank setup manual config"
+msgstr ""
+
+#. module: base_bank_from_iban
 #: model:ir.model.fields,field_description:base_bank_from_iban.field_res_bank__code
 msgid "Code"
 msgstr "Šifra"
 
 #. module: base_bank_from_iban
-#: model:ir.model.fields,field_description:base_bank_from_iban.field_account_journal__display_name
+#: model:ir.model.fields,field_description:base_bank_from_iban.field_account_setup_bank_manual_config__display_name
 #: model:ir.model.fields,field_description:base_bank_from_iban.field_res_bank__display_name
 #: model:ir.model.fields,field_description:base_bank_from_iban.field_res_partner_bank__display_name
 msgid "Display Name"
 msgstr "Prikazani naziv"
 
 #. module: base_bank_from_iban
-#: model:ir.model.fields,field_description:base_bank_from_iban.field_account_journal__id
+#: model:ir.model.fields,field_description:base_bank_from_iban.field_account_setup_bank_manual_config__id
 #: model:ir.model.fields,field_description:base_bank_from_iban.field_res_bank__id
 #: model:ir.model.fields,field_description:base_bank_from_iban.field_res_partner_bank__id
 msgid "ID"
 msgstr "ID"
 
 #. module: base_bank_from_iban
-#: model:ir.model,name:base_bank_from_iban.model_account_journal
-msgid "Journal"
-msgstr "Dnevnik"
-
-#. module: base_bank_from_iban
-#: model:ir.model.fields,field_description:base_bank_from_iban.field_account_journal____last_update
+#: model:ir.model.fields,field_description:base_bank_from_iban.field_account_setup_bank_manual_config____last_update
 #: model:ir.model.fields,field_description:base_bank_from_iban.field_res_bank____last_update
 #: model:ir.model.fields,field_description:base_bank_from_iban.field_res_partner_bank____last_update
 msgid "Last Modified on"
 msgstr "Zadnje modificirano"
+
+#~ msgid "Journal"
+#~ msgstr "Dnevnik"
