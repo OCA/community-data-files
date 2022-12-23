@@ -1,7 +1,8 @@
 # Copyright 2017 Tecnativa - Carlos Dauden <carlos.dauden@tecnativa.com>
+# Copyright 2022 Tecnativa - Pedro M. Baeza
 # License AGPL-3.0 or later (https://www.gnu.org/licenses/agpl-3).
 
-from odoo.tests import common
+from odoo.tests import Form, common
 
 
 class TestBaseBankFromIban(common.TransactionCase):
@@ -36,21 +37,12 @@ class TestBaseBankFromIban(common.TransactionCase):
         partner_bank._onchange_acc_number_base_bank_from_iban()
         self.assertFalse(partner_bank.bank_id)
 
-    def test_onchange_acc_number_iban_journal(self):
-        journal = self.env["account.journal"].new()
-        journal.bank_acc_number = "ES1299999999509999999999"
-        journal._onchange_bank_acc_number_base_bank_from_iban()
-        self.assertEqual(journal.bank_acc_number, "ES12 9999 9999 5099 9999 9999")
-        self.assertEqual(journal.bank_id, self.bank)
-        journal.bank_acc_number = ""
-        journal._onchange_bank_acc_number_base_bank_from_iban()
-        self.assertEqual(journal.bank_id, self.bank)
-
-    def test_onchange_acc_number_no_iban_journal(self):
-        journal = self.env["account.journal"].new()
-        journal.bank_acc_number = "99999999509999999999"
-        journal._onchange_bank_acc_number_base_bank_from_iban()
-        self.assertFalse(journal.bank_id)
-        journal.bank_acc_number = ""
-        journal._onchange_bank_acc_number_base_bank_from_iban()
-        self.assertFalse(journal.bank_id)
+    def test_onchange_acc_number_iban_wizard(self):
+        wizard = Form(self.env["account.setup.bank.manual.config"])
+        wizard.acc_number = "99999999509999999999"
+        self.assertFalse(wizard.bank_id)
+        wizard.acc_number = "ES1299999999509999999999"
+        self.assertEqual(wizard.acc_number, "ES12 9999 9999 5099 9999 9999")
+        self.assertEqual(wizard.bank_id, self.bank)
+        wizard.acc_number = ""
+        self.assertEqual(wizard.bank_id, self.bank)
