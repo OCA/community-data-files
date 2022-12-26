@@ -3,6 +3,7 @@
 # License AGPL-3.0 or later (https://www.gnu.org/licenses/agpl).
 
 from odoo import models
+from odoo.tools import html2plaintext, is_html_empty
 
 
 class ResCompany(models.Model):
@@ -48,9 +49,13 @@ class ResCompany(models.Model):
             [("company_id", "=", self.id)], ["name", "display_name", "note"]
         )
         for fp in fpositions:
+            note = False
+            if fp["note"] and not is_html_empty(fp["note"]):
+                note = html2plaintext(fp["note"])
             res[fp["id"]] = {
                 "name": fp["name"],
                 "display_name": fp["display_name"],
-                "note": fp["note"],  # supposed to store the exemption reason
+                "note": note,
+                # "note" is a fields.Html() that stores the exemption reason
             }
         return res
