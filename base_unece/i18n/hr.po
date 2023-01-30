@@ -6,7 +6,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 16.0\n"
 "Report-Msgid-Bugs-To: \n"
-"Last-Translator: Automatically generated\n"
+"PO-Revision-Date: 2023-01-31 08:12+0000\n"
+"Last-Translator: Bole <bole@dajmi5.com>\n"
 "Language-Team: none\n"
 "Language: hr\n"
 "MIME-Version: 1.0\n"
@@ -14,96 +15,97 @@ msgstr ""
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
 "%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
+"X-Generator: Weblate 4.14.1\n"
 
 #. module: base_unece
 #: model:ir.model.fields,field_description:base_unece.field_unece_code_list__active
 msgid "Active"
-msgstr ""
+msgstr "Aktivan"
 
 #. module: base_unece
 #: model:ir.model.constraint,message:base_unece.constraint_unece_code_list_type_code_uniq
 msgid "An UNECE code of the same type already exists"
-msgstr ""
+msgstr "UNECE šifra istog tipa već postoji"
 
 #. module: base_unece
 #: model_terms:ir.ui.view,arch_db:base_unece.unece_code_list_form
 #: model_terms:ir.ui.view,arch_db:base_unece.unece_code_list_search
 msgid "Archived"
-msgstr ""
+msgstr "Arhivirano"
 
 #. module: base_unece
 #: model:ir.model.fields,field_description:base_unece.field_unece_code_list__code
 msgid "Code"
-msgstr ""
+msgstr "Šifra"
 
 #. module: base_unece
 #: model:ir.model.fields,field_description:base_unece.field_unece_code_list__create_uid
 msgid "Created by"
-msgstr ""
+msgstr "Kreirao"
 
 #. module: base_unece
 #: model:ir.model.fields,field_description:base_unece.field_unece_code_list__create_date
 msgid "Created on"
-msgstr ""
+msgstr "Kreirano"
 
 #. module: base_unece
 #: model:ir.model.fields,field_description:base_unece.field_unece_code_list__description
 msgid "Description"
-msgstr ""
+msgstr "Opis"
 
 #. module: base_unece
 #: model:ir.model.fields,field_description:base_unece.field_unece_code_list__display_name
 msgid "Display Name"
-msgstr ""
+msgstr "Naziv"
 
 #. module: base_unece
 #: model_terms:ir.ui.view,arch_db:base_unece.unece_code_list_search
 msgid "Group By"
-msgstr ""
+msgstr "Grupiraj po"
 
 #. module: base_unece
 #: model:ir.model.fields,field_description:base_unece.field_unece_code_list__id
 msgid "ID"
-msgstr ""
+msgstr "ID"
 
 #. module: base_unece
 #: model:ir.model.fields,field_description:base_unece.field_unece_code_list____last_update
 msgid "Last Modified on"
-msgstr ""
+msgstr "Zadnje modificirano"
 
 #. module: base_unece
 #: model:ir.model.fields,field_description:base_unece.field_unece_code_list__write_uid
 msgid "Last Updated by"
-msgstr ""
+msgstr "Zadnje ažurirano"
 
 #. module: base_unece
 #: model:ir.model.fields,field_description:base_unece.field_unece_code_list__write_date
 msgid "Last Updated on"
-msgstr ""
+msgstr "Zadnje ažurirano"
 
 #. module: base_unece
 #: model:ir.model.fields,field_description:base_unece.field_unece_code_list__name
 msgid "Name"
-msgstr ""
+msgstr "Naziv"
 
 #. module: base_unece
 #: model_terms:ir.ui.view,arch_db:base_unece.unece_code_list_search
 msgid "Name or Code"
-msgstr ""
+msgstr "Naziv ili šifra"
 
 #. module: base_unece
 #: model:ir.model.fields,field_description:base_unece.field_unece_code_list__type
 #: model_terms:ir.ui.view,arch_db:base_unece.unece_code_list_search
 msgid "Type"
-msgstr ""
+msgstr "Tip"
 
 #. module: base_unece
 #: model:ir.actions.act_window,name:base_unece.unece_code_list_action
 #: model:ir.ui.menu,name:base_unece.unece_code_list_menu
 msgid "UNECE Code Lists"
-msgstr ""
+msgstr "Popis UNECE šifri"
 
 #. module: base_unece
 #: model:ir.model,name:base_unece.model_unece_code_list
 msgid "UNECE nomenclatures"
-msgstr ""
+msgstr "UNECE nomenklature"
