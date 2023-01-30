@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 14.0\n"
 "Report-Msgid-Bugs-To: \n"
-"PO-Revision-Date: 2022-08-22 14:07+0000\n"
+"PO-Revision-Date: 2023-01-31 08:12+0000\n"
 "Last-Translator: Bole <bole@dajmi5.com>\n"
 "Language-Team: none\n"
 "Language: hr\n"
@@ -15,7 +15,7 @@ msgstr ""
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
 "%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
-"X-Generator: Weblate 4.3.2\n"
+"X-Generator: Weblate 4.14.1\n"
 
 #. module: account_payment_unece
 #: model:ir.model.fields,field_description:account_payment_unece.field_account_payment_method__display_name
@@ -38,12 +38,12 @@ msgstr "Zadnje modificirano"
 #. module: account_payment_unece
 #: model:ir.model.fields.selection,name:account_payment_unece.selection__unece_code_list__type__payment_means
 msgid "Payment Means (UNCL 4461)"
-msgstr ""
+msgstr "Način plaćanja (UNCL 4461)"
 
 #. module: account_payment_unece
 #: model:ir.model,name:account_payment_unece.model_account_payment_method
 msgid "Payment Methods"
-msgstr ""
+msgstr "Metode plaćanja"
 
 #. module: account_payment_unece
 #: model:ir.model.fields,help:account_payment_unece.field_account_payment_method__unece_id
@@ -51,23 +51,25 @@ msgid ""
 "Standard nomenclature of the United Nations Economic Commission for Europe "
 "(UNECE) defined in UN/EDIFACT Data Element 4461"
 msgstr ""
+"Standardna nomenklatura Ekonomske komisije Ujedinjenih naroda za Evropu "
+"(UNECE) definirana u UN/EDIFACT podatkovnom elementu 4461"
 
 #. module: account_payment_unece
 #: model:ir.model.fields,field_description:account_payment_unece.field_unece_code_list__type
 msgid "Type"
-msgstr ""
+msgstr "Tip"
 
 #. module: account_payment_unece
 #: model:ir.model.fields,field_description:account_payment_unece.field_account_payment_method__unece_code
 msgid "UNECE Code"
-msgstr ""
+msgstr "UNECE šifra"
 
 #. module: account_payment_unece
 #: model:ir.model.fields,field_description:account_payment_unece.field_account_payment_method__unece_id
 msgid "UNECE Payment Mean"
-msgstr ""
+msgstr "UNECE način plaćanja"
 
 #. module: account_payment_unece
 #: model:ir.model,name:account_payment_unece.model_unece_code_list
 msgid "UNECE nomenclatures"
-msgstr ""
+msgstr "UNECE nomeklature"
