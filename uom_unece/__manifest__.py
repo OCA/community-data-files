@@ -13,6 +13,6 @@
     "maintainers": ["astirpe", "alexis-via"],
     "website": "https://github.com/OCA/community-data-files",
     "depends": ["uom"],
-    "data": ["data/unece.xml", "views/uom_uom.xml"],
+    "data": ["data/unece.xml", "views/uom_uom.xml", "views/uom_category.xml"],
     "installable": True,
 }
