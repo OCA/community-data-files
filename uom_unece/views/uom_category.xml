@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!--
+  Copyright 2023 Akretion (http://www.akretion.com/)
+  @author Alexis de Lattre <alexis.delattre@akretion.com>
+  License AGPL-3.0 or later (https://www.gnu.org/licenses/agpl).
+-->
+<odoo>
+    <record id="product_uom_categ_form_view" model="ir.ui.view">
+        <field name="model">uom.category</field>
+        <field name="inherit_id" ref="uom.product_uom_categ_form_view" />
+        <field name="arch" type="xml">
+            <xpath
+                expr="//field[@name='uom_ids']/tree/field[@name='rounding']"
+                position="after"
+            >
+                <field name="unece_code" optional="show" />
+            </xpath>
+        </field>
+    </record>
+</odoo>
