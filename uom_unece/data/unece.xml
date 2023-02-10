@@ -54,6 +54,9 @@
     <record id="uom.product_uom_foot" model="uom.uom">
         <field name="unece_code">FOT</field>
     </record>
+    <record id="uom.product_uom_yard" model="uom.uom">
+        <field name="unece_code">YRD</field>
+    </record>
     <record id="uom.product_uom_mile" model="uom.uom">
         <field name="unece_code">SMI</field>
     </record>
