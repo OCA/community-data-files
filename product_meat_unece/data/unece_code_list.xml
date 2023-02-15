@@ -589,65 +589,49 @@
         <field name="type">meat_bovine_category</field>
         <field name="code">1</field>
         <field name="name">Intact male</field>
-        <field name="description">
-            Evidence of sex traits, greater than 24 months
-        </field>
+        <field name="description">Evidence of sex traits, greater than 24 months</field>
     </record>
     <record id="unece_meat_bovine_category_young_intact_male" model="unece.code.list">
         <field name="type">meat_bovine_category</field>
         <field name="code">2</field>
         <field name="name">Young intact male</field>
-        <field name="description">
-            Less than 24 months
-        </field>
+        <field name="description">Less than 24 months</field>
     </record>
     <record id="unece_meat_bovine_category_steer" model="unece.code.list">
         <field name="type">meat_bovine_category</field>
         <field name="code">3</field>
         <field name="name">Steer</field>
-        <field name="description">
-            Young castrate
-        </field>
+        <field name="description">Young castrate</field>
     </record>
     <record id="unece_meat_bovine_category_heifer" model="unece.code.list">
         <field name="type">meat_bovine_category</field>
         <field name="code">4</field>
         <field name="name">Heifer</field>
-        <field name="description">
-            Young female, uncalved
-        </field>
+        <field name="description">Young female, uncalved</field>
     </record>
     <record id="unece_meat_bovine_category_steer_and_or_heifer" model="unece.code.list">
         <field name="type">meat_bovine_category</field>
         <field name="code">5</field>
         <field name="name">Steer and/or Heifer</field>
-        <field name="description">
-            Young castrate or young female, uncalved
-        </field>
+        <field name="description">Young castrate or young female, uncalved</field>
     </record>
     <record id="unece_meat_bovine_category_cow" model="unece.code.list">
         <field name="type">meat_bovine_category</field>
         <field name="code">6</field>
         <field name="name">Cow</field>
-        <field name="description">
-            Mature female
-        </field>
+        <field name="description">Mature female</field>
     </record>
     <record id="unece_meat_bovine_category_young_bovine" model="unece.code.list">
         <field name="type">meat_bovine_category</field>
         <field name="code">7</field>
         <field name="name">Young bovine</field>
-        <field name="description">
-            6-12 months
-        </field>
+        <field name="description">6-12 months</field>
     </record>
     <record id="unece_meat_bovine_category_steer_or_heifer_old" model="unece.code.list">
         <field name="type">meat_bovine_category</field>
         <field name="code">8</field>
         <field name="name">Steer and/or Heifer older than 24 months</field>
-        <field name="description">
-            Castrate/female (uncalved)
-        </field>
+        <field name="description">Castrate/female (uncalved)</field>
     </record>
     <record id="unece_meat_bovine_category_other" model="unece.code.list">
         <field name="type">meat_bovine_category</field>
@@ -707,9 +691,7 @@
         <field name="type">meat_feeding_system</field>
         <field name="code">1</field>
         <field name="name">Grain fed</field>
-        <field name="description">
-            Grain is the predominant component of the diet
-        </field>
+        <field name="description">Grain is the predominant component of the diet</field>
     </record>
     <record id="unece_meat_feeding_system_forage_fed" model="unece.code.list">
         <field name="type">meat_feeding_system</field>
@@ -724,9 +706,7 @@
         <field name="type">meat_feeding_system</field>
         <field name="code">3</field>
         <field name="name">Exclusively forage fed</field>
-        <field name="description">
-            Forage is the only component of the diet
-        </field>
+        <field name="description">Forage is the only component of the diet</field>
     </record>
     <record id="unece_meat_feeding_system_other" model="unece.code.list">
         <field name="type">meat_feeding_system</field>
@@ -747,25 +727,19 @@
         <field name="type">meat_slaughter_system</field>
         <field name="code">1</field>
         <field name="name">Conventional</field>
-        <field name="description">
-            Stunning prior to bleeding
-        </field>
+        <field name="description">Stunning prior to bleeding</field>
     </record>
     <record id="unece_meat_slaughter_system_kosher" model="unece.code.list">
         <field name="type">meat_slaughter_system</field>
         <field name="code">2</field>
         <field name="name">Kosher</field>
-        <field name="description">
-            Appropriate ritual slaughter procedures used
-        </field>
+        <field name="description">Appropriate ritual slaughter procedures used</field>
     </record>
     <record id="unece_meat_slaughter_system_halal" model="unece.code.list">
         <field name="type">meat_slaughter_system</field>
         <field name="code">3</field>
         <field name="name">Halal</field>
-        <field name="description">
-            Appropriate ritual slaughter procedures used
-        </field>
+        <field name="description">Appropriate ritual slaughter procedures used</field>
     </record>
     <record id="unece_meat_slaughter_system_other" model="unece.code.list">
         <field name="type">meat_slaughter_system</field>
@@ -895,9 +869,7 @@
         <field name="type">meat_weight_range</field>
         <field name="code">1</field>
         <field name="name">Specified</field>
-        <field name="description">
-            Range required
-        </field>
+        <field name="description">Range required</field>
     </record>
     <!--PACKING-->
     <record id="unece_meat_packing_not_specified" model="unece.code.list">
@@ -908,9 +880,9 @@
     <record id="unece_meat_packing_carcases_without_packaging" model="unece.code.list">
         <field name="type">meat_packing</field>
         <field name="code">1</field>
-        <field
-            name="name"
-        >Carcases, half carcases and quarters – without packaging</field>
+        <field name="name">
+            Carcases, half carcases and quarters – without packaging
+        </field>
     </record>
     <record id="unece_meat_packing_carcases_with_packaging" model="unece.code.list">
         <field name="type">meat_packing</field>
@@ -954,9 +926,9 @@
     >
         <field name="type">meat_conformity_assessment</field>
         <field name="code">1</field>
-        <field
-            name="name"
-        >Quality/grade/classification (quality) conformity assessment</field>
+        <field name="name">
+            Quality/grade/classification (quality) conformity assessment
+        </field>
     </record>
     <record id="unece_meat_conformity_assessment_trade" model="unece.code.list">
         <field name="type">meat_conformity_assessment</field>
@@ -966,9 +938,9 @@
     <record id="unece_meat_conformity_assessment_bovine" model="unece.code.list">
         <field name="type">meat_conformity_assessment</field>
         <field name="code">3</field>
-        <field
-            name="name"
-        >Bovine /batch identification (bovine /batch ID) conformity assessment</field>
+        <field name="name">
+            Bovine /batch identification (bovine /batch ID) conformity assessment
+        </field>
     </record>
     <record id="unece_meat_conformity_assessment_quality_trade" model="unece.code.list">
         <field name="type">meat_conformity_assessment</field>
@@ -986,9 +958,9 @@
     <record id="unece_meat_conformity_assessment_trade_bovine" model="unece.code.list">
         <field name="type">meat_conformity_assessment</field>
         <field name="code">6</field>
-        <field
-            name="name"
-        >Trade standard and bovine /batch ID conformity assessment</field>
+        <field name="name">
+            Trade standard and bovine /batch ID conformity assessment
+        </field>
     </record>
     <record
         id="unece_meat_conformity_assessment_quality_trade_bovine"
@@ -996,9 +968,9 @@
     >
         <field name="type">meat_conformity_assessment</field>
         <field name="code">7</field>
-        <field
-            name="name"
-        >Quality, trade standard, and bovine /batch ID conformity assessment</field>
+        <field name="name">
+            Quality, trade standard, and bovine /batch ID conformity assessment
+        </field>
     </record>
     <record id="unece_meat_conformity_assessment_other" model="unece.code.list">
         <field name="type">meat_conformity_assessment</field>

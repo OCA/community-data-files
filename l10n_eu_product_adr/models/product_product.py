@@ -53,7 +53,8 @@ class ProductProduct(models.Model):
         [("1", "(-)"), ("2", "I"), ("3", "II"), ("4", "III")], string="Packaging Group"
     )
     transport_category = fields.Selection(
-        TRANSPORT_CATEGORY, string="Transport Category",
+        TRANSPORT_CATEGORY,
+        string="Transport Category",
     )
     tunnel_code = fields.Selection(
         [("1", "(-)"), ("2", "(D)"), ("3", "(E)"), ("4", "(D,E)")], string="Tunnel code"

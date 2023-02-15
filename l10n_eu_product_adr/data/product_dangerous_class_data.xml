@@ -11,7 +11,7 @@
         <field name="class_type_id" ref="dangerous_type_class_1" />
     </record>
     <record id="dangerous_class_2" model="product.dangerous.class">
-        <field name="name">Flammable gases </field>
+        <field name="name">Flammable gases</field>
         <field name="code">ADR_2.1</field>
         <field
             name="image"
@@ -31,7 +31,7 @@
         <field name="class_type_id" ref="dangerous_type_class_2_1" />
     </record>
     <record id="dangerous_class_4" model="product.dangerous.class">
-        <field name="name">Poison gases </field>
+        <field name="name">Poison gases</field>
         <field name="code">ADR_2.3</field>
         <field
             name="image"
@@ -51,7 +51,7 @@
         <field name="class_type_id" ref="dangerous_type_class_3" />
     </record>
     <record id="dangerous_class_6" model="product.dangerous.class">
-        <field name="name">Flammable solids </field>
+        <field name="name">Flammable solids</field>
         <field name="code">ADR_4.1</field>
         <field
             name="image"
@@ -71,7 +71,7 @@
         <field name="class_type_id" ref="dangerous_type_class_4_2" />
     </record>
     <record id="dangerous_class_8" model="product.dangerous.class">
-        <field name="name"> Dangerous when wet</field>
+        <field name="name">Dangerous when wet</field>
         <field name="code">ADR_4</field>
         <field
             name="image"
@@ -111,7 +111,7 @@
         <field name="class_type_id" ref="dangerous_type_class_6_1" />
     </record>
     <record id="dangerous_class_12" model="product.dangerous.class">
-        <field name="name">Infectious substances </field>
+        <field name="name">Infectious substances</field>
         <field name="code">ADR_6.2</field>
         <field
             name="image"
@@ -151,7 +151,7 @@
         <field name="class_type_id" ref="dangerous_type_class_9" />
     </record>
     <record id="dangerous_class_16" model="product.dangerous.class">
-        <field name="name">9A Lithium Ion Batteries </field>
+        <field name="name">9A Lithium Ion Batteries</field>
         <field name="code">ADR_9A</field>
         <field
             name="image"

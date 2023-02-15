@@ -5,7 +5,7 @@
         <field name="name">2</field>
     </record>
     <record id="great_class_2" model="great.class">
-        <field name="name">2.1 </field>
+        <field name="name">2.1</field>
     </record>
     <record id="great_class_3" model="great.class">
         <field name="name">2.2</field>
