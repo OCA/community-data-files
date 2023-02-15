@@ -143,28 +143,36 @@ class ProductTemplate(models.Model):
         domain = self._prepare_get_product_from_unece_domain(product=product, **kwargs)
         return product_model.search(domain)
 
+    @api.model
+    def _get_unece_meat_code_mask(self):
+        return (
+            "{species}{product_cut}00{refrigeration}{bovine_category}"
+            "{production_system}{feeding_system}{slaughter_system}"
+            "{post_slaughter_system}{fat_thickness}{quality_system}{weight_range}"
+            "{packing}{conformity_assessment}"
+        )
+
+    def _get_unece_meat_code_value(self):
+        return {
+            "species": self.unece_meat_species_id.code or "00",
+            "product_cut": self.unece_meat_product_cut_id.code or "0000",
+            "refrigeration": self.unece_meat_refrigeration_id.code or "00",
+            "bovine_category": self.unece_meat_bovine_category_id.code or "0",
+            "production_system": self.unece_meat_production_system_id.code or "0",
+            "feeding_system": self.unece_meat_feeding_system_id.code or "0",
+            "slaughter_system": self.unece_meat_slaughter_system_id.code or "0",
+            "post_slaughter_system": self.unece_meat_post_slaughter_system_id.code
+            or "0",
+            "fat_thickness": self.unece_meat_fat_thickness_id.code or "0",
+            "quality_system": self.unece_meat_bovine_quality_system_id.code or "0",
+            "weight_range": self.unece_meat_weight_range_id.code or "0",
+            "packing": self.unece_meat_packing_id.code or "0",
+            "conformity_assessment": self.unece_meat_conformity_assessment_id.code
+            or "0",
+        }
+
     @api.depends(lambda self: [f.name for f in self._get_unece_meat_fields()])
     def _compute_unece_meat_code(self):
         for rec in self:
-            rec.unece_meat_code = (
-                "{species}{product_cut}00{refrigeration}{bovine_category}"
-                "{production_system}{feeding_system}{slaughter_system}"
-                "{post_slaughter_system}{fat_thickness}{quality_system}{weight_range}"
-                "{packing}{conformity_assessment}".format(
-                    species=rec.unece_meat_species_id.code or "00",
-                    product_cut=rec.unece_meat_product_cut_id.code or "0000",
-                    refrigeration=rec.unece_meat_refrigeration_id.code or "00",
-                    bovine_category=rec.unece_meat_bovine_category_id.code or "0",
-                    production_system=rec.unece_meat_production_system_id.code or "0",
-                    feeding_system=rec.unece_meat_feeding_system_id.code or "0",
-                    slaughter_system=rec.unece_meat_slaughter_system_id.code or "0",
-                    post_slaughter_system=rec.unece_meat_post_slaughter_system_id.code
-                    or "0",
-                    fat_thickness=rec.unece_meat_fat_thickness_id.code or "0",
-                    quality_system=rec.unece_meat_bovine_quality_system_id.code or "0",
-                    weight_range=rec.unece_meat_weight_range_id.code or "0",
-                    packing=rec.unece_meat_packing_id.code or "0",
-                    conformity_assessment=rec.unece_meat_conformity_assessment_id.code
-                    or "0",
-                )
-            )
+            values = rec._get_unece_meat_code_value()
+            rec.unece_meat_code = self._get_unece_meat_code_mask().format(**values)
