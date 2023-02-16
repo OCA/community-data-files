@@ -33,6 +33,7 @@ addon | version | maintainers | summary
 [base_unece](base_unece/) | 14.0.1.1.0 | [![astirpe](https://github.com/astirpe.png?size=30px)](https://github.com/astirpe) [![alexis-via](https://github.com/alexis-via.png?size=30px)](https://github.com/alexis-via) | Base module for UNECE code lists
 [l10n_eu_nace](l10n_eu_nace/) | 14.0.1.0.0 |  | European NACE partner categories
 [l10n_eu_product_adr](l10n_eu_product_adr/) | 14.0.1.1.0 |  | Allows to set appropriate danger class and components
+[l10n_eu_product_adr_dangerous_goods](l10n_eu_product_adr_dangerous_goods/) | 14.0.1.0.0 | [![mmequignon](https://github.com/mmequignon.png?size=30px)](https://github.com/mmequignon) | l10n Eu Product Adr Dangerous Goods
 [uom_unece](uom_unece/) | 14.0.1.0.0 | [![astirpe](https://github.com/astirpe.png?size=30px)](https://github.com/astirpe) [![alexis-via](https://github.com/alexis-via.png?size=30px)](https://github.com/alexis-via) | UNECE nomenclature for the units of measure
 
 [//]: # (end addons)
