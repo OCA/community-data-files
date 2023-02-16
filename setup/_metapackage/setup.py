@@ -16,6 +16,7 @@ setuptools.setup(
         'odoo14-addon-base_unece',
         'odoo14-addon-l10n_eu_nace',
         'odoo14-addon-l10n_eu_product_adr',
+        'odoo14-addon-l10n_eu_product_adr_dangerous_goods',
         'odoo14-addon-uom_unece',
     ],
     classifiers=[
