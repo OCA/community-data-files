@@ -114,6 +114,11 @@
         <field name="full_name">Swiss Franc</field>
         <field name="numeric_code">756</field>
     </record>
+    <record id="base.CLF" model="res.currency">
+        <field name="full_name">Unidad de Fomento</field>
+        <field name="numeric_code">990</field>
+        <field name="decimal_places">4</field>
+    </record>
     <record id="base.CLP" model="res.currency">
         <field name="full_name">Chilean Peso</field>
         <field name="numeric_code">152</field>
@@ -127,9 +132,17 @@
         <field name="full_name">Colombian Peso</field>
         <field name="numeric_code">170</field>
     </record>
+    <record id="base.COU" model="res.currency">
+        <field name="full_name">Unidad de Valor Real</field>
+        <field name="numeric_code">970</field>
+    </record>
     <record id="base.CRC" model="res.currency">
         <field name="full_name">Costa Rican Colon</field>
         <field name="numeric_code">188</field>
+    </record>
+    <record id="base.CUC" model="res.currency">
+        <field name="full_name">Peso Convertible</field>
+        <field name="numeric_code">931</field>
     </record>
     <record id="base.CUP" model="res.currency">
         <field name="full_name">Cuban Peso</field>
@@ -508,6 +521,10 @@
         <field name="full_name">Leone</field>
         <field name="numeric_code">694</field>
     </record>
+    <record id="base.SOS" model="res.currency">
+        <field name="full_name">Somali Shilling</field>
+        <field name="numeric_code">706</field>
+    </record>
     <record id="base.SRD" model="res.currency">
         <field name="full_name">Surinam Dollar</field>
         <field name="numeric_code">968</field>
@@ -515,6 +532,10 @@
     <record id="base.SSP" model="res.currency">
         <field name="full_name">South Sudanese Pound</field>
         <field name="numeric_code">728</field>
+    </record>
+    <record id="base.STN" model="res.currency">
+        <field name="full_name">Dobra</field>
+        <field name="numeric_code">930</field>
     </record>
     <record id="base.SVC" model="res.currency">
         <field name="full_name">El Salvador Colon</field>
@@ -578,13 +599,27 @@
         <field name="full_name">US Dollar</field>
         <field name="numeric_code">840</field>
     </record>
+    <record id="base.UYI" model="res.currency">
+        <field name="full_name">Uruguay Peso en Unidades Indexadas</field>
+        <field name="numeric_code">940</field>
+        <field name="decimal_places">0</field>
+    </record>
     <record id="base.UYU" model="res.currency">
         <field name="full_name">Peso Uruguayo</field>
         <field name="numeric_code">858</field>
     </record>
+    <record id="base.UYW" model="res.currency">
+        <field name="full_name">Unidad Previsional</field>
+        <field name="numeric_code">927</field>
+        <field name="decimal_places">4</field>
+    </record>
     <record id="base.UZS" model="res.currency">
         <field name="full_name">Uzbekistan Sum</field>
         <field name="numeric_code">860</field>
+    </record>
+    <record id="base.VES" model="res.currency">
+        <field name="full_name">Bolívar Soberano</field>
+        <field name="numeric_code">928</field>
     </record>
     <record id="base.VND" model="res.currency">
         <field name="full_name">Dong</field>
