@@ -9,7 +9,6 @@ class ResCurrency(models.Model):
     _inherit = "res.currency"
 
     numeric_code = fields.Char(
-        string="Numeric Code",
         help="ISO Numeric Code for currency, according to ISO 4217 standard.",
     )
 
