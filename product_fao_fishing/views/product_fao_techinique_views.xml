@@ -1,0 +1,55 @@
+<?xml version="1.0" ?>
+<!-- Copyright 2018 Tecnativa - Sergio Teruel
+     License AGPL-3.0 or later (https://www.gnu.org/licenses/agpl). -->
+<odoo>
+    <record id="product_fao_techique_search_view" model="ir.ui.view">
+        <field name="name">product.fao.techique.search</field>
+        <field name="model">product.fao.fishing.technique</field>
+        <field name="arch" type="xml">
+            <search string="Product Fao Fishing Techniques">
+                <field name="name" string="FAO Techniques" />
+                <field name="parent_id" />
+            </search>
+        </field>
+    </record>
+    <record id="product_fao_techique_form_view" model="ir.ui.view">
+        <field name="name">product.fao.techique.form</field>
+        <field name="model">product.fao.fishing.technique</field>
+        <field name="arch" type="xml">
+            <form class="oe_form_configuration">
+                <sheet>
+                    <div class="oe_title">
+                        <label
+                            for="name"
+                            string="Technique name"
+                            class="oe_edit_only"
+                        />
+                        <h1>
+                            <field name="name" />
+                        </h1>
+                    </div>
+                    <group name="first" col="2">
+                        <field name="parent_id" class="oe_inline" />
+                    </group>
+                </sheet>
+            </form>
+        </field>
+    </record>
+    <record id="product_fao_techique_list_view" model="ir.ui.view">
+        <field name="name">product.fao.techique.list</field>
+        <field name="model">product.fao.fishing.technique</field>
+        <field name="priority">1</field>
+        <field name="arch" type="xml">
+            <tree string="Product Fao Techiniques">
+                <field name="display_name" />
+            </tree>
+        </field>
+    </record>
+    <record id="product_fao_techique_action_form" model="ir.actions.act_window">
+        <field name="name">Product Fao Techniques</field>
+        <field name="type">ir.actions.act_window</field>
+        <field name="res_model">product.fao.fishing.technique</field>
+        <field name="search_view_id" ref="product_fao_techique_search_view" />
+        <field name="view_id" ref="product_fao_techique_list_view" />
+    </record>
+</odoo>

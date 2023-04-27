@@ -1,0 +1,30 @@
+<?xml version="1.0" ?>
+<odoo noupdate="1">
+    <record id="fishing_technique_spearfishing" model="product.fao.fishing.technique">
+        <field name="name">Spearfishing</field>
+    </record>
+    <record id="fishing_technique_netting" model="product.fao.fishing.technique">
+        <field name="name">Netting</field>
+    </record>
+    <record id="fishing_technique_trawl_nets" model="product.fao.fishing.technique">
+        <field name="name">Trawl nets</field>
+    </record>
+    <record id="fishing_technique_enmanelle_nets" model="product.fao.fishing.technique">
+        <field name="name">Enmanelle nets and similar</field>
+    </record>
+    <record id="fishing_technique_purse_nets" model="product.fao.fishing.technique">
+        <field name="name">Purse seines and nets hoisted</field>
+    </record>
+    <record id="fishing_technique_angling" model="product.fao.fishing.technique">
+        <field name="name">Angling</field>
+    </record>
+    <record id="fishing_technique_harrows" model="product.fao.fishing.technique">
+        <field name="name">Harrows</field>
+    </record>
+    <record id="fishing_technique_trapping" model="product.fao.fishing.technique">
+        <field name="name">Trapping</field>
+    </record>
+    <record id="fishing_technique_aquaculture" model="product.fao.fishing.technique">
+        <field name="name">Aquaculture</field>
+    </record>
+</odoo>

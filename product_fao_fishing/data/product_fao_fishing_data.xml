@@ -1,0 +1,152 @@
+<?xml version="1.0" ?>
+<odoo noupdate="1">
+    <record id="fao_fishing_area" model="product.attribute">
+        <field name="name">FAO Fishing Areas</field>
+        <field name="create_variant">no_variant</field>
+    </record>
+    <record id="fao_fishing_area_1" model="product.attribute.value">
+        <field name="fao_zone_code" eval="1" />
+        <field name="name">Africa - Inland waters</field>
+        <field name="attribute_id" ref="fao_fishing_area" />
+    </record>
+    <record id="fao_fishing_area_2" model="product.attribute.value">
+        <field name="fao_zone_code" eval="2" />
+        <field name="name">America, North - Inland waters</field>
+        <field name="attribute_id" ref="fao_fishing_area" />
+    </record>
+    <record id="fao_fishing_area_3" model="product.attribute.value">
+        <field name="fao_zone_code" eval="3" />
+        <field name="name">America, South - Inland waters</field>
+        <field name="attribute_id" ref="fao_fishing_area" />
+    </record>
+    <record id="fao_fishing_area_4" model="product.attribute.value">
+        <field name="fao_zone_code" eval="4" />
+        <field name="name">Asia - Inland waters</field>
+        <field name="attribute_id" ref="fao_fishing_area" />
+    </record>
+    <record id="fao_fishing_area_5" model="product.attribute.value">
+        <field name="fao_zone_code" eval="5" />
+        <field name="name">Europe - Inland waters</field>
+        <field name="attribute_id" ref="fao_fishing_area" />
+    </record>
+    <record id="fao_fishing_area_6" model="product.attribute.value">
+        <field name="fao_zone_code" eval="6" />
+        <field name="name">Oceania - Inland waters</field>
+        <field name="attribute_id" ref="fao_fishing_area" />
+    </record>
+    <record id="fao_fishing_area_7" model="product.attribute.value">
+        <field name="fao_zone_code" eval="7" />
+        <field name="name">Former USSR area - Inland waters</field>
+        <field name="attribute_id" ref="fao_fishing_area" />
+    </record>
+    <record id="fao_fishing_area_8" model="product.attribute.value">
+        <field name="fao_zone_code" eval="8" />
+        <field name="name">Antarctica - Inland waters</field>
+        <field name="attribute_id" ref="fao_fishing_area" />
+    </record>
+    <record id="fao_fishing_area_18" model="product.attribute.value">
+        <field name="fao_zone_code" eval="18" />
+        <field name="name">Arctic Sea</field>
+        <field name="attribute_id" ref="fao_fishing_area" />
+    </record>
+    <record id="fao_fishing_area_21" model="product.attribute.value">
+        <field name="fao_zone_code" eval="21" />
+        <field name="name">Atlantic, Northwest</field>
+        <field name="attribute_id" ref="fao_fishing_area" />
+    </record>
+    <record id="fao_fishing_area_27" model="product.attribute.value">
+        <field name="fao_zone_code" eval="27" />
+        <field name="name">Atlantic, Northeast</field>
+        <field name="attribute_id" ref="fao_fishing_area" />
+    </record>
+    <record id="fao_fishing_area_31" model="product.attribute.value">
+        <field name="fao_zone_code" eval="31" />
+        <field name="name">Atlantic, Western Central</field>
+        <field name="attribute_id" ref="fao_fishing_area" />
+    </record>
+    <record id="fao_fishing_area_34" model="product.attribute.value">
+        <field name="fao_zone_code" eval="34" />
+        <field name="name">Atlantic, Eastern Central</field>
+        <field name="attribute_id" ref="fao_fishing_area" />
+    </record>
+    <record id="fao_fishing_area_37" model="product.attribute.value">
+        <field name="fao_zone_code" eval="37" />
+        <field name="name">Mediterranean and Black Sea</field>
+        <field name="attribute_id" ref="fao_fishing_area" />
+    </record>
+    <record id="fao_fishing_area_41" model="product.attribute.value">
+        <field name="fao_zone_code" eval="41" />
+        <field name="name">Atlantic, Southwest</field>
+        <field name="attribute_id" ref="fao_fishing_area" />
+    </record>
+    <record id="fao_fishing_area_47" model="product.attribute.value">
+        <field name="fao_zone_code" eval="47" />
+        <field name="name">Atlantic, Southeast</field>
+        <field name="attribute_id" ref="fao_fishing_area" />
+    </record>
+    <record id="fao_fishing_area_48" model="product.attribute.value">
+        <field name="fao_zone_code" eval="48" />
+        <field name="name">Atlantic, Antarctic</field>
+        <field name="attribute_id" ref="fao_fishing_area" />
+    </record>
+    <record id="fao_fishing_area_51" model="product.attribute.value">
+        <field name="fao_zone_code" eval="51" />
+        <field name="name">Indian Ocean, Western</field>
+        <field name="attribute_id" ref="fao_fishing_area" />
+    </record>
+    <record id="fao_fishing_area_57" model="product.attribute.value">
+        <field name="fao_zone_code" eval="57" />
+        <field name="name">Indian Ocean, Eastern</field>
+        <field name="attribute_id" ref="fao_fishing_area" />
+    </record>
+    <record id="fao_fishing_area_58" model="product.attribute.value">
+        <field name="fao_zone_code" eval="58" />
+        <field name="name">Indian Ocean, Antarctic</field>
+        <field name="attribute_id" ref="fao_fishing_area" />
+    </record>
+    <record id="fao_fishing_area_61" model="product.attribute.value">
+        <field name="fao_zone_code" eval="61" />
+        <field name="name">Pacific, Northwest</field>
+        <field name="attribute_id" ref="fao_fishing_area" />
+    </record>
+    <record id="fao_fishing_area_67" model="product.attribute.value">
+        <field name="fao_zone_code" eval="67" />
+        <field name="name">Pacific, Northeast</field>
+        <field name="attribute_id" ref="fao_fishing_area" />
+    </record>
+    <record id="fao_fishing_area_71" model="product.attribute.value">
+        <field name="fao_zone_code" eval="71" />
+        <field name="name">Pacific, Western Central</field>
+        <field name="attribute_id" ref="fao_fishing_area" />
+    </record>
+    <record id="fao_fishing_area_77" model="product.attribute.value">
+        <field name="fao_zone_code" eval="77" />
+        <field name="name">Pacific, Eastern Central</field>
+        <field name="attribute_id" ref="fao_fishing_area" />
+    </record>
+    <record id="fao_fishing_area_81" model="product.attribute.value">
+        <field name="fao_zone_code" eval="81" />
+        <field name="name">Pacific, Southwest</field>
+        <field name="attribute_id" ref="fao_fishing_area" />
+    </record>
+    <record id="fao_fishing_area_87" model="product.attribute.value">
+        <field name="fao_zone_code" eval="87" />
+        <field name="name">Pacific, Southeast</field>
+        <field name="attribute_id" ref="fao_fishing_area" />
+    </record>
+    <record id="fao_fishing_area_88" model="product.attribute.value">
+        <field name="fao_zone_code" eval="88" />
+        <field name="name">Pacific, Antarctic</field>
+        <field name="attribute_id" ref="fao_fishing_area" />
+    </record>
+    <record id="fao_fishing_area_98" model="product.attribute.value">
+        <field name="fao_zone_code" eval="98" />
+        <field name="name">Antarctic areas nei</field>
+        <field name="attribute_id" ref="fao_fishing_area" />
+    </record>
+    <record id="fao_fishing_area_99" model="product.attribute.value">
+        <field name="fao_zone_code" eval="99" />
+        <field name="name">Marine areas outside the Antarctic</field>
+        <field name="attribute_id" ref="fao_fishing_area" />
+    </record>
+</odoo>

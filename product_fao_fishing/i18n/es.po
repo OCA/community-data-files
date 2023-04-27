@@ -1,0 +1,373 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* product_fao_fishing
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 11.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-07-05 12:01+0200\n"
+"PO-Revision-Date: 2018-07-05 12:24+0200\n"
+"Last-Translator: Sergio Teruel <sergio.teruel@tecnativa.com>\n"
+"Language-Team: \n"
+"Language: es\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 1.8.7.1\n"
+
+#. module: product_fao_fishing
+#: model:product.attribute.value,name:product_fao_fishing.fao_fishing_area_1
+#, fuzzy
+msgid "Africa - Inland waters"
+msgstr "Sudáfrica"
+
+#. module: product_fao_fishing
+#: model:product.attribute.value,name:product_fao_fishing.fao_fishing_area_2
+msgid "America, North - Inland waters"
+msgstr "África - Aguas continentales"
+
+#. module: product_fao_fishing
+#: model:product.attribute.value,name:product_fao_fishing.fao_fishing_area_3
+msgid "America, South - Inland waters"
+msgstr "América del Sur - Aguas continentales"
+
+#. module: product_fao_fishing
+#: model:product.fao.fishing.technique,name:product_fao_fishing.fishing_technique_angling
+msgid "Angling"
+msgstr ""
+
+#. module: product_fao_fishing
+#: model:product.attribute.value,name:product_fao_fishing.fao_fishing_area_98
+#, fuzzy
+msgid "Antarctic areas nei"
+msgstr "Areas / Departamentos"
+
+#. module: product_fao_fishing
+#: model:product.attribute.value,name:product_fao_fishing.fao_fishing_area_8
+#, fuzzy
+msgid "Antarctica - Inland waters"
+msgstr "Antártida"
+
+#. module: product_fao_fishing
+#: model:product.fao.fishing.technique,name:product_fao_fishing.fishing_technique_aquaculture
+msgid "Aquaculture"
+msgstr "Acuicultura"
+
+#. module: product_fao_fishing
+#: model:product.attribute.value,name:product_fao_fishing.fao_fishing_area_18
+msgid "Arctic Sea"
+msgstr "Mar Ártico"
+
+#. module: product_fao_fishing
+#: model:product.attribute.value,name:product_fao_fishing.fao_fishing_area_4
+msgid "Asia - Inland waters"
+msgstr "Asia - Aguas continentales"
+
+#. module: product_fao_fishing
+#: model:product.attribute.value,name:product_fao_fishing.fao_fishing_area_48
+msgid "Atlantic, Antarctic"
+msgstr "Atlántico, Antártico"
+
+#. module: product_fao_fishing
+#: model:product.attribute.value,name:product_fao_fishing.fao_fishing_area_34
+#, fuzzy
+msgid "Atlantic, Eastern Central"
+msgstr "República Centro Africana"
+
+#. module: product_fao_fishing
+#: model:product.attribute.value,name:product_fao_fishing.fao_fishing_area_27
+msgid "Atlantic, Northeast"
+msgstr "Atlántico, nordeste"
+
+#. module: product_fao_fishing
+#: model:product.attribute.value,name:product_fao_fishing.fao_fishing_area_21
+msgid "Atlantic, Northwest"
+msgstr ""
+
+#. module: product_fao_fishing
+#: model:product.attribute.value,name:product_fao_fishing.fao_fishing_area_47
+msgid "Atlantic, Southeast"
+msgstr ""
+
+#. module: product_fao_fishing
+#: model:product.attribute.value,name:product_fao_fishing.fao_fishing_area_41
+msgid "Atlantic, Southwest"
+msgstr ""
+
+#. module: product_fao_fishing
+#: model:product.attribute.value,name:product_fao_fishing.fao_fishing_area_31
+#, fuzzy
+msgid "Atlantic, Western Central"
+msgstr "Sáhara occidental"
+
+#. module: product_fao_fishing
+#: model:ir.model,name:product_fao_fishing.model_product_attribute_value
+#, fuzzy
+msgid "Attribute Value"
+msgstr "product.attribute.value"
+
+#. module: product_fao_fishing
+#: model:ir.model.fields,field_description:product_fao_fishing.field_product_fao_fishing_technique__child_id
+msgid "Child Technique"
+msgstr "Subtécnica"
+
+#. module: product_fao_fishing
+#: model:ir.model.fields,field_description:product_fao_fishing.field_product_fao_fishing_technique__complete_name
+msgid "Complete Name"
+msgstr "Nombre completo"
+
+#. module: product_fao_fishing
+#: model:ir.model.fields,field_description:product_fao_fishing.field_product_fao_fishing_technique__create_uid
+msgid "Created by"
+msgstr "Creado por"
+
+#. module: product_fao_fishing
+#: model:ir.model.fields,field_description:product_fao_fishing.field_product_fao_fishing_technique__create_date
+msgid "Created on"
+msgstr "Creado en"
+
+#. module: product_fao_fishing
+#: model:ir.model.fields,field_description:product_fao_fishing.field_product_fao_fishing_technique__display_name
+msgid "Display Name"
+msgstr "Mostrar Nombre"
+
+#. module: product_fao_fishing
+#: model:product.fao.fishing.technique,name:product_fao_fishing.fishing_technique_enmanelle_nets
+msgid "Enmanelle nets and similar"
+msgstr ""
+
+#. module: product_fao_fishing
+#: code:addons/product_fao_fishing/models/product_fao_fishing_technique.py:0
+#, python-format
+msgid "Error ! You cannot create recursive techniques."
+msgstr "¡Error! No puede crear técnicas recursivas"
+
+#. module: product_fao_fishing
+#: model:product.attribute.value,name:product_fao_fishing.fao_fishing_area_5
+msgid "Europe - Inland waters"
+msgstr ""
+
+#. module: product_fao_fishing
+#: model:product.attribute,name:product_fao_fishing.fao_fishing_area
+msgid "FAO Fishing Areas"
+msgstr "Areas de pesca FAO"
+
+#. module: product_fao_fishing
+#: model:ir.model.fields,field_description:product_fao_fishing.field_product_product__fao_fishing_technique_id
+#: model:ir.model.fields,field_description:product_fao_fishing.field_product_template__fao_fishing_technique_id
+msgid "FAO Fishing Tech."
+msgstr ""
+
+#. module: product_fao_fishing
+#: model_terms:ir.ui.view,arch_db:product_fao_fishing.product_fao_techique_search_view
+msgid "FAO Techniques"
+msgstr ""
+
+#. module: product_fao_fishing
+#: model:ir.model.fields,field_description:product_fao_fishing.field_product_product__fao_fishing_area_ids
+#: model:ir.model.fields,field_description:product_fao_fishing.field_product_template__fao_fishing_area_ids
+#, fuzzy
+msgid "Fao Fishing Area"
+msgstr "Areas de pesca FAO"
+
+#. module: product_fao_fishing
+#: model:ir.model,name:product_fao_fishing.model_product_fao_fishing_technique
+msgid "Fishing Technique"
+msgstr ""
+
+#. module: product_fao_fishing
+#: model:product.attribute.value,name:product_fao_fishing.fao_fishing_area_7
+msgid "Former USSR area - Inland waters"
+msgstr ""
+
+#. module: product_fao_fishing
+#: model:product.fao.fishing.technique,name:product_fao_fishing.fishing_technique_harrows
+msgid "Harrows"
+msgstr ""
+
+#. module: product_fao_fishing
+#: model:ir.model.fields,field_description:product_fao_fishing.field_product_fao_fishing_technique__id
+msgid "ID"
+msgstr "ID"
+
+#. module: product_fao_fishing
+#: model:product.attribute.value,name:product_fao_fishing.fao_fishing_area_58
+#, fuzzy
+msgid "Indian Ocean, Antarctic"
+msgstr "Territorio británico del Océano Índico"
+
+#. module: product_fao_fishing
+#: model:product.attribute.value,name:product_fao_fishing.fao_fishing_area_57
+#, fuzzy
+msgid "Indian Ocean, Eastern"
+msgstr "Territorio británico del Océano Índico"
+
+#. module: product_fao_fishing
+#: model:product.attribute.value,name:product_fao_fishing.fao_fishing_area_51
+#, fuzzy
+msgid "Indian Ocean, Western"
+msgstr "Territorio británico del Océano Índico"
+
+#. module: product_fao_fishing
+#: model:ir.model.fields,field_description:product_fao_fishing.field_product_fao_fishing_technique____last_update
+#, fuzzy
+msgid "Last Modified on"
+msgstr "Última modificación en"
+
+#. module: product_fao_fishing
+#: model:ir.model.fields,field_description:product_fao_fishing.field_product_fao_fishing_technique__write_uid
+#, fuzzy
+msgid "Last Updated by"
+msgstr "Última modificación por"
+
+#. module: product_fao_fishing
+#: model:ir.model.fields,field_description:product_fao_fishing.field_product_fao_fishing_technique__write_date
+#, fuzzy
+msgid "Last Updated on"
+msgstr "Última actualización en"
+
+#. module: product_fao_fishing
+#: model:product.attribute.value,name:product_fao_fishing.fao_fishing_area_99
+msgid "Marine areas outside the Antarctic"
+msgstr ""
+
+#. module: product_fao_fishing
+#: model:product.attribute.value,name:product_fao_fishing.fao_fishing_area_37
+#, fuzzy
+msgid "Mediterranean and Black Sea"
+msgstr "Negro"
+
+#. module: product_fao_fishing
+#: model:ir.model.fields,field_description:product_fao_fishing.field_product_fao_fishing_technique__name
+#, fuzzy
+msgid "Name"
+msgstr "Nombre"
+
+#. module: product_fao_fishing
+#: model:product.fao.fishing.technique,name:product_fao_fishing.fishing_technique_netting
+msgid "Netting"
+msgstr ""
+
+#. module: product_fao_fishing
+#: model:product.attribute.value,name:product_fao_fishing.fao_fishing_area_6
+msgid "Oceania - Inland waters"
+msgstr ""
+
+#. module: product_fao_fishing
+#: model:product.attribute.value,name:product_fao_fishing.fao_fishing_area_88
+msgid "Pacific, Antarctic"
+msgstr ""
+
+#. module: product_fao_fishing
+#: model:product.attribute.value,name:product_fao_fishing.fao_fishing_area_77
+#, fuzzy
+msgid "Pacific, Eastern Central"
+msgstr "República Centro Africana"
+
+#. module: product_fao_fishing
+#: model:product.attribute.value,name:product_fao_fishing.fao_fishing_area_67
+msgid "Pacific, Northeast"
+msgstr ""
+
+#. module: product_fao_fishing
+#: model:product.attribute.value,name:product_fao_fishing.fao_fishing_area_61
+msgid "Pacific, Northwest"
+msgstr ""
+
+#. module: product_fao_fishing
+#: model:product.attribute.value,name:product_fao_fishing.fao_fishing_area_87
+msgid "Pacific, Southeast"
+msgstr ""
+
+#. module: product_fao_fishing
+#: model:product.attribute.value,name:product_fao_fishing.fao_fishing_area_81
+msgid "Pacific, Southwest"
+msgstr ""
+
+#. module: product_fao_fishing
+#: model:product.attribute.value,name:product_fao_fishing.fao_fishing_area_71
+#, fuzzy
+msgid "Pacific, Western Central"
+msgstr "Sáhara occidental"
+
+#. module: product_fao_fishing
+#: model:ir.model.fields,field_description:product_fao_fishing.field_product_fao_fishing_technique__parent_path
+msgid "Parent Path"
+msgstr ""
+
+#. module: product_fao_fishing
+#: model:ir.model.fields,field_description:product_fao_fishing.field_product_fao_fishing_technique__parent_id
+#, fuzzy
+msgid "Parent Technique"
+msgstr "Padre"
+
+#. module: product_fao_fishing
+#: model_terms:ir.ui.view,arch_db:product_fao_fishing.product_fao_techique_search_view
+msgid "Product Fao Fishing Techniques"
+msgstr ""
+
+#. module: product_fao_fishing
+#: model_terms:ir.ui.view,arch_db:product_fao_fishing.product_fao_techique_list_view
+msgid "Product Fao Techiniques"
+msgstr "Técnicas de pesca"
+
+#. module: product_fao_fishing
+#: model:ir.actions.act_window,name:product_fao_fishing.product_fao_techique_action_form
+msgid "Product Fao Techniques"
+msgstr "Técnicas de pesca"
+
+#. module: product_fao_fishing
+#: model:ir.model,name:product_fao_fishing.model_product_template
+msgid "Product Template"
+msgstr "Plantilla de producto"
+
+#. module: product_fao_fishing
+#: model:ir.model,name:product_fao_fishing.model_product_template_attribute_value
+#, fuzzy
+msgid "Product Template Attribute Value"
+msgstr "product.attribute.value"
+
+#. module: product_fao_fishing
+#: model:product.fao.fishing.technique,name:product_fao_fishing.fishing_technique_purse_nets
+msgid "Purse seines and nets hoisted"
+msgstr ""
+
+#. module: product_fao_fishing
+#: model:product.fao.fishing.technique,name:product_fao_fishing.fishing_technique_spearfishing
+msgid "Spearfishing"
+msgstr ""
+
+#. module: product_fao_fishing
+#: model_terms:ir.ui.view,arch_db:product_fao_fishing.product_fao_techique_form_view
+msgid "Technique name"
+msgstr "Nombre técnica"
+
+#. module: product_fao_fishing
+#: model:product.fao.fishing.technique,name:product_fao_fishing.fishing_technique_trapping
+msgid "Trapping"
+msgstr ""
+
+#. module: product_fao_fishing
+#: model:product.fao.fishing.technique,name:product_fao_fishing.fishing_technique_trawl_nets
+msgid "Trawl nets"
+msgstr ""
+
+#. module: product_fao_fishing
+#: model:ir.model.fields,field_description:product_fao_fishing.field_product_attribute_value__fao_zone_code
+#: model:ir.model.fields,field_description:product_fao_fishing.field_product_template_attribute_value__fao_zone_code
+msgid "Zone Code"
+msgstr "Código Zona"
+
+#, fuzzy
+#~ msgid "Draft nets"
+#~ msgstr "Borrador"
+
+#, fuzzy
+#~ msgid "Left Parent"
+#~ msgstr "Padre izquierdo"
+
+#, fuzzy
+#~ msgid "Right Parent"
+#~ msgstr "Padre derecho"
