@@ -1,9 +1,9 @@
 # Copyright 2018 Tecnativa - Sergio Teruel
 # License AGPL-3.0 or later (https://www.gnu.org/licenses/agpl).
-from odoo.tests import SavepointCase
+from odoo.tests import TransactionCase
 
 
-class TestProductFaoFishing(SavepointCase):
+class TestProductFaoFishing(TransactionCase):
     @classmethod
     def setUpClass(cls):
         super().setUpClass()
