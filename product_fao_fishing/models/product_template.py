@@ -34,7 +34,7 @@ class ProductTemplate(models.Model):
 
     def _compute_fao_fishing_technique_ids(self):
         """
-        Helper method to retrieve the fishing areas from product attributes
+        Helper method to retrieve the fishing techniques from product attributes
         """
         fao_fishing_technique_attribute = self.env.ref(
             "product_fao_fishing.fao_fishing_technique"
