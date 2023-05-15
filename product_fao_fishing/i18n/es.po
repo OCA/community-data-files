@@ -1,0 +1,251 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* product_fao_fishing
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 11.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-12-12 18:18+0000\n"
+"PO-Revision-Date: 2022-12-12 19:28+0100\n"
+"Last-Translator: Sergio Teruel <sergio.teruel@tecnativa.com>\n"
+"Language-Team: \n"
+"Language: es\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 3.0.1\n"
+
+#. module: product_fao_fishing
+#: model:product.attribute.value,name:product_fao_fishing.fao_fishing_area_1
+msgid "Africa - Inland waters"
+msgstr "África - Aguas continentales"
+
+#. module: product_fao_fishing
+#: model:product.attribute.value,name:product_fao_fishing.fao_fishing_area_2
+msgid "America, North - Inland waters"
+msgstr "América, Norte - Aguas continentales"
+
+#. module: product_fao_fishing
+#: model:product.attribute.value,name:product_fao_fishing.fao_fishing_area_3
+msgid "America, South - Inland waters"
+msgstr "América, Sur - Aguas continentales"
+
+#. module: product_fao_fishing
+#: model:product.attribute.value,name:product_fao_fishing.fishing_technique_att_value_angling
+msgid "Angling"
+msgstr "Pesca con caña"
+
+#. module: product_fao_fishing
+#: model:product.attribute.value,name:product_fao_fishing.fao_fishing_area_98
+msgid "Antarctic areas nei"
+msgstr "Áreas antárticas"
+
+#. module: product_fao_fishing
+#: model:product.attribute.value,name:product_fao_fishing.fao_fishing_area_8
+msgid "Antarctica - Inland waters"
+msgstr "Antártida - Aguas continentales"
+
+#. module: product_fao_fishing
+#: model:product.attribute.value,name:product_fao_fishing.fishing_technique_att_value_aquaculture
+msgid "Aquaculture"
+msgstr "Acuicultura"
+
+#. module: product_fao_fishing
+#: model:product.attribute.value,name:product_fao_fishing.fao_fishing_area_18
+msgid "Arctic Sea"
+msgstr "Mar Ártico"
+
+#. module: product_fao_fishing
+#: model:product.attribute.value,name:product_fao_fishing.fao_fishing_area_4
+msgid "Asia - Inland waters"
+msgstr "Asia - Aguas continentales"
+
+#. module: product_fao_fishing
+#: model:product.attribute.value,name:product_fao_fishing.fao_fishing_area_48
+msgid "Atlantic, Antarctic"
+msgstr "Atlántico, Antártico"
+
+#. module: product_fao_fishing
+#: model:product.attribute.value,name:product_fao_fishing.fao_fishing_area_34
+msgid "Atlantic, Eastern Central"
+msgstr "Atlántico, Este Central"
+
+#. module: product_fao_fishing
+#: model:product.attribute.value,name:product_fao_fishing.fao_fishing_area_27
+msgid "Atlantic, Northeast"
+msgstr "Atlántico, Noreste"
+
+#. module: product_fao_fishing
+#: model:product.attribute.value,name:product_fao_fishing.fao_fishing_area_21
+msgid "Atlantic, Northwest"
+msgstr "Atlántico, Noroeste"
+
+#. module: product_fao_fishing
+#: model:product.attribute.value,name:product_fao_fishing.fao_fishing_area_47
+msgid "Atlantic, Southeast"
+msgstr "Atlántico, Sudeste"
+
+#. module: product_fao_fishing
+#: model:product.attribute.value,name:product_fao_fishing.fao_fishing_area_41
+msgid "Atlantic, Southwest"
+msgstr "Atlántico, suroeste"
+
+#. module: product_fao_fishing
+#: model:product.attribute.value,name:product_fao_fishing.fao_fishing_area_31
+msgid "Atlantic, Western Central"
+msgstr "Atlántico, centro occidental"
+
+#. module: product_fao_fishing
+#: model:ir.model,name:product_fao_fishing.model_product_attribute_value
+msgid "Attribute Value"
+msgstr "Valor del Atributo"
+
+#. module: product_fao_fishing
+#: model:product.attribute.value,name:product_fao_fishing.fishing_technique_att_value_enmanelle_nets
+msgid "Enmanelle nets and similar"
+msgstr "Redes Enmanelle y similares"
+
+#. module: product_fao_fishing
+#: model:product.attribute.value,name:product_fao_fishing.fao_fishing_area_5
+msgid "Europe - Inland waters"
+msgstr "Europa - Aguas continentales"
+
+#. module: product_fao_fishing
+#: model:product.attribute,name:product_fao_fishing.fao_fishing_area
+msgid "FAO Fishing Areas"
+msgstr "Areas de pesca FAO"
+
+#. module: product_fao_fishing
+#: model:product.attribute,name:product_fao_fishing.fao_fishing_technique
+msgid "FAO Fishing Technique"
+msgstr "Técnica de pesca FAO"
+
+#. module: product_fao_fishing
+#: model:ir.model.fields,field_description:product_fao_fishing.field_product_product__fao_fishing_area_ids
+#: model:ir.model.fields,field_description:product_fao_fishing.field_product_template__fao_fishing_area_ids
+msgid "Fao Fishing Area"
+msgstr "Areas de pesca FAO"
+
+#. module: product_fao_fishing
+#: model:ir.model.fields,field_description:product_fao_fishing.field_product_product__fao_fishing_technique_ids
+#: model:ir.model.fields,field_description:product_fao_fishing.field_product_template__fao_fishing_technique_ids
+msgid "Fao Fishing Technique"
+msgstr "Técnica de pesca FAO"
+
+#. module: product_fao_fishing
+#: model:product.attribute.value,name:product_fao_fishing.fao_fishing_area_7
+msgid "Former USSR area - Inland waters"
+msgstr "Zona de la antigua URSS - Aguas continentales"
+
+#. module: product_fao_fishing
+#: model:product.attribute.value,name:product_fao_fishing.fishing_technique_att_value_harrows
+msgid "Harrows"
+msgstr "Gradas"
+
+#. module: product_fao_fishing
+#: model:product.attribute.value,name:product_fao_fishing.fao_fishing_area_58
+msgid "Indian Ocean, Antarctic"
+msgstr "Océano Índico, Antártida"
+
+#. module: product_fao_fishing
+#: model:product.attribute.value,name:product_fao_fishing.fao_fishing_area_57
+msgid "Indian Ocean, Eastern"
+msgstr "Océano Índico, Este"
+
+#. module: product_fao_fishing
+#: model:product.attribute.value,name:product_fao_fishing.fao_fishing_area_51
+msgid "Indian Ocean, Western"
+msgstr "Océano Índico, Oeste"
+
+#. module: product_fao_fishing
+#: model:product.attribute.value,name:product_fao_fishing.fao_fishing_area_99
+msgid "Marine areas outside the Antarctic"
+msgstr "Áreas marinas fuera de la Antártida"
+
+#. module: product_fao_fishing
+#: model:product.attribute.value,name:product_fao_fishing.fao_fishing_area_37
+msgid "Mediterranean and Black Sea"
+msgstr "Mediterráneo y Mar Negro"
+
+#. module: product_fao_fishing
+#: model:product.attribute.value,name:product_fao_fishing.fishing_technique_att_value_netting
+msgid "Netting"
+msgstr "Redes"
+
+#. module: product_fao_fishing
+#: model:product.attribute.value,name:product_fao_fishing.fao_fishing_area_6
+msgid "Oceania - Inland waters"
+msgstr "Oceanía - Aguas continentales"
+
+#. module: product_fao_fishing
+#: model:product.attribute.value,name:product_fao_fishing.fao_fishing_area_88
+msgid "Pacific, Antarctic"
+msgstr "Pacífico, Antártida"
+
+#. module: product_fao_fishing
+#: model:product.attribute.value,name:product_fao_fishing.fao_fishing_area_77
+msgid "Pacific, Eastern Central"
+msgstr "Pacífico, Este Central"
+
+#. module: product_fao_fishing
+#: model:product.attribute.value,name:product_fao_fishing.fao_fishing_area_67
+msgid "Pacific, Northeast"
+msgstr "Pacífico, Noreste"
+
+#. module: product_fao_fishing
+#: model:product.attribute.value,name:product_fao_fishing.fao_fishing_area_61
+msgid "Pacific, Northwest"
+msgstr "Noroeste pacífico"
+
+#. module: product_fao_fishing
+#: model:product.attribute.value,name:product_fao_fishing.fao_fishing_area_87
+msgid "Pacific, Southeast"
+msgstr "Pacífico, Sudeste"
+
+#. module: product_fao_fishing
+#: model:product.attribute.value,name:product_fao_fishing.fao_fishing_area_81
+msgid "Pacific, Southwest"
+msgstr "Pacífico, suroeste"
+
+#. module: product_fao_fishing
+#: model:product.attribute.value,name:product_fao_fishing.fao_fishing_area_71
+msgid "Pacific, Western Central"
+msgstr "Pacífico, centro occidental"
+
+#. module: product_fao_fishing
+#: model:ir.model,name:product_fao_fishing.model_product_template
+msgid "Product Template"
+msgstr "Plantilla de producto"
+
+#. module: product_fao_fishing
+#: model:ir.model,name:product_fao_fishing.model_product_template_attribute_value
+msgid "Product Template Attribute Value"
+msgstr "Valor personalizado del atributo del producto"
+
+#. module: product_fao_fishing
+#: model:product.attribute.value,name:product_fao_fishing.fishing_technique_att_value_purse_nets
+msgid "Purse seines and nets hoisted"
+msgstr "Izado de redes y redes de cerco"
+
+#. module: product_fao_fishing
+#: model:product.attribute.value,name:product_fao_fishing.fishing_technique_att_value_spearfishing
+msgid "Spearfishing"
+msgstr "Pesca submarina"
+
+#. module: product_fao_fishing
+#: model:product.attribute.value,name:product_fao_fishing.fishing_technique_att_value_trapping
+msgid "Trapping"
+msgstr "Captura"
+
+#. module: product_fao_fishing
+#: model:product.attribute.value,name:product_fao_fishing.fishing_technique_att_value_trawl_nets
+msgid "Trawl nets"
+msgstr "Redes de arrastre"
+
+#. module: product_fao_fishing
+#: model:ir.model.fields,field_description:product_fao_fishing.field_product_attribute_value__fao_zone_code
+#: model:ir.model.fields,field_description:product_fao_fishing.field_product_template_attribute_value__fao_zone_code
+msgid "Zone Code"
+msgstr "Código Zona"
