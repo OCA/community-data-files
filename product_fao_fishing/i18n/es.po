@@ -216,8 +216,8 @@ msgstr "Pacífico, centro occidental"
 
 #. module: product_fao_fishing
 #: model:ir.model,name:product_fao_fishing.model_product_template
-msgid "Product Template"
-msgstr "Plantilla de producto"
+msgid "Product"
+msgstr ""
 
 #. module: product_fao_fishing
 #: model:ir.model,name:product_fao_fishing.model_product_template_attribute_value
@@ -249,3 +249,6 @@ msgstr "Redes de arrastre"
 #: model:ir.model.fields,field_description:product_fao_fishing.field_product_template_attribute_value__fao_zone_code
 msgid "Zone Code"
 msgstr "Código Zona"
+
+#~ msgid "Product Template"
+#~ msgstr "Plantilla de producto"
