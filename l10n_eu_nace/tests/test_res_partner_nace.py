@@ -6,7 +6,7 @@ from odoo.tests.common import TransactionCase
 
 class TestResPartnerNace(TransactionCase):
     def setUp(self):
-        super(TestResPartnerNace, self).setUp()
+        super().setUp()
         self.nace = self.env["res.partner.nace"].create(
             {"name": "nace_test", "code": "code_nace"}
         )
