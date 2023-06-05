@@ -7,7 +7,7 @@
         <field name="inherit_id" ref="account.view_account_tax_template_form" />
         <field name="arch" type="xml">
             <notebook position="inside">
-                <page string="Unece">
+                <page string="UNECE" name="unece-tab">
                     <group name="unece">
                         <field
                             name="unece_type_id"
