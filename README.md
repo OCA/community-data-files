@@ -26,6 +26,7 @@ addon | version | maintainers | summary
 [base_bank_from_iban](base_bank_from_iban/) | 15.0.1.0.1 |  | Bank from IBAN
 [base_iso3166](base_iso3166/) | 15.0.1.0.1 |  | ISO 3166
 [base_unece](base_unece/) | 15.0.1.0.0 | [![astirpe](https://github.com/astirpe.png?size=30px)](https://github.com/astirpe) [![alexis-via](https://github.com/alexis-via.png?size=30px)](https://github.com/alexis-via) | Base module for UNECE code lists
+[company_sanitary_registry](company_sanitary_registry/) | 15.0.1.0.0 |  | Sanitary Registry
 [product_fao_fishing](product_fao_fishing/) | 15.0.1.0.1 |  | Set fishing areas and capture technology
 [uom_unece](uom_unece/) | 15.0.1.0.0 | [![astirpe](https://github.com/astirpe.png?size=30px)](https://github.com/astirpe) [![alexis-via](https://github.com/alexis-via.png?size=30px)](https://github.com/alexis-via) | UNECE nomenclature for the units of measure
 
