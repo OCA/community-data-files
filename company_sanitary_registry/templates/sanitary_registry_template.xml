@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<odoo>
+    <template id="sanitary_registry_template">
+        <div class="row">
+            <t t-if="not o" t-set="o" t-value="doc" />
+            <t t-if="not company">
+                <!-- Multicompany -->
+                <t t-if="company_id">
+                    <t t-set="company" t-value="company_id" />
+                </t>
+                <t t-elif="o and 'company_id' in o and o.company_id.sudo()">
+                    <t t-set="company" t-value="o.company_id.sudo()" />
+                </t>
+                <t t-else="else">
+                    <t t-set="company" t-value="res_company" />
+                </t>
+            </t>
+            <t
+                t-set="sanitary_registry"
+                t-value="sanitary_registry or company.sanitary_registry"
+            />
+            <div class="col" style="text-align:center;">
+                <div
+                    t-if="sanitary_registry"
+                    style="border:solid black 1px; border-radius:50%; padding:3px; margin-top:12px; text-align:center"
+                >
+                    <div>
+                        <span t-field="company.country_id.code" />
+                    </div>
+                    <div>
+                        <span t-out="sanitary_registry" />
+                    </div>
+                    <div>
+                        <span>CE</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </template>
+</odoo>
