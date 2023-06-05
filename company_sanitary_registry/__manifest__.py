@@ -2,7 +2,7 @@
 # License AGPL-3 - See https://www.gnu.org/licenses/agpl-3.0.html
 {
     "name": "Sanitary Registry",
-    "version": "15.0.1.0.0",
+    "version": "16.0.1.0.0",
     "depends": ["base"],
     "data": [
         "templates/sanitary_registry_template.xml",
