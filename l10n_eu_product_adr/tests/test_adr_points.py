@@ -35,9 +35,9 @@ class TestAdrPoints(TestStockCommon):
             move.product_uom_qty = 5000
         picking = form.save()
         # Qty 2 * weight 10 * factor 20
-        self.assertEqual(picking.move_lines[0].adr_points, 400)
+        self.assertEqual(picking.move_ids[0].adr_points, 400)
         # UoM qty 3 * factor 3
-        self.assertEqual(picking.move_lines[1].adr_points, 9)
+        self.assertEqual(picking.move_ids[1].adr_points, 9)
         # UoM qty 5000 / UoM factor 1000 * factor 3
-        self.assertEqual(picking.move_lines[2].adr_points, 15)
+        self.assertEqual(picking.move_ids[2].adr_points, 15)
         self.assertEqual(picking.adr_points, 424)

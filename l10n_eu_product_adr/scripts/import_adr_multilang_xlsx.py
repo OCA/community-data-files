@@ -421,7 +421,7 @@ def transform_row(root, row):
         try:
             transformers[field](record, value, row)
         except (ValueError, AttributeError) as e:
-            raise ValueError("Could not transform row {}: {}".format(row, e))
+            raise ValueError("Could not transform row {}: {}".format(row, e)) from e
     return record.attrib["id"]
 
 
