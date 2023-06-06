@@ -15,10 +15,12 @@
                     <field
                         name="unece_type_id"
                         context="{'default_type': 'tax_type'}"
+                        options="{'no_create': True, 'no_create_edit': True}"
                     />
                     <field
                         name="unece_categ_id"
                         context="{'default_type': 'tax_categ'}"
+                        options="{'no_create': True, 'no_create_edit': True}"
                     />
                 </group>
             </group>
