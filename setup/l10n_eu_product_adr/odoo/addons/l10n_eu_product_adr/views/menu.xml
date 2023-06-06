@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<odoo>
+    <menuitem
+        id="adr_main_menu"
+        name="Dangerous Goods"
+        parent="stock.menu_stock_config_settings"
+        sequence="5"
+    />
+    <menuitem
+        id="adr_goods_menu"
+        name="Dangerous Goods"
+        parent="adr_main_menu"
+        action="adr_goods_action"
+        sequence="5"
+    />
+    <menuitem
+        id="adr_class_menu"
+        name="Dangerous Goods Classes"
+        parent="adr_main_menu"
+        action="adr_class_action"
+        sequence="10"
+        groups="base.group_no_one"
+    />
+    <menuitem
+        id="adr_packing_instruction_menu"
+        name="Dangerous Goods Packing Instructions"
+        parent="adr_main_menu"
+        action="adr_packing_instruction_action"
+        sequence="15"
+        groups="base.group_no_one"
+    />
+    <menuitem
+        id="adr_label_menu"
+        name="Dangerous Goods Labels"
+        parent="adr_main_menu"
+        action="adr_label_action"
+        sequence="20"
+        groups="base.group_no_one"
+    />
+</odoo>

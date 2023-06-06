@@ -1,0 +1,351 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<odoo>
+<record id="adr_packing_instruction_IBC01" model="adr.packing.instruction"><field
+            name="code"
+        >IBC01</field></record>
+<record id="adr_packing_instruction_IBC02" model="adr.packing.instruction"><field
+            name="code"
+        >IBC02</field></record>
+<record id="adr_packing_instruction_IBC03" model="adr.packing.instruction"><field
+            name="code"
+        >IBC03</field></record>
+<record id="adr_packing_instruction_IBC04" model="adr.packing.instruction"><field
+            name="code"
+        >IBC04</field></record>
+<record id="adr_packing_instruction_IBC05" model="adr.packing.instruction"><field
+            name="code"
+        >IBC05</field></record>
+<record id="adr_packing_instruction_IBC06" model="adr.packing.instruction"><field
+            name="code"
+        >IBC06</field></record>
+<record id="adr_packing_instruction_IBC07" model="adr.packing.instruction"><field
+            name="code"
+        >IBC07</field></record>
+<record id="adr_packing_instruction_IBC08" model="adr.packing.instruction"><field
+            name="code"
+        >IBC08</field></record>
+<record id="adr_packing_instruction_IBC100" model="adr.packing.instruction"><field
+            name="code"
+        >IBC100</field></record>
+<record id="adr_packing_instruction_IBC520" model="adr.packing.instruction"><field
+            name="code"
+        >IBC520</field></record>
+<record id="adr_packing_instruction_IBC620" model="adr.packing.instruction"><field
+            name="code"
+        >IBC620</field></record>
+<record id="adr_packing_instruction_IBC99" model="adr.packing.instruction"><field
+            name="code"
+        >IBC99</field></record>
+<record id="adr_packing_instruction_LP01" model="adr.packing.instruction"><field
+            name="code"
+        >LP01</field></record>
+<record id="adr_packing_instruction_LP02" model="adr.packing.instruction"><field
+            name="code"
+        >LP02</field></record>
+<record id="adr_packing_instruction_LP03" model="adr.packing.instruction"><field
+            name="code"
+        >LP03</field></record>
+<record id="adr_packing_instruction_LP101" model="adr.packing.instruction"><field
+            name="code"
+        >LP101</field></record>
+<record id="adr_packing_instruction_LP102" model="adr.packing.instruction"><field
+            name="code"
+        >LP102</field></record>
+<record id="adr_packing_instruction_LP200" model="adr.packing.instruction"><field
+            name="code"
+        >LP200</field></record>
+<record id="adr_packing_instruction_LP621" model="adr.packing.instruction"><field
+            name="code"
+        >LP621</field></record>
+<record id="adr_packing_instruction_LP902" model="adr.packing.instruction"><field
+            name="code"
+        >LP902</field></record>
+<record id="adr_packing_instruction_LP903" model="adr.packing.instruction"><field
+            name="code"
+        >LP903</field></record>
+<record id="adr_packing_instruction_LP904" model="adr.packing.instruction"><field
+            name="code"
+        >LP904</field></record>
+<record id="adr_packing_instruction_LP905" model="adr.packing.instruction"><field
+            name="code"
+        >LP905</field></record>
+<record id="adr_packing_instruction_LP906" model="adr.packing.instruction"><field
+            name="code"
+        >LP906</field></record>
+<record id="adr_packing_instruction_P001" model="adr.packing.instruction"><field
+            name="code"
+        >P001</field></record>
+<record id="adr_packing_instruction_P002" model="adr.packing.instruction"><field
+            name="code"
+        >P002</field></record>
+<record id="adr_packing_instruction_P003" model="adr.packing.instruction"><field
+            name="code"
+        >P003</field></record>
+<record id="adr_packing_instruction_P004" model="adr.packing.instruction"><field
+            name="code"
+        >P004</field></record>
+<record id="adr_packing_instruction_P005" model="adr.packing.instruction"><field
+            name="code"
+        >P005</field></record>
+<record id="adr_packing_instruction_P006" model="adr.packing.instruction"><field
+            name="code"
+        >P006</field></record>
+<record id="adr_packing_instruction_P010" model="adr.packing.instruction"><field
+            name="code"
+        >P010</field></record>
+<record id="adr_packing_instruction_P099" model="adr.packing.instruction"><field
+            name="code"
+        >P099</field></record>
+<record id="adr_packing_instruction_P101" model="adr.packing.instruction"><field
+            name="code"
+        >P101</field></record>
+<record id="adr_packing_instruction_P110b" model="adr.packing.instruction"><field
+            name="code"
+        >P110b</field></record>
+<record id="adr_packing_instruction_P111" model="adr.packing.instruction"><field
+            name="code"
+        >P111</field></record>
+<record id="adr_packing_instruction_P112" model="adr.packing.instruction"><field
+            name="code"
+        >P112</field></record>
+<record id="adr_packing_instruction_P112a" model="adr.packing.instruction"><field
+            name="code"
+        >P112a</field></record>
+<record id="adr_packing_instruction_P112b" model="adr.packing.instruction"><field
+            name="code"
+        >P112b</field></record>
+<record id="adr_packing_instruction_P112c" model="adr.packing.instruction"><field
+            name="code"
+        >P112c</field></record>
+<record id="adr_packing_instruction_P113" model="adr.packing.instruction"><field
+            name="code"
+        >P113</field></record>
+<record id="adr_packing_instruction_P114a" model="adr.packing.instruction"><field
+            name="code"
+        >P114a</field></record>
+<record id="adr_packing_instruction_P114b" model="adr.packing.instruction"><field
+            name="code"
+        >P114b</field></record>
+<record id="adr_packing_instruction_P115" model="adr.packing.instruction"><field
+            name="code"
+        >P115</field></record>
+<record id="adr_packing_instruction_P116" model="adr.packing.instruction"><field
+            name="code"
+        >P116</field></record>
+<record id="adr_packing_instruction_P130" model="adr.packing.instruction"><field
+            name="code"
+        >P130</field></record>
+<record id="adr_packing_instruction_P131" model="adr.packing.instruction"><field
+            name="code"
+        >P131</field></record>
+<record id="adr_packing_instruction_P132a" model="adr.packing.instruction"><field
+            name="code"
+        >P132a</field></record>
+<record id="adr_packing_instruction_P132b" model="adr.packing.instruction"><field
+            name="code"
+        >P132b</field></record>
+<record id="adr_packing_instruction_P133" model="adr.packing.instruction"><field
+            name="code"
+        >P133</field></record>
+<record id="adr_packing_instruction_P134" model="adr.packing.instruction"><field
+            name="code"
+        >P134</field></record>
+<record id="adr_packing_instruction_P135" model="adr.packing.instruction"><field
+            name="code"
+        >P135</field></record>
+<record id="adr_packing_instruction_P136" model="adr.packing.instruction"><field
+            name="code"
+        >P136</field></record>
+<record id="adr_packing_instruction_P137" model="adr.packing.instruction"><field
+            name="code"
+        >P137</field></record>
+<record id="adr_packing_instruction_P138" model="adr.packing.instruction"><field
+            name="code"
+        >P138</field></record>
+<record id="adr_packing_instruction_P139" model="adr.packing.instruction"><field
+            name="code"
+        >P139</field></record>
+<record id="adr_packing_instruction_P140" model="adr.packing.instruction"><field
+            name="code"
+        >P140</field></record>
+<record id="adr_packing_instruction_P141" model="adr.packing.instruction"><field
+            name="code"
+        >P141</field></record>
+<record id="adr_packing_instruction_P142" model="adr.packing.instruction"><field
+            name="code"
+        >P142</field></record>
+<record id="adr_packing_instruction_P143" model="adr.packing.instruction"><field
+            name="code"
+        >P143</field></record>
+<record id="adr_packing_instruction_P144" model="adr.packing.instruction"><field
+            name="code"
+        >P144</field></record>
+<record id="adr_packing_instruction_P200" model="adr.packing.instruction"><field
+            name="code"
+        >P200</field></record>
+<record id="adr_packing_instruction_P201" model="adr.packing.instruction"><field
+            name="code"
+        >P201</field></record>
+<record id="adr_packing_instruction_P203" model="adr.packing.instruction"><field
+            name="code"
+        >P203</field></record>
+<record id="adr_packing_instruction_P205" model="adr.packing.instruction"><field
+            name="code"
+        >P205</field></record>
+<record id="adr_packing_instruction_P206" model="adr.packing.instruction"><field
+            name="code"
+        >P206</field></record>
+<record id="adr_packing_instruction_P207" model="adr.packing.instruction"><field
+            name="code"
+        >P207</field></record>
+<record id="adr_packing_instruction_P208" model="adr.packing.instruction"><field
+            name="code"
+        >P208</field></record>
+<record id="adr_packing_instruction_P209" model="adr.packing.instruction"><field
+            name="code"
+        >P209</field></record>
+<record id="adr_packing_instruction_P300" model="adr.packing.instruction"><field
+            name="code"
+        >P300</field></record>
+<record id="adr_packing_instruction_P301" model="adr.packing.instruction"><field
+            name="code"
+        >P301</field></record>
+<record id="adr_packing_instruction_P302" model="adr.packing.instruction"><field
+            name="code"
+        >P302</field></record>
+<record id="adr_packing_instruction_P400" model="adr.packing.instruction"><field
+            name="code"
+        >P400</field></record>
+<record id="adr_packing_instruction_P401" model="adr.packing.instruction"><field
+            name="code"
+        >P401</field></record>
+<record id="adr_packing_instruction_P402" model="adr.packing.instruction"><field
+            name="code"
+        >P402</field></record>
+<record id="adr_packing_instruction_P403" model="adr.packing.instruction"><field
+            name="code"
+        >P403</field></record>
+<record id="adr_packing_instruction_P404" model="adr.packing.instruction"><field
+            name="code"
+        >P404</field></record>
+<record id="adr_packing_instruction_P405" model="adr.packing.instruction"><field
+            name="code"
+        >P405</field></record>
+<record id="adr_packing_instruction_P406" model="adr.packing.instruction"><field
+            name="code"
+        >P406</field></record>
+<record id="adr_packing_instruction_P407" model="adr.packing.instruction"><field
+            name="code"
+        >P407</field></record>
+<record id="adr_packing_instruction_P408" model="adr.packing.instruction"><field
+            name="code"
+        >P408</field></record>
+<record id="adr_packing_instruction_P409" model="adr.packing.instruction"><field
+            name="code"
+        >P409</field></record>
+<record id="adr_packing_instruction_P410" model="adr.packing.instruction"><field
+            name="code"
+        >P410</field></record>
+<record id="adr_packing_instruction_P411" model="adr.packing.instruction"><field
+            name="code"
+        >P411</field></record>
+<record id="adr_packing_instruction_P412" model="adr.packing.instruction"><field
+            name="code"
+        >P412</field></record>
+<record id="adr_packing_instruction_P500" model="adr.packing.instruction"><field
+            name="code"
+        >P500</field></record>
+<record id="adr_packing_instruction_P501" model="adr.packing.instruction"><field
+            name="code"
+        >P501</field></record>
+<record id="adr_packing_instruction_P502" model="adr.packing.instruction"><field
+            name="code"
+        >P502</field></record>
+<record id="adr_packing_instruction_P503" model="adr.packing.instruction"><field
+            name="code"
+        >P503</field></record>
+<record id="adr_packing_instruction_P504" model="adr.packing.instruction"><field
+            name="code"
+        >P504</field></record>
+<record id="adr_packing_instruction_P505" model="adr.packing.instruction"><field
+            name="code"
+        >P505</field></record>
+<record id="adr_packing_instruction_P520" model="adr.packing.instruction"><field
+            name="code"
+        >P520</field></record>
+<record id="adr_packing_instruction_P600" model="adr.packing.instruction"><field
+            name="code"
+        >P600</field></record>
+<record id="adr_packing_instruction_P601" model="adr.packing.instruction"><field
+            name="code"
+        >P601</field></record>
+<record id="adr_packing_instruction_P602" model="adr.packing.instruction"><field
+            name="code"
+        >P602</field></record>
+<record id="adr_packing_instruction_P603" model="adr.packing.instruction"><field
+            name="code"
+        >P603</field></record>
+<record id="adr_packing_instruction_P620" model="adr.packing.instruction"><field
+            name="code"
+        >P620</field></record>
+<record id="adr_packing_instruction_P621" model="adr.packing.instruction"><field
+            name="code"
+        >P621</field></record>
+<record id="adr_packing_instruction_P650" model="adr.packing.instruction"><field
+            name="code"
+        >P650</field></record>
+<record id="adr_packing_instruction_P800" model="adr.packing.instruction"><field
+            name="code"
+        >P800</field></record>
+<record id="adr_packing_instruction_P801" model="adr.packing.instruction"><field
+            name="code"
+        >P801</field></record>
+<record id="adr_packing_instruction_P801a" model="adr.packing.instruction"><field
+            name="code"
+        >P801a</field></record>
+<record id="adr_packing_instruction_P802" model="adr.packing.instruction"><field
+            name="code"
+        >P802</field></record>
+<record id="adr_packing_instruction_P803" model="adr.packing.instruction"><field
+            name="code"
+        >P803</field></record>
+<record id="adr_packing_instruction_P804" model="adr.packing.instruction"><field
+            name="code"
+        >P804</field></record>
+<record id="adr_packing_instruction_P901" model="adr.packing.instruction"><field
+            name="code"
+        >P901</field></record>
+<record id="adr_packing_instruction_P902" model="adr.packing.instruction"><field
+            name="code"
+        >P902</field></record>
+<record id="adr_packing_instruction_P903" model="adr.packing.instruction"><field
+            name="code"
+        >P903</field></record>
+<record id="adr_packing_instruction_P904" model="adr.packing.instruction"><field
+            name="code"
+        >P904</field></record>
+<record id="adr_packing_instruction_P905" model="adr.packing.instruction"><field
+            name="code"
+        >P905</field></record>
+<record id="adr_packing_instruction_P906" model="adr.packing.instruction"><field
+            name="code"
+        >P906</field></record>
+<record id="adr_packing_instruction_P907" model="adr.packing.instruction"><field
+            name="code"
+        >P907</field></record>
+<record id="adr_packing_instruction_P908" model="adr.packing.instruction"><field
+            name="code"
+        >P908</field></record>
+<record id="adr_packing_instruction_P909" model="adr.packing.instruction"><field
+            name="code"
+        >P909</field></record>
+<record id="adr_packing_instruction_P910" model="adr.packing.instruction"><field
+            name="code"
+        >P910</field></record>
+<record id="adr_packing_instruction_P911" model="adr.packing.instruction"><field
+            name="code"
+        >P911</field></record>
+<record id="adr_packing_instruction_R001" model="adr.packing.instruction"><field
+            name="code"
+        >R001</field></record>
+</odoo>
