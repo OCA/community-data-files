@@ -69,6 +69,11 @@ msgid "Type"
 msgstr "Type"
 
 #. module: account_tax_unece
+#: model_terms:ir.ui.view,arch_db:account_tax_unece.view_tax_template_form
+msgid "UNECE"
+msgstr ""
+
+#. module: account_tax_unece
 #: model:ir.model.fields,field_description:account_tax_unece.field_account_tax__unece_categ_code
 msgid "UNECE Category Code"
 msgstr "Code de la catégorie UNECE"
@@ -95,7 +100,5 @@ msgstr "Code du type UNECE"
 msgid "UNECE nomenclatures"
 msgstr "Nomenclatures UNECE"
 
-#. module: account_tax_unece
-#: model_terms:ir.ui.view,arch_db:account_tax_unece.view_tax_template_form
-msgid "Unece"
-msgstr "UNECE"
+#~ msgid "Unece"
+#~ msgstr "UNECE"
