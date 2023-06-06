@@ -1,15 +1,11 @@
 # Copyright 2021 Opener B.V.
 # License AGPL-3.0 or later (https://www.gnu.org/licenses/agpl)
-import logging
-import os
 
 from odoo.exceptions import UserError, ValidationError
-from odoo.modules import get_module_resource
-from odoo.modules.migration import load_script
-from odoo.tests import SavepointCase
+from odoo.tests import TransactionCase
 
 
-class TestAdrModels(SavepointCase):
+class TestAdrModels(TransactionCase):
     @classmethod
     def setUpClass(cls):
         super().setUpClass()
@@ -57,7 +53,7 @@ class TestAdrModels(SavepointCase):
         )
         with self.assertRaisesRegex(
             ValidationError, "length of 4"
-        ), self.env.clear_upon_failure():
+        ), self.env.cr.savepoint():
             adr_goods.un_number = "999"
 
         self.assertEqual(
@@ -164,56 +160,56 @@ class TestAdrModels(SavepointCase):
             var.adr_goods_id == self.goods1 for var in template.product_variant_ids
         )
 
-    def test_06_product_variant_migration(self):
-        """Test the migration of the adr fields from template to product"""
-        try:
-            from openupgradelib import openupgrade  # noqa: F401
-        except ImportError:
-            logging.getLogger("odoo.addons.l10n_eu_product_adr.tests").info(
-                "OpenUpgrade not found, skip test"
-            )
-            return
-        template = self.env["product.template"].create(
-            {
-                "name": "Sofa",
-                "attribute_line_ids": [
-                    (
-                        0,
-                        0,
-                        {
-                            "attribute_id": self.size_attr.id,
-                            "value_ids": [(4, self.value_s.id), (4, self.value_m.id)],
-                        },
-                    ),
-                ],
-            }
-        )
-        self.env.cr.execute(
-            """
-            ALTER TABLE product_template
-            ADD COLUMN adr_goods_id INTEGER,
-            ADD COLUMN is_dangerous BOOLEAN;
-            ALTER TABLE product_product
-            DROP COLUMN adr_goods_id,
-            DROP COLUMN is_dangerous;
-            """
-        )
-
-        self.env.cr.execute(
-            """UPDATE product_template
-            SET is_dangerous = TRUE,
-            adr_goods_id = %s
-            WHERE id = %s;
-            """,
-            (self.goods1.id, template.id),
-        )
-        pyfile = get_module_resource(
-            "l10n_eu_product_adr", "migrations", "14.0.1.1.0", "pre-migration.py"
-        )
-        name, ext = os.path.splitext(os.path.basename(pyfile))
-        mod = load_script(pyfile, name)
-        mod.migrate(self.env.cr, "14.0.1.0.0")
-        template.refresh()
-        var1, var2 = template.product_variant_ids
-        self.assertEqual(var1.adr_goods_id, self.goods1)
-        self.assertTrue(var2.is_dangerous)
+    # def test_06_product_variant_migration(self):
+    #     """Test the migration of the adr fields from template to product"""
+    #     try:
+    #         from openupgradelib import openupgrade  # noqa: F401
+    #     except ImportError:
+    #         logging.getLogger("odoo.addons.l10n_eu_product_adr.tests").info(
+    #             "OpenUpgrade not found, skip test"
+    #         )
+    #         return
+    #     template = self.env["product.template"].create(
+    #         {
+    #             "name": "Sofa",
+    #             "attribute_line_ids": [
+    #                 (
+    #                     0,
+    #                     0,
+    #                     {
+    #                         "attribute_id": self.size_attr.id,
+    #                         "value_ids": [(4, self.value_s.id), (4, self.value_m.id)],
+    #                     },
+    #                 ),
+    #             ],
+    #         }
+    #     )
+    #     self.env.cr.execute(
+    #         """
+    #         ALTER TABLE product_template
+    #         ADD COLUMN adr_goods_id INTEGER,
+    #         ADD COLUMN is_dangerous BOOLEAN;
+    #         ALTER TABLE product_product
+    #         DROP COLUMN adr_goods_id,
+    #         DROP COLUMN is_dangerous;
+    #         """
+    #     )
+    #
+    #     self.env.cr.execute(
+    #         """UPDATE product_template
+    #         SET is_dangerous = TRUE,
+    #         adr_goods_id = %s
+    #         WHERE id = %s;
+    #         """,
+    #         (self.goods1.id, template.id),
+    #     )
+    #     pyfile = get_module_resource(
+    #         "l10n_eu_product_adr", "migrations", "14.0.1.1.0", "pre-migration.py"
+    #     )
+    #     name, ext = os.path.splitext(os.path.basename(pyfile))
+    #     mod = load_script(pyfile, name)
+    #     mod.migrate(self.env.cr, "14.0.1.0.0")
+    #     template.env.invalidate_all()
+    #     var1, var2 = template.product_variant_ids
+    #     self.assertEqual(var1.adr_goods_id, self.goods1)
+    #     self.assertTrue(var2.is_dangerous)

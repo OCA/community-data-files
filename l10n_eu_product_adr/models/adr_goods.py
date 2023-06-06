@@ -94,11 +94,13 @@ class AdrGoods(models.Model):
             name = "{} {}".format(rec.un_number, rec.name)
             affixes = []
             if rec.transport_category != "-":
-                affixes.append(_("cat:%s") % rec.transport_category)
+                affixes.append(_("cat:%s", rec.transport_category))
             if rec.limited_quantity:
                 affixes.append(
-                    _("qty:%s %s")
-                    % (rec.limited_quantity, rec.limited_quantity_uom_id.name)
+                    _("qty:{limited_quantity} {limited_quantity_uom_id}").format(
+                        limited_quantity=rec.limited_quantity,
+                        limited_quantity_uom_id=rec.limited_quantity_uom_id.name,
+                    )
                 )
             if affixes:
                 name += " (%s)" % (", ".join(affixes))

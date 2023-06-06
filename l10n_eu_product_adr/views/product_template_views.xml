@@ -3,19 +3,22 @@
     <record id="product_template_form_view" model="ir.ui.view">
         <field name="name">product.template.dangerous.class</field>
         <field name="model">product.template</field>
-        <field name="groups_id" eval="[(4, ref('group_adr_goods_user'))]" />
         <field name="inherit_id" ref="product.product_template_form_view" />
         <field name="arch" type="xml">
             <xpath expr="//div[@name='options']" position="inside">
-                <div>
+                <span
+                    class="d-inline-block"
+                    groups="l10n_eu_product_adr.group_adr_goods_user"
+                >
                     <field name="is_dangerous" />
                     <label for="is_dangerous" />
-                </div>
+                </span>
             </xpath>
             <xpath expr="//page[last()]" position="after">
                 <page
                     name="adr"
                     string="Dangerous Goods"
+                    groups="l10n_eu_product_adr.group_adr_goods_user"
                     attrs="{'invisible': ['|', ('type', '!=', 'product'), '&amp;', ('is_dangerous', '=', False), ('adr_goods_on_variants', '=', False)]}"
                 >
                     <group
@@ -29,12 +32,13 @@
                         name="adr"
                         attrs="{'invisible': [('adr_goods_on_variants', '=', True)]}"
                     >
-                        <group colspan="4" col="2" string="Name and description">
+                        <group colspan="4" col="4" string="Name and description">
                             <field name="adr_goods_on_variants" invisible="1" />
                             <field
                                 name="adr_goods_id"
                                 attrs="{'required': [('type', '=', 'product'), ('is_dangerous', '=', True)]}"
                                 options="{'no_create': True}"
+                                colspan="4"
                                 nolabel="1"
                             />
                         </group>
