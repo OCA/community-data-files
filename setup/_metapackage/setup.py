@@ -11,6 +11,7 @@ setuptools.setup(
         'odoo-addon-account_payment_unece>=15.0dev,<15.1dev',
         'odoo-addon-account_tax_unece>=15.0dev,<15.1dev',
         'odoo-addon-base_bank_from_iban>=15.0dev,<15.1dev',
+        'odoo-addon-base_currency_iso_4217>=15.0dev,<15.1dev',
         'odoo-addon-base_iso3166>=15.0dev,<15.1dev',
         'odoo-addon-base_unece>=15.0dev,<15.1dev',
         'odoo-addon-company_sanitary_registry>=15.0dev,<15.1dev',
