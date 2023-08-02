@@ -1,0 +1,101 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* account_tax_unece
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 16.0\n"
+"Report-Msgid-Bugs-To: \n"
+"PO-Revision-Date: 2023-08-02 12:09+0000\n"
+"Last-Translator: Ivorra78 <informatica@totmaterial.es>\n"
+"Language-Team: none\n"
+"Language: es\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 4.17\n"
+
+#. module: account_tax_unece
+#: model:ir.model,name:account_tax_unece.model_res_company
+msgid "Companies"
+msgstr "Compañías"
+
+#. module: account_tax_unece
+#: model:ir.model.fields,help:account_tax_unece.field_account_tax__unece_categ_id
+#: model:ir.model.fields,help:account_tax_unece.field_account_tax_template__unece_categ_id
+msgid ""
+"Select the Tax Category Code of the official nomenclature of the United "
+"Nations Economic Commission for Europe (UNECE), DataElement 5305"
+msgstr ""
+"Seleccione el código de categoría fiscal de la nomenclatura oficial de la "
+"Comisión Económica para Europa de las Naciones Unidas (UNECE), elemento de "
+"datos 5305"
+
+#. module: account_tax_unece
+#: model:ir.model.fields,help:account_tax_unece.field_account_tax__unece_type_id
+#: model:ir.model.fields,help:account_tax_unece.field_account_tax_template__unece_type_id
+msgid ""
+"Select the Tax Type Code of the official nomenclature of the United Nations "
+"Economic Commission for Europe (UNECE), DataElement 5153"
+msgstr ""
+"Seleccione el Código de Tipo de Impuesto de la nomenclatura oficial de la "
+"Comisión Económica para Europa de las Naciones Unidas (UNECE), Elemento de "
+"Datos 5153"
+
+#. module: account_tax_unece
+#: model:ir.model,name:account_tax_unece.model_account_tax
+msgid "Tax"
+msgstr "Impuesto"
+
+#. module: account_tax_unece
+#: model:ir.model.fields.selection,name:account_tax_unece.selection__unece_code_list__type__tax_categ
+msgid "Tax Categories (UNCL 5305)"
+msgstr "Categorías impositivas (UNCL 5305)"
+
+#. module: account_tax_unece
+#: model:ir.model.fields.selection,name:account_tax_unece.selection__unece_code_list__type__tax_type
+msgid "Tax Types (UNCL 5153)"
+msgstr "Tipos de Impuestos (UNCL 5153)"
+
+#. module: account_tax_unece
+#: model:ir.model,name:account_tax_unece.model_account_tax_template
+msgid "Templates for Taxes"
+msgstr "Plantillas para impuestos"
+
+#. module: account_tax_unece
+#: model:ir.model.fields,field_description:account_tax_unece.field_unece_code_list__type
+msgid "Type"
+msgstr "Tipo"
+
+#. module: account_tax_unece
+#: model_terms:ir.ui.view,arch_db:account_tax_unece.view_tax_template_form
+msgid "UNECE"
+msgstr "CEPE"
+
+#. module: account_tax_unece
+#: model:ir.model.fields,field_description:account_tax_unece.field_account_tax__unece_categ_code
+msgid "UNECE Category Code"
+msgstr "Código de categoría de la CEPE (UNECE)"
+
+#. module: account_tax_unece
+#: model:ir.model.fields,field_description:account_tax_unece.field_account_tax__unece_categ_id
+#: model:ir.model.fields,field_description:account_tax_unece.field_account_tax_template__unece_categ_id
+msgid "UNECE Tax Category"
+msgstr "Categoría impositiva de la CEPE (UNECE)"
+
+#. module: account_tax_unece
+#: model:ir.model.fields,field_description:account_tax_unece.field_account_tax__unece_type_id
+#: model:ir.model.fields,field_description:account_tax_unece.field_account_tax_template__unece_type_id
+msgid "UNECE Tax Type"
+msgstr "Tipo de impuesto de la CEPE (UNECE)"
+
+#. module: account_tax_unece
+#: model:ir.model.fields,field_description:account_tax_unece.field_account_tax__unece_type_code
+msgid "UNECE Type Code"
+msgstr "Código de tipo CEPE (UNECE)"
+
+#. module: account_tax_unece
+#: model:ir.model,name:account_tax_unece.model_unece_code_list
+msgid "UNECE nomenclatures"
+msgstr "Nomenclaturas de la UNECE"
