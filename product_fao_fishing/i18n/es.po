@@ -7,15 +7,15 @@ msgstr ""
 "Project-Id-Version: Odoo Server 11.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-12-12 18:18+0000\n"
-"PO-Revision-Date: 2022-12-12 19:28+0100\n"
-"Last-Translator: Sergio Teruel <sergio.teruel@tecnativa.com>\n"
+"PO-Revision-Date: 2023-08-02 12:09+0000\n"
+"Last-Translator: Ivorra78 <informatica@totmaterial.es>\n"
 "Language-Team: \n"
 "Language: es\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Poedit 3.0.1\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 4.17\n"
 
 #. module: product_fao_fishing
 #: model:product.attribute.value,name:product_fao_fishing.fao_fishing_area_1
@@ -217,7 +217,7 @@ msgstr "Pacífico, centro occidental"
 #. module: product_fao_fishing
 #: model:ir.model,name:product_fao_fishing.model_product_template
 msgid "Product"
-msgstr ""
+msgstr "Producto"
 
 #. module: product_fao_fishing
 #: model:ir.model,name:product_fao_fishing.model_product_template_attribute_value
