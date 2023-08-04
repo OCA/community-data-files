@@ -3,3 +3,4 @@
 * `Tecnativa <https://www.tecnativa.com>`__:
 
   * Carlos Roca
+* Alberto Nieto de Pablos <alberto.nieto@braintec.com> (https://braintec.com)
