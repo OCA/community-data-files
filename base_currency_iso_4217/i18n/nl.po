@@ -1,0 +1,42 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* base_currency_iso_4217
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 13.0\n"
+"Report-Msgid-Bugs-To: \n"
+"PO-Revision-Date: 2020-12-13 03:55+0000\n"
+"Last-Translator: Bosd <c5e2fd43-d292-4c90-9d1f-74ff3436329a@anonaddy.me>\n"
+"Language-Team: none\n"
+"Language: nl\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 3.10\n"
+
+#. module: base_currency_iso_4217
+#: model:ir.model,name:base_currency_iso_4217.model_res_currency
+msgid "Currency"
+msgstr "Valuta"
+
+#. module: base_currency_iso_4217
+#: model:ir.model.fields,help:base_currency_iso_4217.field_res_currency__full_name
+msgid "Currency name, according to ISO 4217 standard"
+msgstr "Valuta naam volgens ISO 4217 standaard"
+
+#. module: base_currency_iso_4217
+#: model:ir.model.fields,field_description:base_currency_iso_4217.field_res_currency__full_name
+msgid "Full name"
+msgstr "Volledige naam"
+
+#. module: base_currency_iso_4217
+#: model:ir.model.fields,help:base_currency_iso_4217.field_res_currency__numeric_code
+msgid "ISO Numeric Code for currency, according to ISO 4217 standard."
+msgstr "ISO nummerieke Code voor valuta, volgens deo ISO 4217 standaard."
+
+#. module: base_currency_iso_4217
+#: model:ir.model.fields,field_description:base_currency_iso_4217.field_res_currency__numeric_code
+msgid "Numeric Code"
+msgstr "Numerieke Code"
