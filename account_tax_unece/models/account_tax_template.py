@@ -1,5 +1,5 @@
 # Copyright 2017-2020 Onestein (<https://www.onestein.eu>)
-# License AGPL-3.0 or later (https://www.gnu.org/licenses/agpl).
+# License LGPL-3.0 or later (https://www.gnu.org/licenses/lgpl).
 
 from odoo import fields, models
 
