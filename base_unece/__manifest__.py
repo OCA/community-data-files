@@ -1,12 +1,12 @@
 # Copyright 2016-2021 Akretion France (http://www.akretion.com)
-# License AGPL-3.0 or later (https://www.gnu.org/licenses/agpl).
+# License LGPL-3.0 or later (https://www.gnu.org/licenses/lgpl).
 # @author Alexis de Lattre <alexis.delattre@akretion.com>
 
 {
     "name": "Base UNECE",
-    "version": "16.0.1.0.0",
+    "version": "16.0.1.1.0",
     "category": "Tools",
-    "license": "AGPL-3",
+    "license": "LGPL-3",
     "development_status": "Production/Stable",
     "summary": "Base module for UNECE code lists",
     "author": "Akretion,Odoo Community Association (OCA)",
