@@ -10,6 +10,7 @@ msgstr ""
 "PO-Revision-Date: 2021-05-18 12:39+0000\n"
 "Last-Translator: \n"
 "Language-Team: \n"
+"Language: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
@@ -271,8 +272,7 @@ msgstr ""
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_3317
-msgid ""
-"2-AMINO-4,6-DINITROPHENOL, WETTED with not less than 20% water, by mass"
+msgid "2-AMINO-4,6-DINITROPHENOL, WETTED with not less than 20% water, by mass"
 msgstr "2-AMINO-4,6-DINITROFENOL, BEVOCHTIGD met ten minste 20 massa-% water"
 
 #. module: l10n_eu_product_adr
@@ -687,8 +687,8 @@ msgid ""
 "ADHESIVES containing flammable liquid (having a flash-point below 23 °C and "
 "viscous according to 2.2.3.1.4) (vapour pressure at 50 °C more than 110 kPa)"
 msgstr ""
-"LIJMEN, met brandbare vloeistof (met een vlampunt lager dan 23 °C en viskeus"
-" volgens 2.2.3.1.4) (dampspanning bij 50 °C hoger dan 110 kPa)"
+"LIJMEN, met brandbare vloeistof (met een vlampunt lager dan 23 °C en viskeus "
+"volgens 2.2.3.1.4) (dampspanning bij 50 °C hoger dan 110 kPa)"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_1133_F1_3_5L_P001/IBC02/R001_3
@@ -697,22 +697,37 @@ msgid ""
 "viscous according to 2.2.3.1.4) (vapour pressure at 50 °C not more than 110 "
 "kPa)"
 msgstr ""
-"LIJMEN, met brandbare vloeistof (met een vlampunt lager dan 23 °C en viskeus"
-" volgens 2.2.3.1.4) (dampspanning bij 50 °C niet hoger dan 110 kPa)"
+"LIJMEN, met brandbare vloeistof (met een vlampunt lager dan 23 °C en viskeus "
+"volgens 2.2.3.1.4) (dampspanning bij 50 °C niet hoger dan 110 kPa)"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_1133_F1_3_5L_P001/IBC03/LP01/R001_3
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_1133_F1_3_640C_5L_P001_2
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_1133_F1_3_640D_5L_P001/IBC02/R001_2
 msgid ""
-"ADHESIVES containing flammable liquid (vapour pressure at 50 °C more than110"
-" kPa)"
+"ADHESIVES containing flammable liquid (vapour pressure at 50 °C more than110 "
+"kPa)"
 msgstr "LIJMEN, met brandbare vloeistof"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_2205
 msgid "ADIPONITRILE"
 msgstr "ADIPONITRIL"
+
+#. module: l10n_eu_product_adr
+#: model:ir.model.fields,field_description:l10n_eu_product_adr.field_adr_label__goods_ids
+msgid "ADR Goods"
+msgstr ""
+
+#. module: l10n_eu_product_adr
+#: model:res.groups,name:l10n_eu_product_adr.group_adr_goods_admin
+msgid "ADR Goods Administrator"
+msgstr ""
+
+#. module: l10n_eu_product_adr
+#: model:res.groups,name:l10n_eu_product_adr.group_adr_goods_user
+msgid "ADR Goods User"
+msgstr ""
 
 #. module: l10n_eu_product_adr
 #: model:ir.model.fields,field_description:l10n_eu_product_adr.field_stock_move__adr_points
@@ -1019,8 +1034,8 @@ msgid ""
 "ALKYLSULPHONIC ACIDS, LIQUID or ARYLSULPHONIC ACIDS, LIQUID with not more "
 "than 5% free sulphuric acid"
 msgstr ""
-"ALKYLSULFONZUREN, VLOEIBAAR of ARYLSULFONZUREN, VLOEIBAAR, met niet meer dan"
-" 5 % vrij zwavelzuur"
+"ALKYLSULFONZUREN, VLOEIBAAR of ARYLSULFONZUREN, VLOEIBAAR, met niet meer dan "
+"5 % vrij zwavelzuur"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_2583
@@ -1034,8 +1049,8 @@ msgstr ""
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_2585
 msgid ""
-"ALKYLSULPHONIC ACIDS, SOLID or ARYLSULPHONIC ACIDS, SOLID with not more than"
-" 5% free sulphuric acid"
+"ALKYLSULPHONIC ACIDS, SOLID or ARYLSULPHONIC ACIDS, SOLID with not more than "
+"5% free sulphuric acid"
 msgstr ""
 "ALKYLSULFONZUREN, VAST of ARYLSULFONZUREN, VAST, met niet meer dan 5 % vrij "
 "zwavelzuur"
@@ -1192,16 +1207,16 @@ msgstr "ALUMINIUMSILICIUMPOEDER, NIET GECOAT"
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_3170_500g
 msgid "ALUMINIUM SMELTING BY-PRODUCTS or ALUMINIUM REMELTING BY-PRODUCTS"
 msgstr ""
-"BIJPRODUCTEN VAN DE ALUMINIUMFABRICAGE of BIJPRODUCTEN VAN HET OMSMELTEN VAN"
-" ALUMININIUM"
+"BIJPRODUCTEN VAN DE ALUMINIUMFABRICAGE of BIJPRODUCTEN VAN HET OMSMELTEN VAN "
+"ALUMININIUM"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_2733
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_2733_1L
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_2733_5L
 msgid ""
-"AMINES, FLAMMABLE, CORROSIVE, N.O.S. or POLYAMINES, FLAMMABLE, CORROSIVE, "
-"N.O.S."
+"AMINES, FLAMMABLE, CORROSIVE, N.O.S. or POLYAMINES, FLAMMABLE, CORROSIVE, N."
+"O.S."
 msgstr ""
 "AMINEN, BRANDBAAR, BIJTEND, N.E.G. of POLYAMINEN, BRANDBAAR, BIJTEND, N.E.G."
 
@@ -1254,8 +1269,8 @@ msgstr ""
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_2073
 msgid ""
-"AMMONIA SOLUTION, relative density less than 0.880 at 15  °C  in water, with"
-" more than 35% but not more than 50% ammonia"
+"AMMONIA SOLUTION, relative density less than 0.880 at 15  °C  in water, with "
+"more than 35% but not more than 50% ammonia"
 msgstr ""
 "AMMONIAK, OPLOSSING in water, met een densiteit bij 15 °C lager dan 0,880, "
 "die meer dan 35 % maar niet meer dan 50 % ammoniak bevat"
@@ -1314,8 +1329,7 @@ msgstr "AMMONIUMWATERSTOFSULFAAT (ammoniumbisulfaat)"
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_2817_1L
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_2817_5L
 msgid "AMMONIUM HYDROGENDIFLUORIDE SOLUTION"
-msgstr ""
-"AMMONIUMWATERSTOFDIFLUORIDE, OPLOSSING (ammoniumbifluoride, oplossing)"
+msgstr "AMMONIUMWATERSTOFDIFLUORIDE, OPLOSSING (ammoniumbifluoride, oplossing)"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_1727
@@ -1331,9 +1345,9 @@ msgstr "AMMONIUMMETAVANADAAT"
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_0222
 msgid "AMMONIUM NITRATE"
 msgstr ""
-"AMMONIUMNITRAAT dat meer dan 0,2 % brandbare stoffen bevat (inclusief om het"
-" even welke organisch stof, berekend als koolstof), met uitzondering van "
-"elke andere stof"
+"AMMONIUMNITRAAT dat meer dan 0,2 % brandbare stoffen bevat (inclusief om het "
+"even welke organisch stof, berekend als koolstof), met uitzondering van elke "
+"andere stof"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_2067
@@ -1343,16 +1357,15 @@ msgstr "AMMONIUMNITRAATHOUDENDE MESTSTOFFEN"
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_2071
 msgid ""
-"AMMONIUM NITRATE BASED FERTILIZER, uniform mixtures of the "
-"nitrogen/phosphate, nitrogen/potash or nitrogen/phosphate/potash type, "
-"containing not more than 70% ammonium nitrate and not more than 0.4% total "
-"combustible/organic material calculated as carbon or with not more than 45% "
-"ammonium nitrate and unrestricted combustible material"
+"AMMONIUM NITRATE BASED FERTILIZER, uniform mixtures of the nitrogen/"
+"phosphate, nitrogen/potash or nitrogen/phosphate/potash type, containing not "
+"more than 70% ammonium nitrate and not more than 0.4% total combustible/"
+"organic material calculated as carbon or with not more than 45% ammonium "
+"nitrate and unrestricted combustible material"
 msgstr ""
-"Ammoniumnitraathoudende meststoffen, homogene mengsels van het type "
-"stikstof/fosfaat, stikstof/kalium of stikstof/fosfaat/kalium : - met ten "
-"hoogste 70 % ammoniumnitraat en een totaal gehalte aan brandbare stoffen "
-"(inclu"
+"Ammoniumnitraathoudende meststoffen, homogene mengsels van het type stikstof/"
+"fosfaat, stikstof/kalium of stikstof/fosfaat/kalium : - met ten hoogste 70 % "
+"ammoniumnitraat en een totaal gehalte aan brandbare stoffen (inclu"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_3375_O1_5dot1_309_P505/IBC02_2
@@ -1360,8 +1373,8 @@ msgid ""
 "AMMONIUM NITRATE EMULSION or SUSPENSION or GEL, intermediate for blasting "
 "explosives, liquid"
 msgstr ""
-"AMMONIUMNITRAAT-EMULSIE of AMMONIUMNITRAAT-SUSPENSIE of AMMONIUMNITRAAT-GEL,"
-" die dient voor de vervaardiging van springstoffen, vloeibaar"
+"AMMONIUMNITRAAT-EMULSIE of AMMONIUMNITRAAT-SUSPENSIE of AMMONIUMNITRAAT-GEL, "
+"die dient voor de vervaardiging van springstoffen, vloeibaar"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_3375_O2_5dot1_309_P505/IBC02_2
@@ -1369,8 +1382,8 @@ msgid ""
 "AMMONIUM NITRATE EMULSION or SUSPENSION or GEL, intermediate for blasting "
 "explosives, solid"
 msgstr ""
-"AMMONIUMNITRAAT-EMULSIE of AMMONIUMNITRAAT-SUSPENSIE of AMMONIUMNITRAAT-GEL,"
-" die dient voor de vervaardiging van springstoffen, vast"
+"AMMONIUMNITRAAT-EMULSIE of AMMONIUMNITRAAT-SUSPENSIE of AMMONIUMNITRAAT-GEL, "
+"die dient voor de vervaardiging van springstoffen, vast"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_1942
@@ -1489,8 +1502,7 @@ msgid ""
 "AMMUNITION, SMOKE with or without burster, expelling charge or propelling "
 "charge"
 msgstr ""
-"ROOKMUNITIE, met of zonder verspreidings-, uitstoot- of voortdrijvende "
-"lading"
+"ROOKMUNITIE, met of zonder verspreidings-, uitstoot- of voortdrijvende lading"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_0303_1dot4G_1dot4/6dot1_P130/LP101_2
@@ -1946,6 +1958,12 @@ msgid "Active"
 msgstr ""
 
 #. module: l10n_eu_product_adr
+#: model:ir.model.fields,field_description:l10n_eu_product_adr.field_product_product__adr_goods_on_variants
+#: model:ir.model.fields,field_description:l10n_eu_product_adr.field_product_template__adr_goods_on_variants
+msgid "Adr Goods On Variants"
+msgstr ""
+
+#. module: l10n_eu_product_adr
 #: model_terms:ir.ui.view,arch_db:l10n_eu_product_adr.adr_goods_view_form
 msgid "Archived"
 msgstr ""
@@ -1953,8 +1971,7 @@ msgstr ""
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_3334
 msgid "Aviation regulated liquid, n.o.s."
-msgstr ""
-"Vloeistof, onderworpen aan de voorschriften voor de luchtvaart, n.e.g."
+msgstr "Vloeistof, onderworpen aan de voorschriften voor de luchtvaart, n.e.g."
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_3335
@@ -2209,8 +2226,7 @@ msgstr "BIOLOGISCHE STOF, CATEGORIE B (enkel dierlijke stoffen)"
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_2782
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_2782_1L
 msgid ""
-"BIPYRIDILIUM PESTICIDE, LIQUID, FLAMMABLE, TOXIC, flash-point less than 23 "
-"°C"
+"BIPYRIDILIUM PESTICIDE, LIQUID, FLAMMABLE, TOXIC, flash-point less than 23 °C"
 msgstr ""
 "PESTICIDE, BIPYRIDILIUMVERBINDING, VLOEIBAAR, BRANDBAAR, GIFTIG, met een "
 "vlampunt lager dan 23 °C"
@@ -2244,8 +2260,7 @@ msgstr "PESTICIDE, BIPYRIDILIUMVERBINDING, VAST, GIFTIG"
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_2837_1L
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_2837_5L
 msgid "BISULPHATES, AQUEOUS SOLUTION"
-msgstr ""
-"WATERSTOFSULFATEN, OPLOSSING IN WATER (bisulfaten, oplossing in water)"
+msgstr "WATERSTOFSULFATEN, OPLOSSING IN WATER (bisulfaten, oplossing in water)"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_2693
@@ -2709,14 +2724,14 @@ msgid ""
 "CALCIUM HYPOCHLORITE MIXTURE, DRY with more than 10% but not more than 39% "
 "available chlorine"
 msgstr ""
-"CALCIUMHYPOCHLORIET, DROOG, MENGSEL, met meer dan 10 % en niet meer dan 39 %"
-" actief chloor."
+"CALCIUMHYPOCHLORIET, DROOG, MENGSEL, met meer dan 10 % en niet meer dan 39 % "
+"actief chloor."
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_3486
 msgid ""
-"CALCIUM HYPOCHLORITE MIXTURE, DRY, CORROSIVE with more than 10% but not more"
-" than 39% available chlorine"
+"CALCIUM HYPOCHLORITE MIXTURE, DRY, CORROSIVE with more than 10% but not more "
+"than 39% available chlorine"
 msgstr ""
 "CALCIUMHYPOCHLORIET, DROOG MENGSEL, BIJTEND, met meer dan 10 % maar niet "
 "meer dan 39 % actief chloor"
@@ -3036,8 +3051,8 @@ msgstr "BIJTENDE ALKALISCHE VLOEISTOF, N.E.G."
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_2000
 msgid "CELLULOID in block, rods, rolls, sheets, tubes, etc., except scrap"
 msgstr ""
-"CELLULOID in blokken, staven, rollen, bladen, buizen, enz. (met uitzondering"
-" van afvalstoffen)"
+"CELLULOID in blokken, staven, rollen, bladen, buizen, enz. (met uitzondering "
+"van afvalstoffen)"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_2002
@@ -3328,8 +3343,8 @@ msgstr "CHLOORDIFLUORMETHAAN (KOELGAS R 22)"
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_1973
 msgid ""
 "CHLORODIFLUORO-METHANE AND CHLOROPENTAFLUORO-ETHANE MIXTURE with fixed "
-"boiling point, with approximately 49% chlorodifluoromethane (REFRIGERANT GAS"
-" R 502)"
+"boiling point, with approximately 49% chlorodifluoromethane (REFRIGERANT GAS "
+"R 502)"
 msgstr ""
 "MENGSEL VAN CHLOORDIFLUORMETHAAN EN CHLOORPENTAFLUORETHAAN (KOELGAS R 502), "
 "met een vast kookpunt , dat ca. 49 % chloordifluormethaan bevat"
@@ -3523,8 +3538,8 @@ msgid ""
 "CHLOROTRIFLUORO-METHANE AND TRIFLUOROMETHANE AZEOTROPIC MIXTURE with "
 "approximately 60% chlorotrifluoromethane (REFRIGERANT GAS R 503)"
 msgstr ""
-"CHLOORTRIFLUORMETHAAN EN TRIFLUORMETHAAN, AZEOTROPISCH MENGSEL, dat ca. 60 %"
-" chloortrifluor- methaan bevat (KOELGAS R 503)"
+"CHLOORTRIFLUORMETHAAN EN TRIFLUORMETHAAN, AZEOTROPISCH MENGSEL, dat ca. 60 % "
+"chloortrifluor- methaan bevat (KOELGAS R 503)"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_1755_1L
@@ -3600,8 +3615,8 @@ msgid ""
 "industrial or other purposes such as vehicle under coating, drum or barrel "
 "lining)"
 msgstr ""
-"BESCHERMLAK, OPLOSSING (met inbegrip van oppervlaktebehandelingen of lakken,"
-" gebruikt voor industriële of andere doeleinden, zoals grondlagen voor "
+"BESCHERMLAK, OPLOSSING (met inbegrip van oppervlaktebehandelingen of lakken, "
+"gebruikt voor industriële of andere doeleinden, zoals grondlagen voor "
 "voertuigkoetswerken, bekledingen voor tonnen of vaten)"
 
 #. module: l10n_eu_product_adr
@@ -3612,8 +3627,8 @@ msgid ""
 "lining) (having a flash-point below 23 °C and viscous according to "
 "2.2.3.1.4) (vapour pressure at 50 °C more than 110 kPa)"
 msgstr ""
-"BESCHERMLAK, OPLOSSING (met inbegrip van oppervlaktebehandelingen of lakken,"
-" gebruikt voor industriële of andere doeleinden, zoals grondlagen voor "
+"BESCHERMLAK, OPLOSSING (met inbegrip van oppervlaktebehandelingen of lakken, "
+"gebruikt voor industriële of andere doeleinden, zoals grondlagen voor "
 "voertuigkoetswerken, bekledingen voor tonnen of vaten) (met een vlampunt "
 "lager dan 23°C en viskeus volgens 2.2.3.1.4) (dampspanning bij 50 °C hoger "
 "dan 110 kPa)"
@@ -3626,8 +3641,8 @@ msgid ""
 "lining) (having a flash-point below 23 °C and viscous according to "
 "2.2.3.1.4) (vapour pressure at 50 °C not more than 110 kPa)"
 msgstr ""
-"BESCHERMLAK, OPLOSSING (met inbegrip van oppervlaktebehandelingen of lakken,"
-" gebruikt voor industriële of andere doeleinden, zoals grondlagen voor "
+"BESCHERMLAK, OPLOSSING (met inbegrip van oppervlaktebehandelingen of lakken, "
+"gebruikt voor industriële of andere doeleinden, zoals grondlagen voor "
 "voertuigkoetswerken, bekledingen voor tonnen of vaten)  (met een vlampunt "
 "lager dan 23°C en viskeus volgens 2.2.3.1.4) (dampspanning bij 50 °C niet "
 "hoger dan 110 kPa)"
@@ -3639,8 +3654,8 @@ msgid ""
 "industrial or other purposes such as vehicle under coating, drum or barrel "
 "lining) (vapour pressure at 50 °C more than 110 kPa)"
 msgstr ""
-"BESCHERMLAK, OPLOSSING (met inbegrip van oppervlaktebehandelingen of lakken,"
-" gebruikt voor industriële of andere doeleinden, zoals grondlagen voor "
+"BESCHERMLAK, OPLOSSING (met inbegrip van oppervlaktebehandelingen of lakken, "
+"gebruikt voor industriële of andere doeleinden, zoals grondlagen voor "
 "voertuigkoetswerken, bekledingen voor tonnen of vaten) (dampspanning bij 50 "
 "°C hoger dan 110 kPa)"
 
@@ -3651,8 +3666,8 @@ msgid ""
 "industrial or other purposes such as vehicle under coating, drum or barrel "
 "lining) (vapour pressure at 50 °C not more than 110 kPa)"
 msgstr ""
-"BESCHERMLAK, OPLOSSING (met inbegrip van oppervlaktebehandelingen of lakken,"
-" gebruikt voor industriële of andere doeleinden, zoals grondlagen voor "
+"BESCHERMLAK, OPLOSSING (met inbegrip van oppervlaktebehandelingen of lakken, "
+"gebruikt voor industriële of andere doeleinden, zoals grondlagen voor "
 "voertuigkoetswerken, bekledingen voor tonnen of vaten) (dampspanning bij 50 "
 "°C niet hoger dan 110 kPa)"
 
@@ -3743,8 +3758,7 @@ msgstr "KOPERARSENIET"
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_2776
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_2776_1L
 msgid ""
-"COPPER BASED PESTICIDE, LIQUID, FLAMMABLE, TOXIC, flash-point less than 23 "
-"°C"
+"COPPER BASED PESTICIDE, LIQUID, FLAMMABLE, TOXIC, flash-point less than 23 °C"
 msgstr ""
 "PESTICIDE, KOPERVERBINDING, VLOEIBAAR, BRANDBAAR, GIFTIG, met een vlampunt "
 "lager dan 23 °C"
@@ -4187,11 +4201,11 @@ msgstr ""
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_0226
 msgid ""
-"CYCLOTETRAMETHYLENE-TETRANITRAMINE (HMX; OCTOGEN), WETTED with not less than"
-" 15% water, by mass"
+"CYCLOTETRAMETHYLENE-TETRANITRAMINE (HMX; OCTOGEN), WETTED with not less than "
+"15% water, by mass"
 msgstr ""
-"CYCLOTETRAMETHYLEENTETRANITRAMINE (OCTOGEEN, HMX), BEVOCHTIGD met ten minste"
-" 15 massa-% water"
+"CYCLOTETRAMETHYLEENTETRANITRAMINE (OCTOGEEN, HMX), BEVOCHTIGD met ten minste "
+"15 massa-% water"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_0391
@@ -4219,8 +4233,8 @@ msgid ""
 "CYCLOTRIMETHYLENE-TRINITRAMINE (CYCLONITE; HEXOGEN; RDX), WETTED with not "
 "less than 15% water, by mass"
 msgstr ""
-"CYCLOTRIMETHYLEENTRINITRAMINE (CYCLONIET), (HEXOGEEN), (RDX), BEVOCHTIGD met"
-" ten minste 15 massa-% water"
+"CYCLOTRIMETHYLEENTRINITRAMINE (CYCLONIET), (HEXOGEEN), (RDX), BEVOCHTIGD met "
+"ten minste 15 massa-% water"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_2046
@@ -4270,8 +4284,8 @@ msgstr ""
 #: model:ir.model.fields,help:l10n_eu_product_adr.field_adr_goods__un_number
 msgid ""
 "Contains the UN number: of the dangerous substance or article if the "
-"substance or article has been assigned its own specific UN number; or of the"
-" generic or n.o.s. entry to which the dangerous substances or articles not "
+"substance or article has been assigned its own specific UN number; or of the "
+"generic or n.o.s. entry to which the dangerous substances or articles not "
 "mentioned by name shall be assigned in accordance with the criteria "
 "('decision trees') of Part 2."
 msgstr ""
@@ -4279,12 +4293,12 @@ msgstr ""
 #. module: l10n_eu_product_adr
 #: model:ir.model.fields,help:l10n_eu_product_adr.field_adr_goods__name
 msgid ""
-"Contains, in upper case characters, the name of the substance or article, if"
-" the substance or article has been assigned its own specific UN number, or "
-"of the generic or n.o.s. entry to which it has been assigned in accordance "
-"with the criteria ('decision trees') of Part 2. This name shall be used as "
-"the proper shipping name or, when applicable, as part of the proper shipping"
-" name (see 3.1.2 for further details on the proper shipping name)."
+"Contains, in upper case characters, the name of the substance or article, if "
+"the substance or article has been assigned its own specific UN number, or of "
+"the generic or n.o.s. entry to which it has been assigned in accordance with "
+"the criteria ('decision trees') of Part 2. This name shall be used as the "
+"proper shipping name or, when applicable, as part of the proper shipping "
+"name (see 3.1.2 for further details on the proper shipping name)."
 msgstr ""
 
 #. module: l10n_eu_product_adr
@@ -4383,11 +4397,11 @@ msgstr "DEUTERIUM, SAMENGEPERST"
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_3150
 msgid ""
-"DEVICES, SMALL, HYDROCARBON GAS POWERED or HYDROCARBON GAS REFILLS FOR SMALL"
-" DEVICES with release device"
+"DEVICES, SMALL, HYDROCARBON GAS POWERED or HYDROCARBON GAS REFILLS FOR SMALL "
+"DEVICES with release device"
 msgstr ""
-"APPARATEN, KLEIN, MET KOOLWATERSTOFGAS of NAVULPATRONEN MET KOOLWATERSTOFGAS"
-" VOOR KLEINE APPARATEN, met aftapinrichting"
+"APPARATEN, KLEIN, MET KOOLWATERSTOFGAS of NAVULPATRONEN MET KOOLWATERSTOFGAS "
+"VOOR KLEINE APPARATEN, met aftapinrichting"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_2841
@@ -4426,8 +4440,8 @@ msgid ""
 "DIAZODINITROPHENOL, WETTED with not less than 40% water, or mixture of "
 "alcohol and water, by mass"
 msgstr ""
-"DIAZODINITROFENOL, BEVOCHTIGD met ten minste 40 massa-% water of een mengsel"
-" van alcohol en water"
+"DIAZODINITROFENOL, BEVOCHTIGD met ten minste 40 massa-% water of een mengsel "
+"van alcohol en water"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_2434
@@ -4630,8 +4644,8 @@ msgid ""
 "DIETHYLENEGLYCOL DINITRATE, DESENSITIZED with not less than 25% non-"
 "volatile, water-insoluble phlegmatizer, by mass"
 msgstr ""
-"DIETHYLEENGLYCOLDINITRAAT, GEDESENSIBILISEERD met ten minste 25 massa-% niet"
-" vluchtig, niet in water oplosbaar flegmatiseermiddel"
+"DIETHYLEENGLYCOLDINITRAAT, GEDESENSIBILISEERD met ten minste 25 massa-% niet "
+"vluchtig, niet in water oplosbaar flegmatiseermiddel"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_2079
@@ -4824,8 +4838,8 @@ msgstr "DINITROFENOLATEN, BEVOCHTIGD met ten minste 15 massa-% water"
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_0077
 msgid ""
-"DINITROPHENOLATES, alkali metals, dry or wetted with less than 15% water, by"
-" mass"
+"DINITROPHENOLATES, alkali metals, dry or wetted with less than 15% water, by "
+"mass"
 msgstr ""
 "DINITROFENOLATEN van alkalimetalen, droog of bevochtigd met minder dan 15 "
 "massa-% water"
@@ -4838,8 +4852,7 @@ msgstr "DINITRORESORCINOL, BEVOCHTIGD met ten minste 15 massa-% water"
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_0078
 msgid "DINITRORESORCINOL, dry or wetted with less than 15% water, by mass"
-msgstr ""
-"DINITRORESORCINOL, droog of bevochtigd met minder dan 15 massa-% water"
+msgstr "DINITRORESORCINOL, droog of bevochtigd met minder dan 15 massa-% water"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_0406
@@ -4962,8 +4975,7 @@ msgstr "DODECYLTRICHLOORSILAAN"
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_2801_1L
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_2801_5L
 msgid ""
-"DYE, LIQUID, CORROSIVE, N.O.S. or DYE INTERMEDIATE, LIQUID, CORROSIVE, "
-"N.O.S."
+"DYE, LIQUID, CORROSIVE, N.O.S. or DYE INTERMEDIATE, LIQUID, CORROSIVE, N.O.S."
 msgstr ""
 "KLEURSTOF, VLOEIBAAR, BIJTEND, N.E.G. of TUSSENPRODUCT VOOR KLEURSTOF, "
 "VLOEIBAAR, BIJTEND, N.E.G."
@@ -5028,10 +5040,8 @@ msgstr "Gevaarlijke-goederenetiket"
 #, python-format
 msgid ""
 "Dangerous Goods Label %s cannot be deleted because it is in use on one or "
-"more classes: %s"
+"more dangerous goods: %s"
 msgstr ""
-"Het gevaarlijke goederenetiket %s kan niet verwijderd worden omdat het nog "
-"gekoppeld is aan één of meerdere klassen: %s"
 
 #. module: l10n_eu_product_adr
 #: model:ir.actions.act_window,name:l10n_eu_product_adr.adr_label_action
@@ -5051,10 +5061,18 @@ msgid "Dangerous Goods Packing Instructions"
 msgstr "Gevaarlijke goederen verpakkingsinstructies"
 
 #. module: l10n_eu_product_adr
+#: model_terms:ir.ui.view,arch_db:l10n_eu_product_adr.product_template_form_view
+msgid ""
+"Dangerous goods settings differ per variant of this product. Please "
+"configure the dangerous goods settings on each variant."
+msgstr ""
+
+#. module: l10n_eu_product_adr
 #: model:ir.model.fields,field_description:l10n_eu_product_adr.field_adr_class__display_name
 #: model:ir.model.fields,field_description:l10n_eu_product_adr.field_adr_goods__display_name
 #: model:ir.model.fields,field_description:l10n_eu_product_adr.field_adr_label__display_name
 #: model:ir.model.fields,field_description:l10n_eu_product_adr.field_adr_packing_instruction__display_name
+#: model:ir.model.fields,field_description:l10n_eu_product_adr.field_product_product__display_name
 #: model:ir.model.fields,field_description:l10n_eu_product_adr.field_product_template__display_name
 #: model:ir.model.fields,field_description:l10n_eu_product_adr.field_stock_move__display_name
 #: model:ir.model.fields,field_description:l10n_eu_product_adr.field_stock_picking__display_name
@@ -5085,8 +5103,8 @@ msgstr ""
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_3257_M9_9_274/643/668_P099/IBC99_3
 msgid ""
 "ELEVATED TEMPERATURE LIQUID, N.O.S., at or above 100 °C and below its flash-"
-"point (including molten metals, molten salts, etc.), filled at a temperature"
-" higher than 190 °C"
+"point (including molten metals, molten salts, etc.), filled at a temperature "
+"higher than 190 °C"
 msgstr ""
 "VERWARMDE VLOEISTOF, N.E.G. (met inbegrip van gesmolten metaal, gesmolten "
 "zout, enz.) bij een temperatuur van ten minste 100 °C en beneden zijn "
@@ -5121,16 +5139,16 @@ msgid ""
 "FLAMMABLE GAS POWERED or MACHINERY, INTERNAL COMBUSTION, FLAMMABLE GAS "
 "POWERED or MACHINERY, FUEL CELL, FLAMMABLE GAS POWERED"
 msgstr ""
-"VERBRANDINGSMOTOR, DOOR BRANDBAAR GAS AANGEDREVEN of MOTOR MET BRANDSTOFCEL,"
-" DOOR BRANDBAAR GAS AANGEDREVEN of VERBRANDINGSMACHINE, DOOR BRANDBAAR GAS "
+"VERBRANDINGSMOTOR, DOOR BRANDBAAR GAS AANGEDREVEN of MOTOR MET BRANDSTOFCEL, "
+"DOOR BRANDBAAR GAS AANGEDREVEN of VERBRANDINGSMACHINE, DOOR BRANDBAAR GAS "
 "AANGEDREVEN of MACHINE MET BRANDSTOFCEL, DOOR BRANDBAAR GAS AANGEDREVEN"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_3528
 msgid ""
 "ENGINE, INTERNAL COMBUSTION, FLAMMABLE LIQUID POWERED or ENGINE, FUEL CELL, "
-"FLAMMABLE LIQUID POWERED or MACHINERY, INTERNAL COMBUSTION, FLAMMABLE LIQUID"
-" POWERED or MACHINERY, FUEL CELL, FLAMMABLE LIQUID POWERED"
+"FLAMMABLE LIQUID POWERED or MACHINERY, INTERNAL COMBUSTION, FLAMMABLE LIQUID "
+"POWERED or MACHINERY, FUEL CELL, FLAMMABLE LIQUID POWERED"
 msgstr ""
 "VERBRANDINGSMOTOR, DOOR BRANDBARE VLOEISTOF AANGEDREVEN of MOTOR MET "
 "BRANDSTOFCEL, DOOR BRANDBARE VLOEISTOF AANGEDREVEN of VERBRANDINGSMACHINE, "
@@ -5176,8 +5194,7 @@ msgstr "ETHAAN, STERK GEKOELD, VLOEIBAAR"
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_1170_1L
 msgid "ETHANOL (ETHYL ALCOHOL) or ETHANOL SOLUTION (ETHYL ALCOHOL SOLUTION)"
-msgstr ""
-"ETHANOL (ETHYLALCOHOL) of ETHANOL, OPLOSSING (ETHYLALCOHOL, OPLOSSING)"
+msgstr "ETHANOL (ETHYLALCOHOL) of ETHANOL, OPLOSSING (ETHYLALCOHOL, OPLOSSING)"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_3475
@@ -5453,8 +5470,8 @@ msgid ""
 "oxide"
 msgstr ""
 "MENGSEL VAN ETHYLEENOXIDE EN KOOL- STOFDIOXIDE (MENGSEL VAN ETHYLEEN- OXIDE "
-"EN KOOLDIOXIDE) (MENGSEL VAN ETHYLEENOXIDE EN KOOLZUUR), met niet meer dan 9"
-" % ethyleenoxide"
+"EN KOOLDIOXIDE) (MENGSEL VAN ETHYLEENOXIDE EN KOOLZUUR), met niet meer dan 9 "
+"% ethyleenoxide"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_3297
@@ -5462,17 +5479,17 @@ msgid ""
 "ETHYLENE OXIDE AND CHLOROTETRAFLUORO-ETHANE MIXTURE with not more than 8.8% "
 "ethylene oxide"
 msgstr ""
-"MENGSEL VAN ETHYLEENOXIDE EN CHLOORTETRAFLUORETHAAN, dat niet meer dan 8,8 %"
-" ethyleenoxide bevat"
+"MENGSEL VAN ETHYLEENOXIDE EN CHLOORTETRAFLUORETHAAN, dat niet meer dan 8,8 % "
+"ethyleenoxide bevat"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_3070
 msgid ""
-"ETHYLENE OXIDE AND DICHLORODIFLUORO-METHANE MIXTURE with not more than 12.5%"
-" ethylene oxide"
+"ETHYLENE OXIDE AND DICHLORODIFLUORO-METHANE MIXTURE with not more than 12.5% "
+"ethylene oxide"
 msgstr ""
-"MENGSEL VAN ETHYLEENOXIDE EN DICHLOOR-DIFLUORMETHAAN, met niet meer dan 12,5"
-" % ethyleenoxide"
+"MENGSEL VAN ETHYLEENOXIDE EN DICHLOOR-DIFLUORMETHAAN, met niet meer dan 12,5 "
+"% ethyleenoxide"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_3298
@@ -5512,9 +5529,9 @@ msgstr ""
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_3138
 msgid ""
-"ETHYLENE, ACETYLENE AND PROPYLENE MIXTURE, REFRIGERATED LIQUID containing at"
-" least 71.5% ethylene with not more than 22.5% acetylene and not more than "
-"6% propylene"
+"ETHYLENE, ACETYLENE AND PROPYLENE MIXTURE, REFRIGERATED LIQUID containing at "
+"least 71.5% ethylene with not more than 22.5% acetylene and not more than 6% "
+"propylene"
 msgstr ""
 "MENGSEL VAN ETHYLEEN, ACETYLEEN EN PROPYLEEN, STERK GEKOELD, VLOEIBAAR "
 "(MENGSEL VAN ETHEEN, ACETYLEEN EN PROPEEN, STERK GEKOELD, VLOEIBAAR), dat "
@@ -5606,8 +5623,7 @@ msgstr ""
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_1169_F1_3_601/640C_5L_P001_2
-msgid ""
-"EXTRACTS, AROMATIC, LIQUID (vapour pressure at 50 °C more than 110 kPa)"
+msgid "EXTRACTS, AROMATIC, LIQUID (vapour pressure at 50 °C more than 110 kPa)"
 msgstr ""
 "EXTRACTEN, AROMATISCH, VLOEIBAAR (dampspanning bij 50 °C hoger dan 110 kPa)"
 
@@ -5647,14 +5663,12 @@ msgstr ""
 msgid ""
 "EXTRACTS, FLAVOURING, LIQUID (vapour pressure at 50 °C more than 110 kPa)"
 msgstr ""
-"EXTRACTEN, SMAAKSTOFFEN, VLOEIBAAR (dampspanning bij 50 °C hoger dan 110 "
-"kPa)"
+"EXTRACTEN, SMAAKSTOFFEN, VLOEIBAAR (dampspanning bij 50 °C hoger dan 110 kPa)"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_1197_F1_3_601/640D_5L_P001/IBC02/R001_2
 msgid ""
-"EXTRACTS, FLAVOURING, LIQUID (vapour pressure at 50 °C not more than 110 "
-"kPa)"
+"EXTRACTS, FLAVOURING, LIQUID (vapour pressure at 50 °C not more than 110 kPa)"
 msgstr ""
 "EXTRACTEN, SMAAKSTOFFEN, VLOEIBAAR (dampspanning bij 50 °C niet hoger dan "
 "110 kPa)"
@@ -5751,8 +5765,8 @@ msgstr ""
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_1373
 msgid "FIBRES or FABRICS, ANIMAL or VEGETABLE or SYNTHETIC, N.O.S. with oil"
 msgstr ""
-"VEZELS VAN DIERLIJKE, PLANTAARDIGE of SYNTHETISCHE OORSPRONG, doordrenkt met"
-" olie, N.E.G. of WEEFSELS VAN DIERLIJKE, PLANTAARDIGE of SYNTHETISCHE "
+"VEZELS VAN DIERLIJKE, PLANTAARDIGE of SYNTHETISCHE OORSPRONG, doordrenkt met "
+"olie, N.E.G. of WEEFSELS VAN DIERLIJKE, PLANTAARDIGE of SYNTHETISCHE "
 "OORSPRONG, doordrenkt met olie, N.E.G."
 
 #. module: l10n_eu_product_adr
@@ -5825,8 +5839,7 @@ msgstr ""
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_1993_F1_3_274/601/640C_1L_P001_2
 msgid "FLAMMABLE LIQUID, N.O.S. (vapour pressure at 50 °C more than 110 kPa)"
-msgstr ""
-"BRANDBARE VLOEISTOF, N.E.G. (dampspanning bij 50 °C hoger dan 110 kPa)"
+msgstr "BRANDBARE VLOEISTOF, N.E.G. (dampspanning bij 50 °C hoger dan 110 kPa)"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_1993_F1_3_274/601/640D_1L_P001/IBC02/R001_2
@@ -6035,8 +6048,8 @@ msgid ""
 "CELL CARTRIDGES PACKED WITH EQUIPMENT, containing liquefied flammable gas"
 msgstr ""
 "PATRONEN VOOR BRANDSTOF- CELLEN of PATRONEN VOOR BRANDSTOFCELLEN, IN "
-"APPARATUUR of PATRONEN VOOR BRANDSTOFCELLEN, VERPAKT MET APPARATUUR, die een"
-" vloeibaar gemaakt brandbaar gas bevatten"
+"APPARATUUR of PATRONEN VOOR BRANDSTOFCELLEN, VERPAKT MET APPARATUUR, die een "
+"vloeibaar gemaakt brandbaar gas bevatten"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_3476
@@ -6045,8 +6058,8 @@ msgid ""
 "CELL CARTRIDGES PACKED WITH EQUIPMENT, containing water-reactive substances"
 msgstr ""
 "PATRONEN VOOR BRANDSTOF- CELLEN of PATRONEN VOOR BRANDSTOFCELLEN, IN "
-"APPARATUUR of PATRONEN VOOR BRANDSTOFCELLEN, VERPAKT MET APPARATUUR, die met"
-" water reactieve stoffen bevatten"
+"APPARATUUR of PATRONEN VOOR BRANDSTOFCELLEN, VERPAKT MET APPARATUUR, die met "
+"water reactieve stoffen bevatten"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_1863_F1_3_664_500ml_P001_1
@@ -6181,8 +6194,7 @@ msgstr "Brandbare stoffen"
 #. module: l10n_eu_product_adr
 #: model:adr.class,name:l10n_eu_product_adr.adr_class_4_1
 msgid ""
-"Flammable solids, self-reactive substances, and solid desensitized "
-"explosives"
+"Flammable solids, self-reactive substances, and solid desensitized explosives"
 msgstr ""
 "Brandbare vaste stoffen, zelfontledende stoffen, polymeriserende stoffen en "
 "vaste ontplofbare stoffen in niet explosieve toestand"
@@ -6211,8 +6223,7 @@ msgstr ""
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_3167
-msgid ""
-"GAS SAMPLE, NON-PRESSURIZED, FLAMMABLE, N.O.S., not refrigerated liquid"
+msgid "GAS SAMPLE, NON-PRESSURIZED, FLAMMABLE, N.O.S., not refrigerated liquid"
 msgstr "GASMONSTER, DRUKLOOS, BRANDBAAR, N.E.G., niet sterk gekoeld vloeibaar"
 
 #. module: l10n_eu_product_adr
@@ -6221,8 +6232,7 @@ msgid ""
 "GAS SAMPLE, NON-PRESSURIZED, TOXIC, FLAMMABLE, N.O.S., not refrigerated "
 "liquid"
 msgstr ""
-"GASMONSTER, DRUKLOOS, GIFTIG, BRANDBAAR, N.E.G., niet sterk gekoeld "
-"vloeibaar"
+"GASMONSTER, DRUKLOOS, GIFTIG, BRANDBAAR, N.E.G., niet sterk gekoeld vloeibaar"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_3169
@@ -6307,14 +6317,14 @@ msgid ""
 "GUANYLNITROSAMINO-GUANYLIDENE HYDRAZINE, WETTED with not less than 30% "
 "water, by mass"
 msgstr ""
-"GUANYLNITROSAMINOGUANYLI DEENHYDRAZINE, BEVOCHTIGD met ten minste 30 massa-%"
-" water"
+"GUANYLNITROSAMINOGUANYLI DEENHYDRAZINE, BEVOCHTIGD met ten minste 30 massa-% "
+"water"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_0114
 msgid ""
-"GUANYLNITROSAMINO-GUANYLTETRAZENE (TETRAZENE), WETTED with not less than 30%"
-" water, or mixture of alcohol and water, by mass"
+"GUANYLNITROSAMINO-GUANYLTETRAZENE (TETRAZENE), WETTED with not less than 30% "
+"water, or mixture of alcohol and water, by mass"
 msgstr ""
 "GUANYLNITROSAMINOGUANYL TETRAZEEN (TETRAZEEN), BEVOCHTIGD met ten minste 30 "
 "massa-% water of een mengsel van alcohol en water"
@@ -6549,11 +6559,11 @@ msgstr "MENGSEL VAN KOOLWATERSTOFGASSEN, SAMENGEPERST, N.E.G."
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_1965
 msgid ""
-"HYDROCARBON GAS MIXTURE, LIQUEFIED, N.O.S. such as mixtures A, A01, A02, A0,"
-" A1, B1, B2, B or C"
+"HYDROCARBON GAS MIXTURE, LIQUEFIED, N.O.S. such as mixtures A, A01, A02, A0, "
+"A1, B1, B2, B or C"
 msgstr ""
-"MENGSEL VAN KOOLWATERSTOFGASSEN, VLOEIBAAR GEMAAKT, N.E.G., zoals mengsel A,"
-" A01, A02, A0, A1, B1, B2, B of C"
+"MENGSEL VAN KOOLWATERSTOFGASSEN, VLOEIBAAR GEMAAKT, N.E.G., zoals mengsel A, "
+"A01, A02, A0, A1, B1, B2, B of C"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_3295_F1_3_500ml_P001_1
@@ -6572,8 +6582,7 @@ msgstr ""
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_3295_F1_3_640D_1L_P001/IBC02/R001_2
 msgid ""
-"HYDROCARBONS, LIQUID, N.O.S. (vapour pressure at 50 °C not more than 110 "
-"kPa)"
+"HYDROCARBONS, LIQUID, N.O.S. (vapour pressure at 50 °C not more than 110 kPa)"
 msgstr ""
 "KOOLWATERSTOFFEN, VLOEIBAAR, N.E.G. (dampspanning bij 50 °C niet hoger dan "
 "110 kPa)"
@@ -6587,8 +6596,8 @@ msgstr "ZOUTZUUR (CHLOORWATERSTOFZUUR)"
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_1613
 msgid ""
-"HYDROCYANIC ACID, AQUEOUS SOLUTION (HYDROGEN CYANIDE, AQUEOUS SOLUTION) with"
-" not more than 20% hydrogen cyanide"
+"HYDROCYANIC ACID, AQUEOUS SOLUTION (HYDROGEN CYANIDE, AQUEOUS SOLUTION) with "
+"not more than 20% hydrogen cyanide"
 msgstr ""
 "CYAANWATERSTOF, OPLOSSING IN WATER (CYAANWATERSTOFZUUR), met niet meer dan "
 "20 % cyaanwaterstof"
@@ -6638,8 +6647,7 @@ msgstr "CHLOORWATERSTOF, STERK GEKOELD, VLOEIBAAR"
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_3294
 msgid ""
-"HYDROGEN CYANIDE, SOLUTION IN ALCOHOL with not more than 45% hydrogen "
-"cyanide"
+"HYDROGEN CYANIDE, SOLUTION IN ALCOHOL with not more than 45% hydrogen cyanide"
 msgstr ""
 "CYAANWATERSTOF, OPLOSSING IN ALCOHOL, met niet meer dan 45 % cyaanwaterstof"
 
@@ -6666,8 +6674,8 @@ msgstr "FLUORWATERSTOF, WATERVRIJ"
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_3468
 msgid ""
 "HYDROGEN IN A METAL HYDRIDE STORAGE SYSTEM or HYDROGEN IN A METAL HYDRIDE "
-"STORAGE SYSTEM CONTAINED IN EQUIPMENT or HYDROGEN IN A METAL HYDRIDE STORAGE"
-" SYSTEM PACKED WITH EQUIPMENT"
+"STORAGE SYSTEM CONTAINED IN EQUIPMENT or HYDROGEN IN A METAL HYDRIDE STORAGE "
+"SYSTEM PACKED WITH EQUIPMENT"
 msgstr ""
 "WATERSTOF IN EEN OPSLAG- SYSTEEM MET METAAL- HYDRIDEN of WATERSTOF IN EEN "
 "OPSLAGSYSTEEM MET METAALHYDRIDEN, IN APPARATUUR of WATERSTOF IN EEN "
@@ -6690,8 +6698,8 @@ msgstr ""
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_2014
 msgid ""
-"HYDROGEN PEROXIDE, AQUEOUS SOLUTION with not less than 20% but not more than"
-" 60% hydrogen peroxide (stabilized as necessary)"
+"HYDROGEN PEROXIDE, AQUEOUS SOLUTION with not less than 20% but not more than "
+"60% hydrogen peroxide (stabilized as necessary)"
 msgstr ""
 "WATERSTOFPEROXIDE, OPLOSSING IN WATER, met ten minste 20 % en niet meer dan "
 "60 % waterstofperoxide (zo nodig gestabiliseerd)"
@@ -6702,8 +6710,8 @@ msgid ""
 "HYDROGEN PEROXIDE, AQUEOUS SOLUTION with not less than 8% but less than 20% "
 "hydrogen peroxide (stabilized as necessary)"
 msgstr ""
-"WATERSTOFPEROXIDE, OPLOSSING IN WATER, met ten minste 8 % en minder dan 20 %"
-" waterstofperoxide (zo nodig gestabiliseerd)"
+"WATERSTOFPEROXIDE, OPLOSSING IN WATER, met ten minste 8 % en minder dan 20 % "
+"waterstofperoxide (zo nodig gestabiliseerd)"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_2015_OC1_5dot1/8_640N_P501_1
@@ -6786,6 +6794,7 @@ msgstr "Hooi, stro of Bhusa"
 #: model:ir.model.fields,field_description:l10n_eu_product_adr.field_adr_goods__id
 #: model:ir.model.fields,field_description:l10n_eu_product_adr.field_adr_label__id
 #: model:ir.model.fields,field_description:l10n_eu_product_adr.field_adr_packing_instruction__id
+#: model:ir.model.fields,field_description:l10n_eu_product_adr.field_product_product__id
 #: model:ir.model.fields,field_description:l10n_eu_product_adr.field_product_template__id
 #: model:ir.model.fields,field_description:l10n_eu_product_adr.field_stock_move__id
 #: model:ir.model.fields,field_description:l10n_eu_product_adr.field_stock_picking__id
@@ -6818,8 +6827,7 @@ msgstr ""
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_2900_I2_6dot2/2dot2_318_P620_0
 msgid ""
-"INFECTIOUS SUBSTANCE, AFFECTING ANIMALS only, in refrigerated liquid "
-"nitrogen"
+"INFECTIOUS SUBSTANCE, AFFECTING ANIMALS only, in refrigerated liquid nitrogen"
 msgstr ""
 "INFECTUEUZE STOF, alleen GEVAARLIJK VOOR DIEREN (BESMETTELIJKE STOF, alleen "
 "GEVAARLIJK VOOR DIEREN), in sterk gekoelde vloeibare stikstof"
@@ -6840,8 +6848,7 @@ msgstr ""
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_2814_I1_6dot2/2dot2_318_P620_0
-msgid ""
-"INFECTIOUS SUBSTANCE, AFFECTING HUMANS, in refrigerated liquid nitrogen"
+msgid "INFECTIOUS SUBSTANCE, AFFECTING HUMANS, in refrigerated liquid nitrogen"
 msgstr ""
 "INFECTUEUZE STOF, GEVAARLIJK VOOR MENSEN (BESMETTELIJKE STOF, GEVAARLIJK "
 "VOOR MENSEN), in sterk gekoelde vloeibare stikstof"
@@ -7038,8 +7045,7 @@ msgstr "ISOPENTENEN"
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_2290
 msgid "ISOPHORONE DIISOCYANATE"
 msgstr ""
-"ISOFORONDIISOCYANAAT "
-"(3-isocyanatomethyl-3,5,5-trimethylcyclohexylisocyanaat)"
+"ISOFORONDIISOCYANAAT (3-isocyanatomethyl-3,5,5-trimethylcyclohexylisocyanaat)"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_2289
@@ -7129,8 +7135,8 @@ msgstr "ISOPROPYLBENZEEN (cumeen)"
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_2907
 msgid ""
-"ISOSORBIDE DINITRATE MIXTURE with not less than 60% lactose, mannose, starch"
-" or calcium hydrogen phosphate"
+"ISOSORBIDE DINITRATE MIXTURE with not less than 60% lactose, mannose, starch "
+"or calcium hydrogen phosphate"
 msgstr ""
 "ISOSORBIDEDINITRAAT, MENGSEL met ten minste 60 % lactose, mannose, zetmeel "
 "of calciumwaterstoffosfaat"
@@ -7144,6 +7150,12 @@ msgstr "ISOSORBIDE-5-MONONITRAAT"
 #: model:ir.model.fields,field_description:l10n_eu_product_adr.field_adr_label__image
 msgid "Image"
 msgstr "Afbeelding"
+
+#. module: l10n_eu_product_adr
+#: model:ir.model.fields,help:l10n_eu_product_adr.field_product_product__adr_goods_on_variants
+#: model:ir.model.fields,help:l10n_eu_product_adr.field_product_template__adr_goods_on_variants
+msgid "Indicates whether the adr configuration is different for each variant."
+msgstr ""
 
 #. module: l10n_eu_product_adr
 #: model:adr.class,name:l10n_eu_product_adr.adr_class_6_2
@@ -7268,8 +7280,8 @@ msgid ""
 "LEAD STYPHNATE (LEAD TRINITRORESORCINATE), WETTED with not less than 20% "
 "water, or mixture of alcohol and water, by mass"
 msgstr ""
-"LOODSTYFNAAT (LOODTRINITRORESORCINAAT), BEVOCHTIGD met ten minste 20 massa-%"
-" water of een mengsel van alcohol en water"
+"LOODSTYFNAAT (LOODTRINITRORESORCINAAT), BEVOCHTIGD met ten minste 20 massa-% "
+"water of een mengsel van alcohol en water"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_1794
@@ -7351,8 +7363,8 @@ msgstr "VLOEIBAAR GEMAAKT GAS, GIFTIG, OXIDEREND, N.E.G."
 msgid ""
 "LIQUEFIED GASES, non-flammable, charged with nitrogen, carbon dioxide or air"
 msgstr ""
-"VLOEIBAAR GEMAAKTE GASSEN, niet brandbaar, onder een atmosfeer van stikstof,"
-" koolstofdioxide (kooldioxide) (koolzuur) of lucht"
+"VLOEIBAAR GEMAAKTE GASSEN, niet brandbaar, onder een atmosfeer van stikstof, "
+"koolstofdioxide (kooldioxide) (koolzuur) of lucht"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_1415
@@ -7372,8 +7384,8 @@ msgstr "LITHIUMALUMINIUMHYDRIDE IN ETHER"
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_3536
 msgid ""
-"LITHIUM BATTERIES INSTALLED IN CARGO TRANSPORT UNIT lithium ion batteries or"
-" lithium metal batteries"
+"LITHIUM BATTERIES INSTALLED IN CARGO TRANSPORT UNIT lithium ion batteries or "
+"lithium metal batteries"
 msgstr ""
 "LITHIUMBATTERIJEN GEÏNSTALLEERD IN CARGO-TRANSPORTEENHEDEN lithium-ion-"
 "batterijen of lithiummetaal-batterijen"
@@ -7425,11 +7437,11 @@ msgstr ""
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_3481
 msgid ""
-"LITHIUM ION BATTERIES CONTAINED IN EQUIPMENT or LITHIUM ION BATTERIES PACKED"
-" WITH EQUIPMENT (including lithium ion polymer batteries)"
+"LITHIUM ION BATTERIES CONTAINED IN EQUIPMENT or LITHIUM ION BATTERIES PACKED "
+"WITH EQUIPMENT (including lithium ion polymer batteries)"
 msgstr ""
-"LITHIUM-ION-BATTERIJEN, IN APPARATUUR of LITHIUM-ION-BATTERIJEN, VERPAKT MET"
-" APPARATUUR (met inbegrip van lithium-ion-batterijen met polymeermembraan)"
+"LITHIUM-ION-BATTERIJEN, IN APPARATUUR of LITHIUM-ION-BATTERIJEN, VERPAKT MET "
+"APPARATUUR (met inbegrip van lithium-ion-batterijen met polymeermembraan)"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_3090
@@ -7492,6 +7504,7 @@ msgstr "Etiketten"
 #: model:ir.model.fields,field_description:l10n_eu_product_adr.field_adr_goods____last_update
 #: model:ir.model.fields,field_description:l10n_eu_product_adr.field_adr_label____last_update
 #: model:ir.model.fields,field_description:l10n_eu_product_adr.field_adr_packing_instruction____last_update
+#: model:ir.model.fields,field_description:l10n_eu_product_adr.field_product_product____last_update
 #: model:ir.model.fields,field_description:l10n_eu_product_adr.field_product_template____last_update
 #: model:ir.model.fields,field_description:l10n_eu_product_adr.field_stock_move____last_update
 #: model:ir.model.fields,field_description:l10n_eu_product_adr.field_stock_picking____last_update
@@ -7520,6 +7533,13 @@ msgstr ""
 #: model:ir.model.fields,field_description:l10n_eu_product_adr.field_product_template__adr_limited_quantity
 msgid "Limited Quantity"
 msgstr "Beperkte Hoeveelheid"
+
+#. module: l10n_eu_product_adr
+#: model:ir.model.fields,field_description:l10n_eu_product_adr.field_adr_goods__limited_quantity_uom_id
+#: model:ir.model.fields,field_description:l10n_eu_product_adr.field_product_product__adr_limited_quantity_uom_id
+#: model:ir.model.fields,field_description:l10n_eu_product_adr.field_product_template__adr_limited_quantity_uom_id
+msgid "Limited Quantity UoM"
+msgstr ""
 
 #. module: l10n_eu_product_adr
 #: model:adr.label,name:l10n_eu_product_adr.adr_label_9A
@@ -7626,13 +7646,12 @@ msgstr "MALONITRIL"
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_2210
 msgid "MANEB or MANEB PREPARATION with not less than 60% maneb"
 msgstr ""
-"MANEB (mangaan-ethyleen-1,2-bis-dithiocarbamaat) of MANEB-PREPARATEN met ten"
-" minste 60 massa-% maneb"
+"MANEB (mangaan-ethyleen-1,2-bis-dithiocarbamaat) of MANEB-PREPARATEN met ten "
+"minste 60 massa-% maneb"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_2968
-msgid ""
-"MANEB, STABILIZED or MANEB PREPARATION, STABILIZED against self-heating"
+msgid "MANEB, STABILIZED or MANEB PREPARATION, STABILIZED against self-heating"
 msgstr ""
 "MANEB (mangaan-ethyleen-1,2-bis-dithiocarbamaat), GESTABILISEERD tegen "
 "zelfverhitting of MANEB-PREPARATEN, GESTABILISEERD tegen zelfverhitting"
@@ -7650,8 +7669,8 @@ msgstr "MANGAANRESINAAT"
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_0133
 msgid ""
-"MANNITOL HEXANITRATE (NITROMANNITE), WETTED with not less than 40% water, or"
-" mixture of alcohol and water, by mass"
+"MANNITOL HEXANITRATE (NITROMANNITE), WETTED with not less than 40% water, or "
+"mixture of alcohol and water, by mass"
 msgstr ""
 "MANNITOLHEXANITRAAT (NITROMANNIET), BEVOCHTIGD met ten minste 40 massa-% "
 "water of een mengsel van alcohol en water"
@@ -7803,8 +7822,8 @@ msgstr "PESTICIDE, KWIKVERBINDING, VLOEIBAAR, GIFTIG"
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_3011_100ml
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_3011_5L
 msgid ""
-"MERCURY BASED PESTICIDE, LIQUID, TOXIC, FLAMMABLE, flash-point not less than"
-" 23 °C"
+"MERCURY BASED PESTICIDE, LIQUID, TOXIC, FLAMMABLE, flash-point not less than "
+"23 °C"
 msgstr ""
 "PESTICIDE, KWIKVERBINDING, VLOEIBAAR, GIFTIG, BRANDBAAR, met een vlampunt "
 "gelijk aan of hoger dan 23 °C"
@@ -7856,8 +7875,8 @@ msgid ""
 "MERCURY FULMINATE, WETTED with not less than 20% water, or mixture of "
 "alcohol and water, by mass"
 msgstr ""
-"KWIKFULMINAAT, BEVOCHTIGD met ten minste 20 massa-% water of een mengsel van"
-" alcohol en water"
+"KWIKFULMINAAT, BEVOCHTIGD met ten minste 20 massa-% water of een mengsel van "
+"alcohol en water"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_1637
@@ -8482,15 +8501,13 @@ msgstr ""
 msgid ""
 "NICOTINE COMPOUND, LIQUID, N.O.S. or NICOTINE PREPARATION, LIQUID, N.O.S."
 msgstr ""
-"NICOTINEVERBINDING, VLOEIBAAR, N.E.G. of NICOTINEPREPARAAT, VLOEIBAAR, "
-"N.E.G."
+"NICOTINEVERBINDING, VLOEIBAAR, N.E.G. of NICOTINEPREPARAAT, VLOEIBAAR, N.E.G."
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_1655
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_1655_500g
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_1655_5kg
-msgid ""
-"NICOTINE COMPOUND, SOLID, N.O.S. or NICOTINE PREPARATION, SOLID, N.O.S."
+msgid "NICOTINE COMPOUND, SOLID, N.O.S. or NICOTINE PREPARATION, SOLID, N.O.S."
 msgstr "NICOTINEVERBINDING, VAST, N.E.G. of NICOTINEPREPARAAT, VAST, N.E.G."
 
 #. module: l10n_eu_product_adr
@@ -8565,8 +8582,8 @@ msgstr "SALPETERZUUR, ROODROKEND"
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_2031_CO1_8/5dot1_1L_P001/IBC02_2
 msgid ""
-"NITRIC ACID, other than red fuming, with at least 65%, but not more than 70%"
-" nitric acid"
+"NITRIC ACID, other than red fuming, with at least 65%, but not more than 70% "
+"nitric acid"
 msgstr ""
 "SALPETERZUUR, met uitzondering van roodrokend salpeterzuur, met ten minste "
 "65 % maar niet meer dan 70 % salpeterzuur"
@@ -8692,15 +8709,15 @@ msgid ""
 "NITROCELLULOSE MEMBRANE FILTERS, with not more than 12.6% nitrogen, by dry "
 "mass"
 msgstr ""
-"MEMBRAANFILTERS UIT NITROCELLULOSE met een stikstofgehalte van niet meer dan"
-" 12,6 % berekend op de droge massa"
+"MEMBRAANFILTERS UIT NITROCELLULOSE met een stikstofgehalte van niet meer dan "
+"12,6 % berekend op de droge massa"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_2059_D_3_198/531_5L_P001/IBC03/LP01/R001_3
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_2059_D_3_198/531_P001_1
 msgid ""
-"NITROCELLULOSE SOLUTION, FLAMMABLE with not more than 12.6% nitrogen, by dry"
-" mass, and not more than 55% nitrocellulose"
+"NITROCELLULOSE SOLUTION, FLAMMABLE with not more than 12.6% nitrogen, by dry "
+"mass, and not more than 55% nitrocellulose"
 msgstr ""
 "NITROCELLULOSE, OPLOSSING, BRANDBAAR, die niet meer dan 12,6 % stikstof "
 "bevat (berekend op de droge massa) en niet meer dan 55 % nitrocellulose"
@@ -8708,8 +8725,8 @@ msgstr ""
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_2059_D_3_198/531/640C_1L_P001/IBC02_2
 msgid ""
-"NITROCELLULOSE SOLUTION, FLAMMABLE with not more than 12.6% nitrogen, by dry"
-" mass, and not more than 55% nitrocellulose (vapour pressure at 50 °C more "
+"NITROCELLULOSE SOLUTION, FLAMMABLE with not more than 12.6% nitrogen, by dry "
+"mass, and not more than 55% nitrocellulose (vapour pressure at 50 °C more "
 "than 110 kPa)"
 msgstr ""
 "NITROCELLULOSE, OPLOSSING, BRANDBAAR, die niet meer dan 12,6 % stikstof "
@@ -8719,8 +8736,8 @@ msgstr ""
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_2059_D_3_198/531/640D_1L_P001/IBC02/R001_2
 msgid ""
-"NITROCELLULOSE SOLUTION, FLAMMABLE with not more than 12.6% nitrogen, by dry"
-" mass, and not more than 55% nitrocellulose (vapour pressure at 50 °C not "
+"NITROCELLULOSE SOLUTION, FLAMMABLE with not more than 12.6% nitrogen, by dry "
+"mass, and not more than 55% nitrocellulose (vapour pressure at 50 °C not "
 "more than 110 kPa)"
 msgstr ""
 "NITROCELLULOSE, OPLOSSING, BRANDBAAR, die niet meer dan 12,6 % stikstof "
@@ -8774,8 +8791,8 @@ msgstr ""
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_2557
 msgid ""
-"NITROCELLULOSE, with not more than 12.6% nitrogen, by dry mass, MIXTURE WITH"
-" or WITHOUT PLASTICIZER, WITH or WITHOUT PIGMENT"
+"NITROCELLULOSE, with not more than 12.6% nitrogen, by dry mass, MIXTURE WITH "
+"or WITHOUT PLASTICIZER, WITH or WITHOUT PIGMENT"
 msgstr ""
 "NITROCELLULOSE, MENGSEL, met een stikstofgehalte van niet meer dan 12,6 % "
 "berekend op de droge massa, MET of ZONDER PLASTIFICEERMIDDEL, MET of ZONDER "
@@ -8819,8 +8836,8 @@ msgstr "STIKSTOF, STERK GEKOELD, VLOEIBAAR"
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_3343
 msgid ""
-"NITROGLYCERIN MIXTURE, DESENSITIZED, LIQUID, FLAMMABLE, N.O.S. with not more"
-" than 30% nitroglycerin, by mass"
+"NITROGLYCERIN MIXTURE, DESENSITIZED, LIQUID, FLAMMABLE, N.O.S. with not more "
+"than 30% nitroglycerin, by mass"
 msgstr ""
 "NITROGLYCERINE, MENGSEL, GEDESENSIBILISEERD, VLOEIBAAR, BRANDBAAR, N.E.G., "
 "met niet meer dan 30 massa-% nitroglycerine"
@@ -8837,8 +8854,8 @@ msgstr ""
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_3319
 msgid ""
-"NITROGLYCERIN MIXTURE, DESENSITIZED, SOLID, N.O.S. with more than 2% but not"
-" more than 10% nitroglycerin, by mass"
+"NITROGLYCERIN MIXTURE, DESENSITIZED, SOLID, N.O.S. with more than 2% but not "
+"more than 10% nitroglycerin, by mass"
 msgstr ""
 "NITROGLYCERINE, MENGSEL, GEDESENSIBILISEERD, VAST, N.E.G., met meer dan 2 "
 "massa-%, maar niet meer dan 10 massa-% nitroglycerine"
@@ -8849,8 +8866,8 @@ msgid ""
 "NITROGLYCERIN SOLUTION IN ALCOHOL with more than 1% but not more than 10% "
 "nitroglycerin"
 msgstr ""
-"NITROGLYCERINE, OPLOSSING IN ALCOHOL, met meer dan 1 % maar niet meer dan 10"
-" % nitroglycerine"
+"NITROGLYCERINE, OPLOSSING IN ALCOHOL, met meer dan 1 % maar niet meer dan 10 "
+"% nitroglycerine"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_1204
@@ -8886,8 +8903,7 @@ msgstr "NITROGUANIDINE (PIKRIET), BEVOCHTIGD met ten minste 20 massa-% water"
 msgid ""
 "NITROGUANIDINE (PICRITE), dry or wetted with less than 20% water, by mass"
 msgstr ""
-"NITROGUANIDINE (PIKRIET), droog of bevochtigd met minder dan 20 massa-% "
-"water"
+"NITROGUANIDINE (PIKRIET), droog of bevochtigd met minder dan 20 massa-% water"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_1798
@@ -8968,8 +8984,7 @@ msgstr "DISTIKSTOFOXIDE (LACHGAS)"
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_2201
 msgid "NITROUS OXIDE, REFRIGERATED LIQUID"
 msgstr ""
-"DISTIKSTOFOXIDE, STERK GEKOELD, VLOEIBAAR (LACHGAS, STERK GEKOELD, "
-"VLOEIBAAR)"
+"DISTIKSTOFOXIDE, STERK GEKOELD, VLOEIBAAR (LACHGAS, STERK GEKOELD, VLOEIBAAR)"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_1665
@@ -9193,8 +9208,8 @@ msgstr "ORGANISCHE ARSEENVERBINDING, VAST, N.E.G."
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_2762
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_2762_1L
 msgid ""
-"ORGANOCHLORINE PESTICIDE, LIQUID, FLAMMABLE, TOXIC, flash-point less than 23"
-" °C"
+"ORGANOCHLORINE PESTICIDE, LIQUID, FLAMMABLE, TOXIC, flash-point less than 23 "
+"°C"
 msgstr ""
 "PESTICIDE, ORGANISCHE CHLOORVERBINDING, VLOEIBAAR, BRANDBAAR, GIFTIG, met "
 "een vlampunt lager dan 23 °C"
@@ -9514,8 +9529,7 @@ msgid ""
 msgstr ""
 "VERF (met inbegrip van verf, lakverf, email, beits, schellakoplossing, "
 "vernis, polijstmiddel, vloeibaar plamuur, vloeibare lakbasis) of VERF-"
-"VERWANTE PRODUCTEN (met inbegrip van verdunners en oplosmiddelen voor "
-"verven)"
+"VERWANTE PRODUCTEN (met inbegrip van verdunners en oplosmiddelen voor verven)"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_1263_F1_3_163/367/650_5L_P001/R001_3
@@ -9640,8 +9654,8 @@ msgid ""
 "DESENSITIZED, SOLID, N.O.S. with more than 10% but not more than 20% PETN, "
 "by mass"
 msgstr ""
-"PENTAERYTHRIETTETRANI- TRAAT (PENTAERYTHRITOL-TETRANITRAAT, PENTRIET, PETN),"
-" MENGSEL, GEDESENSIBILI- SEERD, VAST, N.E.G., met meer dan 10 massa-% maar "
+"PENTAERYTHRIETTETRANI- TRAAT (PENTAERYTHRITOL-TETRANITRAAT, PENTRIET, PETN), "
+"MENGSEL, GEDESENSIBILI- SEERD, VAST, N.E.G., met meer dan 10 massa-% maar "
 "niet meer dan 20 massa-% PETN"
 
 #. module: l10n_eu_product_adr
@@ -9782,8 +9796,8 @@ msgid ""
 "PERFUMERY PRODUCTS with flammable solvents (vapour pressure at 50 °C not "
 "more than 110 kPa)"
 msgstr ""
-"PARFUMERIEPRODUCTEN met brandbare oplosmiddelen (dampspanning bij 50 °C niet"
-" hoger dan 110 kPa)"
+"PARFUMERIEPRODUCTEN met brandbare oplosmiddelen (dampspanning bij 50 °C niet "
+"hoger dan 110 kPa)"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_3214
@@ -9828,8 +9842,8 @@ msgstr ""
 msgid ""
 "PESTICIDE, LIQUID, TOXIC, FLAMMABLE, N.O.S., flash-point not less than 23 °C"
 msgstr ""
-"PESTICIDE, VLOEIBAAR, GIFTIG, BRANDBAAR, N.E.G., met een vlampunt gelijk aan"
-" of hoger dan 23 °C"
+"PESTICIDE, VLOEIBAAR, GIFTIG, BRANDBAAR, N.E.G., met een vlampunt gelijk aan "
+"of hoger dan 23 °C"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_2902
@@ -9870,8 +9884,8 @@ msgstr "AARDOLIEDESTILLATEN, N.E.G. of AARDOLIEPRODUCTEN, N.E.G."
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_1268_F1_3_640D/664_1L_P001/IBC02/R001_2
 msgid ""
-"PETROLEUM DISTILLATES, N.O.S. or PETROLEUM PRODUCTS, N.O.S. (vapour pressure"
-" at 50 °C more than 110 kPa)"
+"PETROLEUM DISTILLATES, N.O.S. or PETROLEUM PRODUCTS, N.O.S. (vapour pressure "
+"at 50 °C more than 110 kPa)"
 msgstr ""
 "AARDOLIEDESTILLATEN, N.E.G. of AARDOLIEPRODUCTEN, N.E.G. (dampspanning bij "
 "50 °C niet hoger dan 110 kPa)"
@@ -9879,8 +9893,8 @@ msgstr ""
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_1268_F1_3_640C/664_1L_P001_2
 msgid ""
-"PETROLEUM DISTILLATES, N.O.S. or PETROLEUM PRODUCTS, N.O.S. (vapour pressure"
-" at 50 °C not more than 110 kPa)"
+"PETROLEUM DISTILLATES, N.O.S. or PETROLEUM PRODUCTS, N.O.S. (vapour pressure "
+"at 50 °C not more than 110 kPa)"
 msgstr ""
 "AARDOLIEDESTILLATEN, N.E.G. of AARDOLIEPRODUCTEN, N.E.G. (dampspanning bij "
 "50 °C hoger dan 110 kPa)"
@@ -10213,8 +10227,7 @@ msgstr ""
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_2006
 msgid "PLASTICS, NITROCELLULOSE-BASED, SELF-HEATING, N.O.S."
 msgstr ""
-"KUNSTSTOFFEN OP BASIS VAN NITROCELLULOSE, VOOR ZELFVERHITTING VATBAAR, "
-"N.E.G."
+"KUNSTSTOFFEN OP BASIS VAN NITROCELLULOSE, VOOR ZELFVERHITTING VATBAAR, N.E.G."
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_2315
@@ -10241,8 +10254,8 @@ msgstr "POLYESTERHARS-KIT, vast basisproduct"
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_3151
 msgid ""
-"POLYHALOGENATED BIPHENYLS, LIQUID or HALOGENATED MONOMETHYLDIPHENYLMETHANES,"
-" LIQUID or POLYHALOGENATED TERPHENYLS, LIQUID"
+"POLYHALOGENATED BIPHENYLS, LIQUID or HALOGENATED MONOMETHYLDIPHENYLMETHANES, "
+"LIQUID or POLYHALOGENATED TERPHENYLS, LIQUID"
 msgstr "POLYHALOGEENBIFENYLEN, VLOEIBAAR of POLYHALOGEENTERFENYLEN, VLOEIBAAR"
 
 #. module: l10n_eu_product_adr
@@ -10455,8 +10468,8 @@ msgstr "LEGERINGEN VAN KALIUM EN NATRIUM, VAST"
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_1382
 msgid ""
-"POTASSIUM SULPHIDE, ANHYDROUS or POTASSIUM SULPHIDE with less than 30% water"
-" of crystallization"
+"POTASSIUM SULPHIDE, ANHYDROUS or POTASSIUM SULPHIDE with less than 30% water "
+"of crystallization"
 msgstr ""
 "KALIUMSULFIDE, WATERVRIJ of KALIUMSULFIDE met minder dan 30 % kristalwater"
 
@@ -10511,8 +10524,8 @@ msgstr "ONTSTEKINGSDOPPEN"
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_1210_F1_3_163/367_500ml_P001_1
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_1210_F1_3_163/367_5L_P001/IBC03/LP01/R001_3
 msgid ""
-"PRINTING INK, flammable or PRINTING INK RELATED MATERIAL (including printing"
-" ink thinning or reducing compound), flammable"
+"PRINTING INK, flammable or PRINTING INK RELATED MATERIAL (including printing "
+"ink thinning or reducing compound), flammable"
 msgstr ""
 "DRUKINKT, brandbaar of DRUKINKT-VERWANTE PRODUCTEN (waaronder begrepen "
 "drukinktverdunners en drukinktoplosmiddelen), brandbaar"
@@ -10520,10 +10533,10 @@ msgstr ""
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_1210_F1_3_163/367_5L_P001/R001_3
 msgid ""
-"PRINTING INK, flammable or PRINTING INK RELATED MATERIAL (including printing"
-" ink thinning or reducing compound), flammable (having a flash-point below "
-"23 °C and viscous according to 2.2.3.1.4) (vapour pressure at 50 °C more "
-"than 110 kPa)"
+"PRINTING INK, flammable or PRINTING INK RELATED MATERIAL (including printing "
+"ink thinning or reducing compound), flammable (having a flash-point below 23 "
+"°C and viscous according to 2.2.3.1.4) (vapour pressure at 50 °C more than "
+"110 kPa)"
 msgstr ""
 "DRUKINKT, brandbaar of DRUKINKT-VERWANTE PRODUCTEN (waaronder begrepen "
 "drukinktverdunners en drukinktoplosmiddelen), brandbaar (met een vlampunt "
@@ -10533,10 +10546,10 @@ msgstr ""
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_1210_F1_3_163/367_5L_P001/IBC02/R001_3
 msgid ""
-"PRINTING INK, flammable or PRINTING INK RELATED MATERIAL (including printing"
-" ink thinning or reducing compound), flammable (having a flash-point below "
-"23 °C and viscous according to 2.2.3.1.4) (vapour pressure at 50 °C not more"
-" than 110 kPa)"
+"PRINTING INK, flammable or PRINTING INK RELATED MATERIAL (including printing "
+"ink thinning or reducing compound), flammable (having a flash-point below 23 "
+"°C and viscous according to 2.2.3.1.4) (vapour pressure at 50 °C not more "
+"than 110 kPa)"
 msgstr ""
 "DRUKINKT, brandbaar of DRUKINKT-VERWANTE PRODUCTEN (waaronder begrepen "
 "drukinktverdunners en drukinktoplosmiddelen), brandbaar (met een vlampunt "
@@ -10546,24 +10559,24 @@ msgstr ""
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_1210_F1_3_163/640C/367_5L_P001_2
 msgid ""
-"PRINTING INK, flammable or PRINTING INK RELATED MATERIAL (including printing"
-" ink thinning or reducing compound), flammable (vapour pressure at 50 °C "
-"more than 110 kPa)"
+"PRINTING INK, flammable or PRINTING INK RELATED MATERIAL (including printing "
+"ink thinning or reducing compound), flammable (vapour pressure at 50 °C more "
+"than 110 kPa)"
 msgstr ""
 "DRUKINKT, brandbaar of DRUKINKT-VERWANTE PRODUCTEN (waaronder begrepen "
-"drukinktverdunners en drukinktoplosmiddelen), brandbaar (dampspanning bij 50"
-" °C hoger dan 110 kPa)"
+"drukinktverdunners en drukinktoplosmiddelen), brandbaar (dampspanning bij 50 "
+"°C hoger dan 110 kPa)"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_1210_F1_3_163/640D/367_5L_P001/IBC02/R001_2
 msgid ""
-"PRINTING INK, flammable or PRINTING INK RELATED MATERIAL (including printing"
-" ink thinning or reducing compound), flammable (vapour pressure at 50 °C not"
-" more than 110 kPa)"
+"PRINTING INK, flammable or PRINTING INK RELATED MATERIAL (including printing "
+"ink thinning or reducing compound), flammable (vapour pressure at 50 °C not "
+"more than 110 kPa)"
 msgstr ""
 "DRUKINKT, brandbaar of DRUKINKT-VERWANTE PRODUCTEN (waaronder begrepen "
-"drukinktverdunners en drukinktoplosmiddelen), brandbaar (dampspanning bij 50"
-" °C niet hoger dan 110 kPa)"
+"drukinktverdunners en drukinktoplosmiddelen), brandbaar (dampspanning bij 50 "
+"°C niet hoger dan 110 kPa)"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_0346
@@ -10627,8 +10640,7 @@ msgstr ""
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_1848
 msgid "PROPIONIC ACID with not less than 10% and less than 90% acid by mass"
-msgstr ""
-"PROPIONZUUR met ten minste 10 massa-%, maar minder dan 90 massa-% zuur"
+msgstr "PROPIONZUUR met ten minste 10 massa-%, maar minder dan 90 massa-% zuur"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_3463
@@ -10696,8 +10708,8 @@ msgstr "PROPYLTRICHLOORSILAAN"
 msgid ""
 "PYRETHROID PESTICIDE, LIQUID, FLAMMABLE, TOXIC, flash-point less than 23 °C"
 msgstr ""
-"PESTICIDE, PYRETHROÏDE, VLOEIBAAR, BRANDBAAR, GIFTIG, met een vlampunt lager"
-" dan 23 °C"
+"PESTICIDE, PYRETHROÏDE, VLOEIBAAR, BRANDBAAR, GIFTIG, met een vlampunt lager "
+"dan 23 °C"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_3352
@@ -10711,8 +10723,8 @@ msgstr "PESTICIDE, PYRETHROÏDE, VLOEIBAAR, GIFTIG"
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_3351_100ml
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_3351_5L
 msgid ""
-"PYRETHROID PESTICIDE, LIQUID, TOXIC, FLAMMABLE, flash-point not less than 23"
-" °C"
+"PYRETHROID PESTICIDE, LIQUID, TOXIC, FLAMMABLE, flash-point not less than 23 "
+"°C"
 msgstr ""
 "PESTICIDE, PYRETHROÏDE, VLOEIBAAR, GIFTIG, BRANDBAAR, met een vlampunt "
 "gelijk aan of hoger dan 23 °C"
@@ -10772,6 +10784,11 @@ msgid "Packing Instructions"
 msgstr "Verpakkingsinstructies"
 
 #. module: l10n_eu_product_adr
+#: model:ir.model,name:l10n_eu_product_adr.model_product_product
+msgid "Product"
+msgstr ""
+
+#. module: l10n_eu_product_adr
 #: model:ir.model,name:l10n_eu_product_adr.model_product_template
 msgid "Product Template"
 msgstr "Productsjabloon"
@@ -10825,8 +10842,8 @@ msgstr ""
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_3321
 msgid ""
-"RADIOACTIVE MATERIAL, LOW SPECIFIC ACTIVITY (LSA-II), non fissile or "
-"fissile-excepted"
+"RADIOACTIVE MATERIAL, LOW SPECIFIC ACTIVITY (LSA-II), non fissile or fissile-"
+"excepted"
 msgstr ""
 "RADIOACTIEVE STOFFEN MET GERINGE SPECIFIEKE ACTIVITEIT (LSA-II), niet "
 "splijtbaar of splijtbaar, vrijgesteld"
@@ -10849,8 +10866,7 @@ msgstr ""
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_3326
 msgid ""
-"RADIOACTIVE MATERIAL, SURFACE CONTAMINATED OBJECTS (SCO-I or SCO-II), "
-"FISSILE"
+"RADIOACTIVE MATERIAL, SURFACE CONTAMINATED OBJECTS (SCO-I or SCO-II), FISSILE"
 msgstr ""
 "RADIOACTIEVE STOFFEN, VOORWERPEN MET BESMETTING AAN HET OPPERVLAK (SCO-1 OF "
 "SCO-II), SPLIJTBAAR"
@@ -10868,8 +10884,7 @@ msgstr ""
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_3331
 msgid "RADIOACTIVE MATERIAL, TRANSPORTED UNDER SPECIAL ARRANGEMENT, FISSILE"
 msgstr ""
-"RADIOACTIEVE STOFFEN, VERVOERD OP GR0ND VAN EEN SPECIALE REGELING, "
-"SPLIJTBAAR"
+"RADIOACTIEVE STOFFEN, VERVOERD OP GR0ND VAN EEN SPECIALE REGELING, SPLIJTBAAR"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_2919
@@ -10934,8 +10949,8 @@ msgstr "RADIOACTIEVE STOFFEN IN COLLO VAN TYPE B(U), SPLIJTBAAR"
 msgid ""
 "RADIOACTIVE MATERIAL, TYPE B(U) PACKAGE, non fissile or fissile-excepted"
 msgstr ""
-"RADIOACTIEVE STOFFEN, IN COLLI VAN TYPE B(U), niet splijtbaar of splijtbaar,"
-" vrijgesteld"
+"RADIOACTIEVE STOFFEN, IN COLLI VAN TYPE B(U), niet splijtbaar of splijtbaar, "
+"vrijgesteld"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_3330
@@ -10993,9 +11008,9 @@ msgstr ""
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_3338
 msgid ""
-"REFRIGERANT GAS R 407A (Difluoromethane, pentafluoroethane, and "
-"1,1,1,2-tetrafluoroethane zeotropic mixture with approximately 20% "
-"difluoromethane and 40% pentafluoroethane)"
+"REFRIGERANT GAS R 407A (Difluoromethane, pentafluoroethane, and 1,1,1,2-"
+"tetrafluoroethane zeotropic mixture with approximately 20% difluoromethane "
+"and 40% pentafluoroethane)"
 msgstr ""
 "KOELGAS R 407A (zeotropisch mengsel van difluormethaan, pentafluorethaan en "
 "1,1,1,2-tetrafluorethaan, met ongeveer 20 % difluormethaan en 40 % "
@@ -11004,9 +11019,9 @@ msgstr ""
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_3339
 msgid ""
-"REFRIGERANT GAS R 407B (Difluoromethane, pentafluoroethane, and "
-"1,1,1,2-tetrafluoroethane zeotropic mixture with approximately 10% "
-"difluoromethane and 70% pentafluoroethane)"
+"REFRIGERANT GAS R 407B (Difluoromethane, pentafluoroethane, and 1,1,1,2-"
+"tetrafluoroethane zeotropic mixture with approximately 10% difluoromethane "
+"and 70% pentafluoroethane)"
 msgstr ""
 "KOELGAS R 407B (zeotropisch mengsel van difluormethaan, pentafluorethaan en "
 "1,1,1,2-tetrafluorethaan, met ongeveer 10 % difluormethaan en 70 % "
@@ -11015,9 +11030,9 @@ msgstr ""
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_3340
 msgid ""
-"REFRIGERANT GAS R 407C (Difluoromethane, pentafluoroethane, and "
-"1,1,1,2-tetrafluoroethane zeotropic mixture with approximately "
-"23%difluoromethane and 25% pentafluoroethane)"
+"REFRIGERANT GAS R 407C (Difluoromethane, pentafluoroethane, and 1,1,1,2-"
+"tetrafluoroethane zeotropic mixture with approximately 23%difluoromethane "
+"and 25% pentafluoroethane)"
 msgstr ""
 "KOELGAS R 407C (zeotropisch mengsel van difluormethaan, pentafluorethaan en "
 "1,1,1,2-tetrafluorethaan, met ongeveer 23 % difluormethaan en 25 % "
@@ -11296,8 +11311,8 @@ msgstr ""
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_2217
 msgid "SEED CAKE with not more than 1.5% oil and not more than 11% moisture"
 msgstr ""
-"OLIEZAADKOEKEN met niet meer dan 1,5 massa-% olie en niet meer dan 11 "
-"massa-% vocht"
+"OLIEZAADKOEKEN met niet meer dan 1,5 massa-% olie en niet meer dan 11 massa-"
+"% vocht"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_2630
@@ -11732,15 +11747,13 @@ msgstr "NATRIUMCYANIDE, VAST"
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_3369
 msgid ""
 "SODIUM DINITRO-o-CRESOLATE, WETTED with not less than 10% water, by mass"
-msgstr ""
-"NATRIUMDINITRO-o-CRESOLAAT, BEVOCHTIGD met ten minste 10 massa-% water"
+msgstr "NATRIUMDINITRO-o-CRESOLAAT, BEVOCHTIGD met ten minste 10 massa-% water"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_1348
 msgid ""
 "SODIUM DINITRO-o-CRESOLATE, WETTED with not less than 15% water, by mass"
-msgstr ""
-"NATRIUMDINITRO-o-CRESOLAAT, BEVOCHTIGD met ten minste 15 massa-% water"
+msgstr "NATRIUMDINITRO-o-CRESOLAAT, BEVOCHTIGD met ten minste 15 massa-% water"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_0234
@@ -11795,8 +11808,7 @@ msgstr "NATRIUMWATERSTOFSULFIDE met minder dan 25 % kristalwater"
 msgid ""
 "SODIUM HYDROSULPHIDE, HYDRATED with not less than 25% water of "
 "crystallization"
-msgstr ""
-"NATRIUMWATERSTOFSULFIDE, GEHYDRATEERD met ten minste 25 % kristalwater"
+msgstr "NATRIUMWATERSTOFSULFIDE, GEHYDRATEERD met ten minste 25 % kristalwater"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_1824_1L
@@ -11925,8 +11937,8 @@ msgid ""
 "FLAMMABLE LIQUID, N.O.S. having a flash-point up to 60 °C"
 msgstr ""
 "VASTE STOFFEN of mengsels van vaste stoffen (zoals preparaten en "
-"afvalstoffen), DIE BRANDBARE VLOEISTOFFEN met een vlampunt van niet meer dan"
-" 60 °C BEVATTEN, N.E.G."
+"afvalstoffen), DIE BRANDBARE VLOEISTOFFEN met een vlampunt van niet meer dan "
+"60 °C BEVATTEN, N.E.G."
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_0204
@@ -12042,8 +12054,8 @@ msgstr "PESTICIDE, MET GESUBSTITUEERD NITROFENOL, VLOEIBAAR, GIFTIG"
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_3013_100ml
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_3013_5L
 msgid ""
-"SUBSTITUTED NITROPHENOL PESTICIDE, LIQUID, TOXIC, FLAMMABLE, flash-point not"
-" less than 23 °C"
+"SUBSTITUTED NITROPHENOL PESTICIDE, LIQUID, TOXIC, FLAMMABLE, flash-point not "
+"less than 23 °C"
 msgstr ""
 "PESTICIDE, MET GESUBSTITUEERD NITROFENOL, VLOEIBAAR, GIFTIG, BRANDBAAR, met "
 "een vlampunt gelijk aan of hoger dan 23 °C"
@@ -12178,8 +12190,8 @@ msgstr ""
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_1999_F1_3_5L_P001/R001_3
 msgid ""
 "TARS, LIQUID, including road oils, and cutback bitumens (having a flash-"
-"point below 23 °C and viscous according to 2.2.3.1.4) (vapour pressure at 50"
-" °C more than 110 kPa)"
+"point below 23 °C and viscous according to 2.2.3.1.4) (vapour pressure at 50 "
+"°C more than 110 kPa)"
 msgstr ""
 "TEER, VLOEIBAAR, met inbegrip van de bindmiddelen voor wegen en de "
 "bitumineuze cut backs (met een vlampunt lager dan 23 °C en viskeus volgens "
@@ -12290,8 +12302,7 @@ msgstr "TETRAHYDROFURFURYLAMINE"
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_2698
 msgid "TETRAHYDROPHTHALIC ANHYDRIDES with more than 0.05% of maleic anhydride"
-msgstr ""
-"TETRAHYDROFTAALZUURANHYDRIDEN met meer dan 0,05 % maleïnezuuranhydride"
+msgstr "TETRAHYDROFTAALZUURANHYDRIDEN met meer dan 0,05 % maleïnezuuranhydride"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_2412
@@ -12376,8 +12387,8 @@ msgstr "PESTICIDE, THIOCARBAMAAT, VLOEIBAAR, GIFTIG"
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_3005_100ml
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_3005_5L
 msgid ""
-"THIOCARBAMATE PESTICIDE, LIQUID, TOXIC, FLAMMABLE, flash-point not less than"
-" 23 °C"
+"THIOCARBAMATE PESTICIDE, LIQUID, TOXIC, FLAMMABLE, flash-point not less than "
+"23 °C"
 msgstr ""
 "PESTICIDE, THIOCARBAMAAT, VLOEIBAAR, GIFTIG, BRANDBAAR, met een vlampunt "
 "gelijk aan of hoger dan 23 °C"
@@ -12531,8 +12542,8 @@ msgstr ""
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_3390
 msgid ""
 "TOXIC BY INHALATION LIQUID, CORROSIVE, N.O.S. with an LC50 lower than or "
-"equal to 1000 ml/m3 and saturated vapour concentration greater than or equal"
-" to 10 LC50"
+"equal to 1000 ml/m3 and saturated vapour concentration greater than or equal "
+"to 10 LC50"
 msgstr ""
 "BIJ INADEMEN GIFTIGE VLOEISTOF, BIJTEND, N.E.G., met een LC50 van ten "
 "hoogste 1000 ml/m3 en een verzadigde dampconcentratie van ten minste 10 LC50"
@@ -12563,8 +12574,8 @@ msgstr ""
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_3383
 msgid ""
 "TOXIC BY INHALATION LIQUID, FLAMMABLE, N.O.S.  with an LC50 lower than or "
-"equal to  200 ml/m3 and saturated vapour concentration greater than or equal"
-" to 500 LC50"
+"equal to  200 ml/m3 and saturated vapour concentration greater than or equal "
+"to 500 LC50"
 msgstr ""
 "BIJ INADEMEN GIFTIGE VLOEISTOF, BRANDBAAR, N.E.G., met een LC50 van ten "
 "hoogste 200 ml/m3 en een verzadigde dampconcentratie van ten minste 500 LC50"
@@ -12585,8 +12596,8 @@ msgid ""
 "TOXIC BY INHALATION LIQUID, N.O.S. with an LC50 lower than or equal to 1000 "
 "ml/m3 and saturated vapour concentration greater than or equal to 10 LC50"
 msgstr ""
-"BIJ INADEMEN GIFTIGE VLOEISTOF, N.E.G., met een LC50 van ten hoogste 1000 "
-"ml/m3 en een verzadigde dampconcentratie van ten minste 10 LC50"
+"BIJ INADEMEN GIFTIGE VLOEISTOF, N.E.G., met een LC50 van ten hoogste 1000 ml/"
+"m3 en een verzadigde dampconcentratie van ten minste 10 LC50"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_3381
@@ -12594,15 +12605,15 @@ msgid ""
 "TOXIC BY INHALATION LIQUID, N.O.S. with an LC50 lower than or equal to 200 "
 "ml/m3 and saturated vapour concentration greater than or equal to 500 LC50"
 msgstr ""
-"BIJ INADEMEN GIFTIGE VLOEISTOF, N.E.G., met een LC50 van ten hoogste 200 "
-"ml/m3 en een verzadigde dampconcentratie van ten minste 500 LC50"
+"BIJ INADEMEN GIFTIGE VLOEISTOF, N.E.G., met een LC50 van ten hoogste 200 ml/"
+"m3 en een verzadigde dampconcentratie van ten minste 500 LC50"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_3388
 msgid ""
 "TOXIC BY INHALATION LIQUID, OXIDIZING, N.O.S. with an LC50  lower than or "
-"equal to 1000 ml/m3 and saturated vapour concentration greater than or equal"
-" to 10 LC50"
+"equal to 1000 ml/m3 and saturated vapour concentration greater than or equal "
+"to 10 LC50"
 msgstr ""
 "BIJ INADEMEN GIFTIGE VLOEISTOF, OXIDEREND, N.E.G., met LC50 van ten hoogste "
 "1000 ml/m3 en een verzadigde dampconcentratie van ten minste 10 LC50"
@@ -12621,8 +12632,8 @@ msgstr ""
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_3491
 msgid ""
 "TOXIC BY INHALATION LIQUID, WATER-REACTIVE, FLAMMABLE, N.O.S. with an LC50 "
-"lower than or equal to 1000 ml/m³ and saturated vapour concentration greater"
-" than or equal to 10 LC50"
+"lower than or equal to 1000 ml/m³ and saturated vapour concentration greater "
+"than or equal to 10 LC50"
 msgstr ""
 "BIJ INADEMEN GIFTIGE VLOEISTOF, REACTIEF MET WATER, BRANDBAAR, N.E.G. met "
 "een LC50 van ten hoogste 1000 ml/m3 en een verzadigde dampconcentratie van "
@@ -12646,9 +12657,9 @@ msgid ""
 "or equal to 1000 ml/m3 and saturated vapour concentration greater than or "
 "equal to 10 LC50"
 msgstr ""
-"BIJ INADEMEN GIFTIGE VLOEISTOF, REACTIEF MET WATER, N.E.G., met een LC50 van"
-" ten hoogste 1000 ml/m3 en een verzadigde dampconcentratie van ten minste 10"
-" LC50"
+"BIJ INADEMEN GIFTIGE VLOEISTOF, REACTIEF MET WATER, N.E.G., met een LC50 van "
+"ten hoogste 1000 ml/m3 en een verzadigde dampconcentratie van ten minste 10 "
+"LC50"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_3385
@@ -12657,8 +12668,8 @@ msgid ""
 "or equal to 200 ml/m3 and saturated vapour concentration greater than or "
 "equal to 500 LC50"
 msgstr ""
-"BIJ INADEMEN GIFTIGE VLOEISTOF, REACTIEF MET WATER, N.E.G., met een LC50 van"
-" ten hoogste 200 ml/m3 en een verzadigde damp- concentratie van ten minste "
+"BIJ INADEMEN GIFTIGE VLOEISTOF, REACTIEF MET WATER, N.E.G., met een LC50 van "
+"ten hoogste 200 ml/m3 en een verzadigde damp- concentratie van ten minste "
 "500 LC50"
 
 #. module: l10n_eu_product_adr
@@ -12812,8 +12823,7 @@ msgstr "PESTICIDE, TRIAZINEVERBINDING, VLOEIBAAR, GIFTIG"
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_2997_100ml
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_2997_5L
 msgid ""
-"TRIAZINE PESTICIDE, LIQUID, TOXIC, FLAMMABLE, flash-point not less than 23 "
-"°C"
+"TRIAZINE PESTICIDE, LIQUID, TOXIC, FLAMMABLE, flash-point not less than 23 °C"
 msgstr ""
 "PESTICIDE, TRIAZINEVERBINDING, VLOEIBAAR, GIFTIG, BRANDBAAR, met een "
 "vlampunt gelijk aan of hoger dan 23 °C"
@@ -12910,8 +12920,7 @@ msgstr "TRIFLUORACETYLCHLORIDE"
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_1082
 msgid "TRIFLUOROCHLORO-ETHYLENE, STABILIZED (REFRIGERANT GAS R 1113)"
 msgstr ""
-"CHLOORTRIFLUORETHYLEEN, GESTABILISEERD (CHLOORTRIFLUORETHEEN, "
-"GESTABILISEERD)"
+"CHLOORTRIFLUORETHYLEEN, GESTABILISEERD (CHLOORTRIFLUORETHEEN, GESTABILISEERD)"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_1984
@@ -13046,8 +13055,8 @@ msgid ""
 "TRINITROCHLOROBENZENE (PICRYL CHLORIDE), WETTED with not less than 10% "
 "water, by mass"
 msgstr ""
-"TRINITROCHLOORBENZEEN (PICRYLCHLORIDE), BEVOCHTIGD met ten minste 10 massa-%"
-" water"
+"TRINITROCHLOORBENZEEN (PICRYLCHLORIDE), BEVOCHTIGD met ten minste 10 massa-% "
+"water"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_0387
@@ -13081,8 +13090,7 @@ msgstr ""
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_0154
 msgid ""
-"TRINITROPHENOL (PICRIC ACID), dry or wetted with less than 30% water, by "
-"mass"
+"TRINITROPHENOL (PICRIC ACID), dry or wetted with less than 30% water, by mass"
 msgstr ""
 "TRINITROFENOL (PIKRINEZUUR), droog of bevochtigd met minder dan 30 massa-% "
 "water"
@@ -13124,8 +13132,7 @@ msgstr ""
 msgid ""
 "TRINITROTOLUENE (TNT) MIXTURE CONTAINING TRINITROBENZENE AND "
 "HEXANITROSTILBENE"
-msgstr ""
-"TRINITROTOLUEEN (TNT) GEMENGD MET TRINITROBENZEEN EN HEXANITROSTILBEEN"
+msgstr "TRINITROTOLUEEN (TNT) GEMENGD MET TRINITROBENZEEN EN HEXANITROSTILBEEN"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_3366
@@ -13187,6 +13194,11 @@ msgid "Textile waste, wet"
 msgstr "Textielafval, vochtig"
 
 #. module: l10n_eu_product_adr
+#: model:ir.model.fields,help:l10n_eu_product_adr.field_adr_label__goods_ids
+msgid "The dangerous goods to which this label is applied"
+msgstr ""
+
+#. module: l10n_eu_product_adr
 #: model:ir.model.fields,help:l10n_eu_product_adr.field_adr_goods__label_ids
 #: model:ir.model.fields,help:l10n_eu_product_adr.field_product_product__adr_label_ids
 #: model:ir.model.fields,help:l10n_eu_product_adr.field_product_template__adr_label_ids
@@ -13197,6 +13209,15 @@ msgstr ""
 "De etiketten / grote etiketten (zie 5.2.2.2 en 5.3.1.7) die moeten worden "
 "aangebracht op colli, containers, tankcontainers, transporttanks, MEGC's en "
 "voertuigen."
+
+#. module: l10n_eu_product_adr
+#: code:addons/l10n_eu_product_adr/models/product_template.py:0
+#, python-format
+msgid ""
+"There are different dangerous goods configured on this product's variant, so "
+"you cannot update the dangerous goods from here. Please reconfigure each "
+"variant separately."
+msgstr ""
 
 #. module: l10n_eu_product_adr
 #: model:ir.model.fields,help:l10n_eu_product_adr.field_product_product__is_dangerous
@@ -13265,8 +13286,8 @@ msgid ""
 "URANIUM HEXAFLUORIDE, RADIOACTIVE MATERIAL, EXCEPTED PACKAGE, less than 0.1 "
 "kg per package, non-fissile or fissile-excepted"
 msgstr ""
-"URANIUMHEXAFLUORIDE, RADIOACTIEVE STOFFEN, UITGEZONDERD COLLO met minder dan"
-" 0,1 kg per verpakking, niet-splijtbaar of splijtbaar, vrijgesteld"
+"URANIUMHEXAFLUORIDE, RADIOACTIEVE STOFFEN, UITGEZONDERD COLLO met minder dan "
+"0,1 kg per verpakking, niet-splijtbaar of splijtbaar, vrijgesteld"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_1511
@@ -13512,8 +13533,7 @@ msgstr ""
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_1306_F1_3_640C_5L_P001_2
-msgid ""
-"WOOD PRESERVATIVES, LIQUID (vapour pressure at 50 °C more than 110 kPa)"
+msgid "WOOD PRESERVATIVES, LIQUID (vapour pressure at 50 °C more than 110 kPa)"
 msgstr ""
 "HOUTCONSERVERINGSMIDDE-LEN, VLOEIBAAR (dampspanning bij 50 °C hoger dan 110 "
 "kPa)"
@@ -13523,8 +13543,8 @@ msgstr ""
 msgid ""
 "WOOD PRESERVATIVES, LIQUID (vapour pressure at 50 °C not more than 110 kPa)"
 msgstr ""
-"HOUTCONSERVERINGSMIDDE-LEN, VLOEIBAAR (dampspanning bij 50 °C niet hoger dan"
-" 110 kPa)"
+"HOUTCONSERVERINGSMIDDE-LEN, VLOEIBAAR (dampspanning bij 50 °C niet hoger dan "
+"110 kPa)"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_1387
@@ -13590,8 +13610,7 @@ msgstr "ZINKAMMONIUMNITRIET"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_1712
-msgid ""
-"ZINC ARSENATE, ZINC ARSENITE or ZINC ARSENATE AND ZINC ARSENITE MIXTURE"
+msgid "ZINC ARSENATE, ZINC ARSENITE or ZINC ARSENATE AND ZINC ARSENITE MIXTURE"
 msgstr "ZINKARSENAAT of ZINKARSENIET of ZINKARSENAAT EN ZINKARSENIET, MENGSEL"
 
 #. module: l10n_eu_product_adr
@@ -13722,8 +13741,8 @@ msgstr ""
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_1308_F1_3_640D_1L_P001/R001_2
 msgid ""
-"ZIRCONIUM SUSPENDED IN A FLAMMABLE LIQUID (vapour pressure at 50 °C not more"
-" than 110 kPa)"
+"ZIRCONIUM SUSPENDED IN A FLAMMABLE LIQUID (vapour pressure at 50 °C not more "
+"than 110 kPa)"
 msgstr ""
 "ZIRKONIUM, GESUSPENDEERD IN EEN BRANDBARE VLOEISTOF (dampspanning bij 50 °C "
 "niet hoger dan 110 kPa)"
@@ -13746,8 +13765,7 @@ msgstr ""
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_2009
 msgid "ZIRCONIUM, DRY, finished sheets, strip or coiled wire"
 msgstr ""
-"ZIRKONIUM, DROOG, onder de vorm van platen, repen of draad (dunner dan 18 "
-"µm)"
+"ZIRKONIUM, DROOG, onder de vorm van platen, repen of draad (dunner dan 18 µm)"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_2367
@@ -13789,6 +13807,11 @@ msgstr "beta-NAFTYLAMINE, VAST"
 #: code:addons/l10n_eu_product_adr/models/adr_goods.py:0
 #, python-format
 msgid "cat:%s"
+msgstr ""
+
+#. module: l10n_eu_product_adr
+#: model:uom.uom,name:l10n_eu_product_adr.product_uom_mililiter
+msgid "ml"
 msgstr ""
 
 #. module: l10n_eu_product_adr
@@ -13880,8 +13903,8 @@ msgstr "p-NITROSODIMETHYLANILINE"
 #. module: l10n_eu_product_adr
 #: code:addons/l10n_eu_product_adr/models/adr_goods.py:0
 #, python-format
-msgid "qty:%s"
-msgstr "hvh:%s"
+msgid "qty:%s %s"
+msgstr ""
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_3255
@@ -13897,3 +13920,15 @@ msgstr "tert-BUTYLISOCYANAAT"
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_2747
 msgid "tert-BUTYLCYCLOHEXYL CHLOROFORMATE"
 msgstr "tert-BUTYLCYCLOHEXYLCHLOORFORMIAAT"
+
+#, python-format
+#~ msgid ""
+#~ "Dangerous Goods Label %s cannot be deleted because it is in use on one or "
+#~ "more classes: %s"
+#~ msgstr ""
+#~ "Het gevaarlijke goederenetiket %s kan niet verwijderd worden omdat het "
+#~ "nog gekoppeld is aan één of meerdere klassen: %s"
+
+#, python-format
+#~ msgid "qty:%s"
+#~ msgstr "hvh:%s"
