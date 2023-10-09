@@ -32,6 +32,16 @@ msgid "Country Code (numeric)"
 msgstr "Landcode (nummeriek)"
 
 #. module: base_iso3166
+#: model:ir.model.fields,field_description:base_iso3166.field_res_country__display_name
+msgid "Display Name"
+msgstr ""
+
+#. module: base_iso3166
+#: model:ir.model.fields,field_description:base_iso3166.field_res_country__id
+msgid "ID"
+msgstr ""
+
+#. module: base_iso3166
 #: model:ir.model.fields,help:base_iso3166.field_res_country__code_alpha3
 msgid "ISO 3166-1 alpha-3 (three-letter) code for the country"
 msgstr "ISO 3166-1 alpha-3 (3-letter) code voor het land"
@@ -40,3 +50,8 @@ msgstr "ISO 3166-1 alpha-3 (3-letter) code voor het land"
 #: model:ir.model.fields,help:base_iso3166.field_res_country__code_numeric
 msgid "ISO 3166-1 numeric code for the country"
 msgstr "ISO 3166-1 nummerieke code voor het land"
+
+#. module: base_iso3166
+#: model:ir.model.fields,field_description:base_iso3166.field_res_country____last_update
+msgid "Last Modified on"
+msgstr ""
