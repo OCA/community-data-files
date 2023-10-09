@@ -1,6 +1,6 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
-#	* account_payment_unece
+# 	* account_payment_unece
 #
 msgid ""
 msgstr ""
@@ -33,7 +33,9 @@ msgstr "Methodes de règlement"
 
 #. module: account_payment_unece
 #: model:ir.model.fields,help:account_payment_unece.field_account_payment_method__unece_id
-msgid "Standard nomenclature of the United Nations Economic Commission for Europe (UNECE) defined in UN/EDIFACT Data Element 4461"
+msgid ""
+"Standard nomenclature of the United Nations Economic Commission for Europe "
+"(UNECE) defined in UN/EDIFACT Data Element 4461"
 msgstr ""
 "Nomenclature standard de la Commission économique des Nations Unies pour "
 "l'Europe (CEE-ONU) définie dans l'élément de données UN/EDIFACT 4461"
