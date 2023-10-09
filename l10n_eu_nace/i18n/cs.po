@@ -815,6 +815,7 @@ msgstr ""
 "[47.73] Maloobchod s farmaceutickými přípravky ve specializovaných prodejnách"
 
 #. module: l10n_eu_nace
+#: model:ir.model.fields,field_description:l10n_eu_nace.field_res_partner__display_name
 #: model:ir.model.fields,field_description:l10n_eu_nace.field_res_partner_nace__display_name
 msgid "Display Name"
 msgstr ""
@@ -1296,6 +1297,7 @@ msgid "Hunting, trapping and related service activities"
 msgstr "[01.7] Lov a odchyt divokých zvířat a související činnosti"
 
 #. module: l10n_eu_nace
+#: model:ir.model.fields,field_description:l10n_eu_nace.field_res_partner__id
 #: model:ir.model.fields,field_description:l10n_eu_nace.field_res_partner_nace__id
 msgid "ID"
 msgstr ""
@@ -1381,6 +1383,7 @@ msgid "Landscape service activities"
 msgstr "[81.3] Činnosti související s úpravou krajiny"
 
 #. module: l10n_eu_nace
+#: model:ir.model.fields,field_description:l10n_eu_nace.field_res_partner____last_update
 #: model:ir.model.fields,field_description:l10n_eu_nace.field_res_partner_nace____last_update
 msgid "Last Modified on"
 msgstr ""
@@ -3241,7 +3244,7 @@ msgid "NACE"
 msgstr ""
 
 #. module: l10n_eu_nace
-#: sql_constraint:res.partner.nace:0
+#: model:ir.model.constraint,message:l10n_eu_nace.constraint_res_partner_nace_ref_code
 msgid "NACE Code must be unique!"
 msgstr ""
 

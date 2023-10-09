@@ -28,8 +28,8 @@ msgstr ""
 #. module: l10n_eu_nace
 #: model:res.partner.nace,name:l10n_eu_nace.nace_T
 msgid ""
-"ACTIVITIES OF HOUSEHOLDS AS EMPLOYERS; U0NDIFFERENTIATED GOODS- AND "
-"SERVICES-PRODUCING ACTIVITIES OF HOUSEHOLDS FOR OWN USE"
+"ACTIVITIES OF HOUSEHOLDS AS EMPLOYERS; U0NDIFFERENTIATED GOODS- AND SERVICES-"
+"PRODUCING ACTIVITIES OF HOUSEHOLDS FOR OWN USE"
 msgstr ""
 
 #. module: l10n_eu_nace
@@ -257,8 +257,8 @@ msgstr ""
 #. module: l10n_eu_nace
 #: model:res.partner.nace,name:l10n_eu_nace.nace_46_16
 msgid ""
-"Agents involved in the sale of textiles, clothing, fur, footwear and leather"
-" goods"
+"Agents involved in the sale of textiles, clothing, fur, footwear and leather "
+"goods"
 msgstr ""
 
 #. module: l10n_eu_nace
@@ -562,8 +562,7 @@ msgstr ""
 
 #. module: l10n_eu_nace
 #: model:res.partner.nace,name:l10n_eu_nace.nace_42_22
-msgid ""
-"Construction of utility projects for electricity and telecommunications"
+msgid "Construction of utility projects for electricity and telecommunications"
 msgstr ""
 
 #. module: l10n_eu_nace
@@ -1107,8 +1106,7 @@ msgstr ""
 #. module: l10n_eu_nace
 #: model:res.partner.nace,name:l10n_eu_nace.nace_65
 msgid ""
-"Insurance, reinsurance and pension funding, except compulsory social "
-"security"
+"Insurance, reinsurance and pension funding, except compulsory social security"
 msgstr ""
 
 #. module: l10n_eu_nace
@@ -1290,8 +1288,8 @@ msgstr ""
 #. module: l10n_eu_nace
 #: model:res.partner.nace,name:l10n_eu_nace.nace_20_1
 msgid ""
-"Manufacture of basic chemicals, fertilisers and nitrogen compounds, plastics"
-" and synthetic rubber in primary forms"
+"Manufacture of basic chemicals, fertilisers and nitrogen compounds, plastics "
+"and synthetic rubber in primary forms"
 msgstr ""
 
 #. module: l10n_eu_nace
@@ -2349,14 +2347,13 @@ msgstr ""
 #. module: l10n_eu_nace
 #: model:res.partner.nace,name:l10n_eu_nace.nace_10_72
 msgid ""
-"Manufacture of rusks and biscuits; manufacture of preserved pastry goods and"
-" cakes"
+"Manufacture of rusks and biscuits; manufacture of preserved pastry goods and "
+"cakes"
 msgstr ""
 
 #. module: l10n_eu_nace
 #: model:res.partner.nace,name:l10n_eu_nace.nace_20_41
-msgid ""
-"Manufacture of soap and detergents, cleaning and polishing preparations"
+msgid "Manufacture of soap and detergents, cleaning and polishing preparations"
 msgstr ""
 
 #. module: l10n_eu_nace
@@ -2829,8 +2826,8 @@ msgstr ""
 #. module: l10n_eu_nace
 #: model:res.partner.nace,name:l10n_eu_nace.nace_64_99
 msgid ""
-"Other financial service activities, except insurance and pension funding "
-"n.e.c."
+"Other financial service activities, except insurance and pension funding n.e."
+"c."
 msgstr ""
 
 #. module: l10n_eu_nace
@@ -3638,8 +3635,7 @@ msgstr ""
 #. module: l10n_eu_nace
 #: model:res.partner.nace,name:l10n_eu_nace.nace_72_2
 #: model:res.partner.nace,name:l10n_eu_nace.nace_72_20
-msgid ""
-"Research and experimental development on social sciences and humanities"
+msgid "Research and experimental development on social sciences and humanities"
 msgstr ""
 
 #. module: l10n_eu_nace
@@ -3727,8 +3723,7 @@ msgstr ""
 #. module: l10n_eu_nace
 #: model:res.partner.nace,name:l10n_eu_nace.nace_47_41
 msgid ""
-"Retail sale of computers, peripheral units and software in specialised "
-"stores"
+"Retail sale of computers, peripheral units and software in specialised stores"
 msgstr ""
 
 #. module: l10n_eu_nace
@@ -3754,8 +3749,8 @@ msgstr ""
 #. module: l10n_eu_nace
 #: model:res.partner.nace,name:l10n_eu_nace.nace_47_76
 msgid ""
-"Retail sale of flowers, plants, seeds, fertilisers, pet animals and pet food"
-" in specialised stores"
+"Retail sale of flowers, plants, seeds, fertilisers, pet animals and pet food "
+"in specialised stores"
 msgstr ""
 
 #. module: l10n_eu_nace
@@ -3776,8 +3771,8 @@ msgstr ""
 #. module: l10n_eu_nace
 #: model:res.partner.nace,name:l10n_eu_nace.nace_47_59
 msgid ""
-"Retail sale of furniture, lighting equipment and other household articles in"
-" specialised stores"
+"Retail sale of furniture, lighting equipment and other household articles in "
+"specialised stores"
 msgstr ""
 
 #. module: l10n_eu_nace
@@ -3931,8 +3926,7 @@ msgstr ""
 #: model:res.partner.nace,name:l10n_eu_nace.nace_45_4
 #: model:res.partner.nace,name:l10n_eu_nace.nace_45_40
 msgid ""
-"Sale, maintenance and repair of motorcycles and related parts and "
-"accessories"
+"Sale, maintenance and repair of motorcycles and related parts and accessories"
 msgstr ""
 
 #. module: l10n_eu_nace
@@ -4298,8 +4292,7 @@ msgstr ""
 #: model:res.partner.nace,name:l10n_eu_nace.nace_98_1
 #: model:res.partner.nace,name:l10n_eu_nace.nace_98_10
 msgid ""
-"Undifferentiated goods-producing activities of private households for own "
-"use"
+"Undifferentiated goods-producing activities of private households for own use"
 msgstr ""
 
 #. module: l10n_eu_nace
@@ -4355,8 +4348,7 @@ msgstr ""
 
 #. module: l10n_eu_nace
 #: model:res.partner.nace,name:l10n_eu_nace.nace_38
-msgid ""
-"Waste collection, treatment and disposal activities; materials recovery"
+msgid "Waste collection, treatment and disposal activities; materials recovery"
 msgstr ""
 
 #. module: l10n_eu_nace
@@ -4389,8 +4381,7 @@ msgstr ""
 
 #. module: l10n_eu_nace
 #: model:res.partner.nace,name:l10n_eu_nace.nace_45
-msgid ""
-"Wholesale and retail trade and repair of motor vehicles and motorcycles"
+msgid "Wholesale and retail trade and repair of motor vehicles and motorcycles"
 msgstr ""
 
 #. module: l10n_eu_nace
