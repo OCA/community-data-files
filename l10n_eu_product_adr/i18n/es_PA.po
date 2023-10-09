@@ -313,8 +313,7 @@ msgstr ""
 #. module: l10n_eu_product_adr
 #: model:product.dangerous.class.type,name:l10n_eu_product_adr.dangerous_type_class_4_1
 msgid ""
-"Flammable solids, self-reactive substances, and solid desensitized "
-"explosives"
+"Flammable solids, self-reactive substances, and solid desensitized explosives"
 msgstr ""
 
 #. module: l10n_eu_product_adr
