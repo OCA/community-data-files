@@ -285,7 +285,8 @@ msgstr ""
 #. module: l10n_eu_nace
 #: model:res.partner.nace,name:l10n_eu_nace.nace_46_13
 msgid "Agents involved in the sale of timber and building materials"
-msgstr "[46.13] Intermédiaires du commerce en bois et matériaux de construction"
+msgstr ""
+"[46.13] Intermédiaires du commerce en bois et matériaux de construction"
 
 #. module: l10n_eu_nace
 #: model:res.partner.nace,name:l10n_eu_nace.nace_46_18
@@ -695,6 +696,7 @@ msgstr ""
 "[47.73] Commerce de détail de produits pharmaceutiques en magasin spécialisé"
 
 #. module: l10n_eu_nace
+#: model:ir.model.fields,field_description:l10n_eu_nace.field_res_partner__display_name
 #: model:ir.model.fields,field_description:l10n_eu_nace.field_res_partner_nace__display_name
 msgid "Display Name"
 msgstr "Afficher Nom"
@@ -1108,6 +1110,7 @@ msgid "Hunting, trapping and related service activities"
 msgstr "[01.7] Chasse, piégeage et services annexes"
 
 #. module: l10n_eu_nace
+#: model:ir.model.fields,field_description:l10n_eu_nace.field_res_partner__id
 #: model:ir.model.fields,field_description:l10n_eu_nace.field_res_partner_nace__id
 msgid "ID"
 msgstr "Identifiant"
@@ -1179,6 +1182,7 @@ msgid "Landscape service activities"
 msgstr "[81.3] Services d'aménagement paysager"
 
 #. module: l10n_eu_nace
+#: model:ir.model.fields,field_description:l10n_eu_nace.field_res_partner____last_update
 #: model:ir.model.fields,field_description:l10n_eu_nace.field_res_partner_nace____last_update
 msgid "Last Modified on"
 msgstr "Dernière modification le"
@@ -2615,8 +2619,8 @@ msgid ""
 "Manufacture of wood and of products of wood and cork, except furniture; "
 "manufacture of articles of straw and plaiting materials"
 msgstr ""
-"[16] Travail du bois et fabrication d'articles en bois et en liège, à l’"
-"exception des meubles ; fabrication d’articles en vannerie et sparterie"
+"[16] Travail du bois et fabrication d'articles en bois et en liège, à "
+"l’exception des meubles ; fabrication d’articles en vannerie et sparterie"
 
 #. module: l10n_eu_nace
 #: model:res.partner.nace,name:l10n_eu_nace.nace_16_24
@@ -2787,7 +2791,7 @@ msgid "NACE"
 msgstr "NACE"
 
 #. module: l10n_eu_nace
-#: sql_constraint:res.partner.nace:0
+#: model:ir.model.constraint,message:l10n_eu_nace.constraint_res_partner_nace_ref_code
 msgid "NACE Code must be unique!"
 msgstr "Le code NACE doit être unique !"
 
@@ -3813,7 +3817,8 @@ msgstr ""
 #: model:res.partner.nace,name:l10n_eu_nace.nace_87_3
 #: model:res.partner.nace,name:l10n_eu_nace.nace_87_30
 msgid "Residential care activities for the elderly and disabled"
-msgstr "[87.3] Hébergement social pour personnes âgées ou handicapées physiques"
+msgstr ""
+"[87.3] Hébergement social pour personnes âgées ou handicapées physiques"
 
 #. module: l10n_eu_nace
 #: model:res.partner.nace,name:l10n_eu_nace.nace_87_1
@@ -4292,7 +4297,8 @@ msgstr "[93] Activités sportives, récréatives et de loisirs"
 #. module: l10n_eu_nace
 #: model:res.partner.nace,name:l10n_eu_nace.nace_85_51
 msgid "Sports and recreation education"
-msgstr "[85.51] Enseignement de disciplines sportives et d'activités de loisirs"
+msgstr ""
+"[85.51] Enseignement de disciplines sportives et d'activités de loisirs"
 
 #. module: l10n_eu_nace
 #: model:res.partner.nace,name:l10n_eu_nace.nace_35_3
@@ -4625,7 +4631,8 @@ msgstr "[46.75] Commerce de gros de produits chimiques"
 #. module: l10n_eu_nace
 #: model:res.partner.nace,name:l10n_eu_nace.nace_46_44
 msgid "Wholesale of china and glassware and cleaning materials"
-msgstr "[46.44] Commerce de gros de vaisselle, verrerie et produits d'entretien"
+msgstr ""
+"[46.44] Commerce de gros de vaisselle, verrerie et produits d'entretien"
 
 #. module: l10n_eu_nace
 #: model:res.partner.nace,name:l10n_eu_nace.nace_46_42
