@@ -1776,7 +1776,8 @@ msgstr "[10.61] Öğütülmüş hububat ve sebze ürünleri imalatı"
 #. module: l10n_eu_nace
 #: model:res.partner.nace,name:l10n_eu_nace.nace_10_6
 msgid "Manufacture of grain mill products, starches and starch products"
-msgstr "[10.6] Öğütülmüş tahıl ürünleri, nişasta ve nişastalı ürünlerin imalatı"
+msgstr ""
+"[10.6] Öğütülmüş tahıl ürünleri, nişasta ve nişastalı ürünlerin imalatı"
 
 #. module: l10n_eu_nace
 #: model:res.partner.nace,name:l10n_eu_nace.nace_23_13
@@ -2105,7 +2106,8 @@ msgstr "[20.5] Diğer kimyasal ürünlerin imalatı"
 #. module: l10n_eu_nace
 #: model:res.partner.nace,name:l10n_eu_nace.nace_20_59
 msgid "Manufacture of other chemical products n.e.c."
-msgstr "[20.59] Başka yerde sınıflandırılmamış diğer kimyasal ürünlerin imalatı"
+msgstr ""
+"[20.59] Başka yerde sınıflandırılmamış diğer kimyasal ürünlerin imalatı"
 
 #. module: l10n_eu_nace
 #: model:res.partner.nace,name:l10n_eu_nace.nace_27_9
@@ -2334,7 +2336,8 @@ msgstr "[29.3] Motorlu kara taşıtları için parça ve aksesuar imalatı"
 #. module: l10n_eu_nace
 #: model:res.partner.nace,name:l10n_eu_nace.nace_20_42
 msgid "Manufacture of perfumes and toilet preparations"
-msgstr "[20.42] Parfümlerin, kozmetiklerin ve kişisel bakım ürünlerinin imalatı"
+msgstr ""
+"[20.42] Parfümlerin, kozmetiklerin ve kişisel bakım ürünlerinin imalatı"
 
 #. module: l10n_eu_nace
 #: model:res.partner.nace,name:l10n_eu_nace.nace_20_2
@@ -2554,7 +2557,8 @@ msgstr "[12] Tütün ürünleri imalatı"
 #. module: l10n_eu_nace
 #: model:res.partner.nace,name:l10n_eu_nace.nace_25_73
 msgid "Manufacture of tools"
-msgstr "[25.73] El aletleri, takım tezgahı uçları, testere ağızları vb. imalatı"
+msgstr ""
+"[25.73] El aletleri, takım tezgahı uçları, testere ağızları vb. imalatı"
 
 #. module: l10n_eu_nace
 #: model:res.partner.nace,name:l10n_eu_nace.nace_30_9
@@ -2625,7 +2629,8 @@ msgstr "[25.93] Tel ürünleri, zincir ve yayların imalatı"
 #. module: l10n_eu_nace
 #: model:res.partner.nace,name:l10n_eu_nace.nace_27_3
 msgid "Manufacture of wiring and wiring devices"
-msgstr "[27.3] Kablolamada kullanılan teller ve kablolar ile gereçlerin imalatı"
+msgstr ""
+"[27.3] Kablolamada kullanılan teller ve kablolar ile gereçlerin imalatı"
 
 #. module: l10n_eu_nace
 #: model:res.partner.nace,name:l10n_eu_nace.nace_27_33
@@ -2977,8 +2982,8 @@ msgid ""
 "Other financial service activities, except insurance and pension funding n.e."
 "c."
 msgstr ""
-"[64.99] Başka yerde sınıflandırılmamış diğer finansal hizmet faaliyetleri ("
-"Sigorta ve emeklilik fonları hariç)"
+"[64.99] Başka yerde sınıflandırılmamış diğer finansal hizmet faaliyetleri "
+"(Sigorta ve emeklilik fonları hariç)"
 
 #. module: l10n_eu_nace
 #: model:res.partner.nace,name:l10n_eu_nace.nace_56_29
@@ -3768,7 +3773,8 @@ msgstr "[33.11] Fabrikasyon metal ürünlerin onarımı"
 #. module: l10n_eu_nace
 #: model:res.partner.nace,name:l10n_eu_nace.nace_33_1
 msgid "Repair of fabricated metal products, machinery and equipment"
-msgstr "[33.1] Fabrikasyon metal ürünlerin, makinelerin ve ekipmanların onarımı"
+msgstr ""
+"[33.1] Fabrikasyon metal ürünlerin, makinelerin ve ekipmanların onarımı"
 
 #. module: l10n_eu_nace
 #: model:res.partner.nace,name:l10n_eu_nace.nace_95_23
@@ -4124,12 +4130,14 @@ msgstr ""
 #. module: l10n_eu_nace
 #: model:res.partner.nace,name:l10n_eu_nace.nace_47_91
 msgid "Retail sale via mail order houses or via Internet"
-msgstr "[47.91] Posta yoluyla veya internet üzerinden yapılan perakende ticaret"
+msgstr ""
+"[47.91] Posta yoluyla veya internet üzerinden yapılan perakende ticaret"
 
 #. module: l10n_eu_nace
 #: model:res.partner.nace,name:l10n_eu_nace.nace_47_8
 msgid "Retail sale via stalls and markets"
-msgstr "[47.8] Tezgahlar ve pazar yerleri vasıtasıyla yapılan perakende ticaret"
+msgstr ""
+"[47.8] Tezgahlar ve pazar yerleri vasıtasıyla yapılan perakende ticaret"
 
 #. module: l10n_eu_nace
 #: model:res.partner.nace,name:l10n_eu_nace.nace_47_81
