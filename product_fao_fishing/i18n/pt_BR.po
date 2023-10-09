@@ -30,7 +30,7 @@ msgid "America, South - Inland waters"
 msgstr ""
 
 #. module: product_fao_fishing
-#: model:product.fao.fishing.technique,name:product_fao_fishing.fishing_technique_angling
+#: model:product.attribute.value,name:product_fao_fishing.fishing_technique_att_value_angling
 msgid "Angling"
 msgstr ""
 
@@ -45,7 +45,7 @@ msgid "Antarctica - Inland waters"
 msgstr ""
 
 #. module: product_fao_fishing
-#: model:product.fao.fishing.technique,name:product_fao_fishing.fishing_technique_aquaculture
+#: model:product.attribute.value,name:product_fao_fishing.fishing_technique_att_value_aquaculture
 msgid "Aquaculture"
 msgstr ""
 
@@ -100,39 +100,8 @@ msgid "Attribute Value"
 msgstr ""
 
 #. module: product_fao_fishing
-#: model:ir.model.fields,field_description:product_fao_fishing.field_product_fao_fishing_technique__child_id
-msgid "Child Technique"
-msgstr ""
-
-#. module: product_fao_fishing
-#: model:ir.model.fields,field_description:product_fao_fishing.field_product_fao_fishing_technique__complete_name
-msgid "Complete Name"
-msgstr ""
-
-#. module: product_fao_fishing
-#: model:ir.model.fields,field_description:product_fao_fishing.field_product_fao_fishing_technique__create_uid
-msgid "Created by"
-msgstr ""
-
-#. module: product_fao_fishing
-#: model:ir.model.fields,field_description:product_fao_fishing.field_product_fao_fishing_technique__create_date
-msgid "Created on"
-msgstr ""
-
-#. module: product_fao_fishing
-#: model:ir.model.fields,field_description:product_fao_fishing.field_product_fao_fishing_technique__display_name
-msgid "Display Name"
-msgstr ""
-
-#. module: product_fao_fishing
-#: model:product.fao.fishing.technique,name:product_fao_fishing.fishing_technique_enmanelle_nets
+#: model:product.attribute.value,name:product_fao_fishing.fishing_technique_att_value_enmanelle_nets
 msgid "Enmanelle nets and similar"
-msgstr ""
-
-#. module: product_fao_fishing
-#: code:addons/product_fao_fishing/models/product_fao_fishing_technique.py:0
-#, python-format
-msgid "Error ! You cannot create recursive techniques."
 msgstr ""
 
 #. module: product_fao_fishing
@@ -146,14 +115,8 @@ msgid "FAO Fishing Areas"
 msgstr ""
 
 #. module: product_fao_fishing
-#: model:ir.model.fields,field_description:product_fao_fishing.field_product_product__fao_fishing_technique_id
-#: model:ir.model.fields,field_description:product_fao_fishing.field_product_template__fao_fishing_technique_id
-msgid "FAO Fishing Tech."
-msgstr ""
-
-#. module: product_fao_fishing
-#: model_terms:ir.ui.view,arch_db:product_fao_fishing.product_fao_techique_search_view
-msgid "FAO Techniques"
+#: model:product.attribute,name:product_fao_fishing.fao_fishing_technique
+msgid "FAO Fishing Technique"
 msgstr ""
 
 #. module: product_fao_fishing
@@ -163,8 +126,9 @@ msgid "Fao Fishing Area"
 msgstr ""
 
 #. module: product_fao_fishing
-#: model:ir.model,name:product_fao_fishing.model_product_fao_fishing_technique
-msgid "Fishing Technique"
+#: model:ir.model.fields,field_description:product_fao_fishing.field_product_product__fao_fishing_technique_ids
+#: model:ir.model.fields,field_description:product_fao_fishing.field_product_template__fao_fishing_technique_ids
+msgid "Fao Fishing Technique"
 msgstr ""
 
 #. module: product_fao_fishing
@@ -173,13 +137,8 @@ msgid "Former USSR area - Inland waters"
 msgstr ""
 
 #. module: product_fao_fishing
-#: model:product.fao.fishing.technique,name:product_fao_fishing.fishing_technique_harrows
+#: model:product.attribute.value,name:product_fao_fishing.fishing_technique_att_value_harrows
 msgid "Harrows"
-msgstr ""
-
-#. module: product_fao_fishing
-#: model:ir.model.fields,field_description:product_fao_fishing.field_product_fao_fishing_technique__id
-msgid "ID"
 msgstr ""
 
 #. module: product_fao_fishing
@@ -198,21 +157,6 @@ msgid "Indian Ocean, Western"
 msgstr ""
 
 #. module: product_fao_fishing
-#: model:ir.model.fields,field_description:product_fao_fishing.field_product_fao_fishing_technique____last_update
-msgid "Last Modified on"
-msgstr ""
-
-#. module: product_fao_fishing
-#: model:ir.model.fields,field_description:product_fao_fishing.field_product_fao_fishing_technique__write_uid
-msgid "Last Updated by"
-msgstr ""
-
-#. module: product_fao_fishing
-#: model:ir.model.fields,field_description:product_fao_fishing.field_product_fao_fishing_technique__write_date
-msgid "Last Updated on"
-msgstr ""
-
-#. module: product_fao_fishing
 #: model:product.attribute.value,name:product_fao_fishing.fao_fishing_area_99
 msgid "Marine areas outside the Antarctic"
 msgstr ""
@@ -223,12 +167,7 @@ msgid "Mediterranean and Black Sea"
 msgstr ""
 
 #. module: product_fao_fishing
-#: model:ir.model.fields,field_description:product_fao_fishing.field_product_fao_fishing_technique__name
-msgid "Name"
-msgstr ""
-
-#. module: product_fao_fishing
-#: model:product.fao.fishing.technique,name:product_fao_fishing.fishing_technique_netting
+#: model:product.attribute.value,name:product_fao_fishing.fishing_technique_att_value_netting
 msgid "Netting"
 msgstr ""
 
@@ -273,31 +212,6 @@ msgid "Pacific, Western Central"
 msgstr ""
 
 #. module: product_fao_fishing
-#: model:ir.model.fields,field_description:product_fao_fishing.field_product_fao_fishing_technique__parent_path
-msgid "Parent Path"
-msgstr ""
-
-#. module: product_fao_fishing
-#: model:ir.model.fields,field_description:product_fao_fishing.field_product_fao_fishing_technique__parent_id
-msgid "Parent Technique"
-msgstr ""
-
-#. module: product_fao_fishing
-#: model_terms:ir.ui.view,arch_db:product_fao_fishing.product_fao_techique_search_view
-msgid "Product Fao Fishing Techniques"
-msgstr ""
-
-#. module: product_fao_fishing
-#: model_terms:ir.ui.view,arch_db:product_fao_fishing.product_fao_techique_list_view
-msgid "Product Fao Techiniques"
-msgstr ""
-
-#. module: product_fao_fishing
-#: model:ir.actions.act_window,name:product_fao_fishing.product_fao_techique_action_form
-msgid "Product Fao Techniques"
-msgstr ""
-
-#. module: product_fao_fishing
 #: model:ir.model,name:product_fao_fishing.model_product_template
 msgid "Product Template"
 msgstr ""
@@ -308,27 +222,22 @@ msgid "Product Template Attribute Value"
 msgstr ""
 
 #. module: product_fao_fishing
-#: model:product.fao.fishing.technique,name:product_fao_fishing.fishing_technique_purse_nets
+#: model:product.attribute.value,name:product_fao_fishing.fishing_technique_att_value_purse_nets
 msgid "Purse seines and nets hoisted"
 msgstr ""
 
 #. module: product_fao_fishing
-#: model:product.fao.fishing.technique,name:product_fao_fishing.fishing_technique_spearfishing
+#: model:product.attribute.value,name:product_fao_fishing.fishing_technique_att_value_spearfishing
 msgid "Spearfishing"
 msgstr ""
 
 #. module: product_fao_fishing
-#: model_terms:ir.ui.view,arch_db:product_fao_fishing.product_fao_techique_form_view
-msgid "Technique name"
-msgstr ""
-
-#. module: product_fao_fishing
-#: model:product.fao.fishing.technique,name:product_fao_fishing.fishing_technique_trapping
+#: model:product.attribute.value,name:product_fao_fishing.fishing_technique_att_value_trapping
 msgid "Trapping"
 msgstr ""
 
 #. module: product_fao_fishing
-#: model:product.fao.fishing.technique,name:product_fao_fishing.fishing_technique_trawl_nets
+#: model:product.attribute.value,name:product_fao_fishing.fishing_technique_att_value_trawl_nets
 msgid "Trawl nets"
 msgstr ""
 
