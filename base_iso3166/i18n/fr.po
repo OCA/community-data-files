@@ -1,6 +1,6 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
-#	* base_iso3166
+# 	* base_iso3166
 #
 msgid ""
 msgstr ""
