@@ -85,7 +85,8 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:l10n_eu_adr_report.report_delivery_adr_document
 msgid ""
 "22 Name of company\n"
-"                                    <span class=\"uppercase\">(OF SHIPPER PREPARING THIS NOTE)</span>"
+"                                    <span class=\"uppercase\">(OF SHIPPER "
+"PREPARING THIS NOTE)</span>"
 msgstr ""
 
 #. module: l10n_eu_adr_report
@@ -129,17 +130,26 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:l10n_eu_adr_report.report_delivery_adr_text_15
 msgid ""
 "<span class=\"adr-text\">\n"
-"            <span class=\"uppercase emphatic\">Container / VEHICLE PACKING CERTIFICATE</span>\n"
-"            <span>I hereby declare that the goods described above have been packed/loaded into the container/vehicle identified above in accordance with the applicable provisions.</span>\n"
-"            <span class=\"uppercase emphatic\">must be COMPLETED AND SIGNED FOR ALL COUNTAINER/VEHICLE LOADS BY PERSON RESPONSIBLE FOR PACKING/LOADING </span>\n"
+"            <span class=\"uppercase emphatic\">Container / VEHICLE PACKING "
+"CERTIFICATE</span>\n"
+"            <span>I hereby declare that the goods described above have been "
+"packed/loaded into the container/vehicle identified above in accordance with "
+"the applicable provisions.</span>\n"
+"            <span class=\"uppercase emphatic\">must be COMPLETED AND SIGNED "
+"FOR ALL COUNTAINER/VEHICLE LOADS BY PERSON RESPONSIBLE FOR PACKING/LOADING </"
+"span>\n"
 "        </span>"
 msgstr ""
 
 #. module: l10n_eu_adr_report
 #: model_terms:ir.ui.view,arch_db:l10n_eu_adr_report.report_delivery_adr_text_footer
 msgid ""
-"<span class=\"adr-text\"><span class=\"uppercase emphatic\"> DANGEROUS GOODS</span>\n"
-"            You must specify: Proper Shipping Name, hazard class, UN No., packing group, (where assigned) marine pollutant and observe the mandatory requirements under applicable national and international government regulations. For the purposes of the IMDG Code see 5.4.1.1\n"
+"<span class=\"adr-text\"><span class=\"uppercase emphatic\"> DANGEROUS "
+"GOODS</span>\n"
+"            You must specify: Proper Shipping Name, hazard class, UN No., "
+"packing group, (where assigned) marine pollutant and observe the mandatory "
+"requirements under applicable national and international government "
+"regulations. For the purposes of the IMDG Code see 5.4.1.1\n"
 "            +For the purpose of the IMDG Code, see 5.4.2\n"
 "        </span>"
 msgstr ""
@@ -147,23 +157,32 @@ msgstr ""
 #. module: l10n_eu_adr_report
 #: model_terms:ir.ui.view,arch_db:l10n_eu_adr_report.report_delivery_adr_text_7
 msgid ""
-"<span class=\"adr-text\"><span class=\"uppercase emphatic\"> SHIPPER’S DECLARATION</span>\n"
-"            I hereby declare that the contents of this consignement are fully and accurately described below by the Proper Shipping Name, and are classified, packaged, marked and labeled/placarded and are in all respects in proper condition for transport according to the applicable international and national government regulations.\n"
+"<span class=\"adr-text\"><span class=\"uppercase emphatic\"> SHIPPER’S "
+"DECLARATION</span>\n"
+"            I hereby declare that the contents of this consignement are "
+"fully and accurately described below by the Proper Shipping Name, and are "
+"classified, packaged, marked and labeled/placarded and are in all respects "
+"in proper condition for transport according to the applicable international "
+"and national government regulations.\n"
 "        </span>"
 msgstr ""
 
 #. module: l10n_eu_adr_report
 #: model_terms:ir.ui.view,arch_db:l10n_eu_adr_report.report_delivery_adr_text_21
 msgid ""
-"<span class=\"adr-text\"><span class=\"uppercase emphatic\">21 RECEIVING ORGANIZATION RECEIPT</span>\n"
-"            Received the above number of packages/containers/trailers in apparent good order andcondition, unless stated here on:\n"
-"            <span class=\"uppercase\">RECEIVING ORGANIZATION REMARKS:</span>\n"
+"<span class=\"adr-text\"><span class=\"uppercase emphatic\">21 RECEIVING "
+"ORGANIZATION RECEIPT</span>\n"
+"            Received the above number of packages/containers/trailers in "
+"apparent good order andcondition, unless stated here on:\n"
+"            <span class=\"uppercase\">RECEIVING ORGANIZATION REMARKS:</"
+"span>\n"
 "        </span>"
 msgstr ""
 
 #. module: l10n_eu_adr_report
 #: model_terms:ir.ui.view,arch_db:l10n_eu_adr_report.report_delivery_adr_document
-msgid "<span class=\"uppercase emphatic\">MULTIMODAL DANGEROUS GOODS FORM</span>"
+msgid ""
+"<span class=\"uppercase emphatic\">MULTIMODAL DANGEROUS GOODS FORM</span>"
 msgstr ""
 
 #. module: l10n_eu_adr_report
