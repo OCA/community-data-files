@@ -1,6 +1,6 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
-#	* account_tax_unece
+# 	* account_tax_unece
 #
 msgid ""
 msgstr ""
@@ -29,7 +29,9 @@ msgstr "Meios de Pagamento (UNCL 4461)"
 #. module: account_tax_unece
 #: model:ir.model.fields,help:account_tax_unece.field_account_tax__unece_categ_id
 #: model:ir.model.fields,help:account_tax_unece.field_account_tax_template__unece_categ_id
-msgid "Select the Tax Category Code of the official nomenclature of the United Nations Economic Commission for Europe (UNECE), DataElement 5305"
+msgid ""
+"Select the Tax Category Code of the official nomenclature of the United "
+"Nations Economic Commission for Europe (UNECE), DataElement 5305"
 msgstr ""
 "Selecione o Código de Categoria de Imposto da nomenclatura oficial da "
 "Comissão Económica das Nações Unidas para a Europa (UNECE), DataElement 5305"
@@ -37,7 +39,9 @@ msgstr ""
 #. module: account_tax_unece
 #: model:ir.model.fields,help:account_tax_unece.field_account_tax__unece_type_id
 #: model:ir.model.fields,help:account_tax_unece.field_account_tax_template__unece_type_id
-msgid "Select the Tax Type Code of the official nomenclature of the United Nations Economic Commission for Europe (UNECE), DataElement 5153"
+msgid ""
+"Select the Tax Type Code of the official nomenclature of the United Nations "
+"Economic Commission for Europe (UNECE), DataElement 5153"
 msgstr ""
 "Selecione o Código de Tipo de Imposto da nomenclatura oficial da Comissão "
 "Económica das Nações Unidas para a Europa (UNECE), DataElement 5153"
@@ -45,7 +49,12 @@ msgstr ""
 #. module: account_tax_unece
 #: model:ir.model.fields,help:account_tax_unece.field_account_tax__unece_due_date_id
 #: model:ir.model.fields,help:account_tax_unece.field_account_tax_template__unece_due_date_id
-msgid "Select the due date of that tax from the official nomenclature of the United Nations Economic Commission for Europe (UNECE), DataElement 2005. For a sale VAT tax, it is the date on which that VAT is due to the fiscal administration. For a purchase VAT tax, it is the date on which that VAT can be deducted."
+msgid ""
+"Select the due date of that tax from the official nomenclature of the United "
+"Nations Economic Commission for Europe (UNECE), DataElement 2005. For a sale "
+"VAT tax, it is the date on which that VAT is due to the fiscal "
+"administration. For a purchase VAT tax, it is the date on which that VAT can "
+"be deducted."
 msgstr ""
 "Selecione a data de vencimento desse imposto na nomenclatura oficial da "
 "Comissão Económica das Nações Unidas para a Europa (UNECE), DataElement "
