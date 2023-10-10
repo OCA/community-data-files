@@ -15,24 +15,6 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 
 #. module: account_payment_unece
-#: model:ir.model.fields,field_description:account_payment_unece.field_account_payment_method__display_name
-#: model:ir.model.fields,field_description:account_payment_unece.field_unece_code_list__display_name
-msgid "Display Name"
-msgstr ""
-
-#. module: account_payment_unece
-#: model:ir.model.fields,field_description:account_payment_unece.field_account_payment_method__id
-#: model:ir.model.fields,field_description:account_payment_unece.field_unece_code_list__id
-msgid "ID"
-msgstr ""
-
-#. module: account_payment_unece
-#: model:ir.model.fields,field_description:account_payment_unece.field_account_payment_method____last_update
-#: model:ir.model.fields,field_description:account_payment_unece.field_unece_code_list____last_update
-msgid "Last Modified on"
-msgstr ""
-
-#. module: account_payment_unece
 #: model:ir.model.fields.selection,name:account_payment_unece.selection__unece_code_list__type__payment_means
 msgid "Payment Means (UNCL 4461)"
 msgstr ""
