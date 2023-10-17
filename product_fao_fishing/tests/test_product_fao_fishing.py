@@ -2,11 +2,14 @@
 # License AGPL-3.0 or later (https://www.gnu.org/licenses/agpl).
 from odoo.tests import TransactionCase
 
+from odoo.addons.base.tests.common import DISABLED_MAIL_CONTEXT
+
 
 class TestProductFaoFishing(TransactionCase):
     @classmethod
     def setUpClass(cls):
         super().setUpClass()
+        cls.env = cls.env(context=dict(cls.env.context, **DISABLED_MAIL_CONTEXT))
         cls.product_attribute = cls.env.ref("product_fao_fishing.fao_fishing_area")
         cls.fao_technique_attribute = cls.env.ref(
             "product_fao_fishing.fao_fishing_technique"
