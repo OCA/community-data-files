@@ -9,6 +9,16 @@ class TestBaseBankFromIban(common.TransactionCase):
     @classmethod
     def setUpClass(cls):
         super(TestBaseBankFromIban, cls).setUpClass()
+        cls.env = cls.env(
+            context=dict(
+                cls.env.context,
+                mail_create_nolog=True,
+                mail_create_nosubscribe=True,
+                mail_notrack=True,
+                no_reset_password=True,
+                tracking_disable=True,
+            )
+        )
         cls.country_spain = cls.env.ref("base.es")
         cls.bank = cls.env["res.bank"].create(
             {"name": "BDE", "code": "9999", "country": cls.country_spain.id}
