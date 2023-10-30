@@ -296,11 +296,6 @@ msgid "Product Fao Fishing Techniques"
 msgstr ""
 
 #. module: product_fao_fishing
-#: model_terms:ir.ui.view,arch_db:product_fao_fishing.product_fao_techique_list_view
-msgid "Product Fao Techiniques"
-msgstr ""
-
-#. module: product_fao_fishing
 #: model:ir.actions.act_window,name:product_fao_fishing.product_fao_techique_action_form
 msgid "Product Fao Techniques"
 msgstr ""
