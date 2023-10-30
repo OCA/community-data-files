@@ -42,7 +42,7 @@ LANGS = [
 ID_TEMPLATE = "nace_%s"
 
 _logger.info("Generating the English CSV file...")
-src = csv.reader(open("NACE_REV2_en.csv", "rU"))
+src = csv.reader(open("../examples/NACE_REV2_en.csv", "rU"))
 dest = csv.writer(open("res.partner.nace.csv", "w"), quoting=csv.QUOTE_ALL)
 # Write the file header
 dest.writerow(["id", "parent_id:id", "code", "name"])
@@ -69,7 +69,7 @@ _logger.info("Done.\n")
 for lang in LANGS:
     filename = lang != "en" and ("%s.po" % lang) or "l10n_eu_nace.pot"
     _logger.info("Generating %s..." % filename)
-    src = csv.reader(open("NACE_REV2_%s.csv" % lang, "rU"))
+    src = csv.reader(open("../examples/NACE_REV2_%s.csv" % lang, "rU"))
     # Skip first line
     next(src)
     # Write file header

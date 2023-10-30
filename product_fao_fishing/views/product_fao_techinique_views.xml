@@ -40,7 +40,7 @@
         <field name="model">product.fao.fishing.technique</field>
         <field name="priority">1</field>
         <field name="arch" type="xml">
-            <tree string="Product Fao Techiniques">
+            <tree>
                 <field name="display_name" />
             </tree>
         </field>
