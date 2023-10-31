@@ -4,7 +4,7 @@
 
 {
     "name": "Base UNECE",
-    "version": "16.0.1.0.0",
+    "version": "16.0.1.1.0",
     "category": "Tools",
     "license": "LGPL-3",
     "development_status": "Production/Stable",
