@@ -17,20 +17,21 @@ Bank from IBAN
     :target: http://www.gnu.org/licenses/agpl-3.0-standalone.html
     :alt: License: AGPL-3
 .. |badge3| image:: https://img.shields.io/badge/github-OCA%2Fcommunity--data--files-lightgray.png?logo=github
-    :target: https://github.com/OCA/community-data-files/tree/16.0/base_bank_from_iban
+    :target: https://github.com/OCA/community-data-files/tree/17.0/base_bank_from_iban
     :alt: OCA/community-data-files
 .. |badge4| image:: https://img.shields.io/badge/weblate-Translate%20me-F47D42.png
-    :target: https://translation.odoo-community.org/projects/community-data-files-16-0/community-data-files-16-0-base_bank_from_iban
+    :target: https://translation.odoo-community.org/projects/community-data-files-17-0/community-data-files-17-0-base_bank_from_iban
     :alt: Translate me on Weblate
 .. |badge5| image:: https://img.shields.io/badge/runboat-Try%20me-875A7B.png
-    :target: https://runboat.odoo-community.org/builds?repo=OCA/community-data-files&target_branch=16.0
+    :target: https://runboat.odoo-community.org/builds?repo=OCA/community-data-files&target_branch=17.0
     :alt: Try me on Runboat
 
 |badge1| |badge2| |badge3| |badge4| |badge5|
 
-This module adds a code to bank definition for using it as matching for filling the bank
-from the IBAN bank account number. It uses the existing by country bank mapping in
-standard Odoo (https://github.com/odoo/odoo/blob/f5ffcf7feec5526a483f8ddd240648c084351008/addons/base_iban/models/res_partner_bank.py#L105-L175),
+This module adds a code to bank definition for using it as matching for
+filling the bank from the IBAN bank account number. It uses the existing
+by country bank mapping in standard Odoo
+(https://github.com/odoo/odoo/blob/f5ffcf7feec5526a483f8ddd240648c084351008/addons/base_iban/models/res_partner_bank.py#L105-L175),
 taken from ISO 3166-1 -> IBAN template, as described here:
 http://en.wikipedia.org/wiki/International_Bank_Account_Number#IBAN_formats_by_country
 
@@ -42,20 +43,22 @@ http://en.wikipedia.org/wiki/International_Bank_Account_Number#IBAN_formats_by_c
 Configuration
 =============
 
-#. Go to *Contacts > Configuration > Bank Accounts > Banks*.
-#. Create or modify a bank.
-#. Put the corresponding code for that bank in the field "Code".
+1. Go to *Contacts > Configuration > Bank Accounts > Banks*.
+2. Create or modify a bank.
+3. Put the corresponding code for that bank in the field "Code".
 
 Usage
 =====
 
 To use this module, you need to:
 
-#. Go to Partner
-#. Click *Bank Account(s)* in "Sales & Purchases" page.
-#. Create/modify IBAN bank account.
-#. When you put the bank account number, module extracts bank digits from the format of the country, and try to match an existing bank by country and code.
-#. If there's a match, the bank is selected automatically.
+1. Go to Partner
+2. Click *Bank Account(s)* in "Sales & Purchases" page.
+3. Create/modify IBAN bank account.
+4. When you put the bank account number, module extracts bank digits
+   from the format of the country, and try to match an existing bank by
+   country and code.
+5. If there's a match, the bank is selected automatically.
 
 Bug Tracker
 ===========
@@ -63,7 +66,7 @@ Bug Tracker
 Bugs are tracked on `GitHub Issues <https://github.com/OCA/community-data-files/issues>`_.
 In case of trouble, please check there if your issue has already been reported.
 If you spotted it first, help us to smash it by providing a detailed and welcomed
-`feedback <https://github.com/OCA/community-data-files/issues/new?body=module:%20base_bank_from_iban%0Aversion:%2016.0%0A%0A**Steps%20to%20reproduce**%0A-%20...%0A%0A**Current%20behavior**%0A%0A**Expected%20behavior**>`_.
+`feedback <https://github.com/OCA/community-data-files/issues/new?body=module:%20base_bank_from_iban%0Aversion:%2017.0%0A%0A**Steps%20to%20reproduce**%0A-%20...%0A%0A**Current%20behavior**%0A%0A**Expected%20behavior**>`_.
 
 Do not contact contributors directly about support or help with technical issues.
 
@@ -71,24 +74,24 @@ Credits
 =======
 
 Authors
-~~~~~~~
+-------
 
 * Tecnativa
 
 Contributors
-~~~~~~~~~~~~
+------------
 
-* `Tecnativa <https://www.tecnativa.com>`__:
+-  `Tecnativa <https://www.tecnativa.com>`__:
 
-  * Carlos Dauden
-  * Pedro M. Baeza
+   -  Carlos Dauden
+   -  Pedro M. Baeza
 
-* `Pesol <https://www.pesol.es>`__:
+-  `Pesol <https://www.pesol.es>`__:
 
-  * Pedro Evaristo Gonzalez Sanchez <pedro.gonzalez@pesol.es>
+   -  Pedro Evaristo Gonzalez Sanchez <pedro.gonzalez@pesol.es>
 
 Maintainers
-~~~~~~~~~~~
+-----------
 
 This module is maintained by the OCA.
 
@@ -100,6 +103,6 @@ OCA, or the Odoo Community Association, is a nonprofit organization whose
 mission is to support the collaborative development of Odoo features and
 promote its widespread use.
 
-This module is part of the `OCA/community-data-files <https://github.com/OCA/community-data-files/tree/16.0/base_bank_from_iban>`_ project on GitHub.
+This module is part of the `OCA/community-data-files <https://github.com/OCA/community-data-files/tree/17.0/base_bank_from_iban>`_ project on GitHub.
 
 You are welcome to contribute. To learn how please visit https://odoo-community.org/page/Contribute.
