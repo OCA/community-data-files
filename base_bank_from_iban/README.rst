@@ -90,6 +90,10 @@ Contributors
 
    -  Pedro Evaristo Gonzalez Sanchez <pedro.gonzalez@pesol.es>
 
+-  `APSL <https://apsl.tech>`__:
+
+   -  Javier Antó <janto@apsl.net>
+
 Maintainers
 -----------
 
