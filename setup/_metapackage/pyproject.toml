@@ -1,8 +1,9 @@
 [project]
 name = "odoo-addons-oca-community-data-files"
-version = "17.0.20231124.0"
+version = "17.0.20231124.1"
 dependencies = [
     "odoo-addon-base_bank_from_iban>=17.0dev,<17.1dev",
+    "odoo-addon-base_iso3166>=17.0dev,<17.1dev",
 ]
 classifiers=[
     "Programming Language :: Python",
