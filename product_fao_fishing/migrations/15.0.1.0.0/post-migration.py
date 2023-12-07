@@ -69,6 +69,30 @@ def _assign_att_value_to_product_template(env):
                 }
             )
     env["product.template.attribute.line"].create(vals_list)
+    # Doing this operation, product.product records that were archived and have this
+    # attribute value are re-activated by the ORM, so we deactivate them again through
+    # SQL, as trying to intercept the ORM process is not possible
+    openupgrade.logged_query(
+        env.cr,
+        sql.SQL(
+            """UPDATE product_product SET active=False
+            WHERE product_tmpl_id IN (
+                SELECT pt.id
+                FROM product_template pt
+                LEFT JOIN {legacy_table} pfft ON pt.{legacy_field} = pfft.id
+                WHERE pt.{legacy_field} IS NOT NULL
+                AND NOT pt.active
+            ) AND active
+            """
+        ).format(
+            legacy_table=sql.Identifier(
+                openupgrade.get_legacy_name("product_fao_fishing_technique")
+            ),
+            legacy_field=sql.Identifier(
+                openupgrade.get_legacy_name("fao_fishing_technique_id")
+            ),
+        ),
+    )
 
 
 @openupgrade.migrate()
