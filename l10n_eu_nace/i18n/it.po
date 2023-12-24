@@ -7,14 +7,15 @@ msgstr ""
 "Project-Id-Version: OpenERP Server 6.1beta\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2011-12-12 10:49+0000\n"
-"PO-Revision-Date: 2011-12-12 10:49+0000\n"
-"Last-Translator: <>\n"
+"PO-Revision-Date: 2023-12-24 19:35+0000\n"
+"Last-Translator: mymage <stefano.consolaro@mymage.it>\n"
 "Language-Team: \n"
-"Language: \n"
+"Language: it\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
-"Plural-Forms: \n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 4.17\n"
 
 #. module: l10n_eu_nace
 #: model:res.partner.nace,name:l10n_eu_nace.nace_I
@@ -379,9 +380,8 @@ msgstr "[03.2] Acquicoltura"
 
 #. module: l10n_eu_nace
 #: model:res.partner.nace,name:l10n_eu_nace.nace_71_11
-#, fuzzy
 msgid "Architectural activities "
-msgstr "[71.11] Attività degli studi di architettura"
+msgstr "[71.11] Attività degli studi di architettura "
 
 #. module: l10n_eu_nace
 #: model:res.partner.nace,name:l10n_eu_nace.nace_71_1
@@ -1135,9 +1135,8 @@ msgstr "[84.11] Attività generali di amministrazione pubblica"
 
 #. module: l10n_eu_nace
 #: model:res.partner.nace,name:l10n_eu_nace.nace_85_31
-#, fuzzy
 msgid "General secondary education "
-msgstr "[85.31] Istruzione secondaria di formazione generale"
+msgstr "[85.31] Istruzione secondaria di formazione generale "
 
 #. module: l10n_eu_nace
 #: model:res.partner.nace,name:l10n_eu_nace.nace_01_27
@@ -1553,9 +1552,8 @@ msgstr "[14.2] Confezione di articoli in pelliccia"
 
 #. module: l10n_eu_nace
 #: model:res.partner.nace,name:l10n_eu_nace.nace_17_2
-#, fuzzy
 msgid "Manufacture of articles of paper and paperboard "
-msgstr "[17.2] Fabbricazione di articoli di carta e di cartone"
+msgstr "[17.2] Fabbricazione di articoli di carta e di cartone "
 
 #. module: l10n_eu_nace
 #: model:res.partner.nace,name:l10n_eu_nace.nace_16_22
@@ -1587,9 +1585,8 @@ msgstr "[24.1] Attività siderurgiche"
 
 #. module: l10n_eu_nace
 #: model:res.partner.nace,name:l10n_eu_nace.nace_24_10
-#, fuzzy
 msgid "Manufacture of basic iron and steel and of ferro-alloys "
-msgstr "[24.10] Attività siderurgiche"
+msgstr "[24.10] Attività siderurgiche "
 
 #. module: l10n_eu_nace
 #: model:res.partner.nace,name:l10n_eu_nace.nace_24
@@ -2211,9 +2208,8 @@ msgstr "[28.22] Fabbricazione di apparecchi di sollevamento e movimentazione"
 
 #. module: l10n_eu_nace
 #: model:res.partner.nace,name:l10n_eu_nace.nace_25_92
-#, fuzzy
 msgid "Manufacture of light metal packaging "
-msgstr "[25.92] Fabbricazione di imballaggi leggeri in metallo"
+msgstr "[25.92] Fabbricazione di imballaggi leggeri in metallo "
 
 #. module: l10n_eu_nace
 #: model:res.partner.nace,name:l10n_eu_nace.nace_23_52
@@ -2784,7 +2780,6 @@ msgstr "[23.62] Fabbricazione di prodotti in gesso per l'edilizia"
 
 #. module: l10n_eu_nace
 #: model:res.partner.nace,name:l10n_eu_nace.nace_22_22
-#, fuzzy
 msgid "Manufacture of plastic packing goods"
 msgstr "[22.22] Fabbricazione di imballaggi in materie plastiche"
 
@@ -3048,7 +3043,6 @@ msgstr ""
 
 #. module: l10n_eu_nace
 #: model:res.partner.nace,name:l10n_eu_nace.nace_14_14
-#, fuzzy
 msgid "Manufacture of underwear"
 msgstr "[14.14] Confezione di biancheria intima"
 
@@ -3585,9 +3579,8 @@ msgstr "[32] Altre industrie manifatturiere"
 
 #. module: l10n_eu_nace
 #: model:res.partner.nace,name:l10n_eu_nace.nace_32_99
-#, fuzzy
 msgid "Other manufacturing n.e.c. "
-msgstr "[32.99] Altre industrie manifatturiere n.c.a."
+msgstr "[32.99] Altre industrie manifatturiere n.c.a. "
 
 #. module: l10n_eu_nace
 #: model:res.partner.nace,name:l10n_eu_nace.nace_08
@@ -3615,9 +3608,8 @@ msgstr "[24.45] Produzione di altri metalli non ferrosi"
 
 #. module: l10n_eu_nace
 #: model:res.partner.nace,name:l10n_eu_nace.nace_49_3
-#, fuzzy
 msgid "Other passenger land transport "
-msgstr "[49.3] Altri trasporti terrestri di passeggeri"
+msgstr "[49.3] Altri trasporti terrestri di passeggeri "
 
 #. module: l10n_eu_nace
 #: model:res.partner.nace,name:l10n_eu_nace.nace_49_39
@@ -3781,9 +3773,8 @@ msgstr "[61.9] Altre attività di telecomunicazione"
 
 #. module: l10n_eu_nace
 #: model:res.partner.nace,name:l10n_eu_nace.nace_52_29
-#, fuzzy
 msgid "Other transportation support activities "
-msgstr "[52.29] Altre attività di supporto connesse ai trasporti"
+msgstr "[52.29] Altre attività di supporto connesse ai trasporti "
 
 #. module: l10n_eu_nace
 #: model:res.partner.nace,name:l10n_eu_nace.nace_M
@@ -3935,9 +3926,8 @@ msgstr "[85.1] Istruzione prescolastica"
 
 #. module: l10n_eu_nace
 #: model:res.partner.nace,name:l10n_eu_nace.nace_85_10
-#, fuzzy
 msgid "Pre-primary education "
-msgstr "[85.10] Istruzione prescolastica"
+msgstr "[85.10] Istruzione prescolastica "
 
 #. module: l10n_eu_nace
 #: model:res.partner.nace,name:l10n_eu_nace.nace_24_41
@@ -3960,9 +3950,8 @@ msgstr "[85.2] Istruzione primaria"
 
 #. module: l10n_eu_nace
 #: model:res.partner.nace,name:l10n_eu_nace.nace_85_20
-#, fuzzy
 msgid "Primary education "
-msgstr "[85.20] Istruzione primaria"
+msgstr "[85.20] Istruzione primaria "
 
 #. module: l10n_eu_nace
 #: model:res.partner.nace,name:l10n_eu_nace.nace_18
@@ -4030,9 +4019,8 @@ msgstr "[10.12] Lavorazione e conservazione di carne di volatili"
 
 #. module: l10n_eu_nace
 #: model:res.partner.nace,name:l10n_eu_nace.nace_24_46
-#, fuzzy
 msgid "Processing of nuclear fuel "
-msgstr "[24.46] Trattamento dei combustibili nucleari"
+msgstr "[24.46] Trattamento dei combustibili nucleari "
 
 #. module: l10n_eu_nace
 #: model:res.partner.nace,name:l10n_eu_nace.nace_10_83
@@ -4969,9 +4957,8 @@ msgstr "[16.1] Taglio e piallatura del legno"
 
 #. module: l10n_eu_nace
 #: model:res.partner.nace,name:l10n_eu_nace.nace_72
-#, fuzzy
 msgid "Scientific research and development "
-msgstr "[72] Ricerca scientifica e sviluppo"
+msgstr "[72] Ricerca scientifica e sviluppo "
 
 #. module: l10n_eu_nace
 #: model:res.partner.nace,name:l10n_eu_nace.nace_50_2
@@ -5247,9 +5234,8 @@ msgstr "[49.32] Trasporto con taxi"
 
 #. module: l10n_eu_nace
 #: model:res.partner.nace,name:l10n_eu_nace.nace_85_32
-#, fuzzy
 msgid "Technical and vocational secondary education "
-msgstr "[85.32] Istruzione secondaria tecnica e professionale"
+msgstr "[85.32] Istruzione secondaria tecnica e professionale "
 
 #. module: l10n_eu_nace
 #: model:res.partner.nace,name:l10n_eu_nace.nace_71_2
@@ -5750,7 +5736,6 @@ msgstr "[46.45] Commercio all'ingrosso di profumi e cosmetici"
 
 #. module: l10n_eu_nace
 #: model:res.partner.nace,name:l10n_eu_nace.nace_46_46
-#, fuzzy
 msgid "Wholesale of pharmaceutical goods"
 msgstr "[46.46] Commercio all'ingrosso di prodotti farmaceutici"
 
