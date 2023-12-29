@@ -3,7 +3,7 @@
 {
     "name": "Product FAO Fishing",
     "summary": "Set fishing areas and capture technology",
-    "version": "16.0.1.0.1",
+    "version": "17.0.1.0.0",
     "development_status": "Beta",
     "category": "Fishing",
     "website": "https://github.com/OCA/community-data-files",
