@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!--
+  Copyright 2016-2021 Akretion France (http://www.akretion.com/)
+  @author Alexis de Lattre <alexis.delattre@akretion.com>
+  License LGPL-3.0 or later (http://www.gnu.org/licenses/lgpl).
+-->
+<odoo>
+    <record id="unece_code_list_form" model="ir.ui.view">
+        <field name="model">unece.code.list</field>
+        <field name="arch" type="xml">
+            <form>
+                <sheet>
+                    <widget
+                        name="web_ribbon"
+                        title="Archived"
+                        bg_color="bg-danger"
+                        invisible="active"
+                    />
+                    <group name="main">
+                        <group name="general">
+                            <field name="code" />
+                            <field name="name" />
+                            <field name="active" invisible="1" />
+                        </group>
+                        <group name="extra">
+                            <field name="type" />
+                        </group>
+                        <field name="description" />
+                    </group>
+                </sheet>
+            </form>
+        </field>
+    </record>
+    <record id="unece_code_list_tree" model="ir.ui.view">
+        <field name="model">unece.code.list</field>
+        <field name="arch" type="xml">
+            <tree>
+                <field
+                    name="type"
+                    column_invisible="not context.get('unece_code_list_main_view')"
+                />
+                <field name="code" />
+                <field name="name" />
+                <field name="description" optional="show" />
+            </tree>
+        </field>
+    </record>
+    <record id="unece_code_list_search" model="ir.ui.view">
+        <field name="model">unece.code.list</field>
+        <field name="arch" type="xml">
+            <search>
+                <field
+                    name="name"
+                    string="Name or Code"
+                    filter_domain="['|', ('name', 'ilike', self), ('code', 'ilike', self)]"
+                />
+                <field name="code" />
+                <field name="type" />
+                <filter
+                    string="Archived"
+                    name="inactive"
+                    domain="[('active', '=', False)]"
+                />
+                <group string="Group By" name="groupby">
+                    <filter
+                        name="type_groupby"
+                        string="Type"
+                        context="{'group_by': 'type'}"
+                    />
+                </group>
+            </search>
+        </field>
+    </record>
+    <record id="unece_code_list_action" model="ir.actions.act_window">
+        <field name="name">UNECE Code Lists</field>
+        <field name="res_model">unece.code.list</field>
+        <field name="view_mode">tree,form</field>
+        <field name="context">{'unece_code_list_main_view': True}</field>
+    </record>
+    <menuitem
+        id="unece_code_list_menu"
+        action="unece_code_list_action"
+        parent="base.menu_ir_property"
+        sequence="150"
+    />
+</odoo>
