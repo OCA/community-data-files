@@ -24,7 +24,13 @@ class ResPartnerBank(models.Model):
         last_match = iban_template.rfind("B") + 1
         bank_code = acc_number[first_match:last_match].replace(" ", "")
         bank = self.env["res.bank"].search(
-            [("code", "=", bank_code), ("country.code", "=", country_code.upper())],
+            [
+                "&",
+                ("country.code", "=", country_code.upper()),
+                "|",
+                ("code", "=", bank_code),
+                ("bic", "like", bank_code),
+            ],
             limit=1,
         )
         self.update({"bank_id": bank.id, "acc_number": acc_number})

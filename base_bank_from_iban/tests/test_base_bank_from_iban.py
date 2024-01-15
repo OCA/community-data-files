@@ -24,6 +24,26 @@ class TestBaseBankFromIban(common.SavepointCase):
             default_partner_id=cls.partner.id
         )
 
+        # support for IBAN's with bic instead of code
+        cls.country_netherlands = cls.env.ref("base.nl")
+        cls.bank_ing = cls.env["res.bank"].create(
+            {
+                "name": "ING BANK NETHERLANDS",
+                "code": "",
+                "bic": "INGBNL2A",
+                "country": cls.country_netherlands.id,
+            }
+        )
+        cls.partner_nl = cls.env["res.partner"].create(
+            {
+                "name": "Roverheid",
+                "country_id": cls.country_netherlands.id,
+            }
+        )
+        cls.bank_obj_nl = cls.env["res.partner.bank"].with_context(
+            default_partner_id=cls.partner_nl.id
+        )
+
     def test_onchange_acc_number_iban(self):
         partner_bank = self.bank_obj.new()
         partner_bank.acc_number = "es1299999999509999999999"
@@ -46,3 +66,10 @@ class TestBaseBankFromIban(common.SavepointCase):
         self.assertEqual(wizard.bank_id, self.bank)
         wizard.acc_number = ""
         self.assertEqual(wizard.bank_id, self.bank)
+
+    def test_onchange_acc_number_iban_from_bic(self):
+        partner_bank = self.bank_obj.new()
+        partner_bank.acc_number = "nl36ingb0003445588"
+        partner_bank._onchange_acc_number_base_bank_from_iban()
+        self.assertEqual(partner_bank.acc_number, "NL36 INGB 0003 4455 88")
+        self.assertEqual(partner_bank.bank_id, self.bank_ing)
