@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: OpenERP Server 6.1beta\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2011-12-12 10:49+0000\n"
-"PO-Revision-Date: 2024-01-17 21:34+0000\n"
+"PO-Revision-Date: 2024-01-18 21:33+0000\n"
 "Last-Translator: Ivorra78 <informatica@totmaterial.es>\n"
 "Language-Team: \n"
 "Language: es\n"
@@ -521,570 +521,479 @@ msgstr "Actividades de consultoría informática"
 
 #. module: l10n_eu_nace
 #: model:res.partner.nace,name:l10n_eu_nace.nace_62_03
-#, fuzzy
 msgid "Computer facilities management activities"
-msgstr "[62.03] Gestión de recursos informáticos"
+msgstr "Actividades de gestión de instalaciones informáticas"
 
 #. module: l10n_eu_nace
 #: model:res.partner.nace,name:l10n_eu_nace.nace_62_01
-#, fuzzy
 msgid "Computer programming activities"
-msgstr "[62.01] Actividades de programación informática"
+msgstr "Actividades de programación informática"
 
 #. module: l10n_eu_nace
 #: model:res.partner.nace,name:l10n_eu_nace.nace_62
 #: model:res.partner.nace,name:l10n_eu_nace.nace_62_0
-#, fuzzy
 msgid "Computer programming, consultancy and related activities"
 msgstr ""
-"[62] Programación, consultoría y otras actividades relacionadas con la "
-"informática"
+"Programación, consultoría y otras actividades relacionadas con la informática"
 
 #. module: l10n_eu_nace
 #: model:res.partner.nace,name:l10n_eu_nace.nace_42_13
-#, fuzzy
 msgid "Construction of bridges and tunnels"
-msgstr "[42.13] Construcción de puentes y túneles"
+msgstr "Construcción de puentes y túneles"
 
 #. module: l10n_eu_nace
 #: model:res.partner.nace,name:l10n_eu_nace.nace_41
-#, fuzzy
 msgid "Construction of buildings"
-msgstr "[41] Construcción de edificios"
+msgstr "Construcción de edificios"
 
 #. module: l10n_eu_nace
 #: model:res.partner.nace,name:l10n_eu_nace.nace_42_9
-#, fuzzy
 msgid "Construction of other civil engineering projects"
-msgstr "[42.9] Construcción de otros proyectos de ingeniería civil"
+msgstr "Construcción de otros proyectos de ingeniería civil"
 
 #. module: l10n_eu_nace
 #: model:res.partner.nace,name:l10n_eu_nace.nace_42_99
-#, fuzzy
 msgid "Construction of other civil engineering projects n.e.c."
-msgstr "[42.99] Construcción de otros proyectos de ingeniería civil n.c.o.p."
+msgstr "Construcción de otros proyectos de ingeniería civil n.c.o.p."
 
 #. module: l10n_eu_nace
 #: model:res.partner.nace,name:l10n_eu_nace.nace_42_12
-#, fuzzy
 msgid "Construction of railways and underground railways"
-msgstr "[42.12] Construcción de vías férreas de superficie y subterráneas"
+msgstr "Construcción de vías férreas de superficie y subterráneas"
 
 #. module: l10n_eu_nace
 #: model:res.partner.nace,name:l10n_eu_nace.nace_41_2
 #: model:res.partner.nace,name:l10n_eu_nace.nace_41_20
-#, fuzzy
 msgid "Construction of residential and non-residential buildings"
-msgstr "[41.2] Construcción de edificios"
+msgstr "Construcción de edificios residenciales y no residenciales"
 
 #. module: l10n_eu_nace
 #: model:res.partner.nace,name:l10n_eu_nace.nace_42_11
-#, fuzzy
 msgid "Construction of roads and motorways"
-msgstr "[42.11] Construcción de carreteras y autopistas"
+msgstr "Construcción de carreteras y autopistas"
 
 #. module: l10n_eu_nace
 #: model:res.partner.nace,name:l10n_eu_nace.nace_42_1
-#, fuzzy
 msgid "Construction of roads and railways"
-msgstr "[42.1] Construcción de carreteras y vías férreas, puentes y túneles"
+msgstr "Construcción de carreteras y vías férreas"
 
 #. module: l10n_eu_nace
 #: model:res.partner.nace,name:l10n_eu_nace.nace_42_2
-#, fuzzy
 msgid "Construction of utility projects"
-msgstr "[42.2] Construcción de redes"
+msgstr "Construcción de proyectos de servicios públicos"
 
 #. module: l10n_eu_nace
 #: model:res.partner.nace,name:l10n_eu_nace.nace_42_22
-#, fuzzy
 msgid "Construction of utility projects for electricity and telecommunications"
-msgstr "[42.22] Construcción de redes eléctricas y de telecomunicaciones"
+msgstr ""
+"Construcción de proyectos de servicios públicos de electricidad y "
+"telecomunicaciones"
 
 #. module: l10n_eu_nace
 #: model:res.partner.nace,name:l10n_eu_nace.nace_42_21
-#, fuzzy
 msgid "Construction of utility projects for fluids"
-msgstr "[42.21] Construcción de redes para fluidos"
+msgstr "Construcción de proyectos de servicios públicos para fluidos"
 
 #. module: l10n_eu_nace
 #: model:res.partner.nace,name:l10n_eu_nace.nace_42_91
-#, fuzzy
 msgid "Construction of water projects"
-msgstr "[42.91] Obras hidráulicas"
+msgstr "Construcción de proyectos hidráulicos"
 
 #. module: l10n_eu_nace
 #: model:ir.model,name:l10n_eu_nace.model_res_partner
 msgid "Contact"
-msgstr ""
+msgstr "Contacto"
 
 #. module: l10n_eu_nace
 #: model:res.partner.nace,name:l10n_eu_nace.nace_24_44
-#, fuzzy
 msgid "Copper production"
-msgstr "[24.44] Producción de cobre"
+msgstr "Producción de cobre"
 
 #. module: l10n_eu_nace
 #: model:ir.model.fields,field_description:l10n_eu_nace.field_res_partner_nace__create_uid
 msgid "Created by"
-msgstr ""
+msgstr "Creado por"
 
 #. module: l10n_eu_nace
 #: model:ir.model.fields,field_description:l10n_eu_nace.field_res_partner_nace__create_date
 msgid "Created on"
-msgstr ""
+msgstr "Creado el"
 
 #. module: l10n_eu_nace
 #: model:res.partner.nace,name:l10n_eu_nace.nace_90
 #: model:res.partner.nace,name:l10n_eu_nace.nace_90_0
-#, fuzzy
 msgid "Creative, arts and entertainment activities"
-msgstr "[90] Actividades de creación, artísticas y espectáculos"
+msgstr "Actividades creativas, artísticas y de ocio"
 
 #. module: l10n_eu_nace
 #: model:res.partner.nace,name:l10n_eu_nace.nace_01
-#, fuzzy
 msgid "Crop and animal production, hunting and related service activities"
 msgstr ""
-"[01] Agricultura, ganadería, caza y servicios relacionados con las mismas"
+"Producción agrícola y ganadera, caza y actividades de servicios relacionados "
+"con las mismas"
 
 #. module: l10n_eu_nace
 #: model:res.partner.nace,name:l10n_eu_nace.nace_85_52
-#, fuzzy
 msgid "Cultural education"
-msgstr "[85.52] Educación cultural"
+msgstr "Educación cultural"
 
 #. module: l10n_eu_nace
 #: model:res.partner.nace,name:l10n_eu_nace.nace_23_7
 #: model:res.partner.nace,name:l10n_eu_nace.nace_23_70
-#, fuzzy
 msgid "Cutting, shaping and finishing of stone"
-msgstr "[23.7] Corte, tallado y acabado de la piedra"
+msgstr "Corte, tallado y acabado de la piedra"
 
 #. module: l10n_eu_nace
 #: model:res.partner.nace,name:l10n_eu_nace.nace_63_11
-#, fuzzy
 msgid "Data processing, hosting and related activities"
-msgstr "[63.11] Proceso de datos, hosting y actividades relacionadas"
+msgstr "Tratamiento de datos, alojamiento y actividades relacionadas"
 
 #. module: l10n_eu_nace
 #: model:res.partner.nace,name:l10n_eu_nace.nace_63_1
-#, fuzzy
 msgid "Data processing, hosting and related activities; web portals"
-msgstr ""
-"[63.1] Proceso de datos, hosting y actividades relacionadas; portales web"
+msgstr "Proceso de datos, hospedaje y actividades relacionadas; portales web"
 
 #. module: l10n_eu_nace
 #: model:res.partner.nace,name:l10n_eu_nace.nace_84_22
-#, fuzzy
 msgid "Defence activities"
-msgstr "[84.22] Defensa"
+msgstr "Actividades de defensa"
 
 #. module: l10n_eu_nace
 #: model:res.partner.nace,name:l10n_eu_nace.nace_43_11
-#, fuzzy
 msgid "Demolition"
-msgstr "[43.11] Demolición"
+msgstr "Demolición"
 
 #. module: l10n_eu_nace
 #: model:res.partner.nace,name:l10n_eu_nace.nace_43_1
-#, fuzzy
 msgid "Demolition and site preparation"
-msgstr "[43.1] Demolición y preparación de terrenos"
+msgstr "Demolición y preparación de terrenos"
 
 #. module: l10n_eu_nace
 #: model:res.partner.nace,name:l10n_eu_nace.nace_86_23
-#, fuzzy
 msgid "Dental practice activities"
-msgstr "[86.23] Actividades odontológicas"
+msgstr "Actividades de la práctica dental"
 
 #. module: l10n_eu_nace
 #: model:res.partner.nace,name:l10n_eu_nace.nace_41_1
 #: model:res.partner.nace,name:l10n_eu_nace.nace_41_10
-#, fuzzy
 msgid "Development of building projects"
-msgstr "[41.1] Promoción inmobiliaria"
+msgstr "Desarrollo de proyectos de construcción"
 
 #. module: l10n_eu_nace
 #: model:res.partner.nace,name:l10n_eu_nace.nace_38_31
-#, fuzzy
 msgid "Dismantling of wrecks"
-msgstr "[38.31] Separación y clasificación de materiales"
+msgstr "Desmantelamiento de restos"
 
 #. module: l10n_eu_nace
 #: model:res.partner.nace,name:l10n_eu_nace.nace_47_73
-#, fuzzy
 msgid "Dispensing chemist in specialised stores"
-msgstr ""
-"[47.73] Comercio al por menor de productos farmacéuticos en establecimientos "
-"especializados"
+msgstr "Farmacia dispensadora en establecimientos especializados"
 
 #. module: l10n_eu_nace
 #: model:ir.model.fields,field_description:l10n_eu_nace.field_res_partner__display_name
 #: model:ir.model.fields,field_description:l10n_eu_nace.field_res_partner_nace__display_name
 msgid "Display Name"
-msgstr ""
+msgstr "Mostrar Nombre"
 
 #. module: l10n_eu_nace
 #: model:res.partner.nace,name:l10n_eu_nace.nace_11_01
-#, fuzzy
 msgid "Distilling, rectifying and blending of spirits"
-msgstr "[11.01] Destilación, rectificación y mezcla de bebidas alcohólicas"
+msgstr "Destilación, rectificación y mezcla de bebidas alcohólicas"
 
 #. module: l10n_eu_nace
 #: model:res.partner.nace,name:l10n_eu_nace.nace_35_13
-#, fuzzy
 msgid "Distribution of electricity"
-msgstr "[35.13] Distribución de energía eléctrica"
+msgstr "Distribución de energía eléctrica"
 
 #. module: l10n_eu_nace
 #: model:res.partner.nace,name:l10n_eu_nace.nace_35_22
-#, fuzzy
 msgid "Distribution of gaseous fuels through mains"
-msgstr "[35.22] Distribución por tubería de combustibles gaseosos"
+msgstr "Distribución por tubería de combustibles gaseosos"
 
 #. module: l10n_eu_nace
 #: model:res.partner.nace,name:l10n_eu_nace.nace_85_53
-#, fuzzy
 msgid "Driving school activities"
-msgstr "[85.53] Actividades de las escuelas de conducción y pilotaje"
+msgstr "Actividades de las escuelas de conducción"
 
 #. module: l10n_eu_nace
 #: model:res.partner.nace,name:l10n_eu_nace.nace_P
-#, fuzzy
 msgid "EDUCATION"
-msgstr "[P] EDUCACIÓN"
+msgstr "EDUCACIÓN"
 
 #. module: l10n_eu_nace
 #: model:res.partner.nace,name:l10n_eu_nace.nace_D
-#, fuzzy
 msgid "ELECTRICITY, GAS, STEAM AND AIR CONDITIONING SUPPLY"
-msgstr "[D] SUMINISTRO DE ENERGIA ELECTRICA, GAS, VAPOR Y AIRE ACONDICIONADO"
+msgstr "SUMINISTRO DE ENERGIA ELECTRICA, GAS, VAPOR Y AIRE ACONDICIONADO"
 
 #. module: l10n_eu_nace
 #: model:res.partner.nace,name:l10n_eu_nace.nace_85
-#, fuzzy
 msgid "Education"
-msgstr "[85] Educación"
+msgstr "Educación"
 
 #. module: l10n_eu_nace
 #: model:res.partner.nace,name:l10n_eu_nace.nace_85_6
 #: model:res.partner.nace,name:l10n_eu_nace.nace_85_60
-#, fuzzy
 msgid "Educational support activities"
-msgstr "[85.6] Actividades auxiliares a la educación"
+msgstr "Actividades auxiliares a la educación"
 
 #. module: l10n_eu_nace
 #: model:res.partner.nace,name:l10n_eu_nace.nace_35_1
-#, fuzzy
 msgid "Electric power generation, transmission and distribution"
-msgstr "[35.1] Producción, transporte y distribución de energía eléctrica"
+msgstr "Producción, transporte y distribución de energía eléctrica"
 
 #. module: l10n_eu_nace
 #: model:res.partner.nace,name:l10n_eu_nace.nace_43_21
-#, fuzzy
 msgid "Electrical installation"
-msgstr "[43.21] Instalaciones eléctricas"
+msgstr "Instalaciones eléctricas"
 
 #. module: l10n_eu_nace
 #: model:res.partner.nace,name:l10n_eu_nace.nace_43_2
-#, fuzzy
 msgid "Electrical, plumbing and other construction installation activities"
 msgstr ""
-"[43.2] Instalaciones eléctricas, de fontanería y otras instalaciones en "
-"obras de construcción"
+"Instalaciones eléctricas, de fontanería y otras instalaciones en obras de "
+"construcción"
 
 #. module: l10n_eu_nace
 #: model:res.partner.nace,name:l10n_eu_nace.nace_35
-#, fuzzy
 msgid "Electricity, gas, steam and air conditioning supply"
-msgstr "[35] Suministro de energía eléctrica, gas, vapor y aire acondicionado"
+msgstr "Suministro de energía eléctrica, gas, vapor y aire acondicionado"
 
 #. module: l10n_eu_nace
 #: model:res.partner.nace,name:l10n_eu_nace.nace_78
-#, fuzzy
 msgid "Employment activities"
-msgstr "[78] Actividades relacionadas con el empleo"
+msgstr "Actividades relacionadas con el empleo"
 
 #. module: l10n_eu_nace
 #: model:res.partner.nace,name:l10n_eu_nace.nace_71_12
-#, fuzzy
 msgid "Engineering activities and related technical consultancy"
 msgstr ""
-"[71.12] Servicios técnicos de ingeniería y otras actividades relacionadas "
-"con el asesoramiento técnico"
+"Servicios técnicos de ingeniería y otras actividades relacionadas con el "
+"asesoramiento técnico"
 
 #. module: l10n_eu_nace
 #: model:ir.model,name:l10n_eu_nace.model_res_partner_nace
 msgid "European NACE partner category"
-msgstr ""
+msgstr "Categoría de socio europeo de la NACE"
 
 #. module: l10n_eu_nace
 #: model:res.partner.nace,name:l10n_eu_nace.nace_56_21
-#, fuzzy
 msgid "Event catering activities"
-msgstr "[56.21] Provisión de comidas preparadas para eventos"
+msgstr "Actividades de catering para eventos"
 
 #. module: l10n_eu_nace
 #: model:res.partner.nace,name:l10n_eu_nace.nace_56_2
-#, fuzzy
 msgid "Event catering and other food service activities"
-msgstr ""
-"[56.2] Provisión de comidas preparadas para eventos y otros servicios de "
-"comidas"
+msgstr "Servicios de catering y otros servicios alimentarios"
 
 #. module: l10n_eu_nace
 #: model:res.partner.nace,name:l10n_eu_nace.nace_06_1
 #: model:res.partner.nace,name:l10n_eu_nace.nace_06_10
-#, fuzzy
 msgid "Extraction of crude petroleum"
-msgstr "[06.1] Extracción de crudo de petróleo"
+msgstr "Extracción de crudo de petróleo"
 
 #. module: l10n_eu_nace
 #: model:res.partner.nace,name:l10n_eu_nace.nace_06
-#, fuzzy
 msgid "Extraction of crude petroleum and natural gas"
-msgstr "[06] Extracción de crudo de petróleo y gas natural"
+msgstr "Extracción de crudo de petróleo y gas natural"
 
 #. module: l10n_eu_nace
 #: model:res.partner.nace,name:l10n_eu_nace.nace_06_2
 #: model:res.partner.nace,name:l10n_eu_nace.nace_06_20
-#, fuzzy
 msgid "Extraction of natural gas"
-msgstr "[06.2] Extracción de gas natural"
+msgstr "Extracción de gas natural"
 
 #. module: l10n_eu_nace
 #: model:res.partner.nace,name:l10n_eu_nace.nace_08_92
-#, fuzzy
 msgid "Extraction of peat"
-msgstr "[08.92] Extracción de turba"
+msgstr "Extracción de turba"
 
 #. module: l10n_eu_nace
 #: model:res.partner.nace,name:l10n_eu_nace.nace_08_93
-#, fuzzy
 msgid "Extraction of salt"
-msgstr "[08.93] Extracción de sal"
+msgstr "Extracción de sal"
 
 #. module: l10n_eu_nace
 #: model:res.partner.nace,name:l10n_eu_nace.nace_K
-#, fuzzy
 msgid "FINANCIAL AND INSURANCE ACTIVITIES"
-msgstr "[K] ACTIVIDADES FINANCIERAS Y DE SEGUROS"
+msgstr "ACTIVIDADES FINANCIERAS Y DE SEGUROS"
 
 #. module: l10n_eu_nace
 #: model:res.partner.nace,name:l10n_eu_nace.nace_64_91
-#, fuzzy
 msgid "Financial leasing"
-msgstr "[64.91] Arrendamiento financiero"
+msgstr "Arrendamiento financiero"
 
 #. module: l10n_eu_nace
 #: model:res.partner.nace,name:l10n_eu_nace.nace_64
-#, fuzzy
 msgid "Financial service activities, except insurance and pension funding"
-msgstr "[64] Servicios financieros, excepto seguros y fondos de pensiones"
+msgstr "Servicios de catering y otras actividades de servicios alimentarios"
 
 #. module: l10n_eu_nace
 #: model:res.partner.nace,name:l10n_eu_nace.nace_13_3
 #: model:res.partner.nace,name:l10n_eu_nace.nace_13_30
-#, fuzzy
 msgid "Finishing of textiles"
-msgstr "[13.3] Acabado de textiles"
+msgstr "Acabado de textiles"
 
 #. module: l10n_eu_nace
 #: model:res.partner.nace,name:l10n_eu_nace.nace_84_25
-#, fuzzy
 msgid "Fire service activities"
-msgstr "[84.25] Protección civil"
+msgstr "Actividades de bomberos"
 
 #. module: l10n_eu_nace
 #: model:res.partner.nace,name:l10n_eu_nace.nace_03_1
-#, fuzzy
 msgid "Fishing"
-msgstr "[03.1] Pesca"
+msgstr "Pesca"
 
 #. module: l10n_eu_nace
 #: model:res.partner.nace,name:l10n_eu_nace.nace_03
-#, fuzzy
 msgid "Fishing and aquaculture"
-msgstr "[03] Pesca y acuicultura"
+msgstr "Pesca y acuicultura"
 
 #. module: l10n_eu_nace
 #: model:res.partner.nace,name:l10n_eu_nace.nace_93_13
-#, fuzzy
 msgid "Fitness facilities"
-msgstr "[93.13] Actividades de los gimnasios"
+msgstr "Actividades de los gimnasios"
 
 #. module: l10n_eu_nace
 #: model:res.partner.nace,name:l10n_eu_nace.nace_43_33
-#, fuzzy
 msgid "Floor and wall covering"
-msgstr "[43.33] Revestimiento de suelos y paredes"
+msgstr "Revestimiento de suelos y paredes"
 
 #. module: l10n_eu_nace
 #: model:res.partner.nace,name:l10n_eu_nace.nace_56
-#, fuzzy
 msgid "Food and beverage service activities"
-msgstr "[56] Servicios de comidas y bebidas"
+msgstr "Actividades de servicio de comidas y bebidas"
 
 #. module: l10n_eu_nace
 #: model:res.partner.nace,name:l10n_eu_nace.nace_84_21
-#, fuzzy
 msgid "Foreign affairs"
-msgstr "[84.21] Asuntos exteriores"
+msgstr "Asuntos exteriores"
 
 #. module: l10n_eu_nace
 #: model:res.partner.nace,name:l10n_eu_nace.nace_02
-#, fuzzy
 msgid "Forestry and logging"
-msgstr "[02] Silvicultura y explotación forestal"
+msgstr "Silvicultura y explotación forestal"
 
 #. module: l10n_eu_nace
 #: model:res.partner.nace,name:l10n_eu_nace.nace_25_5
 #: model:res.partner.nace,name:l10n_eu_nace.nace_25_50
-#, fuzzy
 msgid ""
 "Forging, pressing, stamping and roll-forming of metal; powder metallurgy"
-msgstr ""
-"[25.5] Forja, estampación y embutición de metales; metalurgia de polvos"
+msgstr "Forja, prensado, estampado y perfilado de metales; pulvimetalurgia"
 
 #. module: l10n_eu_nace
 #: model:res.partner.nace,name:l10n_eu_nace.nace_51_21
-#, fuzzy
 msgid "Freight air transport"
-msgstr "[51.21] Transporte aéreo de mercancías"
+msgstr "Transporte aéreo de mercancías"
 
 #. module: l10n_eu_nace
 #: model:res.partner.nace,name:l10n_eu_nace.nace_51_2
-#, fuzzy
 msgid "Freight air transport and space transport"
-msgstr "[51.2] Transporte aéreo de mercancías y transporte espacial"
+msgstr "Transporte aéreo de mercancías y transporte espacial"
 
 #. module: l10n_eu_nace
 #: model:res.partner.nace,name:l10n_eu_nace.nace_49_2
 #: model:res.partner.nace,name:l10n_eu_nace.nace_49_20
-#, fuzzy
 msgid "Freight rail transport"
-msgstr "[49.2] Transporte de mercancías por ferrocarril"
+msgstr "Transporte de mercancías por ferrocarril"
 
 #. module: l10n_eu_nace
 #: model:res.partner.nace,name:l10n_eu_nace.nace_49_41
-#, fuzzy
 msgid "Freight transport by road"
-msgstr "[49.41] Transporte de mercancías por carretera"
+msgstr "Transporte de mercancías por carretera"
 
 #. module: l10n_eu_nace
 #: model:res.partner.nace,name:l10n_eu_nace.nace_49_4
-#, fuzzy
 msgid "Freight transport by road and removal services"
-msgstr "[49.4] Transporte de mercancías por carretera y servicios de mudanza"
+msgstr "Transporte de mercancías por carretera y servicios de mudanza"
 
 #. module: l10n_eu_nace
 #: model:res.partner.nace,name:l10n_eu_nace.nace_03_22
-#, fuzzy
 msgid "Freshwater aquaculture"
-msgstr "[03.22] Acuicultura en agua dulce"
+msgstr "Acuicultura en agua dulce"
 
 #. module: l10n_eu_nace
 #: model:res.partner.nace,name:l10n_eu_nace.nace_03_12
-#, fuzzy
 msgid "Freshwater fishing"
-msgstr "[03.12] Pesca en agua dulce"
+msgstr "Pesca en agua dulce"
 
 #. module: l10n_eu_nace
 #: model:res.partner.nace,name:l10n_eu_nace.nace_66_3
 #: model:res.partner.nace,name:l10n_eu_nace.nace_66_30
-#, fuzzy
 msgid "Fund management activities"
-msgstr "[66.3] Actividades de gestión de fondos"
+msgstr "Actividades de gestión de fondos"
 
 #. module: l10n_eu_nace
 #: model:res.partner.nace,name:l10n_eu_nace.nace_96_03
-#, fuzzy
 msgid "Funeral and related activities"
-msgstr "[96.03] Pompas fúnebres y actividades relacionadas"
+msgstr "Pompas fúnebres y actividades relacionadas"
 
 #. module: l10n_eu_nace
 #: model:res.partner.nace,name:l10n_eu_nace.nace_92
 #: model:res.partner.nace,name:l10n_eu_nace.nace_92_0
 #: model:res.partner.nace,name:l10n_eu_nace.nace_92_00
-#, fuzzy
 msgid "Gambling and betting activities"
-msgstr "[92] Actividades de juegos de azar y apuestas"
+msgstr "Actividades de juegos de azar y apuestas"
 
 #. module: l10n_eu_nace
 #: model:res.partner.nace,name:l10n_eu_nace.nace_02_3
 #: model:res.partner.nace,name:l10n_eu_nace.nace_02_30
-#, fuzzy
 msgid "Gathering of wild growing non-wood products"
-msgstr "[02.3] Recolección de productos silvestres, excepto madera"
+msgstr "Recolección de productos silvestres no derivados de la madera"
 
 #. module: l10n_eu_nace
 #: model:res.partner.nace,name:l10n_eu_nace.nace_81_21
-#, fuzzy
 msgid "General cleaning of buildings"
-msgstr "[81.21] Limpieza general de edificios"
+msgstr "Limpieza general de edificios"
 
 #. module: l10n_eu_nace
 #: model:res.partner.nace,name:l10n_eu_nace.nace_86_21
-#, fuzzy
 msgid "General medical practice activities"
-msgstr "[86.21] Actividades de medicina general"
+msgstr "Actividades de medicina general"
 
 #. module: l10n_eu_nace
 #: model:res.partner.nace,name:l10n_eu_nace.nace_84_11
-#, fuzzy
 msgid "General public administration activities"
-msgstr "[84.11] Actividades generales de la Administración Pública"
+msgstr "Actividades generales de la Administración Pública"
 
 #. module: l10n_eu_nace
 #: model:res.partner.nace,name:l10n_eu_nace.nace_85_31
-#, fuzzy
 msgid "General secondary education "
-msgstr "[85.31] Educación secundaria general"
+msgstr "Educación secundaria general "
 
 #. module: l10n_eu_nace
 #: model:res.partner.nace,name:l10n_eu_nace.nace_01_27
-#, fuzzy
 msgid "Growing of beverage crops"
-msgstr "[01.27] Cultivo de plantas para bebidas"
+msgstr "Cultivo de plantas para bebidas"
 
 #. module: l10n_eu_nace
 #: model:res.partner.nace,name:l10n_eu_nace.nace_01_11
-#, fuzzy
 msgid "Growing of cereals (except rice), leguminous crops and oil seeds"
-msgstr ""
-"[01.11] Cultivo de cereales (excepto arroz), leguminosas y semillas "
-"oleaginosas"
+msgstr "Cultivo de cereales (excepto arroz), leguminosas y semillas oleaginosas"
 
 #. module: l10n_eu_nace
 #: model:res.partner.nace,name:l10n_eu_nace.nace_01_23
-#, fuzzy
 msgid "Growing of citrus fruits"
-msgstr "[01.23] Cultivo de cítricos"
+msgstr "Cultivo de cítricos"
 
 #. module: l10n_eu_nace
 #: model:res.partner.nace,name:l10n_eu_nace.nace_01_16
-#, fuzzy
 msgid "Growing of fibre crops"
-msgstr "[01.16] Cultivo de plantas para fibras textiles"
+msgstr "Cultivo de plantas para fibras"
 
 #. module: l10n_eu_nace
 #: model:res.partner.nace,name:l10n_eu_nace.nace_01_21
-#, fuzzy
 msgid "Growing of grapes"
-msgstr "[01.21] Cultivo de la vid"
+msgstr "Cultivo de la vid"
 
 #. module: l10n_eu_nace
 #: model:res.partner.nace,name:l10n_eu_nace.nace_01_1
-#, fuzzy
 msgid "Growing of non-perennial crops"
-msgstr "[01.1] Cultivos no perennes"
+msgstr "Cultivo de plantas no perennes"
 
 #. module: l10n_eu_nace
 #: model:res.partner.nace,name:l10n_eu_nace.nace_01_26
-#, fuzzy
 msgid "Growing of oleaginous fruits"
-msgstr "[01.26] Cultivo de frutos oleaginosos"
+msgstr "Cultivo de frutos oleaginosos"
 
 #. module: l10n_eu_nace
 #: model:res.partner.nace,name:l10n_eu_nace.nace_01_19
@@ -1858,2189 +1767,1835 @@ msgstr ""
 
 #. module: l10n_eu_nace
 #: model:res.partner.nace,name:l10n_eu_nace.nace_10_52
-#, fuzzy
 msgid "Manufacture of ice cream"
-msgstr "[10.52] Elaboración de helados"
+msgstr "Elaboración de helados"
 
 #. module: l10n_eu_nace
 #: model:res.partner.nace,name:l10n_eu_nace.nace_32_13
-#, fuzzy
 msgid "Manufacture of imitation jewellery and related articles"
-msgstr "[32.13] Fabricación de artículos de bisutería y artículos similares"
+msgstr "Fabricación de artículos de bisutería y artículos similares"
 
 #. module: l10n_eu_nace
 #: model:res.partner.nace,name:l10n_eu_nace.nace_20_11
-#, fuzzy
 msgid "Manufacture of industrial gases"
-msgstr "[20.11] Fabricación de gases industriales"
+msgstr "Fabricación de gases industriales"
 
 #. module: l10n_eu_nace
 #: model:res.partner.nace,name:l10n_eu_nace.nace_26_51
-#, fuzzy
 msgid ""
 "Manufacture of instruments and appliances for measuring, testing and "
 "navigation"
 msgstr ""
-"[26.51] Fabricación de instrumentos y aparatos de medida, verificación y "
-"navegación"
+"Fabricación de instrumentos y aparatos de medida, verificación y navegación"
 
 #. module: l10n_eu_nace
 #: model:res.partner.nace,name:l10n_eu_nace.nace_26_5
-#, fuzzy
 msgid ""
 "Manufacture of instruments and appliances for measuring, testing and "
 "navigation; watches and clocks"
 msgstr ""
-"[26.5] Fabricación de instrumentos y aparatos de medida, verificación y "
-"navegación; fabricación de relojes"
+"Fabricación de instrumentos y aparatos de medida, verificación y navegación; "
+"fabricación de relojes"
 
 #. module: l10n_eu_nace
 #: model:res.partner.nace,name:l10n_eu_nace.nace_26_6
 #: model:res.partner.nace,name:l10n_eu_nace.nace_26_60
-#, fuzzy
 msgid ""
 "Manufacture of irradiation, electromedical and electrotherapeutic equipment"
 msgstr ""
-"[26.6] Fabricación de equipos de radiación, electromédicos y "
-"electroterapéuticos"
+"Fabricación de equipos de radiación, electromédicos y electroterapéuticos"
 
 #. module: l10n_eu_nace
 #: model:res.partner.nace,name:l10n_eu_nace.nace_32_12
-#, fuzzy
 msgid "Manufacture of jewellery and related articles"
-msgstr "[32.12] Fabricación de artículos de joyería y artículos similares"
+msgstr "Fabricación de artículos de joyería y artículos relacionados"
 
 #. module: l10n_eu_nace
 #: model:res.partner.nace,name:l10n_eu_nace.nace_32_1
-#, fuzzy
 msgid "Manufacture of jewellery, bijouterie and related articles"
-msgstr "[32.1] Fabricación de artículos de joyería, bisutería y similares"
+msgstr "Fabricación de artículos de joyería, bisutería y similares"
 
 #. module: l10n_eu_nace
 #: model:res.partner.nace,name:l10n_eu_nace.nace_31_02
-#, fuzzy
 msgid "Manufacture of kitchen furniture"
-msgstr "[31.02] Fabricación de muebles de cocina"
+msgstr "Fabricación de muebles de cocina"
 
 #. module: l10n_eu_nace
 #: model:res.partner.nace,name:l10n_eu_nace.nace_14_3
-#, fuzzy
 msgid "Manufacture of knitted and crocheted apparel"
-msgstr "[14.3] Confección de prendas de vestir de punto"
+msgstr "Confección de prendas de vestir de punto"
 
 #. module: l10n_eu_nace
 #: model:res.partner.nace,name:l10n_eu_nace.nace_13_91
-#, fuzzy
 msgid "Manufacture of knitted and crocheted fabrics"
-msgstr "[13.91] Fabricación de tejidos de punto"
+msgstr "Fabricación de tejidos de punto y ganchillo"
 
 #. module: l10n_eu_nace
 #: model:res.partner.nace,name:l10n_eu_nace.nace_14_31
-#, fuzzy
 msgid "Manufacture of knitted and crocheted hosiery"
-msgstr "[14.31] Confección de calcetería"
+msgstr "Fabricación de medias de punto y ganchillo"
 
 #. module: l10n_eu_nace
 #: model:res.partner.nace,name:l10n_eu_nace.nace_15
-#, fuzzy
 msgid "Manufacture of leather and related products"
-msgstr "[15] Industria del cuero y del calzado"
+msgstr "Fabricación de cuero y productos relacionados"
 
 #. module: l10n_eu_nace
 #: model:res.partner.nace,name:l10n_eu_nace.nace_14_11
-#, fuzzy
 msgid "Manufacture of leather clothes"
-msgstr "[14.11] Confección de prendas de vestir de cuero"
+msgstr "Confección de prendas de cuero"
 
 #. module: l10n_eu_nace
 #: model:res.partner.nace,name:l10n_eu_nace.nace_28_22
-#, fuzzy
 msgid "Manufacture of lifting and handling equipment"
-msgstr "[28.22] Fabricación de maquinaria de elevación y manipulación"
+msgstr "Fabricación de maquinaria de elevación y manipulación"
 
 #. module: l10n_eu_nace
 #: model:res.partner.nace,name:l10n_eu_nace.nace_25_92
-#, fuzzy
 msgid "Manufacture of light metal packaging "
-msgstr "[25.92] Fabricación de envases y embalajes metálicos ligeros"
+msgstr "Fabricación de envases y embalajes metálicos ligeros "
 
 #. module: l10n_eu_nace
 #: model:res.partner.nace,name:l10n_eu_nace.nace_23_52
-#, fuzzy
 msgid "Manufacture of lime and plaster"
-msgstr "[23.52] Fabricación de cal y yeso"
+msgstr "Fabricación de cal y yeso"
 
 #. module: l10n_eu_nace
 #: model:res.partner.nace,name:l10n_eu_nace.nace_26_12
-#, fuzzy
 msgid "Manufacture of loaded electronic boards"
-msgstr "[26.12] Fabricación de circuitos impresos ensamblados"
+msgstr "Fabricación de circuitos impresos ensamblados"
 
 #. module: l10n_eu_nace
 #: model:res.partner.nace,name:l10n_eu_nace.nace_25_72
-#, fuzzy
 msgid "Manufacture of locks and hinges"
-msgstr "[25.72] Fabricación de cerraduras y herrajes"
+msgstr "Fabricación de cerraduras y herrajes"
 
 #. module: l10n_eu_nace
 #: model:res.partner.nace,name:l10n_eu_nace.nace_15_12
-#, fuzzy
 msgid "Manufacture of luggage, handbags and the like, saddlery and harness"
 msgstr ""
-"[15.12] Fabricación de artículos de marroquinería, viaje y de guarnicionería "
-"y talabartería"
+"Fabricación de artículos de viaje, bolsos de mano y artículos similares, "
+"artículos de guarnicionería y talabartería"
 
 #. module: l10n_eu_nace
 #: model:res.partner.nace,name:l10n_eu_nace.nace_10_73
-#, fuzzy
 msgid ""
 "Manufacture of macaroni, noodles, couscous and similar farinaceous products"
 msgstr ""
-"[10.73] Fabricación de pastas alimenticias, cuscús y productos similares"
+"Fabricación de macarrones, tallarines, cuscús y productos farináceos "
+"similares"
 
 #. module: l10n_eu_nace
 #: model:res.partner.nace,name:l10n_eu_nace.nace_28
-#, fuzzy
 msgid "Manufacture of machinery and equipment n.e.c."
-msgstr "[28] Fabricación de maquinaria y equipo n.c.o.p."
+msgstr "Fabricación de maquinaria y equipo n.c.o.p."
 
 #. module: l10n_eu_nace
 #: model:res.partner.nace,name:l10n_eu_nace.nace_28_93
-#, fuzzy
 msgid "Manufacture of machinery for food, beverage and tobacco processing"
 msgstr ""
-"[28.93] Fabricación de maquinaria para la industria de la alimentación, "
-"bebidas y tabaco"
+"Fabricación de maquinaria para la industria de la alimentación, bebidas y "
+"tabaco"
 
 #. module: l10n_eu_nace
 #: model:res.partner.nace,name:l10n_eu_nace.nace_28_91
-#, fuzzy
 msgid "Manufacture of machinery for metallurgy"
-msgstr "[28.91] Fabricación de maquinaria para la industria metalúrgica"
+msgstr "Fabricación de maquinaria para la industria metalúrgica"
 
 #. module: l10n_eu_nace
 #: model:res.partner.nace,name:l10n_eu_nace.nace_28_92
-#, fuzzy
 msgid "Manufacture of machinery for mining, quarrying and construction"
 msgstr ""
-"[28.92] Fabricación de maquinaria para las industrias extractivas y de la "
+"Fabricación de maquinaria para las industrias extractivas y de la "
 "construcción"
 
 #. module: l10n_eu_nace
 #: model:res.partner.nace,name:l10n_eu_nace.nace_28_95
-#, fuzzy
 msgid "Manufacture of machinery for paper and paperboard production"
-msgstr ""
-"[28.95] Fabricación de maquinaria para la industria del papel y del cartón"
+msgstr "Fabricación de maquinaria para la industria del papel y del cartón"
 
 #. module: l10n_eu_nace
 #: model:res.partner.nace,name:l10n_eu_nace.nace_28_94
-#, fuzzy
 msgid "Manufacture of machinery for textile, apparel and leather production"
 msgstr ""
-"[28.94] Fabricación de maquinaria para las industrias textil, de la "
-"confección y del cuero"
+"Fabricación de maquinaria para las industrias textil, de la confección y del "
+"cuero"
 
 #. module: l10n_eu_nace
 #: model:res.partner.nace,name:l10n_eu_nace.nace_13_92
-#, fuzzy
 msgid "Manufacture of made-up textile articles, except apparel"
 msgstr ""
-"[13.92] Fabricación de artículos confeccionados con textiles, excepto "
-"prendas de vestir"
+"Fabricación de artículos confeccionados con textiles, excepto prendas de "
+"vestir"
 
 #. module: l10n_eu_nace
 #: model:res.partner.nace,name:l10n_eu_nace.nace_26_8
 #: model:res.partner.nace,name:l10n_eu_nace.nace_26_80
-#, fuzzy
 msgid "Manufacture of magnetic and optical media"
-msgstr "[26.8] Fabricación de soportes magnéticos y ópticos"
+msgstr "Fabricación de soportes magnéticos y ópticos"
 
 #. module: l10n_eu_nace
 #: model:res.partner.nace,name:l10n_eu_nace.nace_11_06
-#, fuzzy
 msgid "Manufacture of malt"
-msgstr "[11.06] Fabricación de malta"
+msgstr "Fabricación de malta"
 
 #. module: l10n_eu_nace
 #: model:res.partner.nace,name:l10n_eu_nace.nace_20_6
 #: model:res.partner.nace,name:l10n_eu_nace.nace_20_60
-#, fuzzy
 msgid "Manufacture of man-made fibres"
-msgstr "[20.6] Fabricación de fibras artificiales y sintéticas"
+msgstr "Fabricación de fibras artificiales y sintéticas"
 
 #. module: l10n_eu_nace
 #: model:res.partner.nace,name:l10n_eu_nace.nace_10_42
-#, fuzzy
 msgid "Manufacture of margarine and similar edible fats"
-msgstr "[10.42] Fabricación de margarina y grasas comestibles similares"
+msgstr "Fabricación de margarina y grasas comestibles similares"
 
 #. module: l10n_eu_nace
 #: model:res.partner.nace,name:l10n_eu_nace.nace_31_03
-#, fuzzy
 msgid "Manufacture of mattresses"
-msgstr "[31.03] Fabricación de colchones"
+msgstr "Fabricación de colchones"
 
 #. module: l10n_eu_nace
 #: model:res.partner.nace,name:l10n_eu_nace.nace_32_5
 #: model:res.partner.nace,name:l10n_eu_nace.nace_32_50
-#, fuzzy
 msgid "Manufacture of medical and dental instruments and supplies"
-msgstr ""
-"[32.5] Fabricación de instrumentos y suministros médicos y odontológicos"
+msgstr "Fabricación de instrumentos y suministros médicos y odontológicos"
 
 #. module: l10n_eu_nace
 #: model:res.partner.nace,name:l10n_eu_nace.nace_28_41
-#, fuzzy
 msgid "Manufacture of metal forming machinery"
-msgstr "[28.41] Fabricación de máquinas herramienta para trabajar el metal"
+msgstr "Fabricación de maquinaria para el conformado de metales"
 
 #. module: l10n_eu_nace
 #: model:res.partner.nace,name:l10n_eu_nace.nace_28_4
-#, fuzzy
 msgid "Manufacture of metal forming machinery and machine tools"
 msgstr ""
-"[28.4] Fabricación de máquinas herramienta para trabajar el metal y otras "
-"máquinas herramienta"
+"Fabricación de maquinaria para el conformado de metales y máquinas "
+"herramienta"
 
 #. module: l10n_eu_nace
 #: model:res.partner.nace,name:l10n_eu_nace.nace_25_11
-#, fuzzy
 msgid "Manufacture of metal structures and parts of structures"
-msgstr "[25.11] Fabricación de estructuras metálicas y sus componentes"
+msgstr "Fabricación de estructuras metálicas y sus componentes"
 
 #. module: l10n_eu_nace
 #: model:res.partner.nace,name:l10n_eu_nace.nace_30_4
 #: model:res.partner.nace,name:l10n_eu_nace.nace_30_40
-#, fuzzy
 msgid "Manufacture of military fighting vehicles"
-msgstr "[30.4] Fabricación de vehículos militares de combate"
+msgstr "Fabricación de vehículos militares de combate"
 
 #. module: l10n_eu_nace
 #: model:res.partner.nace,name:l10n_eu_nace.nace_23_64
-#, fuzzy
 msgid "Manufacture of mortars"
-msgstr "[23.64] Fabricación de mortero"
+msgstr "Fabricación de mortero"
 
 #. module: l10n_eu_nace
 #: model:res.partner.nace,name:l10n_eu_nace.nace_29_1
 #: model:res.partner.nace,name:l10n_eu_nace.nace_29_10
-#, fuzzy
 msgid "Manufacture of motor vehicles"
-msgstr "[29.1] Fabricación de vehículos de motor"
+msgstr "Fabricación de vehículos de motor"
 
 #. module: l10n_eu_nace
 #: model:res.partner.nace,name:l10n_eu_nace.nace_29
-#, fuzzy
 msgid "Manufacture of motor vehicles, trailers and semi-trailers"
-msgstr "[29] Fabricación de vehículos de motor, remolques y semirremolques"
+msgstr "Fabricación de vehículos de motor, remolques y semirremolques"
 
 #. module: l10n_eu_nace
 #: model:res.partner.nace,name:l10n_eu_nace.nace_30_91
-#, fuzzy
 msgid "Manufacture of motorcycles"
-msgstr "[30.91] Fabricación de motocicletas"
+msgstr "Fabricación de motocicletas"
 
 #. module: l10n_eu_nace
 #: model:res.partner.nace,name:l10n_eu_nace.nace_32_2
 #: model:res.partner.nace,name:l10n_eu_nace.nace_32_20
-#, fuzzy
 msgid "Manufacture of musical instruments"
-msgstr "[32.2] Fabricación de instrumentos musicales"
+msgstr "Fabricación de instrumentos musicales"
 
 #. module: l10n_eu_nace
 #: model:res.partner.nace,name:l10n_eu_nace.nace_28_25
-#, fuzzy
 msgid "Manufacture of non-domestic cooling and ventilation equipment"
-msgstr ""
-"[28.25] Fabricación de maquinaria de ventilación y refrigeración no doméstica"
+msgstr "Fabricación de maquinaria de ventilación y refrigeración no doméstica"
 
 #. module: l10n_eu_nace
 #: model:res.partner.nace,name:l10n_eu_nace.nace_27_52
-#, fuzzy
 msgid "Manufacture of non-electric domestic appliances"
-msgstr "[27.52] Fabricación de aparatos domésticos no eléctricos"
+msgstr "Fabricación de aparatos domésticos no eléctricos"
 
 #. module: l10n_eu_nace
 #: model:res.partner.nace,name:l10n_eu_nace.nace_13_95
-#, fuzzy
 msgid ""
 "Manufacture of non-wovens and articles made from non-wovens, except apparel"
 msgstr ""
-"[13.95] Fabricación de telas no tejidas y artículos confeccionados con "
-"ellas, excepto prendas de vestir"
+"Fabricación de telas no tejidas y artículos confeccionados con ellas, "
+"excepto prendas de vestir"
 
 #. module: l10n_eu_nace
 #: model:res.partner.nace,name:l10n_eu_nace.nace_31_01
-#, fuzzy
 msgid "Manufacture of office and shop furniture"
-msgstr ""
-"[31.01] Fabricación de muebles de oficina y de establecimientos comerciales"
+msgstr "Fabricación de muebles de oficina y de establecimientos comerciales"
 
 #. module: l10n_eu_nace
 #: model:res.partner.nace,name:l10n_eu_nace.nace_28_23
-#, fuzzy
 msgid ""
 "Manufacture of office machinery and equipment (except computers and "
 "peripheral equipment)"
 msgstr ""
-"[28.23] Fabricación de máquinas y equipos de oficina, excepto equipos "
-"informáticos"
+"Fabricación de máquinas y equipos de oficina( excepto equipos informáticos y "
+"periféricos)"
 
 #. module: l10n_eu_nace
 #: model:res.partner.nace,name:l10n_eu_nace.nace_10_41
-#, fuzzy
 msgid "Manufacture of oils and fats"
-msgstr "[10.41] Fabricación de aceites y grasas"
+msgstr "Fabricación de aceites y grasas"
 
 #. module: l10n_eu_nace
 #: model:res.partner.nace,name:l10n_eu_nace.nace_26_7
 #: model:res.partner.nace,name:l10n_eu_nace.nace_26_70
-#, fuzzy
 msgid "Manufacture of optical instruments and photographic equipment"
-msgstr "[26.7] Fabricación de instrumentos de óptica y equipo fotográfico"
+msgstr "Fabricación de instrumentos de óptica y equipo fotográfico"
 
 #. module: l10n_eu_nace
 #: model:res.partner.nace,name:l10n_eu_nace.nace_23_69
-#, fuzzy
 msgid "Manufacture of other articles of concrete, plaster and cement"
-msgstr "[23.69] Fabricación de otros productos de hormigón, yeso y cemento"
+msgstr "Fabricación de otros productos de hormigón, yeso y cemento"
 
 #. module: l10n_eu_nace
 #: model:res.partner.nace,name:l10n_eu_nace.nace_17_29
-#, fuzzy
 msgid "Manufacture of other articles of paper and paperboard"
-msgstr "[17.29] Fabricación de otros artículos de papel y cartón"
+msgstr "Fabricación de otros artículos de papel y cartón"
 
 #. module: l10n_eu_nace
 #: model:res.partner.nace,name:l10n_eu_nace.nace_16_23
-#, fuzzy
 msgid "Manufacture of other builders' carpentry and joinery"
 msgstr ""
-"[16.23] Fabricación de otras estructuras de madera y piezas de carpintería y "
+"Fabricación de otras estructuras de madera y piezas de carpintería y "
 "ebanistería para la construcción"
 
 #. module: l10n_eu_nace
 #: model:res.partner.nace,name:l10n_eu_nace.nace_23_49
-#, fuzzy
 msgid "Manufacture of other ceramic products"
-msgstr "[23.49] Fabricación de otros productos cerámicos"
+msgstr "Fabricación de otros productos cerámicos"
 
 #. module: l10n_eu_nace
 #: model:res.partner.nace,name:l10n_eu_nace.nace_20_5
-#, fuzzy
 msgid "Manufacture of other chemical products"
-msgstr "[20.5] Fabricación de otros productos químicos"
+msgstr "Fabricación de otros productos químicos"
 
 #. module: l10n_eu_nace
 #: model:res.partner.nace,name:l10n_eu_nace.nace_20_59
-#, fuzzy
 msgid "Manufacture of other chemical products n.e.c."
-msgstr "[20.59] Fabricación de otros productos químicos n.c.o.p."
+msgstr "Fabricación de otros productos químicos n.c.o.p."
 
 #. module: l10n_eu_nace
 #: model:res.partner.nace,name:l10n_eu_nace.nace_27_9
 #: model:res.partner.nace,name:l10n_eu_nace.nace_27_90
-#, fuzzy
 msgid "Manufacture of other electrical equipment"
-msgstr "[27.9] Fabricación de otro material y equipo eléctrico"
+msgstr "Fabricación de otro material y equipo eléctrico"
 
 #. module: l10n_eu_nace
 #: model:res.partner.nace,name:l10n_eu_nace.nace_27_32
-#, fuzzy
 msgid "Manufacture of other electronic and electric wires and cables"
-msgstr "[27.32] Fabricación de otros hilos y cables electrónicos y eléctricos"
+msgstr "Fabricación de otros hilos y cables electrónicos y eléctricos"
 
 #. module: l10n_eu_nace
 #: model:res.partner.nace,name:l10n_eu_nace.nace_25_9
-#, fuzzy
 msgid "Manufacture of other fabricated metal products"
-msgstr "[25.9] Fabricación de otros productos metálicos"
+msgstr "Fabricación de otros productos metálicos manufacturados"
 
 #. module: l10n_eu_nace
 #: model:res.partner.nace,name:l10n_eu_nace.nace_25_99
-#, fuzzy
 msgid "Manufacture of other fabricated metal products n.e.c."
-msgstr "[25.99] Fabricación de otros productos metálicos n.c.o.p."
+msgstr "Fabricación de otros productos metálicos manufacturados n.c.o.p."
 
 #. module: l10n_eu_nace
 #: model:res.partner.nace,name:l10n_eu_nace.nace_10_8
-#, fuzzy
 msgid "Manufacture of other food products"
-msgstr "[10.8] Fabricación de otros productos alimenticios"
+msgstr "Fabricación de otros productos alimenticios"
 
 #. module: l10n_eu_nace
 #: model:res.partner.nace,name:l10n_eu_nace.nace_10_89
-#, fuzzy
 msgid "Manufacture of other food products n.e.c."
-msgstr "[10.89] Elaboración de otros productos alimenticios n.c.o.p."
+msgstr "Elaboración de otros productos alimenticios n.c.o.p."
 
 #. module: l10n_eu_nace
 #: model:res.partner.nace,name:l10n_eu_nace.nace_31_09
-#, fuzzy
 msgid "Manufacture of other furniture"
-msgstr "[31.09] Fabricación de otros muebles"
+msgstr "Fabricación de otros muebles"
 
 #. module: l10n_eu_nace
 #: model:res.partner.nace,name:l10n_eu_nace.nace_28_2
-#, fuzzy
 msgid "Manufacture of other general-purpose machinery"
-msgstr "[28.2] Fabricación de otra maquinaria de uso general"
+msgstr "Fabricación de otra maquinaria de uso general"
 
 #. module: l10n_eu_nace
 #: model:res.partner.nace,name:l10n_eu_nace.nace_28_29
-#, fuzzy
 msgid "Manufacture of other general-purpose machinery n.e.c."
-msgstr "[28.29] Fabricación de otra maquinaria de uso general n.c.o.p."
+msgstr "Fabricación de otra maquinaria de uso general n.c.o.p."
 
 #. module: l10n_eu_nace
 #: model:res.partner.nace,name:l10n_eu_nace.nace_20_13
-#, fuzzy
 msgid "Manufacture of other inorganic basic chemicals"
-msgstr "[20.13] Fabricación de otros productos básicos de química inorgánica"
+msgstr "Fabricación de otros productos básicos de química inorgánica"
 
 #. module: l10n_eu_nace
 #: model:res.partner.nace,name:l10n_eu_nace.nace_14_39
-#, fuzzy
 msgid "Manufacture of other knitted and crocheted apparel"
-msgstr "[14.39] Confección de otras prendas de vestir de punto"
+msgstr "Confección de otras prendas de vestir de punto y ganchillo"
 
 #. module: l10n_eu_nace
 #: model:res.partner.nace,name:l10n_eu_nace.nace_28_49
-#, fuzzy
 msgid "Manufacture of other machine tools"
-msgstr "[28.49] Fabricación de otras máquinas herramienta"
+msgstr "Fabricación de otras máquinas herramienta"
 
 #. module: l10n_eu_nace
 #: model:res.partner.nace,name:l10n_eu_nace.nace_11_04
-#, fuzzy
 msgid "Manufacture of other non-distilled fermented beverages"
 msgstr ""
-"[11.04] Elaboración de otras bebidas no destiladas, procedentes de la "
-"fermentación"
+"Elaboración de otras bebidas no destiladas, procedentes de la fermentación"
 
 #. module: l10n_eu_nace
 #: model:res.partner.nace,name:l10n_eu_nace.nace_23
-#, fuzzy
 msgid "Manufacture of other non-metallic mineral products"
-msgstr "[23] Fabricación de otros productos minerales no metálicos"
+msgstr "Fabricación de otros productos minerales no metálicos"
 
 #. module: l10n_eu_nace
 #: model:res.partner.nace,name:l10n_eu_nace.nace_23_99
-#, fuzzy
 msgid "Manufacture of other non-metallic mineral products n.e.c."
-msgstr "[23.99] Fabricación de otros productos minerales no metálicos n.c.o.p."
+msgstr "Fabricación de otros productos minerales no metálicos n.c.o.p."
 
 #. module: l10n_eu_nace
 #: model:res.partner.nace,name:l10n_eu_nace.nace_20_14
-#, fuzzy
 msgid "Manufacture of other organic basic chemicals"
-msgstr "[20.14] Fabricación de otros productos básicos de química orgánica"
+msgstr "Fabricación de otros productos básicos de química orgánica"
 
 #. module: l10n_eu_nace
 #: model:res.partner.nace,name:l10n_eu_nace.nace_14_13
-#, fuzzy
 msgid "Manufacture of other outerwear"
-msgstr "[14.13] Confección de otras prendas de vestir exteriores"
+msgstr "Confección de otras prendas de vestir exteriores"
 
 #. module: l10n_eu_nace
 #: model:res.partner.nace,name:l10n_eu_nace.nace_29_32
-#, fuzzy
 msgid "Manufacture of other parts and accessories for motor vehicles"
 msgstr ""
-"[29.32] Fabricación de otros componentes, piezas y accesorios para vehículos "
-"de motor"
+"Fabricación de otros componentes, piezas y accesorios para vehículos de motor"
 
 #. module: l10n_eu_nace
 #: model:res.partner.nace,name:l10n_eu_nace.nace_22_29
-#, fuzzy
 msgid "Manufacture of other plastic products"
-msgstr "[22.29] Fabricación de otros productos de plástico"
+msgstr "Fabricación de otros productos de plástico"
 
 #. module: l10n_eu_nace
 #: model:res.partner.nace,name:l10n_eu_nace.nace_23_4
-#, fuzzy
 msgid "Manufacture of other porcelain and ceramic products"
-msgstr "[23.4] Fabricación de otros productos cerámicos"
+msgstr "Fabricación de otros productos cerámicos y de porcelana"
 
 #. module: l10n_eu_nace
 #: model:res.partner.nace,name:l10n_eu_nace.nace_24_3
-#, fuzzy
 msgid "Manufacture of other products of first processing of steel"
-msgstr ""
-"[24.3] Fabricación de otros productos de primera transformación del acero"
+msgstr "Fabricación de otros productos de primera transformación del acero"
 
 #. module: l10n_eu_nace
 #: model:res.partner.nace,name:l10n_eu_nace.nace_16_29
-#, fuzzy
 msgid ""
 "Manufacture of other products of wood; manufacture of articles of cork, "
 "straw and plaiting materials"
 msgstr ""
-"[16.29] Fabricación de otros productos de madera; artículos de corcho, "
-"cestería y espartería"
+"Fabricación de otros productos de madera; artículos de corcho, cestería y "
+"espartería"
 
 #. module: l10n_eu_nace
 #: model:res.partner.nace,name:l10n_eu_nace.nace_28_13
-#, fuzzy
 msgid "Manufacture of other pumps and compressors"
-msgstr "[28.13] Fabricación de otras bombas y compresores"
+msgstr "Fabricación de otras bombas y compresores"
 
 #. module: l10n_eu_nace
 #: model:res.partner.nace,name:l10n_eu_nace.nace_22_19
-#, fuzzy
 msgid "Manufacture of other rubber products"
-msgstr "[22.19] Fabricación de otros productos de caucho"
+msgstr "Fabricación de otros productos de caucho"
 
 #. module: l10n_eu_nace
 #: model:res.partner.nace,name:l10n_eu_nace.nace_28_9
-#, fuzzy
 msgid "Manufacture of other special-purpose machinery"
-msgstr "[28.9] Fabricación de otra maquinaria para usos específicos"
+msgstr "Fabricación de otra maquinaria para usos específicos"
 
 #. module: l10n_eu_nace
 #: model:res.partner.nace,name:l10n_eu_nace.nace_28_99
-#, fuzzy
 msgid "Manufacture of other special-purpose machinery n.e.c."
-msgstr "[28.99] Fabricación de otra maquinaria para usos específicos n.c.o.p."
+msgstr "Fabricación de otra maquinaria para usos específicos n.c.o.p."
 
 #. module: l10n_eu_nace
 #: model:res.partner.nace,name:l10n_eu_nace.nace_25_29
-#, fuzzy
 msgid "Manufacture of other tanks, reservoirs and containers of metal"
 msgstr ""
-"[25.29] Fabricación de otras cisternas, grandes depósitos y contenedores de "
-"metal"
+"Fabricación de otras cisternas, grandes depósitos y contenedores de metal"
 
 #. module: l10n_eu_nace
 #: model:res.partner.nace,name:l10n_eu_nace.nace_28_14
-#, fuzzy
 msgid "Manufacture of other taps and valves"
-msgstr "[28.14] Fabricación de otra grifería y válvulas"
+msgstr "Fabricación de otra grifería y válvulas"
 
 #. module: l10n_eu_nace
 #: model:res.partner.nace,name:l10n_eu_nace.nace_13_96
-#, fuzzy
 msgid "Manufacture of other technical and industrial textiles"
-msgstr ""
-"[13.96] Fabricación de otros productos textiles de uso técnico e industrial"
+msgstr "Fabricación de otros productos textiles de uso técnico e industrial"
 
 #. module: l10n_eu_nace
 #: model:res.partner.nace,name:l10n_eu_nace.nace_23_44
-#, fuzzy
 msgid "Manufacture of other technical ceramic products"
-msgstr "[23.44] Fabricación de otros productos cerámicos de uso técnico"
+msgstr "Fabricación de otros productos cerámicos de uso técnico"
 
 #. module: l10n_eu_nace
 #: model:res.partner.nace,name:l10n_eu_nace.nace_13_9
-#, fuzzy
 msgid "Manufacture of other textiles"
-msgstr "[13.9] Fabricación de otros productos textiles"
+msgstr "Fabricación de otros productos textiles"
 
 #. module: l10n_eu_nace
 #: model:res.partner.nace,name:l10n_eu_nace.nace_13_99
-#, fuzzy
 msgid "Manufacture of other textiles n.e.c."
-msgstr "[13.99] Fabricación de otros productos textiles n.c.o.p."
+msgstr "Fabricación de otros productos textiles n.c.o.p."
 
 #. module: l10n_eu_nace
 #: model:res.partner.nace,name:l10n_eu_nace.nace_30
-#, fuzzy
 msgid "Manufacture of other transport equipment"
-msgstr "[30] Fabricación de otro material de transporte"
+msgstr "Fabricación de otros equipos de transporte"
 
 #. module: l10n_eu_nace
 #: model:res.partner.nace,name:l10n_eu_nace.nace_30_99
-#, fuzzy
 msgid "Manufacture of other transport equipment n.e.c."
-msgstr "[30.99] Fabricación de otro material de transporte n.c.o.p."
+msgstr "Fabricación de otros equipos de transporte n.e.c."
 
 #. module: l10n_eu_nace
 #: model:res.partner.nace,name:l10n_eu_nace.nace_14_19
-#, fuzzy
 msgid "Manufacture of other wearing apparel and accessories"
-msgstr "[14.19] Confección de otras prendas de vestir y accesorios"
+msgstr "Confección de otras prendas de vestir y accesorios"
 
 #. module: l10n_eu_nace
 #: model:res.partner.nace,name:l10n_eu_nace.nace_28_21
-#, fuzzy
 msgid "Manufacture of ovens, furnaces and furnace burners"
-msgstr "[28.21] Fabricación de hornos y quemadores"
+msgstr "Fabricación de hornos y quemadores para hornos"
 
 #. module: l10n_eu_nace
 #: model:res.partner.nace,name:l10n_eu_nace.nace_20_3
 #: model:res.partner.nace,name:l10n_eu_nace.nace_20_30
-#, fuzzy
 msgid ""
 "Manufacture of paints, varnishes and similar coatings, printing ink and "
 "mastics"
 msgstr ""
-"[20.3] Fabricación de pinturas, barnices y revestimientos similares; tintas "
-"de imprenta y masillas"
+"Fabricación de pinturas, barnices y revestimientos similares; tintas de "
+"imprenta y masillas"
 
 #. module: l10n_eu_nace
 #: model:res.partner.nace,name:l10n_eu_nace.nace_17
-#, fuzzy
 msgid "Manufacture of paper and paper products"
-msgstr "[17] Industria del papel"
+msgstr "Fabricación de papel y productos de papel"
 
 #. module: l10n_eu_nace
 #: model:res.partner.nace,name:l10n_eu_nace.nace_17_12
-#, fuzzy
 msgid "Manufacture of paper and paperboard"
-msgstr "[17.12] Fabricación de papel y cartón"
+msgstr "Fabricación de papel y cartón"
 
 #. module: l10n_eu_nace
 #: model:res.partner.nace,name:l10n_eu_nace.nace_17_23
-#, fuzzy
 msgid "Manufacture of paper stationery"
-msgstr "[17.23] Fabricación de artículos de papelería"
+msgstr "Fabricación de artículos de papelería"
 
 #. module: l10n_eu_nace
 #: model:res.partner.nace,name:l10n_eu_nace.nace_29_3
-#, fuzzy
 msgid "Manufacture of parts and accessories for motor vehicles"
-msgstr ""
-"[29.3] Fabricación de componentes, piezas y accesorios para vehículos de "
-"motor"
+msgstr "Fabricación de componentes, piezas y accesorios para vehículos de motor"
 
 #. module: l10n_eu_nace
 #: model:res.partner.nace,name:l10n_eu_nace.nace_20_42
-#, fuzzy
 msgid "Manufacture of perfumes and toilet preparations"
-msgstr "[20.42] Fabricación de perfumes y cosméticos"
+msgstr "Fabricación de perfumes y cosméticos"
 
 #. module: l10n_eu_nace
 #: model:res.partner.nace,name:l10n_eu_nace.nace_20_2
 #: model:res.partner.nace,name:l10n_eu_nace.nace_20_20
-#, fuzzy
 msgid "Manufacture of pesticides and other agrochemical products"
-msgstr "[20.2] Fabricación de pesticidas y otros productos agroquímicos"
+msgstr "Fabricación de pesticidas y otros productos agroquímicos"
 
 #. module: l10n_eu_nace
 #: model:res.partner.nace,name:l10n_eu_nace.nace_21_2
 #: model:res.partner.nace,name:l10n_eu_nace.nace_21_20
-#, fuzzy
 msgid "Manufacture of pharmaceutical preparations"
-msgstr "[21.2] Fabricación de especialidades farmacéuticas"
+msgstr "Fabricación de especialidades farmacéuticas"
 
 #. module: l10n_eu_nace
 #: model:res.partner.nace,name:l10n_eu_nace.nace_23_62
-#, fuzzy
 msgid "Manufacture of plaster products for construction purposes"
-msgstr "[23.62] Fabricación de elementos de yeso para la construcción"
+msgstr "Fabricación de elementos de yeso para la construcción"
 
 #. module: l10n_eu_nace
 #: model:res.partner.nace,name:l10n_eu_nace.nace_22_22
-#, fuzzy
 msgid "Manufacture of plastic packing goods"
-msgstr "[22.22] Fabricación de envases y embalajes de plástico"
+msgstr "Fabricación de envases y embalajes de plástico"
 
 #. module: l10n_eu_nace
 #: model:res.partner.nace,name:l10n_eu_nace.nace_22_21
-#, fuzzy
 msgid "Manufacture of plastic plates, sheets, tubes and profiles"
-msgstr "[22.21] Fabricación de placas, hojas, tubos y perfiles de plástico"
+msgstr "Fabricación de placas, hojas, tubos y perfiles de plástico"
 
 #. module: l10n_eu_nace
 #: model:res.partner.nace,name:l10n_eu_nace.nace_22_2
-#, fuzzy
 msgid "Manufacture of plastic products"
-msgstr "[22.2] Fabricación de productos de plástico"
+msgstr "Fabricación de productos de plástico"
 
 #. module: l10n_eu_nace
 #: model:res.partner.nace,name:l10n_eu_nace.nace_28_96
-#, fuzzy
 msgid "Manufacture of plastics and rubber machinery"
-msgstr ""
-"[28.96] Fabricación de maquinaria para las industrias del plástico y del "
-"caucho"
+msgstr "Fabricación de maquinaria para las industrias del plástico y del caucho"
 
 #. module: l10n_eu_nace
 #: model:res.partner.nace,name:l10n_eu_nace.nace_20_16
-#, fuzzy
 msgid "Manufacture of plastics in primary forms"
-msgstr "[20.16] Fabricación de plásticos en formas primarias"
+msgstr "Fabricación de plásticos en formas primarias"
 
 #. module: l10n_eu_nace
 #: model:res.partner.nace,name:l10n_eu_nace.nace_28_24
-#, fuzzy
 msgid "Manufacture of power-driven hand tools"
-msgstr "[28.24] Fabricación de herramientas eléctricas manuales"
+msgstr "Fabricación de herramientas eléctricas manuales"
 
 #. module: l10n_eu_nace
 #: model:res.partner.nace,name:l10n_eu_nace.nace_10_9
-#, fuzzy
 msgid "Manufacture of prepared animal feeds"
-msgstr "[10.9] Fabricación de productos para la alimentación animal"
+msgstr "Fabricación de productos para la alimentación animal"
 
 #. module: l10n_eu_nace
 #: model:res.partner.nace,name:l10n_eu_nace.nace_10_91
-#, fuzzy
 msgid "Manufacture of prepared feeds for farm animals"
-msgstr ""
-"[10.91] Fabricación de productos para la alimentación de animales de granja"
+msgstr "Fabricación de productos para la alimentación de animales de granja"
 
 #. module: l10n_eu_nace
 #: model:res.partner.nace,name:l10n_eu_nace.nace_10_85
-#, fuzzy
 msgid "Manufacture of prepared meals and dishes"
-msgstr "[10.85] Elaboración de platos y comidas preparados"
+msgstr "Elaboración de platos y comidas preparadas"
 
 #. module: l10n_eu_nace
 #: model:res.partner.nace,name:l10n_eu_nace.nace_10_92
-#, fuzzy
 msgid "Manufacture of prepared pet foods"
-msgstr ""
-"[10.92] Fabricación de productos para la alimentación de animales de compañía"
+msgstr "Fabricación de productos para la alimentación de animales de compañía"
 
 #. module: l10n_eu_nace
 #: model:res.partner.nace,name:l10n_eu_nace.nace_16_2
-#, fuzzy
 msgid "Manufacture of products of wood, cork, straw and plaiting materials"
-msgstr ""
-"[16.2] Fabricación de productos de madera, corcho, cestería y espartería"
+msgstr "Fabricación de productos de madera, corcho, cestería y espartería"
 
 #. module: l10n_eu_nace
 #: model:res.partner.nace,name:l10n_eu_nace.nace_17_11
-#, fuzzy
 msgid "Manufacture of pulp"
-msgstr "[17.11] Fabricación de pasta papelera"
+msgstr "Fabricación de pasta de papel"
 
 #. module: l10n_eu_nace
 #: model:res.partner.nace,name:l10n_eu_nace.nace_17_1
-#, fuzzy
 msgid "Manufacture of pulp, paper and paperboard"
-msgstr "[17.1] Fabricación de pasta papelera, papel y cartón"
+msgstr "Fabricación de pasta de papel, papel y cartón"
 
 #. module: l10n_eu_nace
 #: model:res.partner.nace,name:l10n_eu_nace.nace_30_2
 #: model:res.partner.nace,name:l10n_eu_nace.nace_30_20
-#, fuzzy
 msgid "Manufacture of railway locomotives and rolling stock"
-msgstr "[30.2] Fabricación de locomotoras y material ferroviario"
+msgstr "Fabricación de locomotoras y material ferroviario"
 
 #. module: l10n_eu_nace
 #: model:res.partner.nace,name:l10n_eu_nace.nace_23_63
-#, fuzzy
 msgid "Manufacture of ready-mixed concrete"
-msgstr "[23.63] Fabricación de hormigón fresco"
+msgstr "Fabricación de hormigón premezclado"
 
 #. module: l10n_eu_nace
 #: model:res.partner.nace,name:l10n_eu_nace.nace_19_2
 #: model:res.partner.nace,name:l10n_eu_nace.nace_19_20
-#, fuzzy
 msgid "Manufacture of refined petroleum products"
-msgstr "[19.2] Refino de petróleo"
+msgstr "Fabricación de productos petrolíferos refinados"
 
 #. module: l10n_eu_nace
 #: model:res.partner.nace,name:l10n_eu_nace.nace_23_2
 #: model:res.partner.nace,name:l10n_eu_nace.nace_23_20
-#, fuzzy
 msgid "Manufacture of refractory products"
-msgstr "[23.2] Fabricación de productos cerámicos refractarios"
+msgstr "Fabricación de productos cerámicos refractarios"
 
 #. module: l10n_eu_nace
 #: model:res.partner.nace,name:l10n_eu_nace.nace_22
-#, fuzzy
 msgid "Manufacture of rubber and plastic products"
-msgstr "[22] Fabricación de productos de caucho y plásticos"
+msgstr "Fabricación de productos de caucho y plásticos"
 
 #. module: l10n_eu_nace
 #: model:res.partner.nace,name:l10n_eu_nace.nace_22_1
-#, fuzzy
 msgid "Manufacture of rubber products"
-msgstr "[22.1] Fabricación de productos de caucho"
+msgstr "Fabricación de productos de caucho"
 
 #. module: l10n_eu_nace
 #: model:res.partner.nace,name:l10n_eu_nace.nace_22_11
-#, fuzzy
 msgid ""
 "Manufacture of rubber tyres and tubes; retreading and rebuilding of rubber "
 "tyres"
 msgstr ""
-"[22.11] Fabricación de neumáticos y cámaras de caucho; reconstrucción y "
-"recauchutado de neumáticos"
+"Fabricación de neumáticos y cámaras de caucho; reconstrucción y recauchutado "
+"de neumáticos"
 
 #. module: l10n_eu_nace
 #: model:res.partner.nace,name:l10n_eu_nace.nace_10_72
-#, fuzzy
 msgid ""
 "Manufacture of rusks and biscuits; manufacture of preserved pastry goods and "
 "cakes"
 msgstr ""
-"[10.72] Fabricación de galletas y productos de panadería y pastelería de "
-"larga duración"
+"Fabricación de galletas y productos de panadería y pastelería de larga "
+"duración"
 
 #. module: l10n_eu_nace
 #: model:res.partner.nace,name:l10n_eu_nace.nace_20_41
-#, fuzzy
 msgid "Manufacture of soap and detergents, cleaning and polishing preparations"
 msgstr ""
-"[20.41] Fabricación de jabones, detergentes y otros artículos de limpieza y "
+"Fabricación de jabones, detergentes y otros artículos de limpieza y "
 "abrillantamiento"
 
 #. module: l10n_eu_nace
 #: model:res.partner.nace,name:l10n_eu_nace.nace_20_4
-#, fuzzy
 msgid ""
 "Manufacture of soap and detergents, cleaning and polishing preparations, "
 "perfumes and toilet preparations"
 msgstr ""
-"[20.4] Fabricación de jabones, detergentes y otros artículos de limpieza y "
+"Fabricación de jabones, detergentes y otros artículos de limpieza y "
 "abrillantamiento; fabricación de perfumes y cosméticos"
 
 #. module: l10n_eu_nace
 #: model:res.partner.nace,name:l10n_eu_nace.nace_11_07
-#, fuzzy
 msgid ""
 "Manufacture of soft drinks; production of mineral waters and other bottled "
 "waters"
 msgstr ""
-"[11.07] Fabricación de bebidas no alcohólicas; producción de aguas minerales "
-"y otras aguas embotelladas"
+"Fabricación de bebidas no alcohólicas; producción de aguas minerales y otras "
+"aguas embotelladas"
 
 #. module: l10n_eu_nace
 #: model:res.partner.nace,name:l10n_eu_nace.nace_32_3
 #: model:res.partner.nace,name:l10n_eu_nace.nace_32_30
-#, fuzzy
 msgid "Manufacture of sports goods"
-msgstr "[32.3] Fabricación de artículos de deporte"
+msgstr "Fabricación de artículos de deporte"
 
 #. module: l10n_eu_nace
 #: model:res.partner.nace,name:l10n_eu_nace.nace_10_62
-#, fuzzy
 msgid "Manufacture of starches and starch products"
-msgstr "[10.62] Fabricación de almidones y productos amiláceos"
+msgstr "Fabricación de almidones y productos amiláceos"
 
 #. module: l10n_eu_nace
 #: model:res.partner.nace,name:l10n_eu_nace.nace_25_3
 #: model:res.partner.nace,name:l10n_eu_nace.nace_25_30
-#, fuzzy
 msgid ""
 "Manufacture of steam generators, except central heating hot water boilers"
 msgstr ""
-"[25.3] Fabricación de generadores de vapor, excepto calderas para "
-"calefacción central"
+"Fabricación de generadores de vapor, excepto calderas para calefacción "
+"central"
 
 #. module: l10n_eu_nace
 #: model:res.partner.nace,name:l10n_eu_nace.nace_25_91
-#, fuzzy
 msgid "Manufacture of steel drums and similar containers"
-msgstr "[25.91] Fabricación de bidones y toneles de hierro o acero"
+msgstr "Fabricación de bidones y toneles de hierro o acero"
 
 #. module: l10n_eu_nace
 #: model:res.partner.nace,name:l10n_eu_nace.nace_25_1
-#, fuzzy
 msgid "Manufacture of structural metal products"
-msgstr "[25.1] Fabricación de elementos metálicos para la construcción"
+msgstr "Fabricación de elementos metálicos para la construcción"
 
 #. module: l10n_eu_nace
 #: model:res.partner.nace,name:l10n_eu_nace.nace_10_81
-#, fuzzy
 msgid "Manufacture of sugar"
-msgstr "[10.81] Fabricación de azúcar"
+msgstr "Fabricación de azúcar"
 
 #. module: l10n_eu_nace
 #: model:res.partner.nace,name:l10n_eu_nace.nace_20_17
-#, fuzzy
 msgid "Manufacture of synthetic rubber in primary forms"
-msgstr "[20.17] Fabricación de caucho sintético en formas primarias"
+msgstr "Fabricación de caucho sintético en formas primarias"
 
 #. module: l10n_eu_nace
 #: model:res.partner.nace,name:l10n_eu_nace.nace_25_2
-#, fuzzy
 msgid "Manufacture of tanks, reservoirs and containers of metal"
-msgstr ""
-"[25.2] Fabricación de cisternas, grandes depósitos y contenedores de metal"
+msgstr "Fabricación de cisternas, grandes depósitos y contenedores de metal"
 
 #. module: l10n_eu_nace
 #: model:res.partner.nace,name:l10n_eu_nace.nace_13
-#, fuzzy
 msgid "Manufacture of textiles"
-msgstr "[13] Industria textil"
+msgstr "Fabricación de textiles"
 
 #. module: l10n_eu_nace
 #: model:res.partner.nace,name:l10n_eu_nace.nace_12
 #: model:res.partner.nace,name:l10n_eu_nace.nace_12_0
 #: model:res.partner.nace,name:l10n_eu_nace.nace_12_00
-#, fuzzy
 msgid "Manufacture of tobacco products"
-msgstr "[12] Industria del tabaco"
+msgstr "Fabricación de productos del tabaco"
 
 #. module: l10n_eu_nace
 #: model:res.partner.nace,name:l10n_eu_nace.nace_25_73
-#, fuzzy
 msgid "Manufacture of tools"
-msgstr "[25.73] Fabricación de herramientas"
+msgstr "Fabricación de herramientas"
 
 #. module: l10n_eu_nace
 #: model:res.partner.nace,name:l10n_eu_nace.nace_30_9
-#, fuzzy
 msgid "Manufacture of transport equipment n.e.c."
-msgstr "[30.9] Fabricación de material de transporte n.c.o.p."
+msgstr "Fabricación de equipos de transporte n.e.c."
 
 #. module: l10n_eu_nace
 #: model:res.partner.nace,name:l10n_eu_nace.nace_24_2
 #: model:res.partner.nace,name:l10n_eu_nace.nace_24_20
-#, fuzzy
 msgid ""
 "Manufacture of tubes, pipes, hollow profiles and related fittings, of steel"
 msgstr ""
-"[24.2] Fabricación de tubos, tuberías, perfiles huecos y sus accesorios, de "
-"acero"
+"Fabricación de tubos, tuberías, perfiles huecos y sus accesorios, de acero"
 
 #. module: l10n_eu_nace
 #: model:res.partner.nace,name:l10n_eu_nace.nace_14_14
-#, fuzzy
 msgid "Manufacture of underwear"
-msgstr "[14.14] Confección de ropa interior"
+msgstr "Confección de ropa interior"
 
 #. module: l10n_eu_nace
 #: model:res.partner.nace,name:l10n_eu_nace.nace_10_4
-#, fuzzy
 msgid "Manufacture of vegetable and animal oils and fats"
-msgstr "[10.4] Fabricación de aceites y grasas vegetales y animales"
+msgstr "Fabricación de aceites y grasas vegetales y animales"
 
 #. module: l10n_eu_nace
 #: model:res.partner.nace,name:l10n_eu_nace.nace_16_21
-#, fuzzy
 msgid "Manufacture of veneer sheets and wood-based panels"
-msgstr "[16.21] Fabricación de chapas y tableros de madera"
+msgstr "Fabricación de chapas y tableros de madera"
 
 #. module: l10n_eu_nace
 #: model:res.partner.nace,name:l10n_eu_nace.nace_17_24
-#, fuzzy
 msgid "Manufacture of wallpaper"
-msgstr "[17.24] Fabricación de papeles pintados"
+msgstr "Fabricación de papeles pintados"
 
 #. module: l10n_eu_nace
 #: model:res.partner.nace,name:l10n_eu_nace.nace_26_52
-#, fuzzy
 msgid "Manufacture of watches and clocks"
-msgstr "[26.52] Fabricación de relojes"
+msgstr "Fabricación de relojes"
 
 #. module: l10n_eu_nace
 #: model:res.partner.nace,name:l10n_eu_nace.nace_25_4
 #: model:res.partner.nace,name:l10n_eu_nace.nace_25_40
-#, fuzzy
 msgid "Manufacture of weapons and ammunition"
-msgstr "[25.4] Fabricación de armas y municiones"
+msgstr "Fabricación de armas y municiones"
 
 #. module: l10n_eu_nace
 #: model:res.partner.nace,name:l10n_eu_nace.nace_14
-#, fuzzy
 msgid "Manufacture of wearing apparel"
-msgstr "[14] Confección de prendas de vestir"
+msgstr "Confección de prendas de vestir"
 
 #. module: l10n_eu_nace
 #: model:res.partner.nace,name:l10n_eu_nace.nace_14_1
-#, fuzzy
 msgid "Manufacture of wearing apparel, except fur apparel"
-msgstr "[14.1] Confección de prendas de vestir, excepto de peletería"
+msgstr "Confección de prendas de vestir, excepto de peletería"
 
 #. module: l10n_eu_nace
 #: model:res.partner.nace,name:l10n_eu_nace.nace_11_02
-#, fuzzy
 msgid "Manufacture of wine from grape"
-msgstr "[11.02] Elaboración de vinos"
+msgstr "Elaboración de vinos desde la uva"
 
 #. module: l10n_eu_nace
 #: model:res.partner.nace,name:l10n_eu_nace.nace_25_93
-#, fuzzy
 msgid "Manufacture of wire products, chain and springs"
-msgstr "[25.93] Fabricación de productos de alambre, cadenas y muelles"
+msgstr "Fabricación de productos de alambre, cadenas y muelles"
 
 #. module: l10n_eu_nace
 #: model:res.partner.nace,name:l10n_eu_nace.nace_27_3
-#, fuzzy
 msgid "Manufacture of wiring and wiring devices"
-msgstr "[27.3] Fabricación de cables y dispositivos de cableado"
+msgstr "Fabricación de cables y dispositivos de cableado"
 
 #. module: l10n_eu_nace
 #: model:res.partner.nace,name:l10n_eu_nace.nace_27_33
-#, fuzzy
 msgid "Manufacture of wiring devices"
-msgstr "[27.33] Fabricación de dispositivos de cableado"
+msgstr "Fabricación de dispositivos de cableado"
 
 #. module: l10n_eu_nace
 #: model:res.partner.nace,name:l10n_eu_nace.nace_16
-#, fuzzy
 msgid ""
 "Manufacture of wood and of products of wood and cork, except furniture; "
 "manufacture of articles of straw and plaiting materials"
 msgstr ""
-"[16] Industria de la madera y del corcho, excepto muebles; cestería y "
-"espartería"
+"Industria de la madera y del corcho, excepto muebles; cestería y espartería"
 
 #. module: l10n_eu_nace
 #: model:res.partner.nace,name:l10n_eu_nace.nace_16_24
-#, fuzzy
 msgid "Manufacture of wooden containers"
-msgstr "[16.24] Fabricación de envases y embalajes de madera"
+msgstr "Fabricación de envases y embalajes de madera"
 
 #. module: l10n_eu_nace
 #: model:res.partner.nace,name:l10n_eu_nace.nace_14_12
-#, fuzzy
 msgid "Manufacture of workwear"
-msgstr "[14.12] Confección de ropa de trabajo"
+msgstr "Confección de ropa de trabajo"
 
 #. module: l10n_eu_nace
 #: model:res.partner.nace,name:l10n_eu_nace.nace_32_9
-#, fuzzy
 msgid "Manufacturing n.e.c."
-msgstr "[32.9] Industrias manufactureras n.c.o.p."
+msgstr "Industrias manufactureras n.c.o.p."
 
 #. module: l10n_eu_nace
 #: model:res.partner.nace,name:l10n_eu_nace.nace_03_21
-#, fuzzy
 msgid "Marine aquaculture"
-msgstr "[03.21] Acuicultura marina"
+msgstr "Acuicultura marina"
 
 #. module: l10n_eu_nace
 #: model:res.partner.nace,name:l10n_eu_nace.nace_03_11
-#, fuzzy
 msgid "Marine fishing"
-msgstr "[03.11] Pesca marina"
+msgstr "Pesca marina"
 
 #. module: l10n_eu_nace
 #: model:res.partner.nace,name:l10n_eu_nace.nace_73_2
 #: model:res.partner.nace,name:l10n_eu_nace.nace_73_20
-#, fuzzy
 msgid "Market research and public opinion polling"
-msgstr ""
-"[73.2] Estudios de mercado y realización de encuestas de opinión pública"
+msgstr "Estudios de mercado y realización de encuestas de opinión pública"
 
 #. module: l10n_eu_nace
 #: model:res.partner.nace,name:l10n_eu_nace.nace_38_3
-#, fuzzy
 msgid "Materials recovery"
-msgstr "[38.3] Valorización"
+msgstr "Recuperación de materiales"
 
 #. module: l10n_eu_nace
 #: model:res.partner.nace,name:l10n_eu_nace.nace_73_12
-#, fuzzy
 msgid "Media representation"
-msgstr "[73.12] Servicios de representación de medios de comunicación"
+msgstr "Representación de medios de comunicación"
 
 #. module: l10n_eu_nace
 #: model:res.partner.nace,name:l10n_eu_nace.nace_86_2
-#, fuzzy
 msgid "Medical and dental practice activities"
-msgstr "[86.2] Actividades médicas y odontológicas"
+msgstr "Actividades médicas y odontológicas"
 
 #. module: l10n_eu_nace
 #: model:res.partner.nace,name:l10n_eu_nace.nace_08_9
-#, fuzzy
 msgid "Mining and quarrying n.e.c."
-msgstr "[08.9] Industrias extractivas n.c.o.p."
+msgstr "Explotación de minas y canteras n.c.o.p."
 
 #. module: l10n_eu_nace
 #: model:res.partner.nace,name:l10n_eu_nace.nace_08_91
-#, fuzzy
 msgid "Mining of chemical and fertiliser minerals"
-msgstr ""
-"[08.91] Extracción de minerales para productos químicos y fertilizantes"
+msgstr "Extracción de minerales para productos químicos y fertilizantes"
 
 #. module: l10n_eu_nace
 #: model:res.partner.nace,name:l10n_eu_nace.nace_05
-#, fuzzy
 msgid "Mining of coal and lignite"
-msgstr "[05] Extracción de antracita, hulla y lignito"
+msgstr "Extracción de antracita, hulla y lignito"
 
 #. module: l10n_eu_nace
 #: model:res.partner.nace,name:l10n_eu_nace.nace_05_1
 #: model:res.partner.nace,name:l10n_eu_nace.nace_05_10
-#, fuzzy
 msgid "Mining of hard coal"
-msgstr "[05.1] Extracción de antracita y hulla"
+msgstr "Extracción de antracita y hulla"
 
 #. module: l10n_eu_nace
 #: model:res.partner.nace,name:l10n_eu_nace.nace_07_1
 #: model:res.partner.nace,name:l10n_eu_nace.nace_07_10
-#, fuzzy
 msgid "Mining of iron ores"
-msgstr "[07.1] Extracción de minerales de hierro"
+msgstr "Extracción de minerales de hierro"
 
 #. module: l10n_eu_nace
 #: model:res.partner.nace,name:l10n_eu_nace.nace_05_2
 #: model:res.partner.nace,name:l10n_eu_nace.nace_05_20
-#, fuzzy
 msgid "Mining of lignite"
-msgstr "[05.2] Extracción de lignito"
+msgstr "Extracción de lignito"
 
 #. module: l10n_eu_nace
 #: model:res.partner.nace,name:l10n_eu_nace.nace_07
-#, fuzzy
 msgid "Mining of metal ores"
-msgstr "[07] Extracción de minerales metálicos"
+msgstr "Extracción de minerales metálicos"
 
 #. module: l10n_eu_nace
 #: model:res.partner.nace,name:l10n_eu_nace.nace_07_2
-#, fuzzy
 msgid "Mining of non-ferrous metal ores"
-msgstr "[07.2] Extracción de minerales metálicos no férreos"
+msgstr "Extracción de minerales metálicos no férreos"
 
 #. module: l10n_eu_nace
 #: model:res.partner.nace,name:l10n_eu_nace.nace_07_29
-#, fuzzy
 msgid "Mining of other non-ferrous metal ores"
-msgstr "[07.29] Extracción de otros minerales metálicos no férreos"
+msgstr "Extracción de otros minerales metálicos no férreos"
 
 #. module: l10n_eu_nace
 #: model:res.partner.nace,name:l10n_eu_nace.nace_07_21
-#, fuzzy
 msgid "Mining of uranium and thorium ores"
-msgstr "[07.21] Extracción de minerales de uranio y torio"
+msgstr "Extracción de minerales de uranio y torio"
 
 #. module: l10n_eu_nace
 #: model:res.partner.nace,name:l10n_eu_nace.nace_09
-#, fuzzy
 msgid "Mining support service activities"
-msgstr "[09] Actividades de apoyo a las industrias extractivas"
+msgstr "Actividades de apoyo a las industrias extractivas"
 
 #. module: l10n_eu_nace
 #: model:res.partner.nace,name:l10n_eu_nace.nace_01_5
 #: model:res.partner.nace,name:l10n_eu_nace.nace_01_50
-#, fuzzy
 msgid "Mixed farming"
-msgstr "[01.5] Producción agrícola combinada con la producción ganadera"
+msgstr "Agricultura mixta"
 
 #. module: l10n_eu_nace
 #: model:res.partner.nace,name:l10n_eu_nace.nace_64_1
-#, fuzzy
 msgid "Monetary intermediation"
-msgstr "[64.1] Intermediación monetaria"
+msgstr "Intermediación monetaria"
 
 #. module: l10n_eu_nace
 #: model:res.partner.nace,name:l10n_eu_nace.nace_59_14
-#, fuzzy
 msgid "Motion picture projection activities"
-msgstr "[59.14] Actividades de exhibición cinematográfica"
+msgstr "Actividades de proyección cinematográfica"
 
 #. module: l10n_eu_nace
 #: model:res.partner.nace,name:l10n_eu_nace.nace_59_1
-#, fuzzy
 msgid "Motion picture, video and television programme activities"
-msgstr ""
-"[59.1] Actividades cinematográficas, de vídeo y de programas de televisión"
+msgstr "Actividades cinematográficas, de vídeo y de programas de televisión"
 
 #. module: l10n_eu_nace
 #: model:res.partner.nace,name:l10n_eu_nace.nace_59_13
-#, fuzzy
 msgid "Motion picture, video and television programme distribution activities"
 msgstr ""
-"[59.13] Actividades de distribución cinematográfica, de vídeo y de programas "
-"de televisión"
+"Actividades de distribución de películas de cine, vídeo y programas de "
+"televisión"
 
 #. module: l10n_eu_nace
 #: model:res.partner.nace,name:l10n_eu_nace.nace_59_12
-#, fuzzy
 msgid ""
 "Motion picture, video and television programme post-production activities"
 msgstr ""
-"[59.12] Actividades de postproducción cinematográfica, de vídeo y de "
-"programas de televisión"
+"Actividades de postproducción cinematográfica, de vídeo y de programas de "
+"televisión"
 
 #. module: l10n_eu_nace
 #: model:res.partner.nace,name:l10n_eu_nace.nace_59_11
-#, fuzzy
 msgid "Motion picture, video and television programme production activities"
 msgstr ""
-"[59.11] Actividades de producción cinematográficas, de vídeo y de programas "
-"de televisión"
+"Actividades de producción cinematográficas, de vídeo y de programas de "
+"televisión"
 
 #. module: l10n_eu_nace
 #: model:res.partner.nace,name:l10n_eu_nace.nace_59
-#, fuzzy
 msgid ""
 "Motion picture, video and television programme production, sound recording "
 "and music publishing activities"
 msgstr ""
-"[59] Actividades cinematográficas, de vídeo y de programas de televisión, "
+"Actividades cinematográficas, de vídeo y de programas de televisión, "
 "grabación de sonido y edición musical"
 
 #. module: l10n_eu_nace
 #: model:res.partner.nace,name:l10n_eu_nace.nace_91_02
-#, fuzzy
 msgid "Museums activities"
-msgstr "[91.02] Actividades de museos"
+msgstr "Actividades de museos"
 
 #. module: l10n_eu_nace
 #: model:ir.actions.act_window,name:l10n_eu_nace.res_partner_nace_act_window
 #: model:ir.ui.menu,name:l10n_eu_nace.res_partner_nace_menu
 #: model:res.partner.nace,name:l10n_eu_nace.nace_root
 msgid "NACE"
-msgstr ""
+msgstr "NACE"
 
 #. module: l10n_eu_nace
 #: model:ir.model.constraint,message:l10n_eu_nace.constraint_res_partner_nace_ref_code
 msgid "NACE Code must be unique!"
-msgstr ""
+msgstr "¡El código NACE debe ser único!"
 
 #. module: l10n_eu_nace
 #: model:ir.model.fields,field_description:l10n_eu_nace.field_res_partner_nace__child_ids
 msgid "NACE subcategories"
-msgstr ""
+msgstr "Subcategorías NACE"
 
 #. module: l10n_eu_nace
 #: model:ir.model.fields,field_description:l10n_eu_nace.field_res_partner_nace__name
 msgid "Name"
-msgstr ""
+msgstr "Nombre"
 
 #. module: l10n_eu_nace
 #: model:res.partner.nace,name:l10n_eu_nace.nace_63_91
-#, fuzzy
 msgid "News agency activities"
-msgstr "[63.91] Actividades de las agencias de noticias"
+msgstr "Actividades de las agencias de noticias"
 
 #. module: l10n_eu_nace
 #: model:res.partner.nace,name:l10n_eu_nace.nace_65_12
-#, fuzzy
 msgid "Non-life insurance"
-msgstr "[65.12] Seguros distintos de los seguros de vida"
+msgstr "Seguros distintos de los seguros de vida"
 
 #. module: l10n_eu_nace
 #: model:res.partner.nace,name:l10n_eu_nace.nace_46_39
-#, fuzzy
 msgid "Non-specialised wholesale of food, beverages and tobacco"
 msgstr ""
-"[46.39] Comercio al por mayor, no especializado, de productos alimenticios, "
-"bebidas y tabaco"
+"Comercio al por mayor, no especializado, de productos alimenticios, bebidas "
+"y tabaco"
 
 #. module: l10n_eu_nace
 #: model:res.partner.nace,name:l10n_eu_nace.nace_46_9
 #: model:res.partner.nace,name:l10n_eu_nace.nace_46_90
-#, fuzzy
 msgid "Non-specialised wholesale trade"
-msgstr "[46.9] Comercio al por mayor no especializado"
+msgstr "Comercio al por mayor no especializado"
 
 #. module: l10n_eu_nace
 #: model:res.partner.nace,name:l10n_eu_nace.nace_S
-#, fuzzy
 msgid "OTHER SERVICE ACTIVITIES"
-msgstr "[S] OTROS SERVICIOS"
+msgstr "OTRAS ACTIVIDADES DE SERVICIOS"
 
 #. module: l10n_eu_nace
 #: model:res.partner.nace,name:l10n_eu_nace.nace_82_1
-#, fuzzy
 msgid "Office administrative and support activities"
-msgstr "[82.1] Actividades administrativas y auxiliares de oficina"
+msgstr "Actividades administrativas y de apoyo de oficina"
 
 #. module: l10n_eu_nace
 #: model:res.partner.nace,name:l10n_eu_nace.nace_82
-#, fuzzy
 msgid ""
 "Office administrative, office support and other business support activities"
 msgstr ""
-"[82] Actividades administrativas de oficina y otras actividades auxiliares a "
-"las empresas"
+"Actividades administrativas de oficina y otras actividades auxiliares a las "
+"empresas"
 
 #. module: l10n_eu_nace
 #: model:res.partner.nace,name:l10n_eu_nace.nace_90_04
-#, fuzzy
 msgid "Operation of arts facilities"
-msgstr "[90.04] Gestión de salas de espectáculos"
+msgstr "Explotación de instalaciones artísticas"
 
 #. module: l10n_eu_nace
 #: model:res.partner.nace,name:l10n_eu_nace.nace_10_51
-#, fuzzy
 msgid "Operation of dairies and cheese making"
-msgstr "[10.51] Preparación de leche y fabricación de sus derivados"
+msgstr "Preparación de leche y fabricación de sus derivados"
 
 #. module: l10n_eu_nace
 #: model:res.partner.nace,name:l10n_eu_nace.nace_08_12
-#, fuzzy
 msgid "Operation of gravel and sand pits; mining of clays and kaolin"
-msgstr "[08.12] Extracción de gravas y arenas; extracción de arcilla y caolín"
+msgstr "Explotación de graveras y areneras; extracción de arcillas y caolín"
 
 #. module: l10n_eu_nace
 #: model:res.partner.nace,name:l10n_eu_nace.nace_91_03
-#, fuzzy
 msgid ""
 "Operation of historical sites and buildings and similar visitor attractions"
-msgstr "[91.03] Gestión de lugares y edificios históricos"
+msgstr ""
+"Explotación de lugares y edificios históricos y atracciones turísticas "
+"similares"
 
 #. module: l10n_eu_nace
 #: model:res.partner.nace,name:l10n_eu_nace.nace_93_11
-#, fuzzy
 msgid "Operation of sports facilities"
-msgstr "[93.11] Gestión de instalaciones deportivas"
+msgstr "Explotación de instalaciones deportivas"
 
 #. module: l10n_eu_nace
 #: model:res.partner.nace,name:l10n_eu_nace.nace_82_3
 #: model:res.partner.nace,name:l10n_eu_nace.nace_82_30
-#, fuzzy
 msgid "Organisation of conventions and trade shows"
-msgstr "[82.3] Organización de convenciones y ferias de muestras"
+msgstr "Organización de convenciones y ferias de muestras"
 
 #. module: l10n_eu_nace
 #: model:res.partner.nace,name:l10n_eu_nace.nace_55_9
 #: model:res.partner.nace,name:l10n_eu_nace.nace_55_90
-#, fuzzy
 msgid "Other accommodation"
-msgstr "[55.9] Otros alojamientos"
+msgstr "Otros alojamientos"
 
 #. module: l10n_eu_nace
 #: model:res.partner.nace,name:l10n_eu_nace.nace_66_19
-#, fuzzy
 msgid ""
 "Other activities auxiliary to financial services, except insurance and "
 "pension funding"
 msgstr ""
-"[66.19] Otras actividades auxiliares a los servicios financieros, excepto "
-"seguros y fondos de pensiones"
+"Otras actividades auxiliares a los servicios financieros, excepto seguros y "
+"fondos de pensiones"
 
 #. module: l10n_eu_nace
 #: model:res.partner.nace,name:l10n_eu_nace.nace_66_29
-#, fuzzy
 msgid "Other activities auxiliary to insurance and pension funding"
-msgstr "[66.29] Otras actividades auxiliares a seguros y fondos de pensiones"
+msgstr "Otras actividades auxiliares a seguros y fondos de pensiones"
 
 #. module: l10n_eu_nace
 #: model:res.partner.nace,name:l10n_eu_nace.nace_93_29
-#, fuzzy
 msgid "Other amusement and recreation activities"
-msgstr "[93.29] Otras actividades recreativas y de entretenimiento"
+msgstr "Otras actividades recreativas y de entretenimiento"
 
 #. module: l10n_eu_nace
 #: model:res.partner.nace,name:l10n_eu_nace.nace_81_22
-#, fuzzy
 msgid "Other building and industrial cleaning activities"
-msgstr "[81.22] Otras actividades de limpieza industrial y de edificios"
+msgstr "Otras actividades de limpieza industrial y de edificios"
 
 #. module: l10n_eu_nace
 #: model:res.partner.nace,name:l10n_eu_nace.nace_43_39
-#, fuzzy
 msgid "Other building completion and finishing"
-msgstr "[43.39] Otro acabado de edificios"
+msgstr "Otra terminación y acabado de edificios"
 
 #. module: l10n_eu_nace
 #: model:res.partner.nace,name:l10n_eu_nace.nace_82_99
-#, fuzzy
 msgid "Other business support service activities n.e.c."
-msgstr "[82.99] Otras actividades de apoyo a las empresas n.c.o.p."
+msgstr "Otras actividades de apoyo a las empresas n.c.o.p."
 
 #. module: l10n_eu_nace
 #: model:res.partner.nace,name:l10n_eu_nace.nace_81_29
-#, fuzzy
 msgid "Other cleaning activities"
-msgstr "[81.29] Otras actividades de limpieza"
+msgstr "Otras actividades de limpieza"
 
 #. module: l10n_eu_nace
 #: model:res.partner.nace,name:l10n_eu_nace.nace_43_29
-#, fuzzy
 msgid "Other construction installation"
-msgstr "[43.29] Otras instalaciones en obras de construcción"
+msgstr "Otras instalaciones en obras de construcción"
 
 #. module: l10n_eu_nace
 #: model:res.partner.nace,name:l10n_eu_nace.nace_64_92
-#, fuzzy
 msgid "Other credit granting"
-msgstr "[64.92] Otras actividades crediticias"
+msgstr "Otras actividades crediticias"
 
 #. module: l10n_eu_nace
 #: model:res.partner.nace,name:l10n_eu_nace.nace_85_5
-#, fuzzy
 msgid "Other education"
-msgstr "[85.5] Otra educación"
+msgstr "Otra educación"
 
 #. module: l10n_eu_nace
 #: model:res.partner.nace,name:l10n_eu_nace.nace_85_59
-#, fuzzy
 msgid "Other education n.e.c."
-msgstr "[85.59] Otra educación n.c.o.p."
+msgstr "Otra educación n.c.o.p."
 
 #. module: l10n_eu_nace
 #: model:res.partner.nace,name:l10n_eu_nace.nace_64_9
-#, fuzzy
 msgid ""
 "Other financial service activities, except insurance and pension funding"
-msgstr ""
-"[64.9] Otros servicios financieros, excepto seguros y fondos de pensiones"
+msgstr "Otros servicios financieros, excepto seguros y fondos de pensiones"
 
 #. module: l10n_eu_nace
 #: model:res.partner.nace,name:l10n_eu_nace.nace_64_99
-#, fuzzy
 msgid ""
 "Other financial service activities, except insurance and pension funding n.e."
 "c."
 msgstr ""
-"[64.99] Otros servicios financieros, excepto seguros y fondos de pensiones n."
-"c.o.p."
+"Otras actividades de servicios financieros, excepto seguros y fondos de "
+"pensiones n.c.o.p."
 
 #. module: l10n_eu_nace
 #: model:res.partner.nace,name:l10n_eu_nace.nace_56_29
-#, fuzzy
 msgid "Other food service activities"
-msgstr "[56.29] Otros servicios de comidas"
+msgstr "Otras actividades alimentarias"
 
 #. module: l10n_eu_nace
 #: model:res.partner.nace,name:l10n_eu_nace.nace_86_9
 #: model:res.partner.nace,name:l10n_eu_nace.nace_86_90
-#, fuzzy
 msgid "Other human health activities"
-msgstr "[86.9] Otras actividades sanitarias"
+msgstr "Otras actividades de salud humana"
 
 #. module: l10n_eu_nace
 #: model:res.partner.nace,name:l10n_eu_nace.nace_78_3
 #: model:res.partner.nace,name:l10n_eu_nace.nace_78_30
-#, fuzzy
 msgid "Other human resources provision"
-msgstr "[78.3] Otra provisión de recursos humanos"
+msgstr "Otra provisión de recursos humanos"
 
 #. module: l10n_eu_nace
 #: model:res.partner.nace,name:l10n_eu_nace.nace_63_9
-#, fuzzy
 msgid "Other information service activities"
-msgstr "[63.9] Otros servicios de información"
+msgstr "Otras actividades de los servicios de información"
 
 #. module: l10n_eu_nace
 #: model:res.partner.nace,name:l10n_eu_nace.nace_63_99
-#, fuzzy
 msgid "Other information service activities n.e.c."
-msgstr "[63.99] Otros servicios de información n.c.o.p."
+msgstr "Otras actividades de los servicios de información n.e.c."
 
 #. module: l10n_eu_nace
 #: model:res.partner.nace,name:l10n_eu_nace.nace_62_09
-#, fuzzy
 msgid "Other information technology and computer service activities"
 msgstr ""
-"[62.09] Otros servicios relacionados con las tecnologías de la información y "
-"la informática"
+"Otros servicios relacionados con las tecnologías de la información y la "
+"informática"
 
 #. module: l10n_eu_nace
 #: model:res.partner.nace,name:l10n_eu_nace.nace_32
-#, fuzzy
 msgid "Other manufacturing"
-msgstr "[32] Otras industrias manufactureras"
+msgstr "Otras industrias manufactureras"
 
 #. module: l10n_eu_nace
 #: model:res.partner.nace,name:l10n_eu_nace.nace_32_99
-#, fuzzy
 msgid "Other manufacturing n.e.c. "
-msgstr "[32.99] Otras industrias manufactureras n.c.o.p."
+msgstr "Otras industrias manufactureras n.c.o.p. "
 
 #. module: l10n_eu_nace
 #: model:res.partner.nace,name:l10n_eu_nace.nace_08
-#, fuzzy
 msgid "Other mining and quarrying"
-msgstr "[08] Otras industrias extractivas"
+msgstr "Otras explotaciones mineras y canteras"
 
 #. module: l10n_eu_nace
 #: model:res.partner.nace,name:l10n_eu_nace.nace_08_99
-#, fuzzy
 msgid "Other mining and quarrying n.e.c."
-msgstr "[08.99] Otras industrias extractivas n.c.o.p."
+msgstr "Otras explotaciones mineras y canteras n.e.c."
 
 #. module: l10n_eu_nace
 #: model:res.partner.nace,name:l10n_eu_nace.nace_64_19
-#, fuzzy
 msgid "Other monetary intermediation"
-msgstr "[64.19] Otra intermediación monetaria"
+msgstr "Otra intermediación monetaria"
 
 #. module: l10n_eu_nace
 #: model:res.partner.nace,name:l10n_eu_nace.nace_24_45
-#, fuzzy
 msgid "Other non-ferrous metal production"
-msgstr "[24.45] Producción de otros metales no férreos"
+msgstr "Producción de otros metales no férreos"
 
 #. module: l10n_eu_nace
 #: model:res.partner.nace,name:l10n_eu_nace.nace_49_3
-#, fuzzy
 msgid "Other passenger land transport "
-msgstr "[49.3] Otro transporte terrestre de pasajeros"
+msgstr "Otro transporte terrestre de pasajeros "
 
 #. module: l10n_eu_nace
 #: model:res.partner.nace,name:l10n_eu_nace.nace_49_39
-#, fuzzy
 msgid "Other passenger land transport n.e.c."
-msgstr "[49.39] Otros tipos de transporte terrestre de pasajeros n.c.o.p."
+msgstr "Otros tipos de transporte terrestre de pasajeros n.c.o.p."
 
 #. module: l10n_eu_nace
 #: model:res.partner.nace,name:l10n_eu_nace.nace_96
 #: model:res.partner.nace,name:l10n_eu_nace.nace_96_0
-#, fuzzy
 msgid "Other personal service activities"
-msgstr "[96] Otros servicios personales"
+msgstr "Otras actividades de servicios personales"
 
 #. module: l10n_eu_nace
 #: model:res.partner.nace,name:l10n_eu_nace.nace_96_09
-#, fuzzy
 msgid "Other personal service activities n.e.c."
-msgstr "[96.09] Otros servicios personales n.c.o.p."
+msgstr "Otras actividades de servicios personales n.e.c."
 
 #. module: l10n_eu_nace
 #: model:res.partner.nace,name:l10n_eu_nace.nace_53_2
 #: model:res.partner.nace,name:l10n_eu_nace.nace_53_20
-#, fuzzy
 msgid "Other postal and courier activities"
-msgstr "[53.2] Otras actividades postales y de correos"
+msgstr "Otras actividades postales y de correos"
 
 #. module: l10n_eu_nace
 #: model:res.partner.nace,name:l10n_eu_nace.nace_18_12
-#, fuzzy
 msgid "Other printing"
-msgstr "[18.12] Otras actividades de impresión y artes gráficas"
+msgstr "Otras actividades de impresión"
 
 #. module: l10n_eu_nace
 #: model:res.partner.nace,name:l10n_eu_nace.nace_10_39
-#, fuzzy
 msgid "Other processing and preserving of fruit and vegetables"
-msgstr "[10.39] Otro procesado y conservación de frutas y hortalizas"
+msgstr "Otro procesado y conservación de frutas y hortalizas"
 
 #. module: l10n_eu_nace
 #: model:res.partner.nace,name:l10n_eu_nace.nace_74
-#, fuzzy
 msgid "Other professional, scientific and technical activities"
-msgstr "[74] Otras actividades profesionales, científicas y técnicas"
+msgstr "Otras actividades profesionales, científicas y técnicas"
 
 #. module: l10n_eu_nace
 #: model:res.partner.nace,name:l10n_eu_nace.nace_74_9
 #: model:res.partner.nace,name:l10n_eu_nace.nace_74_90
-#, fuzzy
 msgid "Other professional, scientific and technical activities n.e.c."
-msgstr ""
-"[74.9] Otras actividades profesionales, científicas y técnicas n.c.o.p."
+msgstr "Otras actividades profesionales, científicas y técnicas n.c.o.p."
 
 #. module: l10n_eu_nace
 #: model:res.partner.nace,name:l10n_eu_nace.nace_58_19
-#, fuzzy
 msgid "Other publishing activities"
-msgstr "[58.19] Otras actividades editoriales"
+msgstr "Otras actividades editoriales"
 
 #. module: l10n_eu_nace
 #: model:res.partner.nace,name:l10n_eu_nace.nace_72_19
-#, fuzzy
 msgid ""
 "Other research and experimental development on natural sciences and "
 "engineering"
 msgstr ""
-"[72.19] Otra investigación y desarrollo experimental en ciencias naturales y "
-"técnicas"
+"Otra investigación y desarrollo experimental en ciencias naturales e "
+"ingeniería"
 
 #. module: l10n_eu_nace
 #: model:res.partner.nace,name:l10n_eu_nace.nace_79_9
 #: model:res.partner.nace,name:l10n_eu_nace.nace_79_90
-#, fuzzy
 msgid "Other reservation service and related activities"
-msgstr ""
-"[79.9] Otros servicios de reservas y actividades relacionadas con los mismos"
+msgstr "Otros servicios de reservas y actividades relacionadas con los mismos"
 
 #. module: l10n_eu_nace
 #: model:res.partner.nace,name:l10n_eu_nace.nace_87_9
 #: model:res.partner.nace,name:l10n_eu_nace.nace_87_90
-#, fuzzy
 msgid "Other residential care activities"
-msgstr ""
-"[87.9] Otras actividades de asistencia en establecimientos residenciales"
+msgstr "Otras actividades de asistencia en establecimientos residenciales"
 
 #. module: l10n_eu_nace
 #: model:res.partner.nace,name:l10n_eu_nace.nace_47_19
-#, fuzzy
 msgid "Other retail sale in non-specialised stores"
-msgstr ""
-"[47.19] Otro comercio al por menor en establecimientos no especializados"
+msgstr "Otro comercio al por menor en establecimientos no especializados"
 
 #. module: l10n_eu_nace
 #: model:res.partner.nace,name:l10n_eu_nace.nace_47_99
-#, fuzzy
 msgid "Other retail sale not in stores, stalls or markets"
 msgstr ""
-"[47.99] Otro comercio al por menor no realizado ni en establecimientos, ni "
-"en puestos de venta ni en mercadillos"
+"Otro comercio al por menor no realizado ni en establecimientos, ni en "
+"puestos de venta ni en mercadillos"
 
 #. module: l10n_eu_nace
 #: model:res.partner.nace,name:l10n_eu_nace.nace_47_29
-#, fuzzy
 msgid "Other retail sale of food in specialised stores"
 msgstr ""
-"[47.29] Otro comercio al por menor de productos alimenticios en "
-"establecimientos especializados"
+"Otro comercio al por menor de productos alimenticios en establecimientos "
+"especializados"
 
 #. module: l10n_eu_nace
 #: model:res.partner.nace,name:l10n_eu_nace.nace_47_78
-#, fuzzy
 msgid "Other retail sale of new goods in specialised stores"
 msgstr ""
-"[47.78] Otro comercio al por menor de artículos nuevos en establecimientos "
+"Otro comercio al por menor de artículos nuevos en establecimientos "
 "especializados"
 
 #. module: l10n_eu_nace
 #: model:res.partner.nace,name:l10n_eu_nace.nace_88_9
-#, fuzzy
 msgid "Other social work activities without accommodation"
-msgstr "[88.9] Otros actividades de servicios sociales sin alojamiento"
+msgstr "Otros actividades de servicios sociales sin alojamiento"
 
 #. module: l10n_eu_nace
 #: model:res.partner.nace,name:l10n_eu_nace.nace_88_99
-#, fuzzy
 msgid "Other social work activities without accommodation n.e.c."
-msgstr ""
-"[88.99] Otros actividades de servicios sociales sin alojamiento n.c.o.p."
+msgstr "Otras actividades de servicios sociales sin alojamiento n.c.o.p."
 
 #. module: l10n_eu_nace
 #: model:res.partner.nace,name:l10n_eu_nace.nace_58_29
-#, fuzzy
 msgid "Other software publishing"
-msgstr "[58.29] Edición de otros programas informáticos"
+msgstr "Edición de otros programas informáticos"
 
 #. module: l10n_eu_nace
 #: model:res.partner.nace,name:l10n_eu_nace.nace_43_9
-#, fuzzy
 msgid "Other specialised construction activities"
-msgstr "[43.9] Otras actividades de construcción especializada"
+msgstr "Otras actividades de construcción especializada"
 
 #. module: l10n_eu_nace
 #: model:res.partner.nace,name:l10n_eu_nace.nace_43_99
-#, fuzzy
 msgid "Other specialised construction activities n.e.c."
-msgstr "[43.99] Otras actividades de construcción especializada n.c.o.p."
+msgstr "Otras actividades de construcción especializada n.c.o.p."
 
 #. module: l10n_eu_nace
 #: model:res.partner.nace,name:l10n_eu_nace.nace_46_7
-#, fuzzy
 msgid "Other specialised wholesale"
-msgstr "[46.7] Otro comercio al por mayor especializado"
+msgstr "Otro comercio al por mayor especializado"
 
 #. module: l10n_eu_nace
 #: model:res.partner.nace,name:l10n_eu_nace.nace_93_19
-#, fuzzy
 msgid "Other sports activities"
-msgstr "[93.19] Otras actividades deportivas"
+msgstr "Otras actividades deportivas"
 
 #. module: l10n_eu_nace
 #: model:res.partner.nace,name:l10n_eu_nace.nace_61_9
 #: model:res.partner.nace,name:l10n_eu_nace.nace_61_90
-#, fuzzy
 msgid "Other telecommunications activities"
-msgstr "[61.9] Otras actividades de telecomunicaciones"
+msgstr "Otras actividades de telecomunicaciones"
 
 #. module: l10n_eu_nace
 #: model:res.partner.nace,name:l10n_eu_nace.nace_52_29
-#, fuzzy
 msgid "Other transportation support activities "
-msgstr "[52.29] Otras actividades anexas al transporte"
+msgstr "Otras actividades anexas al transporte "
 
 #. module: l10n_eu_nace
 #: model:res.partner.nace,name:l10n_eu_nace.nace_M
-#, fuzzy
 msgid "PROFESSIONAL, SCIENTIFIC AND TECHNICAL ACTIVITIES"
-msgstr "[M] ACTIVIDADES PROFESIONALES, CIENTÍFICAS Y TÉCNICAS"
+msgstr "ACTIVIDADES PROFESIONALES, CIENTÍFICAS Y TÉCNICAS"
 
 #. module: l10n_eu_nace
 #: model:res.partner.nace,name:l10n_eu_nace.nace_O
-#, fuzzy
 msgid "PUBLIC ADMINISTRATION AND DEFENCE; COMPULSORY SOCIAL SECURITY"
-msgstr "[O] ADMINISTRACIÓN PÚBLICA Y DEFENSA; SEGURIDAD SOCIAL OBLIGATORIA"
+msgstr "ADMINISTRACIÓN PÚBLICA Y DEFENSA; SEGURIDAD SOCIAL OBLIGATORIA"
 
 #. module: l10n_eu_nace
 #: model:res.partner.nace,name:l10n_eu_nace.nace_82_92
-#, fuzzy
 msgid "Packaging activities"
-msgstr "[82.92] Actividades de envasado y empaquetado"
+msgstr "Actividades de envasado y empaquetado"
 
 #. module: l10n_eu_nace
 #: model:res.partner.nace,name:l10n_eu_nace.nace_43_34
-#, fuzzy
 msgid "Painting and glazing"
-msgstr "[43.34] Pintura y acristalamiento"
+msgstr "Pintura y acristalamiento"
 
 #. module: l10n_eu_nace
 #: model:ir.model.fields,field_description:l10n_eu_nace.field_res_partner_nace__parent_id
 msgid "Parent"
-msgstr ""
+msgstr "Parental"
 
 #. module: l10n_eu_nace
 #: model:ir.model.fields,field_description:l10n_eu_nace.field_res_partner_nace__parent_path
 msgid "Parent Path"
-msgstr ""
+msgstr "Ruta Parental"
 
 #. module: l10n_eu_nace
 #: model:ir.model.fields,field_description:l10n_eu_nace.field_res_partner_nace__partner_ids
 msgid "Partners"
-msgstr ""
+msgstr "Socios"
 
 #. module: l10n_eu_nace
 #: model:res.partner.nace,name:l10n_eu_nace.nace_51_1
 #: model:res.partner.nace,name:l10n_eu_nace.nace_51_10
-#, fuzzy
 msgid "Passenger air transport"
-msgstr "[51.1] Transporte aéreo de pasajeros"
+msgstr "Transporte aéreo de pasajeros"
 
 #. module: l10n_eu_nace
 #: model:res.partner.nace,name:l10n_eu_nace.nace_49_1
 #: model:res.partner.nace,name:l10n_eu_nace.nace_49_10
-#, fuzzy
 msgid "Passenger rail transport, interurban"
-msgstr "[49.1] Transporte interurbano de pasajeros por ferrocarril"
+msgstr "Transporte interurbano de pasajeros por ferrocarril"
 
 #. module: l10n_eu_nace
 #: model:res.partner.nace,name:l10n_eu_nace.nace_65_3
 #: model:res.partner.nace,name:l10n_eu_nace.nace_65_30
-#, fuzzy
 msgid "Pension funding"
-msgstr "[65.3] Fondos de pensiones"
+msgstr "Fondos de pensiones"
 
 #. module: l10n_eu_nace
 #: model:res.partner.nace,name:l10n_eu_nace.nace_90_01
-#, fuzzy
 msgid "Performing arts"
-msgstr "[90.01] Artes escénicas"
+msgstr "Artes escénicas"
 
 #. module: l10n_eu_nace
 #: model:res.partner.nace,name:l10n_eu_nace.nace_82_19
-#, fuzzy
 msgid ""
 "Photocopying, document preparation and other specialised office support "
 "activities"
 msgstr ""
-"[82.19] Actividades de fotocopiado, preparación de documentos y otras "
-"actividades especializadas de oficina"
+"Actividades de fotocopiado, preparación de documentos y otras actividades "
+"especializadas de oficina"
 
 #. module: l10n_eu_nace
 #: model:res.partner.nace,name:l10n_eu_nace.nace_74_2
 #: model:res.partner.nace,name:l10n_eu_nace.nace_74_20
-#, fuzzy
 msgid "Photographic activities"
-msgstr "[74.2] Actividades de fotografía"
+msgstr "Actividades de fotografía"
 
 #. module: l10n_eu_nace
 #: model:res.partner.nace,name:l10n_eu_nace.nace_96_04
-#, fuzzy
 msgid "Physical well-being activities"
-msgstr "[96.04] Actividades de mantenimiento físico"
+msgstr "Actividades de mantenimiento físico"
 
 #. module: l10n_eu_nace
 #: model:res.partner.nace,name:l10n_eu_nace.nace_01_3
 #: model:res.partner.nace,name:l10n_eu_nace.nace_01_30
-#, fuzzy
 msgid "Plant propagation"
-msgstr "[01.3] Propagación de plantas"
+msgstr "Propagación de plantas"
 
 #. module: l10n_eu_nace
 #: model:res.partner.nace,name:l10n_eu_nace.nace_43_31
-#, fuzzy
 msgid "Plastering"
-msgstr "[43.31] Revocamiento"
+msgstr "Enyesado"
 
 #. module: l10n_eu_nace
 #: model:res.partner.nace,name:l10n_eu_nace.nace_43_22
-#, fuzzy
 msgid "Plumbing, heat and air-conditioning installation"
 msgstr ""
-"[43.22] Fontanería, instalaciones de sistemas de calefacción y aire "
-"acondicionado"
+"Fontanería, instalaciones de sistemas de calefacción y aire acondicionado"
 
 #. module: l10n_eu_nace
 #: model:res.partner.nace,name:l10n_eu_nace.nace_01_63
-#, fuzzy
 msgid "Post-harvest crop activities"
-msgstr "[01.63] Actividades de preparación posterior a la cosecha"
+msgstr "Actividades de preparación posterior a la cosecha"
 
 #. module: l10n_eu_nace
 #: model:res.partner.nace,name:l10n_eu_nace.nace_85_41
-#, fuzzy
 msgid "Post-secondary non-tertiary education"
-msgstr "[85.41] Educación postsecundaria no terciaria"
+msgstr "Educación postsecundaria no terciaria"
 
 #. module: l10n_eu_nace
 #: model:res.partner.nace,name:l10n_eu_nace.nace_53_1
 #: model:res.partner.nace,name:l10n_eu_nace.nace_53_10
-#, fuzzy
 msgid "Postal activities under universal service obligation"
-msgstr ""
-"[53.1] Actividades postales sometidas a la obligación del servicio universal"
+msgstr "Actividades postales sometidas a la obligación del servicio universal"
 
 #. module: l10n_eu_nace
 #: model:res.partner.nace,name:l10n_eu_nace.nace_53
-#, fuzzy
 msgid "Postal and courier activities"
-msgstr "[53] Actividades postales y de correos"
+msgstr "Actividades postales y de correos"
 
 #. module: l10n_eu_nace
 #: model:res.partner.nace,name:l10n_eu_nace.nace_18_13
-#, fuzzy
 msgid "Pre-press and pre-media services"
-msgstr "[18.13] Servicios de preimpresión y preparación de soportes"
+msgstr "Servicios de preimpresión y preparación de soportes"
 
 #. module: l10n_eu_nace
 #: model:res.partner.nace,name:l10n_eu_nace.nace_85_1
-#, fuzzy
 msgid "Pre-primary education"
-msgstr "[85.1] Educación preprimaria"
+msgstr "Educación preprimaria"
 
 #. module: l10n_eu_nace
 #: model:res.partner.nace,name:l10n_eu_nace.nace_85_10
-#, fuzzy
 msgid "Pre-primary education "
-msgstr "[85.10] Educación preprimaria"
+msgstr "Educación preprimaria "
 
 #. module: l10n_eu_nace
 #: model:res.partner.nace,name:l10n_eu_nace.nace_24_41
-#, fuzzy
 msgid "Precious metals production"
-msgstr "[24.41] Producción de metales preciosos"
+msgstr "Producción de metales preciosos"
 
 #. module: l10n_eu_nace
 #: model:res.partner.nace,name:l10n_eu_nace.nace_13_1
 #: model:res.partner.nace,name:l10n_eu_nace.nace_13_10
-#, fuzzy
 msgid "Preparation and spinning of textile fibres"
-msgstr "[13.1] Preparación e hilado de fibras textiles"
+msgstr "Preparación e hilado de fibras textiles"
 
 #. module: l10n_eu_nace
 #: model:res.partner.nace,name:l10n_eu_nace.nace_85_2
-#, fuzzy
 msgid "Primary education"
-msgstr "[85.2] Educación primaria"
+msgstr "Educación primaria"
 
 #. module: l10n_eu_nace
 #: model:res.partner.nace,name:l10n_eu_nace.nace_85_20
-#, fuzzy
 msgid "Primary education "
-msgstr "[85.20] Educación primaria"
+msgstr "Educación primaria "
 
 #. module: l10n_eu_nace
 #: model:res.partner.nace,name:l10n_eu_nace.nace_18
-#, fuzzy
 msgid "Printing and reproduction of recorded media"
-msgstr "[18] Artes gráficas y reproducción de soportes grabados"
+msgstr "Artes gráficas y reproducción de soportes grabados"
 
 #. module: l10n_eu_nace
 #: model:res.partner.nace,name:l10n_eu_nace.nace_18_1
-#, fuzzy
 msgid "Printing and service activities related to printing"
-msgstr "[18.1] Artes gráficas y servicios relacionadas con las mismas"
+msgstr "Artes gráficas y servicios relacionadas con las mismas"
 
 #. module: l10n_eu_nace
 #: model:res.partner.nace,name:l10n_eu_nace.nace_18_11
-#, fuzzy
 msgid "Printing of newspapers"
-msgstr "[18.11] Impresión de periódicos"
+msgstr "Impresión de periódicos"
 
 #. module: l10n_eu_nace
 #: model:res.partner.nace,name:l10n_eu_nace.nace_80_1
 #: model:res.partner.nace,name:l10n_eu_nace.nace_80_10
-#, fuzzy
 msgid "Private security activities"
-msgstr "[80.1] Actividades de seguridad privada"
+msgstr "Actividades de seguridad privada"
 
 #. module: l10n_eu_nace
 #: model:res.partner.nace,name:l10n_eu_nace.nace_10_2
 #: model:res.partner.nace,name:l10n_eu_nace.nace_10_20
-#, fuzzy
 msgid "Processing and preserving of fish, crustaceans and molluscs"
-msgstr "[10.2] Procesado y conservación de pescados, crustáceos y moluscos"
+msgstr "Procesado y conservación de pescados, crustáceos y moluscos"
 
 #. module: l10n_eu_nace
 #: model:res.partner.nace,name:l10n_eu_nace.nace_10_3
-#, fuzzy
 msgid "Processing and preserving of fruit and vegetables"
-msgstr "[10.3] Procesado y conservación de frutas y hortalizas"
+msgstr "Procesado y conservación de frutas y hortalizas"
 
 #. module: l10n_eu_nace
 #: model:res.partner.nace,name:l10n_eu_nace.nace_10_11
-#, fuzzy
 msgid "Processing and preserving of meat"
-msgstr "[10.11] Procesado y conservación de carne"
+msgstr "Procesado y conservación de carne"
 
 #. module: l10n_eu_nace
 #: model:res.partner.nace,name:l10n_eu_nace.nace_10_1
-#, fuzzy
 msgid "Processing and preserving of meat and production of meat products"
-msgstr ""
-"[10.1] Procesado y conservación de carne y elaboración de productos cárnicos"
+msgstr "Procesado y conservación de carne y elaboración de productos cárnicos"
 
 #. module: l10n_eu_nace
 #: model:res.partner.nace,name:l10n_eu_nace.nace_10_31
-#, fuzzy
 msgid "Processing and preserving of potatoes"
-msgstr "[10.31] Procesado y conservación de patatas"
+msgstr "Procesado y conservación de patatas"
 
 #. module: l10n_eu_nace
 #: model:res.partner.nace,name:l10n_eu_nace.nace_10_12
-#, fuzzy
 msgid "Processing and preserving of poultry meat"
-msgstr "[10.12] Procesado y conservación de volatería"
+msgstr "Procesado y conservación de carne de aves de corral"
 
 #. module: l10n_eu_nace
 #: model:res.partner.nace,name:l10n_eu_nace.nace_24_46
-#, fuzzy
 msgid "Processing of nuclear fuel "
-msgstr "[24.46] Procesamiento de combustibles nucleares"
+msgstr "Procesamiento de combustibles nucleares "
 
 #. module: l10n_eu_nace
 #: model:res.partner.nace,name:l10n_eu_nace.nace_10_83
-#, fuzzy
 msgid "Processing of tea and coffee"
-msgstr "[10.83] Elaboración de café, té e infusiones"
+msgstr "Elaboración de café, té e infusiones"
 
 #. module: l10n_eu_nace
 #: model:res.partner.nace,name:l10n_eu_nace.nace_23_91
-#, fuzzy
 msgid "Production of abrasive products"
-msgstr "[23.91] Fabricación de productos abrasivos"
+msgstr "Fabricación de productos abrasivos"
 
 #. module: l10n_eu_nace
 #: model:res.partner.nace,name:l10n_eu_nace.nace_35_11
-#, fuzzy
 msgid "Production of electricity"
-msgstr "[35.11] Producción de energía eléctrica"
+msgstr "Producción de energía eléctrica"
 
 #. module: l10n_eu_nace
 #: model:res.partner.nace,name:l10n_eu_nace.nace_10_13
-#, fuzzy
 msgid "Production of meat and poultry meat products"
-msgstr "[10.13] Elaboración de productos cárnicos y de volatería"
+msgstr "Elaboración de productos cárnicos y de aves"
 
 #. module: l10n_eu_nace
 #: model:res.partner.nace,name:l10n_eu_nace.nace_60
-#, fuzzy
 msgid "Programming and broadcasting activities"
-msgstr "[60] Actividades de programación y emisión de radio y televisión"
+msgstr "Actividades de programación y emisión de radio y televisión"
 
 #. module: l10n_eu_nace
 #: model:res.partner.nace,name:l10n_eu_nace.nace_84_2
-#, fuzzy
 msgid "Provision of services to the community as a whole"
-msgstr "[84.2] Prestación de servicios a la comunidad en general"
+msgstr "Prestación de servicios a la comunidad en general"
 
 #. module: l10n_eu_nace
 #: model:res.partner.nace,name:l10n_eu_nace.nace_84
-#, fuzzy
 msgid "Public administration and defence; compulsory social security"
-msgstr "[84] Administración Pública y defensa; Seguridad Social obligatoria"
+msgstr "Administración Pública y defensa; Seguridad Social obligatoria"
 
 #. module: l10n_eu_nace
 #: model:res.partner.nace,name:l10n_eu_nace.nace_84_24
-#, fuzzy
 msgid "Public order and safety activities"
-msgstr "[84.24] Orden público y seguridad"
+msgstr "Orden público y actividades de seguridad"
 
 #. module: l10n_eu_nace
 #: model:res.partner.nace,name:l10n_eu_nace.nace_70_21
-#, fuzzy
 msgid "Public relations and communication activities"
-msgstr "[70.21] Relaciones públicas y comunicación"
+msgstr "actividades de relaciones públicas y comunicación"
 
 #. module: l10n_eu_nace
 #: model:res.partner.nace,name:l10n_eu_nace.nace_58
-#, fuzzy
 msgid "Publishing activities"
-msgstr "[58] Edición"
+msgstr "Actividades de publicación"
 
 #. module: l10n_eu_nace
 #: model:res.partner.nace,name:l10n_eu_nace.nace_58_1
-#, fuzzy
 msgid "Publishing of books, periodicals and other publishing activities"
-msgstr "[58.1] Edición de libros, periódicos y otras actividades editoriales"
+msgstr "Edición de libros, periódicos y otras actividades editoriales"
 
 #. module: l10n_eu_nace
 #: model:res.partner.nace,name:l10n_eu_nace.nace_58_21
-#, fuzzy
 msgid "Publishing of computer games"
-msgstr "[58.21] Edición de videojuegos"
+msgstr "Publicación de juegos de ordenador"
 
 #. module: l10n_eu_nace
 #: model:res.partner.nace,name:l10n_eu_nace.nace_58_12
-#, fuzzy
 msgid "Publishing of directories and mailing lists"
-msgstr "[58.12] Edición de directorios y guías de direcciones postales"
+msgstr "Edición de directorios y guías de direcciones postales"
 
 #. module: l10n_eu_nace
 #: model:res.partner.nace,name:l10n_eu_nace.nace_58_14
-#, fuzzy
 msgid "Publishing of journals and periodicals"
-msgstr "[58.14] Edición de revistas"
+msgstr "Publicación de revistas y publicaciones periódicas"
 
 #. module: l10n_eu_nace
 #: model:res.partner.nace,name:l10n_eu_nace.nace_58_13
-#, fuzzy
 msgid "Publishing of newspapers"
-msgstr "[58.13] Edición de periódicos"
+msgstr "Publicación de periódicos"
 
 #. module: l10n_eu_nace
 #: model:res.partner.nace,name:l10n_eu_nace.nace_08_11
-#, fuzzy
 msgid ""
 "Quarrying of ornamental and building stone, limestone, gypsum, chalk and "
 "slate"
 msgstr ""
-"[08.11] Extracción de piedra ornamental y para la construcción, piedra "
-"caliza, yeso, creta y pizarra"
+"Extracción de piedra ornamental y para la construcción, piedra caliza, yeso, "
+"creta y pizarra"
 
 #. module: l10n_eu_nace
 #: model:res.partner.nace,name:l10n_eu_nace.nace_08_1
-#, fuzzy
 msgid "Quarrying of stone, sand and clay"
-msgstr "[08.1] Extracción de piedra, arena y arcilla"
+msgstr "Extracción de piedra, arena y arcilla"
 
 #. module: l10n_eu_nace
 #: model:res.partner.nace,name:l10n_eu_nace.nace_L
-#, fuzzy
 msgid "REAL ESTATE ACTIVITIES"
-msgstr "[L] ACTIVIDADES INMOBILIARIAS"
+msgstr "ACTIVIDADES INMOBILIARIAS"
 
 #. module: l10n_eu_nace
 #: model:res.partner.nace,name:l10n_eu_nace.nace_60_1
 #: model:res.partner.nace,name:l10n_eu_nace.nace_60_10
-#, fuzzy
 msgid "Radio broadcasting"
-msgstr "[60.1] Actividades de radiodifusión"
+msgstr "Actividades de radiodifusión"
 
 #. module: l10n_eu_nace
 #: model:res.partner.nace,name:l10n_eu_nace.nace_01_44
-#, fuzzy
 msgid "Raising of camels and camelids"
-msgstr "[01.44] Explotación de camellos y otros camélidos"
+msgstr "Explotación de camellos y otros camélidos"
 
 #. module: l10n_eu_nace
 #: model:res.partner.nace,name:l10n_eu_nace.nace_01_41
-#, fuzzy
 msgid "Raising of dairy cattle"
-msgstr "[01.41] Explotación de ganado bovino para la producción de leche"
+msgstr "Explotación de ganado bovino para la producción de leche"
 
 #. module: l10n_eu_nace
 #: model:res.partner.nace,name:l10n_eu_nace.nace_01_43
-#, fuzzy
 msgid "Raising of horses and other equines"
-msgstr "[01.43] Explotación de caballos y otros equinos"
+msgstr "Explotación de caballos y otros equinos"
 
 #. module: l10n_eu_nace
 #: model:res.partner.nace,name:l10n_eu_nace.nace_01_49
-#, fuzzy
 msgid "Raising of other animals"
-msgstr "[01.49] Otras explotaciones de ganado"
+msgstr "Otras explotaciones de ganado"
 
 #. module: l10n_eu_nace
 #: model:res.partner.nace,name:l10n_eu_nace.nace_01_42
-#, fuzzy
 msgid "Raising of other cattle and buffaloes"
-msgstr "[01.42] Explotación de otro ganado bovino y búfalos"
+msgstr "Explotación de otro ganado bovino y búfalos"
 
 #. module: l10n_eu_nace
 #: model:res.partner.nace,name:l10n_eu_nace.nace_01_47
-#, fuzzy
 msgid "Raising of poultry"
-msgstr "[01.47] Avicultura"
+msgstr "Cría de aves de corral"
 
 #. module: l10n_eu_nace
 #: model:res.partner.nace,name:l10n_eu_nace.nace_01_45
-#, fuzzy
 msgid "Raising of sheep and goats"
-msgstr "[01.45] Explotación de ganado ovino y caprino"
+msgstr "Explotación de ganado ovino y caprino"
 
 #. module: l10n_eu_nace
 #: model:res.partner.nace,name:l10n_eu_nace.nace_01_46
-#, fuzzy
 msgid "Raising of swine/pigs"
-msgstr "[01.46] Explotación de ganado porcino"
+msgstr "Explotación de ganado porcino"
 
 #. module: l10n_eu_nace
 #: model:res.partner.nace,name:l10n_eu_nace.nace_68
-#, fuzzy
 msgid "Real estate activities"
-msgstr "[68] Actividades inmobiliarias"
+msgstr "Actividades inmobiliarias"
 
 #. module: l10n_eu_nace
 #: model:res.partner.nace,name:l10n_eu_nace.nace_68_3
-#, fuzzy
 msgid "Real estate activities on a fee or contract basis"
-msgstr "[68.3] Actividades inmobiliarias por cuenta de terceros"
+msgstr "Actividades inmobiliarias a comisión o por contrato"
 
 #. module: l10n_eu_nace
 #: model:res.partner.nace,name:l10n_eu_nace.nace_68_31
-#, fuzzy
 msgid "Real estate agencies"
-msgstr "[68.31] Agentes de la propiedad inmobiliaria"
+msgstr "Agencias de la propiedad inmobiliaria"
 
 #. module: l10n_eu_nace
 #: model:res.partner.nace,name:l10n_eu_nace.nace_38_32
-#, fuzzy
 msgid "Recovery of sorted materials"
-msgstr "[38.32] Valorización de materiales ya clasificados"
+msgstr "Valorización de materiales ya clasificados"
 
 #. module: l10n_eu_nace
 #: model:res.partner.nace,name:l10n_eu_nace.nace_84_13
-#, fuzzy
 msgid ""
 "Regulation of and contribution to more efficient operation of businesses"
 msgstr ""
-"[84.13] Regulación de la actividad económica y contribución a su mayor "
-"eficiencia"
+"Regulación y contribución a un funcionamiento más eficaz de las empresas"
 
 #. module: l10n_eu_nace
 #: model:res.partner.nace,name:l10n_eu_nace.nace_84_12
-#, fuzzy
 msgid ""
 "Regulation of the activities of providing health care, education, cultural "
 "services and other social services, excluding social security"
 msgstr ""
-"[84.12] Regulación de las actividades sanitarias, educativas y culturales y "
-"otros servicios sociales, excepto Seguridad Social"
+"Regulación de las actividades de prestación de servicios sanitarios, "
+"educativos, culturales y otros servicios sociales, excluida la seguridad "
+"social"
 
 #. module: l10n_eu_nace
 #: model:res.partner.nace,name:l10n_eu_nace.nace_65_2
 #: model:res.partner.nace,name:l10n_eu_nace.nace_65_20
-#, fuzzy
 msgid "Reinsurance"
-msgstr "[65.2] Reaseguros"
+msgstr "Reaseguro"
 
 #. module: l10n_eu_nace
 #: model:res.partner.nace,name:l10n_eu_nace.nace_39
 #: model:res.partner.nace,name:l10n_eu_nace.nace_39_0
 #: model:res.partner.nace,name:l10n_eu_nace.nace_39_00
-#, fuzzy
 msgid "Remediation activities and other waste management services"
-msgstr ""
-"[39] Actividades de descontaminación y otros servicios de gestión de residuos"
+msgstr "Actividades de saneamiento y otros servicios de gestión de residuos"
 
 #. module: l10n_eu_nace
 #: model:res.partner.nace,name:l10n_eu_nace.nace_49_42
-#, fuzzy
 msgid "Removal services"
-msgstr "[49.42] Servicios de mudanza"
+msgstr "Servicios de mudanza"
 
 #. module: l10n_eu_nace
 #: model:res.partner.nace,name:l10n_eu_nace.nace_77
-#, fuzzy
 msgid "Rental and leasing activities"
-msgstr "[77] Actividades de alquiler"
+msgstr "Actividades de alquiler y arrendamiento financiero"
 
 #. module: l10n_eu_nace
 #: model:res.partner.nace,name:l10n_eu_nace.nace_77_31
-#, fuzzy
 msgid "Rental and leasing of agricultural machinery and equipment"
-msgstr "[77.31] Alquiler de maquinaria y equipo de uso agrícola"
+msgstr "Arrendamiento financiero de maquinaria y equipos agrícolas"
 
 #. module: l10n_eu_nace
 #: model:res.partner.nace,name:l10n_eu_nace.nace_77_35
-#, fuzzy
 msgid "Rental and leasing of air transport equipment"
-msgstr "[77.35] Alquiler de medios de transporte aéreo"
+msgstr "Alquiler y arrendamiento financiero de material de transporte aéreo"
 
 #. module: l10n_eu_nace
 #: model:res.partner.nace,name:l10n_eu_nace.nace_77_11
-#, fuzzy
 msgid "Rental and leasing of cars and light motor vehicles"
-msgstr "[77.11] Alquiler de automóviles y vehículos de motor ligeros"
+msgstr "Alquiler de automóviles y vehículos de motor ligeros"
 
 #. module: l10n_eu_nace
 #: model:res.partner.nace,name:l10n_eu_nace.nace_77_32
-#, fuzzy
 msgid ""
 "Rental and leasing of construction and civil engineering machinery and "
 "equipment"
 msgstr ""
-"[77.32] Alquiler de maquinaria y equipo para la construcción e ingeniería "
-"civil"
+"Alquiler y arrendamiento financiero de maquinaria y equipos de construcción "
+"e ingeniería civil"
 
 #. module: l10n_eu_nace
 #: model:res.partner.nace,name:l10n_eu_nace.nace_77_1
-#, fuzzy
 msgid "Rental and leasing of motor vehicles"
-msgstr "[77.1] Alquiler de vehículos de motor"
+msgstr "Alquiler y arrendamiento financiero de vehículos de motor"
 
 #. module: l10n_eu_nace
 #: model:res.partner.nace,name:l10n_eu_nace.nace_77_33
