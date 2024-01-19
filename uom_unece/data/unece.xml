@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<odoo>
+    <!-- Units -->
+    <record id="uom.product_uom_unit" model="uom.uom">
+        <field name="unece_code">C62</field>
+    </record>
+    <record id="uom.product_uom_dozen" model="uom.uom">
+        <field name="unece_code">DPC</field>
+        <!-- DPC should be prefered over DZN, because
+        DPC means "dozen piece" and is linked to category 3.2 "Sales units"
+        whereas DZN means "dozen" and is linked to category 3.7 "Integers/Numbers/Ratios"
+        -->
+    </record>
+    <!-- Working time -->
+    <record id="uom.product_uom_day" model="uom.uom">
+        <field name="unece_code">DAY</field>
+    </record>
+    <record id="uom.product_uom_hour" model="uom.uom">
+        <field name="unece_code">HUR</field>
+    </record>
+    <!-- Length -->
+    <record id="uom.product_uom_meter" model="uom.uom">
+        <field name="unece_code">MTR</field>
+    </record>
+    <record id="uom.product_uom_millimeter" model="uom.uom">
+        <field name="unece_code">MMT</field>
+    </record>
+    <record id="uom.product_uom_km" model="uom.uom">
+        <field name="unece_code">KMT</field>
+        <!-- Kilometer is also present as KTM in the rec20 list,
+        but with status 'X' which means 'Marked as deleted' -->
+    </record>
+    <record id="uom.product_uom_cm" model="uom.uom">
+        <field name="unece_code">CMT</field>
+    </record>
+    <!-- Surface -->
+    <record id="uom.uom_square_meter" model="uom.uom">
+        <field name="unece_code">MTK</field>
+    </record>
+    <!-- Volume -->
+    <record id="uom.product_uom_litre" model="uom.uom">
+        <field name="unece_code">LTR</field>
+    </record>
+    <record id="uom.product_uom_cubic_meter" model="uom.uom">
+        <field name="unece_code">MTQ</field>
+    </record>
+    <!-- Weight -->
+    <record id="uom.product_uom_kgm" model="uom.uom">
+        <field name="unece_code">KGM</field>
+    </record>
+    <record id="uom.product_uom_gram" model="uom.uom">
+        <field name="unece_code">GRM</field>
+    </record>
+    <record id="uom.product_uom_ton" model="uom.uom">
+        <field name="unece_code">TNE</field>
+    </record>
+    <!-- American weight -->
+    <record id="uom.product_uom_lb" model="uom.uom">
+        <field name="unece_code">LBR</field>
+    </record>
+    <record id="uom.product_uom_oz" model="uom.uom">
+        <field name="unece_code">ONZ</field>
+    </record>
+    <!-- American length -->
+    <record id="uom.product_uom_inch" model="uom.uom">
+        <field name="unece_code">INH</field>
+    </record>
+    <record id="uom.product_uom_foot" model="uom.uom">
+        <field name="unece_code">FOT</field>
+    </record>
+    <record id="uom.product_uom_yard" model="uom.uom">
+        <field name="unece_code">YRD</field>
+    </record>
+    <record id="uom.product_uom_mile" model="uom.uom">
+        <field name="unece_code">SMI</field>
+    </record>
+    <!-- American surface -->
+    <record id="uom.uom_square_foot" model="uom.uom">
+        <field name="unece_code">FTK</field>
+    </record>
+    <!-- American volume -->
+    <record id="uom.product_uom_floz" model="uom.uom">
+        <field name="unece_code">OZA</field>
+    </record>
+    <record id="uom.product_uom_qt" model="uom.uom">
+        <field name="unece_code">QT</field>
+    </record>
+    <record id="uom.product_uom_gal" model="uom.uom">
+        <field name="unece_code">GLL</field>
+    </record>
+    <record id="uom.product_uom_cubic_inch" model="uom.uom">
+        <field name="unece_code">INQ</field>
+    </record>
+    <record id="uom.product_uom_cubic_foot" model="uom.uom">
+        <field name="unece_code">FTQ</field>
+    </record>
+</odoo>
