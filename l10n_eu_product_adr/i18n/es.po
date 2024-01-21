@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 14.0\n"
 "Report-Msgid-Bugs-To: \n"
-"PO-Revision-Date: 2024-01-20 10:36+0000\n"
+"PO-Revision-Date: 2024-01-21 12:33+0000\n"
 "Last-Translator: Ivorra78 <informatica@totmaterial.es>\n"
 "Language-Team: none\n"
 "Language: es\n"
@@ -2341,78 +2341,78 @@ msgstr "TRIBROMURO DE BORO"
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_1741
 msgid "BORON TRICHLORIDE"
-msgstr ""
+msgstr "TRICLORURO DE BORO"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_1008
 msgid "BORON TRIFLUORIDE"
-msgstr ""
+msgstr "TRIFLUORURO DE BORO"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_1742
 msgid "BORON TRIFLUORIDE ACETIC ACID COMPLEX, LIQUID"
-msgstr ""
+msgstr "TRIFLUORURO DE BORO COMPLEJO DE ÁCIDO ACÉTICO, LÍQUIDO"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_3419
 msgid "BORON TRIFLUORIDE ACETIC ACID COMPLEX, SOLID"
-msgstr ""
+msgstr "COMPLEJO DE TRIFLUORURO DE BORO Y ÁCIDO ACÉTICO, SÓLIDO"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_2604
 msgid "BORON TRIFLUORIDE DIETHYL ETHERATE"
-msgstr ""
+msgstr "TRIFLUORURO DE BORO DIETIL ETERATO"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_2851
 msgid "BORON TRIFLUORIDE DIHYDRATE"
-msgstr ""
+msgstr "TRIFLUORURO DE BORO DIHIDRATO"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_2965
 msgid "BORON TRIFLUORIDE DIMETHYL ETHERATE"
-msgstr ""
+msgstr "TRIFLUORURO DE BORO DIMETIL ETERATO"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_1743
 msgid "BORON TRIFLUORIDE PROPIONIC ACID COMPLEX, LIQUID"
-msgstr ""
+msgstr "TRIFLUORURO DE BORO COMPLEJO DE ÁCIDO PROPIÓNICO, LÍQUIDO"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_3420
 msgid "BORON TRIFLUORIDE PROPIONIC ACID COMPLEX, SOLID"
-msgstr ""
+msgstr "COMPLEJO DE TRIFLUORURO DE BORO Y ÁCIDO PROPIÓNICO, SÓLIDO"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_3519
 msgid "BORON TRIFLUORIDE, ADSORBED"
-msgstr ""
+msgstr "TRIFLUORURO DE BORO, ADSORBIDO"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_3213_1L
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_3213_5L
 msgid "BROMATES, INORGANIC, AQUEOUS SOLUTION, N.O.S."
-msgstr ""
+msgstr "BROMATOS, INORGÁNICOS, SOLUCIÓN ACUOSA, N.E.P."
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_1450
 msgid "BROMATES, INORGANIC, N.O.S."
-msgstr ""
+msgstr "BROMATOS, INORGÁNICOS, N.E.P."
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_2901
 msgid "BROMINE CHLORIDE"
-msgstr ""
+msgstr "CLORURO DE BROMO"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_1745
 msgid "BROMINE PENTAFLUORIDE"
-msgstr ""
+msgstr "PENTAFLUORURO DE BROMO"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_1746
 msgid "BROMINE TRIFLUORIDE"
-msgstr ""
+msgstr "TRIFLUORURO DE BROMO"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_1744
@@ -2423,78 +2423,78 @@ msgstr ""
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_1938_1L
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_1938_5L
 msgid "BROMOACETIC ACID SOLUTION"
-msgstr ""
+msgstr "SOLUCIÓN DE ÁCIDO BROMOACÉTICO"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_3425
 msgid "BROMOACETIC ACID, SOLID"
-msgstr ""
+msgstr "ÁCIDO BROMOACÉTICO, SÓLIDO"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_1569
 msgid "BROMOACETONE"
-msgstr ""
+msgstr "BROMOACETONA"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_2513
 msgid "BROMOACETYL BROMIDE"
-msgstr ""
+msgstr "BROMURO DE BROMOACETILO"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_2514
 msgid "BROMOBENZENE"
-msgstr ""
+msgstr "BROMOBENZENO"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_1694
 msgid "BROMOBENZYL CYANIDES, LIQUID"
-msgstr ""
+msgstr "BROMOBENZENO"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_3449
 msgid "BROMOBENZYL CYANIDES, SOLID"
-msgstr ""
+msgstr "CIANUROS DE BROMOBENCILO, SÓLIDOS"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_1887
 msgid "BROMOCHLOROMETHANE"
-msgstr ""
+msgstr "BROMOCLOROMETANO"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_2515
 msgid "BROMOFORM"
-msgstr ""
+msgstr "BROMOCLOROMETANO"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_2342
 msgid "BROMOMETHYL-PROPANES"
-msgstr ""
+msgstr "BROMOMETIL-PROPANOS"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_2344_1L
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_2344_5L
 msgid "BROMOPROPANES"
-msgstr ""
+msgstr "BROMOPROPANOS"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_2419
 msgid "BROMOTRIFLUORO-ETHYLENE"
-msgstr ""
+msgstr "BROMOTRIFLUOROETILENO"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_1009
 msgid "BROMOTRIFLUORO-METHANE (REFRIGERANT GAS R 13B1)"
-msgstr ""
+msgstr "BROMOTRIFLUORO-METANO (GAS REFRIGERANTE R 13B1)"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_1570
 msgid "BRUCINE"
-msgstr ""
+msgstr "BRUCINA"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_0043
 msgid "BURSTERS, explosive"
-msgstr ""
+msgstr "EXPLOSIVOS"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_1010
@@ -2503,114 +2503,117 @@ msgid ""
 "having a vapour pressure at 70 °C not exceeding 1.1 Mpa (11 bar) and a "
 "density at 50 °C not lower than 0.525 kg/l"
 msgstr ""
+"BUTADIENOS ESTABILIZADOS o MEZCLA DE BUTADIENOS E HIDROCARBUROS "
+"ESTABILIZADA, que presenten a 70 °C una presión de vapor que no exceda de "
+"1,1 Mpa (11 bar) y a 50 °C una masa volumétrica mínima de 0,525 kg/l"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_1011
 msgid "BUTANE"
-msgstr ""
+msgstr "BUTANO"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_2346
 msgid "BUTANEDIONE"
-msgstr ""
+msgstr "BUTANEDIONA"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_1120_1L
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_1120_5L
 msgid "BUTANOLS"
-msgstr ""
+msgstr "BUTANOLES"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_1123_1L
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_1123_5L
 msgid "BUTYL ACETATES"
-msgstr ""
+msgstr "ACETATOS DE BUTILO"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_1718
 msgid "BUTYL ACID PHOSPHATE"
-msgstr ""
+msgstr "FOSFATO ÁCIDO BUTÍLICO"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_2348
 msgid "BUTYL ACRYLATES, STABILIZED"
-msgstr ""
+msgstr "ACRILATOS DE BUTILO, ESTABILIZADOS"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_2347
 msgid "BUTYL MERCAPTAN"
-msgstr ""
+msgstr "MERCAPTANO BUTÍLICO"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_2350
 msgid "BUTYL METHYL ETHER"
-msgstr ""
+msgstr "BUTIL METIL ETER"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_2351_1L
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_2351_5L
 msgid "BUTYL NITRITES"
-msgstr ""
+msgstr "NITRITOS DE BUTILO"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_1914
 msgid "BUTYL PROPIONATES"
-msgstr ""
+msgstr "PROPIONATOS DE BUTILO"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_2352
 msgid "BUTYL VINYL ETHER, STABILIZED"
-msgstr ""
+msgstr "BUTIL VINIL ÉTER, ESTABILIZADO"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_2709
 msgid "BUTYLBENZENES"
-msgstr ""
+msgstr "BUTILBENZENOS"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_1012
 msgid "BUTYLENES MIXTURE or 1-BUTYLENE or cis-2-BUTYLENE or trans-2-BUTYLENE"
-msgstr ""
+msgstr "MEZCLA DE BUTILENOS o 1-BUTILENO o cis-2-BUTILENO o trans-2-BUTILENO"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_2667
 msgid "BUTYLTOLUENES"
-msgstr ""
+msgstr "BUTILTOLUENOS"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_1747
 msgid "BUTYLTRICHLOROSILANE"
-msgstr ""
+msgstr "BUTILTRICLOROSILANO"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_1129
 msgid "BUTYRALDEHYDE"
-msgstr ""
+msgstr "BUTIRALDEHÍDO"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_2840
 msgid "BUTYRALDOXIME"
-msgstr ""
+msgstr "BUTIRALDOXIMA"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_2820
 msgid "BUTYRIC ACID"
-msgstr ""
+msgstr "ÁCIDO BÚTRICO"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_2739
 msgid "BUTYRIC ANHYDRIDE"
-msgstr ""
+msgstr "ANHÍDRIDO BUTÍRICO"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_2411
 msgid "BUTYRONITRILE"
-msgstr ""
+msgstr "BUTRONITRILO"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_2353
 msgid "BUTYRYL CHLORIDE"
-msgstr ""
+msgstr "CLORURO DE BUTIRILO"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_3496
@@ -3185,93 +3188,93 @@ msgstr ""
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_2626
 msgid "CHLORIC ACID, AQUEOUS SOLUTION with not more than 10% chloric acid"
-msgstr ""
+msgstr "ÁCIDO CLÓRICO, SOLUCIÓN ACUOSA con no más del 10% de ácido clórico"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_1017
 msgid "CHLORINE"
-msgstr ""
+msgstr "CLORO"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_2548
 msgid "CHLORINE PENTAFLUORIDE"
-msgstr ""
+msgstr "PENTAFLUORURO DE CLORO"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_1749
 msgid "CHLORINE TRIFLUORIDE"
-msgstr ""
+msgstr "TRIFLUORURO DE CLORO"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_3520
 msgid "CHLORINE, ADSORBED"
-msgstr ""
+msgstr "CLORO, ADSORBIDO"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_1908_1L
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_1908_5L
 msgid "CHLORITE SOLUTION"
-msgstr ""
+msgstr "SOLUCIÓN DE CLORITO"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_1462
 msgid "CHLORITES, INORGANIC, N.O.S."
-msgstr ""
+msgstr "CLORITOS, INORGÁNICOS, N.E.P."
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_1750
 msgid "CHLOROACETIC ACID SOLUTION"
-msgstr ""
+msgstr "SOLUCIÓN DE ÁCIDO CLOROACÉTICO"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_3250
 msgid "CHLOROACETIC ACID, MOLTEN"
-msgstr ""
+msgstr "ÁCIDO CLOROACÉTICO FUNDIDO"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_1751
 msgid "CHLOROACETIC ACID, SOLID"
-msgstr ""
+msgstr "ÁCIDO CLOROACÉTICO, SÓLIDO"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_3416
 msgid "CHLOROACETO-PHENONE, LIQUID"
-msgstr ""
+msgstr "CLOROACETOFENONA, LÍQUIDA"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_1695
 msgid "CHLOROACETONE, STABILIZED"
-msgstr ""
+msgstr "CLOROACETONA, ESTABILIZADA"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_2668
 msgid "CHLOROACETONITRILE"
-msgstr ""
+msgstr "CLOROACETONITRILO"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_1697
 msgid "CHLOROACETOPHENONE, SOLID"
-msgstr ""
+msgstr "CLOROACETOFENONA, SÓLIDO"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_1752
 msgid "CHLOROACETYL CHLORIDE"
-msgstr ""
+msgstr "CLORURO DE CLOROACETILO"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_2019
 msgid "CHLOROANILINES, LIQUID"
-msgstr ""
+msgstr "CLOROANILINAS, LÍQUIDO"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_2018
 msgid "CHLOROANILINES, SOLID"
-msgstr ""
+msgstr "CLOROANILINAS, SÓLIDO"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_2233
 msgid "CHLOROANISIDINES"
-msgstr ""
+msgstr "CLOROANISIDINAS"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_1134
