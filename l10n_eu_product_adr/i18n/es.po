@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 14.0\n"
 "Report-Msgid-Bugs-To: \n"
-"PO-Revision-Date: 2024-01-24 14:36+0000\n"
+"PO-Revision-Date: 2024-01-25 00:08+0000\n"
 "Last-Translator: Ivorra78 <informatica@totmaterial.es>\n"
 "Language-Team: none\n"
 "Language: es\n"
@@ -10747,75 +10747,77 @@ msgid ""
 "PYRETHROID PESTICIDE, LIQUID, TOXIC, FLAMMABLE, flash-point not less than 23"
 " °C"
 msgstr ""
+"PLAGUICIDA PIRÉTRICO, LÍQUIDO, TÓXICO, INFLAMABLE, punto de inflamación no "
+"inferior a 23 °C"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_3349
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_3349_500g
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_3349_5kg
 msgid "PYRETHROID PESTICIDE, SOLID, TOXIC"
-msgstr ""
+msgstr "PESTICIDA PIRETROIDE, SÓLIDO, TÓXICO"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_1282
 msgid "PYRIDINE"
-msgstr ""
+msgstr "PIRIDINA"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_3194
 msgid "PYROPHORIC LIQUID, INORGANIC, N.O.S."
-msgstr ""
+msgstr "LÍQUIDO PIROFÓRICO, INORGÁNICO, N.E.P."
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_2845
 msgid "PYROPHORIC LIQUID, ORGANIC, N.O.S."
-msgstr ""
+msgstr "LÍQUIDO PIROFÓRICO, ORGÁNICO, N.E.P."
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_1383
 msgid "PYROPHORIC METAL, N.O.S. or PYROPHORIC ALLOY, N.O.S."
-msgstr ""
+msgstr "METAL PIRÓFORO, N.E.P. o ALEACIÓN PIRÓFORO, N.E.P."
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_3200
 msgid "PYROPHORIC SOLID, INORGANIC, N.O.S."
-msgstr ""
+msgstr "SÓLIDO PIROFÓRICO, INORGÁNICO, N.E.P."
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_2846
 msgid "PYROPHORIC SOLID, ORGANIC, N.O.S."
-msgstr ""
+msgstr "SÓLIDO PIROFÓRICO, ORGÁNICO, N.E.P."
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_1817
 msgid "PYROSULPHURYL CHLORIDE"
-msgstr ""
+msgstr "CLORURO DE PIROSULFURILO"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_1922
 msgid "PYRROLIDINE"
-msgstr ""
+msgstr "PIRROLIDINA"
 
 #. module: l10n_eu_product_adr
 #: model:ir.model.fields,field_description:l10n_eu_product_adr.field_adr_goods__packing_instruction_ids
 #: model:ir.model.fields,field_description:l10n_eu_product_adr.field_product_product__adr_packing_instruction_ids
 #: model:ir.model.fields,field_description:l10n_eu_product_adr.field_product_template__adr_packing_instruction_ids
 msgid "Packing Instructions"
-msgstr ""
+msgstr "Instrucciones de Embalaje"
 
 #. module: l10n_eu_product_adr
 #: model:ir.model,name:l10n_eu_product_adr.model_product_product
 msgid "Product"
-msgstr ""
+msgstr "Producto"
 
 #. module: l10n_eu_product_adr
 #: model:ir.model,name:l10n_eu_product_adr.model_product_template
 msgid "Product Template"
-msgstr ""
+msgstr "Plantilla del Producto"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_2656
 msgid "QUINOLINE"
-msgstr ""
+msgstr "QUINOLINA"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_2909
@@ -10823,21 +10825,23 @@ msgid ""
 "RADIOACTIVE MATERIAL, EXCEPTED PACKAGE - ARTICLES MANUFACTURED FROM NATURAL "
 "URANIUM or DEPLETED URANIUM or NATURAL THORIUM"
 msgstr ""
+"MATERIAL RADIOACTIVO, ENVASE EXCEPTO - ARTÍCULOS FABRICADOS A PARTIR DE "
+"URANIO NATURAL o URANIO DEPURADO o TORIO NATURAL"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_2908
 msgid "RADIOACTIVE MATERIAL, EXCEPTED PACKAGE - EMPTY PACKAGING"
-msgstr ""
+msgstr "MATERIA RADIACTIVA, BULTO EXCEPTUADO - EMBALAJE VACÍO"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_2911
 msgid "RADIOACTIVE MATERIAL, EXCEPTED PACKAGE - INSTRUMENTS or ARTICLES"
-msgstr ""
+msgstr "MATERIAL RADIOACTIVO, EMBALAJE EXCEPTO - INSTRUMENTOS o ARTÍCULOS"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_2910
 msgid "RADIOACTIVE MATERIAL, EXCEPTED PACKAGE - LIMITED QUANTITY OF MATERIAL"
-msgstr ""
+msgstr "MATERIAL RADIACTIVO, BULTO EXCEPTUADO - CANTIDAD LIMITADA DE MATERIAL"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_2912
@@ -10845,11 +10849,13 @@ msgid ""
 "RADIOACTIVE MATERIAL, LOW SPECIFIC ACTIVITY (LSA-I), non fissile or fissile-"
 "excepted"
 msgstr ""
+"MATERIAL RADIACTIVO, BAJA ACTIVIDAD ESPECÍFICA (LSA-I), no fisible o fisible-"
+"excepto"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_3324
 msgid "RADIOACTIVE MATERIAL, LOW SPECIFIC ACTIVITY (LSA-II), FISSILE"
-msgstr ""
+msgstr "MATERIAL RADIACTIVO, BAJA ACTIVIDAD ESPECÍFICA (LSA-II), FISIONABLE"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_3321
@@ -10857,6 +10863,8 @@ msgid ""
 "RADIOACTIVE MATERIAL, LOW SPECIFIC ACTIVITY (LSA-II), non fissile or "
 "fissile-excepted"
 msgstr ""
+"MATERIAL RADIACTIVO, BAJA ACTIVIDAD ESPECÍFICA (LSA-II), no fisible o "
+"fisible-excepto"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_3322
@@ -10864,11 +10872,13 @@ msgid ""
 "RADIOACTIVE MATERIAL, LOW SPECIFIC ACTIVITY (LSA-III), non fissile or "
 "fissile-excepted"
 msgstr ""
+"MATERIAL RADIACTIVO, BAJA ACTIVIDAD ESPECÍFICA (LSA-III), no fisible o "
+"fisible-excepto"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_3325
 msgid "RADIOACTIVE MATERIAL, LOW SPECIFIC ACTIVITY, (LSA-III), FISSILE"
-msgstr ""
+msgstr "MATERIAL RADIACTIVO, BAJA ACTIVIDAD ESPECÍFICA, (LSA-III), FISIONABLE"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_3326
@@ -10876,6 +10886,8 @@ msgid ""
 "RADIOACTIVE MATERIAL, SURFACE CONTAMINATED OBJECTS (SCO-I or SCO-II), "
 "FISSILE"
 msgstr ""
+"MATERIAL RADIOACTIVO, OBJETOS CONTAMINADOS EN SUPERFICIE (SCO-I o SCO-II), "
+"FISILES"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_2913
@@ -10883,11 +10895,13 @@ msgid ""
 "RADIOACTIVE MATERIAL, SURFACE CONTAMINATED OBJECTS (SCO-I or SCO-II), non "
 "fissile or fissile-excepted"
 msgstr ""
+"MATERIAL RADIACTIVO, OBJETOS CONTAMINADOS EN SUPERFICIE (SCO-I o SCO-II), no "
+"fisibles o fisibles-exceptuados"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_3331
 msgid "RADIOACTIVE MATERIAL, TRANSPORTED UNDER SPECIAL ARRANGEMENT, FISSILE"
-msgstr ""
+msgstr "MATERIAS RADIACTIVAS, TRANSPORTADAS EN RÉGIMEN ESPECIAL, FISIONABLES"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_2919
@@ -10895,16 +10909,18 @@ msgid ""
 "RADIOACTIVE MATERIAL, TRANSPORTED UNDER SPECIAL ARRANGEMENT, non fissile or "
 "fissile-excepted"
 msgstr ""
+"MATERIAS RADIACTIVAS, TRANSPORTADAS BAJO ACUERDO ESPECIAL, no fisionables o "
+"fisionables exceptuadas"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_3327
 msgid "RADIOACTIVE MATERIAL, TYPE A PACKAGE, FISSILE, non-special form"
-msgstr ""
+msgstr "MATERIAL RADIACTIVO, ENVASE TIPO A, FISIBLE, forma no especial"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_3333
 msgid "RADIOACTIVE MATERIAL, TYPE A PACKAGE, SPECIAL FORM, FISSILE"
-msgstr ""
+msgstr "MATERIAL RADIACTIVO, TIPO A BULTO, FORMA ESPECIAL, FISIONABLE"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_3332
@@ -10912,6 +10928,8 @@ msgid ""
 "RADIOACTIVE MATERIAL, TYPE A PACKAGE, SPECIAL FORM, non fissile or fissile-"
 "excepted"
 msgstr ""
+"MATERIAL RADIACTIVO, ENVASE TIPO A, FORMA ESPECIAL, no fisible o fisible-"
+"excepto"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_2915
@@ -10919,49 +10937,53 @@ msgid ""
 "RADIOACTIVE MATERIAL, TYPE A PACKAGE, non-special form, non fissile or "
 "fissile-excepted"
 msgstr ""
+"MATERIAL RADIACTIVO, ENVASE TIPO A, forma no especial, no fisible o fisible-"
+"excepto"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_3329
 msgid "RADIOACTIVE MATERIAL, TYPE B(M) PACKAGE, FISSILE"
-msgstr ""
+msgstr "MATERIAL RADIACTIVO, BULTO DE TIPO B(M), FISIONABLE"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_2917
 msgid ""
 "RADIOACTIVE MATERIAL, TYPE B(M) PACKAGE, non fissile or fissile-excepted"
-msgstr ""
+msgstr "MATERIAL RADIACTIVO, ENVASE TIPO B(M), no fisible o fisible-exceptuado"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_3328
 msgid "RADIOACTIVE MATERIAL, TYPE B(U) PACKAGE, FISSILE"
-msgstr ""
+msgstr "MATERIAL RADIACTIVO, BULTO DE TIPO B(U), FISIONABLE"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_2916
 msgid ""
 "RADIOACTIVE MATERIAL, TYPE B(U) PACKAGE, non fissile or fissile-excepted"
 msgstr ""
+"MATERIAL RADIACTIVO, ENVASE DE TIPO B(U), no fisible o fisible-exceptuado"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_3330
 msgid "RADIOACTIVE MATERIAL, TYPE C PACKAGE, FISSILE"
-msgstr ""
+msgstr "MATERIAL RADIACTIVO, BULTO TIPO C, FISIONABLE"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_3323
 msgid "RADIOACTIVE MATERIAL, TYPE C PACKAGE, non fissile or fissile-excepted"
-msgstr ""
+msgstr "MATERIAL RADIACTIVO, ENVASE TIPO C, no fisible o fisible-excepto"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_2977
 msgid "RADIOACTIVE MATERIAL, URANIUM HEXAFLUORIDE, FISSILE"
-msgstr ""
+msgstr "MATERIAL RADIACTIVO, HEXAFLUORURO DE URANIO, FISIONABLE"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_2978
 msgid ""
 "RADIOACTIVE MATERIAL, URANIUM HEXAFLUORIDE, non fissile or fissile-excepted"
 msgstr ""
+"MATERIAL RADIACTIVO, HEXAFLÚORURO DE URANIO, no fisible o fisible-excepto"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_2037_5A_2dot2_191/303/344_1L_P003_3
@@ -10977,6 +10999,8 @@ msgid ""
 "RECEPTACLES, SMALL, CONTAINING GAS (GAS CARTRIDGES) without a release "
 "device, non-refillable"
 msgstr ""
+"CONTENEDORES DE GAS (CARTUCHOS DE GAS), PEQUEÑOS, sin dispositivo de "
+"apertura, no rellenables"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_3337
@@ -10985,6 +11009,9 @@ msgid ""
 "1,1,1,2-tetrafluoroethane zeotropic mixture with approximately 44% "
 "pentafluoroethane and 52% 1,1,1-trifluoroethane)"
 msgstr ""
+"GAS REFRIGERANTE R 404A (mezcla zeotrópica de pentafluoroetano, 1,1,1-"
+"trifluoroetano y 1,1,1,2-tetrafluoroetano con aproximadamente un 44% de "
+"pentafluoroetano y un 52% de 1,1,1-trifluoroetano)"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_3338
@@ -10993,6 +11020,9 @@ msgid ""
 "1,1,1,2-tetrafluoroethane zeotropic mixture with approximately 20% "
 "difluoromethane and 40% pentafluoroethane)"
 msgstr ""
+"GAS REFRIGERANTE R 407A (mezcla zeotrópica de difluorometano, "
+"pentafluoroetano y 1,1,1,2-tetrafluoroetano con aproximadamente un 20% de "
+"difluorometano y un 40% de pentafluoroetano)"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_3339
@@ -11001,6 +11031,9 @@ msgid ""
 "1,1,1,2-tetrafluoroethane zeotropic mixture with approximately 10% "
 "difluoromethane and 70% pentafluoroethane)"
 msgstr ""
+"GAS REFRIGERANTE R 407B (mezcla zeotrópica de difluorometano, "
+"pentafluoroetano y 1,1,1,2-tetrafluoroetano con aproximadamente un 10% de "
+"difluorometano y un 70% de pentafluoroetano)"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_3340
@@ -11009,16 +11042,22 @@ msgid ""
 "1,1,1,2-tetrafluoroethane zeotropic mixture with approximately "
 "23%difluoromethane and 25% pentafluoroethane)"
 msgstr ""
+"GAS REFRIGERANTE R 407C (mezcla zeotrópica de difluorometano, "
+"pentafluoroetano y 1,1,1,2-tetrafluoroetano con aproximadamente un 23% de "
+"difluorometano y un 25% de pentafluoroetano)"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_1078
 msgid "REFRIGERANT GAS, N.O.S., such as mixture F1, mixture F2 or mixture F3"
 msgstr ""
+"GAS REFRIGERANTE, N.E.P., como la mezcla F1, la mezcla F2 o la mezcla F3"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_3358
 msgid "REFRIGERATING MACHINES containing flammable, non-toxic, liquefied gas"
 msgstr ""
+"MÁQUINAS REFRIGERADORAS que contengan gases inflamables, no tóxicos y "
+"licuados"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_2857
@@ -11026,17 +11065,19 @@ msgid ""
 "REFRIGERATING MACHINES containing non-flammable, non-toxic gases or ammonia "
 "solutions (UN 2672)"
 msgstr ""
+"MÁQUINAS REFRIGERADORAS que contengan gases no inflamables y no tóxicos o "
+"soluciones de amoníaco (ONU 2672)"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_0173
 msgid "RELEASE DEVICES, EXPLOSIVE"
-msgstr ""
+msgstr "DISPOSITIVOS DE DESACTIVACIÓN, EXPLOSIVOS"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_1866_F1_3_500ml_P001_1
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_1866_F1_3_5L_P001/IBC03/LP01/R001_3
 msgid "RESIN SOLUTION, flammable"
-msgstr ""
+msgstr "SOLUCIÓN DE RESINA, inflamable"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_1866_F1_3_5L_P001/R001_3
@@ -11044,6 +11085,8 @@ msgid ""
 "RESIN SOLUTION, flammable (having a flash-point below 23 °C and viscous "
 "according to 2.2.3.1.4) (vapour pressure at 50 °C more than 110 kPa)"
 msgstr ""
+"RESINA EN SOLUCIÓN, inflamable (con punto de inflamación inferior a 23 °C y "
+"viscosa según 2.2.3.1.4) (presión de vapor a 50 °C superior a 110 kPa)"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_1866_F1_3_5L_P001/IBC02/R001_3
@@ -11051,27 +11094,32 @@ msgid ""
 "RESIN SOLUTION, flammable (having a flash-point below 23 °C and viscous "
 "according to 2.2.3.1.4) (vapour pressure at 50 °C not more than 110 kPa)"
 msgstr ""
+"RESINA EN SOLUCIÓN, inflamable (con punto de inflamación inferior a 23 °C y "
+"viscosa según 2.2.3.1.4) (presión de vapor a 50 °C no superior a 110 kPa)"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_1866_F1_3_640C_5L_P001_2
 msgid "RESIN SOLUTION, flammable (vapour pressure at 50 °C more than 110 kPa)"
 msgstr ""
+"SOLUCIÓN DE RESINA, inflamable (presión de vapor a 50 °C superior a 110 kPa)"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_1866_F1_3_640D_5L_P001/IBC02/R001_2
 msgid ""
 "RESIN SOLUTION, flammable (vapour pressure at 50 °C not more than 110 kPa)"
 msgstr ""
+"SOLUCIÓN DE RESINA, inflamable (presión de vapor a 50 °C no superior a 110 "
+"kPa)"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_2876
 msgid "RESORCINOL"
-msgstr ""
+msgstr "RESORCINOL"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_0174
 msgid "RIVETS, EXPLOSIVE"
-msgstr ""
+msgstr "REMACHES, EXPLOSIVOS"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_0186
@@ -11079,19 +11127,20 @@ msgstr ""
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_0281
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_0510
 msgid "ROCKET MOTORS"
-msgstr ""
+msgstr "MOTORES COHETE"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_0250
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_0322
 msgid "ROCKET MOTORS WITH HYPERGOLIC LIQUIDS with or without expelling charge"
 msgstr ""
+"MOTORES DE COHETE CON LÍQUIDOS HIPERGÓLICOS con o sin carga de expulsión"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_0395
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_0396
 msgid "ROCKET MOTORS, LIQUID FUELLED"
-msgstr ""
+msgstr "MOTORES DE COHETES DE COMBUSTIBLE LÍQUIDO"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_0180
@@ -11099,38 +11148,38 @@ msgstr ""
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_0182
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_0295
 msgid "ROCKETS with bursting charge"
-msgstr ""
+msgstr "COHETES con carga explosiva"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_0436
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_0437
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_0438
 msgid "ROCKETS with expelling charge"
-msgstr ""
+msgstr "COHETES con carga de expulsión"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_0183
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_0502
 msgid "ROCKETS with inert head"
-msgstr ""
+msgstr "COHETES con cabeza inerte"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_0238
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_0240
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_0453
 msgid "ROCKETS, LINE-THROWING"
-msgstr ""
+msgstr "COHETES, LÍNEA DE LANZAMIENTO"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_0397
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_0398
 msgid "ROCKETS, LIQUID FUELLED with bursting charge"
-msgstr ""
+msgstr "COHETES, COMBUSTIBLE LÍQUIDO con carga explosiva"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_1286_F1_3_5L_P001/IBC03/LP01/R001_3
 msgid "ROSIN OIL"
-msgstr ""
+msgstr "ACEITE DE RESINA"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_1286_F1_3_5L_P001/R001_3
@@ -11138,6 +11187,8 @@ msgid ""
 "ROSIN OIL (having a flash-point below 23 °C and viscous according to "
 "2.2.3.1.4) (vapour pressure at 50 °C more than 110 kPa)"
 msgstr ""
+"ACEITE DE RESINA (que tenga un punto de inflamación inferior a 23 °C y "
+"viscoso según 2.2.3.1.4) (presión de vapor a 50 °C superior a 110 kPa)"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_1286_F1_3_5L_P001/IBC02/R001_3
@@ -11145,26 +11196,28 @@ msgid ""
 "ROSIN OIL (having a flash-point below 23 °C and viscous according to "
 "2.2.3.1.4) (vapour pressure at 50 °C not more than 110 kPa)"
 msgstr ""
+"ACEITE DE RESINA (que tenga un punto de inflamación inferior a 23 °C y "
+"viscoso según 2.2.3.1.4) (presión de vapor a 50 °C no superior a 110 kPa)"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_1286_F1_3_640C_5L_P001_2
 msgid "ROSIN OIL (vapour pressure at 50 °C more than 110 kPa)"
-msgstr ""
+msgstr "ACEITE DE RESINA (presión de vapor a 50 °C superior a 110 kPa)"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_1286_F1_3_640D_5L_P001/IBC02/R001_2
 msgid "ROSIN OIL (vapour pressure at 50 °C not more than 110 kPa)"
-msgstr ""
+msgstr "ACEITE DE RESINA (presión de vapor a 50 °C no superior a 110 kPa)"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_1345
 msgid "RUBBER SCRAP or RUBBER SHODDY, powdered or granulated"
-msgstr ""
+msgstr "CHATARRA DE CAUCHO o CHATARRA DE CAUCHO, en polvo o granulada"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_1287_F1_3_5L_P001/IBC03/LP01/R001_3
 msgid "RUBBER SOLUTION"
-msgstr ""
+msgstr "SOLUCIÓN DE CAUCHO"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_1287_F1_3_5L_P001/R001_3
@@ -11172,6 +11225,8 @@ msgid ""
 "RUBBER SOLUTION (having a flash-point below 23 °C and viscous according to "
 "2.2.3.1.4) (vapour pressure at 50 °C more than 110 kPa)"
 msgstr ""
+"SOLUCIÓN DE CAUCHO (con un punto de inflamación inferior a 23 °C y viscosa "
+"según 2.2.3.1.4) (presión de vapor a 50 °C superior a 110 kPa)"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_1287_F1_3_5L_P001/IBC02/R001_3
@@ -11179,315 +11234,318 @@ msgid ""
 "RUBBER SOLUTION (having a flash-point below 23 °C and viscous according to "
 "2.2.3.1.4) (vapour pressure at 50 °C not more than 110 kPa)"
 msgstr ""
+"SOLUCIÓN DE CAUCHO (con un punto de inflamación inferior a 23 °C y viscosa "
+"según 2.2.3.1.4) (presión de vapor a 50 °C no superior a 110 kPa)"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_1287_F1_3_640C_5L_P001_2
 msgid "RUBBER SOLUTION (vapour pressure at 50 °C more than 110 kPa)"
-msgstr ""
+msgstr "SOLUCIÓN DE CAUCHO (presión de vapor a 50 °C superior a 110 kPa)"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_1287_F1_3_640D_5L_P001/IBC02/R001_2
 msgid "RUBBER SOLUTION (vapour pressure at 50 °C not more than 110 kPa)"
-msgstr ""
+msgstr "SOLUCIÓN DE CAUCHO (presión de vapor a 50 °C no superior a 110 kPa)"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_1423
 msgid "RUBIDIUM"
-msgstr ""
+msgstr "RUBIDIO"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_2678
 msgid "RUBIDIUM HYDROXIDE"
-msgstr ""
+msgstr "HIDRÓXIDO DE RUBIDIO"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_2677_1L
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_2677_5L
 msgid "RUBIDIUM HYDROXIDE SOLUTION"
-msgstr ""
+msgstr "SOLUCIÓN DE HIDRÓXIDO DE RUBIDIO"
 
 #. module: l10n_eu_product_adr
 #: model:adr.class,name:l10n_eu_product_adr.adr_class_7
 msgid "Radioactive material"
-msgstr ""
+msgstr "Material radiactivo"
 
 #. module: l10n_eu_product_adr
 #: model:adr.label,name:l10n_eu_product_adr.adr_label_7A
 msgid "Radioactive material - Category I - WHITE"
-msgstr ""
+msgstr "Material radiactivo - Categoría I - BLANCO"
 
 #. module: l10n_eu_product_adr
 #: model:adr.label,name:l10n_eu_product_adr.adr_label_7B
 msgid "Radioactive material - Category II - YELLOW"
-msgstr ""
+msgstr "Material radiactivo - Categoría II - AMARILLO"
 
 #. module: l10n_eu_product_adr
 #: model:adr.label,name:l10n_eu_product_adr.adr_label_7C
 msgid "Radioactive material - Category III -  YELLOW"
-msgstr ""
+msgstr "Material radiactivo - Categoría III -   AMARILLO"
 
 #. module: l10n_eu_product_adr
 #: model:adr.label,name:l10n_eu_product_adr.adr_label_7E
 msgid "Radioactive material - Fissile material"
-msgstr ""
+msgstr "Material radiactivo - Material fisible"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_1856
 msgid "Rags, oily"
-msgstr ""
+msgstr "Trapos, aceitosos"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_0503
 msgid "SAFETY DEVICES, PYROTECHNIC"
-msgstr ""
+msgstr "DISPOSITIVOS DE SEGURIDAD, PIROTÉCNICOS"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_3268
 msgid "SAFETY DEVICES, electrically initiated"
-msgstr ""
+msgstr "DISPOSITIVOS DE SEGURIDAD, de accionamiento eléctrico"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_0190
 msgid "SAMPLES, EXPLOSIVE, other than initiating explosive"
-msgstr ""
+msgstr "MUESTRAS, EXPLOSIVAS, que no sean de explosivo iniciador"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_1386
 msgid "SEED CAKE with more than 1.5% oil and not more than 11% moisture"
-msgstr ""
+msgstr "PASTEL DE SEMILLAS con más de 1,5% de aceite y no más de 11% de humedad"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_2217
 msgid "SEED CAKE with not more than 1.5% oil and not more than 11% moisture"
 msgstr ""
+"PASTEL DE SEMILLAS con no más de 1,5% de aceite y no más de 11% de humedad"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_2630
 msgid "SELENATES or SELENITES"
-msgstr ""
+msgstr "SELENATOS o SELENITAS"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_1905
 msgid "SELENIC ACID"
-msgstr ""
+msgstr "ÁCIDO SELÉNICO"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_3440
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_3440_100ml
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_3440_5L
 msgid "SELENIUM COMPOUND, LIQUID, N.O.S."
-msgstr ""
+msgstr "COMPUESTO DE SELENIO, LÍQUIDO, N.E.P."
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_3283
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_3283_500g
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_3283_5kg
 msgid "SELENIUM COMPOUND, SOLID, N.O.S."
-msgstr ""
+msgstr "COMPUESTO DE SELENIO, SÓLIDO, N.E.P."
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_2657
 msgid "SELENIUM DISULPHIDE"
-msgstr ""
+msgstr "DISULFURO DE SELENIO"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_2194
 msgid "SELENIUM HEXAFLUORIDE"
-msgstr ""
+msgstr "HEXAFLUORURO DE SELENIO"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_2879
 msgid "SELENIUM OXYCHLORIDE"
-msgstr ""
+msgstr "OXICLORURO DE SELENIO"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_3188_SC3_4dot2/8_274_P001/IBC02/R001_3
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_3188_SC3_4dot2/8_274_P402/IBC02_2
 msgid "SELF-HEATING LIQUID, CORROSIVE, INORGANIC, N.O.S."
-msgstr ""
+msgstr "LÍQUIDO AUTOCALENTABLE, CORROSIVO, INORGÁNICO, N.E.P."
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_3185_SC1_4dot2/8_274_P001/IBC02/R001_3
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_3185_SC1_4dot2/8_274_P402/IBC02_2
 msgid "SELF-HEATING LIQUID, CORROSIVE, ORGANIC, N.O.S."
-msgstr ""
+msgstr "LÍQUIDO AUTOCALENTABLE, CORROSIVO, ORGÁNICO, N.E.P."
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_3186_S3_4dot2_274_P001/IBC02/R001_3
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_3186_S3_4dot2_274_P001/IBC02_2
 msgid "SELF-HEATING LIQUID, INORGANIC, N.O.S."
-msgstr ""
+msgstr "LÍQUIDO AUTOCALENTABLE, INORGÁNICO, N.E.P."
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_3183_S1_4dot2_274_P001/IBC02/R001_3
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_3183_S1_4dot2_274_P001/IBC02_2
 msgid "SELF-HEATING LIQUID, ORGANIC, N.O.S."
-msgstr ""
+msgstr "LÍQUIDO AUTOCALENTABLE, ORGÁNICO, N.E.P."
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_3187_ST3_4dot2/6dot1_274_P001/IBC02/R001_3
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_3187_ST3_4dot2/6dot1_274_P402/IBC02_2
 msgid "SELF-HEATING LIQUID, TOXIC, INORGANIC, N.O.S."
-msgstr ""
+msgstr "LÍQUIDO AUTOCALENTABLE, TÓXICO, INORGÁNICO, N.E.P."
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_3184_ST1_4dot2/6dot1_274_P001/IBC02/R001_3
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_3184_ST1_4dot2/6dot1_274_P402/IBC02_2
 msgid "SELF-HEATING LIQUID, TOXIC, ORGANIC, N.O.S."
-msgstr ""
+msgstr "LÍQUIDO AUTOCALENTABLE, TÓXICO, ORGÁNICO, N.E.P."
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_3192_SC4_4dot2/8_274_P002/IBC08/R001_3
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_3192_SC4_4dot2/8_274_P410/IBC05_2
 msgid "SELF-HEATING SOLID, CORROSIVE, INORGANIC, N.O.S."
-msgstr ""
+msgstr "SÓLIDO AUTOCALENTABLE, CORROSIVO, INORGÁNICO, N.E.P."
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_3126_SC2_4dot2/8_274_P002/IBC08/R001_3
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_3126_SC2_4dot2/8_274_P410/IBC05_2
 msgid "SELF-HEATING SOLID, CORROSIVE, ORGANIC, N.O.S."
-msgstr ""
+msgstr "SÓLIDO AUTOCALENTABLE, CORROSIVO, ORGÁNICO, N.E.P."
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_3190_S4_4dot2_274_P002/IBC08/LP02/R001_3
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_3190_S4_4dot2_274_P410/IBC06_2
 msgid "SELF-HEATING SOLID, INORGANIC, N.O.S."
-msgstr ""
+msgstr "SÓLIDO INORGÁNICO AUTOCALENTABLE, N.E.P."
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_3088_S2_4dot2_274/665_P002/IBC08/LP02/R001_3
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_3088_S2_4dot2_274_P410/IBC06_2
 msgid "SELF-HEATING SOLID, ORGANIC, N.O.S."
-msgstr ""
+msgstr "SÓLIDO AUTOCALENTABLE, ORGÁNICO, N.E.P."
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_3127
 msgid "SELF-HEATING SOLID, OXIDIZING, N.O.S"
-msgstr ""
+msgstr "SÓLIDO AUTOCALENTABLE, COMBURENTE, N.E.P"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_3191_ST4_4dot2/6dot1_274_P002/IBC08/R001_3
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_3191_ST4_4dot2/6dot1_274_P410/IBC05_2
 msgid "SELF-HEATING SOLID, TOXIC, INORGANIC, N.O.S."
-msgstr ""
+msgstr "SÓLIDO AUTOCALENTABLE, TÓXICO, INORGÁNICO, N.E.P."
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_3128_ST2_4dot2/6dot1_274_P002/IBC08/R001_3
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_3128_ST2_4dot2/6dot1_274_P410/IBC05_2
 msgid "SELF-HEATING SOLID, TOXIC, ORGANIC, N.O.S."
-msgstr ""
+msgstr "SÓLIDO AUTOCALENTABLE, TÓXICO, ORGÁNICO, N.E.P."
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_3221
 msgid "SELF-REACTIVE LIQUID TYPE B"
-msgstr ""
+msgstr "LÍQUIDO AUTORREACTIVO TIPO B"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_3231
 msgid "SELF-REACTIVE LIQUID TYPE B, TEMPERATURE CONTROLLED"
-msgstr ""
+msgstr "LÍQUIDO AUTORREACTIVO TIPO B, TEMPERATURA CONTROLADA"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_3223
 msgid "SELF-REACTIVE LIQUID TYPE C"
-msgstr ""
+msgstr "LÍQUIDO AUTORREACTIVO TIPO C"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_3233
 msgid "SELF-REACTIVE LIQUID TYPE C, TEMPERATURE CONTROLLED"
-msgstr ""
+msgstr "LÍQUIDO AUTORREACTIVO TIPO C, TEMPERATURA CONTROLADA"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_3225
 msgid "SELF-REACTIVE LIQUID TYPE D"
-msgstr ""
+msgstr "LÍQUIDO AUTORREACTIVO TIPO D"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_3235
 msgid "SELF-REACTIVE LIQUID TYPE D, TEMPERATURE CONTROLLED"
-msgstr ""
+msgstr "LÍQUIDO AUTORREACTIVO TIPO D, TEMPERATURA CONTROLADA"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_3227
 msgid "SELF-REACTIVE LIQUID TYPE E"
-msgstr ""
+msgstr "LÍQUIDO AUTORREACTIVO TIPO E"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_3237
 msgid "SELF-REACTIVE LIQUID TYPE E, TEMPERATURE CONTROLLED"
-msgstr ""
+msgstr "LÍQUIDO AUTORREACTIVO TIPO E, TEMPERATURA CONTROLADA"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_3229
 msgid "SELF-REACTIVE LIQUID TYPE F"
-msgstr ""
+msgstr "LÍQUIDO AUTORREACTIVO TIPO F"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_3239
 msgid "SELF-REACTIVE LIQUID TYPE F, TEMPERATURE CONTROLLED"
-msgstr ""
+msgstr "LÍQUIDO AUTORREACTIVO TIPO F, TEMPERATURA CONTROLADA"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_3222
 msgid "SELF-REACTIVE SOLID TYPE B"
-msgstr ""
+msgstr "SÓLIDO AUTORREACTIVO TIPO B"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_3232
 msgid "SELF-REACTIVE SOLID TYPE B, TEMPERATURE CONTROLLED"
-msgstr ""
+msgstr "SÓLIDO AUTORREACTIVO TIPO B, TEMPERATURA CONTROLADA"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_3224
 msgid "SELF-REACTIVE SOLID TYPE C"
-msgstr ""
+msgstr "SÓLIDO AUTORREACTIVO TIPO C"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_3234
 msgid "SELF-REACTIVE SOLID TYPE C, TEMPERATURE CONTROLLED"
-msgstr ""
+msgstr "SÓLIDO AUTORREACTIVO TIPO C, TEMPERATURA CONTROLADA"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_3226
 msgid "SELF-REACTIVE SOLID TYPE D"
-msgstr ""
+msgstr "SÓLIDO AUTORREACTIVO TIPO D"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_3236
 msgid "SELF-REACTIVE SOLID TYPE D, TEMPERATURE CONTROLLED"
-msgstr ""
+msgstr "SÓLIDO AUTORREACTIVO TIPO D, TEMPERATURA CONTROLADA"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_3228
 msgid "SELF-REACTIVE SOLID TYPE E"
-msgstr ""
+msgstr "SÓLIDO AUTORREACTIVO TIPO E"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_3238
 msgid "SELF-REACTIVE SOLID TYPE E, TEMPERATURE CONTROLLED"
-msgstr ""
+msgstr "SÓLIDO AUTORREACTIVO TIPO E, TEMPERATURA CONTROLADA"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_3230
 msgid "SELF-REACTIVE SOLID TYPE F"
-msgstr ""
+msgstr "SÓLIDO AUTORREACTIVO TIPO F"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_3240
 msgid "SELF-REACTIVE SOLID TYPE F, TEMPERATURE CONTROLLED"
-msgstr ""
+msgstr "SÓLIDO AUTORREACTIVO TIPO F, TEMPERATURA CONTROLADA"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_1288_1L
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_1288_5L
 msgid "SHALE OIL"
-msgstr ""
+msgstr "PETRÓLEO DE ESQUISTO"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_0191
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_0373
 msgid "SIGNAL DEVICES, HAND"
-msgstr ""
+msgstr "SEÑALIZADORES, DE MANO"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_0194
@@ -11495,7 +11553,7 @@ msgstr ""
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_0505
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_0506
 msgid "SIGNALS, DISTRESS, ship"
-msgstr ""
+msgstr "SEÑALES, SOCORRO, barco"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_0192
@@ -11503,7 +11561,7 @@ msgstr ""
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_0492
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_0493
 msgid "SIGNALS, RAILWAY TRACK, EXPLOSIVE"
-msgstr ""
+msgstr "SEÑALES, VÍAS DE FERROCARRIL, EXPLOSIVOS"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_0196
@@ -11512,114 +11570,114 @@ msgstr ""
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_0487
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_0507
 msgid "SIGNALS, SMOKE"
-msgstr ""
+msgstr "SEÑALES, HUMO"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_2203
 msgid "SILANE"
-msgstr ""
+msgstr "SILANO"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_1346
 msgid "SILICON POWDER, AMORPHOUS"
-msgstr ""
+msgstr "POLVO DE SILICIO, AMORFO"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_1818
 msgid "SILICON TETRACHLORIDE"
-msgstr ""
+msgstr "TETRACLORURO DE SILICIO"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_1859
 msgid "SILICON TETRAFLUORIDE"
-msgstr ""
+msgstr "TETRAFLUORURO DE SILICIO"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_3521
 msgid "SILICON TETRAFLUORIDE, ADSORBED"
-msgstr ""
+msgstr "TETRAFLUORURO DE SILICIO, ADSORBIDO"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_1683
 msgid "SILVER ARSENITE"
-msgstr ""
+msgstr "ARSENITO DE PLATA"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_1684
 msgid "SILVER CYANIDE"
-msgstr ""
+msgstr "CIANURO DE PLATA"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_1493
 msgid "SILVER NITRATE"
-msgstr ""
+msgstr "NITRATO DE PLATA"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_1347
 msgid "SILVER PICRATE, WETTED with not less than 30% water, by mass"
-msgstr ""
+msgstr "PICRATO DE PLATA, MOJADO con no menos del 30% de agua, en masa"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_1906
 msgid "SLUDGE ACID"
-msgstr ""
+msgstr "ÁCIDO LODADO"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_1907
 msgid "SODA LIME with more than 4% sodium hydroxide"
-msgstr ""
+msgstr "CAL SODA con más del 4% de hidróxido de sodio"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_1428
 msgid "SODIUM"
-msgstr ""
+msgstr "SODIO"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_1819_1L
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_1819_5L
 msgid "SODIUM ALUMINATE SOLUTION"
-msgstr ""
+msgstr "SOLUCIÓN DE ALUMINATO SÓDICO"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_2835
 msgid "SODIUM ALUMINIUM HYDRIDE"
-msgstr ""
+msgstr "HIDRURO DE SODIO Y ALUMINIO"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_2863
 msgid "SODIUM AMMONIUM VANADATE"
-msgstr ""
+msgstr "VANADATO SÓDICO AMÓNICO"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_2473
 msgid "SODIUM ARSANILATE"
-msgstr ""
+msgstr "ARSANILATO SÓDICO"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_1685
 msgid "SODIUM ARSENATE"
-msgstr ""
+msgstr "ARSENIATO SÓDICO"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_1686_100ml
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_1686_5L
 msgid "SODIUM ARSENITE, AQUEOUS SOLUTION"
-msgstr ""
+msgstr "ARSENITO SÓDICO, SOLUCIÓN ACUOSA"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_2027
 msgid "SODIUM ARSENITE, SOLID"
-msgstr ""
+msgstr "ARSENITO DE SODIO, SÓLIDO"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_1687
 msgid "SODIUM AZIDE"
-msgstr ""
+msgstr "AZIDA SÓDICA"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_1426
 msgid "SODIUM BOROHYDRIDE"
-msgstr ""
+msgstr "BOROHIDRURO SÓDICO"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_3320_1L
@@ -11628,222 +11686,228 @@ msgid ""
 "SODIUM BOROHYDRIDE AND SODIUM HYDROXIDE SOLUTION, with not more than 12% "
 "sodium borohydride and not more than 40% sodium hydroxide by mass"
 msgstr ""
+"BOROHIDRURO DE SODIO E HIDRÓXIDO DE SODIO EN SOLUCIÓN, con no más del 12% en "
+"masa de borohidruro de sodio y no más del 40% en masa de hidróxido de sodio"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_1494
 msgid "SODIUM BROMATE"
-msgstr ""
+msgstr "BROMATO DE SODIO"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_1688
 msgid "SODIUM CACODYLATE"
-msgstr ""
+msgstr "CACODILATO SÓDICO"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_3378_1kg
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_3378_5kg
 msgid "SODIUM CARBONATE PEROXYHYDRATE"
-msgstr ""
+msgstr "CARBONATO SÓDICO PEROXIDRATADO"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_1495
 msgid "SODIUM CHLORATE"
-msgstr ""
+msgstr "CLORATO SÓDICO"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_2428_1L
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_2428_5L
 msgid "SODIUM CHLORATE, AQUEOUS SOLUTION"
-msgstr ""
+msgstr "CLORATO SÓDICO, SOLUCIÓN ACUOSA"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_1496
 msgid "SODIUM CHLORITE"
-msgstr ""
+msgstr "CLORITO SÓDICO"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_2659
 msgid "SODIUM CHLOROACETATE"
-msgstr ""
+msgstr "CLOROACETATO SÓDICO"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_2317
 msgid "SODIUM CUPROCYANIDE SOLUTION"
-msgstr ""
+msgstr "SOLUCIÓN DE CUPROCIANURO SÓDICO"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_2316
 msgid "SODIUM CUPROCYANIDE, SOLID"
-msgstr ""
+msgstr "CUPROCIANURO SÓDICO, SÓLIDO"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_3414
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_3414_100ml
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_3414_5L
 msgid "SODIUM CYANIDE SOLUTION"
-msgstr ""
+msgstr "CUPROCIANIDA SÓDICA, SÓLIDA"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_1689
 msgid "SODIUM CYANIDE, SOLID"
-msgstr ""
+msgstr "CIANURO SÓDICO, SÓLIDO"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_3369
 msgid ""
 "SODIUM DINITRO-o-CRESOLATE, WETTED with not less than 10% water, by mass"
 msgstr ""
+"DINITRO-o-CRESOLATE DE SODIO, MOJADO con no menos del 10% de agua, en masa"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_1348
 msgid ""
 "SODIUM DINITRO-o-CRESOLATE, WETTED with not less than 15% water, by mass"
 msgstr ""
+"DINITRO-o-CRESOLATE DE SODIO, MOJADO con no menos del 15% de agua, en masa"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_0234
 msgid ""
 "SODIUM DINITRO-o-CRESOLATE, dry or wetted with less than 15% water, by mass"
 msgstr ""
+"DINITRO-o-CRESOLATE DE SODIO, seco o humedecido con menos del 15% de agua, "
+"en masa"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_1384
 msgid "SODIUM DITHIONITE (SODIUM HYDROSULPHITE)"
-msgstr ""
+msgstr "DITIONITO SÓDICO (HIDROSULFITO SÓDICO)"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_3415
 msgid "SODIUM FLUORIDE SOLUTION"
-msgstr ""
+msgstr "SOLUCIÓN DE FLUORURO SÓDICO"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_1690
 msgid "SODIUM FLUORIDE, SOLID"
-msgstr ""
+msgstr "FLUORURO DE SODIO, SÓLIDO"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_2629
 msgid "SODIUM FLUOROACETATE"
-msgstr ""
+msgstr "FLUOROACETATO SÓDICO"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_2674
 msgid "SODIUM FLUOROSILICATE"
-msgstr ""
+msgstr "FLUOROSILICATO DE SODIO"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_1427
 msgid "SODIUM HYDRIDE"
-msgstr ""
+msgstr "HIDRURO DE SODIO"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_2439
 msgid "SODIUM HYDROGENDIFLUORIDE"
-msgstr ""
+msgstr "HIDROGENDIFLUORURO SÓDICO"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_2318
 msgid "SODIUM HYDROSULPHIDE with less than 25% water of crystallization"
-msgstr ""
+msgstr "HIDROSULFURO DE SODIO con menos del 25% de agua de cristalización"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_2949
 msgid ""
 "SODIUM HYDROSULPHIDE, HYDRATED with not less than 25% water of "
 "crystallization"
-msgstr ""
+msgstr "HIDROSULFURO DE SODIO con menos del 25% de agua de cristalización"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_1824_1L
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_1824_5L
 msgid "SODIUM HYDROXIDE SOLUTION"
-msgstr ""
+msgstr "SOLUCIÓN DE HIDRÓXIDO SÓDICO"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_1823
 msgid "SODIUM HYDROXIDE, SOLID"
-msgstr ""
+msgstr "HIDRÓXIDO DE SODIO, SÓLIDO"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_1431
 msgid "SODIUM METHYLATE"
-msgstr ""
+msgstr "METILATO SÓDICO"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_1289_1L
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_1289_5L
 msgid "SODIUM METHYLATE SOLUTION in alcohol"
-msgstr ""
+msgstr "SOLUCIÓN DE METILATO DE SODIO en alcohol"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_1825
 msgid "SODIUM MONOXIDE"
-msgstr ""
+msgstr "MONÓXIDO DE SODIO"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_1498
 msgid "SODIUM NITRATE"
-msgstr ""
+msgstr "NITRATO DE SODIO"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_1499
 msgid "SODIUM NITRATE AND POTASSIUM NITRATE MIXTURE"
-msgstr ""
+msgstr "MEZCLA DE NITRATO DE SODIO Y NITRATO DE POTASIO"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_1500
 msgid "SODIUM NITRITE"
-msgstr ""
+msgstr "NITRITO DE SODIO"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_2567
 msgid "SODIUM PENTACHLOROPHENATE"
-msgstr ""
+msgstr "PENTACLOROFENATO DE SODIO"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_3377
 msgid "SODIUM PERBORATE MONOHYDRATE"
-msgstr ""
+msgstr "PERBORATO SÓDICO MONOHIDRATADO"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_1502
 msgid "SODIUM PERCHLORATE"
-msgstr ""
+msgstr "PERCLORATO SÓDICO"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_1503
 msgid "SODIUM PERMANGANATE"
-msgstr ""
+msgstr "PERMANGANATO SÓDICO"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_1504
 msgid "SODIUM PEROXIDE"
-msgstr ""
+msgstr "PERÓXIDO DE SODIO"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_3247
 msgid "SODIUM PEROXOBORATE, ANHYDROUS"
-msgstr ""
+msgstr "PEROXOBORATO DE SODIO, ANHIDRO"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_1505
 msgid "SODIUM PERSULPHATE"
-msgstr ""
+msgstr "PERSULFATO SÓDICO"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_1432
 msgid "SODIUM PHOSPHIDE"
-msgstr ""
+msgstr "FOSFURO SÓDICO"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_1349
 msgid "SODIUM PICRAMATE, WETTED with not less than 20% water, by mass"
-msgstr ""
+msgstr "PICRAMATE SÓDICO, HUMEDECIDO con no menos del 20% de agua, en masa"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_0235
 msgid "SODIUM PICRAMATE, dry or wetted with less than 20% water, by mass"
-msgstr ""
+msgstr "PICRAMATE SÓDICO, seco o humedecido con menos del 20% de agua, en masa"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_1385
@@ -11851,26 +11915,28 @@ msgid ""
 "SODIUM SULPHIDE, ANHYDROUS or SODIUM SULPHIDE with less than 30% water of "
 "crystallization"
 msgstr ""
+"Sulfuro de sodio anhidro o sulfuro de sodio con menos del 30% de agua de "
+"cristalización"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_1849
 msgid "SODIUM SULPHIDE, HYDRATED with not less than 30% water"
-msgstr ""
+msgstr "Sulfuro de sodio, hidratado con no menos del 30% de agua"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_2547
 msgid "SODIUM SUPEROXIDE"
-msgstr ""
+msgstr "SUPERÓXIDO DE SODIO"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_3244
 msgid "SOLIDS CONTAINING CORROSIVE LIQUID, N.O.S."
-msgstr ""
+msgstr "SÓLIDOS QUE CONTIENEN LÍQUIDO CORROSIVO, N.E.P."
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_3243
 msgid "SOLIDS CONTAINING TOXIC LIQUID, N.O.S."
-msgstr ""
+msgstr "SÓLIDOS QUE CONTIENEN LÍQUIDO TÓXICO, N.E.P."
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_3175
@@ -11878,6 +11944,9 @@ msgid ""
 "SOLIDS or mixtures of solids (such as preparations and wastes) CONTAINING "
 "FLAMMABLE LIQUID, N.O.S. having a flash-point up to 60 °C"
 msgstr ""
+"SÓLIDOS o mezclas de sólidos (tales como preparados y residuos) QUE "
+"CONTENGAN LÍQUIDO INFLAMABLE, N.E.P. con un punto de inflamación de hasta 60 "
+"°C"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_0204
@@ -11885,67 +11954,67 @@ msgstr ""
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_0374
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_0375
 msgid "SOUNDING DEVICES, EXPLOSIVE"
-msgstr ""
+msgstr "DISPOSITIVOS DE SONDEO, EXPLOSIVOS"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_2440
 msgid "STANNIC CHLORIDE PENTAHYDRATE"
-msgstr ""
+msgstr "CLORURO ESTÁNICO PENTAHIDRATADO"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_1827
 msgid "STANNIC CHLORIDE, ANHYDROUS"
-msgstr ""
+msgstr "CLORURO ESTÁNICO, ANHIDRO"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_1433
 msgid "STANNIC PHOSPHIDES"
-msgstr ""
+msgstr "FOSFUROS ESTÁNICOS"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_2676
 msgid "STIBINE"
-msgstr ""
+msgstr "ESTIBINA"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_1691
 msgid "STRONTIUM ARSENITE"
-msgstr ""
+msgstr "ARSENITO DE ESTRONCIO"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_1506
 msgid "STRONTIUM CHLORATE"
-msgstr ""
+msgstr "CLORATO DE ESTRONCIO"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_1507
 msgid "STRONTIUM NITRATE"
-msgstr ""
+msgstr "NITRATO DE ESTRONCIO"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_1508
 msgid "STRONTIUM PERCHLORATE"
-msgstr ""
+msgstr "PERCLORATO DE ESTRONCIO"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_1509
 msgid "STRONTIUM PEROXIDE"
-msgstr ""
+msgstr "PERÓXIDO DE ESTRONCIO"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_2013
 msgid "STRONTIUM PHOSPHIDE"
-msgstr ""
+msgstr "FOSFURO DE ESTRONCIO"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_1692
 msgid "STRYCHNINE or STRYCHNINE SALTS"
-msgstr ""
+msgstr "ESTRICNINA o SALES DE ESTRICNINA"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_2055
 msgid "STYRENE MONOMER, STABILIZED"
-msgstr ""
+msgstr "MONÓMERO DE ESTIRENO ESTABILIZADO"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_0357
@@ -11962,12 +12031,12 @@ msgstr ""
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_0481
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_0485
 msgid "SUBSTANCES, EXPLOSIVE, N.O.S."
-msgstr ""
+msgstr "SUSTANCIAS EXPLOSIVAS, N.E.P."
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_0482
 msgid "SUBSTANCES, EXPLOSIVE, VERY INSENSITIVE (SUBSTANCES, EVI), N.O.S."
-msgstr ""
+msgstr "SUSTANCIAS, EXPLOSIVAS, MUY INSENSIBLES (SUSTANCIAS, EVI), N.E.P."
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_2780
@@ -11976,13 +12045,15 @@ msgid ""
 "SUBSTITUTED NITROPHENOL PESTICIDE, LIQUID, FLAMMABLE, TOXIC, flash-point "
 "less than 23 °C"
 msgstr ""
+"PESTICIDA DE NITROFENOL SUSTITUIDO, LÍQUIDO, INFLAMABLE, TÓXICO, punto de "
+"inflamación inferior a 23 °C"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_3014
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_3014_100ml
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_3014_5L
 msgid "SUBSTITUTED NITROPHENOL PESTICIDE, LIQUID, TOXIC"
-msgstr ""
+msgstr "NITROFENOL SUSTITUIDO PLAGUICIDA, LÍQUIDO, TÓXICO"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_3013
@@ -11992,119 +12063,122 @@ msgid ""
 "SUBSTITUTED NITROPHENOL PESTICIDE, LIQUID, TOXIC, FLAMMABLE, flash-point not"
 " less than 23 °C"
 msgstr ""
+"PESTICIDA DE NITROFENOL SUSTITUIDO, LÍQUIDO, TÓXICO, INFLAMABLE, punto de "
+"inflamación no inferior a 23 °C"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_2779
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_2779_500g
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_2779_5kg
 msgid "SUBSTITUTED NITROPHENOL PESTICIDE, SOLID, TOXIC"
-msgstr ""
+msgstr "PLAGUICIDA NITROFENOL SUSTITUIDO, SÓLIDO, TÓXICO"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_2967
 msgid "SULPHAMIC ACID"
-msgstr ""
+msgstr "ÁCIDO SULFÁMICO"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_1350
 msgid "SULPHUR"
-msgstr ""
+msgstr "SULFURO"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_1828
 msgid "SULPHUR CHLORIDES"
-msgstr ""
+msgstr "CLORUROS DE AZUFRE"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_1079
 msgid "SULPHUR DIOXIDE"
-msgstr ""
+msgstr "DIÓXIDO DE AZUFRE"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_1080
 msgid "SULPHUR HEXAFLUORIDE"
-msgstr ""
+msgstr "HEXAFLUORURO DE AZUFRE"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_2418
 msgid "SULPHUR TETRAFLUORIDE"
-msgstr ""
+msgstr "TETRAFLUORURO DE AZUFRE"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_1829
 msgid "SULPHUR TRIOXIDE, STABILIZED"
-msgstr ""
+msgstr "TRIÓXIDO DE AZUFRE, ESTABILIZADO"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_2448
 msgid "SULPHUR, MOLTEN"
-msgstr ""
+msgstr "AZUFRE FUNDIDO"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_1830
 msgid "SULPHURIC ACID with more than 51% acid"
-msgstr ""
+msgstr "ÁCIDO SULFÚRICO con más del 51% de ácido"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_2796
 msgid "SULPHURIC ACID with not more than 51% acid or BATTERY FLUID, ACID"
-msgstr ""
+msgstr "ÁCIDO SULFÚRICO con no más del 51% de ácido o LÍQUIDO DE BATERÍA, ÁCIDO"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_1831
 msgid "SULPHURIC ACID, FUMING"
-msgstr ""
+msgstr "ÁCIDO SULFÚRICO HUMEANTE"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_1832
 msgid "SULPHURIC ACID, SPENT"
-msgstr ""
+msgstr "ÁCIDO SULFÚRICO, USADO"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_1833
 msgid "SULPHUROUS ACID"
-msgstr ""
+msgstr "ÁCIDO SULFUROSO"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_1834
 msgid "SULPHURYL CHLORIDE"
-msgstr ""
+msgstr "CLORURO DE SULFURILO"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_2191
 msgid "SULPHURYL FLUORIDE"
-msgstr ""
+msgstr "FLUORURO DE SULFURILO"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_2812
 msgid "Sodium aluminate, solid"
-msgstr ""
+msgstr "Aluminato sódico, sólido"
 
 #. module: l10n_eu_product_adr
 #: model:adr.label,name:l10n_eu_product_adr.adr_label_4_2
 msgid "Spontaneously combustibles"
-msgstr ""
+msgstr "Combustibles espontáneos"
 
 #. module: l10n_eu_product_adr
 #: model:ir.model,name:l10n_eu_product_adr.model_stock_move
 msgid "Stock Move"
-msgstr ""
+msgstr "Movimiento de existencias"
 
 #. module: l10n_eu_product_adr
 #: model:adr.class,name:l10n_eu_product_adr.adr_class_4_2
 msgid "Substances liable to spontaneous combustion"
-msgstr ""
+msgstr "Sustancias susceptibles de combustión espontánea"
 
 #. module: l10n_eu_product_adr
 #: model:adr.class,name:l10n_eu_product_adr.adr_class_4_3
 #: model:adr.label,name:l10n_eu_product_adr.adr_label_4_3
 msgid "Substances which, in contact with water, emit flammable gases"
-msgstr ""
+msgstr "Sustancias que, en contacto con el agua, emiten gases inflamables"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_1999_F1_3_5L_P001/IBC03/LP01/R001_3
 msgid "TARS, LIQUID, including road oils, and cutback bitumens"
 msgstr ""
+"TARS LÍQUIDOS, incluidos los aceites de carretera y los betunes de desecho"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_1999_F1_3_5L_P001/IBC02/R001_3
@@ -12113,6 +12187,9 @@ msgid ""
 "point below 23 °C and viscous according to 2.2.3.1.4)  (vapour pressure at "
 "50 °C not more than 110 kPa)"
 msgstr ""
+"TARS LÍQUIDOS, incluidos los aceites de carretera y los betunes de "
+"destilación (con un punto de inflamación inferior a 23 °C y viscosos con "
+"arreglo a 2.2.3.1.4) (presión de vapor a 50 °C no superior a 110 kPa)"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_1999_F1_3_5L_P001/R001_3
@@ -12121,6 +12198,9 @@ msgid ""
 "point below 23 °C and viscous according to 2.2.3.1.4) (vapour pressure at 50"
 " °C more than 110 kPa)"
 msgstr ""
+"TARS LÍQUIDOS, incluidos los aceites de carretera y los betunes de "
+"destilación (con un punto de inflamación inferior a 23 °C y viscosos con "
+"arreglo a 2.2.3.1.4) (presión de vapor a 50 °C superior a 110 kPa)"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_1999_F1_3_640C_5L_P001_2
@@ -12128,6 +12208,8 @@ msgid ""
 "TARS, LIQUID, including road oils, and cutback bitumens (vapour pressure at "
 "50 °C more than 110 kPa)"
 msgstr ""
+"TARS LÍQUIDOS, incluidos los aceites de carretera y los betunes de desecho ("
+"presión de vapor a 50 °C superior a 110 kPa)"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_1999_F1_3_640D_5L_P001/IBC02/R001_2
@@ -12135,50 +12217,52 @@ msgid ""
 "TARS, LIQUID, including road oils, and cutback bitumens (vapour pressure at "
 "50 °C not more than 110 kPa)"
 msgstr ""
+"TARS, LÍQUIDO, incluidos los aceites de carretera y los betunes de desecho ("
+"presión de vapor a 50 °C no superior a 110 kPa)"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_1700
 msgid "TEAR GAS CANDLES"
-msgstr ""
+msgstr "VELAS DE GAS LACRIMÓGENO"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_1693_T1_6dot1_274_P001/IBC02_2
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_1693_T1_6dot1_274_P001_1
 msgid "TEAR GAS SUBSTANCE, LIQUID, N.O.S."
-msgstr ""
+msgstr "SUSTANCIA LACRIMÓGENA, LÍQUIDA, N.E.P."
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_3448_T2_6dot1_274_P002/IBC08_2
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_3448_T2_6dot1_274_P002_1
 msgid "TEAR GAS SUBSTANCE, SOLID, N.O.S."
-msgstr ""
+msgstr "SUSTANCIA LACRIMÓGENA, SÓLIDA, N.E.P."
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_3284
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_3284_500g
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_3284_5kg
 msgid "TELLURIUM COMPOUND, N.O.S."
-msgstr ""
+msgstr "COMPUESTO DE TELURIO, N.E.P."
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_2195
 msgid "TELLURIUM HEXAFLUORIDE"
-msgstr ""
+msgstr "HEXAFLUORURO DE TELURO"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_2319
 msgid "TERPENE HYDROCARBONS, N.O.S."
-msgstr ""
+msgstr "HIDROCARBUROS TERPÉNICOS, N.E.P."
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_2541
 msgid "TERPINOLENE"
-msgstr ""
+msgstr "TERPINOLENO"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_2504
 msgid "TETRABROMOETHANE"
-msgstr ""
+msgstr "TETRABROMOETANO"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_1897
@@ -12779,68 +12863,68 @@ msgstr ""
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_1296
 msgid "TRIETHYLAMINE"
-msgstr ""
+msgstr "TRIETILAMINA"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_2259
 msgid "TRIETHYLENETETRAMINE"
-msgstr ""
+msgstr "TRIETILENTETRAMINA"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_2699
 msgid "TRIFLUOROACETIC ACID"
-msgstr ""
+msgstr "ÁCIDO TRIFLUOROACÉTICO"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_3057
 msgid "TRIFLUOROACETYL CHLORIDE"
-msgstr ""
+msgstr "CLORURO DE TRIFLUOROACETILO"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_1082
 msgid "TRIFLUOROCHLORO-ETHYLENE, STABILIZED (REFRIGERANT GAS R 1113)"
-msgstr ""
+msgstr "TRIFLUOROCLOROETILENO, ESTABILIZADO (GAS REFRIGERANTE R 1113)"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_1984
 msgid "TRIFLUOROMETHANE (REFRIGERANT GAS R 23)"
-msgstr ""
+msgstr "TRIFLUOROMETANO (GAS REFRIGERANTE R 23)"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_3136
 msgid "TRIFLUOROMETHANE, REFRIGERATED LIQUID"
-msgstr ""
+msgstr "TRIFLUOROMETANO, LÍQUIDO REFRIGERADO"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_2324
 msgid "TRIISOBUTYLENE"
-msgstr ""
+msgstr "TRIISOBUTILENO"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_2616_1L
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_2616_5L
 msgid "TRIISOPROPYL BORATE"
-msgstr ""
+msgstr "BORATO DE TRIISOPROPILO"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_2416
 msgid "TRIMETHYL BORATE"
-msgstr ""
+msgstr "BORATO DE TRIMETILO"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_2329
 msgid "TRIMETHYL PHOSPHITE"
-msgstr ""
+msgstr "FOSFITO DE TRIMETILO"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_2438
 msgid "TRIMETHYLACETYL CHLORIDE"
-msgstr ""
+msgstr "CLORURO DE TRIMETILACETILO"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_1083
 msgid "TRIMETHYLAMINE, ANHYDROUS"
-msgstr ""
+msgstr "TRIMETILAMINA, ANHIDRA"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_1297
@@ -12849,81 +12933,84 @@ msgstr ""
 msgid ""
 "TRIMETHYLAMINE, AQUEOUS SOLUTION, not more than 50% trimethylamine, by mass"
 msgstr ""
+"TRIMETALAMINA, SOLUCIÓN ACUOSA, no más del 50% de trimetilamina, en masa"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_1298
 msgid "TRIMETHYLCHLORO-SILANE"
-msgstr ""
+msgstr "TRIMETILCLORO-SILANO"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_2326
 msgid "TRIMETHYLCYCLO-HEXYLAMINE"
-msgstr ""
+msgstr "TRIMETILCICLO-HEXILAMINA"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_2328
 msgid "TRIMETHYLHEXA-METHYLENE DIISOCYANATE"
-msgstr ""
+msgstr "DIISOCIANATO DE TRIMETILHEXA-METILENO"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_2327
 msgid "TRIMETHYLHEXA-METHYLENEDIAMINES"
-msgstr ""
+msgstr "TRIMETILHEXA-METILENDIAMINAS"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_0216
 msgid "TRINITRO-m-CRESOL"
-msgstr ""
+msgstr "TRINITRO-m-CRESOL"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_0153
 msgid "TRINITROANILINE (PICRAMIDE)"
-msgstr ""
+msgstr "TRINITROANILINA (PICRAMIDA)"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_0213
 msgid "TRINITROANISOLE"
-msgstr ""
+msgstr "TRINITROANISOL"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_3367
 msgid "TRINITROBENZENE, WETTED with not less than 10% water, by mass"
-msgstr ""
+msgstr "TRINITROBENCENO, MOJADO con no menos del 10% de agua, en masa"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_1354
 msgid "TRINITROBENZENE, WETTED with not less than 30% water, by mass"
-msgstr ""
+msgstr "TRINITROBENCENO, HUMEDECIDO con no menos del 30% de agua, en masa"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_0214
 msgid "TRINITROBENZENE, dry or wetted with less than 30% water, by mass"
-msgstr ""
+msgstr "TRINITROBENCENO, seco o humedecido con menos del 30% de agua, en masa"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_0386
 msgid "TRINITROBENZENE-SULPHONIC ACID"
-msgstr ""
+msgstr "ÁCIDO TRINITROBENCENO-SULFÓNICO"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_3368
 msgid "TRINITROBENZOIC ACID, WETTED with not less than 10% water, by mass"
 msgstr ""
+"ÁCIDO TRINITROBENZOICO, HUMEDECIDO con no menos del 10% de agua, en masa"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_1355
 msgid "TRINITROBENZOIC ACID, WETTED with not less than 30% water, by mass"
-msgstr ""
+msgstr "ÁCIDO TRINITROBENZOICO, MOJADO con no menos del 30% de agua, en masa"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_0215
 msgid "TRINITROBENZOIC ACID, dry or wetted with less than 30% water, by mass"
 msgstr ""
+"ÁCIDO TRINITROBENZOICO, seco o adicionado de menos del 30% de agua, en masa"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_0155
 msgid "TRINITROCHLORO-BENZENE (PICRYL CHLORIDE)"
-msgstr ""
+msgstr "TRINITROCLOROBENCENO (CLORURO DE PICRILO)"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_3365
@@ -12931,33 +13018,39 @@ msgid ""
 "TRINITROCHLOROBENZENE (PICRYL CHLORIDE), WETTED with not less than 10% "
 "water, by mass"
 msgstr ""
+"TRINITROCLOROBENCENO (CLORURO DE PICRILO), MOJADO con no menos del 10% de "
+"agua, en masa"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_0387
 msgid "TRINITROFLUORENONE"
-msgstr ""
+msgstr "TRINITROFLUORENONA"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_0217
 msgid "TRINITRONAPHTHALENE"
-msgstr ""
+msgstr "TRINITRONAFTALENO"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_0218
 msgid "TRINITROPHENETOLE"
-msgstr ""
+msgstr "TRINITROFENETOL"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_3364
 msgid ""
 "TRINITROPHENOL (PICRIC ACID), WETTED with not less than 10% water, by mass"
 msgstr ""
+"TRINITROFENOL (ÁCIDO PÍCRICO), HUMEDECIDO con no menos del 10% de agua, en "
+"masa"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_1344
 msgid ""
 "TRINITROPHENOL (PICRIC ACID), WETTED with not less than 30% water, by mass"
 msgstr ""
+"TRINITROFENOL (ÁCIDO PÍCRICO), HUMEDECIDO con no menos del 30% de agua, en "
+"masa"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_0154
@@ -12965,11 +13058,13 @@ msgid ""
 "TRINITROPHENOL (PICRIC ACID), dry or wetted with less than 30% water, by "
 "mass"
 msgstr ""
+"TRINITROFENOL (ÁCIDO PÍQUICO), seco o adicionado de menos del 30% de agua, "
+"en masa"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_0208
 msgid "TRINITROPHENYLMETHYL-NITRAMINE (TETRYL)"
-msgstr ""
+msgstr "TRINITROFENILMETIL-NITRAMINA (TETRIL)"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_0394
@@ -12977,6 +13072,8 @@ msgid ""
 "TRINITRORESORCINOL (STYPHNIC ACID), WETTED with not less than 20% water, or "
 "mixture of alcohol and water, by mass"
 msgstr ""
+"TRINITRORESORCINOL (ÁCIDO ESTIFNICO), HUMEDECIDO con no menos del 20% de "
+"agua, o mezcla de alcohol y agua, en masa"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_0219
@@ -12984,6 +13081,8 @@ msgid ""
 "TRINITRORESORCINOL (STYPHNIC ACID), dry or wetted with less than 20% water, "
 "or mixture of alcohol and water, by mass"
 msgstr ""
+"TRINITRORESORCINOL (ÁCIDO ESTÍFNICO), seco o humedecido con menos del 20% de "
+"agua, o mezcla de alcohol y agua, en masa"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_0388
@@ -12991,6 +13090,8 @@ msgid ""
 "TRINITROTOLUENE (TNT) AND TRINITROBENZENE MIXTURE or TRINITROTOLUENE (TNT) "
 "AND HEXANITROSTILBENE MIXTURE"
 msgstr ""
+"MEZCLA DE TRINITROTOLUENO (TNT) Y TRINITROBENCENO o MEZCLA DE "
+"TRINITROTOLUENO (TNT) Y HEXANITROSTILBENO"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_0389
@@ -12998,69 +13099,72 @@ msgid ""
 "TRINITROTOLUENE (TNT) MIXTURE CONTAINING TRINITROBENZENE AND "
 "HEXANITROSTILBENE"
 msgstr ""
+"MEZCLA DE TRINITROTOLUENO (TNT) QUE CONTIENE TRINITROBENCENO Y "
+"HEXANITROSTILBENO"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_3366
 msgid "TRINITROTOLUENE (TNT), WETTED with not less than 10% water, by mass"
-msgstr ""
+msgstr "TRINITROTOLUENO (TNT), MOJADO con no menos del 10% de agua, en masa"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_1356
 msgid "TRINITROTOLUENE (TNT), WETTED with not less than 30% water, by mass"
-msgstr ""
+msgstr "TRINITROTOLUENO (TNT), MOJADO con no menos del 30% de agua, en masa"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_0209
 msgid "TRINITROTOLUENE (TNT), dry or wetted with less than 30% water, by mass"
 msgstr ""
+"TRINITROTOLUENO (TNT), seco o humedecido con menos del 30% de agua, en masa"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_2260
 msgid "TRIPROPYLAMINE"
-msgstr ""
+msgstr "TRIPROPILAMINA"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_2057_1L
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_2057_5L
 msgid "TRIPROPYLENE"
-msgstr ""
+msgstr "TRIPROPILENO"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_2501_100ml
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_2501_5L
 msgid "TRIS-(1-AZIRIDINYL) PHOSPHINE OXIDE SOLUTION"
-msgstr ""
+msgstr "SOLUCIÓN DE ÓXIDO DE FOSFINA TRIS-(1-AZIRIDINIL)"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_0390
 msgid "TRITONAL"
-msgstr ""
+msgstr "TRITONAL"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_2196
 msgid "TUNGSTEN HEXAFLUORIDE"
-msgstr ""
+msgstr "HEXAFLUORURO DE VOLFRAMIO"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_1299
 msgid "TURPENTINE"
-msgstr ""
+msgstr "TURPENTINA"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_1300_1L
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_1300_5L
 msgid "TURPENTINE SUBSTITUTE"
-msgstr ""
+msgstr "SUSTITUTO DE LA TREMENTINA"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_1857
 msgid "Textile waste, wet"
-msgstr ""
+msgstr "Residuos textiles, húmedos"
 
 #. module: l10n_eu_product_adr
 #: model:ir.model.fields,help:l10n_eu_product_adr.field_adr_label__goods_ids
 msgid "The dangerous goods to which this label is applied"
-msgstr ""
+msgstr "Las mercancías peligrosas a las que se aplica esta etiqueta"
 
 #. module: l10n_eu_product_adr
 #: model:ir.model.fields,help:l10n_eu_product_adr.field_adr_goods__label_ids
@@ -13070,6 +13174,9 @@ msgid ""
 "The labels/placards (see 5.2.2.2 and 5.3.1.7) that have to be affixed to "
 "packages, containers, tank-containers, portable tanks, MEGCs and vehicles.)"
 msgstr ""
+"Las etiquetas/placas (véanse 5.2.2.2 y 5.3.1.7) que deben colocarse en los "
+"bultos, contenedores, contenedores cisterna, cisternas portátiles, CGEM y "
+"vehículos.)"
 
 #. module: l10n_eu_product_adr
 #: code:addons/l10n_eu_product_adr/models/product_template.py:0
@@ -13079,35 +13186,38 @@ msgid ""
 " you cannot update the dangerous goods from here. Please reconfigure each "
 "variant separately."
 msgstr ""
+"Hay diferentes mercancías peligrosas configuradas en la variante de este "
+"producto, por lo que no puede actualizar las mercancías peligrosas desde "
+"aquí. Vuelva a configurar cada variante por separado."
 
 #. module: l10n_eu_product_adr
 #: model:ir.model.fields,help:l10n_eu_product_adr.field_product_product__is_dangerous
 #: model:ir.model.fields,help:l10n_eu_product_adr.field_product_template__is_dangerous
 msgid "This product belongs to a dangerous class"
-msgstr ""
+msgstr "Este producto pertenece a una clase peligrosa"
 
 #. module: l10n_eu_product_adr
 #: model:adr.class,name:l10n_eu_product_adr.adr_class_2_3
 #: model:adr.label,name:l10n_eu_product_adr.adr_label_2_3
 msgid "Toxic gases"
-msgstr ""
+msgstr "Gases tóxicos"
 
 #. module: l10n_eu_product_adr
 #: model:adr.class,name:l10n_eu_product_adr.adr_class_6_1
 #: model:adr.label,name:l10n_eu_product_adr.adr_label_6_1
 msgid "Toxic substances"
-msgstr ""
+msgstr "Sustancias tóxicas"
 
 #. module: l10n_eu_product_adr
 #: model:ir.model,name:l10n_eu_product_adr.model_stock_picking
 msgid "Transfer"
-msgstr ""
+msgstr "Transferencia"
 
 #. module: l10n_eu_product_adr
 #: model_terms:ir.ui.view,arch_db:l10n_eu_product_adr.adr_goods_view_form
 #: model_terms:ir.ui.view,arch_db:l10n_eu_product_adr.product_template_form_view
 msgid "Transport"
-msgstr ""
+msgstr "Transporte"
 
 #. module: l10n_eu_product_adr
 #: model:ir.model.fields,field_description:l10n_eu_product_adr.field_adr_goods__transport_category
@@ -13115,7 +13225,7 @@ msgstr ""
 #: model:ir.model.fields,field_description:l10n_eu_product_adr.field_product_template__adr_transport_category
 #: model_terms:ir.ui.view,arch_db:l10n_eu_product_adr.adr_goods_view_search
 msgid "Transport Category"
-msgstr ""
+msgstr "Categoría Transporte"
 
 #. module: l10n_eu_product_adr
 #: model:ir.model.fields,field_description:l10n_eu_product_adr.field_adr_goods__tunnel_restriction_code
@@ -13123,23 +13233,23 @@ msgstr ""
 #: model:ir.model.fields,field_description:l10n_eu_product_adr.field_product_template__adr_tunnel_restriction_code
 #: model_terms:ir.ui.view,arch_db:l10n_eu_product_adr.adr_goods_view_search
 msgid "Tunnel Restriction Code"
-msgstr ""
+msgstr "Código de Restricción del Túnel"
 
 #. module: l10n_eu_product_adr
 #: model:ir.model.fields,field_description:l10n_eu_product_adr.field_adr_goods__un_number
 msgid "UN Number"
-msgstr ""
+msgstr "Número ONU"
 
 #. module: l10n_eu_product_adr
 #: code:addons/l10n_eu_product_adr/models/adr_goods.py:0
 #, python-format
 msgid "UN Number %s is invalid because it does not have a length of 4."
-msgstr ""
+msgstr "UN El número %s no es válido porque no tiene una longitud de 4."
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_2330
 msgid "UNDECANE"
-msgstr ""
+msgstr "UNDECANO"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_3507
@@ -13147,68 +13257,70 @@ msgid ""
 "URANIUM HEXAFLUORIDE, RADIOACTIVE MATERIAL, EXCEPTED PACKAGE, less than 0.1 "
 "kg per package, non-fissile or fissile-excepted"
 msgstr ""
+"HEXAFLUORURO DE URANIO, MATERIAL RADIACTIVO, BULTOS EXCEPTO, menos de 0,1 kg "
+"por bulto, no fisionable o fisionable exceptuado"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_1511
 msgid "UREA HYDROGEN PEROXIDE"
-msgstr ""
+msgstr "PERÓXIDO DE HIDRÓGENO UREICO"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_3370
 msgid "UREA NITRATE, WETTED with not less than 10% water, by mass"
-msgstr ""
+msgstr "NITRATO DE UREA, MOJADO con no menos del 10% de agua, en masa"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_1357
 msgid "UREA NITRATE, WETTED with not less than 20% water, by mass"
-msgstr ""
+msgstr "NITRATO DE UREA, MOJADO con no menos del 20% de agua, en masa"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_0220
 msgid "UREA NITRATE, dry or wetted with less than 20% water, by mass"
-msgstr ""
+msgstr "NITRATO DE UREA, seco o humedecido con menos del 20% de agua, en masa"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_2058
 msgid "VALERALDEHYDE"
-msgstr ""
+msgstr "VALERALDEHÍDO"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_2502
 msgid "VALERYL CHLORIDE"
-msgstr ""
+msgstr "CLORURO DE VALERILO"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_3285
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_3285_500g
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_3285_5kg
 msgid "VANADIUM COMPOUND, N.O.S."
-msgstr ""
+msgstr "COMPUESTO DE VANADIO, N.E.P."
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_2443
 msgid "VANADIUM OXYTRICHLORIDE"
-msgstr ""
+msgstr "OXICLORURO DE VANADIO"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_2862
 msgid "VANADIUM PENTOXIDE, non-fused form"
-msgstr ""
+msgstr "PENTÓXIDO DE VANADIO, forma no fusionada"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_2444
 msgid "VANADIUM TETRACHLORIDE"
-msgstr ""
+msgstr "TETRACLORURO DE VANADIO"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_2475
 msgid "VANADIUM TRICHLORIDE"
-msgstr ""
+msgstr "TRICLORURO DE VANADIO"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_2931
 msgid "VANADYL SULPHATE"
-msgstr ""
+msgstr "SULFATO DE VANADILO"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_3166
@@ -13217,155 +13329,158 @@ msgid ""
 "VEHICLE, FUEL CELL, FLAMMABLE GAS POWERED, or VEHICLE, FUEL CELL, FLAMMABLE "
 "LIQUID POWERED"
 msgstr ""
+"VEHÍCULO, ALIMENTADO CON GAS INFLAMABLE, de VEHÍCULO, ALIMENTADO CON LÍQUIDO "
+"INFLAMABLE, o VEHÍCULO, PILA DE COMBUSTIBLE, ALIMENTADO CON GAS INFLAMABLE, "
+"o VEHÍCULO, PILA DE COMBUSTIBLE, ALIMENTADO CON LÍQUIDO INFLAMABLE"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_1301
 msgid "VINYL ACETATE, STABILIZED"
-msgstr ""
+msgstr "ACETATO DE VINILO, ESTABILIZADO"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_1085
 msgid "VINYL BROMIDE, STABILIZED"
-msgstr ""
+msgstr "BROMURO DE VINILO, ESTABILIZADO"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_2838
 msgid "VINYL BUTYRATE, STABILIZED"
-msgstr ""
+msgstr "BUTIRATO DE VINILO, ESTABILIZADO"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_1086
 msgid "VINYL CHLORIDE, STABILIZED"
-msgstr ""
+msgstr "CLORURO DE VINILO, ESTABILIZADO"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_2589
 msgid "VINYL CHLOROACETATE"
-msgstr ""
+msgstr "CLOROACETATO DE VINILO"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_1302
 msgid "VINYL ETHYL ETHER, STABILIZED"
-msgstr ""
+msgstr "VINIL ETIL ÉTER, ESTABILIZADO"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_1860
 msgid "VINYL FLUORIDE, STABILIZED"
-msgstr ""
+msgstr "FLUORURO DE VINILO, ESTABILIZADO"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_1304
 msgid "VINYL ISOBUTYL ETHER, STABILIZED"
-msgstr ""
+msgstr "VINIL ISOBUTIL ÉTER, ESTABILIZADO"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_1087
 msgid "VINYL METHYL ETHER, STABILIZED"
-msgstr ""
+msgstr "VINIL METIL ÉTER, ESTABILIZADO"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_1303
 msgid "VINYLIDENE CHLORIDE, STABILIZED"
-msgstr ""
+msgstr "CLORURO DE VINILIDENO, ESTABILIZADO"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_3073
 msgid "VINYLPYRIDINES, STABILIZED"
-msgstr ""
+msgstr "VINILPIRIDINAS, ESTABILIZADAS"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_2618
 msgid "VINYLTOLUENES, STABILIZED"
-msgstr ""
+msgstr "VINILTOLUENOS, ESTABILIZADOS"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_1305
 msgid "VINYLTRICHLOROSILANE"
-msgstr ""
+msgstr "VINILTRICLOROSILANO"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_0370
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_0371
 msgid "WARHEADS, ROCKET with burster or expelling charge"
-msgstr ""
+msgstr "CABEZAS DE GUERRA, COHETE con carga de dispersión o expulsión"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_0286
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_0287
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_0369
 msgid "WARHEADS, ROCKET with bursting charge"
-msgstr ""
+msgstr "CABEZAS DE GUERRA, cohete con carga explosiva"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_0221
 msgid "WARHEADS, TORPEDO with bursting charge"
-msgstr ""
+msgstr "CABEZAS DE GUERRA, TORPEDO con carga explosiva"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_3129
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_3129_1L
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_3129_500ml
 msgid "WATER-REACTIVE LIQUID, CORROSIVE, N.O.S."
-msgstr ""
+msgstr "LÍQUIDO REACTIVO CON EL AGUA, CORROSIVO, N.E.P."
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_3148
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_3148_1L
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_3148_500ml
 msgid "WATER-REACTIVE LIQUID, N.O.S."
-msgstr ""
+msgstr "LÍQUIDO REACTIVO AL AGUA, N.E.P."
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_3130
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_3130_1L
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_3130_500ml
 msgid "WATER-REACTIVE LIQUID, TOXIC, N.O.S."
-msgstr ""
+msgstr "LÍQUIDO REACTIVO CON EL AGUA, TÓXICO, N.E.P."
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_3131
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_3131_1kg
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_3131_500g
 msgid "WATER-REACTIVE SOLID, CORROSIVE, N.O.S."
-msgstr ""
+msgstr "SÓLIDO REACTIVO CON EL AGUA, CORROSIVO, N.E.P."
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_3132
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_3132_1kg
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_3132_500g
 msgid "WATER-REACTIVE SOLID, FLAMMABLE, N.O.S."
-msgstr ""
+msgstr "SÓLIDO REACTIVO AL AGUA, INFLAMABLE, N.E.P."
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_2813
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_2813_1kg
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_2813_500g
 msgid "WATER-REACTIVE SOLID, N.O.S."
-msgstr ""
+msgstr "SÓLIDO REACTIVO AL AGUA, N.E.P."
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_3133
 msgid "WATER-REACTIVE SOLID, OXIDIZING, N.O.S."
-msgstr ""
+msgstr "SÓLIDO OXIDANTE REACTIVO CON EL AGUA, N.E.P."
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_3135_WS_4dot3/4dot2_274_P403_1
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_3135_WS_4dot3/4dot2_274_P410/IBC05_2
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_3135_WS_4dot3/4dot2_274_P410/IBC08_3
 msgid "WATER-REACTIVE SOLID, SELF-HEATING, N.O.S."
-msgstr ""
+msgstr "SÓLIDO REACTIVO AL AGUA, AUTOCALENTABLE, N.E.P."
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_3134
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_3134_1kg
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_3134_500g
 msgid "WATER-REACTIVE SOLID, TOXIC, N.O.S."
-msgstr ""
+msgstr "SÓLIDO REACTIVO CON EL AGUA, TÓXICO, N.E.P."
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_1306_F1_3_5L_P001/IBC03/LP01/R001_3
 msgid "WOOD PRESERVATIVES, LIQUID"
-msgstr ""
+msgstr "CONSERVANTES DE LA MADERA, LÍQUIDOS"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_1306_F1_3_5L_P001/R001_3
@@ -13373,6 +13488,9 @@ msgid ""
 "WOOD PRESERVATIVES, LIQUID (having a flash-point below 23 °C and viscous "
 "according to 2.2.3.1.4) (vapour pressure at 50 °C more than 110 kPa)"
 msgstr ""
+"CONSERVANTES DE LA MADERA, LÍQUIDOS (con un punto de inflamación inferior a "
+"23 °C y viscosos con arreglo a 2.2.3.1.4) (presión de vapor a 50 °C superior "
+"a 110 kPa)"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_1306_F1_3_5L_P001/IBC02/R001_3
@@ -13380,29 +13498,36 @@ msgid ""
 "WOOD PRESERVATIVES, LIQUID (having a flash-point below 23 °C and viscous "
 "according to 2.2.3.1.4) (vapour pressure at 50 °C not more than 110 kPa)"
 msgstr ""
+"CONSERVANTES DE LA MADERA, LÍQUIDOS (con un punto de inflamación inferior a "
+"23 °C y viscosos con arreglo a 2.2.3.1.4) (presión de vapor a 50 °C no "
+"superior a 110 kPa)"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_1306_F1_3_640C_5L_P001_2
 msgid ""
 "WOOD PRESERVATIVES, LIQUID (vapour pressure at 50 °C more than 110 kPa)"
 msgstr ""
+"CONSERVANTES DE LA MADERA, LÍQUIDOS (presión de vapor a 50 °C superior a 110 "
+"kPa)"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_1306_F1_3_640D_5L_P001/IBC02/R001_2
 msgid ""
 "WOOD PRESERVATIVES, LIQUID (vapour pressure at 50 °C not more than 110 kPa)"
 msgstr ""
+"CONSERVANTES DE LA MADERA, LÍQUIDOS (presión de vapor a 50 °C no superior a "
+"110 kPa)"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_1387
 msgid "Wool waste, wet"
-msgstr ""
+msgstr "Residuos de lana, húmedos"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_3342_S2_4dot2_P002/IBC06_2
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_3342_S2_4dot2_P002/IBC08/LP02/R001_3
 msgid "XANTHATES"
-msgstr ""
+msgstr "XANTATOS"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_2036
