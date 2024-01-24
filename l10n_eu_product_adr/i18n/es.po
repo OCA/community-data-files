@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 14.0\n"
 "Report-Msgid-Bugs-To: \n"
-"PO-Revision-Date: 2024-01-23 21:35+0000\n"
+"PO-Revision-Date: 2024-01-24 14:36+0000\n"
 "Last-Translator: Ivorra78 <informatica@totmaterial.es>\n"
 "Language-Team: none\n"
 "Language: es\n"
@@ -10440,47 +10440,47 @@ msgstr "NITRATO DE POTASIO"
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_1487
 msgid "POTASSIUM NITRATE AND SODIUM NITRITE MIXTURE"
-msgstr ""
+msgstr "MEZCLA DE NITRATO POTÁSICO Y NITRITO SÓDICO"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_1488
 msgid "POTASSIUM NITRITE"
-msgstr ""
+msgstr "NITRITO DE POTASIO"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_1489
 msgid "POTASSIUM PERCHLORATE"
-msgstr ""
+msgstr "PERCLORATO POTÁSICO"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_1490
 msgid "POTASSIUM PERMANGANATE"
-msgstr ""
+msgstr "PERMANGANATO POTÁSICO"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_1491
 msgid "POTASSIUM PEROXIDE"
-msgstr ""
+msgstr "PERÓXIDO POTÁSICO"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_1492
 msgid "POTASSIUM PERSULPHATE"
-msgstr ""
+msgstr "PERSULFATO DE POTASIO"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_2012
 msgid "POTASSIUM PHOSPHIDE"
-msgstr ""
+msgstr "FOSFURO POTÁSICO"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_1422
 msgid "POTASSIUM SODIUM ALLOYS, LIQUID"
-msgstr ""
+msgstr "ALEACIONES DE POTASIO Y SODIO, LÍQUIDAS"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_3404
 msgid "POTASSIUM SODIUM ALLOYS, SOLID"
-msgstr ""
+msgstr "ALEACIONES DE POTASIO Y SODIO, SÓLIDO"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_1382
@@ -10488,50 +10488,57 @@ msgid ""
 "POTASSIUM SULPHIDE, ANHYDROUS or POTASSIUM SULPHIDE with less than 30% water"
 " of crystallization"
 msgstr ""
+"Sulfuro de potasio anhidro o sulfuro de potasio con menos del 30% de agua de "
+"cristalización"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_1847
 msgid ""
 "POTASSIUM SULPHIDE, HYDRATED with not less than 30% water of crystallization"
 msgstr ""
+"SULFURO DE POTASIO, HIDRATADO con no menos del 30% de agua de cristalización"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_2466
 msgid "POTASSIUM SUPEROXIDE"
-msgstr ""
+msgstr "SUPERÓXIDO DE POTASIO"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_0433
 msgid ""
 "POWDER CAKE (POWDER PASTE), WETTED with not less than 17% alcohol, by mass"
 msgstr ""
+"PASTEL DE POLVO (PASTA DE POLVO), HUMEDECIDO con no menos del 17% de "
+"alcohol, en masa"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_0159
 msgid ""
 "POWDER CAKE (POWDER PASTE), WETTED with not less than 25% water, by mass"
 msgstr ""
+"PASTEL DE POLVO (PASTA DE POLVO), HUMEDECIDO con no menos del 25% de agua, "
+"en masa"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_0160
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_0161
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_0509
 msgid "POWDER, SMOKELESS"
-msgstr ""
+msgstr "POLVO, SIN HUMO"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_0044
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_0377
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_0378
 msgid "PRIMERS, CAP TYPE"
-msgstr ""
+msgstr "CEBADORES, TIPO TAPA"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_0319
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_0320
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_0376
 msgid "PRIMERS, TUBULAR"
-msgstr ""
+msgstr "CEBADORES, TUBULARES"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_1210_F1_3_163/367_500ml_P001_1
@@ -10540,6 +10547,9 @@ msgid ""
 "PRINTING INK, flammable or PRINTING INK RELATED MATERIAL (including printing"
 " ink thinning or reducing compound), flammable"
 msgstr ""
+"TINTA DE IMPRESIÓN, inflamable o MATERIAL RELACIONADO CON LA TINTA DE "
+"IMPRESIÓN (incluido el compuesto diluyente o reductor de la tinta de "
+"impresión), inflamable"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_1210_F1_3_163/367_5L_P001/R001_3
@@ -10549,6 +10559,10 @@ msgid ""
 "23 °C and viscous according to 2.2.3.1.4) (vapour pressure at 50 °C more "
 "than 110 kPa)"
 msgstr ""
+"TINTA DE IMPRESIÓN, inflamable o MATERIAL RELACIONADO CON LA TINTA DE "
+"IMPRESIÓN (incluido el compuesto diluyente o reductor de la tinta de "
+"impresión), inflamable (con un punto de inflamación inferior a 23 °C y "
+"viscoso según 2.2.3.1.4) (presión de vapor a 50 °C superior a 110 kPa)"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_1210_F1_3_163/367_5L_P001/IBC02/R001_3
@@ -10558,6 +10572,10 @@ msgid ""
 "23 °C and viscous according to 2.2.3.1.4) (vapour pressure at 50 °C not more"
 " than 110 kPa)"
 msgstr ""
+"TINTA DE IMPRESIÓN, inflamable o MATERIAL RELACIONADO CON LA TINTA DE "
+"IMPRESIÓN (incluido el compuesto diluyente o reductor de la tinta de "
+"impresión), inflamable (con un punto de inflamación inferior a 23 °C y "
+"viscoso según 2.2.3.1.4) (presión de vapor a 50 °C no superior a 110 kPa)"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_1210_F1_3_163/640C/367_5L_P001_2
@@ -10566,6 +10584,9 @@ msgid ""
 " ink thinning or reducing compound), flammable (vapour pressure at 50 °C "
 "more than 110 kPa)"
 msgstr ""
+"TINTA DE IMPRESIÓN, inflamable o MATERIAL RELACIONADO CON LA TINTA DE "
+"IMPRESIÓN (incluido el compuesto diluyente o reductor de la tinta de "
+"impresión), inflamable (presión de vapor a 50 °C superior a 110 kPa)"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_1210_F1_3_163/640D/367_5L_P001/IBC02/R001_2
@@ -10574,6 +10595,9 @@ msgid ""
 " ink thinning or reducing compound), flammable (vapour pressure at 50 °C not"
 " more than 110 kPa)"
 msgstr ""
+"TINTA DE IMPRESIÓN, inflamable o MATERIAL RELACIONADO CON LA TINTA DE "
+"IMPRESIÓN (incluido el compuesto diluyente o reductor de la tinta de "
+"impresión), inflamable (presión de vapor a 50 °C no superior a 110 kPa)"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_0346
@@ -10583,7 +10607,7 @@ msgstr ""
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_0434
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_0435
 msgid "PROJECTILES with burster or expelling charge"
-msgstr ""
+msgstr "PROYECTILES con carga de dispersión o expulsión"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_0167
@@ -10592,112 +10616,112 @@ msgstr ""
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_0324
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_0344
 msgid "PROJECTILES with bursting charge"
-msgstr ""
+msgstr "PROYECTILES con carga explosiva"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_0345
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_0424
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_0425
 msgid "PROJECTILES, inert with tracer"
-msgstr ""
+msgstr "PROYECTILES, inertes con trazador"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_2200
 msgid "PROPADIENE, STABILIZED"
-msgstr ""
+msgstr "PROPADIENO, ESTABILIZADO"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_1978
 msgid "PROPANE"
-msgstr ""
+msgstr "PROPANO"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_2402
 msgid "PROPANETHIOLS"
-msgstr ""
+msgstr "PROPANETIOLES"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_0495
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_0497
 msgid "PROPELLANT, LIQUID"
-msgstr ""
+msgstr "PROPULSOR, LÍQUIDO"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_0498
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_0499
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_0501
 msgid "PROPELLANT, SOLID"
-msgstr ""
+msgstr "PROPULSOR, SÓLIDO"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_1275
 msgid "PROPIONALDEHYDE"
-msgstr ""
+msgstr "PROPIONALDEHÍDO"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_1848
 msgid "PROPIONIC ACID with not less than 10% and less than 90% acid by mass"
-msgstr ""
+msgstr "ÁCIDO PROPIONICO con no menos del 10% y menos del 90% de ácido en masa"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_3463
 msgid "PROPIONIC ACID with not less than 90% acid by mass"
-msgstr ""
+msgstr "ÁCIDO PROPIONICO con no menos del 90% de ácido en masa"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_2496
 msgid "PROPIONIC ANHYDRIDE"
-msgstr ""
+msgstr "ANHÍDRIDO PROPIÓNICO"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_2404
 msgid "PROPIONITRILE"
-msgstr ""
+msgstr "PROPIONITRILO"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_1815
 msgid "PROPIONYL CHLORIDE"
-msgstr ""
+msgstr "CLORURO DE PROPIONILO"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_1281
 msgid "PROPYL FORMATES"
-msgstr ""
+msgstr "FORMIATOS DE PROPILO"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_1277
 msgid "PROPYLAMINE"
-msgstr ""
+msgstr "PROPILAMINA"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_1077
 msgid "PROPYLENE"
-msgstr ""
+msgstr "PROPILENO"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_2611
 msgid "PROPYLENE CHLOROHYDRIN"
-msgstr ""
+msgstr "CLOROHIDRINA DE PROPILENO"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_1280
 msgid "PROPYLENE OXIDE"
-msgstr ""
+msgstr "ÓXIDO DE PROPILENO"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_2850
 msgid "PROPYLENE TETRAMER"
-msgstr ""
+msgstr "TETRÁMERO DE PROPILENO"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_1921
 msgid "PROPYLENEIMINE, STABILIZED"
-msgstr ""
+msgstr "PROPILENIMINA, ESTABILIZADA"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_1816
 msgid "PROPYLTRICHLORO-SILANE"
-msgstr ""
+msgstr "PROPILTRICLORO-SILANO"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_3350
@@ -10705,13 +10729,15 @@ msgstr ""
 msgid ""
 "PYRETHROID PESTICIDE, LIQUID, FLAMMABLE, TOXIC, flash-point less than 23 °C"
 msgstr ""
+"PLAGUICIDA PIRÉTRICO, LÍQUIDO, INFLAMABLE, TÓXICO, punto de inflamación "
+"inferior a 23 °C"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_3352
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_3352_100ml
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_3352_5L
 msgid "PYRETHROID PESTICIDE, LIQUID, TOXIC"
-msgstr ""
+msgstr "PESTICIDA PIRETROIDE, LÍQUIDO, TÓXICO"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_3351
