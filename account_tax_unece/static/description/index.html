@@ -369,23 +369,25 @@ ul.auto-toc {
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 !! source digest: sha256:d773a2ff23fd1019d13a26e3383abda9b3c6acb2b90429e103b7f2ddef8248ec
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! -->
-<p><a class="reference external image-reference" href="https://odoo-community.org/page/development-status"><img alt="Production/Stable" src="https://img.shields.io/badge/maturity-Production%2FStable-green.png" /></a> <a class="reference external image-reference" href="http://www.gnu.org/licenses/lgpl-3.0-standalone.html"><img alt="License: LGPL-3" src="https://img.shields.io/badge/licence-LGPL--3-blue.png" /></a> <a class="reference external image-reference" href="https://github.com/OCA/community-data-files/tree/16.0/account_tax_unece"><img alt="OCA/community-data-files" src="https://img.shields.io/badge/github-OCA%2Fcommunity--data--files-lightgray.png?logo=github" /></a> <a class="reference external image-reference" href="https://translation.odoo-community.org/projects/community-data-files-16-0/community-data-files-16-0-account_tax_unece"><img alt="Translate me on Weblate" src="https://img.shields.io/badge/weblate-Translate%20me-F47D42.png" /></a> <a class="reference external image-reference" href="https://runboat.odoo-community.org/builds?repo=OCA/community-data-files&amp;target_branch=16.0"><img alt="Try me on Runboat" src="https://img.shields.io/badge/runboat-Try%20me-875A7B.png" /></a></p>
-<p>This module adds two fields <em>UNECE Type Code</em> and <em>UNECE Category Code</em> on
-taxes to allow the use of the standards written by the
-<a class="reference external" href="http://www.unece.org">United Nations Economic Commission for Europe</a> (which
+<p><a class="reference external image-reference" href="https://odoo-community.org/page/development-status"><img alt="Production/Stable" src="https://img.shields.io/badge/maturity-Production%2FStable-green.png" /></a> <a class="reference external image-reference" href="http://www.gnu.org/licenses/lgpl-3.0-standalone.html"><img alt="License: LGPL-3" src="https://img.shields.io/badge/licence-LGPL--3-blue.png" /></a> <a class="reference external image-reference" href="https://github.com/OCA/community-data-files/tree/17.0/account_tax_unece"><img alt="OCA/community-data-files" src="https://img.shields.io/badge/github-OCA%2Fcommunity--data--files-lightgray.png?logo=github" /></a> <a class="reference external image-reference" href="https://translation.odoo-community.org/projects/community-data-files-17-0/community-data-files-17-0-account_tax_unece"><img alt="Translate me on Weblate" src="https://img.shields.io/badge/weblate-Translate%20me-F47D42.png" /></a> <a class="reference external image-reference" href="https://runboat.odoo-community.org/builds?repo=OCA/community-data-files&amp;target_branch=17.0"><img alt="Try me on Runboat" src="https://img.shields.io/badge/runboat-Try%20me-875A7B.png" /></a></p>
+<p>This module adds two fields <em>UNECE Type Code</em> and <em>UNECE Category Code</em>
+on taxes to allow the use of the standards written by the <a class="reference external" href="http://www.unece.org">United
+Nations Economic Commission for Europe</a> (which
 has 56 members states in Europe, America and Central Asia, cf
 <a class="reference external" href="https://en.wikipedia.org/wiki/United_Nations_Economic_Commission_for_Europe">Wikipedia</a>):</p>
 <ul class="simple">
-<li>the UNECE Tax Type code is defined in the
-<a class="reference external" href="http://www.unece.org/trade/untdid/d97b/uncl/uncl5153.htm">DataElement 5153</a>,</li>
-<li>the UNECE Tax Category Code is defined in the
-<a class="reference external" href="http://www.unece.org/trade/untdid/d97a/uncl/uncl5305.htm">DataElement 5305</a>.</li>
+<li>the UNECE Tax Type code is defined in the <a class="reference external" href="http://www.unece.org/trade/untdid/d97b/uncl/uncl5153.htm">DataElement
+5153</a>,</li>
+<li>the UNECE Tax Category Code is defined in the <a class="reference external" href="http://www.unece.org/trade/untdid/d97a/uncl/uncl5305.htm">DataElement
+5305</a>.</li>
 </ul>
 <p>This codification is part of the UNCL (United Nations Code List). This
-codification is used for example in the two main international standards for
-electronic invoicing:</p>
+codification is used for example in the two main international standards
+for electronic invoicing:</p>
 <ul class="simple">
-<li><a class="reference external" href="http://tfig.unece.org/contents/cross-industry-invoice-cii.htm">Cross Industry Invoice</a> (CII),</li>
+<li><a class="reference external" href="http://tfig.unece.org/contents/cross-industry-invoice-cii.htm">Cross Industry
+Invoice</a>
+(CII),</li>
 <li><a class="reference external" href="http://ubl.xml.org/">Universal Business Language</a> (UBL).</li>
 </ul>
 <p><strong>Table of contents</strong></p>
@@ -405,19 +407,19 @@ electronic invoicing:</p>
 <h1><a class="toc-backref" href="#toc-entry-1">Configuration</a></h1>
 <ol class="arabic simple">
 <li>Go to the menu <em>Accounting &gt; Configuration &gt; Accounting &gt; Taxes</em></li>
-<li>Set the field <em>UNECE Type Code</em> (the value should be <em>VAT</em> for most of your
-taxes).</li>
+<li>Set the field <em>UNECE Type Code</em> (the value should be <em>VAT</em> for most
+of your taxes).</li>
 <li>Set the field <em>UNECE Category Code</em>.</li>
 </ol>
-<p>There are localization modules that fill this information for specific chart
-of accounts, so this step shouldn’t be needed if installed.</p>
+<p>There are localization modules that fill this information for specific
+chart of accounts, so this step shouldn’t be needed if installed.</p>
 </div>
 <div class="section" id="bug-tracker">
 <h1><a class="toc-backref" href="#toc-entry-2">Bug Tracker</a></h1>
 <p>Bugs are tracked on <a class="reference external" href="https://github.com/OCA/community-data-files/issues">GitHub Issues</a>.
 In case of trouble, please check there if your issue has already been reported.
 If you spotted it first, help us to smash it by providing a detailed and welcomed
-<a class="reference external" href="https://github.com/OCA/community-data-files/issues/new?body=module:%20account_tax_unece%0Aversion:%2016.0%0A%0A**Steps%20to%20reproduce**%0A-%20...%0A%0A**Current%20behavior**%0A%0A**Expected%20behavior**">feedback</a>.</p>
+<a class="reference external" href="https://github.com/OCA/community-data-files/issues/new?body=module:%20account_tax_unece%0Aversion:%2017.0%0A%0A**Steps%20to%20reproduce**%0A-%20...%0A%0A**Current%20behavior**%0A%0A**Expected%20behavior**">feedback</a>.</p>
 <p>Do not contact contributors directly about support or help with technical issues.</p>
 </div>
 <div class="section" id="credits">
@@ -446,7 +448,7 @@ mission is to support the collaborative development of Odoo features and
 promote its widespread use.</p>
 <p>Current <a class="reference external" href="https://odoo-community.org/page/maintainer-role">maintainer</a>:</p>
 <p><a class="reference external image-reference" href="https://github.com/alexis-via"><img alt="alexis-via" src="https://github.com/alexis-via.png?size=40px" /></a></p>
-<p>This module is part of the <a class="reference external" href="https://github.com/OCA/community-data-files/tree/16.0/account_tax_unece">OCA/community-data-files</a> project on GitHub.</p>
+<p>This module is part of the <a class="reference external" href="https://github.com/OCA/community-data-files/tree/17.0/account_tax_unece">OCA/community-data-files</a> project on GitHub.</p>
 <p>You are welcome to contribute. To learn how please visit <a class="reference external" href="https://odoo-community.org/page/Contribute">https://odoo-community.org/page/Contribute</a>.</p>
 </div>
 </div>
