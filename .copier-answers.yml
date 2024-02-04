@@ -1,7 +1,8 @@
 # Do NOT update manually; changes here will be overwritten by Copier
-_commit: v1.17.2
+_commit: v1.20
 _src_path: gh:oca/oca-addons-repo-template
 ci: GitHub
+convert_readme_fragments_to_markdown: false
 generate_requirements_txt: true
 github_check_license: false
 github_ci_extra_env: {}
@@ -29,4 +30,6 @@ repo_description: 'This project is a collection of Odoo modules containing vario
 repo_name: Community Data Files
 repo_slug: community-data-files
 repo_website: https://github.com/OCA/community-data-files
+use_pyproject_toml: false
+use_ruff: false
 
