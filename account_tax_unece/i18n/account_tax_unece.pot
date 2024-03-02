@@ -4,7 +4,7 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 16.0\n"
+"Project-Id-Version: Odoo Server 17.0\n"
 "Report-Msgid-Bugs-To: \n"
 "Last-Translator: \n"
 "Language-Team: \n"
@@ -20,7 +20,6 @@ msgstr ""
 
 #. module: account_tax_unece
 #: model:ir.model.fields,help:account_tax_unece.field_account_tax__unece_categ_id
-#: model:ir.model.fields,help:account_tax_unece.field_account_tax_template__unece_categ_id
 msgid ""
 "Select the Tax Category Code of the official nomenclature of the United "
 "Nations Economic Commission for Europe (UNECE), DataElement 5305"
@@ -28,7 +27,6 @@ msgstr ""
 
 #. module: account_tax_unece
 #: model:ir.model.fields,help:account_tax_unece.field_account_tax__unece_type_id
-#: model:ir.model.fields,help:account_tax_unece.field_account_tax_template__unece_type_id
 msgid ""
 "Select the Tax Type Code of the official nomenclature of the United Nations "
 "Economic Commission for Europe (UNECE), DataElement 5153"
@@ -50,18 +48,8 @@ msgid "Tax Types (UNCL 5153)"
 msgstr ""
 
 #. module: account_tax_unece
-#: model:ir.model,name:account_tax_unece.model_account_tax_template
-msgid "Templates for Taxes"
-msgstr ""
-
-#. module: account_tax_unece
 #: model:ir.model.fields,field_description:account_tax_unece.field_unece_code_list__type
 msgid "Type"
-msgstr ""
-
-#. module: account_tax_unece
-#: model_terms:ir.ui.view,arch_db:account_tax_unece.view_tax_template_form
-msgid "UNECE"
 msgstr ""
 
 #. module: account_tax_unece
@@ -71,13 +59,11 @@ msgstr ""
 
 #. module: account_tax_unece
 #: model:ir.model.fields,field_description:account_tax_unece.field_account_tax__unece_categ_id
-#: model:ir.model.fields,field_description:account_tax_unece.field_account_tax_template__unece_categ_id
 msgid "UNECE Tax Category"
 msgstr ""
 
 #. module: account_tax_unece
 #: model:ir.model.fields,field_description:account_tax_unece.field_account_tax__unece_type_id
-#: model:ir.model.fields,field_description:account_tax_unece.field_account_tax_template__unece_type_id
 msgid "UNECE Tax Type"
 msgstr ""
 
