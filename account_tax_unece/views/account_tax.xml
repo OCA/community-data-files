@@ -26,4 +26,14 @@
             </group>
         </field>
     </record>
+    <record id="view_tax_tree" model="ir.ui.view">
+        <field name="model">account.tax</field>
+        <field name="inherit_id" ref="account.view_tax_tree" />
+        <field name="arch" type="xml">
+            <field name="country_id" position="after">
+                <field name="unece_type_id" optional="hide" />
+                <field name="unece_categ_id" optional="hide" />
+            </field>
+        </field>
+    </record>
 </odoo>
