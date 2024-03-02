@@ -14,7 +14,7 @@
                         name="web_ribbon"
                         title="Archived"
                         bg_color="bg-danger"
-                        attrs="{'invisible': [('active', '=', True)]}"
+                        invisible="active"
                     />
                     <group name="main">
                         <group name="general">
@@ -37,7 +37,7 @@
             <tree>
                 <field
                     name="type"
-                    invisible="not context.get('unece_code_list_main_view')"
+                    column_invisible="not context.get('unece_code_list_main_view')"
                 />
                 <field name="code" />
                 <field name="name" />

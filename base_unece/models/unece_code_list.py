@@ -13,7 +13,6 @@ class UneceCodeList(models.Model):
     _name = "unece.code.list"
     _description = "UNECE nomenclatures"
     _order = "type, code"
-    _rec_names_search = ["name", "code"]
 
     code = fields.Char(required=True, copy=False)
     name = fields.Char(required=True, copy=False)
@@ -30,8 +29,24 @@ class UneceCodeList(models.Model):
     ]
 
     @api.depends("code", "name")
-    def name_get(self):
-        res = []
+    def _compute_display_name(self):
         for entry in self:
-            res.append((entry.id, f"[{entry.code}] {entry.name}"))
-        return res
+            entry.display_name = f"[{entry.code}] {entry.name}"
+
+    # _rec_names_search = ['name', 'code'] doesn't give the result we want
+    # We want that, when you type an exact code, you get only that code
+    # Exemple : on UNECE Tax category, when you type "S", you should get only
+    # "[S] Standard rate"
+    @api.model
+    def _name_search(self, name, domain=None, operator="ilike", limit=None, order=None):
+        if domain is None:
+            domain = []
+        if name and operator == "ilike":
+            ids = list(
+                self._search([("code", "=", name)] + domain, limit=limit, order=order)
+            )
+            if ids:
+                return ids
+        return super()._name_search(
+            name, domain=domain, operator=operator, limit=limit, order=order
+        )
