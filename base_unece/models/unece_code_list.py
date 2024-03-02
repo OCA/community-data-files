@@ -33,5 +33,5 @@ class UneceCodeList(models.Model):
     def name_get(self):
         res = []
         for entry in self:
-            res.append((entry.id, "[{}] {}".format(entry.code, entry.name)))
+            res.append((entry.id, f"[{entry.code}] {entry.name}"))
         return res
