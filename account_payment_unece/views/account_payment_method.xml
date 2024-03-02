@@ -29,7 +29,7 @@
         />
         <field name="arch" type="xml">
             <field name="code" position="after">
-                <field name="unece_code" />
+                <field name="unece_code" optional="show" />
             </field>
         </field>
     </record>
