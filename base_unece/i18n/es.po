@@ -68,11 +68,6 @@ msgid "ID"
 msgstr "ID (identificación)"
 
 #. module: base_unece
-#: model:ir.model.fields,field_description:base_unece.field_unece_code_list____last_update
-msgid "Last Modified on"
-msgstr "Última Modificación el"
-
-#. module: base_unece
 #: model:ir.model.fields,field_description:base_unece.field_unece_code_list__write_uid
 msgid "Last Updated by"
 msgstr "Actualizado por última vez por"
@@ -108,3 +103,6 @@ msgstr "Listas de códigos de la CEPE (UNECE)"
 #: model:ir.model,name:base_unece.model_unece_code_list
 msgid "UNECE nomenclatures"
 msgstr "Nomenclaturas de la UNECE"
+
+#~ msgid "Last Modified on"
+#~ msgstr "Última Modificación el"
