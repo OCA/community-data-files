@@ -68,11 +68,6 @@ msgid "ID"
 msgstr "ID"
 
 #. module: base_unece
-#: model:ir.model.fields,field_description:base_unece.field_unece_code_list____last_update
-msgid "Last Modified on"
-msgstr "Laatst gewijzigt op"
-
-#. module: base_unece
 #: model:ir.model.fields,field_description:base_unece.field_unece_code_list__write_uid
 msgid "Last Updated by"
 msgstr "Laatste update door"
@@ -108,3 +103,6 @@ msgstr "UNECE Code Lijst"
 #: model:ir.model,name:base_unece.model_unece_code_list
 msgid "UNECE nomenclatures"
 msgstr ""
+
+#~ msgid "Last Modified on"
+#~ msgstr "Laatst gewijzigt op"

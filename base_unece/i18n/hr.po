@@ -69,11 +69,6 @@ msgid "ID"
 msgstr "ID"
 
 #. module: base_unece
-#: model:ir.model.fields,field_description:base_unece.field_unece_code_list____last_update
-msgid "Last Modified on"
-msgstr "Zadnje modificirano"
-
-#. module: base_unece
 #: model:ir.model.fields,field_description:base_unece.field_unece_code_list__write_uid
 msgid "Last Updated by"
 msgstr "Zadnje ažurirano"
@@ -109,3 +104,6 @@ msgstr "Popis UNECE šifri"
 #: model:ir.model,name:base_unece.model_unece_code_list
 msgid "UNECE nomenclatures"
 msgstr "UNECE nomenklature"
+
+#~ msgid "Last Modified on"
+#~ msgstr "Zadnje modificirano"
