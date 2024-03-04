@@ -1,0 +1,5 @@
+id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
+access_unece_code_list_user_read,Read access on unece.code.list to employees,model_unece_code_list,base.group_user,1,0,0,0
+access_unece_code_list_public_read,Read access on unece.code.list to public,model_unece_code_list,base.group_public,1,0,0,0
+access_unece_code_list_portal_read,Read access on unece.code.list to portal,model_unece_code_list,base.group_portal,1,0,0,0
+access_unece_code_list_full,Full access on unece.code.list to Settings group,model_unece_code_list,base.group_system,1,1,1,1
