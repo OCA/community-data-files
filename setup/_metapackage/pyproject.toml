@@ -1,7 +1,8 @@
 [project]
 name = "odoo-addons-oca-community-data-files"
-version = "17.0.20240304.0"
+version = "17.0.20240305.0"
 dependencies = [
+    "odoo-addon-account_tax_unece>=17.0dev,<17.1dev",
     "odoo-addon-base_bank_from_iban>=17.0dev,<17.1dev",
     "odoo-addon-base_iso3166>=17.0dev,<17.1dev",
     "odoo-addon-base_unece>=17.0dev,<17.1dev",
