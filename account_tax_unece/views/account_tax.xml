@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!--
+  Copyright 2016-2020 Akretion (http://www.akretion.com/)
+  @author Alexis de Lattre <alexis.delattre@akretion.com>
+  License LGPL-3.0 or later (http://www.gnu.org/licenses/lgpl).
+-->
+<odoo>
+    <record id="view_tax_form" model="ir.ui.view">
+        <field name="name">unece.account.tax.form</field>
+        <field name="model">account.tax</field>
+        <field name="inherit_id" ref="account.view_tax_form" />
+        <field name="arch" type="xml">
+            <group name="advanced_booleans" position="after">
+                <group name="unece">
+                    <field
+                        name="unece_type_id"
+                        context="{'default_type': 'tax_type'}"
+                        options="{'no_create': True, 'no_create_edit': True}"
+                    />
+                    <field
+                        name="unece_categ_id"
+                        context="{'default_type': 'tax_categ'}"
+                        options="{'no_create': True, 'no_create_edit': True}"
+                    />
+                </group>
+            </group>
+        </field>
+    </record>
+    <record id="view_tax_tree" model="ir.ui.view">
+        <field name="model">account.tax</field>
+        <field name="inherit_id" ref="account.view_tax_tree" />
+        <field name="arch" type="xml">
+            <field name="country_id" position="after">
+                <field name="unece_type_id" optional="hide" />
+                <field name="unece_categ_id" optional="hide" />
+            </field>
+        </field>
+    </record>
+</odoo>
