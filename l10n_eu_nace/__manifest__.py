@@ -11,12 +11,12 @@
     "website": "https://github.com/OCA/community-data-files",
     "category": "Localization",
     "data": [
-        "data/res.partner.nace.csv",
-        "security/res_partner_nace.xml",
-        "views/res_partner.xml",
-        "views/res_partner_nace.xml",
+        "security/ir.model.access.csv",
+        "wizard/res_partner_industry_eu_nace_wizard_view.xml",
     ],
-    "depends": ["contacts"],
+    "maintainers": ["rafaelbn", "yajo", "edlopen"],
+    "depends": ["partner_industry_secondary"],
+    "external_dependencies": {"python": ["requests"]},
     "installable": True,
     "license": "AGPL-3",
 }
