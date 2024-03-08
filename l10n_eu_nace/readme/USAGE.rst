@@ -3,17 +3,16 @@ by simply adding the corresponding category in the partner's form.
 
 Obtaining updated data
 ======================
-The data imported into Odoo is generated from the files downloaded
-from the RAMON service::
+The data is imported from the new NACE Rev. 2 classification, which is hosted in
+ShowVoc. This is a new platform that replaces the old Eurostat RAMON service and
+uses SPARQL to retrieve the data.
 
-    http://ec.europa.eu/eurostat/ramon/nomenclatures/index.cfm?TargetUrl=LST_CLS_DLD&StrNom=NACE_REV2&StrLanguageCode=FR&StrLayoutCode=#
+If you want to import or update the data, you can do so by running the Import
+NACE Wizard. This will search for all active languages in Odoo and import the
+data for each one.
 
-If you want to update the data or add another translation, download the
-corresponding file from RAMON in CSV format, using ',' as a separator.
-Save it to the directory "data" and name it according to the language
-code::
+1. Go to "Contacts" > "Configuration" > "Import NACE Wizard"
+2. Click on the "Import NACE" button.
 
-    NACE_REV2_<language code>.csv
-
-Then update the LANGS constant in the script "make_data.py" and run it to
-refresh the Odoo data files. Finally, upgrade the module to load the data.
+This might take a minute or so depending on the number of languages and the
+speed of your connection.
