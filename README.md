@@ -27,6 +27,7 @@ addon | version | maintainers | summary
 [base_currency_iso_4217](base_currency_iso_4217/) | 17.0.1.0.0 |  | Adds numeric code and full name to currencies, following the ISO 4217 specification
 [base_iso3166](base_iso3166/) | 17.0.1.0.0 |  | ISO 3166
 [base_unece](base_unece/) | 17.0.1.0.0 | [![astirpe](https://github.com/astirpe.png?size=30px)](https://github.com/astirpe) [![alexis-via](https://github.com/alexis-via.png?size=30px)](https://github.com/alexis-via) | Base module for UNECE code lists
+[company_sanitary_registry](company_sanitary_registry/) | 17.0.1.0.0 |  | Sanitary Registry
 [uom_unece](uom_unece/) | 17.0.1.0.0 | [![astirpe](https://github.com/astirpe.png?size=30px)](https://github.com/astirpe) [![alexis-via](https://github.com/alexis-via.png?size=30px)](https://github.com/alexis-via) | UNECE nomenclature for the units of measure
 
 [//]: # (end addons)
