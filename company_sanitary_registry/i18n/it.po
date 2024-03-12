@@ -6,25 +6,27 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 17.0\n"
 "Report-Msgid-Bugs-To: \n"
-"Last-Translator: Automatically generated\n"
+"PO-Revision-Date: 2024-03-12 09:35+0000\n"
+"Last-Translator: mymage <stefano.consolaro@mymage.it>\n"
 "Language-Team: none\n"
 "Language: it\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 4.17\n"
 
 #. module: company_sanitary_registry
 #: model_terms:ir.ui.view,arch_db:company_sanitary_registry.sanitary_registry_template
 msgid "<span>CE</span>"
-msgstr ""
+msgstr "<span>CE</span>"
 
 #. module: company_sanitary_registry
 #: model:ir.model,name:company_sanitary_registry.model_res_company
 msgid "Companies"
-msgstr ""
+msgstr "Aziende"
 
 #. module: company_sanitary_registry
 #: model:ir.model.fields,field_description:company_sanitary_registry.field_res_company__sanitary_registry
 msgid "Sanitary Registry"
-msgstr ""
+msgstr "Registro sanitario"
