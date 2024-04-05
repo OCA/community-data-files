@@ -16,7 +16,7 @@
         "views/res_partner.xml",
         "views/res_partner_nace.xml",
     ],
-    "depends": ["contacts"],
+    "depends": ["partner_industry_secondary"],
     "installable": True,
     "license": "AGPL-3",
 }

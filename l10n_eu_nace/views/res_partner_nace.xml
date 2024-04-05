@@ -3,30 +3,16 @@
      License AGPL-3.0 or later (http://www.gnu.org/licenses/agpl). -->
 <odoo>
 
-    <record model="ir.ui.view" id="res_partner_nace_form_view">
-        <field name="name">res.partner.nace.form (in l10n_eu_nace)</field>
+    <record id="res_partner_nace_view_form" model="ir.ui.view">
+        <field name="name">res_partner_nace_view_form</field>
         <field name="model">res.partner.nace</field>
         <field name="arch" type="xml">
-            <form>
+            <form string="NACE">
                 <sheet>
-                    <div class="oe_button_box" name="button_box">
-                        <button
-                            name="toggle_active"
-                            type="object"
-                            class="oe_stat_button"
-                            icon="fa-archive"
-                        >
-                            <field name="active" widget="boolean_button" />
-                        </button>
-                    </div>
-                    <group>
-                        <group>
-                            <field name="name" />
-                            <field name="parent_id" options="{'always_reload': True}" />
-                        </group>
-                        <group>
-                            <field name="code" />
-                        </group>
+                    <group col="4">
+                        <field name="name" />
+                        <field name="parent_id" options="{'always_reload': True}" />
+                        <field name="code" />
                     </group>
                 </sheet>
             </form>
@@ -34,20 +20,22 @@
     </record>
 
 
-    <record model="ir.ui.view" id="res_partner_nace_tree_view">
-        <field name="name">res.partner.nace.tree (in l10n_eu_nace)</field>
+    <record id="res_partner_nace_view_tree" model="ir.ui.view">
+        <field name="name">res_partner_nace_view_tree</field>
         <field name="model">res.partner.nace</field>
-        <field name="arch" type="xml">
-            <tree>
-                <field name="code" />
-                <field name="name" />
-                <field name="parent_id" context="{'nace_display': 'long'}" />
-            </tree>
-        </field>
+        <field eval="6" name="priority" />
+            <field name="arch" type="xml">
+                <tree string="NACE" editable="bottom">
+                    <field name="code" />
+                    <field name="name" />
+                    <field name="parent_id" context="{'nace_display': 'long'}" />
+                </tree>
+            </field>
     </record>
 
     <record model="ir.actions.act_window" id="res_partner_nace_act_window">
         <field name="name">NACE</field>
+        <field name="type">ir.actions.act_window</field>
         <field name="res_model">res.partner.nace</field>
         <field name="view_mode">tree,form</field>
     </record>

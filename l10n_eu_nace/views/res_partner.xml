@@ -6,12 +6,30 @@
     <record model="ir.ui.view" id="view_partner_form">
         <field name="name">res.partner.form (in l10n_eu_nace)</field>
         <field name="model">res.partner</field>
-        <field name="inherit_id" ref="base.view_partner_form" />
+        <field
+            name="inherit_id"
+            ref="partner_industry_secondary.view_partner_form_industry"
+        />
         <field name="arch" type="xml">
-            <xpath expr="//field[@name='category_id']" position="after">
-                <field name="nace_id" options="{'always_reload': True}" />
-                <field name="secondary_nace_ids" widget="many2many_tags" />
+            <xpath
+                expr="//group[@name='misc']//field[@name='industry_id']"
+                position="attributes"
+            >
+                <attribute name="options">
+                    {'always_reload': True}
+                </attribute>
             </xpath>
+            <xpath expr="//field[@name='category_id']" position="after">
+                <xpath
+                    expr="//group[@name='misc']//field[@name='industry_id']"
+                    position="move"
+                />                
+                <xpath
+                    expr="//group[@name='misc']//field[@name='secondary_industry_ids']"
+                    position="move"
+                />                
+            </xpath>
+
         </field>
     </record>
 

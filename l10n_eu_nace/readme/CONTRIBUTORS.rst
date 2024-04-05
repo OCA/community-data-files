@@ -7,3 +7,4 @@
   * Jairo Llopis
   * Ernesto Tejeda
 * Abraham Anes <abrahamanes@gmail.com>
+* Arona Diatta <seydinaharoun@gmail.com>

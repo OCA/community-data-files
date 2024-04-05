@@ -20,15 +20,15 @@ class TestResPartnerNace(TransactionCase):
 
     def test_complete_name_1(self):
         self.assertEqual(self.nace.name, "nace_test")
-        self.assertEqual(self.nace.complete_name, "[code_nace] nace_test")
+        self.assertEqual(self.nace.full_name, "[code_nace] nace_test")
         self.assertEqual(
-            self.child_nace.complete_name,
+            self.child_nace.full_name,
             "[code_child] nace_child",
         )
 
     def test_complete_name_2(self):
         self.assertEqual(
-            self.child_nace.with_context(nace_display="long").complete_name,
+            self.child_nace.with_context(nace_display="long").full_name,
             "[code_nace] nace_test / [code_child] nace_child",
         )
 
