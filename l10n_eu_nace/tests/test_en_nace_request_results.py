@@ -67,22 +67,22 @@ NACE_ES = [
     {
         "ES": {
             "type": "literal",
-            "value": "01 Agricultura, ganadería, caza y servicios relacionados\
+            "value": "Agricultura, ganadería, caza y servicios relacionados\
                   con las mismas",
         }
     },
-    {"ES": {"type": "literal", "value": "01.1 Cultivos no perennes"}},
+    {"ES": {"type": "literal", "value": "Cultivos no perennes"}},
     {
         "ES": {
             "type": "literal",
-            "value": "01.11 Cultivo de cereales (excepto arroz), \
+            "value": "Cultivo de cereales (excepto arroz), \
                 leguminosas y semillas oleaginosas",
         }
     },
     {
         "ES": {
             "type": "literal",
-            "value": "02 Silvicultura y explotación \
+            "value": "Silvicultura y explotación \
             forestal",
         }
     },
@@ -92,41 +92,41 @@ NACE_EN = [
     {
         "EN": {
             "type": "literal",
-            "value": "01 Crop and animal production, hunting and related \
+            "value": "Crop and animal production, hunting and related \
                 service activities",
         }
     },
-    {"EN": {"type": "literal", "value": "01.1 Growing of non-perennial crops"}},
+    {"EN": {"type": "literal", "value": "Growing of non-perennial crops"}},
     {
         "EN": {
             "type": "literal",
-            "value": "01.11 Growing of cereals (except rice), leguminous crops \
+            "value": "Growing of cereals (except rice), leguminous crops \
                 and oil seeds",
         }
     },
-    {"EN": {"type": "literal", "value": "02 Forestry and logging"}},
+    {"EN": {"type": "literal", "value": "Forestry and logging"}},
 ]
 
 NACE_FR = [
     {
         "FR": {
             "type": "literal",
-            "value": "01 Culture et production animale, chasse et services \
+            "value": "Culture et production animale, chasse et services \
                 annexes",
         }
     },
-    {"FR": {"type": "literal", "value": "01.1 Cultures non permanentes"}},
+    {"FR": {"type": "literal", "value": "Cultures non permanentes"}},
     {
         "FR": {
             "type": "literal",
-            "value": "01.11 Culture de céréales (à l'exception du riz), de \
+            "value": "Culture de céréales (à l'exception du riz), de \
                 légumineuses et de graines oléagineuses",
         }
     },
     {
         "FR": {
             "type": "literal",
-            "value": "02 Sylviculture et exploitation \
+            "value": "Sylviculture et exploitation \
             forestière",
         }
     },
