@@ -2,7 +2,7 @@
 # License LGPL-3.0 or later (https://www.gnu.org/licenses/lgpl).
 from unittest.mock import patch
 
-from odoo.tests.common import Form, TransactionCase, new_test_user, users
+from odoo.tests.common import Form, TransactionCase, new_test_user
 
 from .test_en_nace_request_results import (
     NACE_COMMON,
@@ -21,7 +21,7 @@ class TestResPartnerIndustryEUNaceWizard(TransactionCase):
     @classmethod
     def setUpClass(cls):
         super().setUpClass()
-        cls.user = new_test_user(
+        cls.uid = new_test_user(
             cls.env,
             login="test-manager",
             groups="base.group_system",
@@ -36,12 +36,11 @@ class TestResPartnerIndustryEUNaceWizard(TransactionCase):
 
     def wizard_eu_nace(self):
         wizard = Form(
-            self.env["res.partner.industry.eu.nace.wizard"].with_user(self.user)
+            self.env["res.partner.industry.eu.nace.wizard"].with_user(self.uid)
         )
         import_wizard = wizard.save()
         return import_wizard
 
-    @users("test-manager")
     def test_get_languages(self):
         nace_wizard = self.wizard_eu_nace()
         self.assertEqual(nace_wizard.get_languages(), [("en_US", "EN")])
@@ -68,7 +67,6 @@ class TestResPartnerIndustryEUNaceWizard(TransactionCase):
         expected = [("en_US", "EN"), ("es_ES", "ES"), ("my_MM", "EN")]
         self.assertCountEqual(nace_wizard.get_languages(), expected)
 
-    @users("test-manager")
     def test_create_query(self):
         nace_wizard = self.wizard_eu_nace()
         active_languages = ["base.lang_en", "base.lang_es", "base.lang_fr"]
@@ -79,9 +77,9 @@ class TestResPartnerIndustryEUNaceWizard(TransactionCase):
         self.assertIn("?ES", query)
         self.assertIn("?FR", query)
         self.assertIn("?FR", query)
-        self.assertIn("skos:prefLabel ?LabelES;", query)
-        self.assertIn("skos:prefLabel ?LabelEN;", query)
-        self.assertIn("skos:prefLabel ?LabelFR;", query)
+        self.assertIn("skos:altLabel ?LabelES;", query)
+        self.assertIn("skos:altLabel ?LabelEN;", query)
+        self.assertIn("skos:altLabel ?LabelFR;", query)
         self.assertIn('FILTER (LANG(?LabelES) = "es")', query)
         self.assertIn("BIND (STR(?LabelES) as ?ES)", query)
         self.assertIn('FILTER (LANG(?LabelEN) = "en")', query)
@@ -89,7 +87,6 @@ class TestResPartnerIndustryEUNaceWizard(TransactionCase):
         self.assertIn('FILTER (LANG(?LabelFR) = "fr")', query)
         self.assertIn("BIND (STR(?LabelFR) as ?FR)", query)
 
-    @users("test-manager")
     @patch(MOCK_PATH, return_value=create_response(NACE_COMMON, NACE_EN))
     def test_update_partner_industry_eu_nace_english_only(self, mock_request):
         self.activate_langs(["base.lang_en"])
@@ -97,7 +94,6 @@ class TestResPartnerIndustryEUNaceWizard(TransactionCase):
         records_created = nace_wizard.update_partner_industry_eu_nace()
         self.assertEqual(len(records_created), 4)
 
-    @users("test-manager")
     @patch(
         MOCK_PATH, return_value=create_response(NACE_COMMON, NACE_EN, NACE_ES, NACE_FR)
     )
@@ -110,7 +106,6 @@ class TestResPartnerIndustryEUNaceWizard(TransactionCase):
         records_created = nace_wizard.update_partner_industry_eu_nace()
         self.assertEqual(len(records_created), 4)
 
-    @users("test-manager")
     @patch(
         MOCK_PATH, return_value=create_response(NACE_COMMON, NACE_EN, NACE_ES, NACE_FR)
     )
@@ -120,7 +115,6 @@ class TestResPartnerIndustryEUNaceWizard(TransactionCase):
         records_created = nace_wizard.update_partner_industry_eu_nace()
         self.assertEqual(len(records_created), 4)
 
-    @users("test-manager")
     @patch(MOCK_PATH, return_value=create_response(NACE_COMMON, NACE_EN, NACE_ES))
     def test_update_partner_industry_eu_nace_new_language_update(self, mock_request):
         self.activate_langs(["base.lang_en", "base.lang_es"])
@@ -139,7 +133,6 @@ class TestResPartnerIndustryEUNaceWizard(TransactionCase):
         nace_fr_names = list(map(lambda item: item.get("FR").get("value"), NACE_FR))
         self.assertCountEqual(records_created_name_fr, nace_fr_names)
 
-    @users("test-manager")
     @patch(MOCK_PATH, return_value=create_response(NACE_COMMON, NACE_EN, NACE_ES))
     def test_update_partner_industry_eu_nace_idempotent_update(self, mock_request):
         self.activate_langs(["base.lang_en"])

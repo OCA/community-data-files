@@ -16,7 +16,6 @@
     ],
     "maintainers": ["rafaelbn", "yajo", "edlopen"],
     "depends": ["partner_industry_secondary"],
-    "external_dependencies": {"python": ["requests"]},
     "installable": True,
     "license": "AGPL-3",
 }

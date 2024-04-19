@@ -3,7 +3,7 @@
 
 import requests
 
-from odoo import models
+from odoo import _, models
 
 ENDPOINT = "https://publications.europa.eu/webapi/rdf/sparql"
 # List of languages imported in previous versions of the module.
@@ -75,7 +75,7 @@ class ResPartnerIndustryEUNaceWizard(models.TransientModel):
 
     @staticmethod
     def get_skos_query(language):
-        return f"skos:prefLabel ?Label{language};"
+        return f"skos:altLabel ?Label{language};"
 
     @staticmethod
     def get_filter_query(language):
@@ -133,7 +133,8 @@ class ResPartnerIndustryEUNaceWizard(models.TransientModel):
                 BIND (STRAFTER(?NACELEVEL, "/nace2/") AS ?LEVEL)
                 ?Member skos:prefLabel ?MemberLabel .
                 FILTER (LANG(?MemberLabel) = "en")
-            }} ORDER BY ?code
+                BIND (xsd:integer(REPLACE(?code, "\\D", "")) AS ?code_formatted)
+                }} ORDER BY ?code_formatted
         """
         return query
 
@@ -143,31 +144,33 @@ class ResPartnerIndustryEUNaceWizard(models.TransientModel):
         nace_ids = self.env["res.partner.industry"]
         nace_json = nace_data.json()
         bindings = nace_json.get("results", {}).get("bindings", {})
+        all_naces = nace_ids.search_read([], ["full_name"])
+        nace_map = {
+            nace.get("full_name").split(" - ")[0]: nace.get("id") for nace in all_naces
+        }
         for binding in bindings:
             nace_code = binding.get("code", {}).get("value", "")
-            nace_id = self.env["res.partner.industry"].search(
-                [("full_name", "=like", nace_code + "%")], limit=1
-            )
+            nace_id = nace_map.get(nace_code, False)
             nace_parent_code = binding.get("parentCode", {}).get("value", "")
-            parent_id = self.env["res.partner.industry"].search(
-                [("full_name", "=like", nace_parent_code + "%")], limit=1
-            )
+            parent_id = nace_map.get(nace_parent_code, False)
             nace_name = binding.get("EN", {}).get("value")
             if not nace_id:
-                nace_id = self.env["res.partner.industry"].create(
+                nace = self.env["res.partner.industry"].create(
                     {
                         "name": nace_name,
-                        "full_name": nace_name,
-                        "parent_id": parent_id and parent_id.id,
+                        "full_name": f"{nace_code} - {nace_name}",
+                        "parent_id": parent_id,
                     }
                 )
-                nace_ids |= nace_id
+                nace_map[nace_code] = nace.id
+                nace_ids |= nace
             for lang, lang_code in languages:
                 nace_translated = binding.get(lang_code, {}).get("value")
-                nace_id.with_context(lang=lang).write(
+                nace = nace_ids.browse(nace_map[nace_code])
+                nace.with_context(lang=lang).write(
                     {
                         "name": nace_translated,
-                        "full_name": nace_translated,
+                        "full_name": f"{nace_code} - {nace_translated}",
                     }
                 )
         return nace_ids
@@ -176,8 +179,20 @@ class ResPartnerIndustryEUNaceWizard(models.TransientModel):
         languages = self.get_languages()
         query = self._create_query(languages)
         result = requests.get(
-            ENDPOINT, params={"format": "json", "query": query}, timeout=60
+            ENDPOINT, params={"format": "json", "query": query}, timeout=120
         )
         result.raise_for_status()
         nace_ids = self._create_nace_industry(result, languages)
         return nace_ids
+
+    def action_partner_industry_eu_nace(self):
+        self.update_partner_industry_eu_nace()
+        tree_view_id = self.env.ref("base.res_partner_industry_view_tree").id
+        return {
+            "name": _("Partner Industries by EU NACE"),
+            "view_mode": "tree",
+            "res_model": "res.partner.industry",
+            "view_id": tree_view_id,
+            "type": "ir.actions.act_window",
+            "domain": [],
+        }
