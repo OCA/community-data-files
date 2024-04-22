@@ -4,16 +4,19 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 16.0+e\n"
+"Project-Id-Version: Odoo Server 16.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-04-15 16:09+0000\n"
-"PO-Revision-Date: 2024-04-15 16:09+0000\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: \n"
+
+#. module: l10n_eu_nace
+#: model_terms:ir.ui.view,arch_db:l10n_eu_nace.partner_industry_nace_wizard_view_form
+msgid "Cancel"
+msgstr ""
 
 #. module: l10n_eu_nace
 #: model:ir.model.fields,field_description:l10n_eu_nace.field_res_partner_industry_eu_nace_wizard__create_uid
@@ -43,6 +46,14 @@ msgid "Import NACE industries"
 msgstr ""
 
 #. module: l10n_eu_nace
+#: model_terms:ir.ui.view,arch_db:l10n_eu_nace.partner_industry_nace_wizard_view_form
+msgid ""
+"Import NACE industries from ShowVoc API. This will\n"
+"                        create new industries or update existing ones with their\n"
+"                        translations for all active languages in the system."
+msgstr ""
+
+#. module: l10n_eu_nace
 #: model:ir.model.fields,field_description:l10n_eu_nace.field_res_partner_industry_eu_nace_wizard____last_update
 msgid "Last Modified on"
 msgstr ""
@@ -55,6 +66,13 @@ msgstr ""
 #. module: l10n_eu_nace
 #: model:ir.model.fields,field_description:l10n_eu_nace.field_res_partner_industry_eu_nace_wizard__write_date
 msgid "Last Updated on"
+msgstr ""
+
+#. module: l10n_eu_nace
+#. odoo-python
+#: code:addons/l10n_eu_nace/wizard/res_partner_industry_eu_nace_wizard.py:0
+#, python-format
+msgid "Partner Industries by EU NACE"
 msgstr ""
 
 #. module: l10n_eu_nace
