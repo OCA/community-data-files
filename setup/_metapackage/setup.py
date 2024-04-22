@@ -15,6 +15,7 @@ setuptools.setup(
         'odoo-addon-base_iso3166>=16.0dev,<16.1dev',
         'odoo-addon-base_unece>=16.0dev,<16.1dev',
         'odoo-addon-company_sanitary_registry>=16.0dev,<16.1dev',
+        'odoo-addon-l10n_eu_nace>=16.0dev,<16.1dev',
         'odoo-addon-product_fao_fishing>=16.0dev,<16.1dev',
         'odoo-addon-uom_unece>=16.0dev,<16.1dev',
     ],
