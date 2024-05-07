@@ -4,7 +4,7 @@
 
 {
     "name": "Bank from IBAN",
-    "version": "17.0.1.0.0",
+    "version": "17.0.1.0.1",
     "author": "Tecnativa, Odoo Community Association (OCA)",
     "website": "https://github.com/OCA/community-data-files",
     "category": "Localization",
@@ -12,6 +12,6 @@
     "depends": ["base_iban"],
     "development_status": "Mature",
     "data": ["views/res_bank_view.xml"],
-    "external_dependencies": {"python": ["schwifty"]},
+    "external_dependencies": {"python": ["schwifty==2024.4.0"]},
     "installable": True,
 }
