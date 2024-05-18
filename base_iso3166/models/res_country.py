@@ -27,7 +27,9 @@ class ResCountry(models.Model):
 
     @api.depends("code")
     def _compute_codes(self):
-        for country in self:
+        self.code_alpha3 = False
+        self.code_numeric = False
+        for country in self.filtered("code"):
             c = False
             for country_type in ["countries", "historic_countries"]:
                 try:
@@ -39,6 +41,3 @@ class ResCountry(models.Model):
             if c:
                 country.code_alpha3 = getattr(c, "alpha_3", getattr(c, "alpha3", False))
                 country.code_numeric = c.numeric
-            else:
-                country.code_alpha3 = False
-                country.code_numeric = False
