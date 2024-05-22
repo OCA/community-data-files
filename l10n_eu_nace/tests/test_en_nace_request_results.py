@@ -137,7 +137,7 @@ def create_response(*lists):
     response = Response()
     response.code = "200"
     response.status_code = 200
-    merged_lists = list(zip(*lists))
+    merged_lists = list(zip(*lists, strict=False))
     bindings = [reduce(lambda acc, new: {**acc, **new}, item) for item in merged_lists]
     content = {
         "head": {},
