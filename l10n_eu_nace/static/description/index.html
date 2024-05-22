@@ -368,22 +368,24 @@ ul.auto-toc {
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 !! source digest: sha256:907d99c4f3d032466b3667a9d217d64cafd479ba02a352b40a3565410a5ca0f8
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! -->
-<p><a class="reference external image-reference" href="https://odoo-community.org/page/development-status"><img alt="Beta" src="https://img.shields.io/badge/maturity-Beta-yellow.png" /></a> <a class="reference external image-reference" href="http://www.gnu.org/licenses/agpl-3.0-standalone.html"><img alt="License: AGPL-3" src="https://img.shields.io/badge/licence-AGPL--3-blue.png" /></a> <a class="reference external image-reference" href="https://github.com/OCA/community-data-files/tree/16.0/l10n_eu_nace"><img alt="OCA/community-data-files" src="https://img.shields.io/badge/github-OCA%2Fcommunity--data--files-lightgray.png?logo=github" /></a> <a class="reference external image-reference" href="https://translation.odoo-community.org/projects/community-data-files-16-0/community-data-files-16-0-l10n_eu_nace"><img alt="Translate me on Weblate" src="https://img.shields.io/badge/weblate-Translate%20me-F47D42.png" /></a> <a class="reference external image-reference" href="https://runboat.odoo-community.org/builds?repo=OCA/community-data-files&amp;target_branch=16.0"><img alt="Try me on Runboat" src="https://img.shields.io/badge/runboat-Try%20me-875A7B.png" /></a></p>
-<p>This module imports the NACE rev. 2 classification
-categories as partner categories in 23 languages, courtesy of the EU.</p>
-<p>The <em>Statistical Classification of Economic Activities in the European Community</em>
-commonly referred to as NACE, is a European industry standard classification
-system using a 6 digit code.
-NACE is equivalent to the SIC and NAICS system:
-* Standard Industrial Classification
-* North American Industry Classification System.</p>
-<p>This module is a rewrite of the older community module “partner_nace” from
-the former <cite>extra-addons</cite> repository of Odoo v5 (called OpenERP at the time).</p>
+<p><a class="reference external image-reference" href="https://odoo-community.org/page/development-status"><img alt="Beta" src="https://img.shields.io/badge/maturity-Beta-yellow.png" /></a> <a class="reference external image-reference" href="http://www.gnu.org/licenses/agpl-3.0-standalone.html"><img alt="License: AGPL-3" src="https://img.shields.io/badge/licence-AGPL--3-blue.png" /></a> <a class="reference external image-reference" href="https://github.com/OCA/community-data-files/tree/17.0/l10n_eu_nace"><img alt="OCA/community-data-files" src="https://img.shields.io/badge/github-OCA%2Fcommunity--data--files-lightgray.png?logo=github" /></a> <a class="reference external image-reference" href="https://translation.odoo-community.org/projects/community-data-files-17-0/community-data-files-17-0-l10n_eu_nace"><img alt="Translate me on Weblate" src="https://img.shields.io/badge/weblate-Translate%20me-F47D42.png" /></a> <a class="reference external image-reference" href="https://runboat.odoo-community.org/builds?repo=OCA/community-data-files&amp;target_branch=17.0"><img alt="Try me on Runboat" src="https://img.shields.io/badge/runboat-Try%20me-875A7B.png" /></a></p>
+<p>This module imports the NACE rev. 2 classification categories as partner
+categories in 23 languages, courtesy of the EU.</p>
+<p>The <em>Statistical Classification of Economic Activities in the European
+Community</em> commonly referred to as NACE, is a European industry standard
+classification system using a 6 digit code. NACE is equivalent to the
+SIC and NAICS system: * Standard Industrial Classification * North
+American Industry Classification System.</p>
+<p>This module is a rewrite of the older community module “partner_nace”
+from the former extra-addons repository of Odoo v5 (called OpenERP at
+the time).</p>
 <p><strong>Table of contents</strong></p>
 <div class="contents local topic" id="contents">
 <ul class="simple">
-<li><a class="reference internal" href="#usage" id="toc-entry-1">Usage</a></li>
+<li><a class="reference internal" href="#usage" id="toc-entry-1">Usage</a><ul>
 <li><a class="reference internal" href="#obtaining-updated-data" id="toc-entry-2">Obtaining updated data</a></li>
+</ul>
+</li>
 <li><a class="reference internal" href="#bug-tracker" id="toc-entry-3">Bug Tracker</a></li>
 <li><a class="reference internal" href="#credits" id="toc-entry-4">Credits</a><ul>
 <li><a class="reference internal" href="#authors" id="toc-entry-5">Authors</a></li>
@@ -395,31 +397,32 @@ the former <cite>extra-addons</cite> repository of Odoo v5 (called OpenERP at th
 </div>
 <div class="section" id="usage">
 <h1><a class="toc-backref" href="#toc-entry-1">Usage</a></h1>
-<p>Once this module is installed, you can assign NACE categories to your partners
-by simply adding the corresponding category in the partner’s form.</p>
-</div>
+<p>Once this module is installed, you can assign NACE categories to your
+partners by simply adding the corresponding category in the partner’s
+form.</p>
 <div class="section" id="obtaining-updated-data">
-<h1><a class="toc-backref" href="#toc-entry-2">Obtaining updated data</a></h1>
-<p>The data is imported from the new NACE Rev. 2 classification, which is hosted in
-ShowVoc. This is a new platform that replaces the old Eurostat RAMON service and
-uses SPARQL to retrieve the data.</p>
-<p>If you want to import or update the data, you can do so by running the Import
-NACE Wizard. This will search for all active languages in Odoo and import the
-data for each one. <strong>If you activate a new language, remember to run this wizard
-again.</strong></p>
+<h2><a class="toc-backref" href="#toc-entry-2">Obtaining updated data</a></h2>
+<p>The data is imported from the new NACE Rev. 2 classification, which is
+hosted in ShowVoc. This is a new platform that replaces the old Eurostat
+RAMON service and uses SPARQL to retrieve the data.</p>
+<p>If you want to import or update the data, you can do so by running the
+Import NACE Wizard. This will search for all active languages in Odoo
+and import the data for each one. <strong>If you activate a new language,
+remember to run this wizard again.</strong></p>
 <ol class="arabic simple">
 <li>Go to “Contacts” &gt; “Configuration” &gt; “Import NACE industries”</li>
 <li>Click on the “Import NACE” button.</li>
 </ol>
-<p>This might take a minute or so depending on the number of languages and the
-speed of your connection.</p>
+<p>This might take a minute or so depending on the number of languages and
+the speed of your connection.</p>
+</div>
 </div>
 <div class="section" id="bug-tracker">
 <h1><a class="toc-backref" href="#toc-entry-3">Bug Tracker</a></h1>
 <p>Bugs are tracked on <a class="reference external" href="https://github.com/OCA/community-data-files/issues">GitHub Issues</a>.
 In case of trouble, please check there if your issue has already been reported.
 If you spotted it first, help us to smash it by providing a detailed and welcomed
-<a class="reference external" href="https://github.com/OCA/community-data-files/issues/new?body=module:%20l10n_eu_nace%0Aversion:%2016.0%0A%0A**Steps%20to%20reproduce**%0A-%20...%0A%0A**Current%20behavior**%0A%0A**Expected%20behavior**">feedback</a>.</p>
+<a class="reference external" href="https://github.com/OCA/community-data-files/issues/new?body=module:%20l10n_eu_nace%0Aversion:%2017.0%0A%0A**Steps%20to%20reproduce**%0A-%20...%0A%0A**Current%20behavior**%0A%0A**Expected%20behavior**">feedback</a>.</p>
 <p>Do not contact contributors directly about support or help with technical issues.</p>
 </div>
 <div class="section" id="credits">
@@ -456,7 +459,7 @@ mission is to support the collaborative development of Odoo features and
 promote its widespread use.</p>
 <p>Current <a class="reference external" href="https://odoo-community.org/page/maintainer-role">maintainers</a>:</p>
 <p><a class="reference external image-reference" href="https://github.com/rafaelbn"><img alt="rafaelbn" src="https://github.com/rafaelbn.png?size=40px" /></a> <a class="reference external image-reference" href="https://github.com/yajo"><img alt="yajo" src="https://github.com/yajo.png?size=40px" /></a> <a class="reference external image-reference" href="https://github.com/edlopen"><img alt="edlopen" src="https://github.com/edlopen.png?size=40px" /></a></p>
-<p>This module is part of the <a class="reference external" href="https://github.com/OCA/community-data-files/tree/16.0/l10n_eu_nace">OCA/community-data-files</a> project on GitHub.</p>
+<p>This module is part of the <a class="reference external" href="https://github.com/OCA/community-data-files/tree/17.0/l10n_eu_nace">OCA/community-data-files</a> project on GitHub.</p>
 <p>You are welcome to contribute. To learn how please visit <a class="reference external" href="https://odoo-community.org/page/Contribute">https://odoo-community.org/page/Contribute</a>.</p>
 </div>
 </div>
