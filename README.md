@@ -28,6 +28,7 @@ addon | version | maintainers | summary
 [base_iso3166](base_iso3166/) | 17.0.1.0.0 |  | ISO 3166
 [base_unece](base_unece/) | 17.0.1.0.0 | [![astirpe](https://github.com/astirpe.png?size=30px)](https://github.com/astirpe) [![alexis-via](https://github.com/alexis-via.png?size=30px)](https://github.com/alexis-via) | Base module for UNECE code lists
 [company_sanitary_registry](company_sanitary_registry/) | 17.0.1.0.0 |  | Sanitary Registry
+[l10n_eu_nace](l10n_eu_nace/) | 17.0.1.0.0 | [![rafaelbn](https://github.com/rafaelbn.png?size=30px)](https://github.com/rafaelbn) [![yajo](https://github.com/yajo.png?size=30px)](https://github.com/yajo) [![edlopen](https://github.com/edlopen.png?size=30px)](https://github.com/edlopen) | European NACE partner categories
 [product_fao_fishing](product_fao_fishing/) | 17.0.1.0.0 |  | Set fishing areas and capture technology
 [uom_unece](uom_unece/) | 17.0.1.0.0 | [![astirpe](https://github.com/astirpe.png?size=30px)](https://github.com/astirpe) [![alexis-via](https://github.com/alexis-via.png?size=30px)](https://github.com/alexis-via) | UNECE nomenclature for the units of measure
 
