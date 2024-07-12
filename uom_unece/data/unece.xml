@@ -2,7 +2,7 @@
 <odoo>
     <!-- Units -->
     <record id="uom.product_uom_unit" model="uom.uom">
-        <field name="unece_code">C62</field>
+        <field name="unece_code">PCE</field>
     </record>
     <record id="uom.product_uom_dozen" model="uom.uom">
         <field name="unece_code">DPC</field>
