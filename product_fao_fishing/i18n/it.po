@@ -6,243 +6,245 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 16.0\n"
 "Report-Msgid-Bugs-To: \n"
-"Last-Translator: Automatically generated\n"
+"PO-Revision-Date: 2024-07-16 11:58+0000\n"
+"Last-Translator: mymage <stefano.consolaro@mymage.it>\n"
 "Language-Team: none\n"
 "Language: it\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 5.6.2\n"
 
 #. module: product_fao_fishing
 #: model:product.attribute.value,name:product_fao_fishing.fao_fishing_area_1
 msgid "Africa - Inland waters"
-msgstr ""
+msgstr "Africa - acque interne"
 
 #. module: product_fao_fishing
 #: model:product.attribute.value,name:product_fao_fishing.fao_fishing_area_2
 msgid "America, North - Inland waters"
-msgstr ""
+msgstr "Nord America - acque interne"
 
 #. module: product_fao_fishing
 #: model:product.attribute.value,name:product_fao_fishing.fao_fishing_area_3
 msgid "America, South - Inland waters"
-msgstr ""
+msgstr "Sud America - Acque interne"
 
 #. module: product_fao_fishing
 #: model:product.attribute.value,name:product_fao_fishing.fishing_technique_att_value_angling
 msgid "Angling"
-msgstr ""
+msgstr "Pesca"
 
 #. module: product_fao_fishing
 #: model:product.attribute.value,name:product_fao_fishing.fao_fishing_area_98
 msgid "Antarctic areas nei"
-msgstr ""
+msgstr "Aree antartiche nna"
 
 #. module: product_fao_fishing
 #: model:product.attribute.value,name:product_fao_fishing.fao_fishing_area_8
 msgid "Antarctica - Inland waters"
-msgstr ""
+msgstr "Antartico - acque interne"
 
 #. module: product_fao_fishing
 #: model:product.attribute.value,name:product_fao_fishing.fishing_technique_att_value_aquaculture
 msgid "Aquaculture"
-msgstr ""
+msgstr "Acquacultura"
 
 #. module: product_fao_fishing
 #: model:product.attribute.value,name:product_fao_fishing.fao_fishing_area_18
 msgid "Arctic Sea"
-msgstr ""
+msgstr "Mare Artico"
 
 #. module: product_fao_fishing
 #: model:product.attribute.value,name:product_fao_fishing.fao_fishing_area_4
 msgid "Asia - Inland waters"
-msgstr ""
+msgstr "Asia - acque interne"
 
 #. module: product_fao_fishing
 #: model:product.attribute.value,name:product_fao_fishing.fao_fishing_area_48
 msgid "Atlantic, Antarctic"
-msgstr ""
+msgstr "Atlantico, Antartico"
 
 #. module: product_fao_fishing
 #: model:product.attribute.value,name:product_fao_fishing.fao_fishing_area_34
 msgid "Atlantic, Eastern Central"
-msgstr ""
+msgstr "Atlantico, centrale orientale"
 
 #. module: product_fao_fishing
 #: model:product.attribute.value,name:product_fao_fishing.fao_fishing_area_27
 msgid "Atlantic, Northeast"
-msgstr ""
+msgstr "Atlantico, nord est"
 
 #. module: product_fao_fishing
 #: model:product.attribute.value,name:product_fao_fishing.fao_fishing_area_21
 msgid "Atlantic, Northwest"
-msgstr ""
+msgstr "Atlantico, nord ovest"
 
 #. module: product_fao_fishing
 #: model:product.attribute.value,name:product_fao_fishing.fao_fishing_area_47
 msgid "Atlantic, Southeast"
-msgstr ""
+msgstr "Atlantico, sud est"
 
 #. module: product_fao_fishing
 #: model:product.attribute.value,name:product_fao_fishing.fao_fishing_area_41
 msgid "Atlantic, Southwest"
-msgstr ""
+msgstr "Atlantico, sud ovest"
 
 #. module: product_fao_fishing
 #: model:product.attribute.value,name:product_fao_fishing.fao_fishing_area_31
 msgid "Atlantic, Western Central"
-msgstr ""
+msgstr "Atlantico centrale occidentale"
 
 #. module: product_fao_fishing
 #: model:ir.model,name:product_fao_fishing.model_product_attribute_value
 msgid "Attribute Value"
-msgstr ""
+msgstr "Valore attributo"
 
 #. module: product_fao_fishing
 #: model:product.attribute.value,name:product_fao_fishing.fishing_technique_att_value_enmanelle_nets
 msgid "Enmanelle nets and similar"
-msgstr ""
+msgstr "Reti Enmanelle e simili"
 
 #. module: product_fao_fishing
 #: model:product.attribute.value,name:product_fao_fishing.fao_fishing_area_5
 msgid "Europe - Inland waters"
-msgstr ""
+msgstr "Europa - acque interne"
 
 #. module: product_fao_fishing
 #: model:product.attribute,name:product_fao_fishing.fao_fishing_area
 msgid "FAO Fishing Areas"
-msgstr ""
+msgstr "Aree di pesca FAO"
 
 #. module: product_fao_fishing
 #: model:product.attribute,name:product_fao_fishing.fao_fishing_technique
 msgid "FAO Fishing Technique"
-msgstr ""
+msgstr "Tecnica di pesca FAO"
 
 #. module: product_fao_fishing
 #: model:ir.model.fields,field_description:product_fao_fishing.field_product_product__fao_fishing_area_ids
 #: model:ir.model.fields,field_description:product_fao_fishing.field_product_template__fao_fishing_area_ids
 msgid "Fao Fishing Area"
-msgstr ""
+msgstr "Area di pesca FAO"
 
 #. module: product_fao_fishing
 #: model:ir.model.fields,field_description:product_fao_fishing.field_product_product__fao_fishing_technique_ids
 #: model:ir.model.fields,field_description:product_fao_fishing.field_product_template__fao_fishing_technique_ids
 msgid "Fao Fishing Technique"
-msgstr ""
+msgstr "Tecnica di pesca FAO"
 
 #. module: product_fao_fishing
 #: model:product.attribute.value,name:product_fao_fishing.fao_fishing_area_7
 msgid "Former USSR area - Inland waters"
-msgstr ""
+msgstr "Area ex URSS - acque interne"
 
 #. module: product_fao_fishing
 #: model:product.attribute.value,name:product_fao_fishing.fishing_technique_att_value_harrows
 msgid "Harrows"
-msgstr ""
+msgstr "Frecce"
 
 #. module: product_fao_fishing
 #: model:product.attribute.value,name:product_fao_fishing.fao_fishing_area_58
 msgid "Indian Ocean, Antarctic"
-msgstr ""
+msgstr "Oceano Indiano, Antartico"
 
 #. module: product_fao_fishing
 #: model:product.attribute.value,name:product_fao_fishing.fao_fishing_area_57
 msgid "Indian Ocean, Eastern"
-msgstr ""
+msgstr "Oceano indiano orientale"
 
 #. module: product_fao_fishing
 #: model:product.attribute.value,name:product_fao_fishing.fao_fishing_area_51
 msgid "Indian Ocean, Western"
-msgstr ""
+msgstr "Oceano Indiano, occidentale"
 
 #. module: product_fao_fishing
 #: model:product.attribute.value,name:product_fao_fishing.fao_fishing_area_99
 msgid "Marine areas outside the Antarctic"
-msgstr ""
+msgstr "Aree marine fuori dall'Antartico"
 
 #. module: product_fao_fishing
 #: model:product.attribute.value,name:product_fao_fishing.fao_fishing_area_37
 msgid "Mediterranean and Black Sea"
-msgstr ""
+msgstr "Mediterraneo e Mar Nero"
 
 #. module: product_fao_fishing
 #: model:product.attribute.value,name:product_fao_fishing.fishing_technique_att_value_netting
 msgid "Netting"
-msgstr ""
+msgstr "Con la rete"
 
 #. module: product_fao_fishing
 #: model:product.attribute.value,name:product_fao_fishing.fao_fishing_area_6
 msgid "Oceania - Inland waters"
-msgstr ""
+msgstr "Oceania - Acque interne"
 
 #. module: product_fao_fishing
 #: model:product.attribute.value,name:product_fao_fishing.fao_fishing_area_88
 msgid "Pacific, Antarctic"
-msgstr ""
+msgstr "Pacifico, Antartico"
 
 #. module: product_fao_fishing
 #: model:product.attribute.value,name:product_fao_fishing.fao_fishing_area_77
 msgid "Pacific, Eastern Central"
-msgstr ""
+msgstr "Pacifico, centrale orientale"
 
 #. module: product_fao_fishing
 #: model:product.attribute.value,name:product_fao_fishing.fao_fishing_area_67
 msgid "Pacific, Northeast"
-msgstr ""
+msgstr "Pacifico, nord est"
 
 #. module: product_fao_fishing
 #: model:product.attribute.value,name:product_fao_fishing.fao_fishing_area_61
 msgid "Pacific, Northwest"
-msgstr ""
+msgstr "Pacifico nord ovest"
 
 #. module: product_fao_fishing
 #: model:product.attribute.value,name:product_fao_fishing.fao_fishing_area_87
 msgid "Pacific, Southeast"
-msgstr ""
+msgstr "Pacifico, sud est"
 
 #. module: product_fao_fishing
 #: model:product.attribute.value,name:product_fao_fishing.fao_fishing_area_81
 msgid "Pacific, Southwest"
-msgstr ""
+msgstr "Pacifico sud ovest"
 
 #. module: product_fao_fishing
 #: model:product.attribute.value,name:product_fao_fishing.fao_fishing_area_71
 msgid "Pacific, Western Central"
-msgstr ""
+msgstr "Pacifico, centrale occidentale"
 
 #. module: product_fao_fishing
 #: model:ir.model,name:product_fao_fishing.model_product_template
 msgid "Product"
-msgstr ""
+msgstr "Prodotto"
 
 #. module: product_fao_fishing
 #: model:ir.model,name:product_fao_fishing.model_product_template_attribute_value
 msgid "Product Template Attribute Value"
-msgstr ""
+msgstr "Valore attributo modello prodotto"
 
 #. module: product_fao_fishing
 #: model:product.attribute.value,name:product_fao_fishing.fishing_technique_att_value_purse_nets
 msgid "Purse seines and nets hoisted"
-msgstr ""
+msgstr "Sciabiche e reti issate"
 
 #. module: product_fao_fishing
 #: model:product.attribute.value,name:product_fao_fishing.fishing_technique_att_value_spearfishing
 msgid "Spearfishing"
-msgstr ""
+msgstr "Pesca subacquea"
 
 #. module: product_fao_fishing
 #: model:product.attribute.value,name:product_fao_fishing.fishing_technique_att_value_trapping
 msgid "Trapping"
-msgstr ""
+msgstr "Con nasse"
 
 #. module: product_fao_fishing
 #: model:product.attribute.value,name:product_fao_fishing.fishing_technique_att_value_trawl_nets
 msgid "Trawl nets"
-msgstr ""
+msgstr "Reti a strascico"
 
 #. module: product_fao_fishing
 #: model:ir.model.fields,field_description:product_fao_fishing.field_product_attribute_value__fao_zone_code
 #: model:ir.model.fields,field_description:product_fao_fishing.field_product_template_attribute_value__fao_zone_code
 msgid "Zone Code"
-msgstr ""
+msgstr "Codice zona"
