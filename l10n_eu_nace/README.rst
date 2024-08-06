@@ -87,6 +87,7 @@ Authors
 
 * Numérigraphe SARL
 * Sistheo
+* Moduon
 
 Contributors
 ~~~~~~~~~~~~
