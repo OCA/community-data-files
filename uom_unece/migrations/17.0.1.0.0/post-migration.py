@@ -9,6 +9,5 @@ def migrate(cr, version):
     if not version:
         return
 
-    with api.Environment.manage():
-        env = api.Environment(cr, SUPERUSER_ID, {})
-        env.ref("uom.product_uom_km").write({"unece_code": "KMT"})
+    env = api.Environment(cr, SUPERUSER_ID, {})
+    env.ref("uom.product_uom_km").write({"unece_code": "KMT"})
