@@ -33,7 +33,9 @@
                             </div>
                             <div class="oe_kanban_details">
                                 <p>
-                                    <strong><field name="code" /></strong>
+                                    <strong>
+                                        <field name="code" />
+                                    </strong>
                                 </p>
                                 <p>
                                     <field name="name" />

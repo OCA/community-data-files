@@ -62,7 +62,7 @@
                         <group colspan="4" col="2" string="Labels">
                             <field name="adr_label_ids" nolabel="1" mode="kanban" />
                         </group>
-                </group>
+                    </group>
                 </page>
             </xpath>
         </field>

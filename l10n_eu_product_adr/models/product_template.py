@@ -92,7 +92,7 @@ class ProductTemplate(models.Model):
     def create(self, vals_list):
         """Propagate the template's adr settings on the created variants"""
         res = super().create(vals_list)
-        for template, vals in zip(res, vals_list):
+        for template, vals in zip(res, vals_list, strict=False):
             variant_vals = {}
             for field in ("is_dangerous", "adr_goods_id"):
                 if field in vals:

@@ -51,9 +51,10 @@ class TestAdrModels(TransactionCase):
                 "tunnel_restriction_code": "-",
             }
         )
-        with self.assertRaisesRegex(
-            ValidationError, "length of 4"
-        ), self.env.cr.savepoint():
+        with (
+            self.assertRaisesRegex(ValidationError, "length of 4"),
+            self.env.cr.savepoint(),
+        ):
             adr_goods.un_number = "999"
 
         self.assertEqual(

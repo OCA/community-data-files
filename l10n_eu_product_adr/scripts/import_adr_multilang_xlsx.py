@@ -332,9 +332,7 @@ def parse_transport_category(row):
     if category == "_":
         category = "-"
     if category not in valid_categories:
-        raise ValueError(
-            "Invalid transport category {} in cell value {}".format(category, value)
-        )
+        raise ValueError(f"Invalid transport category {category} in cell value {value}")
     if tunnel_restriction_code not in valid_tunnel_codes:
         raise ValueError(
             "Invalid tunnel restriction code %s in cell value %s"
@@ -384,7 +382,7 @@ def parse_labels(row):
             if un_number in article_labels:
                 label = article_labels[un_number]
         if label not in valid_labels + ["7X"]:
-            raise ValueError("Invalid label {} in cell value {}".format(label, value))
+            raise ValueError(f"Invalid label {label} in cell value {value}")
         res.append(label)
     return res
 
@@ -421,7 +419,7 @@ def transform_row(root, row):
         try:
             transformers[field](record, value, row)
         except (ValueError, AttributeError) as e:
-            raise ValueError("Could not transform row {}: {}".format(row, e)) from e
+            raise ValueError(f"Could not transform row {row}: {e}") from e
     return record.attrib["id"]
 
 

@@ -16,7 +16,7 @@
         <field name="name">Explosive substances and articles - Division 1.4</field>
         <field name="code">1.4</field>
         <field name="class_id" ref="adr_class_1" />
-            <field
+        <field
             name="image"
             type="base64"
             file="l10n_eu_product_adr/static/img/ADR_1.4.svg"
@@ -26,7 +26,7 @@
         <field name="name">Explosive substances and articles - Division 1.5</field>
         <field name="code">1.5</field>
         <field name="class_id" ref="adr_class_1" />
-            <field
+        <field
             name="image"
             type="base64"
             file="l10n_eu_product_adr/static/img/ADR_1.5.svg"
@@ -36,7 +36,7 @@
         <field name="name">Explosive substances and articles - Division 1.6</field>
         <field name="code">1.6</field>
         <field name="class_id" ref="adr_class_1" />
-            <field
+        <field
             name="image"
             type="base64"
             file="l10n_eu_product_adr/static/img/ADR_1.6.svg"
