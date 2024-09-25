@@ -91,7 +91,7 @@ class AdrGoods(models.Model):
         """Format the class name"""
         res = []
         for rec in self:
-            name = "{} {}".format(rec.un_number, rec.name)
+            name = f"{rec.un_number} {rec.name}"
             affixes = []
             if rec.transport_category != "-":
                 affixes.append(_("cat:%s", rec.transport_category))

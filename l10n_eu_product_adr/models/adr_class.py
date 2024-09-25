@@ -24,7 +24,7 @@ class AdrClass(models.Model):
 
     def name_get(self):
         """Prepend the code to the class name"""
-        return [(rec.id, "{} {}".format(rec.code, rec.name)) for rec in self]
+        return [(rec.id, f"{rec.code} {rec.name}") for rec in self]
 
     _sql_constraints = [
         (
