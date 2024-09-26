@@ -176,12 +176,10 @@ def parse_limited_quantity(row, split=True):
         if "BP 251" in value:  # known case
             return False, False
         else:
-            raise ValueError("Cannot parse limited quantity: %s (%s)" % (value, row))
+            raise ValueError(f"Cannot parse limited quantity: {value} ({row})")
     quantity, uom_name = match.groups()
     if uom_name.lower() not in uom_map:
-        raise ValueError(
-            "Unknown uom %s in limited quantity %s (%s)" % (uom_name, value, row)
-        )
+        raise ValueError(f"Unknown uom {uom_name} in limited quantity {value} ({row})")
     return quantity, uom_map[uom_name.lower()]
 
 
@@ -214,7 +212,7 @@ def get_xml_id(row):
                 apply_description_quirk(row),
             ]
     res = "_".join(part for part in parts if part).replace(".", "dot")
-    return "adr_goods_%s" % res
+    return f"adr_goods_{res}"
 
 
 def parse_un_number(row):
@@ -239,8 +237,8 @@ def un_number(record, value, row):
 def packing_instruction_ids(record, value, row):
     refs = []
     for instruction in parse_packing_instructions(row):
-        refs.append("ref('adr_packing_instruction_%s')" % instruction)
-    expression = "[(6, 0, [%s])]" % ", ".join(refs)
+        refs.append(f"ref('adr_packing_instruction_{instruction}')")
+    expression = f"[(6, 0, [{', '.join(refs)}])]"
     etree.SubElement(
         record,
         "field",
@@ -281,7 +279,7 @@ def class_id(record, value, row):
         "field",
         attrib={
             "name": "class_id",
-            "ref": "adr_class_%s" % value.replace(".", "_"),
+            "ref": f"adr_class_{value.replace('.', '_')}",
         },
     )
 
@@ -321,7 +319,7 @@ def parse_transport_category(row):
         if not match:
             raise ValueError(
                 "Unknown value for transport code/tunnel restriction code: "
-                "%s (%s)" % (value, row)
+                "{value} ({row})"
             )
         category = match.groups()[0].strip()
         tunnel_restriction_code = match.groups()[1].strip()
@@ -335,8 +333,8 @@ def parse_transport_category(row):
         raise ValueError(f"Invalid transport category {category} in cell value {value}")
     if tunnel_restriction_code not in valid_tunnel_codes:
         raise ValueError(
-            "Invalid tunnel restriction code %s in cell value %s"
-            % (tunnel_restriction_code, value)
+            f"Invalid tunnel restriction code {tunnel_restriction_code} "
+            "in cell value {value}"
         )
     return category, tunnel_restriction_code
 
@@ -396,8 +394,8 @@ def label_ids(record, value, row):
         labels += ["7A", "7B", "7C", "7E"]
     label_refs = []
     for label in labels:
-        label_refs.append("ref('adr_label_%s')" % label.replace(".", "_"))
-    expression = "[(6, 0, [%s])]" % ", ".join(label_refs)
+        label_refs.append(f"ref('adr_label_{label.replace('.', '_')}')")
+    expression = f"[(6, 0, [{', '.join(label_refs)}])]"
     etree.SubElement(
         record,
         "field",
@@ -414,7 +412,7 @@ def transform_row(root, row):
         if field not in transformers:
             continue
         value = row[index]
-        if isinstance(value, (int, float)):
+        if isinstance(value, int | float):
             value = str(value)
         try:
             transformers[field](record, value, row)
@@ -471,7 +469,7 @@ def import_adr_multilang_xlsx(argv):
         else:
             seen.add(xmlid)
     if duplicates:
-        raise ValueError("Duplicate xml ids:\n%s" % "\n".join(duplicates))
+        raise ValueError("Duplicate xml ids:\n" + "\n".join(duplicates))
     print(  # pylint: disable=W8116
         etree.tostring(
             root, pretty_print=True, xml_declaration=True, encoding="utf-8"

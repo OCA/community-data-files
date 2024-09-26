@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8" ?>
-<odoo>
+<odoo noupdate="1">
 <record id="adr_packing_instruction_IBC01" model="adr.packing.instruction"><field
             name="code"
         >IBC01</field></record>

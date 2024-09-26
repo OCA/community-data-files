@@ -1,7 +1,7 @@
 # Copyright 2019 Iryna Vyshnevska (Camptocamp)
 # Copyright 2021 Opener B.V. <stefan@opener.amsterdam>
 # License AGPL-3.0 or later (https://www.gnu.org/licenses/agpl)
-from odoo import _, api, fields, models
+from odoo import api, fields, models
 from odoo.exceptions import UserError
 
 
@@ -69,7 +69,7 @@ class ProductTemplate(models.Model):
         if variant_vals:
             if any(template.adr_goods_on_variants for template in self):
                 raise UserError(
-                    _(
+                    self.env._(
                         "There are different dangerous goods configured on "
                         "this product's variant, so you cannot update the "
                         "dangerous goods from here. Please reconfigure each "
@@ -92,7 +92,7 @@ class ProductTemplate(models.Model):
     def create(self, vals_list):
         """Propagate the template's adr settings on the created variants"""
         res = super().create(vals_list)
-        for template, vals in zip(res, vals_list):
+        for template, vals in zip(res, vals_list, strict=True):
             variant_vals = {}
             for field in ("is_dangerous", "adr_goods_id"):
                 if field in vals:

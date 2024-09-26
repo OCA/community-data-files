@@ -19,24 +19,18 @@
                     name="adr"
                     string="Dangerous Goods"
                     groups="l10n_eu_product_adr.group_adr_goods_user"
-                    attrs="{'invisible': ['|', ('type', '!=', 'product'), '&amp;', ('is_dangerous', '=', False), ('adr_goods_on_variants', '=', False)]}"
+                    invisible="not is_storable or (not is_dangerous and not adr_goods_on_variants)"
                 >
-                    <group
-                        name="adr_on_variants"
-                        attrs="{'invisible': [('adr_goods_on_variants', '=', False)]}"
-                    >
+                    <group name="adr_on_variants" invisible="not adr_goods_on_variants">
                         <div
                         >Dangerous goods settings differ per variant of this product. Please configure the dangerous goods settings on each variant.</div>
                     </group>
-                    <group
-                        name="adr"
-                        attrs="{'invisible': [('adr_goods_on_variants', '=', True)]}"
-                    >
+                    <group name="adr" invisible="adr_goods_on_variants">
                         <group colspan="4" col="4" string="Name and description">
                             <field name="adr_goods_on_variants" invisible="1" />
                             <field
                                 name="adr_goods_id"
-                                attrs="{'required': [('type', '=', 'product'), ('is_dangerous', '=', True)]}"
+                                required="is_storable and is_dangerous"
                                 options="{'no_create': True}"
                                 colspan="4"
                                 nolabel="1"

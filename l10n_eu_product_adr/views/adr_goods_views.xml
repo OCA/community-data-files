@@ -9,7 +9,7 @@
                         name="web_ribbon"
                         title="Archived"
                         bg_color="bg-danger"
-                        attrs="{'invisible': [('active', '=', True)]}"
+                        invisible="active"
                     />
                     <field name="active" invisible="1" />
                     <group>
@@ -61,7 +61,7 @@
     <record id="adr_goods_view_tree" model="ir.ui.view">
         <field name="model">adr.goods</field>
         <field name="arch" type="xml">
-            <tree decoration-muted="not active">
+            <list decoration-muted="not active">
                 <field name="active" invisible="1" />
                 <field name="un_number" />
                 <field name="name" />
@@ -71,7 +71,7 @@
                 <field name="limited_quantity_uom_id" />
                 <field name="transport_category" />
                 <field name="tunnel_restriction_code" />
-            </tree>
+            </list>
         </field>
     </record>
     <record id="adr_goods_view_search" model="ir.ui.view">
