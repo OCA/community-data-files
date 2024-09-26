@@ -1,6 +1,6 @@
 # Copyright 2021 Stefan Rijnhart <stefan@opener.amsterdam>
 # License AGPL-3.0 or later (https://www.gnu.org/licenses/agpl)
-from odoo import _, api, fields, models
+from odoo import api, fields, models
 from odoo.exceptions import ValidationError
 from odoo.osv.expression import AND
 
@@ -70,11 +70,11 @@ class AdrGoods(models.Model):
         for goods in self:
             if len(goods.un_number) != 4:
                 raise ValidationError(
-                    _(
+                    self.env._(
                         "UN Number %s is invalid because it does not have "
-                        "a length of 4."
+                        "a length of 4.",
+                        goods.un_number,
                     )
-                    % goods.un_number
                 )
 
     @api.model
@@ -82,27 +82,36 @@ class AdrGoods(models.Model):
         """Allow to search for UN Number"""
         args = list(args or [])
         if name and operator in ("ilike", "="):
-            res = self.search(AND([args, [("un_number", operator, name)]]), limit=limit)
-            if res:
-                return res.name_get()
+            record = self.search(
+                AND([args, [("un_number", operator, name)]]), limit=limit
+            )
+            if record:
+                return [(rec.id, rec.display_name) for rec in record]
         return super().name_search(name=name, args=args, operator=operator, limit=limit)
 
-    def name_get(self):
+    @api.depends(
+        "un_number",
+        "name",
+        "transport_category",
+        "limited_quantity",
+        "limited_quantity_uom_id",
+    )
+    def _compute_display_name(self):
         """Format the class name"""
-        res = []
         for rec in self:
             name = f"{rec.un_number} {rec.name}"
             affixes = []
             if rec.transport_category != "-":
-                affixes.append(_("cat:%s", rec.transport_category))
+                affixes.append(self.env._("cat:%s", rec.transport_category))
             if rec.limited_quantity:
                 affixes.append(
-                    _("qty:{limited_quantity} {limited_quantity_uom_id}").format(
+                    self.env._(
+                        "qty:%(limited_quantity)s %(limited_quantity_uom_id)s",
                         limited_quantity=rec.limited_quantity,
                         limited_quantity_uom_id=rec.limited_quantity_uom_id.name,
                     )
                 )
             if affixes:
-                name += " (%s)" % (", ".join(affixes))
-            res.append((rec.id, name))
-        return res
+                name += f" ({', '.join(affixes)})"
+
+            rec.display_name = name

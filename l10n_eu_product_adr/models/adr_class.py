@@ -17,14 +17,15 @@ class AdrClass(models.Model):
         """Allow to search for full codes"""
         args = list(args or [])
         if name and operator in ("ilike", "="):
-            res = self.search(AND([args, [("code", "=", name)]]), limit=limit)
+            res = self.search(AND([args, [("code", operator, name)]]), limit=limit)
             if res:
-                return res.name_get()
+                return [(rec.id, rec.display_name) for rec in res]
         return super().name_search(name=name, args=args, operator=operator, limit=limit)
 
-    def name_get(self):
-        """Prepend the code to the class name"""
-        return [(rec.id, f"{rec.code} {rec.name}") for rec in self]
+    @api.depends("code", "name")
+    def _compute_display_name(self):
+        for record in self:
+            record.display_name = f"{record.code} {record.name}"
 
     _sql_constraints = [
         (

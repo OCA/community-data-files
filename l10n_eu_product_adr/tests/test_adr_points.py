@@ -1,10 +1,11 @@
 # Copyright 2021 Opener B.V.
 # License AGPL-3.0 or later (https://www.gnu.org/licenses/agpl)
-from odoo.tests import Form
+from odoo.tests import Form, tagged
 
 from odoo.addons.stock.tests.common import TestStockCommon
 
 
+@tagged("post_install", "-at_install")
 class TestAdrPoints(TestStockCommon):
     @classmethod
     def setUpClass(cls):

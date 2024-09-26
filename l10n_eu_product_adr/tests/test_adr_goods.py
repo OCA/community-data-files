@@ -24,7 +24,7 @@ class TestAdrModels(TransactionCase):
         cls.goods2 = cls.env.ref("l10n_eu_product_adr.adr_goods_0066")
 
     def test_01_adr_class(self):
-        """Test adr.class name_search and name_get"""
+        """Test adr.class name_search and display_name"""
         adr_class = self.env["adr.class"].create(
             {
                 "code": "test_code",
@@ -41,7 +41,7 @@ class TestAdrModels(TransactionCase):
         )
 
     def test_02_adr_goods(self):
-        """Test adr.goods validations, name_search, name_get"""
+        """Test adr.goods validations, name_search, display_name"""
         adr_goods = self.env["adr.goods"].create(
             {
                 "un_number": "9999",
@@ -51,9 +51,10 @@ class TestAdrModels(TransactionCase):
                 "tunnel_restriction_code": "-",
             }
         )
-        with self.assertRaisesRegex(
-            ValidationError, "length of 4"
-        ), self.env.cr.savepoint():
+        with (
+            self.assertRaisesRegex(ValidationError, "length of 4"),
+            self.env.cr.savepoint(),
+        ):
             adr_goods.un_number = "999"
 
         self.assertEqual(
@@ -65,9 +66,7 @@ class TestAdrModels(TransactionCase):
             [(adr_goods.id, "9999 test goods")],
         )
         adr_goods.transport_category = "4"
-        self.assertEqual(
-            adr_goods.name_get(), [(adr_goods.id, "9999 test goods (cat:4)")]
-        )
+        self.assertEqual(adr_goods.display_name, "9999 test goods (cat:4)")
         adr_goods.write(
             {
                 "limited_quantity": 5,
@@ -77,8 +76,8 @@ class TestAdrModels(TransactionCase):
             }
         )
         self.assertEqual(
-            adr_goods.name_get(),
-            [(adr_goods.id, "9999 test goods (cat:4, qty:5.0 ml)")],
+            adr_goods.display_name,
+            "9999 test goods (cat:4, qty:5.0 ml)",
         )
 
     def test_03_adr_label(self):
@@ -159,57 +158,3 @@ class TestAdrModels(TransactionCase):
         self.assertTrue(
             var.adr_goods_id == self.goods1 for var in template.product_variant_ids
         )
-
-    # def test_06_product_variant_migration(self):
-    #     """Test the migration of the adr fields from template to product"""
-    #     try:
-    #         from openupgradelib import openupgrade  # noqa: F401
-    #     except ImportError:
-    #         logging.getLogger("odoo.addons.l10n_eu_product_adr.tests").info(
-    #             "OpenUpgrade not found, skip test"
-    #         )
-    #         return
-    #     template = self.env["product.template"].create(
-    #         {
-    #             "name": "Sofa",
-    #             "attribute_line_ids": [
-    #                 (
-    #                     0,
-    #                     0,
-    #                     {
-    #                         "attribute_id": self.size_attr.id,
-    #                         "value_ids": [(4, self.value_s.id), (4, self.value_m.id)],
-    #                     },
-    #                 ),
-    #             ],
-    #         }
-    #     )
-    #     self.env.cr.execute(
-    #         """
-    #         ALTER TABLE product_template
-    #         ADD COLUMN adr_goods_id INTEGER,
-    #         ADD COLUMN is_dangerous BOOLEAN;
-    #         ALTER TABLE product_product
-    #         DROP COLUMN adr_goods_id,
-    #         DROP COLUMN is_dangerous;
-    #         """
-    #     )
-    #
-    #     self.env.cr.execute(
-    #         """UPDATE product_template
-    #         SET is_dangerous = TRUE,
-    #         adr_goods_id = %s
-    #         WHERE id = %s;
-    #         """,
-    #         (self.goods1.id, template.id),
-    #     )
-    #     pyfile = get_module_resource(
-    #         "l10n_eu_product_adr", "migrations", "14.0.1.1.0", "pre-migration.py"
-    #     )
-    #     name, ext = os.path.splitext(os.path.basename(pyfile))
-    #     mod = load_script(pyfile, name)
-    #     mod.migrate(self.env.cr, "14.0.1.0.0")
-    #     template.env.invalidate_all()
-    #     var1, var2 = template.product_variant_ids
-    #     self.assertEqual(var1.adr_goods_id, self.goods1)
-    #     self.assertTrue(var2.is_dangerous)
