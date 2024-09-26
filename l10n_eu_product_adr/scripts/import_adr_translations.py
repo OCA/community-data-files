@@ -7,20 +7,17 @@
 # export ADR_FILE=/tmp/ADR_2019_BijlageA_deel3_Tabel_A_EXCEL_FORMAAT.xlsx
 # cat import_adr_translations.py | odoo.py shell -d <DATABASE>
 
-import imp
-from os import environ, path
+import importlib.util
+from os import environ
 
 from openpyxl import load_workbook  # pylint: disable=W7936
 
-from odoo.modules import get_module_resource
-from odoo.tools import file_open
+from odoo.tools.misc import file_path
 
-pyfile = get_module_resource(
-    "l10n_eu_product_adr", "scripts", "import_adr_multilang_xlsx.py"
-)
-name, ext = path.splitext(path.basename(pyfile))
-fp, pathname = file_open(pyfile, pathinfo=True)
-mod = imp.load_module(name, fp, pathname, (".py", "r", imp.PY_SOURCE))
+pyfile = file_path("l10n_eu_product_adr/scripts/import_adr_multilang_xlsx.py")
+spec = importlib.util.spec_from_file_location("import_adr_multilang_xlsx", pyfile)
+mod = importlib.util.module_from_spec(spec)
+spec.loader.exec_module(mod)
 get_xml_id = mod.get_xml_id
 
 env = self.env  # noqa
@@ -42,7 +39,7 @@ def activate_languages():
             .search([("code", "=", code)])
         )
         if not lang:
-            raise ValueError("Language with code %s not found in Odoo" % code)
+            raise ValueError(f"Language with code {code} not found in Odoo")
         if not lang.active:
             lang.active = True
             installed.append(code)
@@ -66,7 +63,7 @@ def import_adr_translations():
         if row[0] is None:  # Emtpy rows
             continue
         xml_id = get_xml_id(row)
-        record = env.ref("l10n_eu_product_adr.%s" % xml_id)
+        record = env.ref(f"l10n_eu_product_adr.{xml_id}")
         for index, lang in columns.items():
             if row[index]:
                 translation = row[index].strip().replace("\n", "")

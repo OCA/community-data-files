@@ -1,7 +1,7 @@
 # Copyright 2019 Iryna Vyshnevska (Camptocamp)
 # Copyright 2021 Stefan Rijnhart <stefan@opener.amsterdam>
 # License AGPL-3.0 or later (https://www.gnu.org/licenses/agpl)
-from odoo import _, fields, models
+from odoo import fields, models
 from odoo.exceptions import ValidationError
 
 
@@ -26,10 +26,9 @@ class AdrLabel(models.Model):
         for label in self:
             if label.goods_ids:
                 raise ValidationError(
-                    _(
-                        "Dangerous Goods Label {label} cannot be deleted because it "
-                        "is in use on one or more dangerous goods: {labels}"
-                    ).format(
+                    self.env._(
+                        "Dangerous Goods Label %(label)s cannot be deleted because it "
+                        "is in use on one or more dangerous goods: %(labels)s",
                         label=label.name,
                         labels=", ".join(label.goods_ids.mapped("un_number")),
                     )

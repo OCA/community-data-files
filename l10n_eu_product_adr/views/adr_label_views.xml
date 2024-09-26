@@ -20,7 +20,7 @@
             <kanban>
                 <field name="id" />
                 <templates>
-                    <t t-name="kanban-box">
+                    <t t-name="card">
                         <div
                             t-attf-class="oe_kanban_global_click"
                             style="min-width:450px;min-height:80px"

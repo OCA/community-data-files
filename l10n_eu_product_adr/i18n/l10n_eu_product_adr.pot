@@ -4,7 +4,7 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 14.0\n"
+"Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
 "Last-Translator: \n"
 "Language-Team: \n"
@@ -4831,11 +4831,11 @@ msgid "Dangerous Goods Label"
 msgstr ""
 
 #. module: l10n_eu_product_adr
+#. odoo-python
 #: code:addons/l10n_eu_product_adr/models/adr_label.py:0
-#, python-format
 msgid ""
-"Dangerous Goods Label %s cannot be deleted because it is in use on one or "
-"more dangerous goods: %s"
+"Dangerous Goods Label %(label)s cannot be deleted because it is in use on "
+"one or more dangerous goods: %(labels)s"
 msgstr ""
 
 #. module: l10n_eu_product_adr
@@ -4867,10 +4867,6 @@ msgstr ""
 #: model:ir.model.fields,field_description:l10n_eu_product_adr.field_adr_goods__display_name
 #: model:ir.model.fields,field_description:l10n_eu_product_adr.field_adr_label__display_name
 #: model:ir.model.fields,field_description:l10n_eu_product_adr.field_adr_packing_instruction__display_name
-#: model:ir.model.fields,field_description:l10n_eu_product_adr.field_product_product__display_name
-#: model:ir.model.fields,field_description:l10n_eu_product_adr.field_product_template__display_name
-#: model:ir.model.fields,field_description:l10n_eu_product_adr.field_stock_move__display_name
-#: model:ir.model.fields,field_description:l10n_eu_product_adr.field_stock_picking__display_name
 msgid "Display Name"
 msgstr ""
 
@@ -6456,10 +6452,6 @@ msgstr ""
 #: model:ir.model.fields,field_description:l10n_eu_product_adr.field_adr_goods__id
 #: model:ir.model.fields,field_description:l10n_eu_product_adr.field_adr_label__id
 #: model:ir.model.fields,field_description:l10n_eu_product_adr.field_adr_packing_instruction__id
-#: model:ir.model.fields,field_description:l10n_eu_product_adr.field_product_product__id
-#: model:ir.model.fields,field_description:l10n_eu_product_adr.field_product_template__id
-#: model:ir.model.fields,field_description:l10n_eu_product_adr.field_stock_move__id
-#: model:ir.model.fields,field_description:l10n_eu_product_adr.field_stock_picking__id
 msgid "ID"
 msgstr ""
 
@@ -7119,18 +7111,6 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:l10n_eu_product_adr.adr_goods_view_form
 #: model_terms:ir.ui.view,arch_db:l10n_eu_product_adr.product_template_form_view
 msgid "Labels"
-msgstr ""
-
-#. module: l10n_eu_product_adr
-#: model:ir.model.fields,field_description:l10n_eu_product_adr.field_adr_class____last_update
-#: model:ir.model.fields,field_description:l10n_eu_product_adr.field_adr_goods____last_update
-#: model:ir.model.fields,field_description:l10n_eu_product_adr.field_adr_label____last_update
-#: model:ir.model.fields,field_description:l10n_eu_product_adr.field_adr_packing_instruction____last_update
-#: model:ir.model.fields,field_description:l10n_eu_product_adr.field_product_product____last_update
-#: model:ir.model.fields,field_description:l10n_eu_product_adr.field_product_template____last_update
-#: model:ir.model.fields,field_description:l10n_eu_product_adr.field_stock_move____last_update
-#: model:ir.model.fields,field_description:l10n_eu_product_adr.field_stock_picking____last_update
-msgid "Last Modified on"
 msgstr ""
 
 #. module: l10n_eu_product_adr
@@ -10224,13 +10204,13 @@ msgid "Packing Instructions"
 msgstr ""
 
 #. module: l10n_eu_product_adr
-#: model:ir.model,name:l10n_eu_product_adr.model_product_product
+#: model:ir.model,name:l10n_eu_product_adr.model_product_template
 msgid "Product"
 msgstr ""
 
 #. module: l10n_eu_product_adr
-#: model:ir.model,name:l10n_eu_product_adr.model_product_template
-msgid "Product Template"
+#: model:ir.model,name:l10n_eu_product_adr.model_product_product
+msgid "Product Variant"
 msgstr ""
 
 #. module: l10n_eu_product_adr
@@ -12493,8 +12473,8 @@ msgid ""
 msgstr ""
 
 #. module: l10n_eu_product_adr
+#. odoo-python
 #: code:addons/l10n_eu_product_adr/models/product_template.py:0
-#, python-format
 msgid ""
 "There are different dangerous goods configured on this product's variant, so"
 " you cannot update the dangerous goods from here. Please reconfigure each "
@@ -12552,8 +12532,8 @@ msgid "UN Number"
 msgstr ""
 
 #. module: l10n_eu_product_adr
+#. odoo-python
 #: code:addons/l10n_eu_product_adr/models/adr_goods.py:0
-#, python-format
 msgid "UN Number %s is invalid because it does not have a length of 4."
 msgstr ""
 
@@ -13065,8 +13045,8 @@ msgid "beta-NAPHTHYLAMINE, SOLID"
 msgstr ""
 
 #. module: l10n_eu_product_adr
+#. odoo-python
 #: code:addons/l10n_eu_product_adr/models/adr_goods.py:0
-#, python-format
 msgid "cat:%s"
 msgstr ""
 
@@ -13162,9 +13142,9 @@ msgid "p-NITROSODIMETHYL-ANILINE"
 msgstr ""
 
 #. module: l10n_eu_product_adr
+#. odoo-python
 #: code:addons/l10n_eu_product_adr/models/adr_goods.py:0
-#, python-format
-msgid "qty:%s %s"
+msgid "qty:%(limited_quantity)s %(limited_quantity_uom_id)s"
 msgstr ""
 
 #. module: l10n_eu_product_adr
