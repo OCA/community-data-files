@@ -7,8 +7,7 @@
         <field name="inherit_id" ref="product.product_normal_form_view" />
         <field name="arch" type="xml">
             <page name="adr" position="attributes">
-                <attribute name="attrs">{'invisible': ['|', ('type', '!=', 'product'),
-                    ('is_dangerous', '=', False)]}
+                <attribute name="invisible">not (is_storable and is_dangerous)
                 </attribute>
                 <attribute
                     name="groups"
@@ -20,7 +19,7 @@
                 >!l10n_eu_product_adr.group_adr_goods_user</attribute>
             </group>
             <group name="adr" position="attributes">
-                <attribute name="attrs" />
+                <attribute name="invisible">0</attribute>
                 <attribute
                     name="groups"
                 >!l10n_eu_product_adr.group_adr_goods_user</attribute>

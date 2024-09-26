@@ -3,10 +3,10 @@
     <record id="adr_class_view_tree" model="ir.ui.view">
         <field name="model">adr.class</field>
         <field name="arch" type="xml">
-            <tree editable="bottom">
+            <list editable="bottom">
                 <field name="code" />
                 <field name="name" />
-            </tree>
+            </list>
         </field>
     </record>
     <record id="adr_class_view_search" model="ir.ui.view">
