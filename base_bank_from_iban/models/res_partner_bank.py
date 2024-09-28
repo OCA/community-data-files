@@ -1,7 +1,6 @@
-# Copyright 2017 Tecnativa - Carlos Dauden <carlos.dauden@tecnativa.com>
+# Copyright 2017 Tecnativa - Carlos Dauden
+# Copyright 2024 Tecnativa - Pedro M. Baeza
 # License AGPL-3.0 or later (https://www.gnu.org/licenses/agpl-3).
-
-import logging
 
 import schwifty
 
@@ -12,8 +11,6 @@ from odoo.addons.base_iban.models.res_partner_bank import (
     normalize_iban,
     pretty_iban,
 )
-
-_logger = logging.getLogger(__name__)
 
 
 class ResPartnerBank(models.Model):
@@ -30,32 +27,37 @@ class ResPartnerBank(models.Model):
 
     def _add_bank_vals(self, vals):
         if vals.get("acc_number") and not vals.get("bank_id"):
-            try:
-                bank = self._get_bank_from_iban(vals["acc_number"])
-                vals["bank_id"] = bank.id
-            except Exception:
-                _logger.info("Could not find bank from IBAN", exc_info=True)
+            vals["bank_id"] = self._get_bank_from_iban(vals["acc_number"]).id
         return vals
 
     @api.model
     def _get_bank_from_iban(self, acc_number):
-        iban = schwifty.IBAN(acc_number)
-        country_code = iban.country_code.lower()
-        country = self.env.ref("base.%s" % country_code, raise_if_not_found=False)
-        vals = {
-            "name": iban.bank["name"],
-            "bic": iban.bank["bic"],
-            "code": iban.bank["bank_code"],
-            "country": country.id,
-        }
-        domain = [("code", "=", iban.bank["bank_code"])]
-        bank = self.env["res.bank"].search(domain)
-        if bank and len(bank) == 1:
-            for field in vals:
-                if not bank[field]:
-                    bank[field] = vals[field]
-        else:
-            bank = self.env["res.bank"].create(vals)
+        try:
+            iban = schwifty.IBAN(acc_number)
+            country_code = iban.country_code.lower()
+            country = self.env.ref("base.%s" % country_code, raise_if_not_found=False)
+            if iban.bank:
+                vals = {
+                    "name": iban.bank["name"],
+                    "bic": iban.bank["bic"],
+                    "code": iban.bank["bank_code"],
+                    "country": country.id,
+                }
+                domain = [
+                    ("code", "=", iban.bank["bank_code"]),
+                    ("country", "=", country.id),
+                ]
+                bank = self.env["res.bank"].search(domain, limit=1)
+                if bank:
+                    for field in vals:
+                        if not bank[field]:
+                            bank[field] = vals[field]
+                else:
+                    bank = self.env["res.bank"].create(vals)
+            else:
+                bank = self.env["res.bank"]
+        except schwifty.exceptions.InvalidStructure:
+            bank = self.env["res.bank"]
         return bank
 
     @api.onchange("acc_number", "acc_type")
