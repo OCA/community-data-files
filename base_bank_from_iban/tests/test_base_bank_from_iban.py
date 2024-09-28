@@ -1,5 +1,5 @@
 # Copyright 2017 Tecnativa - Carlos Dauden
-# Copyright 2022 Tecnativa - Pedro M. Baeza
+# Copyright 2022,2024 Tecnativa - Pedro M. Baeza
 # License AGPL-3.0 or later (https://www.gnu.org/licenses/agpl-3).
 
 from odoo.tests import Form, common
@@ -44,3 +44,40 @@ class TestBaseBankFromIban(common.TransactionCase):
         self.assertEqual(wizard.bank_id, self.bank)
         wizard.acc_number = ""
         self.assertEqual(wizard.bank_id, self.bank)
+
+    def test_create_iban_not_found(self):
+        partner_bank = self.env["res.partner.bank"].create(
+            {"acc_number": "es1299999999509999999999", "partner_id": self.partner.id}
+        )
+        self.assertFalse(partner_bank.bank_id)
+
+    def test_create_iban_found(self):
+        partner_bank = self.env["res.partner.bank"].create(
+            {"acc_number": "DE89370400440532013000", "partner_id": self.partner.id}
+        )
+        self.assertTrue(partner_bank.bank_id)
+        self.assertTrue(partner_bank.bank_id.name, "Commerzbank")
+        self.assertTrue(partner_bank.bank_id.bic, "COBADEFFXXX")
+        self.assertTrue(partner_bank.bank_id.code, "37040044")
+        self.assertTrue(partner_bank.bank_id.country.code, "DE")
+
+    def test_create_iban_found_existing_bank(self):
+        bank = self.env["res.bank"].create(
+            {
+                "country": self.env.ref("base.de").id,
+                "code": "37040044",
+                "name": "Commerzbank",
+            }
+        )
+        partner_bank = self.env["res.partner.bank"].create(
+            {"acc_number": "DE89370400440532013000", "partner_id": self.partner.id}
+        )
+        self.assertEqual(partner_bank.bank_id, bank)
+        self.assertTrue(bank.bic, "COBADEFFXXX")
+
+    def test_create_invalid_iban(self):
+        partner_bank = self.env["res.partner.bank"].create(
+            {"acc_number": "1234567890", "partner_id": self.partner.id}
+        )
+        # The important thing here is to not see any warning in the log
+        self.assertTrue(partner_bank)
