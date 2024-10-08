@@ -11,14 +11,8 @@
                         <field name="packaging_group" />
                         <label for="content_package" />
                         <div>
-                            <field
-                                name="content_package"
-                                attrs="{'required':[('is_dangerous','=',True)]}"
-                            />
-                            <field
-                                name="dg_unit"
-                                attrs="{'required':[('is_dangerous','=',True)]}"
-                            />
+                            <field name="content_package" required="is_dangerous" />
+                            <field name="dg_unit" required="is_dangerous" />
                         </div>
                         <field name="label_first" />
                         <field name="label_second" />
@@ -27,10 +21,7 @@
                     </group>
                     <group name="storage" string="Storage">
                         <field name="storage_class_id" />
-                        <field
-                            name="packaging_type_id"
-                            attrs="{'required':[('is_dangerous','=',True)]}"
-                        />
+                        <field name="packaging_type_id" required="is_dangerous" />
                         <field name="storage_temp_id" />
                         <field name="wgk_class_id" />
                     </group>
