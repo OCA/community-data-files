@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <!-- Copyright 2021 Camptocamp SA
      License AGPL-3.0 or later (http://www.gnu.org/licenses/agpl). -->
-<odoo>
-
+<odoo noupdate="1">
     <!--storage classes-->
     <record id="storage_class_1" model="storage.class">
         <field name="name">LK 2</field>
@@ -72,7 +71,6 @@
         <field name="name">to 30°C</field>
     </record>
 
-
     <!--wgk classes-->
     <record id="wgk_class_1" model="wgk.class">
         <field name="name">WGK 1</field>
@@ -108,5 +106,4 @@
     <record id="dangerous_uom_3" model="dangerous.uom">
         <field name="name">g (Gramm)</field>
     </record>
-
 </odoo>

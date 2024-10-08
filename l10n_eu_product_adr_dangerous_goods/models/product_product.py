@@ -45,7 +45,7 @@ class ProductProduct(models.Model):
         [("yes", "Yes"), ("no", "No")], string="Environmentally hazardous"
     )
     packaging_group = fields.Selection(
-        [("1", "(-)"), ("2", "I"), ("3", "II"), ("4", "III")], string="Packaging Group"
+        [("1", "(-)"), ("2", "I"), ("3", "II"), ("4", "III")]
     )
     hazard_ind = fields.Char(string="Hazard identification")
     voc = fields.Char(string="VOC in%")
