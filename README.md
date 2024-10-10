@@ -25,7 +25,7 @@ addon | version | maintainers | summary
 [account_tax_unece](account_tax_unece/) | 17.0.1.0.0 | [![alexis-via](https://github.com/alexis-via.png?size=30px)](https://github.com/alexis-via) | UNECE nomenclature for taxes
 [base_bank_from_iban](base_bank_from_iban/) | 17.0.1.0.1 |  | Bank from IBAN
 [base_currency_iso_4217](base_currency_iso_4217/) | 17.0.1.0.0 |  | Adds numeric code and full name to currencies, following the ISO 4217 specification
-[base_iso3166](base_iso3166/) | 17.0.1.0.0 |  | ISO 3166
+[base_iso3166](base_iso3166/) | 17.0.1.0.1 |  | ISO 3166
 [base_unece](base_unece/) | 17.0.1.0.0 | [![astirpe](https://github.com/astirpe.png?size=30px)](https://github.com/astirpe) [![alexis-via](https://github.com/alexis-via.png?size=30px)](https://github.com/alexis-via) | Base module for UNECE code lists
 [company_sanitary_registry](company_sanitary_registry/) | 17.0.1.0.0 |  | Sanitary Registry
 [l10n_eu_nace](l10n_eu_nace/) | 17.0.1.0.0 | [![rafaelbn](https://github.com/rafaelbn.png?size=30px)](https://github.com/rafaelbn) [![yajo](https://github.com/yajo.png?size=30px)](https://github.com/yajo) [![edlopen](https://github.com/edlopen.png?size=30px)](https://github.com/edlopen) | European NACE partner categories
