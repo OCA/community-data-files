@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<odoo noupdate="1">
+    <record id="product_uom_mililiter" model="uom.uom">
+        <field name="name">ml</field>
+        <field name="category_id" ref="uom.product_uom_categ_vol" />
+        <field name="factor">1000</field>
+        <field name="uom_type">smaller</field>
+    </record>
+</odoo>
