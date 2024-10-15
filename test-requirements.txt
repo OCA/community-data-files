@@ -1,0 +1,1 @@
+odoo-addon-l10n_eu_product_adr @ git+https://github.com/oca/community-data-files.git@refs/pull/208/head#subdirectory=l10n_eu_product_adr
