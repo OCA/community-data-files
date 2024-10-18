@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<odoo>
+    <record id="adr_goods_view_form" model="ir.ui.view">
+        <field name="model">adr.goods</field>
+        <field name="arch" type="xml">
+            <form>
+                <sheet>
+                    <widget
+                        name="web_ribbon"
+                        title="Archived"
+                        bg_color="bg-danger"
+                        invisible="active"
+                    />
+                    <field name="active" invisible="1" />
+                    <group>
+                        <group colspan="4" col="4" string="Name and description">
+                            <field name="name" colspan="4" widget="text" nolabel="1" />
+                        </group>
+                        <group string="Classification">
+                            <field name="un_number" />
+                            <field name="class_id" options='{"no_create": True}' />
+                            <field name="classification_code" />
+                            <field name="active" invisible="1" />
+                        </group>
+                        <group string="Transport">
+                            <label for="limited_quantity" />
+                            <div>
+                                <field name="limited_quantity" />
+                                <field
+                                    name="limited_quantity_uom_id"
+                                    options="{'no_create': True}"
+                                />
+                            </div>
+                            <field
+                                name="packing_instruction_ids"
+                                options="{'no_create': True}"
+                                widget="many2many_tags"
+                            />
+                            <field
+                                name="transport_category"
+                                options="{'no_create': True}"
+                            />
+                            <field
+                                name="tunnel_restriction_code"
+                                options="{'no_create': True}"
+                            />
+                        </group>
+                        <group colspan="4" col="2" string="Labels">
+                            <field
+                                name="label_ids"
+                                nolabel="1"
+                                options="{'no_create': True}"
+                                mode="kanban"
+                            />
+                        </group>
+                    </group>
+                </sheet>
+            </form>
+        </field>
+    </record>
+    <record id="adr_goods_view_tree" model="ir.ui.view">
+        <field name="model">adr.goods</field>
+        <field name="arch" type="xml">
+            <list decoration-muted="not active">
+                <field name="active" invisible="1" />
+                <field name="un_number" />
+                <field name="name" />
+                <field name="class_id" />
+                <field name="classification_code" />
+                <field name="limited_quantity" />
+                <field name="limited_quantity_uom_id" />
+                <field name="transport_category" />
+                <field name="tunnel_restriction_code" />
+            </list>
+        </field>
+    </record>
+    <record id="adr_goods_view_search" model="ir.ui.view">
+        <field name="model">adr.goods</field>
+        <field name="arch" type="xml">
+            <search>
+                <field name="un_number" />
+                <field name="name" />
+                <field name="class_id" />
+                <field name="classification_code" />
+                <field name="packing_instruction_ids" />
+                <field name="transport_category" />
+                <field name="tunnel_restriction_code" />
+                <separator />
+                <filter
+                    string="Active"
+                    name="active"
+                    domain="[('active', '=', True)]"
+                />
+                <group expand="1" string="Group By">
+                    <filter
+                        string="Class"
+                        name="class_id"
+                        context="{'group_by':'class_id'}"
+                    />
+                    <filter
+                        string="Transport Category"
+                        name="transport_category"
+                        context="{'group_by':'transport_category'}"
+                    />
+                    <filter
+                        string="Tunnel Restriction Code"
+                        name="tunnel_restriction_code"
+                        context="{'group_by':'tunnel_restriction_code'}"
+                    />
+                </group>
+            </search>
+        </field>
+    </record>
+    <record id="adr_goods_action" model="ir.actions.act_window">
+        <field name="name">Dangerous Goods</field>
+        <field name="type">ir.actions.act_window</field>
+        <field name="res_model">adr.goods</field>
+        <field name="context">{"active_test": False}</field>
+    </record>
+</odoo>

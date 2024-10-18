@@ -1,0 +1,4 @@
+- Stefan Rijnhart \<<stefan@opener.amsterdam>\>
+- Vyshnevska Iryna \<<i.vyshnevska@mobilunity.com>\>
+- Isaac Gallart \<<igallart@puntsistemes.es>\>
+- Chau Le \<<chaulb@trobz.com>\>
