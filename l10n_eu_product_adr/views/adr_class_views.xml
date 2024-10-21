@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<odoo>
+    <record id="adr_class_view_tree" model="ir.ui.view">
+        <field name="model">adr.class</field>
+        <field name="arch" type="xml">
+            <list editable="bottom">
+                <field name="code" />
+                <field name="name" />
+            </list>
+        </field>
+    </record>
+    <record id="adr_class_view_search" model="ir.ui.view">
+        <field name="model">adr.class</field>
+        <field name="arch" type="xml">
+            <search>
+                <field name="code" />
+                <field name="name" />
+            </search>
+        </field>
+    </record>
+    <record id="adr_class_action" model="ir.actions.act_window">
+        <field name="name">Dangerous Goods Classes</field>
+        <field name="type">ir.actions.act_window</field>
+        <field name="res_model">adr.class</field>
+    </record>
+</odoo>
