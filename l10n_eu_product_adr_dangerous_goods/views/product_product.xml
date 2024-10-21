@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<odoo>
+    <record id="product_normal_form_view" model="ir.ui.view">
+        <field name="name">product.product.form.inherit</field>
+        <field name="model">product.product</field>
+        <field name="inherit_id" ref="l10n_eu_product_adr.product_normal_form_view" />
+        <field name="arch" type="xml">
+            <xpath expr="//page[@name='adr']/group[last()]" position="after">
+                <group>
+                    <group name="dangerous_packing" string="Dangerous Packaging">
+                        <field name="packaging_group" />
+                        <label for="content_package" />
+                        <div>
+                            <field name="content_package" required="is_dangerous" />
+                            <field name="dg_unit" required="is_dangerous" />
+                        </div>
+                        <field name="label_first" />
+                        <field name="label_second" />
+                        <field name="label_third" />
+                        <field name="flash_point" />
+                    </group>
+                    <group name="storage" string="Storage">
+                        <field name="storage_class_id" />
+                        <field name="packaging_type_id" required="is_dangerous" />
+                        <field name="storage_temp_id" />
+                        <field name="wgk_class_id" />
+                    </group>
+                </group>
+                <group name="hazard_details">
+                    <field name="envir_hazardous" />
+                    <field name="voc" />
+                    <field name="nag" />
+                    <field name="veva_code_empty" />
+                    <field name="veva_code_full" />
+                    <field name="h_no" />
+                    <field name="hazard_ind" />
+                </group>
+            </xpath>
+            <xpath expr="//label[@for='adr_limited_quantity']" position="before">
+                <field name="limited_amount_id" />
+            </xpath>
+        </field>
+    </record>
+</odoo>
