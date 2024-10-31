@@ -36,9 +36,9 @@ class ResCompany(models.Model):
                 "display_name": tax["display_name"],
             }
             if tax["tax_exigibility"]:
-                res[tax["id"]][
-                    "unece_due_date_code"
-                ] = tax_obj._get_unece_code_from_tax_exigibility(tax["tax_exigibility"])
+                res[tax["id"]]["unece_due_date_code"] = (
+                    tax_obj._get_unece_code_from_tax_exigibility(tax["tax_exigibility"])
+                )
         return res
 
     def _get_fiscal_position_speeddict(self, lang):
