@@ -34,7 +34,7 @@
     <record id="unece_code_list_tree" model="ir.ui.view">
         <field name="model">unece.code.list</field>
         <field name="arch" type="xml">
-            <tree>
+            <list>
                 <field
                     name="type"
                     column_invisible="not context.get('unece_code_list_main_view')"
@@ -42,7 +42,7 @@
                 <field name="code" />
                 <field name="name" />
                 <field name="description" optional="show" />
-            </tree>
+            </list>
         </field>
     </record>
     <record id="unece_code_list_search" model="ir.ui.view">
@@ -74,7 +74,7 @@
     <record id="unece_code_list_action" model="ir.actions.act_window">
         <field name="name">UNECE Code Lists</field>
         <field name="res_model">unece.code.list</field>
-        <field name="view_mode">tree,form</field>
+        <field name="view_mode">list,form</field>
         <field name="context">{'unece_code_list_main_view': True}</field>
     </record>
     <menuitem

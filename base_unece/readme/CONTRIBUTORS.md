@@ -2,3 +2,4 @@
 - Levent Karakaş
 - Pedro M. Baeza
 - Andrea Stirpe
+- Nhan Tran \<<nhant@trobz.com>\>
