@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 17.0\n"
 "Report-Msgid-Bugs-To: \n"
-"PO-Revision-Date: 2024-03-12 09:35+0000\n"
+"PO-Revision-Date: 2024-12-09 11:06+0000\n"
 "Last-Translator: mymage <stefano.consolaro@mymage.it>\n"
 "Language-Team: none\n"
 "Language: it\n"
@@ -14,7 +14,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.17\n"
+"X-Generator: Weblate 5.6.2\n"
 
 #. module: account_payment_unece
 #: model:ir.model.fields.selection,name:account_payment_unece.selection__unece_code_list__type__payment_means
@@ -48,7 +48,7 @@ msgstr "Codice UNECE"
 #. module: account_payment_unece
 #: model:ir.model.fields,field_description:account_payment_unece.field_account_payment_method__unece_id
 msgid "UNECE Payment Mean"
-msgstr "Mezzo di pagamento UNECE"
+msgstr "Significato pagamento UNECE"
 
 #. module: account_payment_unece
 #: model:ir.model,name:account_payment_unece.model_unece_code_list
