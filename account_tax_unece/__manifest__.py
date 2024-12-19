@@ -15,6 +15,7 @@
     "depends": ["account", "base_unece"],
     "data": [
         "views/account_tax.xml",
+        "views/unece_code_list.xml",
         "data/unece_tax_type.xml",
         "data/unece_tax_categ.xml",
     ],
