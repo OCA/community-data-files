@@ -16,6 +16,7 @@
         "data/unece.xml",
         "data/account_payment_method.xml",
         "views/account_payment_method.xml",
+        "views/unece_code_list.xml",
     ],
     "installable": True,
 }
