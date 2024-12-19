@@ -9,7 +9,7 @@
         <field name="model">account.payment.method</field>
         <field
             name="inherit_id"
-            ref="account_payment_mode.account_payment_method_form"
+            ref="account_payment_base_oca.account_payment_method_form"
         />
         <field name="arch" type="xml">
             <group name="main" position="inside">
@@ -21,16 +21,16 @@
             </group>
         </field>
     </record>
-    <record id="account_payment_method_tree" model="ir.ui.view">
+    <record id="account_payment_method_list" model="ir.ui.view">
         <field name="model">account.payment.method</field>
         <field
             name="inherit_id"
-            ref="account_payment_mode.account_payment_method_tree"
+            ref="account_payment_base_oca.account_payment_method_list"
         />
         <field name="arch" type="xml">
-            <field name="code" position="after">
+            <list position="inside">
                 <field name="unece_code" optional="show" />
-            </field>
+            </list>
         </field>
     </record>
 </odoo>

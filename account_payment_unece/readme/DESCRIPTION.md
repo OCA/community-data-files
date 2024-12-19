@@ -5,12 +5,12 @@ states in Europe, America and Central Asia, cf
 [Wikipedia](https://en.wikipedia.org/wiki/United_Nations_Economic_Commission_for_Europe)).
 This standard define a codification of the payment modes, cf the
 [official code
-list](http://www.unece.org/trade/untdid/d99b/tred/tred4461.htm).
+list](https://unece.org/fileadmin/DAM/trade/untdid/d99b/tred/tred4461.htm).
 
 This codification is used for example in the two main international
 standards for electronic invoicing:
 
 - [Cross Industry
-  Invoice](http://tfig.unece.org/contents/cross-industry-invoice-cii.htm)
+  Invoice](https://unece.org/trade/uncefact/e-invoice)
   (CII),
-- [Universal Business Language](http://ubl.xml.org/) (UBL)
+- [Universal Business Language](https://ubl.xml.org/) (UBL)

@@ -11,7 +11,7 @@
     "author": "Akretion,Odoo Community Association (OCA)",
     "maintainers": ["alexis-via"],
     "website": "https://github.com/OCA/community-data-files",
-    "depends": ["account_payment_mode", "base_unece"],
+    "depends": ["account_payment_base_oca", "base_unece"],
     "data": [
         "data/unece.xml",
         "data/account_payment_method.xml",
