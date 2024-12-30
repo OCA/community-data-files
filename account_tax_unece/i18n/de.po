@@ -21,7 +21,6 @@ msgstr ""
 
 #. module: account_tax_unece
 #: model:ir.model.fields,help:account_tax_unece.field_account_tax__unece_categ_id
-#: model:ir.model.fields,help:account_tax_unece.field_account_tax_template__unece_categ_id
 msgid ""
 "Select the Tax Category Code of the official nomenclature of the United "
 "Nations Economic Commission for Europe (UNECE), DataElement 5305"
@@ -29,7 +28,6 @@ msgstr ""
 
 #. module: account_tax_unece
 #: model:ir.model.fields,help:account_tax_unece.field_account_tax__unece_type_id
-#: model:ir.model.fields,help:account_tax_unece.field_account_tax_template__unece_type_id
 msgid ""
 "Select the Tax Type Code of the official nomenclature of the United Nations "
 "Economic Commission for Europe (UNECE), DataElement 5153"
@@ -42,27 +40,19 @@ msgstr ""
 
 #. module: account_tax_unece
 #: model:ir.model.fields.selection,name:account_tax_unece.selection__unece_code_list__type__tax_categ
+#: model_terms:ir.ui.view,arch_db:account_tax_unece.unece_code_list_search
 msgid "Tax Categories (UNCL 5305)"
 msgstr ""
 
 #. module: account_tax_unece
 #: model:ir.model.fields.selection,name:account_tax_unece.selection__unece_code_list__type__tax_type
+#: model_terms:ir.ui.view,arch_db:account_tax_unece.unece_code_list_search
 msgid "Tax Types (UNCL 5153)"
-msgstr ""
-
-#. module: account_tax_unece
-#: model:ir.model,name:account_tax_unece.model_account_tax_template
-msgid "Templates for Taxes"
 msgstr ""
 
 #. module: account_tax_unece
 #: model:ir.model.fields,field_description:account_tax_unece.field_unece_code_list__type
 msgid "Type"
-msgstr ""
-
-#. module: account_tax_unece
-#: model_terms:ir.ui.view,arch_db:account_tax_unece.view_tax_template_form
-msgid "UNECE"
 msgstr ""
 
 #. module: account_tax_unece
@@ -72,13 +62,11 @@ msgstr ""
 
 #. module: account_tax_unece
 #: model:ir.model.fields,field_description:account_tax_unece.field_account_tax__unece_categ_id
-#: model:ir.model.fields,field_description:account_tax_unece.field_account_tax_template__unece_categ_id
 msgid "UNECE Tax Category"
 msgstr ""
 
 #. module: account_tax_unece
 #: model:ir.model.fields,field_description:account_tax_unece.field_account_tax__unece_type_id
-#: model:ir.model.fields,field_description:account_tax_unece.field_account_tax_template__unece_type_id
 msgid "UNECE Tax Type"
 msgstr ""
 

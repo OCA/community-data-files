@@ -23,7 +23,6 @@ msgstr "Compañías"
 
 #. module: account_tax_unece
 #: model:ir.model.fields,help:account_tax_unece.field_account_tax__unece_categ_id
-#: model:ir.model.fields,help:account_tax_unece.field_account_tax_template__unece_categ_id
 msgid ""
 "Select the Tax Category Code of the official nomenclature of the United "
 "Nations Economic Commission for Europe (UNECE), DataElement 5305"
@@ -34,7 +33,6 @@ msgstr ""
 
 #. module: account_tax_unece
 #: model:ir.model.fields,help:account_tax_unece.field_account_tax__unece_type_id
-#: model:ir.model.fields,help:account_tax_unece.field_account_tax_template__unece_type_id
 msgid ""
 "Select the Tax Type Code of the official nomenclature of the United Nations "
 "Economic Commission for Europe (UNECE), DataElement 5153"
@@ -50,28 +48,20 @@ msgstr "Impuesto"
 
 #. module: account_tax_unece
 #: model:ir.model.fields.selection,name:account_tax_unece.selection__unece_code_list__type__tax_categ
+#: model_terms:ir.ui.view,arch_db:account_tax_unece.unece_code_list_search
 msgid "Tax Categories (UNCL 5305)"
 msgstr "Categorías impositivas (UNCL 5305)"
 
 #. module: account_tax_unece
 #: model:ir.model.fields.selection,name:account_tax_unece.selection__unece_code_list__type__tax_type
+#: model_terms:ir.ui.view,arch_db:account_tax_unece.unece_code_list_search
 msgid "Tax Types (UNCL 5153)"
 msgstr "Tipos de Impuestos (UNCL 5153)"
-
-#. module: account_tax_unece
-#: model:ir.model,name:account_tax_unece.model_account_tax_template
-msgid "Templates for Taxes"
-msgstr "Plantillas para impuestos"
 
 #. module: account_tax_unece
 #: model:ir.model.fields,field_description:account_tax_unece.field_unece_code_list__type
 msgid "Type"
 msgstr "Tipo"
-
-#. module: account_tax_unece
-#: model_terms:ir.ui.view,arch_db:account_tax_unece.view_tax_template_form
-msgid "UNECE"
-msgstr "CEPE"
 
 #. module: account_tax_unece
 #: model:ir.model.fields,field_description:account_tax_unece.field_account_tax__unece_categ_code
@@ -80,13 +70,11 @@ msgstr "Código de categoría de la CEPE (UNECE)"
 
 #. module: account_tax_unece
 #: model:ir.model.fields,field_description:account_tax_unece.field_account_tax__unece_categ_id
-#: model:ir.model.fields,field_description:account_tax_unece.field_account_tax_template__unece_categ_id
 msgid "UNECE Tax Category"
 msgstr "Categoría impositiva de la CEPE (UNECE)"
 
 #. module: account_tax_unece
 #: model:ir.model.fields,field_description:account_tax_unece.field_account_tax__unece_type_id
-#: model:ir.model.fields,field_description:account_tax_unece.field_account_tax_template__unece_type_id
 msgid "UNECE Tax Type"
 msgstr "Tipo de impuesto de la CEPE (UNECE)"
 
@@ -99,3 +87,9 @@ msgstr "Código de tipo CEPE (UNECE)"
 #: model:ir.model,name:account_tax_unece.model_unece_code_list
 msgid "UNECE nomenclatures"
 msgstr "Nomenclaturas de la UNECE"
+
+#~ msgid "Templates for Taxes"
+#~ msgstr "Plantillas para impuestos"
+
+#~ msgid "UNECE"
+#~ msgstr "CEPE"
