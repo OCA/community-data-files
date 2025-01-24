@@ -116,7 +116,6 @@ msgstr "Unidad Dg"
 #: model:ir.model.fields,field_description:l10n_eu_product_adr_dangerous_goods.field_dangerous_uom__display_name
 #: model:ir.model.fields,field_description:l10n_eu_product_adr_dangerous_goods.field_limited_amount__display_name
 #: model:ir.model.fields,field_description:l10n_eu_product_adr_dangerous_goods.field_packaging_type__display_name
-#: model:ir.model.fields,field_description:l10n_eu_product_adr_dangerous_goods.field_product_product__display_name
 #: model:ir.model.fields,field_description:l10n_eu_product_adr_dangerous_goods.field_storage_class__display_name
 #: model:ir.model.fields,field_description:l10n_eu_product_adr_dangerous_goods.field_storage_temp__display_name
 #: model:ir.model.fields,field_description:l10n_eu_product_adr_dangerous_goods.field_wgk_class__display_name
@@ -147,7 +146,6 @@ msgstr "Identificación de riesgos"
 #: model:ir.model.fields,field_description:l10n_eu_product_adr_dangerous_goods.field_dangerous_uom__id
 #: model:ir.model.fields,field_description:l10n_eu_product_adr_dangerous_goods.field_limited_amount__id
 #: model:ir.model.fields,field_description:l10n_eu_product_adr_dangerous_goods.field_packaging_type__id
-#: model:ir.model.fields,field_description:l10n_eu_product_adr_dangerous_goods.field_product_product__id
 #: model:ir.model.fields,field_description:l10n_eu_product_adr_dangerous_goods.field_storage_class__id
 #: model:ir.model.fields,field_description:l10n_eu_product_adr_dangerous_goods.field_storage_temp__id
 #: model:ir.model.fields,field_description:l10n_eu_product_adr_dangerous_goods.field_wgk_class__id
@@ -178,17 +176,6 @@ msgstr "Etiqueta 2"
 #: model:ir.model.fields,field_description:l10n_eu_product_adr_dangerous_goods.field_product_product__label_third
 msgid "Label 3"
 msgstr "Etiqueta 2"
-
-#. module: l10n_eu_product_adr_dangerous_goods
-#: model:ir.model.fields,field_description:l10n_eu_product_adr_dangerous_goods.field_dangerous_uom____last_update
-#: model:ir.model.fields,field_description:l10n_eu_product_adr_dangerous_goods.field_limited_amount____last_update
-#: model:ir.model.fields,field_description:l10n_eu_product_adr_dangerous_goods.field_packaging_type____last_update
-#: model:ir.model.fields,field_description:l10n_eu_product_adr_dangerous_goods.field_product_product____last_update
-#: model:ir.model.fields,field_description:l10n_eu_product_adr_dangerous_goods.field_storage_class____last_update
-#: model:ir.model.fields,field_description:l10n_eu_product_adr_dangerous_goods.field_storage_temp____last_update
-#: model:ir.model.fields,field_description:l10n_eu_product_adr_dangerous_goods.field_wgk_class____last_update
-msgid "Last Modified on"
-msgstr "Última modificación el"
 
 #. module: l10n_eu_product_adr_dangerous_goods
 #: model:ir.model.fields,field_description:l10n_eu_product_adr_dangerous_goods.field_dangerous_uom__write_uid
@@ -253,8 +240,8 @@ msgstr "Tipo de Embalaje"
 
 #. module: l10n_eu_product_adr_dangerous_goods
 #: model:ir.model,name:l10n_eu_product_adr_dangerous_goods.model_product_product
-msgid "Product"
-msgstr "Producto"
+msgid "Product Variant"
+msgstr ""
 
 #. module: l10n_eu_product_adr_dangerous_goods
 #: model_terms:ir.ui.view,arch_db:l10n_eu_product_adr_dangerous_goods.product_normal_form_view
@@ -336,3 +323,9 @@ msgstr "a 25°C"
 #: model:storage.temp,name:l10n_eu_product_adr_dangerous_goods.storage_temp_3
 msgid "to 30°C"
 msgstr "a 30°C"
+
+#~ msgid "Last Modified on"
+#~ msgstr "Última modificación el"
+
+#~ msgid "Product"
+#~ msgstr "Producto"
