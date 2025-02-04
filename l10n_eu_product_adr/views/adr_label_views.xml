@@ -25,10 +25,13 @@
                             t-attf-class="oe_kanban_global_click"
                             style="min-width:450px;min-height:80px"
                         >
-                            <div class="o_kanban_image">
-                                <img
-                                    alt="Label image"
-                                    t-att-src="kanban_image('adr.label', 'image', record.id.raw_value)"
+                            <div class="o_kanban_image_fill position-relative w-100">
+                                <field
+                                    name="image"
+                                    t-if="record.image"
+                                    class="o_image_64_contain mw-100"
+                                    widget="image"
+                                    options="{'preview_image': 'image', 'img_class': 'object-fit-contain'}"
                                 />
                             </div>
                             <div class="oe_kanban_details">
