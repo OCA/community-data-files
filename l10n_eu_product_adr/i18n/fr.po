@@ -7488,11 +7488,6 @@ msgid "LONDON PURPLE"
 msgstr "POURPRE DE LONDRES"
 
 #. module: l10n_eu_product_adr
-#: model_terms:ir.ui.view,arch_db:l10n_eu_product_adr.adr_label_kanban_form
-msgid "Label image"
-msgstr ""
-
-#. module: l10n_eu_product_adr
 #: model:ir.model.fields,field_description:l10n_eu_product_adr.field_adr_goods__label_ids
 #: model:ir.model.fields,field_description:l10n_eu_product_adr.field_product_product__adr_label_ids
 #: model:ir.model.fields,field_description:l10n_eu_product_adr.field_product_template__adr_label_ids
