@@ -3,7 +3,7 @@
 
 import requests
 
-from odoo import _, models
+from odoo import models
 
 ENDPOINT = "https://publications.europa.eu/webapi/rdf/sparql"
 # List of languages imported in previous versions of the module.
@@ -177,9 +177,17 @@ class ResPartnerIndustryEUNaceWizard(models.TransientModel):
 
     def update_partner_industry_eu_nace(self):
         languages = self.get_languages()
+        headers = {
+            "User-Agent": f"Mozilla/5.0 "
+            f"(compatible; Odoo/l10n_eu_nace; "
+            f"+{self.get_base_url()})",
+        }
         query = self._create_query(languages)
         result = requests.get(
-            ENDPOINT, params={"format": "json", "query": query}, timeout=120
+            ENDPOINT,
+            params={"format": "json", "query": query},
+            headers=headers,
+            timeout=120,
         )
         result.raise_for_status()
         nace_ids = self._create_nace_industry(result, languages)
@@ -187,12 +195,12 @@ class ResPartnerIndustryEUNaceWizard(models.TransientModel):
 
     def action_partner_industry_eu_nace(self):
         self.update_partner_industry_eu_nace()
-        tree_view_id = self.env.ref("base.res_partner_industry_view_tree").id
+        list_view_id = self.env.ref("base.res_partner_industry_view_tree").id
         return {
-            "name": _("Partner Industries by EU NACE"),
-            "view_mode": "tree",
+            "name": self.env._("Partner Industries by EU NACE"),
+            "view_mode": "list",
             "res_model": "res.partner.industry",
-            "view_id": tree_view_id,
+            "view_id": list_view_id,
             "type": "ir.actions.act_window",
             "domain": [],
         }
