@@ -2,7 +2,6 @@
 <!-- Copyright 2024 Moduon
      License LGPL-3.0 or later (https://www.gnu.org/licenses/lgpl.html). -->
 <odoo>
-
     <record id="partner_industry_nace_wizard_view_form" model="ir.ui.view">
         <field name="name">re.partner.industry.nace.wizard.view.form</field>
         <field name="model">res.partner.industry.eu.nace.wizard</field>
@@ -47,5 +46,4 @@
     <record id="open_nace_import_wizad" model="ir.actions.todo">
         <field name="action_id" ref="res_partner_nace_import_act_window" />
     </record>
-
 </odoo>

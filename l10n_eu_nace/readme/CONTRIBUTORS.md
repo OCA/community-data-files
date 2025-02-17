@@ -7,3 +7,4 @@
   - Ernesto Tejeda
 - Abraham Anes \<<abrahamanes@gmail.com>\>
 - Eduardo López ([Moduon](https://www.moduon.es/))
+- Bert Van Groenendael ([Dynapps](https://www.dynapps.eu/))
