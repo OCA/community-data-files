@@ -4,7 +4,7 @@
 
 {
     "name": "ISO 3166",
-    "version": "15.0.1.0.3",
+    "version": "15.0.1.0.4",
     "development_status": "Production/Stable",
     "author": "Tecnativa, Creu Blanca, Odoo Community Association (OCA)",
     "category": "Localization",
