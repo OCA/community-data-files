@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
-"PO-Revision-Date: 2025-04-01 20:06+0000\n"
+"PO-Revision-Date: 2025-05-07 22:23+0000\n"
 "Last-Translator: mymage <stefano.consolaro@mymage.it>\n"
 "Language-Team: none\n"
 "Language: it\n"
@@ -14,7 +14,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.10.2\n"
+"X-Generator: Weblate 5.10.4\n"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_3159
@@ -8380,32 +8380,32 @@ msgstr "N,N-DIMETILANILINA"
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_2690
 msgid "N,n-BUTYLIMIDAZOLE"
-msgstr ""
+msgstr "N,n-BUTILIMIDAZOLO"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_2815
 msgid "N-AMINOETHYLPIPERAZINE"
-msgstr ""
+msgstr "N-AMINOETILPIPERAZINA"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_2738
 msgid "N-BUTYLANILINE"
-msgstr ""
+msgstr "N-BUTILANILINA"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_2274
 msgid "N-ETHYL-N-BENZYLANILINE"
-msgstr ""
+msgstr "N-ETIL-N-BENZILANILINA"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_2272
 msgid "N-ETHYLANILINE"
-msgstr ""
+msgstr "N-ETILANILINA"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_2753
 msgid "N-ETHYLBENZYL-TOLUIDINES, LIQUID"
-msgstr ""
+msgstr "N-ETILBENZIL-TOLUIDINE, LIQUIDE"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_3460
@@ -8415,17 +8415,17 @@ msgstr "N-ETHYLBENZYL-TOLUIDINES, SOLIDO"
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_2754
 msgid "N-ETHYLTOLUIDINES"
-msgstr ""
+msgstr "N-ETHYLTOLUIDINES"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_2294
 msgid "N-METHYLANILINE"
-msgstr ""
+msgstr "N-METILANILINA"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_2945
 msgid "N-METHYLBUTYLAMINE"
-msgstr ""
+msgstr "N-METILBUTILAMMINA"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_1334
@@ -9059,32 +9059,32 @@ msgstr "OCTOLIT (OCTOL), secco o inumidito con meno del 15% di acqua, in massa"
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_0496
 msgid "OCTONAL"
-msgstr ""
+msgstr "OTTONALE"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_1191
 msgid "OCTYL ALDEHYDES"
-msgstr ""
+msgstr "ALDEIDI OTTILICHE"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_1801
 msgid "OCTYLTRICHLOROSILANE"
-msgstr ""
+msgstr "OTTILTRICLOROSILANO"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_1071
 msgid "OIL GAS, COMPRESSED"
-msgstr ""
+msgstr "GAS OLIO, COMPRESSO"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_3101
 msgid "ORGANIC PEROXIDE TYPE B, LIQUID"
-msgstr ""
+msgstr "PEROSSIDO ORGANICO TIPO B, LIQUIDO"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_3111
 msgid "ORGANIC PEROXIDE TYPE B, LIQUID, TEMPERATURE CONTROLLED"
-msgstr ""
+msgstr "PEROSSIDO ORGANICO TIPO B, LIQUIDO, A TEMPERATURA CONTROLLATA"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_3102
@@ -9099,12 +9099,12 @@ msgstr "ORGANIC PEROXIDE TYPE B, SOLIDO, TEMPERATURE CONTROLLED"
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_3103
 msgid "ORGANIC PEROXIDE TYPE C, LIQUID"
-msgstr ""
+msgstr "PEROSSIDO ORGANICO TIPO C, LIQUIDO"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_3113
 msgid "ORGANIC PEROXIDE TYPE C, LIQUID, TEMPERATURE CONTROLLED"
-msgstr ""
+msgstr "PEROSSIDO ORGANICO TIPO C, LIQUIDO, A TEMPERATURA CONTROLLATA"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_3104
@@ -9120,7 +9120,7 @@ msgstr "ORGANIC PEROXIDE TYPE C, SOLIDO, TEMPERATURE CONTROLLED"
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_3115
 msgid "ORGANIC PEROXIDE TYPE D, LIQUID, TEMPERATURE CONTROLLED"
-msgstr ""
+msgstr "PEROSSIDO ORGANICO TIPO D, LIQUIDO, A TEMPERATURA CONTROLLATA"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_3106
@@ -9130,12 +9130,12 @@ msgstr "ORGANIC PEROXIDE TYPE D, SOLIDO"
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_3107
 msgid "ORGANIC PEROXIDE TYPE E, LIQUID"
-msgstr ""
+msgstr "PEROSSIDO ORGANICO TIPO E, LIQUIDO"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_3117
 msgid "ORGANIC PEROXIDE TYPE E, LIQUID, TEMPERATURE CONTROLLED"
-msgstr ""
+msgstr "PEROSSIDO ORGANICO TIPO E, LIQUIDO, A TEMPERATURA CONTROLLATA"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_3108
@@ -9150,12 +9150,12 @@ msgstr "ORGANIC PEROXIDE TYPE E, SOLIDO, TEMPERATURE CONTROLLED"
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_3109
 msgid "ORGANIC PEROXIDE TYPE F, LIQUID"
-msgstr ""
+msgstr "PEROSSIDO ORGANICO TIPO F, LIQUIDO"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_3119
 msgid "ORGANIC PEROXIDE TYPE F, LIQUID, TEMPERATURE CONTROLLED"
-msgstr ""
+msgstr "PEROSSIDO ORGANICO TIPO F, LIQUIDO, A TEMPERATURA CONTROLLATA"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_3110
@@ -9176,14 +9176,14 @@ msgstr "ORGANIC PEROXIDETYPE D, SOLIDO, TEMPERATURE CONTROLLED"
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_3313_S2_4dot2_P002/IBC08/LP02/R001_3
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_3313_S2_4dot2_P002/IBC08_2
 msgid "ORGANIC PIGMENTS, SELF-HEATING"
-msgstr ""
+msgstr "PIGMENTI ORGANICI, AUTORISCALDANTI"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_3280
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_3280_100ml
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_3280_5L
 msgid "ORGANOARSENIC COMPOUND, LIQUID, N.O.S."
-msgstr ""
+msgstr "COMPOSTO ORGANOARSENICO, LIQUIDO, N.A.S."
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_3465
@@ -9199,13 +9199,15 @@ msgid ""
 "ORGANOCHLORINE PESTICIDE, LIQUID, FLAMMABLE, TOXIC, flash-point less than 23 "
 "°C"
 msgstr ""
+"PESTICIDA ORGANOCLORURO, LIQUIDO, INFIAMMABILE, TOSSICO, punto di "
+"infiammabilità inferiore a 23 °C"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_2996
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_2996_100ml
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_2996_5L
 msgid "ORGANOCHLORINE PESTICIDE, LIQUID, TOXIC"
-msgstr ""
+msgstr "PESTICIDA ORGANOCLORURO, LIQUIDO, TOSSICO"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_2995
@@ -9215,6 +9217,8 @@ msgid ""
 "ORGANOCHLORINE PESTICIDE, LIQUID, TOXIC, FLAMMABLE, flash-point not less "
 "than 23 °C"
 msgstr ""
+"PESTICIDA ORGANOCLORURO, LIQUIDO, TOSSICO, INFIAMMABILE, punto di "
+"infiammabilità non inferiore a 23 °C"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_2761
@@ -9228,7 +9232,7 @@ msgstr "ORGANOCHLORINE PESTICIDE, SOLIDO, TOXIC"
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_3282_100ml
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_3282_5L
 msgid "ORGANOMETALLIC COMPOUND, LIQUID, TOXIC, N.O.S."
-msgstr ""
+msgstr "COMPOSTO ORGANOMETALLICO, LIQUIDO, TOSSICO, N.A.S."
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_3467
@@ -9240,26 +9244,26 @@ msgstr "ORGANOMETALLIC COMPOUND, SOLIDO, TOXIC, N.O.S."
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_3392
 msgid "ORGANOMETALLIC SUBSTANCE, LIQUID, PYROPHORIC"
-msgstr ""
+msgstr "SOSTANZA ORGANOMETALLICA, LIQUIDA, PIROFORICA"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_3394
 msgid "ORGANOMETALLIC SUBSTANCE, LIQUID, PYROPHORIC, WATER-REACTIVE"
-msgstr ""
+msgstr "SOSTANZA ORGANOMETALLICA, LIQUIDA, PIROFORICA, IDROREATTIVA"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_3398
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_3398_1L
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_3398_500ml
 msgid "ORGANOMETALLIC SUBSTANCE, LIQUID, WATER-REACTIVE"
-msgstr ""
+msgstr "SOSTANZA ORGANOMETALLICA, LIQUIDA, IDROREATTIVA"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_3399
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_3399_1L
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_3399_500ml
 msgid "ORGANOMETALLIC SUBSTANCE, LIQUID, WATER-REACTIVE, FLAMMABLE"
-msgstr ""
+msgstr "SOSTANZA ORGANOMETALLICA, LIQUIDA, IDROREATTIVA, INFIAMMABILE"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_3391
@@ -9303,7 +9307,7 @@ msgstr "ORGANOMETALLIC SUBSTANCE, SOLIDO, WATER-REACTIVE, SELF-HEATING"
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_3278_100ml
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_3278_5L
 msgid "ORGANOPHOSPHORUS COMPOUND, LIQUID, TOXIC, N.O.S."
-msgstr ""
+msgstr "COMPOSTO ORGANOFOSFORICO, LIQUIDO, TOSSICO, N.A.S."
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_3464
@@ -9316,7 +9320,7 @@ msgstr "ORGANOPHOSPHORUS COMPOUND, SOLIDO, TOXIC, N.O.S."
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_3279
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_3279_100ml
 msgid "ORGANOPHOSPHORUS COMPOUND, TOXIC, FLAMMABLE, N.O.S."
-msgstr ""
+msgstr "COMPOSTO ORGANOFOSFORICO, TOSSICO, INFIAMMABILE, N.A.S."
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_2784
@@ -9325,13 +9329,15 @@ msgid ""
 "ORGANOPHOSPHORUS PESTICIDE, LIQUID, FLAMMABLE, TOXIC, flash-point less than "
 "23 °C"
 msgstr ""
+"PESTICIDA ORGANOFOSFORICO, LIQUIDO, INFIAMMABILE, TOSSICO, punto di "
+"infiammabilità inferiore a 23 °C"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_3018
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_3018_100ml
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_3018_5L
 msgid "ORGANOPHOSPHORUS PESTICIDE, LIQUID, TOXIC"
-msgstr ""
+msgstr "PESTICIDA ORGANOFOSFORICO, LIQUIDO, TOSSICO"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_3017
@@ -9341,6 +9347,8 @@ msgid ""
 "ORGANOPHOSPHORUS PESTICIDE, LIQUID, TOXIC, FLAMMABLE, flash-point not less "
 "than 23 °C"
 msgstr ""
+"PESTICIDA ORGANOFOSFORICO, LIQUIDO, TOSSICO, INFIAMMABILE, punto di "
+"infiammabilità non inferiore a 23 °C"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_2783
@@ -9354,7 +9362,7 @@ msgstr "ORGANOPHOSPHORUS PESTICIDE, SOLIDO, TOXIC"
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_2788_100ml
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_2788_5L
 msgid "ORGANOTIN COMPOUND, LIQUID, N.O.S."
-msgstr ""
+msgstr "COMPOSTO ORGANOSTANO, LIQUIDO, N.A.S."
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_3146
@@ -9369,13 +9377,15 @@ msgstr "ORGANOTIN COMPOUND, SOLIDO, N.O.S."
 msgid ""
 "ORGANOTIN PESTICIDE, LIQUID, FLAMMABLE, TOXIC, flash-point less than 23 °C"
 msgstr ""
+"PESTICIDA ORGANOSTANO, LIQUIDO, INFIAMMABILE, TOSSICO, punto di "
+"infiammabilità inferiore a 23 °C"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_3020
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_3020_100ml
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_3020_5L
 msgid "ORGANOTIN PESTICIDE, LIQUID, TOXIC"
-msgstr ""
+msgstr "PESTICIDA ORGANOSTANO, LIQUIDO, TOSSICO"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_3019
@@ -9385,6 +9395,8 @@ msgid ""
 "ORGANOTIN PESTICIDE, LIQUID, TOXIC, FLAMMABLE, flash-point not less than 23 "
 "°C"
 msgstr ""
+"PESTICIDA ORGANOSTANO, LIQUIDO, TOSSICO, INFIAMMABILE, punto di "
+"infiammabilità non inferiore a 23 °C"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_2786
@@ -9396,28 +9408,28 @@ msgstr "ORGANOTIN PESTICIDE, SOLIDO, TOXIC"
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_2471
 msgid "OSMIUM TETROXIDE"
-msgstr ""
+msgstr "TETROSSIDO DI OSMIO"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_3098
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_3098_1L
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_3098_5L
 msgid "OXIDIZING LIQUID, CORROSIVE, N.O.S."
-msgstr ""
+msgstr "OXIDIZING LIQUID, CORROSIVE, N.O.S."
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_3139
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_3139_1L
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_3139_5L
 msgid "OXIDIZING LIQUID, N.O.S."
-msgstr ""
+msgstr "LIQUIDO COMBURENTE, N.A.S."
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_3099
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_3099_1L
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_3099_5L
 msgid "OXIDIZING LIQUID, TOXIC, N.O.S."
-msgstr ""
+msgstr "LIQUIDO COMBURENTE, TOSSICO, N.A.S."
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_3085
@@ -9458,39 +9470,39 @@ msgstr "OXIDIZING SOLIDO, WATER-REACTIVE, N.O.S."
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_2190
 msgid "OXYGEN DIFLUORIDE, COMPRESSED"
-msgstr ""
+msgstr "DIFLUORURO DI OSSIGENO, COMPRESSO"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_3356
 msgid "OXYGEN GENERATOR, CHEMICAL"
-msgstr ""
+msgstr "GENERATORE DI OSSIGENO, CHIMICO"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_1072
 msgid "OXYGEN, COMPRESSED"
-msgstr ""
+msgstr "OSSIGENO COMPRESSO"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_1073
 msgid "OXYGEN, REFRIGERATED LIQUID"
-msgstr ""
+msgstr "OSSIGENO, LIQUIDO REFRIGERATO"
 
 #. module: l10n_eu_product_adr
 #: model:adr.class,name:l10n_eu_product_adr.adr_class_5_2
 #: model:adr.label,name:l10n_eu_product_adr.adr_label_5_2
 msgid "Organic peroxides"
-msgstr ""
+msgstr "Perossidi organici"
 
 #. module: l10n_eu_product_adr
 #: model:adr.class,name:l10n_eu_product_adr.adr_class_5_1
 #: model:adr.label,name:l10n_eu_product_adr.adr_label_5_1
 msgid "Oxidizing substances"
-msgstr ""
+msgstr "Sostanze ossidanti"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_3509
 msgid "PACKAGINGS, DISCARDED, EMPTY, UNCLEANED"
-msgstr ""
+msgstr "IMBALLAGGI, SCARTATI, VUOTI, NON PULITI"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_1263_F1_3_163/367/650_500ml_P001_1
@@ -9502,6 +9514,10 @@ msgid ""
 "liquid filler and liquid lacquer base) or PAINT RELATED MATERIAL (including "
 "paint thinning and reducing compound)"
 msgstr ""
+"VERNICE (compresa vernice, lacca, smalto, mordente, gommalacca, vernice, "
+"lucidante, riempitivo liquido e base per lacca liquida) o MATERIALE "
+"CORRELATO ALLA VERNICE (compreso il composto diluente e riducente per "
+"vernici)"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_1263_F1_3_163/367/650_5L_P001/R001_3
@@ -9511,6 +9527,11 @@ msgid ""
 "paint thinning and reducing compound) (having a flash-point below 23 °C and "
 "viscous according to 2.2.3.1.4) (vapour pressure at 50 °C more than 110 kPa)"
 msgstr ""
+"VERNICE (comprese vernici, lacche, smalti, mordenti, gomme lacca, vernici, "
+"lucidanti, riempitivi liquidi e basi per lacche liquide) o MATERIALE "
+"CORRELATO ALLA VERNICE (compresi i composti diluenti e riducenti per vernici)"
+" (con un punto di infiammabilità inferiore a 23 °C e viscoso secondo "
+"2.2.3.1.4) (pressione di vapore a 50 °C superiore a 110 kPa)"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_1263_F1_3_163/367/650_5L_P001/IBC02/R001_3
@@ -9521,6 +9542,11 @@ msgid ""
 "viscous according to 2.2.3.1.4) (vapour pressure at 50 °C not more than 110 "
 "kPa)"
 msgstr ""
+"VERNICE (comprese vernici, lacche, smalti, mordenti, gomme lacca, vernici, "
+"lucidanti, riempitivi liquidi e basi per lacche liquide) o MATERIALE "
+"CORRELATO ALLA VERNICE (compresi diluenti e composti riducenti per vernici) ("
+"con un punto di infiammabilità inferiore a 23 °C e viscosi secondo 2.2.3.1.4)"
+" (pressione di vapore a 50 °C non superiore a 110 kPa)"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_1263_F1_3_163/367/640C/650_5L_P001_2
@@ -9530,6 +9556,10 @@ msgid ""
 "paint thinning and reducing compound) (vapour pressure at 50 °C more than "
 "110 kPa)"
 msgstr ""
+"VERNICE (comprese vernici, lacche, smalti, mordenti, gomme laccate, vernici, "
+"lucidanti, riempitivi liquidi e basi per lacche liquide) o MATERIALI "
+"CORRELATI ALLA VERNICE (compresi diluenti e composti riducenti per vernici) ("
+"pressione di vapore a 50 °C superiore a 110 kPa)"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_1263_F1_3_163/367/640D/650_5L_P001/IBC02/R001_2
@@ -9539,6 +9569,10 @@ msgid ""
 "paint thinning and reducing compound) (vapour pressure at 50 °C not more "
 "than 110 kPa)"
 msgstr ""
+"VERNICE (comprese vernici, lacche, smalti, mordenti, gomme laccate, vernici, "
+"lucidanti, riempitivi liquidi e basi per lacche liquide) o MATERIALI "
+"CORRELATI ALLA VERNICE (compresi diluenti e composti riducenti per vernici) ("
+"pressione di vapore a 50 °C non superiore a 110 kPa)"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_3470
@@ -9548,6 +9582,10 @@ msgid ""
 "RELATED MATERIAL, CORROSIVE, FLAMMABLE (including paint thinning and "
 "reducing compound)"
 msgstr ""
+"VERNICE CORROSIVA, INFIAMMABILE (inclusa vernice, lacca, smalto, mordente, "
+"gommalacca, vernice, lucidante, riempitivo liquido e base per lacca liquida) "
+"o MATERIALE CORROSIVO, INFIAMMABILE (incluso diluente e composto riducente "
+"per vernici)"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_3469
@@ -9559,37 +9597,43 @@ msgid ""
 "RELATED MATERIAL, FLAMMABLE, CORROSIVE (including paint thinning and "
 "reducing compound)"
 msgstr ""
+"VERNICE, INFIAMMABILE, CORROSIVA (inclusa vernice, lacca, smalto, mordente, "
+"gommalacca, vernice, lucidante, riempitivo liquido e base per lacca liquida) "
+"o MATERIALE CORRELATO ALLA VERNICE, INFIAMMABILE, CORROSIVO (incluso "
+"composto diluente e riducente per vernici)"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_1379
 msgid ""
 "PAPER, UNSATURATED OIL TREATED, incompletely dried (including carbon paper)"
 msgstr ""
+"CARTA, TRATTATA CON OLIO INSATURO, non completamente essiccata (compresa la "
+"carta carbone)"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_2213
 msgid "PARAFORMALDEHYDE"
-msgstr ""
+msgstr "PARAFORMALDEIDE"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_1264
 msgid "PARALDEHYDE"
-msgstr ""
+msgstr "PARALDEIDE"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_1380
 msgid "PENTABORANE"
-msgstr ""
+msgstr "Pentaborano"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_1669
 msgid "PENTACHLOROETHANE"
-msgstr ""
+msgstr "PENTACLOROETANO"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_3155
 msgid "PENTACHLOROPHENOL"
-msgstr ""
+msgstr "PENTACLOROFENOLO"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_3344
@@ -9608,6 +9652,8 @@ msgid ""
 "PENTAERYTHRITE TETRANITRATE (PENTAERYTHRITOL TETRANITRATE; PETN) with not "
 "less than 7% wax, by mass"
 msgstr ""
+"TETRANITRATO DI PENTAERITRITE (TETRANITRATO DI PENTAERITRITOLO; PETN) con "
+"almeno il 7% di cera, in massa"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_0150
@@ -9616,6 +9662,9 @@ msgid ""
 "with not less than 25% water, by mass, or DESENSITIZED with not less than "
 "15% phlegmatizer, by mass"
 msgstr ""
+"TETRANITRATO DI PENTAERITRITE (TETRANITRATO DI PENTAERITOLO; PETN), BAGNATO "
+"con almeno il 25% di acqua, in massa, o DESENSIBILIZZATO con almeno il 15% "
+"di flemmatizzante, in massa"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_3220
@@ -9625,76 +9674,76 @@ msgstr "PENTAFLUOROETHANE (GAS REFRIGERANTE R 125)"
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_2286
 msgid "PENTAMETHYLHEPTANE"
-msgstr ""
+msgstr "PENTAMETILEPTANO"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_2310
 msgid "PENTANE-2,4-DIONE"
-msgstr ""
+msgstr "PENTAMETILEPTAN"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_1265
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_1265_1L
 msgid "PENTANES, liquid"
-msgstr ""
+msgstr "PENTANI, liquidi"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_1105_1L
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_1105_5L
 msgid "PENTANOLS"
-msgstr ""
+msgstr "PENTANOLI"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_0151
 msgid "PENTOLITE, dry or wetted with less than 15% water, by mass"
-msgstr ""
+msgstr "PENTOLITE, secca o bagnata con meno del 15% di acqua, in massa"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_3211_1L
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_3211_5L
 msgid "PERCHLORATES, INORGANIC, AQUEOUS SOLUTION, N.O.S."
-msgstr ""
+msgstr "PERCLORATI, INORGANICI, SOLUZIONE ACQUOSA, N.A.S."
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_1481_1kg
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_1481_5kg
 msgid "PERCHLORATES, INORGANIC, N.O.S."
-msgstr ""
+msgstr "PERCLORATI INORGANICI, N.A.S."
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_1873
 msgid "PERCHLORIC ACID with more than 50% but not more than 72% acid, by mass"
-msgstr ""
+msgstr "ACIDO PERCLORICO con più del 50% ma non più del 72% di acido, in massa"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_1802
 msgid "PERCHLORIC ACID with not more than 50% acid, by mass"
-msgstr ""
+msgstr "ACIDO PERCLORICO con non più del 50% di acido, in massa"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_1670
 msgid "PERCHLOROMETHYL MERCAPTAN"
-msgstr ""
+msgstr "PERCLOROMETIL MERCAPTAN"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_3083
 msgid "PERCHLORYL FLUORIDE"
-msgstr ""
+msgstr "FLUORURO DI PERCLORILE"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_3154
 msgid "PERFLUORO(ETHYL VINYL ETHER)"
-msgstr ""
+msgstr "PERFLUORO(ETILVINIL ETERE)"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_3153
 msgid "PERFLUORO(METHYL VINYL ETHER)"
-msgstr ""
+msgstr "PERFLUORO(METILVINIL ETERE)"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_1266_F1_3_163_5L_P001/IBC03/LP01/R001_3
 msgid "PERFUMERY PRODUCTS with flammable solvents"
-msgstr ""
+msgstr "PRODOTTI DI PROFUMERIA con solventi infiammabili"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_1266_F1_3_163_5L_P001/R001_3
@@ -9703,6 +9752,9 @@ msgid ""
 "°C and viscous according to 2.2.3.1.4) (vapour pressure at 50 °C more than "
 "110 kPa)"
 msgstr ""
+"PRODOTTI DI PROFUMERIA con solventi infiammabili (aventi un punto di "
+"infiammabilità inferiore a 23 °C e viscosi secondo 2.2.3.1.4) (pressione di "
+"vapore a 50 °C superiore a 110 kPa)"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_1266_F1_3_163_5L_P001/IBC02/R001_3
@@ -9711,6 +9763,9 @@ msgid ""
 "°C and viscous according to 2.2.3.1.4) (vapour pressure at 50 °C not more "
 "than 110 kPa)"
 msgstr ""
+"PRODOTTI DI PROFUMERIA con solventi infiammabili (aventi un punto di "
+"infiammabilità inferiore a 23 °C e viscosi secondo 2.2.3.1.4) (pressione di "
+"vapore a 50 °C non superiore a 110 kPa)"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_1266_F1_3_640C/163_5L_P001_2
@@ -9718,6 +9773,8 @@ msgid ""
 "PERFUMERY PRODUCTS with flammable solvents (vapour pressure at 50 °C more "
 "than 110 kPa)"
 msgstr ""
+"PRODOTTI DI PROFUMERIA con solventi infiammabili (pressione di vapore a 50 °"
+"C superiore a 110 kPa)"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_1266_F1_3_640D/163_5L_P001/IBC02/R001_2
@@ -9725,33 +9782,35 @@ msgid ""
 "PERFUMERY PRODUCTS with flammable solvents (vapour pressure at 50 °C not "
 "more than 110 kPa)"
 msgstr ""
+"PRODOTTI DI PROFUMERIA con solventi infiammabili (pressione di vapore a 50 °"
+"C non superiore a 110 kPa)"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_3214
 msgid "PERMANGANATES, INORGANIC, AQUEOUS SOLUTION, N.O.S."
-msgstr ""
+msgstr "PERMANGANATI, INORGANICI, SOLUZIONE ACQUOSA, N.A.S."
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_1482_1kg
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_1482_5kg
 msgid "PERMANGANATES, INORGANIC, N.O.S."
-msgstr ""
+msgstr "PERMANGANATI INORGANICI, N.A.S."
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_1483_1kg
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_1483_5kg
 msgid "PEROXIDES, INORGANIC, N.O.S."
-msgstr ""
+msgstr "PEROSSIDI INORGANICI, N.A.S."
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_3216
 msgid "PERSULPHATES, INORGANIC, AQUEOUS SOLUTION, N.O.S."
-msgstr ""
+msgstr "PERSOLFATI, INORGANICI, SOLUZIONE ACQUOSA, N.A.S."
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_3215
 msgid "PERSULPHATES, INORGANIC, N.O.S."
-msgstr ""
+msgstr "PERSOLFATI INORGANICI, N.A.S."
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_3021
@@ -9759,6 +9818,8 @@ msgstr ""
 msgid ""
 "PESTICIDE, LIQUID, FLAMMABLE, TOXIC, N.O.S., flash-point less than 23 °C"
 msgstr ""
+"PESTICIDA, LIQUIDO, INFIAMMABILE, TOSSICO, N.A.S., punto di infiammabilità "
+"inferiore a 23 °C"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_2903
@@ -9767,13 +9828,15 @@ msgstr ""
 msgid ""
 "PESTICIDE, LIQUID, TOXIC, FLAMMABLE, N.O.S., flash-point not less than 23 °C"
 msgstr ""
+"PESTICIDA, LIQUIDO, TOSSICO, INFIAMMABILE, N.A.S., punto di infiammabilità "
+"non inferiore a 23 °C"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_2902
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_2902_100ml
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_2902_5L
 msgid "PESTICIDE, LIQUID, TOXIC, N.O.S."
-msgstr ""
+msgstr "PESTICIDA LIQUIDO TOSSICO, N.A.S."
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_2588
@@ -9786,23 +9849,23 @@ msgstr "PESTICIDE, SOLIDO, TOXIC, N.O.S."
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_1267_F1_3_357_500ml_P001_1
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_1267_F1_3_357_5L_P001/IBC03/LP01/R001_3
 msgid "PETROLEUM CRUDE OIL"
-msgstr ""
+msgstr "PETROLIO GREGGIO"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_1267_F1_3_357/640C_1L_P001_2
 msgid "PETROLEUM CRUDE OIL (vapour pressure at 50 °C more than 110 kPa)"
-msgstr ""
+msgstr "PETROLIO GREGGIO (pressione di vapore a 50 °C superiore a 110 kPa)"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_1267_F1_3_357/640D_1L_P001/IBC02/R001_2
 msgid "PETROLEUM CRUDE OIL (vapour pressure at 50 °C not more than 110 kPa)"
-msgstr ""
+msgstr "PETROLIO GREGGIO (pressione di vapore a 50 °C non superiore a 110 kPa)"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_1268_F1_3_664_500ml_P001_1
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_1268_F1_3_664_5L_P001/IBC03/LP01/R001_3
 msgid "PETROLEUM DISTILLATES, N.O.S. or PETROLEUM PRODUCTS, N.O.S."
-msgstr ""
+msgstr "DISTILLATI DI PETROLIO, N.A.S. o PRODOTTI PETROLIFERI, N.A.S."
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_1268_F1_3_640D/664_1L_P001/IBC02/R001_2
@@ -9810,6 +9873,8 @@ msgid ""
 "PETROLEUM DISTILLATES, N.O.S. or PETROLEUM PRODUCTS, N.O.S. (vapour pressure "
 "at 50 °C more than 110 kPa)"
 msgstr ""
+"DISTILLATI DI PETROLIO, N.A.S. o PRODOTTI PETROLIFERI, N.A.S. (pressione di "
+"vapore a 50 °C superiore a 110 kPa)"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_1268_F1_3_640C/664_1L_P001_2
@@ -9817,11 +9882,13 @@ msgid ""
 "PETROLEUM DISTILLATES, N.O.S. or PETROLEUM PRODUCTS, N.O.S. (vapour pressure "
 "at 50 °C not more than 110 kPa)"
 msgstr ""
+"DISTILLATI DI PETROLIO, N.A.S. o PRODOTTI PETROLIFERI, N.A.S. (pressione di "
+"vapore a 50 °C non superiore a 110 kPa)"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_1075
 msgid "PETROLEUM GASES, LIQUEFIED"
-msgstr ""
+msgstr "GAS DI PETROLIO LIQUEFATTI"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_3494
