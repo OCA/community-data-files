@@ -4,7 +4,8 @@
 
 import schwifty
 
-from odoo import api, models
+from odoo import _, api, models
+from odoo.exceptions import ValidationError
 
 from odoo.addons.base_iban.models.res_partner_bank import (
     _map_iban_template,
@@ -58,6 +59,8 @@ class ResPartnerBank(models.Model):
                 bank = self.env["res.bank"]
         except schwifty.exceptions.InvalidStructure:
             bank = self.env["res.bank"]
+        except schwifty.exceptions.SchwiftyException as e:
+            raise ValidationError(_("IBAN validation error: %s" % str(e))) from e
         return bank
 
     @api.onchange("acc_number", "acc_type")

@@ -81,18 +81,22 @@ Authors
 Contributors
 ------------
 
-- `Tecnativa <https://www.tecnativa.com>`__:
+-  `Tecnativa <https://www.tecnativa.com>`__:
 
-  - Carlos Dauden
-  - Pedro M. Baeza
+   -  Carlos Dauden
+   -  Pedro M. Baeza
 
-- `Pesol <https://www.pesol.es>`__:
+-  `Pesol <https://www.pesol.es>`__:
 
-  - Pedro Evaristo Gonzalez Sanchez <pedro.gonzalez@pesol.es>
+   -  Pedro Evaristo Gonzalez Sanchez <pedro.gonzalez@pesol.es>
 
-- `APSL <https://apsl.tech>`__:
+-  `APSL <https://apsl.tech>`__:
 
-  - Javier Antó <janto@apsl.net>
+   -  Javier Antó <janto@apsl.net>
+
+-  `360ERP <https://www.360erp.com>`__
+
+   -  Kevin Khao <kevinkhao@gmail.com>
 
 Maintainers
 -----------

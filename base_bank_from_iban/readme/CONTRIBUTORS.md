@@ -5,3 +5,5 @@
   - Pedro Evaristo Gonzalez Sanchez \<<pedro.gonzalez@pesol.es>\>
 - [APSL](https://apsl.tech):
   - Javier Antó \<<janto@apsl.net>\>
+- [360ERP](https://www.360erp.com)
+  - Kevin Khao \<<kevinkhao@gmail.com>\>
