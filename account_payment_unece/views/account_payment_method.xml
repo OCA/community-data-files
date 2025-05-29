@@ -9,7 +9,7 @@
         <field name="model">account.payment.method</field>
         <field
             name="inherit_id"
-            ref="account_payment_base_oca.account_payment_method_form"
+            ref="account_payment_method_base.account_payment_method_form"
         />
         <field name="arch" type="xml">
             <group name="main" position="inside">
@@ -25,7 +25,7 @@
         <field name="model">account.payment.method</field>
         <field
             name="inherit_id"
-            ref="account_payment_base_oca.account_payment_method_list"
+            ref="account_payment_method_base.account_payment_method_list"
         />
         <field name="arch" type="xml">
             <list position="inside">
