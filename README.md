@@ -30,12 +30,12 @@ addon | version | maintainers | summary
 [base_bank_from_iban](base_bank_from_iban/) | 13.0.1.0.1 |  | Bank from IBAN
 [base_currency_iso_4217](base_currency_iso_4217/) | 13.0.1.0.0 |  | Adds numeric code and full name to currencies, following the ISO 4217 specification
 [base_iso3166](base_iso3166/) | 13.0.1.0.1 |  | ISO 3166
-[base_unece](base_unece/) | 13.0.1.1.1 | [![astirpe](https://github.com/astirpe.png?size=30px)](https://github.com/astirpe) | Base module for UNECE code lists
+[base_unece](base_unece/) | 13.0.1.1.1 | <a href='https://github.com/astirpe'><img src='https://github.com/astirpe.png' width='32' height='32' style='border-radius:50%;' alt='astirpe'/></a> | Base module for UNECE code lists
 [l10n_eu_adr_report](l10n_eu_adr_report/) | 13.0.1.0.2 |  | Print Delivery report to ADR standart
 [l10n_eu_product_adr](l10n_eu_product_adr/) | 13.0.2.1.0 |  | Allows to set appropriate danger class and components
 [product_fao_fishing](product_fao_fishing/) | 13.0.1.0.0 |  | Set fishing areas and capture technology
 [product_meat_unece](product_meat_unece/) | 13.0.1.0.0 |  | This module adds the UNECE Meat Carcasses and Cuts Classification.
-[uom_unece](uom_unece/) | 13.0.1.0.1 | [![astirpe](https://github.com/astirpe.png?size=30px)](https://github.com/astirpe) | UNECE nomenclature for the units of measure
+[uom_unece](uom_unece/) | 13.0.1.0.1 | <a href='https://github.com/astirpe'><img src='https://github.com/astirpe.png' width='32' height='32' style='border-radius:50%;' alt='astirpe'/></a> | UNECE nomenclature for the units of measure
 
 [//]: # (end addons)
 
