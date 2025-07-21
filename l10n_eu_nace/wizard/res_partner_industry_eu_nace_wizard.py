@@ -91,7 +91,7 @@ class ResPartnerIndustryEUNaceWizard(models.TransientModel):
         skos_query = "\n".join(list(map(self.get_skos_query, languages)))
         filter_query = "\n".join(list(map(self.get_filter_query, languages)))
         query = rf"""
-            PREFIX : <http://data.europa.eu/ux2/nace2/>
+            PREFIX : <http://data.europa.eu/ux2/nace2.1/>
             PREFIX cc: <http://creativecommons.org/ns#>
             PREFIX dc: <http://purl.org/dc/elements/1.1/>
             PREFIX dct: <http://purl.org/dc/terms/>
@@ -102,7 +102,6 @@ class ResPartnerIndustryEUNaceWizard(models.TransientModel):
             PREFIX grddl: <http://www.w3.org/2003/g/data-view#>
             PREFIX iso-thes: <http://purl.org/iso25964/skos-thes#>
             PREFIX luc: <http://www.ontotext.com/owlim/lucene#>
-            PREFIX nace21: <http://data.europa.eu/ux2/nace2.1/>
             PREFIX owl: <http://www.w3.org/2002/07/owl#>
             PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
             PREFIX rdf4j: <http://rdf4j.org/schema/rdf4j#>
@@ -120,7 +119,7 @@ class ResPartnerIndustryEUNaceWizard(models.TransientModel):
             PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
             SELECT ?LEVEL ?code ?parentCode {select_query} WHERE {{
-                ?s skos:inScheme :nace2 ;
+                ?s skos:inScheme :nace2.1 ;
                 {skos_query}
                 skos:notation ?code;
                 skos:broader ?parent;
@@ -130,7 +129,7 @@ class ResPartnerIndustryEUNaceWizard(models.TransientModel):
                 FILTER (?Member = :sections || ?Member = :divisions  ||
                 ?Member = :groups || ?Member = :classes)
                 BIND (STR(?Member) AS ?NACELEVEL)
-                BIND (STRAFTER(?NACELEVEL, "/nace2/") AS ?LEVEL)
+                BIND (STRAFTER(?NACELEVEL, "/nace2.1/") AS ?LEVEL)
                 ?Member skos:prefLabel ?MemberLabel .
                 FILTER (LANG(?MemberLabel) = "en")
                 BIND (xsd:integer(REPLACE(?code, "\\D", "")) AS ?code_formatted)
