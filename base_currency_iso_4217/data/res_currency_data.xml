@@ -666,7 +666,7 @@
         <field name="full_name">Zambian Kwacha</field>
         <field name="numeric_code">967</field>
     </record>
-    <record id="base.ZWL" model="res.currency">
+    <record id="base.ZIG" model="res.currency">
         <field name="full_name">Zimbabwe Dollar</field>
         <field name="numeric_code">932</field>
     </record>
