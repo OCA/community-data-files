@@ -6,6 +6,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 16.0\n"
 "Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-09-30 09:56+0000\n"
+"PO-Revision-Date: 2025-09-30 09:56+0000\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -24,6 +26,66 @@ msgid "Companies"
 msgstr ""
 
 #. module: company_sanitary_registry
+#: model:ir.model.fields,field_description:company_sanitary_registry.field_sanitary_registry__create_uid
+msgid "Created by"
+msgstr ""
+
+#. module: company_sanitary_registry
+#: model:ir.model.fields,field_description:company_sanitary_registry.field_sanitary_registry__create_date
+msgid "Created on"
+msgstr ""
+
+#. module: company_sanitary_registry
+#: model:ir.model.fields,field_description:company_sanitary_registry.field_sanitary_registry__display_name
+msgid "Display Name"
+msgstr ""
+
+#. module: company_sanitary_registry
+#: model:ir.model.fields,field_description:company_sanitary_registry.field_sanitary_registry__id
+msgid "ID"
+msgstr ""
+
+#. module: company_sanitary_registry
+#: model:ir.model.fields,field_description:company_sanitary_registry.field_sanitary_registry____last_update
+msgid "Last Modified on"
+msgstr ""
+
+#. module: company_sanitary_registry
+#: model:ir.model.fields,field_description:company_sanitary_registry.field_sanitary_registry__write_uid
+msgid "Last Updated by"
+msgstr ""
+
+#. module: company_sanitary_registry
+#: model:ir.model.fields,field_description:company_sanitary_registry.field_sanitary_registry__write_date
+msgid "Last Updated on"
+msgstr ""
+
+#. module: company_sanitary_registry
 #: model:ir.model.fields,field_description:company_sanitary_registry.field_res_company__sanitary_registry
+#: model:ir.model.fields,field_description:company_sanitary_registry.field_sanitary_registry__name
+msgid "Name"
+msgstr ""
+
+#. module: company_sanitary_registry
+#: model:ir.model,name:company_sanitary_registry.model_product_category
+msgid "Product Category"
+msgstr ""
+
+#. module: company_sanitary_registry
+#: model:ir.actions.act_window,name:company_sanitary_registry.action_sanitary_registry
+#: model:ir.ui.menu,name:company_sanitary_registry.menu_action_sanitary_registry
+msgid "Sanitary Registries"
+msgstr ""
+
+#. module: company_sanitary_registry
+#: model:ir.model,name:company_sanitary_registry.model_sanitary_registry
+#: model:ir.model.fields,field_description:company_sanitary_registry.field_product_category__sanitary_registry_id
+#: model:ir.model.fields,field_description:company_sanitary_registry.field_res_company__sanitary_registry_id
 msgid "Sanitary Registry"
+msgstr ""
+
+#. module: company_sanitary_registry
+#: code:addons/company_sanitary_registry/models/sanitary_registry.py:0
+#, python-format
+msgid "There are already sanitary registrations with values %s."
 msgstr ""

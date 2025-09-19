@@ -4,22 +4,23 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 16.0\n"
+"Project-Id-Version: Odoo Server 15.0\n"
 "Report-Msgid-Bugs-To: \n"
-"PO-Revision-Date: 2023-08-02 12:09+0000\n"
-"Last-Translator: Ivorra78 <informatica@totmaterial.es>\n"
-"Language-Team: none\n"
+"POT-Creation-Date: 2025-09-30 09:56+0000\n"
+"PO-Revision-Date: 2025-09-30 12:00+0200\n"
+"Last-Translator: \n"
+"Language-Team: \n"
 "Language: es\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: \n"
-"Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.17\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 3.4.2\n"
 
 #. module: company_sanitary_registry
 #: model_terms:ir.ui.view,arch_db:company_sanitary_registry.sanitary_registry_template
-msgid "<span>CE</span>"
-msgstr "<span>CE</span>"
+msgid "<span>UE</span>"
+msgstr ""
 
 #. module: company_sanitary_registry
 #: model:ir.model,name:company_sanitary_registry.model_res_company
@@ -27,6 +28,47 @@ msgid "Companies"
 msgstr "Compañías"
 
 #. module: company_sanitary_registry
+#: model:ir.model.fields,field_description:company_sanitary_registry.field_sanitary_registry__create_uid
+msgid "Created by"
+msgstr "Creado por"
+
+#. module: company_sanitary_registry
+#: model:ir.model.fields,field_description:company_sanitary_registry.field_sanitary_registry__create_date
+msgid "Created on"
+msgstr "Creado el"
+
+#. module: company_sanitary_registry
+#: model:ir.model.fields,field_description:company_sanitary_registry.field_sanitary_registry__display_name
+msgid "Display Name"
+msgstr "Nombre a mostrar"
+
+#. module: company_sanitary_registry
+#: model:ir.model.fields,field_description:company_sanitary_registry.field_sanitary_registry__id
+msgid "ID"
+msgstr "ID"
+
+#. module: company_sanitary_registry
+#: model:ir.model.fields,field_description:company_sanitary_registry.field_sanitary_registry____last_update
+msgid "Last Modified on"
+msgstr "Última modificación el"
+
+#. module: company_sanitary_registry
+#: model:ir.model.fields,field_description:company_sanitary_registry.field_sanitary_registry__write_uid
+msgid "Last Updated by"
+msgstr "Última actualización por"
+
+#. module: company_sanitary_registry
+#: model:ir.model.fields,field_description:company_sanitary_registry.field_sanitary_registry__write_date
+msgid "Last Updated on"
+msgstr "Última actualización el"
+
+#. module: company_sanitary_registry
 #: model:ir.model.fields,field_description:company_sanitary_registry.field_res_company__sanitary_registry
 msgid "Sanitary Registry"
 msgstr "Registro sanitario"
+
+#. module: company_sanitary_registry
+#: code:addons/company_sanitary_registry/models/sanitary_registry.py:0
+#, python-format
+msgid "There are already sanitary registrations with values %s."
+msgstr "Ya existen registros sanitarios con los valores %s."
