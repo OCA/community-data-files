@@ -43,6 +43,8 @@ class TestResPartnerIndustryEUNaceWizard(TransactionCase):
         return import_wizard
 
     def test_get_languages(self):
+        active_languages = ["base.lang_en"]
+        self.activate_langs(active_languages)
         nace_wizard = self.wizard_eu_nace()
         self.assertEqual(nace_wizard.get_languages(), [("en_US", "EN")])
 
