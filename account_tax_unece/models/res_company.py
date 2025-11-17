@@ -48,7 +48,9 @@ class ResCompany(models.Model):
         res = {}
         fp_obj = self.env["account.fiscal.position"]
         fpositions = fp_obj.with_context(lang=lang, active_test=False).search_read(
-            [("company_id", "=", self.id)], ["name", "display_name", "note"]
+            # Branch (res.company) use parent company fiscal positions
+            [("company_id", "parent_of", self.id)],
+            ["name", "display_name", "note"],
         )
         for fp in fpositions:
             note = False
