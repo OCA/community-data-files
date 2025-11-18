@@ -17,7 +17,7 @@
             </t>
             <t
                 t-set="sanitary_registry"
-                t-value="sanitary_registry or company.sanitary_registry"
+                t-value="sanitary_registry or company.sanitary_registry_id.name"
             />
             <div class="col" style="text-align:center;">
                 <div
