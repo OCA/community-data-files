@@ -3,13 +3,13 @@
 {
     "name": "Sanitary Registry",
     "version": "16.0.1.1.0",
-    "depends": ["product"],
+    "depends": ["stock"],
     "data": [
         "security/ir.model.access.csv",
         "templates/sanitary_registry_template.xml",
-        "views/product_category_view.xml",
         "views/res_company_view.xml",
         "views/sanitary_registry_view.xml",
+        "views/sanitary_registry_warehouse_category_views.xml",
     ],
     "author": "Tecnativa, Odoo Community Association (OCA)",
     "website": "https://github.com/OCA/community-data-files",

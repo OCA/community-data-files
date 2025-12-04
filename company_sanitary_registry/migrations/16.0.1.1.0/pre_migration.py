@@ -23,7 +23,10 @@ def migrate(env, version):
         INSERT INTO sanitary_registry (name)
         SELECT sanitary_registry
         FROM res_company
-        WHERE sanitary_registry IS NOT NULL;
+        WHERE sanitary_registry IS NOT NULL
+            AND NOT EXISTS (
+              SELECT 1 FROM sanitary_registry LIMIT 1
+            )
         """,
     )
     openupgrade.logged_query(
