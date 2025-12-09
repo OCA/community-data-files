@@ -3,6 +3,7 @@
 # License LGPL-3.0 or later (https://www.gnu.org/licenses/lgpl).
 
 from odoo import models
+from odoo.fields import Domain
 from odoo.tools import html2plaintext, is_html_empty
 
 
@@ -16,7 +17,7 @@ class ResCompany(models.Model):
         all_taxes = tax_obj.with_context(active_test=False).search_read(
             # Branch (res.company) use parent company taxes
             # 'parent_of' allows this case to be served
-            [("company_id", "parent_of", self.id)],
+            Domain("company_id", "parent_of", self.id),
             [
                 "unece_type_code",
                 "unece_categ_code",
@@ -49,7 +50,7 @@ class ResCompany(models.Model):
         fp_obj = self.env["account.fiscal.position"]
         fpositions = fp_obj.with_context(lang=lang, active_test=False).search_read(
             # Branch (res.company) use parent company fiscal positions
-            [("company_id", "parent_of", self.id)],
+            Domain("company_id", "parent_of", self.id),
             ["name", "display_name", "note"],
         )
         for fp in fpositions:
