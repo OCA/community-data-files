@@ -20,13 +20,10 @@ class UneceCodeList(models.Model):
     description = fields.Text()
     active = fields.Boolean(default=True)
 
-    _sql_constraints = [
-        (
-            "type_code_uniq",
-            "unique(type, code)",
-            "An UNECE code of the same type already exists",
-        )
-    ]
+    _type_code_uniq = models.UniqueIndex(
+        "(type, code)",
+        "An UNECE code of the same type already exists",
+    )
 
     @api.depends("code", "name")
     def _compute_display_name(self):

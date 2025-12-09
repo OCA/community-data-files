@@ -56,12 +56,13 @@
                 />
                 <field name="code" />
                 <field name="type" />
+                <separator />
                 <filter
                     string="Archived"
                     name="inactive"
                     domain="[('active', '=', False)]"
                 />
-                <group string="Group By" name="groupby">
+                <group name="groupby">
                     <filter
                         name="type_groupby"
                         string="Type"
