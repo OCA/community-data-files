@@ -34,7 +34,7 @@
         <field name="unece_code">CMT</field>
     </record>
     <!-- Surface -->
-    <record id="uom.uom_square_meter" model="uom.uom">
+    <record id="uom.product_uom_square_meter" model="uom.uom">
         <field name="unece_code">MTK</field>
     </record>
     <!-- Volume -->
@@ -43,6 +43,9 @@
     </record>
     <record id="uom.product_uom_cubic_meter" model="uom.uom">
         <field name="unece_code">MTQ</field>
+    </record>
+    <record id="uom.product_uom_milliliter" model="uom.uom">
+        <field name="unece_code">MLT</field>
     </record>
     <!-- Weight -->
     <record id="uom.product_uom_kgm" model="uom.uom">
@@ -75,7 +78,7 @@
         <field name="unece_code">SMI</field>
     </record>
     <!-- American surface -->
-    <record id="uom.uom_square_foot" model="uom.uom">
+    <record id="uom.product_uom_square_foot" model="uom.uom">
         <field name="unece_code">FTK</field>
     </record>
     <!-- American volume -->

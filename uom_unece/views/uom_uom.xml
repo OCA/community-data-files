@@ -9,18 +9,18 @@
         <field name="model">uom.uom</field>
         <field name="inherit_id" ref="uom.product_uom_form_view" />
         <field name="arch" type="xml">
-            <field name="rounding" position="after">
+            <group name="uom_details" position="inside">
                 <field name="unece_code" />
-            </field>
+            </group>
         </field>
     </record>
     <record id="product_uom_tree_view" model="ir.ui.view">
         <field name="model">uom.uom</field>
         <field name="inherit_id" ref="uom.product_uom_tree_view" />
         <field name="arch" type="xml">
-            <field name="uom_type" position="after">
+            <list position="inside">
                 <field name="unece_code" optional="show" />
-            </field>
+            </list>
         </field>
     </record>
 </odoo>
