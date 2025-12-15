@@ -9,7 +9,7 @@ import sys
 from collections import defaultdict
 
 from lxml import etree
-from openpyxl import load_workbook  # pylint: disable=W7936
+from openpyxl import load_workbook
 
 skiprows = 3
 columns = {
@@ -108,7 +108,7 @@ uom_map = {
     "g": "uom.product_uom_gram",
     "kg": "uom.product_uom_kgm",
     "l": "uom.product_uom_litre",
-    "ml": "l10n_eu_product_adr.product_uom_mililiter",
+    "ml": "uom.product_uom_milliliter",
 }
 
 # Keytypes

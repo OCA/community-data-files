@@ -71,7 +71,7 @@ class TestAdrModels(TransactionCase):
             {
                 "limited_quantity": 5,
                 "limited_quantity_uom_id": self.env.ref(
-                    "l10n_eu_product_adr.product_uom_mililiter"
+                    "uom.product_uom_milliliter"
                 ).id,
             }
         )

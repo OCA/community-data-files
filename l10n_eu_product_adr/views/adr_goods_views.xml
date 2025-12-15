@@ -91,7 +91,7 @@
                     name="active"
                     domain="[('active', '=', True)]"
                 />
-                <group expand="1" string="Group By">
+                <group>
                     <filter
                         string="Class"
                         name="class_id"

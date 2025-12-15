@@ -4,4 +4,4 @@
   labels in that class may apply to all products (but not at the same
   time).
 - Update the data in this module beyond the 2019 version of the
-  specifications
+  specifications. Maybe from https://unece.org/adr-2025-files.

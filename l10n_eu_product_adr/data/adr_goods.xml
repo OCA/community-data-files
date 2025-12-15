@@ -5178,10 +5178,7 @@
         <field name="classification_code">1A</field>
         <field name="label_ids" eval="[(6, 0, [ref('adr_label_2_2')])]" />
         <field name="limited_quantity">120</field>
-        <field
-            name="limited_quantity_uom_id"
-            ref="l10n_eu_product_adr.product_uom_mililiter"
-        />
+        <field name="limited_quantity_uom_id" ref="uom.product_uom_milliliter" />
         <field
             name="packing_instruction_ids"
             eval="[(6, 0, [ref('adr_packing_instruction_P200')])]"
@@ -5228,10 +5225,7 @@
         <field name="classification_code">1A</field>
         <field name="label_ids" eval="[(6, 0, [ref('adr_label_2_2')])]" />
         <field name="limited_quantity">120</field>
-        <field
-            name="limited_quantity_uom_id"
-            ref="l10n_eu_product_adr.product_uom_mililiter"
-        />
+        <field name="limited_quantity_uom_id" ref="uom.product_uom_milliliter" />
         <field
             name="packing_instruction_ids"
             eval="[(6, 0, [ref('adr_packing_instruction_P200')])]"
@@ -5262,10 +5256,7 @@
         <field name="classification_code">2A</field>
         <field name="label_ids" eval="[(6, 0, [ref('adr_label_2_2')])]" />
         <field name="limited_quantity">120</field>
-        <field
-            name="limited_quantity_uom_id"
-            ref="l10n_eu_product_adr.product_uom_mililiter"
-        />
+        <field name="limited_quantity_uom_id" ref="uom.product_uom_milliliter" />
         <field
             name="packing_instruction_ids"
             eval="[(6, 0, [ref('adr_packing_instruction_P200')])]"
@@ -5323,10 +5314,7 @@
         <field name="classification_code">2A</field>
         <field name="label_ids" eval="[(6, 0, [ref('adr_label_2_2')])]" />
         <field name="limited_quantity">120</field>
-        <field
-            name="limited_quantity_uom_id"
-            ref="l10n_eu_product_adr.product_uom_mililiter"
-        />
+        <field name="limited_quantity_uom_id" ref="uom.product_uom_milliliter" />
         <field
             name="packing_instruction_ids"
             eval="[(6, 0, [ref('adr_packing_instruction_P200')])]"
@@ -5373,10 +5361,7 @@
         <field name="classification_code">2A</field>
         <field name="label_ids" eval="[(6, 0, [ref('adr_label_2_2')])]" />
         <field name="limited_quantity">120</field>
-        <field
-            name="limited_quantity_uom_id"
-            ref="l10n_eu_product_adr.product_uom_mililiter"
-        />
+        <field name="limited_quantity_uom_id" ref="uom.product_uom_milliliter" />
         <field
             name="packing_instruction_ids"
             eval="[(6, 0, [ref('adr_packing_instruction_P200')])]"
@@ -5391,10 +5376,7 @@
         <field name="classification_code">2A</field>
         <field name="label_ids" eval="[(6, 0, [ref('adr_label_2_2')])]" />
         <field name="limited_quantity">120</field>
-        <field
-            name="limited_quantity_uom_id"
-            ref="l10n_eu_product_adr.product_uom_mililiter"
-        />
+        <field name="limited_quantity_uom_id" ref="uom.product_uom_milliliter" />
         <field
             name="packing_instruction_ids"
             eval="[(6, 0, [ref('adr_packing_instruction_P200')])]"
@@ -5411,10 +5393,7 @@
         <field name="classification_code">2A</field>
         <field name="label_ids" eval="[(6, 0, [ref('adr_label_2_2')])]" />
         <field name="limited_quantity">120</field>
-        <field
-            name="limited_quantity_uom_id"
-            ref="l10n_eu_product_adr.product_uom_mililiter"
-        />
+        <field name="limited_quantity_uom_id" ref="uom.product_uom_milliliter" />
         <field
             name="packing_instruction_ids"
             eval="[(6, 0, [ref('adr_packing_instruction_P200')])]"
@@ -5429,10 +5408,7 @@
         <field name="classification_code">2A</field>
         <field name="label_ids" eval="[(6, 0, [ref('adr_label_2_2')])]" />
         <field name="limited_quantity">120</field>
-        <field
-            name="limited_quantity_uom_id"
-            ref="l10n_eu_product_adr.product_uom_mililiter"
-        />
+        <field name="limited_quantity_uom_id" ref="uom.product_uom_milliliter" />
         <field
             name="packing_instruction_ids"
             eval="[(6, 0, [ref('adr_packing_instruction_P200')])]"
@@ -5492,10 +5468,7 @@
         <field name="classification_code">2A</field>
         <field name="label_ids" eval="[(6, 0, [ref('adr_label_2_2')])]" />
         <field name="limited_quantity">120</field>
-        <field
-            name="limited_quantity_uom_id"
-            ref="l10n_eu_product_adr.product_uom_mililiter"
-        />
+        <field name="limited_quantity_uom_id" ref="uom.product_uom_milliliter" />
         <field
             name="packing_instruction_ids"
             eval="[(6, 0, [ref('adr_packing_instruction_P200')])]"
@@ -5510,10 +5483,7 @@
         <field name="classification_code">2A</field>
         <field name="label_ids" eval="[(6, 0, [ref('adr_label_2_2')])]" />
         <field name="limited_quantity">120</field>
-        <field
-            name="limited_quantity_uom_id"
-            ref="l10n_eu_product_adr.product_uom_mililiter"
-        />
+        <field name="limited_quantity_uom_id" ref="uom.product_uom_milliliter" />
         <field
             name="packing_instruction_ids"
             eval="[(6, 0, [ref('adr_packing_instruction_P200')])]"
@@ -5697,10 +5667,7 @@
         <field name="classification_code">6A</field>
         <field name="label_ids" eval="[(6, 0, [ref('adr_label_2_2')])]" />
         <field name="limited_quantity">120</field>
-        <field
-            name="limited_quantity_uom_id"
-            ref="l10n_eu_product_adr.product_uom_mililiter"
-        />
+        <field name="limited_quantity_uom_id" ref="uom.product_uom_milliliter" />
         <field
             name="packing_instruction_ids"
             eval="[(6, 0, [ref('adr_packing_instruction_P003')])]"
@@ -5731,10 +5698,7 @@
         <field name="classification_code">1A</field>
         <field name="label_ids" eval="[(6, 0, [ref('adr_label_2_2')])]" />
         <field name="limited_quantity">120</field>
-        <field
-            name="limited_quantity_uom_id"
-            ref="l10n_eu_product_adr.product_uom_mililiter"
-        />
+        <field name="limited_quantity_uom_id" ref="uom.product_uom_milliliter" />
         <field
             name="packing_instruction_ids"
             eval="[(6, 0, [ref('adr_packing_instruction_P200')])]"
@@ -5857,10 +5821,7 @@
         <field name="classification_code">1A</field>
         <field name="label_ids" eval="[(6, 0, [ref('adr_label_2_2')])]" />
         <field name="limited_quantity">120</field>
-        <field
-            name="limited_quantity_uom_id"
-            ref="l10n_eu_product_adr.product_uom_mililiter"
-        />
+        <field name="limited_quantity_uom_id" ref="uom.product_uom_milliliter" />
         <field
             name="packing_instruction_ids"
             eval="[(6, 0, [ref('adr_packing_instruction_P200')])]"
@@ -5890,10 +5851,7 @@
         <field name="classification_code">2A</field>
         <field name="label_ids" eval="[(6, 0, [ref('adr_label_2_2')])]" />
         <field name="limited_quantity">120</field>
-        <field
-            name="limited_quantity_uom_id"
-            ref="l10n_eu_product_adr.product_uom_mililiter"
-        />
+        <field name="limited_quantity_uom_id" ref="uom.product_uom_milliliter" />
         <field
             name="packing_instruction_ids"
             eval="[(6, 0, [ref('adr_packing_instruction_P200')])]"
@@ -5978,10 +5936,7 @@
         <field name="classification_code">1A</field>
         <field name="label_ids" eval="[(6, 0, [ref('adr_label_2_2')])]" />
         <field name="limited_quantity">120</field>
-        <field
-            name="limited_quantity_uom_id"
-            ref="l10n_eu_product_adr.product_uom_mililiter"
-        />
+        <field name="limited_quantity_uom_id" ref="uom.product_uom_milliliter" />
         <field
             name="packing_instruction_ids"
             eval="[(6, 0, [ref('adr_packing_instruction_P200')])]"
@@ -5996,10 +5951,7 @@
         <field name="classification_code">1A</field>
         <field name="label_ids" eval="[(6, 0, [ref('adr_label_2_2')])]" />
         <field name="limited_quantity">120</field>
-        <field
-            name="limited_quantity_uom_id"
-            ref="l10n_eu_product_adr.product_uom_mililiter"
-        />
+        <field name="limited_quantity_uom_id" ref="uom.product_uom_milliliter" />
         <field
             name="packing_instruction_ids"
             eval="[(6, 0, [ref('adr_packing_instruction_P200')])]"
@@ -6154,10 +6106,7 @@
         <field name="classification_code">2A</field>
         <field name="label_ids" eval="[(6, 0, [ref('adr_label_2_2')])]" />
         <field name="limited_quantity">120</field>
-        <field
-            name="limited_quantity_uom_id"
-            ref="l10n_eu_product_adr.product_uom_mililiter"
-        />
+        <field name="limited_quantity_uom_id" ref="uom.product_uom_milliliter" />
         <field
             name="packing_instruction_ids"
             eval="[(6, 0, [ref('adr_packing_instruction_P200')])]"
@@ -6188,10 +6137,7 @@
         <field name="classification_code">2A</field>
         <field name="label_ids" eval="[(6, 0, [ref('adr_label_2_2')])]" />
         <field name="limited_quantity">120</field>
-        <field
-            name="limited_quantity_uom_id"
-            ref="l10n_eu_product_adr.product_uom_mililiter"
-        />
+        <field name="limited_quantity_uom_id" ref="uom.product_uom_milliliter" />
         <field
             name="packing_instruction_ids"
             eval="[(6, 0, [ref('adr_packing_instruction_P200')])]"
@@ -6795,10 +6741,7 @@
         <field name="classification_code">F1</field>
         <field name="label_ids" eval="[(6, 0, [ref('adr_label_3')])]" />
         <field name="limited_quantity">500</field>
-        <field
-            name="limited_quantity_uom_id"
-            ref="l10n_eu_product_adr.product_uom_mililiter"
-        />
+        <field name="limited_quantity_uom_id" ref="uom.product_uom_milliliter" />
         <field
             name="packing_instruction_ids"
             eval="[(6, 0, [ref('adr_packing_instruction_P001')])]"
@@ -6961,10 +6904,7 @@
         <field name="classification_code">F1</field>
         <field name="label_ids" eval="[(6, 0, [ref('adr_label_3')])]" />
         <field name="limited_quantity">500</field>
-        <field
-            name="limited_quantity_uom_id"
-            ref="l10n_eu_product_adr.product_uom_mililiter"
-        />
+        <field name="limited_quantity_uom_id" ref="uom.product_uom_milliliter" />
         <field
             name="packing_instruction_ids"
             eval="[(6, 0, [ref('adr_packing_instruction_P001')])]"
@@ -7713,10 +7653,7 @@
             eval="[(6, 0, [ref('adr_label_6_1'), ref('adr_label_3')])]"
         />
         <field name="limited_quantity">100</field>
-        <field
-            name="limited_quantity_uom_id"
-            ref="l10n_eu_product_adr.product_uom_mililiter"
-        />
+        <field name="limited_quantity_uom_id" ref="uom.product_uom_milliliter" />
         <field
             name="packing_instruction_ids"
             eval="[(6, 0, [ref('adr_packing_instruction_P001'), ref('adr_packing_instruction_IBC02')])]"
@@ -8038,10 +7975,7 @@
             eval="[(6, 0, [ref('adr_label_6_1'), ref('adr_label_3')])]"
         />
         <field name="limited_quantity">100</field>
-        <field
-            name="limited_quantity_uom_id"
-            ref="l10n_eu_product_adr.product_uom_mililiter"
-        />
+        <field name="limited_quantity_uom_id" ref="uom.product_uom_milliliter" />
         <field
             name="packing_instruction_ids"
             eval="[(6, 0, [ref('adr_packing_instruction_P001'), ref('adr_packing_instruction_IBC02')])]"
@@ -8225,10 +8159,7 @@
         <field name="classification_code">F1</field>
         <field name="label_ids" eval="[(6, 0, [ref('adr_label_3')])]" />
         <field name="limited_quantity">500</field>
-        <field
-            name="limited_quantity_uom_id"
-            ref="l10n_eu_product_adr.product_uom_mililiter"
-        />
+        <field name="limited_quantity_uom_id" ref="uom.product_uom_milliliter" />
         <field
             name="packing_instruction_ids"
             eval="[(6, 0, [ref('adr_packing_instruction_P001')])]"
@@ -8918,10 +8849,7 @@
         <field name="classification_code">F1</field>
         <field name="label_ids" eval="[(6, 0, [ref('adr_label_3')])]" />
         <field name="limited_quantity">500</field>
-        <field
-            name="limited_quantity_uom_id"
-            ref="l10n_eu_product_adr.product_uom_mililiter"
-        />
+        <field name="limited_quantity_uom_id" ref="uom.product_uom_milliliter" />
         <field
             name="packing_instruction_ids"
             eval="[(6, 0, [ref('adr_packing_instruction_P001')])]"
@@ -9153,10 +9081,7 @@
         <field name="classification_code">F1</field>
         <field name="label_ids" eval="[(6, 0, [ref('adr_label_3')])]" />
         <field name="limited_quantity">500</field>
-        <field
-            name="limited_quantity_uom_id"
-            ref="l10n_eu_product_adr.product_uom_mililiter"
-        />
+        <field name="limited_quantity_uom_id" ref="uom.product_uom_milliliter" />
         <field
             name="packing_instruction_ids"
             eval="[(6, 0, [ref('adr_packing_instruction_P001')])]"
@@ -9222,10 +9147,7 @@
         <field name="classification_code">F1</field>
         <field name="label_ids" eval="[(6, 0, [ref('adr_label_3')])]" />
         <field name="limited_quantity">500</field>
-        <field
-            name="limited_quantity_uom_id"
-            ref="l10n_eu_product_adr.product_uom_mililiter"
-        />
+        <field name="limited_quantity_uom_id" ref="uom.product_uom_milliliter" />
         <field
             name="packing_instruction_ids"
             eval="[(6, 0, [ref('adr_packing_instruction_P001')])]"
@@ -13121,10 +13043,7 @@
             eval="[(6, 0, [ref('adr_label_6_1'), ref('adr_label_3')])]"
         />
         <field name="limited_quantity">100</field>
-        <field
-            name="limited_quantity_uom_id"
-            ref="l10n_eu_product_adr.product_uom_mililiter"
-        />
+        <field name="limited_quantity_uom_id" ref="uom.product_uom_milliliter" />
         <field
             name="packing_instruction_ids"
             eval="[(6, 0, [ref('adr_packing_instruction_P001'), ref('adr_packing_instruction_IBC02')])]"
@@ -13154,10 +13073,7 @@
         <field name="classification_code">T1</field>
         <field name="label_ids" eval="[(6, 0, [ref('adr_label_6_1')])]" />
         <field name="limited_quantity">100</field>
-        <field
-            name="limited_quantity_uom_id"
-            ref="l10n_eu_product_adr.product_uom_mililiter"
-        />
+        <field name="limited_quantity_uom_id" ref="uom.product_uom_milliliter" />
         <field
             name="packing_instruction_ids"
             eval="[(6, 0, [ref('adr_packing_instruction_P001'), ref('adr_packing_instruction_IBC02')])]"
@@ -13292,10 +13208,7 @@
         <field name="classification_code">T4</field>
         <field name="label_ids" eval="[(6, 0, [ref('adr_label_6_1')])]" />
         <field name="limited_quantity">100</field>
-        <field
-            name="limited_quantity_uom_id"
-            ref="l10n_eu_product_adr.product_uom_mililiter"
-        />
+        <field name="limited_quantity_uom_id" ref="uom.product_uom_milliliter" />
         <field
             name="packing_instruction_ids"
             eval="[(6, 0, [ref('adr_packing_instruction_P001'), ref('adr_packing_instruction_IBC02')])]"
@@ -13645,10 +13558,7 @@
         <field name="classification_code">T1</field>
         <field name="label_ids" eval="[(6, 0, [ref('adr_label_6_1')])]" />
         <field name="limited_quantity">100</field>
-        <field
-            name="limited_quantity_uom_id"
-            ref="l10n_eu_product_adr.product_uom_mililiter"
-        />
+        <field name="limited_quantity_uom_id" ref="uom.product_uom_milliliter" />
         <field
             name="packing_instruction_ids"
             eval="[(6, 0, [ref('adr_packing_instruction_P001'), ref('adr_packing_instruction_IBC02')])]"
@@ -13747,10 +13657,7 @@
         <field name="classification_code">T1</field>
         <field name="label_ids" eval="[(6, 0, [ref('adr_label_6_1')])]" />
         <field name="limited_quantity">100</field>
-        <field
-            name="limited_quantity_uom_id"
-            ref="l10n_eu_product_adr.product_uom_mililiter"
-        />
+        <field name="limited_quantity_uom_id" ref="uom.product_uom_milliliter" />
         <field
             name="packing_instruction_ids"
             eval="[(6, 0, [ref('adr_packing_instruction_P001'), ref('adr_packing_instruction_IBC02')])]"
@@ -13884,10 +13791,7 @@
         <field name="classification_code">T1</field>
         <field name="label_ids" eval="[(6, 0, [ref('adr_label_6_1')])]" />
         <field name="limited_quantity">100</field>
-        <field
-            name="limited_quantity_uom_id"
-            ref="l10n_eu_product_adr.product_uom_mililiter"
-        />
+        <field name="limited_quantity_uom_id" ref="uom.product_uom_milliliter" />
         <field
             name="packing_instruction_ids"
             eval="[(6, 0, [ref('adr_packing_instruction_P001'), ref('adr_packing_instruction_IBC02')])]"
@@ -13932,10 +13836,7 @@
         <field name="classification_code">T1</field>
         <field name="label_ids" eval="[(6, 0, [ref('adr_label_6_1')])]" />
         <field name="limited_quantity">100</field>
-        <field
-            name="limited_quantity_uom_id"
-            ref="l10n_eu_product_adr.product_uom_mililiter"
-        />
+        <field name="limited_quantity_uom_id" ref="uom.product_uom_milliliter" />
         <field
             name="packing_instruction_ids"
             eval="[(6, 0, [ref('adr_packing_instruction_P001'), ref('adr_packing_instruction_IBC02')])]"
@@ -13981,10 +13882,7 @@
         <field name="classification_code">T1</field>
         <field name="label_ids" eval="[(6, 0, [ref('adr_label_6_1')])]" />
         <field name="limited_quantity">100</field>
-        <field
-            name="limited_quantity_uom_id"
-            ref="l10n_eu_product_adr.product_uom_mililiter"
-        />
+        <field name="limited_quantity_uom_id" ref="uom.product_uom_milliliter" />
         <field
             name="packing_instruction_ids"
             eval="[(6, 0, [ref('adr_packing_instruction_P001'), ref('adr_packing_instruction_IBC02')])]"
@@ -14029,10 +13927,7 @@
         <field name="classification_code">T1</field>
         <field name="label_ids" eval="[(6, 0, [ref('adr_label_6_1')])]" />
         <field name="limited_quantity">100</field>
-        <field
-            name="limited_quantity_uom_id"
-            ref="l10n_eu_product_adr.product_uom_mililiter"
-        />
+        <field name="limited_quantity_uom_id" ref="uom.product_uom_milliliter" />
         <field
             name="packing_instruction_ids"
             eval="[(6, 0, [ref('adr_packing_instruction_P001'), ref('adr_packing_instruction_IBC02')])]"
@@ -14132,10 +14027,7 @@
         <field name="classification_code">T1</field>
         <field name="label_ids" eval="[(6, 0, [ref('adr_label_6_1')])]" />
         <field name="limited_quantity">100</field>
-        <field
-            name="limited_quantity_uom_id"
-            ref="l10n_eu_product_adr.product_uom_mililiter"
-        />
+        <field name="limited_quantity_uom_id" ref="uom.product_uom_milliliter" />
         <field
             name="packing_instruction_ids"
             eval="[(6, 0, [ref('adr_packing_instruction_P001'), ref('adr_packing_instruction_IBC02')])]"
@@ -14170,10 +14062,7 @@
             eval="[(6, 0, [ref('adr_label_6_1'), ref('adr_label_3')])]"
         />
         <field name="limited_quantity">100</field>
-        <field
-            name="limited_quantity_uom_id"
-            ref="l10n_eu_product_adr.product_uom_mililiter"
-        />
+        <field name="limited_quantity_uom_id" ref="uom.product_uom_milliliter" />
         <field
             name="packing_instruction_ids"
             eval="[(6, 0, [ref('adr_packing_instruction_P001'), ref('adr_packing_instruction_IBC02')])]"
@@ -14264,10 +14153,7 @@
         <field name="classification_code">T1</field>
         <field name="label_ids" eval="[(6, 0, [ref('adr_label_6_1')])]" />
         <field name="limited_quantity">100</field>
-        <field
-            name="limited_quantity_uom_id"
-            ref="l10n_eu_product_adr.product_uom_mililiter"
-        />
+        <field name="limited_quantity_uom_id" ref="uom.product_uom_milliliter" />
         <field
             name="packing_instruction_ids"
             eval="[(6, 0, [ref('adr_packing_instruction_P001'), ref('adr_packing_instruction_IBC02')])]"
@@ -14820,10 +14706,7 @@
         <field name="classification_code">T1</field>
         <field name="label_ids" eval="[(6, 0, [ref('adr_label_6_1')])]" />
         <field name="limited_quantity">100</field>
-        <field
-            name="limited_quantity_uom_id"
-            ref="l10n_eu_product_adr.product_uom_mililiter"
-        />
+        <field name="limited_quantity_uom_id" ref="uom.product_uom_milliliter" />
         <field
             name="packing_instruction_ids"
             eval="[(6, 0, [ref('adr_packing_instruction_P001'), ref('adr_packing_instruction_IBC02')])]"
@@ -14887,10 +14770,7 @@
         <field name="classification_code">T1</field>
         <field name="label_ids" eval="[(6, 0, [ref('adr_label_6_1')])]" />
         <field name="limited_quantity">100</field>
-        <field
-            name="limited_quantity_uom_id"
-            ref="l10n_eu_product_adr.product_uom_mililiter"
-        />
+        <field name="limited_quantity_uom_id" ref="uom.product_uom_milliliter" />
         <field
             name="packing_instruction_ids"
             eval="[(6, 0, [ref('adr_packing_instruction_P001'), ref('adr_packing_instruction_IBC02')])]"
@@ -14935,10 +14815,7 @@
         <field name="classification_code">T1</field>
         <field name="label_ids" eval="[(6, 0, [ref('adr_label_6_1')])]" />
         <field name="limited_quantity">100</field>
-        <field
-            name="limited_quantity_uom_id"
-            ref="l10n_eu_product_adr.product_uom_mililiter"
-        />
+        <field name="limited_quantity_uom_id" ref="uom.product_uom_milliliter" />
         <field
             name="packing_instruction_ids"
             eval="[(6, 0, [ref('adr_packing_instruction_P001'), ref('adr_packing_instruction_IBC02')])]"
@@ -15014,10 +14891,7 @@
         <field name="classification_code">T1</field>
         <field name="label_ids" eval="[(6, 0, [ref('adr_label_6_1')])]" />
         <field name="limited_quantity">100</field>
-        <field
-            name="limited_quantity_uom_id"
-            ref="l10n_eu_product_adr.product_uom_mililiter"
-        />
+        <field name="limited_quantity_uom_id" ref="uom.product_uom_milliliter" />
         <field
             name="packing_instruction_ids"
             eval="[(6, 0, [ref('adr_packing_instruction_P001'), ref('adr_packing_instruction_IBC02')])]"
@@ -15047,10 +14921,7 @@
         <field name="classification_code">T1</field>
         <field name="label_ids" eval="[(6, 0, [ref('adr_label_6_1')])]" />
         <field name="limited_quantity">100</field>
-        <field
-            name="limited_quantity_uom_id"
-            ref="l10n_eu_product_adr.product_uom_mililiter"
-        />
+        <field name="limited_quantity_uom_id" ref="uom.product_uom_milliliter" />
         <field
             name="packing_instruction_ids"
             eval="[(6, 0, [ref('adr_packing_instruction_P001'), ref('adr_packing_instruction_IBC02')])]"
@@ -15065,10 +14936,7 @@
         <field name="classification_code">T1</field>
         <field name="label_ids" eval="[(6, 0, [ref('adr_label_6_1')])]" />
         <field name="limited_quantity">100</field>
-        <field
-            name="limited_quantity_uom_id"
-            ref="l10n_eu_product_adr.product_uom_mililiter"
-        />
+        <field name="limited_quantity_uom_id" ref="uom.product_uom_milliliter" />
         <field
             name="packing_instruction_ids"
             eval="[(6, 0, [ref('adr_packing_instruction_P001'), ref('adr_packing_instruction_IBC02')])]"
@@ -15083,10 +14951,7 @@
         <field name="classification_code">T1</field>
         <field name="label_ids" eval="[(6, 0, [ref('adr_label_6_1')])]" />
         <field name="limited_quantity">100</field>
-        <field
-            name="limited_quantity_uom_id"
-            ref="l10n_eu_product_adr.product_uom_mililiter"
-        />
+        <field name="limited_quantity_uom_id" ref="uom.product_uom_milliliter" />
         <field
             name="packing_instruction_ids"
             eval="[(6, 0, [ref('adr_packing_instruction_P001'), ref('adr_packing_instruction_IBC02')])]"
@@ -15275,10 +15140,7 @@
         <field name="classification_code">T4</field>
         <field name="label_ids" eval="[(6, 0, [ref('adr_label_6_1')])]" />
         <field name="limited_quantity">100</field>
-        <field
-            name="limited_quantity_uom_id"
-            ref="l10n_eu_product_adr.product_uom_mililiter"
-        />
+        <field name="limited_quantity_uom_id" ref="uom.product_uom_milliliter" />
         <field
             name="packing_instruction_ids"
             eval="[(6, 0, [ref('adr_packing_instruction_P001'), ref('adr_packing_instruction_IBC02')])]"
@@ -15517,10 +15379,7 @@
         <field name="classification_code">T1</field>
         <field name="label_ids" eval="[(6, 0, [ref('adr_label_6_1')])]" />
         <field name="limited_quantity">100</field>
-        <field
-            name="limited_quantity_uom_id"
-            ref="l10n_eu_product_adr.product_uom_mililiter"
-        />
+        <field name="limited_quantity_uom_id" ref="uom.product_uom_milliliter" />
         <field
             name="packing_instruction_ids"
             eval="[(6, 0, [ref('adr_packing_instruction_P001'), ref('adr_packing_instruction_IBC02')])]"
@@ -15535,10 +15394,7 @@
         <field name="classification_code">T1</field>
         <field name="label_ids" eval="[(6, 0, [ref('adr_label_6_1')])]" />
         <field name="limited_quantity">100</field>
-        <field
-            name="limited_quantity_uom_id"
-            ref="l10n_eu_product_adr.product_uom_mililiter"
-        />
+        <field name="limited_quantity_uom_id" ref="uom.product_uom_milliliter" />
         <field
             name="packing_instruction_ids"
             eval="[(6, 0, [ref('adr_packing_instruction_P001'), ref('adr_packing_instruction_IBC02')])]"
@@ -15568,10 +15424,7 @@
         <field name="classification_code">T1</field>
         <field name="label_ids" eval="[(6, 0, [ref('adr_label_6_1')])]" />
         <field name="limited_quantity">100</field>
-        <field
-            name="limited_quantity_uom_id"
-            ref="l10n_eu_product_adr.product_uom_mililiter"
-        />
+        <field name="limited_quantity_uom_id" ref="uom.product_uom_milliliter" />
         <field
             name="packing_instruction_ids"
             eval="[(6, 0, [ref('adr_packing_instruction_P001'), ref('adr_packing_instruction_IBC02')])]"
@@ -15616,10 +15469,7 @@
         <field name="classification_code">T1</field>
         <field name="label_ids" eval="[(6, 0, [ref('adr_label_6_1')])]" />
         <field name="limited_quantity">100</field>
-        <field
-            name="limited_quantity_uom_id"
-            ref="l10n_eu_product_adr.product_uom_mililiter"
-        />
+        <field name="limited_quantity_uom_id" ref="uom.product_uom_milliliter" />
         <field
             name="packing_instruction_ids"
             eval="[(6, 0, [ref('adr_packing_instruction_P001'), ref('adr_packing_instruction_IBC02')])]"
@@ -16230,10 +16080,7 @@
             eval="[(6, 0, [ref('adr_label_6_1'), ref('adr_label_8')])]"
         />
         <field name="limited_quantity">100</field>
-        <field
-            name="limited_quantity_uom_id"
-            ref="l10n_eu_product_adr.product_uom_mililiter"
-        />
+        <field name="limited_quantity_uom_id" ref="uom.product_uom_milliliter" />
         <field
             name="packing_instruction_ids"
             eval="[(6, 0, [ref('adr_packing_instruction_P001'), ref('adr_packing_instruction_IBC02')])]"
@@ -17837,10 +17684,7 @@
         <field name="classification_code">T1</field>
         <field name="label_ids" eval="[(6, 0, [ref('adr_label_6_1')])]" />
         <field name="limited_quantity">100</field>
-        <field
-            name="limited_quantity_uom_id"
-            ref="l10n_eu_product_adr.product_uom_mililiter"
-        />
+        <field name="limited_quantity_uom_id" ref="uom.product_uom_milliliter" />
         <field
             name="packing_instruction_ids"
             eval="[(6, 0, [ref('adr_packing_instruction_P001'), ref('adr_packing_instruction_IBC02')])]"
@@ -17906,10 +17750,7 @@
         <field name="classification_code">T1</field>
         <field name="label_ids" eval="[(6, 0, [ref('adr_label_6_1')])]" />
         <field name="limited_quantity">100</field>
-        <field
-            name="limited_quantity_uom_id"
-            ref="l10n_eu_product_adr.product_uom_mililiter"
-        />
+        <field name="limited_quantity_uom_id" ref="uom.product_uom_milliliter" />
         <field
             name="packing_instruction_ids"
             eval="[(6, 0, [ref('adr_packing_instruction_P001')])]"
@@ -17985,10 +17826,7 @@
         <field name="classification_code">2A</field>
         <field name="label_ids" eval="[(6, 0, [ref('adr_label_2_2')])]" />
         <field name="limited_quantity">120</field>
-        <field
-            name="limited_quantity_uom_id"
-            ref="l10n_eu_product_adr.product_uom_mililiter"
-        />
+        <field name="limited_quantity_uom_id" ref="uom.product_uom_milliliter" />
         <field
             name="packing_instruction_ids"
             eval="[(6, 0, [ref('adr_packing_instruction_P200')])]"
@@ -18047,10 +17885,7 @@
         <field name="classification_code">F1</field>
         <field name="label_ids" eval="[(6, 0, [ref('adr_label_3')])]" />
         <field name="limited_quantity">500</field>
-        <field
-            name="limited_quantity_uom_id"
-            ref="l10n_eu_product_adr.product_uom_mililiter"
-        />
+        <field name="limited_quantity_uom_id" ref="uom.product_uom_milliliter" />
         <field
             name="packing_instruction_ids"
             eval="[(6, 0, [ref('adr_packing_instruction_P001')])]"
@@ -18129,10 +17964,7 @@
         <field name="classification_code">F1</field>
         <field name="label_ids" eval="[(6, 0, [ref('adr_label_3')])]" />
         <field name="limited_quantity">500</field>
-        <field
-            name="limited_quantity_uom_id"
-            ref="l10n_eu_product_adr.product_uom_mililiter"
-        />
+        <field name="limited_quantity_uom_id" ref="uom.product_uom_milliliter" />
         <field
             name="packing_instruction_ids"
             eval="[(6, 0, [ref('adr_packing_instruction_P001')])]"
@@ -18359,10 +18191,7 @@
         <field name="classification_code">T1</field>
         <field name="label_ids" eval="[(6, 0, [ref('adr_label_6_1')])]" />
         <field name="limited_quantity">100</field>
-        <field
-            name="limited_quantity_uom_id"
-            ref="l10n_eu_product_adr.product_uom_mililiter"
-        />
+        <field name="limited_quantity_uom_id" ref="uom.product_uom_milliliter" />
         <field
             name="packing_instruction_ids"
             eval="[(6, 0, [ref('adr_packing_instruction_P001'), ref('adr_packing_instruction_IBC02')])]"
@@ -18423,10 +18252,7 @@
         <field name="classification_code">T1</field>
         <field name="label_ids" eval="[(6, 0, [ref('adr_label_6_1')])]" />
         <field name="limited_quantity">100</field>
-        <field
-            name="limited_quantity_uom_id"
-            ref="l10n_eu_product_adr.product_uom_mililiter"
-        />
+        <field name="limited_quantity_uom_id" ref="uom.product_uom_milliliter" />
         <field
             name="packing_instruction_ids"
             eval="[(6, 0, [ref('adr_packing_instruction_P001'), ref('adr_packing_instruction_IBC02')])]"
@@ -18684,10 +18510,7 @@
         <field name="classification_code">3A</field>
         <field name="label_ids" eval="[(6, 0, [ref('adr_label_2_2')])]" />
         <field name="limited_quantity">120</field>
-        <field
-            name="limited_quantity_uom_id"
-            ref="l10n_eu_product_adr.product_uom_mililiter"
-        />
+        <field name="limited_quantity_uom_id" ref="uom.product_uom_milliliter" />
         <field
             name="packing_instruction_ids"
             eval="[(6, 0, [ref('adr_packing_instruction_P203')])]"
@@ -18735,10 +18558,7 @@
             eval="[(6, 0, [ref('adr_label_6_1'), ref('adr_label_3')])]"
         />
         <field name="limited_quantity">100</field>
-        <field
-            name="limited_quantity_uom_id"
-            ref="l10n_eu_product_adr.product_uom_mililiter"
-        />
+        <field name="limited_quantity_uom_id" ref="uom.product_uom_milliliter" />
         <field
             name="packing_instruction_ids"
             eval="[(6, 0, [ref('adr_packing_instruction_P001'), ref('adr_packing_instruction_IBC02')])]"
@@ -18930,10 +18750,7 @@
         <field name="classification_code">T4</field>
         <field name="label_ids" eval="[(6, 0, [ref('adr_label_6_1')])]" />
         <field name="limited_quantity">100</field>
-        <field
-            name="limited_quantity_uom_id"
-            ref="l10n_eu_product_adr.product_uom_mililiter"
-        />
+        <field name="limited_quantity_uom_id" ref="uom.product_uom_milliliter" />
         <field
             name="packing_instruction_ids"
             eval="[(6, 0, [ref('adr_packing_instruction_P001'), ref('adr_packing_instruction_IBC02')])]"
@@ -19211,10 +19028,7 @@
             eval="[(6, 0, [ref('adr_label_2_2'), ref('adr_label_6_1')])]"
         />
         <field name="limited_quantity">120</field>
-        <field
-            name="limited_quantity_uom_id"
-            ref="l10n_eu_product_adr.product_uom_mililiter"
-        />
+        <field name="limited_quantity_uom_id" ref="uom.product_uom_milliliter" />
         <field
             name="packing_instruction_ids"
             eval="[(6, 0, [ref('adr_packing_instruction_P207'), ref('adr_packing_instruction_LP200')])]"
@@ -19235,10 +19049,7 @@
             eval="[(6, 0, [ref('adr_label_2_2'), ref('adr_label_6_1'), ref('adr_label_8')])]"
         />
         <field name="limited_quantity">120</field>
-        <field
-            name="limited_quantity_uom_id"
-            ref="l10n_eu_product_adr.product_uom_mililiter"
-        />
+        <field name="limited_quantity_uom_id" ref="uom.product_uom_milliliter" />
         <field
             name="packing_instruction_ids"
             eval="[(6, 0, [ref('adr_packing_instruction_P207'), ref('adr_packing_instruction_LP200')])]"
@@ -19259,10 +19070,7 @@
             eval="[(6, 0, [ref('adr_label_2_1'), ref('adr_label_6_1')])]"
         />
         <field name="limited_quantity">120</field>
-        <field
-            name="limited_quantity_uom_id"
-            ref="l10n_eu_product_adr.product_uom_mililiter"
-        />
+        <field name="limited_quantity_uom_id" ref="uom.product_uom_milliliter" />
         <field
             name="packing_instruction_ids"
             eval="[(6, 0, [ref('adr_packing_instruction_P207'), ref('adr_packing_instruction_LP200')])]"
@@ -19283,10 +19091,7 @@
             eval="[(6, 0, [ref('adr_label_2_1'), ref('adr_label_6_1'), ref('adr_label_8')])]"
         />
         <field name="limited_quantity">120</field>
-        <field
-            name="limited_quantity_uom_id"
-            ref="l10n_eu_product_adr.product_uom_mililiter"
-        />
+        <field name="limited_quantity_uom_id" ref="uom.product_uom_milliliter" />
         <field
             name="packing_instruction_ids"
             eval="[(6, 0, [ref('adr_packing_instruction_P207'), ref('adr_packing_instruction_LP200')])]"
@@ -19307,10 +19112,7 @@
             eval="[(6, 0, [ref('adr_label_2_2'), ref('adr_label_5_1'), ref('adr_label_6_1')])]"
         />
         <field name="limited_quantity">120</field>
-        <field
-            name="limited_quantity_uom_id"
-            ref="l10n_eu_product_adr.product_uom_mililiter"
-        />
+        <field name="limited_quantity_uom_id" ref="uom.product_uom_milliliter" />
         <field
             name="packing_instruction_ids"
             eval="[(6, 0, [ref('adr_packing_instruction_P207'), ref('adr_packing_instruction_LP200')])]"
@@ -19331,10 +19133,7 @@
             eval="[(6, 0, [ref('adr_label_2_2'), ref('adr_label_5_1'), ref('adr_label_6_1'), ref('adr_label_8')])]"
         />
         <field name="limited_quantity">120</field>
-        <field
-            name="limited_quantity_uom_id"
-            ref="l10n_eu_product_adr.product_uom_mililiter"
-        />
+        <field name="limited_quantity_uom_id" ref="uom.product_uom_milliliter" />
         <field
             name="packing_instruction_ids"
             eval="[(6, 0, [ref('adr_packing_instruction_P207'), ref('adr_packing_instruction_LP200')])]"
@@ -19349,10 +19148,7 @@
         <field name="classification_code">3A</field>
         <field name="label_ids" eval="[(6, 0, [ref('adr_label_2_2')])]" />
         <field name="limited_quantity">120</field>
-        <field
-            name="limited_quantity_uom_id"
-            ref="l10n_eu_product_adr.product_uom_mililiter"
-        />
+        <field name="limited_quantity_uom_id" ref="uom.product_uom_milliliter" />
         <field
             name="packing_instruction_ids"
             eval="[(6, 0, [ref('adr_packing_instruction_P203')])]"
@@ -19369,10 +19165,7 @@
         <field name="classification_code">2A</field>
         <field name="label_ids" eval="[(6, 0, [ref('adr_label_2_2')])]" />
         <field name="limited_quantity">120</field>
-        <field
-            name="limited_quantity_uom_id"
-            ref="l10n_eu_product_adr.product_uom_mililiter"
-        />
+        <field name="limited_quantity_uom_id" ref="uom.product_uom_milliliter" />
         <field
             name="packing_instruction_ids"
             eval="[(6, 0, [ref('adr_packing_instruction_P200')])]"
@@ -19429,10 +19222,7 @@
         <field name="classification_code">1A</field>
         <field name="label_ids" eval="[(6, 0, [ref('adr_label_2_2')])]" />
         <field name="limited_quantity">120</field>
-        <field
-            name="limited_quantity_uom_id"
-            ref="l10n_eu_product_adr.product_uom_mililiter"
-        />
+        <field name="limited_quantity_uom_id" ref="uom.product_uom_milliliter" />
         <field
             name="packing_instruction_ids"
             eval="[(6, 0, [ref('adr_packing_instruction_P200')])]"
@@ -19462,10 +19252,7 @@
         <field name="classification_code">2A</field>
         <field name="label_ids" eval="[(6, 0, [ref('adr_label_2_2')])]" />
         <field name="limited_quantity">120</field>
-        <field
-            name="limited_quantity_uom_id"
-            ref="l10n_eu_product_adr.product_uom_mililiter"
-        />
+        <field name="limited_quantity_uom_id" ref="uom.product_uom_milliliter" />
         <field
             name="packing_instruction_ids"
             eval="[(6, 0, [ref('adr_packing_instruction_P200')])]"
@@ -19519,10 +19306,7 @@
         <field name="classification_code">3A</field>
         <field name="label_ids" eval="[(6, 0, [ref('adr_label_2_2')])]" />
         <field name="limited_quantity">120</field>
-        <field
-            name="limited_quantity_uom_id"
-            ref="l10n_eu_product_adr.product_uom_mililiter"
-        />
+        <field name="limited_quantity_uom_id" ref="uom.product_uom_milliliter" />
         <field
             name="packing_instruction_ids"
             eval="[(6, 0, [ref('adr_packing_instruction_P203')])]"
@@ -19591,10 +19375,7 @@
         <field name="classification_code">2A</field>
         <field name="label_ids" eval="[(6, 0, [ref('adr_label_2_2')])]" />
         <field name="limited_quantity">120</field>
-        <field
-            name="limited_quantity_uom_id"
-            ref="l10n_eu_product_adr.product_uom_mililiter"
-        />
+        <field name="limited_quantity_uom_id" ref="uom.product_uom_milliliter" />
         <field
             name="packing_instruction_ids"
             eval="[(6, 0, [ref('adr_packing_instruction_P200')])]"
@@ -19622,10 +19403,7 @@
         <field name="classification_code">3A</field>
         <field name="label_ids" eval="[(6, 0, [ref('adr_label_2_2')])]" />
         <field name="limited_quantity">120</field>
-        <field
-            name="limited_quantity_uom_id"
-            ref="l10n_eu_product_adr.product_uom_mililiter"
-        />
+        <field name="limited_quantity_uom_id" ref="uom.product_uom_milliliter" />
         <field
             name="packing_instruction_ids"
             eval="[(6, 0, [ref('adr_packing_instruction_P203')])]"
@@ -19672,10 +19450,7 @@
         <field name="classification_code">2A</field>
         <field name="label_ids" eval="[(6, 0, [ref('adr_label_2_2')])]" />
         <field name="limited_quantity">120</field>
-        <field
-            name="limited_quantity_uom_id"
-            ref="l10n_eu_product_adr.product_uom_mililiter"
-        />
+        <field name="limited_quantity_uom_id" ref="uom.product_uom_milliliter" />
         <field
             name="packing_instruction_ids"
             eval="[(6, 0, [ref('adr_packing_instruction_P200')])]"
@@ -19690,10 +19465,7 @@
         <field name="classification_code">2A</field>
         <field name="label_ids" eval="[(6, 0, [ref('adr_label_2_2')])]" />
         <field name="limited_quantity">120</field>
-        <field
-            name="limited_quantity_uom_id"
-            ref="l10n_eu_product_adr.product_uom_mililiter"
-        />
+        <field name="limited_quantity_uom_id" ref="uom.product_uom_milliliter" />
         <field
             name="packing_instruction_ids"
             eval="[(6, 0, [ref('adr_packing_instruction_P200')])]"
@@ -19726,10 +19498,7 @@
         <field name="classification_code">2A</field>
         <field name="label_ids" eval="[(6, 0, [ref('adr_label_2_2')])]" />
         <field name="limited_quantity">120</field>
-        <field
-            name="limited_quantity_uom_id"
-            ref="l10n_eu_product_adr.product_uom_mililiter"
-        />
+        <field name="limited_quantity_uom_id" ref="uom.product_uom_milliliter" />
         <field
             name="packing_instruction_ids"
             eval="[(6, 0, [ref('adr_packing_instruction_P200')])]"
@@ -19744,10 +19513,7 @@
         <field name="classification_code">3A</field>
         <field name="label_ids" eval="[(6, 0, [ref('adr_label_2_2')])]" />
         <field name="limited_quantity">120</field>
-        <field
-            name="limited_quantity_uom_id"
-            ref="l10n_eu_product_adr.product_uom_mililiter"
-        />
+        <field name="limited_quantity_uom_id" ref="uom.product_uom_milliliter" />
         <field
             name="packing_instruction_ids"
             eval="[(6, 0, [ref('adr_packing_instruction_P203')])]"
@@ -19775,10 +19541,7 @@
         <field name="classification_code">2A</field>
         <field name="label_ids" eval="[(6, 0, [ref('adr_label_2_2')])]" />
         <field name="limited_quantity">120</field>
-        <field
-            name="limited_quantity_uom_id"
-            ref="l10n_eu_product_adr.product_uom_mililiter"
-        />
+        <field name="limited_quantity_uom_id" ref="uom.product_uom_milliliter" />
         <field
             name="packing_instruction_ids"
             eval="[(6, 0, [ref('adr_packing_instruction_P200')])]"
@@ -19795,10 +19558,7 @@
         <field name="classification_code">2A</field>
         <field name="label_ids" eval="[(6, 0, [ref('adr_label_2_2')])]" />
         <field name="limited_quantity">120</field>
-        <field
-            name="limited_quantity_uom_id"
-            ref="l10n_eu_product_adr.product_uom_mililiter"
-        />
+        <field name="limited_quantity_uom_id" ref="uom.product_uom_milliliter" />
         <field
             name="packing_instruction_ids"
             eval="[(6, 0, [ref('adr_packing_instruction_P200')])]"
@@ -19813,10 +19573,7 @@
         <field name="classification_code">2A</field>
         <field name="label_ids" eval="[(6, 0, [ref('adr_label_2_2')])]" />
         <field name="limited_quantity">120</field>
-        <field
-            name="limited_quantity_uom_id"
-            ref="l10n_eu_product_adr.product_uom_mililiter"
-        />
+        <field name="limited_quantity_uom_id" ref="uom.product_uom_milliliter" />
         <field
             name="packing_instruction_ids"
             eval="[(6, 0, [ref('adr_packing_instruction_P200')])]"
@@ -20629,10 +20386,7 @@
         <field name="classification_code">T1</field>
         <field name="label_ids" eval="[(6, 0, [ref('adr_label_6_1')])]" />
         <field name="limited_quantity">100</field>
-        <field
-            name="limited_quantity_uom_id"
-            ref="l10n_eu_product_adr.product_uom_mililiter"
-        />
+        <field name="limited_quantity_uom_id" ref="uom.product_uom_milliliter" />
         <field
             name="packing_instruction_ids"
             eval="[(6, 0, [ref('adr_packing_instruction_P001'), ref('adr_packing_instruction_IBC02')])]"
@@ -20680,10 +20434,7 @@
             eval="[(6, 0, [ref('adr_label_6_1'), ref('adr_label_8')])]"
         />
         <field name="limited_quantity">100</field>
-        <field
-            name="limited_quantity_uom_id"
-            ref="l10n_eu_product_adr.product_uom_mililiter"
-        />
+        <field name="limited_quantity_uom_id" ref="uom.product_uom_milliliter" />
         <field
             name="packing_instruction_ids"
             eval="[(6, 0, [ref('adr_packing_instruction_P001'), ref('adr_packing_instruction_IBC02')])]"
@@ -20701,10 +20452,7 @@
             eval="[(6, 0, [ref('adr_label_6_1'), ref('adr_label_3')])]"
         />
         <field name="limited_quantity">100</field>
-        <field
-            name="limited_quantity_uom_id"
-            ref="l10n_eu_product_adr.product_uom_mililiter"
-        />
+        <field name="limited_quantity_uom_id" ref="uom.product_uom_milliliter" />
         <field
             name="packing_instruction_ids"
             eval="[(6, 0, [ref('adr_packing_instruction_P001'), ref('adr_packing_instruction_IBC02')])]"
@@ -20732,10 +20480,7 @@
         <field name="classification_code">T4</field>
         <field name="label_ids" eval="[(6, 0, [ref('adr_label_6_1')])]" />
         <field name="limited_quantity">100</field>
-        <field
-            name="limited_quantity_uom_id"
-            ref="l10n_eu_product_adr.product_uom_mililiter"
-        />
+        <field name="limited_quantity_uom_id" ref="uom.product_uom_milliliter" />
         <field
             name="packing_instruction_ids"
             eval="[(6, 0, [ref('adr_packing_instruction_P001'), ref('adr_packing_instruction_IBC02')])]"
@@ -21067,10 +20812,7 @@
         <field name="classification_code">2A</field>
         <field name="label_ids" eval="[(6, 0, [ref('adr_label_2_2')])]" />
         <field name="limited_quantity">120</field>
-        <field
-            name="limited_quantity_uom_id"
-            ref="l10n_eu_product_adr.product_uom_mililiter"
-        />
+        <field name="limited_quantity_uom_id" ref="uom.product_uom_milliliter" />
         <field
             name="packing_instruction_ids"
             eval="[(6, 0, [ref('adr_packing_instruction_P200')])]"
@@ -21141,10 +20883,7 @@
         <field name="classification_code">5T</field>
         <field name="label_ids" eval="[(6, 0, [ref('adr_label_2_3')])]" />
         <field name="limited_quantity">120</field>
-        <field
-            name="limited_quantity_uom_id"
-            ref="l10n_eu_product_adr.product_uom_mililiter"
-        />
+        <field name="limited_quantity_uom_id" ref="uom.product_uom_milliliter" />
         <field
             name="packing_instruction_ids"
             eval="[(6, 0, [ref('adr_packing_instruction_P003')])]"
@@ -21164,10 +20903,7 @@
             eval="[(6, 0, [ref('adr_label_2_3'), ref('adr_label_8')])]"
         />
         <field name="limited_quantity">120</field>
-        <field
-            name="limited_quantity_uom_id"
-            ref="l10n_eu_product_adr.product_uom_mililiter"
-        />
+        <field name="limited_quantity_uom_id" ref="uom.product_uom_milliliter" />
         <field
             name="packing_instruction_ids"
             eval="[(6, 0, [ref('adr_packing_instruction_P003')])]"
@@ -21187,10 +20923,7 @@
             eval="[(6, 0, [ref('adr_label_2_3'), ref('adr_label_2_1')])]"
         />
         <field name="limited_quantity">120</field>
-        <field
-            name="limited_quantity_uom_id"
-            ref="l10n_eu_product_adr.product_uom_mililiter"
-        />
+        <field name="limited_quantity_uom_id" ref="uom.product_uom_milliliter" />
         <field
             name="packing_instruction_ids"
             eval="[(6, 0, [ref('adr_packing_instruction_P003')])]"
@@ -21213,10 +20946,7 @@
             eval="[(6, 0, [ref('adr_label_2_3'), ref('adr_label_2_1'), ref('adr_label_8')])]"
         />
         <field name="limited_quantity">120</field>
-        <field
-            name="limited_quantity_uom_id"
-            ref="l10n_eu_product_adr.product_uom_mililiter"
-        />
+        <field name="limited_quantity_uom_id" ref="uom.product_uom_milliliter" />
         <field
             name="packing_instruction_ids"
             eval="[(6, 0, [ref('adr_packing_instruction_P003')])]"
@@ -21236,10 +20966,7 @@
             eval="[(6, 0, [ref('adr_label_2_3'), ref('adr_label_5_1')])]"
         />
         <field name="limited_quantity">120</field>
-        <field
-            name="limited_quantity_uom_id"
-            ref="l10n_eu_product_adr.product_uom_mililiter"
-        />
+        <field name="limited_quantity_uom_id" ref="uom.product_uom_milliliter" />
         <field
             name="packing_instruction_ids"
             eval="[(6, 0, [ref('adr_packing_instruction_P003')])]"
@@ -21262,10 +20989,7 @@
             eval="[(6, 0, [ref('adr_label_2_3'), ref('adr_label_5_1'), ref('adr_label_8')])]"
         />
         <field name="limited_quantity">120</field>
-        <field
-            name="limited_quantity_uom_id"
-            ref="l10n_eu_product_adr.product_uom_mililiter"
-        />
+        <field name="limited_quantity_uom_id" ref="uom.product_uom_milliliter" />
         <field
             name="packing_instruction_ids"
             eval="[(6, 0, [ref('adr_packing_instruction_P003')])]"
@@ -21280,10 +21004,7 @@
         <field name="classification_code">T1</field>
         <field name="label_ids" eval="[(6, 0, [ref('adr_label_6_1')])]" />
         <field name="limited_quantity">100</field>
-        <field
-            name="limited_quantity_uom_id"
-            ref="l10n_eu_product_adr.product_uom_mililiter"
-        />
+        <field name="limited_quantity_uom_id" ref="uom.product_uom_milliliter" />
         <field
             name="packing_instruction_ids"
             eval="[(6, 0, [ref('adr_packing_instruction_P001'), ref('adr_packing_instruction_IBC02')])]"
@@ -21650,10 +21371,7 @@
         <field name="classification_code">4A</field>
         <field name="label_ids" eval="[(6, 0, [ref('adr_label_2_2')])]" />
         <field name="limited_quantity">120</field>
-        <field
-            name="limited_quantity_uom_id"
-            ref="l10n_eu_product_adr.product_uom_mililiter"
-        />
+        <field name="limited_quantity_uom_id" ref="uom.product_uom_milliliter" />
         <field
             name="packing_instruction_ids"
             eval="[(6, 0, [ref('adr_packing_instruction_P200')])]"
@@ -21683,10 +21401,7 @@
         <field name="classification_code">T1</field>
         <field name="label_ids" eval="[(6, 0, [ref('adr_label_6_1')])]" />
         <field name="limited_quantity">100</field>
-        <field
-            name="limited_quantity_uom_id"
-            ref="l10n_eu_product_adr.product_uom_mililiter"
-        />
+        <field name="limited_quantity_uom_id" ref="uom.product_uom_milliliter" />
         <field
             name="packing_instruction_ids"
             eval="[(6, 0, [ref('adr_packing_instruction_P001'), ref('adr_packing_instruction_IBC02')])]"
@@ -21704,10 +21419,7 @@
             eval="[(6, 0, [ref('adr_label_6_1'), ref('adr_label_8')])]"
         />
         <field name="limited_quantity">100</field>
-        <field
-            name="limited_quantity_uom_id"
-            ref="l10n_eu_product_adr.product_uom_mililiter"
-        />
+        <field name="limited_quantity_uom_id" ref="uom.product_uom_milliliter" />
         <field
             name="packing_instruction_ids"
             eval="[(6, 0, [ref('adr_packing_instruction_P001'), ref('adr_packing_instruction_IBC02')])]"
@@ -21737,10 +21449,7 @@
         <field name="classification_code">T1</field>
         <field name="label_ids" eval="[(6, 0, [ref('adr_label_6_1')])]" />
         <field name="limited_quantity">100</field>
-        <field
-            name="limited_quantity_uom_id"
-            ref="l10n_eu_product_adr.product_uom_mililiter"
-        />
+        <field name="limited_quantity_uom_id" ref="uom.product_uom_milliliter" />
         <field
             name="packing_instruction_ids"
             eval="[(6, 0, [ref('adr_packing_instruction_P001'), ref('adr_packing_instruction_IBC02')])]"
@@ -21780,10 +21489,7 @@
         <field name="classification_code">3A</field>
         <field name="label_ids" eval="[(6, 0, [ref('adr_label_2_2')])]" />
         <field name="limited_quantity">120</field>
-        <field
-            name="limited_quantity_uom_id"
-            ref="l10n_eu_product_adr.product_uom_mililiter"
-        />
+        <field name="limited_quantity_uom_id" ref="uom.product_uom_milliliter" />
         <field
             name="packing_instruction_ids"
             eval="[(6, 0, [ref('adr_packing_instruction_P203')])]"
@@ -21875,10 +21581,7 @@
         <field name="classification_code">2A</field>
         <field name="label_ids" eval="[(6, 0, [ref('adr_label_2_2')])]" />
         <field name="limited_quantity">120</field>
-        <field
-            name="limited_quantity_uom_id"
-            ref="l10n_eu_product_adr.product_uom_mililiter"
-        />
+        <field name="limited_quantity_uom_id" ref="uom.product_uom_milliliter" />
         <field
             name="packing_instruction_ids"
             eval="[(6, 0, [ref('adr_packing_instruction_P200')])]"
@@ -22080,10 +21783,7 @@
         <field name="classification_code">T1</field>
         <field name="label_ids" eval="[(6, 0, [ref('adr_label_6_1')])]" />
         <field name="limited_quantity">100</field>
-        <field
-            name="limited_quantity_uom_id"
-            ref="l10n_eu_product_adr.product_uom_mililiter"
-        />
+        <field name="limited_quantity_uom_id" ref="uom.product_uom_milliliter" />
         <field
             name="packing_instruction_ids"
             eval="[(6, 0, [ref('adr_packing_instruction_P001'), ref('adr_packing_instruction_IBC02')])]"
@@ -22331,10 +22031,7 @@
         <field name="classification_code">T1</field>
         <field name="label_ids" eval="[(6, 0, [ref('adr_label_6_1')])]" />
         <field name="limited_quantity">100</field>
-        <field
-            name="limited_quantity_uom_id"
-            ref="l10n_eu_product_adr.product_uom_mililiter"
-        />
+        <field name="limited_quantity_uom_id" ref="uom.product_uom_milliliter" />
         <field
             name="packing_instruction_ids"
             eval="[(6, 0, [ref('adr_packing_instruction_P001'), ref('adr_packing_instruction_IBC02')])]"
@@ -22452,10 +22149,7 @@
         <field name="classification_code">T1</field>
         <field name="label_ids" eval="[(6, 0, [ref('adr_label_6_1')])]" />
         <field name="limited_quantity">100</field>
-        <field
-            name="limited_quantity_uom_id"
-            ref="l10n_eu_product_adr.product_uom_mililiter"
-        />
+        <field name="limited_quantity_uom_id" ref="uom.product_uom_milliliter" />
         <field
             name="packing_instruction_ids"
             eval="[(6, 0, [ref('adr_packing_instruction_P001'), ref('adr_packing_instruction_IBC02')])]"
@@ -22708,10 +22402,7 @@
         <field name="classification_code">T1</field>
         <field name="label_ids" eval="[(6, 0, [ref('adr_label_6_1')])]" />
         <field name="limited_quantity">100</field>
-        <field
-            name="limited_quantity_uom_id"
-            ref="l10n_eu_product_adr.product_uom_mililiter"
-        />
+        <field name="limited_quantity_uom_id" ref="uom.product_uom_milliliter" />
         <field
             name="packing_instruction_ids"
             eval="[(6, 0, [ref('adr_packing_instruction_P001'), ref('adr_packing_instruction_IBC02')])]"
@@ -22919,10 +22610,7 @@
             eval="[(6, 0, [ref('adr_label_6_1'), ref('adr_label_8')])]"
         />
         <field name="limited_quantity">100</field>
-        <field
-            name="limited_quantity_uom_id"
-            ref="l10n_eu_product_adr.product_uom_mililiter"
-        />
+        <field name="limited_quantity_uom_id" ref="uom.product_uom_milliliter" />
         <field
             name="packing_instruction_ids"
             eval="[(6, 0, [ref('adr_packing_instruction_P001'), ref('adr_packing_instruction_IBC02')])]"
@@ -23125,10 +22813,7 @@
         <field name="classification_code">T1</field>
         <field name="label_ids" eval="[(6, 0, [ref('adr_label_6_1')])]" />
         <field name="limited_quantity">100</field>
-        <field
-            name="limited_quantity_uom_id"
-            ref="l10n_eu_product_adr.product_uom_mililiter"
-        />
+        <field name="limited_quantity_uom_id" ref="uom.product_uom_milliliter" />
         <field
             name="packing_instruction_ids"
             eval="[(6, 0, [ref('adr_packing_instruction_P001'), ref('adr_packing_instruction_IBC02')])]"
@@ -23194,10 +22879,7 @@
             eval="[(6, 0, [ref('adr_label_6_1'), ref('adr_label_3')])]"
         />
         <field name="limited_quantity">100</field>
-        <field
-            name="limited_quantity_uom_id"
-            ref="l10n_eu_product_adr.product_uom_mililiter"
-        />
+        <field name="limited_quantity_uom_id" ref="uom.product_uom_milliliter" />
         <field
             name="packing_instruction_ids"
             eval="[(6, 0, [ref('adr_packing_instruction_P001'), ref('adr_packing_instruction_IBC02')])]"
@@ -23493,10 +23175,7 @@
         <field name="classification_code">T1</field>
         <field name="label_ids" eval="[(6, 0, [ref('adr_label_6_1')])]" />
         <field name="limited_quantity">100</field>
-        <field
-            name="limited_quantity_uom_id"
-            ref="l10n_eu_product_adr.product_uom_mililiter"
-        />
+        <field name="limited_quantity_uom_id" ref="uom.product_uom_milliliter" />
         <field
             name="packing_instruction_ids"
             eval="[(6, 0, [ref('adr_packing_instruction_P001'), ref('adr_packing_instruction_IBC02')])]"
@@ -23511,10 +23190,7 @@
         <field name="classification_code">T1</field>
         <field name="label_ids" eval="[(6, 0, [ref('adr_label_6_1')])]" />
         <field name="limited_quantity">100</field>
-        <field
-            name="limited_quantity_uom_id"
-            ref="l10n_eu_product_adr.product_uom_mililiter"
-        />
+        <field name="limited_quantity_uom_id" ref="uom.product_uom_milliliter" />
         <field
             name="packing_instruction_ids"
             eval="[(6, 0, [ref('adr_packing_instruction_P001'), ref('adr_packing_instruction_IBC02')])]"
@@ -23718,10 +23394,7 @@
         <field name="classification_code">T1</field>
         <field name="label_ids" eval="[(6, 0, [ref('adr_label_6_1')])]" />
         <field name="limited_quantity">100</field>
-        <field
-            name="limited_quantity_uom_id"
-            ref="l10n_eu_product_adr.product_uom_mililiter"
-        />
+        <field name="limited_quantity_uom_id" ref="uom.product_uom_milliliter" />
         <field
             name="packing_instruction_ids"
             eval="[(6, 0, [ref('adr_packing_instruction_P001'), ref('adr_packing_instruction_IBC02')])]"
@@ -25209,10 +24882,7 @@
         <field name="classification_code">2A</field>
         <field name="label_ids" eval="[(6, 0, [ref('adr_label_2_2')])]" />
         <field name="limited_quantity">120</field>
-        <field
-            name="limited_quantity_uom_id"
-            ref="l10n_eu_product_adr.product_uom_mililiter"
-        />
+        <field name="limited_quantity_uom_id" ref="uom.product_uom_milliliter" />
         <field
             name="packing_instruction_ids"
             eval="[(6, 0, [ref('adr_packing_instruction_P200')])]"
@@ -25227,10 +24897,7 @@
         <field name="classification_code">2A</field>
         <field name="label_ids" eval="[(6, 0, [ref('adr_label_2_2')])]" />
         <field name="limited_quantity">120</field>
-        <field
-            name="limited_quantity_uom_id"
-            ref="l10n_eu_product_adr.product_uom_mililiter"
-        />
+        <field name="limited_quantity_uom_id" ref="uom.product_uom_milliliter" />
         <field
             name="packing_instruction_ids"
             eval="[(6, 0, [ref('adr_packing_instruction_P200')])]"
@@ -26151,10 +25818,7 @@
         <field name="classification_code">T1</field>
         <field name="label_ids" eval="[(6, 0, [ref('adr_label_6_1')])]" />
         <field name="limited_quantity">100</field>
-        <field
-            name="limited_quantity_uom_id"
-            ref="l10n_eu_product_adr.product_uom_mililiter"
-        />
+        <field name="limited_quantity_uom_id" ref="uom.product_uom_milliliter" />
         <field
             name="packing_instruction_ids"
             eval="[(6, 0, [ref('adr_packing_instruction_P001'), ref('adr_packing_instruction_IBC02')])]"
@@ -26248,10 +25912,7 @@
         <field name="classification_code">T1</field>
         <field name="label_ids" eval="[(6, 0, [ref('adr_label_6_1')])]" />
         <field name="limited_quantity">100</field>
-        <field
-            name="limited_quantity_uom_id"
-            ref="l10n_eu_product_adr.product_uom_mililiter"
-        />
+        <field name="limited_quantity_uom_id" ref="uom.product_uom_milliliter" />
         <field
             name="packing_instruction_ids"
             eval="[(6, 0, [ref('adr_packing_instruction_P001'), ref('adr_packing_instruction_IBC02')])]"
@@ -26553,10 +26214,7 @@
         <field name="classification_code">T1</field>
         <field name="label_ids" eval="[(6, 0, [ref('adr_label_6_1')])]" />
         <field name="limited_quantity">100</field>
-        <field
-            name="limited_quantity_uom_id"
-            ref="l10n_eu_product_adr.product_uom_mililiter"
-        />
+        <field name="limited_quantity_uom_id" ref="uom.product_uom_milliliter" />
         <field
             name="packing_instruction_ids"
             eval="[(6, 0, [ref('adr_packing_instruction_P001'), ref('adr_packing_instruction_IBC02')])]"
@@ -26776,10 +26434,7 @@
         <field name="classification_code">T1</field>
         <field name="label_ids" eval="[(6, 0, [ref('adr_label_6_1')])]" />
         <field name="limited_quantity">100</field>
-        <field
-            name="limited_quantity_uom_id"
-            ref="l10n_eu_product_adr.product_uom_mililiter"
-        />
+        <field name="limited_quantity_uom_id" ref="uom.product_uom_milliliter" />
         <field
             name="packing_instruction_ids"
             eval="[(6, 0, [ref('adr_packing_instruction_P001'), ref('adr_packing_instruction_IBC02')])]"
@@ -26901,10 +26556,7 @@
         <field name="classification_code">T1</field>
         <field name="label_ids" eval="[(6, 0, [ref('adr_label_6_1')])]" />
         <field name="limited_quantity">100</field>
-        <field
-            name="limited_quantity_uom_id"
-            ref="l10n_eu_product_adr.product_uom_mililiter"
-        />
+        <field name="limited_quantity_uom_id" ref="uom.product_uom_milliliter" />
         <field
             name="packing_instruction_ids"
             eval="[(6, 0, [ref('adr_packing_instruction_P001'), ref('adr_packing_instruction_IBC02')])]"
@@ -27141,10 +26793,7 @@
         <field name="classification_code">T1</field>
         <field name="label_ids" eval="[(6, 0, [ref('adr_label_6_1')])]" />
         <field name="limited_quantity">100</field>
-        <field
-            name="limited_quantity_uom_id"
-            ref="l10n_eu_product_adr.product_uom_mililiter"
-        />
+        <field name="limited_quantity_uom_id" ref="uom.product_uom_milliliter" />
         <field
             name="packing_instruction_ids"
             eval="[(6, 0, [ref('adr_packing_instruction_P001'), ref('adr_packing_instruction_IBC02')])]"
@@ -27177,10 +26826,7 @@
         <field name="classification_code">T1</field>
         <field name="label_ids" eval="[(6, 0, [ref('adr_label_6_1')])]" />
         <field name="limited_quantity">100</field>
-        <field
-            name="limited_quantity_uom_id"
-            ref="l10n_eu_product_adr.product_uom_mililiter"
-        />
+        <field name="limited_quantity_uom_id" ref="uom.product_uom_milliliter" />
         <field
             name="packing_instruction_ids"
             eval="[(6, 0, [ref('adr_packing_instruction_P001'), ref('adr_packing_instruction_IBC02')])]"
@@ -27424,10 +27070,7 @@
             eval="[(6, 0, [ref('adr_label_6_1'), ref('adr_label_3')])]"
         />
         <field name="limited_quantity">100</field>
-        <field
-            name="limited_quantity_uom_id"
-            ref="l10n_eu_product_adr.product_uom_mililiter"
-        />
+        <field name="limited_quantity_uom_id" ref="uom.product_uom_milliliter" />
         <field
             name="packing_instruction_ids"
             eval="[(6, 0, [ref('adr_packing_instruction_P001'), ref('adr_packing_instruction_IBC02')])]"
@@ -27457,10 +27100,7 @@
         <field name="classification_code">3A</field>
         <field name="label_ids" eval="[(6, 0, [ref('adr_label_2_2')])]" />
         <field name="limited_quantity">120</field>
-        <field
-            name="limited_quantity_uom_id"
-            ref="l10n_eu_product_adr.product_uom_mililiter"
-        />
+        <field name="limited_quantity_uom_id" ref="uom.product_uom_milliliter" />
         <field
             name="packing_instruction_ids"
             eval="[(6, 0, [ref('adr_packing_instruction_P203')])]"
@@ -27477,10 +27117,7 @@
         <field name="classification_code">2A</field>
         <field name="label_ids" eval="[(6, 0, [ref('adr_label_2_2')])]" />
         <field name="limited_quantity">120</field>
-        <field
-            name="limited_quantity_uom_id"
-            ref="l10n_eu_product_adr.product_uom_mililiter"
-        />
+        <field name="limited_quantity_uom_id" ref="uom.product_uom_milliliter" />
         <field
             name="packing_instruction_ids"
             eval="[(6, 0, [ref('adr_packing_instruction_P200')])]"
@@ -27510,10 +27147,7 @@
         <field name="classification_code">2A</field>
         <field name="label_ids" eval="[(6, 0, [ref('adr_label_2_2')])]" />
         <field name="limited_quantity">120</field>
-        <field
-            name="limited_quantity_uom_id"
-            ref="l10n_eu_product_adr.product_uom_mililiter"
-        />
+        <field name="limited_quantity_uom_id" ref="uom.product_uom_milliliter" />
         <field
             name="packing_instruction_ids"
             eval="[(6, 0, [ref('adr_packing_instruction_P200')])]"
@@ -27660,10 +27294,7 @@
             eval="[(6, 0, [ref('adr_label_6_1'), ref('adr_label_3')])]"
         />
         <field name="limited_quantity">100</field>
-        <field
-            name="limited_quantity_uom_id"
-            ref="l10n_eu_product_adr.product_uom_mililiter"
-        />
+        <field name="limited_quantity_uom_id" ref="uom.product_uom_milliliter" />
         <field
             name="packing_instruction_ids"
             eval="[(6, 0, [ref('adr_packing_instruction_P001'), ref('adr_packing_instruction_IBC02')])]"
@@ -27963,10 +27594,7 @@
         <field name="classification_code">T1</field>
         <field name="label_ids" eval="[(6, 0, [ref('adr_label_6_1')])]" />
         <field name="limited_quantity">100</field>
-        <field
-            name="limited_quantity_uom_id"
-            ref="l10n_eu_product_adr.product_uom_mililiter"
-        />
+        <field name="limited_quantity_uom_id" ref="uom.product_uom_milliliter" />
         <field
             name="packing_instruction_ids"
             eval="[(6, 0, [ref('adr_packing_instruction_P001'), ref('adr_packing_instruction_IBC02')])]"
@@ -28037,10 +27665,7 @@
         <field name="classification_code">T1</field>
         <field name="label_ids" eval="[(6, 0, [ref('adr_label_6_1')])]" />
         <field name="limited_quantity">100</field>
-        <field
-            name="limited_quantity_uom_id"
-            ref="l10n_eu_product_adr.product_uom_mililiter"
-        />
+        <field name="limited_quantity_uom_id" ref="uom.product_uom_milliliter" />
         <field
             name="packing_instruction_ids"
             eval="[(6, 0, [ref('adr_packing_instruction_P001'), ref('adr_packing_instruction_IBC02')])]"
@@ -28070,10 +27695,7 @@
         <field name="classification_code">T1</field>
         <field name="label_ids" eval="[(6, 0, [ref('adr_label_6_1')])]" />
         <field name="limited_quantity">100</field>
-        <field
-            name="limited_quantity_uom_id"
-            ref="l10n_eu_product_adr.product_uom_mililiter"
-        />
+        <field name="limited_quantity_uom_id" ref="uom.product_uom_milliliter" />
         <field
             name="packing_instruction_ids"
             eval="[(6, 0, [ref('adr_packing_instruction_P001'), ref('adr_packing_instruction_IBC02')])]"
@@ -28103,10 +27725,7 @@
         <field name="classification_code">T1</field>
         <field name="label_ids" eval="[(6, 0, [ref('adr_label_6_1')])]" />
         <field name="limited_quantity">100</field>
-        <field
-            name="limited_quantity_uom_id"
-            ref="l10n_eu_product_adr.product_uom_mililiter"
-        />
+        <field name="limited_quantity_uom_id" ref="uom.product_uom_milliliter" />
         <field
             name="packing_instruction_ids"
             eval="[(6, 0, [ref('adr_packing_instruction_P001'), ref('adr_packing_instruction_IBC02')])]"
@@ -28257,10 +27876,7 @@
         <field name="classification_code">T1</field>
         <field name="label_ids" eval="[(6, 0, [ref('adr_label_6_1')])]" />
         <field name="limited_quantity">100</field>
-        <field
-            name="limited_quantity_uom_id"
-            ref="l10n_eu_product_adr.product_uom_mililiter"
-        />
+        <field name="limited_quantity_uom_id" ref="uom.product_uom_milliliter" />
         <field
             name="packing_instruction_ids"
             eval="[(6, 0, [ref('adr_packing_instruction_P001'), ref('adr_packing_instruction_IBC02')])]"
@@ -28635,10 +28251,7 @@
         <field name="classification_code">T1</field>
         <field name="label_ids" eval="[(6, 0, [ref('adr_label_6_1')])]" />
         <field name="limited_quantity">100</field>
-        <field
-            name="limited_quantity_uom_id"
-            ref="l10n_eu_product_adr.product_uom_mililiter"
-        />
+        <field name="limited_quantity_uom_id" ref="uom.product_uom_milliliter" />
         <field
             name="packing_instruction_ids"
             eval="[(6, 0, [ref('adr_packing_instruction_P001'), ref('adr_packing_instruction_IBC02')])]"
@@ -29222,10 +28835,7 @@
         <field name="classification_code">T1</field>
         <field name="label_ids" eval="[(6, 0, [ref('adr_label_6_1')])]" />
         <field name="limited_quantity">100</field>
-        <field
-            name="limited_quantity_uom_id"
-            ref="l10n_eu_product_adr.product_uom_mililiter"
-        />
+        <field name="limited_quantity_uom_id" ref="uom.product_uom_milliliter" />
         <field
             name="packing_instruction_ids"
             eval="[(6, 0, [ref('adr_packing_instruction_P001'), ref('adr_packing_instruction_IBC02')])]"
@@ -29294,10 +28904,7 @@
             eval="[(6, 0, [ref('adr_label_6_1'), ref('adr_label_3'), ref('adr_label_8')])]"
         />
         <field name="limited_quantity">100</field>
-        <field
-            name="limited_quantity_uom_id"
-            ref="l10n_eu_product_adr.product_uom_mililiter"
-        />
+        <field name="limited_quantity_uom_id" ref="uom.product_uom_milliliter" />
         <field
             name="packing_instruction_ids"
             eval="[(6, 0, [ref('adr_packing_instruction_P001'), ref('adr_packing_instruction_IBC01')])]"
@@ -29315,10 +28922,7 @@
             eval="[(6, 0, [ref('adr_label_6_1'), ref('adr_label_3'), ref('adr_label_8')])]"
         />
         <field name="limited_quantity">100</field>
-        <field
-            name="limited_quantity_uom_id"
-            ref="l10n_eu_product_adr.product_uom_mililiter"
-        />
+        <field name="limited_quantity_uom_id" ref="uom.product_uom_milliliter" />
         <field
             name="packing_instruction_ids"
             eval="[(6, 0, [ref('adr_packing_instruction_P001')])]"
@@ -29336,10 +28940,7 @@
             eval="[(6, 0, [ref('adr_label_6_1'), ref('adr_label_3'), ref('adr_label_8')])]"
         />
         <field name="limited_quantity">100</field>
-        <field
-            name="limited_quantity_uom_id"
-            ref="l10n_eu_product_adr.product_uom_mililiter"
-        />
+        <field name="limited_quantity_uom_id" ref="uom.product_uom_milliliter" />
         <field
             name="packing_instruction_ids"
             eval="[(6, 0, [ref('adr_packing_instruction_P001'), ref('adr_packing_instruction_IBC01')])]"
@@ -29357,10 +28958,7 @@
             eval="[(6, 0, [ref('adr_label_6_1'), ref('adr_label_8')])]"
         />
         <field name="limited_quantity">100</field>
-        <field
-            name="limited_quantity_uom_id"
-            ref="l10n_eu_product_adr.product_uom_mililiter"
-        />
+        <field name="limited_quantity_uom_id" ref="uom.product_uom_milliliter" />
         <field
             name="packing_instruction_ids"
             eval="[(6, 0, [ref('adr_packing_instruction_P001'), ref('adr_packing_instruction_IBC02')])]"
@@ -29378,10 +28976,7 @@
             eval="[(6, 0, [ref('adr_label_6_1'), ref('adr_label_8')])]"
         />
         <field name="limited_quantity">100</field>
-        <field
-            name="limited_quantity_uom_id"
-            ref="l10n_eu_product_adr.product_uom_mililiter"
-        />
+        <field name="limited_quantity_uom_id" ref="uom.product_uom_milliliter" />
         <field
             name="packing_instruction_ids"
             eval="[(6, 0, [ref('adr_packing_instruction_P001'), ref('adr_packing_instruction_IBC02')])]"
@@ -29414,10 +29009,7 @@
             eval="[(6, 0, [ref('adr_label_6_1'), ref('adr_label_8')])]"
         />
         <field name="limited_quantity">100</field>
-        <field
-            name="limited_quantity_uom_id"
-            ref="l10n_eu_product_adr.product_uom_mililiter"
-        />
+        <field name="limited_quantity_uom_id" ref="uom.product_uom_milliliter" />
         <field
             name="packing_instruction_ids"
             eval="[(6, 0, [ref('adr_packing_instruction_P001'), ref('adr_packing_instruction_IBC02')])]"
@@ -29445,10 +29037,7 @@
         <field name="classification_code">T1</field>
         <field name="label_ids" eval="[(6, 0, [ref('adr_label_6_1')])]" />
         <field name="limited_quantity">100</field>
-        <field
-            name="limited_quantity_uom_id"
-            ref="l10n_eu_product_adr.product_uom_mililiter"
-        />
+        <field name="limited_quantity_uom_id" ref="uom.product_uom_milliliter" />
         <field
             name="packing_instruction_ids"
             eval="[(6, 0, [ref('adr_packing_instruction_P001'), ref('adr_packing_instruction_IBC02')])]"
@@ -29508,10 +29097,7 @@
         <field name="classification_code">T1</field>
         <field name="label_ids" eval="[(6, 0, [ref('adr_label_6_1')])]" />
         <field name="limited_quantity">100</field>
-        <field
-            name="limited_quantity_uom_id"
-            ref="l10n_eu_product_adr.product_uom_mililiter"
-        />
+        <field name="limited_quantity_uom_id" ref="uom.product_uom_milliliter" />
         <field
             name="packing_instruction_ids"
             eval="[(6, 0, [ref('adr_packing_instruction_P001'), ref('adr_packing_instruction_IBC02')])]"
@@ -30445,10 +30031,7 @@
         <field name="classification_code">T3</field>
         <field name="label_ids" eval="[(6, 0, [ref('adr_label_6_1')])]" />
         <field name="limited_quantity">100</field>
-        <field
-            name="limited_quantity_uom_id"
-            ref="l10n_eu_product_adr.product_uom_mililiter"
-        />
+        <field name="limited_quantity_uom_id" ref="uom.product_uom_milliliter" />
         <field
             name="packing_instruction_ids"
             eval="[(6, 0, [ref('adr_packing_instruction_P001'), ref('adr_packing_instruction_IBC02')])]"
@@ -30802,10 +30385,7 @@
         <field name="classification_code">T1</field>
         <field name="label_ids" eval="[(6, 0, [ref('adr_label_6_1')])]" />
         <field name="limited_quantity">100</field>
-        <field
-            name="limited_quantity_uom_id"
-            ref="l10n_eu_product_adr.product_uom_mililiter"
-        />
+        <field name="limited_quantity_uom_id" ref="uom.product_uom_milliliter" />
         <field
             name="packing_instruction_ids"
             eval="[(6, 0, [ref('adr_packing_instruction_P001'), ref('adr_packing_instruction_IBC02')])]"
@@ -31097,10 +30677,7 @@
         <field name="classification_code">T1</field>
         <field name="label_ids" eval="[(6, 0, [ref('adr_label_6_1')])]" />
         <field name="limited_quantity">100</field>
-        <field
-            name="limited_quantity_uom_id"
-            ref="l10n_eu_product_adr.product_uom_mililiter"
-        />
+        <field name="limited_quantity_uom_id" ref="uom.product_uom_milliliter" />
         <field
             name="packing_instruction_ids"
             eval="[(6, 0, [ref('adr_packing_instruction_P001'), ref('adr_packing_instruction_IBC02')])]"
@@ -31130,10 +30707,7 @@
         <field name="classification_code">T1</field>
         <field name="label_ids" eval="[(6, 0, [ref('adr_label_6_1')])]" />
         <field name="limited_quantity">100</field>
-        <field
-            name="limited_quantity_uom_id"
-            ref="l10n_eu_product_adr.product_uom_mililiter"
-        />
+        <field name="limited_quantity_uom_id" ref="uom.product_uom_milliliter" />
         <field
             name="packing_instruction_ids"
             eval="[(6, 0, [ref('adr_packing_instruction_P001'), ref('adr_packing_instruction_IBC02')])]"
@@ -31299,10 +30873,7 @@
         <field name="classification_code">T1</field>
         <field name="label_ids" eval="[(6, 0, [ref('adr_label_6_1')])]" />
         <field name="limited_quantity">100</field>
-        <field
-            name="limited_quantity_uom_id"
-            ref="l10n_eu_product_adr.product_uom_mililiter"
-        />
+        <field name="limited_quantity_uom_id" ref="uom.product_uom_milliliter" />
         <field
             name="packing_instruction_ids"
             eval="[(6, 0, [ref('adr_packing_instruction_P001'), ref('adr_packing_instruction_IBC02')])]"
@@ -31725,10 +31296,7 @@
         <field name="classification_code">T1</field>
         <field name="label_ids" eval="[(6, 0, [ref('adr_label_6_1')])]" />
         <field name="limited_quantity">100</field>
-        <field
-            name="limited_quantity_uom_id"
-            ref="l10n_eu_product_adr.product_uom_mililiter"
-        />
+        <field name="limited_quantity_uom_id" ref="uom.product_uom_milliliter" />
         <field
             name="packing_instruction_ids"
             eval="[(6, 0, [ref('adr_packing_instruction_P001'), ref('adr_packing_instruction_IBC02')])]"
@@ -31997,10 +31565,7 @@
         <field name="classification_code">T6</field>
         <field name="label_ids" eval="[(6, 0, [ref('adr_label_6_1')])]" />
         <field name="limited_quantity">100</field>
-        <field
-            name="limited_quantity_uom_id"
-            ref="l10n_eu_product_adr.product_uom_mililiter"
-        />
+        <field name="limited_quantity_uom_id" ref="uom.product_uom_milliliter" />
         <field
             name="packing_instruction_ids"
             eval="[(6, 0, [ref('adr_packing_instruction_P001'), ref('adr_packing_instruction_IBC02')])]"
@@ -32053,10 +31618,7 @@
             eval="[(6, 0, [ref('adr_label_6_1'), ref('adr_label_3')])]"
         />
         <field name="limited_quantity">100</field>
-        <field
-            name="limited_quantity_uom_id"
-            ref="l10n_eu_product_adr.product_uom_mililiter"
-        />
+        <field name="limited_quantity_uom_id" ref="uom.product_uom_milliliter" />
         <field
             name="packing_instruction_ids"
             eval="[(6, 0, [ref('adr_packing_instruction_P001'), ref('adr_packing_instruction_IBC02')])]"
@@ -32579,10 +32141,7 @@
             eval="[(6, 0, [ref('adr_label_6_1'), ref('adr_label_8')])]"
         />
         <field name="limited_quantity">100</field>
-        <field
-            name="limited_quantity_uom_id"
-            ref="l10n_eu_product_adr.product_uom_mililiter"
-        />
+        <field name="limited_quantity_uom_id" ref="uom.product_uom_milliliter" />
         <field
             name="packing_instruction_ids"
             eval="[(6, 0, [ref('adr_packing_instruction_P001'), ref('adr_packing_instruction_IBC02')])]"
@@ -32650,10 +32209,7 @@
             eval="[(6, 0, [ref('adr_label_6_1'), ref('adr_label_3')])]"
         />
         <field name="limited_quantity">100</field>
-        <field
-            name="limited_quantity_uom_id"
-            ref="l10n_eu_product_adr.product_uom_mililiter"
-        />
+        <field name="limited_quantity_uom_id" ref="uom.product_uom_milliliter" />
         <field
             name="packing_instruction_ids"
             eval="[(6, 0, [ref('adr_packing_instruction_P001'), ref('adr_packing_instruction_IBC02')])]"
@@ -32762,10 +32318,7 @@
         <field name="classification_code">T1</field>
         <field name="label_ids" eval="[(6, 0, [ref('adr_label_6_1')])]" />
         <field name="limited_quantity">100</field>
-        <field
-            name="limited_quantity_uom_id"
-            ref="l10n_eu_product_adr.product_uom_mililiter"
-        />
+        <field name="limited_quantity_uom_id" ref="uom.product_uom_milliliter" />
         <field
             name="packing_instruction_ids"
             eval="[(6, 0, [ref('adr_packing_instruction_P001'), ref('adr_packing_instruction_IBC02')])]"
@@ -32901,10 +32454,7 @@
         <field name="classification_code">T1</field>
         <field name="label_ids" eval="[(6, 0, [ref('adr_label_6_1')])]" />
         <field name="limited_quantity">100</field>
-        <field
-            name="limited_quantity_uom_id"
-            ref="l10n_eu_product_adr.product_uom_mililiter"
-        />
+        <field name="limited_quantity_uom_id" ref="uom.product_uom_milliliter" />
         <field
             name="packing_instruction_ids"
             eval="[(6, 0, [ref('adr_packing_instruction_P001'), ref('adr_packing_instruction_IBC02')])]"
@@ -32984,10 +32534,7 @@
         <field name="classification_code">T1</field>
         <field name="label_ids" eval="[(6, 0, [ref('adr_label_6_1')])]" />
         <field name="limited_quantity">100</field>
-        <field
-            name="limited_quantity_uom_id"
-            ref="l10n_eu_product_adr.product_uom_mililiter"
-        />
+        <field name="limited_quantity_uom_id" ref="uom.product_uom_milliliter" />
         <field
             name="packing_instruction_ids"
             eval="[(6, 0, [ref('adr_packing_instruction_P001'), ref('adr_packing_instruction_IBC02')])]"
@@ -33241,10 +32788,7 @@
             eval="[(6, 0, [ref('adr_label_6_1'), ref('adr_label_3')])]"
         />
         <field name="limited_quantity">100</field>
-        <field
-            name="limited_quantity_uom_id"
-            ref="l10n_eu_product_adr.product_uom_mililiter"
-        />
+        <field name="limited_quantity_uom_id" ref="uom.product_uom_milliliter" />
         <field
             name="packing_instruction_ids"
             eval="[(6, 0, [ref('adr_packing_instruction_P001'), ref('adr_packing_instruction_IBC02')])]"
@@ -33292,10 +32836,7 @@
         <field name="classification_code">T6</field>
         <field name="label_ids" eval="[(6, 0, [ref('adr_label_6_1')])]" />
         <field name="limited_quantity">100</field>
-        <field
-            name="limited_quantity_uom_id"
-            ref="l10n_eu_product_adr.product_uom_mililiter"
-        />
+        <field name="limited_quantity_uom_id" ref="uom.product_uom_milliliter" />
         <field
             name="packing_instruction_ids"
             eval="[(6, 0, [ref('adr_packing_instruction_P001'), ref('adr_packing_instruction_IBC02')])]"
@@ -33348,10 +32889,7 @@
             eval="[(6, 0, [ref('adr_label_6_1'), ref('adr_label_3')])]"
         />
         <field name="limited_quantity">100</field>
-        <field
-            name="limited_quantity_uom_id"
-            ref="l10n_eu_product_adr.product_uom_mililiter"
-        />
+        <field name="limited_quantity_uom_id" ref="uom.product_uom_milliliter" />
         <field
             name="packing_instruction_ids"
             eval="[(6, 0, [ref('adr_packing_instruction_P001'), ref('adr_packing_instruction_IBC02')])]"
@@ -33399,10 +32937,7 @@
         <field name="classification_code">T6</field>
         <field name="label_ids" eval="[(6, 0, [ref('adr_label_6_1')])]" />
         <field name="limited_quantity">100</field>
-        <field
-            name="limited_quantity_uom_id"
-            ref="l10n_eu_product_adr.product_uom_mililiter"
-        />
+        <field name="limited_quantity_uom_id" ref="uom.product_uom_milliliter" />
         <field
             name="packing_instruction_ids"
             eval="[(6, 0, [ref('adr_packing_instruction_P001'), ref('adr_packing_instruction_IBC02')])]"
@@ -33455,10 +32990,7 @@
             eval="[(6, 0, [ref('adr_label_6_1'), ref('adr_label_3')])]"
         />
         <field name="limited_quantity">100</field>
-        <field
-            name="limited_quantity_uom_id"
-            ref="l10n_eu_product_adr.product_uom_mililiter"
-        />
+        <field name="limited_quantity_uom_id" ref="uom.product_uom_milliliter" />
         <field
             name="packing_instruction_ids"
             eval="[(6, 0, [ref('adr_packing_instruction_P001'), ref('adr_packing_instruction_IBC02')])]"
@@ -33506,10 +33038,7 @@
         <field name="classification_code">T6</field>
         <field name="label_ids" eval="[(6, 0, [ref('adr_label_6_1')])]" />
         <field name="limited_quantity">100</field>
-        <field
-            name="limited_quantity_uom_id"
-            ref="l10n_eu_product_adr.product_uom_mililiter"
-        />
+        <field name="limited_quantity_uom_id" ref="uom.product_uom_milliliter" />
         <field
             name="packing_instruction_ids"
             eval="[(6, 0, [ref('adr_packing_instruction_P001'), ref('adr_packing_instruction_IBC02')])]"
@@ -33562,10 +33091,7 @@
             eval="[(6, 0, [ref('adr_label_6_1'), ref('adr_label_3')])]"
         />
         <field name="limited_quantity">100</field>
-        <field
-            name="limited_quantity_uom_id"
-            ref="l10n_eu_product_adr.product_uom_mililiter"
-        />
+        <field name="limited_quantity_uom_id" ref="uom.product_uom_milliliter" />
         <field
             name="packing_instruction_ids"
             eval="[(6, 0, [ref('adr_packing_instruction_P001'), ref('adr_packing_instruction_IBC02')])]"
@@ -33613,10 +33139,7 @@
         <field name="classification_code">T6</field>
         <field name="label_ids" eval="[(6, 0, [ref('adr_label_6_1')])]" />
         <field name="limited_quantity">100</field>
-        <field
-            name="limited_quantity_uom_id"
-            ref="l10n_eu_product_adr.product_uom_mililiter"
-        />
+        <field name="limited_quantity_uom_id" ref="uom.product_uom_milliliter" />
         <field
             name="packing_instruction_ids"
             eval="[(6, 0, [ref('adr_packing_instruction_P001'), ref('adr_packing_instruction_IBC02')])]"
@@ -33669,10 +33192,7 @@
             eval="[(6, 0, [ref('adr_label_6_1'), ref('adr_label_3')])]"
         />
         <field name="limited_quantity">100</field>
-        <field
-            name="limited_quantity_uom_id"
-            ref="l10n_eu_product_adr.product_uom_mililiter"
-        />
+        <field name="limited_quantity_uom_id" ref="uom.product_uom_milliliter" />
         <field
             name="packing_instruction_ids"
             eval="[(6, 0, [ref('adr_packing_instruction_P001'), ref('adr_packing_instruction_IBC02')])]"
@@ -33720,10 +33240,7 @@
         <field name="classification_code">T6</field>
         <field name="label_ids" eval="[(6, 0, [ref('adr_label_6_1')])]" />
         <field name="limited_quantity">100</field>
-        <field
-            name="limited_quantity_uom_id"
-            ref="l10n_eu_product_adr.product_uom_mililiter"
-        />
+        <field name="limited_quantity_uom_id" ref="uom.product_uom_milliliter" />
         <field
             name="packing_instruction_ids"
             eval="[(6, 0, [ref('adr_packing_instruction_P001'), ref('adr_packing_instruction_IBC02')])]"
@@ -33776,10 +33293,7 @@
             eval="[(6, 0, [ref('adr_label_6_1'), ref('adr_label_3')])]"
         />
         <field name="limited_quantity">100</field>
-        <field
-            name="limited_quantity_uom_id"
-            ref="l10n_eu_product_adr.product_uom_mililiter"
-        />
+        <field name="limited_quantity_uom_id" ref="uom.product_uom_milliliter" />
         <field
             name="packing_instruction_ids"
             eval="[(6, 0, [ref('adr_packing_instruction_P001'), ref('adr_packing_instruction_IBC02')])]"
@@ -33827,10 +33341,7 @@
         <field name="classification_code">T6</field>
         <field name="label_ids" eval="[(6, 0, [ref('adr_label_6_1')])]" />
         <field name="limited_quantity">100</field>
-        <field
-            name="limited_quantity_uom_id"
-            ref="l10n_eu_product_adr.product_uom_mililiter"
-        />
+        <field name="limited_quantity_uom_id" ref="uom.product_uom_milliliter" />
         <field
             name="packing_instruction_ids"
             eval="[(6, 0, [ref('adr_packing_instruction_P001'), ref('adr_packing_instruction_IBC02')])]"
@@ -33883,10 +33394,7 @@
             eval="[(6, 0, [ref('adr_label_6_1'), ref('adr_label_3')])]"
         />
         <field name="limited_quantity">100</field>
-        <field
-            name="limited_quantity_uom_id"
-            ref="l10n_eu_product_adr.product_uom_mililiter"
-        />
+        <field name="limited_quantity_uom_id" ref="uom.product_uom_milliliter" />
         <field
             name="packing_instruction_ids"
             eval="[(6, 0, [ref('adr_packing_instruction_P001'), ref('adr_packing_instruction_IBC02')])]"
@@ -33934,10 +33442,7 @@
         <field name="classification_code">T6</field>
         <field name="label_ids" eval="[(6, 0, [ref('adr_label_6_1')])]" />
         <field name="limited_quantity">100</field>
-        <field
-            name="limited_quantity_uom_id"
-            ref="l10n_eu_product_adr.product_uom_mililiter"
-        />
+        <field name="limited_quantity_uom_id" ref="uom.product_uom_milliliter" />
         <field
             name="packing_instruction_ids"
             eval="[(6, 0, [ref('adr_packing_instruction_P001'), ref('adr_packing_instruction_IBC02')])]"
@@ -33990,10 +33495,7 @@
             eval="[(6, 0, [ref('adr_label_6_1'), ref('adr_label_3')])]"
         />
         <field name="limited_quantity">100</field>
-        <field
-            name="limited_quantity_uom_id"
-            ref="l10n_eu_product_adr.product_uom_mililiter"
-        />
+        <field name="limited_quantity_uom_id" ref="uom.product_uom_milliliter" />
         <field
             name="packing_instruction_ids"
             eval="[(6, 0, [ref('adr_packing_instruction_P001'), ref('adr_packing_instruction_IBC02')])]"
@@ -34041,10 +33543,7 @@
         <field name="classification_code">T6</field>
         <field name="label_ids" eval="[(6, 0, [ref('adr_label_6_1')])]" />
         <field name="limited_quantity">100</field>
-        <field
-            name="limited_quantity_uom_id"
-            ref="l10n_eu_product_adr.product_uom_mililiter"
-        />
+        <field name="limited_quantity_uom_id" ref="uom.product_uom_milliliter" />
         <field
             name="packing_instruction_ids"
             eval="[(6, 0, [ref('adr_packing_instruction_P001'), ref('adr_packing_instruction_IBC02')])]"
@@ -34097,10 +33596,7 @@
             eval="[(6, 0, [ref('adr_label_6_1'), ref('adr_label_3')])]"
         />
         <field name="limited_quantity">100</field>
-        <field
-            name="limited_quantity_uom_id"
-            ref="l10n_eu_product_adr.product_uom_mililiter"
-        />
+        <field name="limited_quantity_uom_id" ref="uom.product_uom_milliliter" />
         <field
             name="packing_instruction_ids"
             eval="[(6, 0, [ref('adr_packing_instruction_P001'), ref('adr_packing_instruction_IBC02')])]"
@@ -34148,10 +33644,7 @@
         <field name="classification_code">T6</field>
         <field name="label_ids" eval="[(6, 0, [ref('adr_label_6_1')])]" />
         <field name="limited_quantity">100</field>
-        <field
-            name="limited_quantity_uom_id"
-            ref="l10n_eu_product_adr.product_uom_mililiter"
-        />
+        <field name="limited_quantity_uom_id" ref="uom.product_uom_milliliter" />
         <field
             name="packing_instruction_ids"
             eval="[(6, 0, [ref('adr_packing_instruction_P001'), ref('adr_packing_instruction_IBC02')])]"
@@ -34204,10 +33697,7 @@
             eval="[(6, 0, [ref('adr_label_6_1'), ref('adr_label_3')])]"
         />
         <field name="limited_quantity">100</field>
-        <field
-            name="limited_quantity_uom_id"
-            ref="l10n_eu_product_adr.product_uom_mililiter"
-        />
+        <field name="limited_quantity_uom_id" ref="uom.product_uom_milliliter" />
         <field
             name="packing_instruction_ids"
             eval="[(6, 0, [ref('adr_packing_instruction_P001'), ref('adr_packing_instruction_IBC02')])]"
@@ -34255,10 +33745,7 @@
         <field name="classification_code">T6</field>
         <field name="label_ids" eval="[(6, 0, [ref('adr_label_6_1')])]" />
         <field name="limited_quantity">100</field>
-        <field
-            name="limited_quantity_uom_id"
-            ref="l10n_eu_product_adr.product_uom_mililiter"
-        />
+        <field name="limited_quantity_uom_id" ref="uom.product_uom_milliliter" />
         <field
             name="packing_instruction_ids"
             eval="[(6, 0, [ref('adr_packing_instruction_P001'), ref('adr_packing_instruction_IBC02')])]"
@@ -34311,10 +33798,7 @@
             eval="[(6, 0, [ref('adr_label_6_1'), ref('adr_label_3')])]"
         />
         <field name="limited_quantity">100</field>
-        <field
-            name="limited_quantity_uom_id"
-            ref="l10n_eu_product_adr.product_uom_mililiter"
-        />
+        <field name="limited_quantity_uom_id" ref="uom.product_uom_milliliter" />
         <field
             name="packing_instruction_ids"
             eval="[(6, 0, [ref('adr_packing_instruction_P001'), ref('adr_packing_instruction_IBC02')])]"
@@ -34362,10 +33846,7 @@
         <field name="classification_code">T6</field>
         <field name="label_ids" eval="[(6, 0, [ref('adr_label_6_1')])]" />
         <field name="limited_quantity">100</field>
-        <field
-            name="limited_quantity_uom_id"
-            ref="l10n_eu_product_adr.product_uom_mililiter"
-        />
+        <field name="limited_quantity_uom_id" ref="uom.product_uom_milliliter" />
         <field
             name="packing_instruction_ids"
             eval="[(6, 0, [ref('adr_packing_instruction_P001'), ref('adr_packing_instruction_IBC02')])]"
@@ -34525,10 +34006,7 @@
             eval="[(6, 0, [ref('adr_label_6_1'), ref('adr_label_3')])]"
         />
         <field name="limited_quantity">100</field>
-        <field
-            name="limited_quantity_uom_id"
-            ref="l10n_eu_product_adr.product_uom_mililiter"
-        />
+        <field name="limited_quantity_uom_id" ref="uom.product_uom_milliliter" />
         <field
             name="packing_instruction_ids"
             eval="[(6, 0, [ref('adr_packing_instruction_P001'), ref('adr_packing_instruction_IBC02')])]"
@@ -34576,10 +34054,7 @@
         <field name="classification_code">T6</field>
         <field name="label_ids" eval="[(6, 0, [ref('adr_label_6_1')])]" />
         <field name="limited_quantity">100</field>
-        <field
-            name="limited_quantity_uom_id"
-            ref="l10n_eu_product_adr.product_uom_mililiter"
-        />
+        <field name="limited_quantity_uom_id" ref="uom.product_uom_milliliter" />
         <field
             name="packing_instruction_ids"
             eval="[(6, 0, [ref('adr_packing_instruction_P001'), ref('adr_packing_instruction_IBC02')])]"
@@ -34828,10 +34303,7 @@
         <field name="classification_code">2A</field>
         <field name="label_ids" eval="[(6, 0, [ref('adr_label_2_2')])]" />
         <field name="limited_quantity">120</field>
-        <field
-            name="limited_quantity_uom_id"
-            ref="l10n_eu_product_adr.product_uom_mililiter"
-        />
+        <field name="limited_quantity_uom_id" ref="uom.product_uom_milliliter" />
         <field
             name="packing_instruction_ids"
             eval="[(6, 0, [ref('adr_packing_instruction_P200')])]"
@@ -34851,10 +34323,7 @@
             eval="[(6, 0, [ref('adr_label_6_1'), ref('adr_label_3')])]"
         />
         <field name="limited_quantity">100</field>
-        <field
-            name="limited_quantity_uom_id"
-            ref="l10n_eu_product_adr.product_uom_mililiter"
-        />
+        <field name="limited_quantity_uom_id" ref="uom.product_uom_milliliter" />
         <field
             name="packing_instruction_ids"
             eval="[(6, 0, [ref('adr_packing_instruction_P001'), ref('adr_packing_instruction_IBC02')])]"
@@ -34887,10 +34356,7 @@
             eval="[(6, 0, [ref('adr_label_6_1'), ref('adr_label_3'), ref('adr_label_8')])]"
         />
         <field name="limited_quantity">100</field>
-        <field
-            name="limited_quantity_uom_id"
-            ref="l10n_eu_product_adr.product_uom_mililiter"
-        />
+        <field name="limited_quantity_uom_id" ref="uom.product_uom_milliliter" />
         <field
             name="packing_instruction_ids"
             eval="[(6, 0, [ref('adr_packing_instruction_P001'), ref('adr_packing_instruction_IBC01')])]"
@@ -34956,10 +34422,7 @@
             eval="[(6, 0, [ref('adr_label_6_1'), ref('adr_label_3')])]"
         />
         <field name="limited_quantity">100</field>
-        <field
-            name="limited_quantity_uom_id"
-            ref="l10n_eu_product_adr.product_uom_mililiter"
-        />
+        <field name="limited_quantity_uom_id" ref="uom.product_uom_milliliter" />
         <field
             name="packing_instruction_ids"
             eval="[(6, 0, [ref('adr_packing_instruction_P001'), ref('adr_packing_instruction_IBC02')])]"
@@ -35544,10 +35007,7 @@
             eval="[(6, 0, [ref('adr_label_5_2'), ref('adr_label_1')])]"
         />
         <field name="limited_quantity">25</field>
-        <field
-            name="limited_quantity_uom_id"
-            ref="l10n_eu_product_adr.product_uom_mililiter"
-        />
+        <field name="limited_quantity_uom_id" ref="uom.product_uom_milliliter" />
         <field
             name="packing_instruction_ids"
             eval="[(6, 0, [ref('adr_packing_instruction_P520')])]"
@@ -35580,10 +35040,7 @@
         <field name="classification_code">P1</field>
         <field name="label_ids" eval="[(6, 0, [ref('adr_label_5_2')])]" />
         <field name="limited_quantity">25</field>
-        <field
-            name="limited_quantity_uom_id"
-            ref="l10n_eu_product_adr.product_uom_mililiter"
-        />
+        <field name="limited_quantity_uom_id" ref="uom.product_uom_milliliter" />
         <field
             name="packing_instruction_ids"
             eval="[(6, 0, [ref('adr_packing_instruction_P520')])]"
@@ -35613,10 +35070,7 @@
         <field name="classification_code">P1</field>
         <field name="label_ids" eval="[(6, 0, [ref('adr_label_5_2')])]" />
         <field name="limited_quantity">125</field>
-        <field
-            name="limited_quantity_uom_id"
-            ref="l10n_eu_product_adr.product_uom_mililiter"
-        />
+        <field name="limited_quantity_uom_id" ref="uom.product_uom_milliliter" />
         <field
             name="packing_instruction_ids"
             eval="[(6, 0, [ref('adr_packing_instruction_P520')])]"
@@ -35646,10 +35100,7 @@
         <field name="classification_code">P1</field>
         <field name="label_ids" eval="[(6, 0, [ref('adr_label_5_2')])]" />
         <field name="limited_quantity">125</field>
-        <field
-            name="limited_quantity_uom_id"
-            ref="l10n_eu_product_adr.product_uom_mililiter"
-        />
+        <field name="limited_quantity_uom_id" ref="uom.product_uom_milliliter" />
         <field
             name="packing_instruction_ids"
             eval="[(6, 0, [ref('adr_packing_instruction_P520')])]"
@@ -35679,10 +35130,7 @@
         <field name="classification_code">P1</field>
         <field name="label_ids" eval="[(6, 0, [ref('adr_label_5_2')])]" />
         <field name="limited_quantity">125</field>
-        <field
-            name="limited_quantity_uom_id"
-            ref="l10n_eu_product_adr.product_uom_mililiter"
-        />
+        <field name="limited_quantity_uom_id" ref="uom.product_uom_milliliter" />
         <field
             name="packing_instruction_ids"
             eval="[(6, 0, [ref('adr_packing_instruction_P520'), ref('adr_packing_instruction_IBC520')])]"
@@ -35895,10 +35343,7 @@
             eval="[(6, 0, [ref('adr_label_6_1'), ref('adr_label_5_1')])]"
         />
         <field name="limited_quantity">100</field>
-        <field
-            name="limited_quantity_uom_id"
-            ref="l10n_eu_product_adr.product_uom_mililiter"
-        />
+        <field name="limited_quantity_uom_id" ref="uom.product_uom_milliliter" />
         <field
             name="packing_instruction_ids"
             eval="[(6, 0, [ref('adr_packing_instruction_P001'), ref('adr_packing_instruction_IBC02')])]"
@@ -35932,10 +35377,7 @@
             eval="[(6, 0, [ref('adr_label_6_1'), ref('adr_label_4_3')])]"
         />
         <field name="limited_quantity">100</field>
-        <field
-            name="limited_quantity_uom_id"
-            ref="l10n_eu_product_adr.product_uom_mililiter"
-        />
+        <field name="limited_quantity_uom_id" ref="uom.product_uom_milliliter" />
         <field
             name="packing_instruction_ids"
             eval="[(6, 0, [ref('adr_packing_instruction_P001'), ref('adr_packing_instruction_IBC02')])]"
@@ -36109,10 +35551,7 @@
             eval="[(6, 0, [ref('adr_label_4_3'), ref('adr_label_8')])]"
         />
         <field name="limited_quantity">500</field>
-        <field
-            name="limited_quantity_uom_id"
-            ref="l10n_eu_product_adr.product_uom_mililiter"
-        />
+        <field name="limited_quantity_uom_id" ref="uom.product_uom_milliliter" />
         <field
             name="packing_instruction_ids"
             eval="[(6, 0, [ref('adr_packing_instruction_P402'), ref('adr_packing_instruction_IBC01')])]"
@@ -36164,10 +35603,7 @@
             eval="[(6, 0, [ref('adr_label_4_3'), ref('adr_label_6_1')])]"
         />
         <field name="limited_quantity">500</field>
-        <field
-            name="limited_quantity_uom_id"
-            ref="l10n_eu_product_adr.product_uom_mililiter"
-        />
+        <field name="limited_quantity_uom_id" ref="uom.product_uom_milliliter" />
         <field
             name="packing_instruction_ids"
             eval="[(6, 0, [ref('adr_packing_instruction_P402'), ref('adr_packing_instruction_IBC01')])]"
@@ -36414,10 +35850,7 @@
         <field name="classification_code">3A</field>
         <field name="label_ids" eval="[(6, 0, [ref('adr_label_2_2')])]" />
         <field name="limited_quantity">120</field>
-        <field
-            name="limited_quantity_uom_id"
-            ref="l10n_eu_product_adr.product_uom_mililiter"
-        />
+        <field name="limited_quantity_uom_id" ref="uom.product_uom_milliliter" />
         <field
             name="packing_instruction_ids"
             eval="[(6, 0, [ref('adr_packing_instruction_P203')])]"
@@ -36517,10 +35950,7 @@
         <field name="classification_code">T1</field>
         <field name="label_ids" eval="[(6, 0, [ref('adr_label_6_1')])]" />
         <field name="limited_quantity">100</field>
-        <field
-            name="limited_quantity_uom_id"
-            ref="l10n_eu_product_adr.product_uom_mililiter"
-        />
+        <field name="limited_quantity_uom_id" ref="uom.product_uom_milliliter" />
         <field
             name="packing_instruction_ids"
             eval="[(6, 0, [ref('adr_packing_instruction_P001'), ref('adr_packing_instruction_IBC02')])]"
@@ -36580,10 +36010,7 @@
         <field name="classification_code">T1</field>
         <field name="label_ids" eval="[(6, 0, [ref('adr_label_6_1')])]" />
         <field name="limited_quantity">100</field>
-        <field
-            name="limited_quantity_uom_id"
-            ref="l10n_eu_product_adr.product_uom_mililiter"
-        />
+        <field name="limited_quantity_uom_id" ref="uom.product_uom_milliliter" />
         <field
             name="packing_instruction_ids"
             eval="[(6, 0, [ref('adr_packing_instruction_P001'), ref('adr_packing_instruction_IBC02')])]"
@@ -36679,10 +36106,7 @@
         <field name="classification_code">T1</field>
         <field name="label_ids" eval="[(6, 0, [ref('adr_label_6_1')])]" />
         <field name="limited_quantity">100</field>
-        <field
-            name="limited_quantity_uom_id"
-            ref="l10n_eu_product_adr.product_uom_mililiter"
-        />
+        <field name="limited_quantity_uom_id" ref="uom.product_uom_milliliter" />
         <field
             name="packing_instruction_ids"
             eval="[(6, 0, [ref('adr_packing_instruction_P001'), ref('adr_packing_instruction_IBC02')])]"
@@ -36868,10 +36292,7 @@
         <field name="classification_code">W1</field>
         <field name="label_ids" eval="[(6, 0, [ref('adr_label_4_3')])]" />
         <field name="limited_quantity">500</field>
-        <field
-            name="limited_quantity_uom_id"
-            ref="l10n_eu_product_adr.product_uom_mililiter"
-        />
+        <field name="limited_quantity_uom_id" ref="uom.product_uom_milliliter" />
         <field
             name="packing_instruction_ids"
             eval="[(6, 0, [ref('adr_packing_instruction_P402'), ref('adr_packing_instruction_IBC01')])]"
@@ -37043,10 +36464,7 @@
         <field name="classification_code">3A</field>
         <field name="label_ids" eval="[(6, 0, [ref('adr_label_2_2')])]" />
         <field name="limited_quantity">120</field>
-        <field
-            name="limited_quantity_uom_id"
-            ref="l10n_eu_product_adr.product_uom_mililiter"
-        />
+        <field name="limited_quantity_uom_id" ref="uom.product_uom_milliliter" />
         <field
             name="packing_instruction_ids"
             eval="[(6, 0, [ref('adr_packing_instruction_P203')])]"
@@ -37061,10 +36479,7 @@
         <field name="classification_code">2A</field>
         <field name="label_ids" eval="[(6, 0, [ref('adr_label_2_2')])]" />
         <field name="limited_quantity">120</field>
-        <field
-            name="limited_quantity_uom_id"
-            ref="l10n_eu_product_adr.product_uom_mililiter"
-        />
+        <field name="limited_quantity_uom_id" ref="uom.product_uom_milliliter" />
         <field
             name="packing_instruction_ids"
             eval="[(6, 0, [ref('adr_packing_instruction_P200')])]"
@@ -37121,10 +36536,7 @@
         <field name="classification_code">2A</field>
         <field name="label_ids" eval="[(6, 0, [ref('adr_label_2_2')])]" />
         <field name="limited_quantity">120</field>
-        <field
-            name="limited_quantity_uom_id"
-            ref="l10n_eu_product_adr.product_uom_mililiter"
-        />
+        <field name="limited_quantity_uom_id" ref="uom.product_uom_milliliter" />
         <field
             name="packing_instruction_ids"
             eval="[(6, 0, [ref('adr_packing_instruction_P200')])]"
@@ -37141,10 +36553,7 @@
         <field name="classification_code">6A</field>
         <field name="label_ids" eval="[(6, 0, [ref('adr_label_2_2')])]" />
         <field name="limited_quantity">120</field>
-        <field
-            name="limited_quantity_uom_id"
-            ref="l10n_eu_product_adr.product_uom_mililiter"
-        />
+        <field name="limited_quantity_uom_id" ref="uom.product_uom_milliliter" />
         <field
             name="packing_instruction_ids"
             eval="[(6, 0, [ref('adr_packing_instruction_P003')])]"
@@ -37294,10 +36703,7 @@
         <field name="classification_code">T1</field>
         <field name="label_ids" eval="[(6, 0, [ref('adr_label_6_1')])]" />
         <field name="limited_quantity">100</field>
-        <field
-            name="limited_quantity_uom_id"
-            ref="l10n_eu_product_adr.product_uom_mililiter"
-        />
+        <field name="limited_quantity_uom_id" ref="uom.product_uom_milliliter" />
         <field
             name="packing_instruction_ids"
             eval="[(6, 0, [ref('adr_packing_instruction_P001'), ref('adr_packing_instruction_IBC02')])]"
@@ -38239,10 +37645,7 @@
         <field name="classification_code">2A</field>
         <field name="label_ids" eval="[(6, 0, [ref('adr_label_2_2')])]" />
         <field name="limited_quantity">120</field>
-        <field
-            name="limited_quantity_uom_id"
-            ref="l10n_eu_product_adr.product_uom_mililiter"
-        />
+        <field name="limited_quantity_uom_id" ref="uom.product_uom_milliliter" />
         <field
             name="packing_instruction_ids"
             eval="[(6, 0, [ref('adr_packing_instruction_P200')])]"
@@ -38260,10 +37663,7 @@
             eval="[(6, 0, [ref('adr_label_4_1'), ref('adr_label_1')])]"
         />
         <field name="limited_quantity">25</field>
-        <field
-            name="limited_quantity_uom_id"
-            ref="l10n_eu_product_adr.product_uom_mililiter"
-        />
+        <field name="limited_quantity_uom_id" ref="uom.product_uom_milliliter" />
         <field
             name="packing_instruction_ids"
             eval="[(6, 0, [ref('adr_packing_instruction_P520')])]"
@@ -38296,10 +37696,7 @@
         <field name="classification_code">SR1</field>
         <field name="label_ids" eval="[(6, 0, [ref('adr_label_4_1')])]" />
         <field name="limited_quantity">25</field>
-        <field
-            name="limited_quantity_uom_id"
-            ref="l10n_eu_product_adr.product_uom_mililiter"
-        />
+        <field name="limited_quantity_uom_id" ref="uom.product_uom_milliliter" />
         <field
             name="packing_instruction_ids"
             eval="[(6, 0, [ref('adr_packing_instruction_P520')])]"
@@ -38329,10 +37726,7 @@
         <field name="classification_code">SR1</field>
         <field name="label_ids" eval="[(6, 0, [ref('adr_label_4_1')])]" />
         <field name="limited_quantity">125</field>
-        <field
-            name="limited_quantity_uom_id"
-            ref="l10n_eu_product_adr.product_uom_mililiter"
-        />
+        <field name="limited_quantity_uom_id" ref="uom.product_uom_milliliter" />
         <field
             name="packing_instruction_ids"
             eval="[(6, 0, [ref('adr_packing_instruction_P520')])]"
@@ -38362,10 +37756,7 @@
         <field name="classification_code">SR1</field>
         <field name="label_ids" eval="[(6, 0, [ref('adr_label_4_1')])]" />
         <field name="limited_quantity">125</field>
-        <field
-            name="limited_quantity_uom_id"
-            ref="l10n_eu_product_adr.product_uom_mililiter"
-        />
+        <field name="limited_quantity_uom_id" ref="uom.product_uom_milliliter" />
         <field
             name="packing_instruction_ids"
             eval="[(6, 0, [ref('adr_packing_instruction_P520')])]"
@@ -38395,10 +37786,7 @@
         <field name="classification_code">SR1</field>
         <field name="label_ids" eval="[(6, 0, [ref('adr_label_4_1')])]" />
         <field name="limited_quantity">125</field>
-        <field
-            name="limited_quantity_uom_id"
-            ref="l10n_eu_product_adr.product_uom_mililiter"
-        />
+        <field name="limited_quantity_uom_id" ref="uom.product_uom_milliliter" />
         <field
             name="packing_instruction_ids"
             eval="[(6, 0, [ref('adr_packing_instruction_P520'), ref('adr_packing_instruction_IBC99')])]"
@@ -39498,10 +38886,7 @@
             eval="[(6, 0, [ref('adr_label_6_1'), ref('adr_label_3')])]"
         />
         <field name="limited_quantity">100</field>
-        <field
-            name="limited_quantity_uom_id"
-            ref="l10n_eu_product_adr.product_uom_mililiter"
-        />
+        <field name="limited_quantity_uom_id" ref="uom.product_uom_milliliter" />
         <field
             name="packing_instruction_ids"
             eval="[(6, 0, [ref('adr_packing_instruction_P001'), ref('adr_packing_instruction_IBC02')])]"
@@ -39529,10 +38914,7 @@
         <field name="classification_code">T1</field>
         <field name="label_ids" eval="[(6, 0, [ref('adr_label_6_1')])]" />
         <field name="limited_quantity">100</field>
-        <field
-            name="limited_quantity_uom_id"
-            ref="l10n_eu_product_adr.product_uom_mililiter"
-        />
+        <field name="limited_quantity_uom_id" ref="uom.product_uom_milliliter" />
         <field
             name="packing_instruction_ids"
             eval="[(6, 0, [ref('adr_packing_instruction_P001'), ref('adr_packing_instruction_IBC02')])]"
@@ -39565,10 +38947,7 @@
             eval="[(6, 0, [ref('adr_label_6_1'), ref('adr_label_8')])]"
         />
         <field name="limited_quantity">100</field>
-        <field
-            name="limited_quantity_uom_id"
-            ref="l10n_eu_product_adr.product_uom_mililiter"
-        />
+        <field name="limited_quantity_uom_id" ref="uom.product_uom_milliliter" />
         <field
             name="packing_instruction_ids"
             eval="[(6, 0, [ref('adr_packing_instruction_P001'), ref('adr_packing_instruction_IBC02')])]"
@@ -39596,10 +38975,7 @@
         <field name="classification_code">T1</field>
         <field name="label_ids" eval="[(6, 0, [ref('adr_label_6_1')])]" />
         <field name="limited_quantity">100</field>
-        <field
-            name="limited_quantity_uom_id"
-            ref="l10n_eu_product_adr.product_uom_mililiter"
-        />
+        <field name="limited_quantity_uom_id" ref="uom.product_uom_milliliter" />
         <field
             name="packing_instruction_ids"
             eval="[(6, 0, [ref('adr_packing_instruction_P001'), ref('adr_packing_instruction_IBC02')])]"
@@ -39648,10 +39024,7 @@
             eval="[(6, 0, [ref('adr_label_6_1'), ref('adr_label_3')])]"
         />
         <field name="limited_quantity">100</field>
-        <field
-            name="limited_quantity_uom_id"
-            ref="l10n_eu_product_adr.product_uom_mililiter"
-        />
+        <field name="limited_quantity_uom_id" ref="uom.product_uom_milliliter" />
         <field
             name="packing_instruction_ids"
             eval="[(6, 0, [ref('adr_packing_instruction_P001')])]"
@@ -39679,10 +39052,7 @@
         <field name="classification_code">T3</field>
         <field name="label_ids" eval="[(6, 0, [ref('adr_label_6_1')])]" />
         <field name="limited_quantity">100</field>
-        <field
-            name="limited_quantity_uom_id"
-            ref="l10n_eu_product_adr.product_uom_mililiter"
-        />
+        <field name="limited_quantity_uom_id" ref="uom.product_uom_milliliter" />
         <field
             name="packing_instruction_ids"
             eval="[(6, 0, [ref('adr_packing_instruction_P001'), ref('adr_packing_instruction_IBC02')])]"
@@ -39725,10 +39095,7 @@
         <field name="classification_code">T3</field>
         <field name="label_ids" eval="[(6, 0, [ref('adr_label_6_1')])]" />
         <field name="limited_quantity">100</field>
-        <field
-            name="limited_quantity_uom_id"
-            ref="l10n_eu_product_adr.product_uom_mililiter"
-        />
+        <field name="limited_quantity_uom_id" ref="uom.product_uom_milliliter" />
         <field
             name="packing_instruction_ids"
             eval="[(6, 0, [ref('adr_packing_instruction_P001'), ref('adr_packing_instruction_IBC02')])]"
@@ -39771,10 +39138,7 @@
         <field name="classification_code">T3</field>
         <field name="label_ids" eval="[(6, 0, [ref('adr_label_6_1')])]" />
         <field name="limited_quantity">100</field>
-        <field
-            name="limited_quantity_uom_id"
-            ref="l10n_eu_product_adr.product_uom_mililiter"
-        />
+        <field name="limited_quantity_uom_id" ref="uom.product_uom_milliliter" />
         <field
             name="packing_instruction_ids"
             eval="[(6, 0, [ref('adr_packing_instruction_P001'), ref('adr_packing_instruction_IBC02')])]"
@@ -39980,10 +39344,7 @@
         <field name="classification_code">T4</field>
         <field name="label_ids" eval="[(6, 0, [ref('adr_label_6_1')])]" />
         <field name="limited_quantity">100</field>
-        <field
-            name="limited_quantity_uom_id"
-            ref="l10n_eu_product_adr.product_uom_mililiter"
-        />
+        <field name="limited_quantity_uom_id" ref="uom.product_uom_milliliter" />
         <field
             name="packing_instruction_ids"
             eval="[(6, 0, [ref('adr_packing_instruction_P001'), ref('adr_packing_instruction_IBC02')])]"
@@ -40075,10 +39436,7 @@
             eval="[(6, 0, [ref('adr_label_6_1'), ref('adr_label_8')])]"
         />
         <field name="limited_quantity">100</field>
-        <field
-            name="limited_quantity_uom_id"
-            ref="l10n_eu_product_adr.product_uom_mililiter"
-        />
+        <field name="limited_quantity_uom_id" ref="uom.product_uom_milliliter" />
         <field
             name="packing_instruction_ids"
             eval="[(6, 0, [ref('adr_packing_instruction_P001'), ref('adr_packing_instruction_IBC02')])]"
@@ -40213,10 +39571,7 @@
         <field name="classification_code">F1</field>
         <field name="label_ids" eval="[(6, 0, [ref('adr_label_3')])]" />
         <field name="limited_quantity">500</field>
-        <field
-            name="limited_quantity_uom_id"
-            ref="l10n_eu_product_adr.product_uom_mililiter"
-        />
+        <field name="limited_quantity_uom_id" ref="uom.product_uom_milliliter" />
         <field
             name="packing_instruction_ids"
             eval="[(6, 0, [ref('adr_packing_instruction_P001')])]"
@@ -40280,10 +39635,7 @@
         <field name="classification_code">2A</field>
         <field name="label_ids" eval="[(6, 0, [ref('adr_label_2_2')])]" />
         <field name="limited_quantity">120</field>
-        <field
-            name="limited_quantity_uom_id"
-            ref="l10n_eu_product_adr.product_uom_mililiter"
-        />
+        <field name="limited_quantity_uom_id" ref="uom.product_uom_milliliter" />
         <field
             name="packing_instruction_ids"
             eval="[(6, 0, [ref('adr_packing_instruction_P200')])]"
@@ -40300,10 +39652,7 @@
         <field name="classification_code">2A</field>
         <field name="label_ids" eval="[(6, 0, [ref('adr_label_2_2')])]" />
         <field name="limited_quantity">120</field>
-        <field
-            name="limited_quantity_uom_id"
-            ref="l10n_eu_product_adr.product_uom_mililiter"
-        />
+        <field name="limited_quantity_uom_id" ref="uom.product_uom_milliliter" />
         <field
             name="packing_instruction_ids"
             eval="[(6, 0, [ref('adr_packing_instruction_P200')])]"
@@ -40320,10 +39669,7 @@
         <field name="classification_code">2A</field>
         <field name="label_ids" eval="[(6, 0, [ref('adr_label_2_2')])]" />
         <field name="limited_quantity">120</field>
-        <field
-            name="limited_quantity_uom_id"
-            ref="l10n_eu_product_adr.product_uom_mililiter"
-        />
+        <field name="limited_quantity_uom_id" ref="uom.product_uom_milliliter" />
         <field
             name="packing_instruction_ids"
             eval="[(6, 0, [ref('adr_packing_instruction_P200')])]"
@@ -40340,10 +39686,7 @@
         <field name="classification_code">2A</field>
         <field name="label_ids" eval="[(6, 0, [ref('adr_label_2_2')])]" />
         <field name="limited_quantity">120</field>
-        <field
-            name="limited_quantity_uom_id"
-            ref="l10n_eu_product_adr.product_uom_mililiter"
-        />
+        <field name="limited_quantity_uom_id" ref="uom.product_uom_milliliter" />
         <field
             name="packing_instruction_ids"
             eval="[(6, 0, [ref('adr_packing_instruction_P200')])]"
@@ -40408,10 +39751,7 @@
         <field name="classification_code">T1</field>
         <field name="label_ids" eval="[(6, 0, [ref('adr_label_6_1')])]" />
         <field name="limited_quantity">100</field>
-        <field
-            name="limited_quantity_uom_id"
-            ref="l10n_eu_product_adr.product_uom_mililiter"
-        />
+        <field name="limited_quantity_uom_id" ref="uom.product_uom_milliliter" />
         <field
             name="packing_instruction_ids"
             eval="[(6, 0, [ref('adr_packing_instruction_P001'), ref('adr_packing_instruction_IBC02')])]"
@@ -40998,10 +40338,7 @@
         <field name="classification_code">2A</field>
         <field name="label_ids" eval="[(6, 0, [ref('adr_label_2_2')])]" />
         <field name="limited_quantity">120</field>
-        <field
-            name="limited_quantity_uom_id"
-            ref="l10n_eu_product_adr.product_uom_mililiter"
-        />
+        <field name="limited_quantity_uom_id" ref="uom.product_uom_milliliter" />
         <field
             name="packing_instruction_ids"
             eval="[(6, 0, [ref('adr_packing_instruction_P200')])]"
@@ -41018,10 +40355,7 @@
         <field name="classification_code">2A</field>
         <field name="label_ids" eval="[(6, 0, [ref('adr_label_2_2')])]" />
         <field name="limited_quantity">120</field>
-        <field
-            name="limited_quantity_uom_id"
-            ref="l10n_eu_product_adr.product_uom_mililiter"
-        />
+        <field name="limited_quantity_uom_id" ref="uom.product_uom_milliliter" />
         <field
             name="packing_instruction_ids"
             eval="[(6, 0, [ref('adr_packing_instruction_P200')])]"
@@ -41038,10 +40372,7 @@
         <field name="classification_code">2A</field>
         <field name="label_ids" eval="[(6, 0, [ref('adr_label_2_2')])]" />
         <field name="limited_quantity">120</field>
-        <field
-            name="limited_quantity_uom_id"
-            ref="l10n_eu_product_adr.product_uom_mililiter"
-        />
+        <field name="limited_quantity_uom_id" ref="uom.product_uom_milliliter" />
         <field
             name="packing_instruction_ids"
             eval="[(6, 0, [ref('adr_packing_instruction_P200')])]"
@@ -41058,10 +40389,7 @@
         <field name="classification_code">2A</field>
         <field name="label_ids" eval="[(6, 0, [ref('adr_label_2_2')])]" />
         <field name="limited_quantity">120</field>
-        <field
-            name="limited_quantity_uom_id"
-            ref="l10n_eu_product_adr.product_uom_mililiter"
-        />
+        <field name="limited_quantity_uom_id" ref="uom.product_uom_milliliter" />
         <field
             name="packing_instruction_ids"
             eval="[(6, 0, [ref('adr_packing_instruction_P200')])]"
@@ -41262,10 +40590,7 @@
             eval="[(6, 0, [ref('adr_label_6_1'), ref('adr_label_3')])]"
         />
         <field name="limited_quantity">100</field>
-        <field
-            name="limited_quantity_uom_id"
-            ref="l10n_eu_product_adr.product_uom_mililiter"
-        />
+        <field name="limited_quantity_uom_id" ref="uom.product_uom_milliliter" />
         <field
             name="packing_instruction_ids"
             eval="[(6, 0, [ref('adr_packing_instruction_P001'), ref('adr_packing_instruction_IBC02')])]"
@@ -41317,10 +40642,7 @@
         <field name="classification_code">T6</field>
         <field name="label_ids" eval="[(6, 0, [ref('adr_label_6_1')])]" />
         <field name="limited_quantity">100</field>
-        <field
-            name="limited_quantity_uom_id"
-            ref="l10n_eu_product_adr.product_uom_mililiter"
-        />
+        <field name="limited_quantity_uom_id" ref="uom.product_uom_milliliter" />
         <field
             name="packing_instruction_ids"
             eval="[(6, 0, [ref('adr_packing_instruction_P001'), ref('adr_packing_instruction_IBC02')])]"
@@ -41456,10 +40778,7 @@
             eval="[(6, 0, [ref('adr_label_6_1'), ref('adr_label_3')])]"
         />
         <field name="limited_quantity">100</field>
-        <field
-            name="limited_quantity_uom_id"
-            ref="l10n_eu_product_adr.product_uom_mililiter"
-        />
+        <field name="limited_quantity_uom_id" ref="uom.product_uom_milliliter" />
         <field
             name="packing_instruction_ids"
             eval="[(6, 0, [ref('adr_packing_instruction_P001'), ref('adr_packing_instruction_IBC02')])]"
@@ -41507,10 +40826,7 @@
         <field name="classification_code">T6</field>
         <field name="label_ids" eval="[(6, 0, [ref('adr_label_6_1')])]" />
         <field name="limited_quantity">100</field>
-        <field
-            name="limited_quantity_uom_id"
-            ref="l10n_eu_product_adr.product_uom_mililiter"
-        />
+        <field name="limited_quantity_uom_id" ref="uom.product_uom_milliliter" />
         <field
             name="packing_instruction_ids"
             eval="[(6, 0, [ref('adr_packing_instruction_P001'), ref('adr_packing_instruction_IBC02')])]"
@@ -42367,10 +41683,7 @@
         <field name="classification_code">W1</field>
         <field name="label_ids" eval="[(6, 0, [ref('adr_label_4_3')])]" />
         <field name="limited_quantity">500</field>
-        <field
-            name="limited_quantity_uom_id"
-            ref="l10n_eu_product_adr.product_uom_mililiter"
-        />
+        <field name="limited_quantity_uom_id" ref="uom.product_uom_milliliter" />
         <field
             name="packing_instruction_ids"
             eval="[(6, 0, [ref('adr_packing_instruction_P001'), ref('adr_packing_instruction_IBC01')])]"
@@ -42423,10 +41736,7 @@
             eval="[(6, 0, [ref('adr_label_4_3'), ref('adr_label_3')])]"
         />
         <field name="limited_quantity">500</field>
-        <field
-            name="limited_quantity_uom_id"
-            ref="l10n_eu_product_adr.product_uom_mililiter"
-        />
+        <field name="limited_quantity_uom_id" ref="uom.product_uom_milliliter" />
         <field
             name="packing_instruction_ids"
             eval="[(6, 0, [ref('adr_packing_instruction_P001'), ref('adr_packing_instruction_IBC01')])]"
@@ -42681,10 +41991,7 @@
         <field name="classification_code">T1</field>
         <field name="label_ids" eval="[(6, 0, [ref('adr_label_6_1')])]" />
         <field name="limited_quantity">100</field>
-        <field
-            name="limited_quantity_uom_id"
-            ref="l10n_eu_product_adr.product_uom_mililiter"
-        />
+        <field name="limited_quantity_uom_id" ref="uom.product_uom_milliliter" />
         <field
             name="packing_instruction_ids"
             eval="[(6, 0, [ref('adr_packing_instruction_P001'), ref('adr_packing_instruction_IBC02')])]"
@@ -42714,10 +42021,7 @@
         <field name="classification_code">T1</field>
         <field name="label_ids" eval="[(6, 0, [ref('adr_label_6_1')])]" />
         <field name="limited_quantity">100</field>
-        <field
-            name="limited_quantity_uom_id"
-            ref="l10n_eu_product_adr.product_uom_mililiter"
-        />
+        <field name="limited_quantity_uom_id" ref="uom.product_uom_milliliter" />
         <field
             name="packing_instruction_ids"
             eval="[(6, 0, [ref('adr_packing_instruction_P001'), ref('adr_packing_instruction_IBC02')])]"
@@ -42794,10 +42098,7 @@
         <field name="classification_code">T4</field>
         <field name="label_ids" eval="[(6, 0, [ref('adr_label_6_1')])]" />
         <field name="limited_quantity">100</field>
-        <field
-            name="limited_quantity_uom_id"
-            ref="l10n_eu_product_adr.product_uom_mililiter"
-        />
+        <field name="limited_quantity_uom_id" ref="uom.product_uom_milliliter" />
         <field
             name="packing_instruction_ids"
             eval="[(6, 0, [ref('adr_packing_instruction_P001'), ref('adr_packing_instruction_IBC02')])]"
@@ -42840,10 +42141,7 @@
         <field name="classification_code">T4</field>
         <field name="label_ids" eval="[(6, 0, [ref('adr_label_6_1')])]" />
         <field name="limited_quantity">100</field>
-        <field
-            name="limited_quantity_uom_id"
-            ref="l10n_eu_product_adr.product_uom_mililiter"
-        />
+        <field name="limited_quantity_uom_id" ref="uom.product_uom_milliliter" />
         <field
             name="packing_instruction_ids"
             eval="[(6, 0, [ref('adr_packing_instruction_P001'), ref('adr_packing_instruction_IBC02')])]"
@@ -43025,10 +42323,7 @@
         <field name="classification_code">T1</field>
         <field name="label_ids" eval="[(6, 0, [ref('adr_label_6_1')])]" />
         <field name="limited_quantity">100</field>
-        <field
-            name="limited_quantity_uom_id"
-            ref="l10n_eu_product_adr.product_uom_mililiter"
-        />
+        <field name="limited_quantity_uom_id" ref="uom.product_uom_milliliter" />
         <field
             name="packing_instruction_ids"
             eval="[(6, 0, [ref('adr_packing_instruction_P001'), ref('adr_packing_instruction_IBC02')])]"
@@ -43133,10 +42428,7 @@
         <field name="classification_code">T1</field>
         <field name="label_ids" eval="[(6, 0, [ref('adr_label_6_1')])]" />
         <field name="limited_quantity">100</field>
-        <field
-            name="limited_quantity_uom_id"
-            ref="l10n_eu_product_adr.product_uom_mililiter"
-        />
+        <field name="limited_quantity_uom_id" ref="uom.product_uom_milliliter" />
         <field
             name="packing_instruction_ids"
             eval="[(6, 0, [ref('adr_packing_instruction_P001'), ref('adr_packing_instruction_IBC02')])]"
@@ -43297,10 +42589,7 @@
         <field name="classification_code">T4</field>
         <field name="label_ids" eval="[(6, 0, [ref('adr_label_6_1')])]" />
         <field name="limited_quantity">100</field>
-        <field
-            name="limited_quantity_uom_id"
-            ref="l10n_eu_product_adr.product_uom_mililiter"
-        />
+        <field name="limited_quantity_uom_id" ref="uom.product_uom_milliliter" />
         <field
             name="packing_instruction_ids"
             eval="[(6, 0, [ref('adr_packing_instruction_P001'), ref('adr_packing_instruction_IBC02')])]"
@@ -44066,10 +43355,7 @@
         <field name="classification_code">W3</field>
         <field name="label_ids" eval="[(6, 0, [ref('adr_label_4_3')])]" />
         <field name="limited_quantity">500</field>
-        <field
-            name="limited_quantity_uom_id"
-            ref="l10n_eu_product_adr.product_uom_mililiter"
-        />
+        <field name="limited_quantity_uom_id" ref="uom.product_uom_milliliter" />
         <field
             name="packing_instruction_ids"
             eval="[(6, 0, [ref('adr_packing_instruction_P004')])]"
@@ -44103,10 +43389,7 @@
         <field name="classification_code">6F</field>
         <field name="label_ids" eval="[(6, 0, [ref('adr_label_2_1')])]" />
         <field name="limited_quantity">120</field>
-        <field
-            name="limited_quantity_uom_id"
-            ref="l10n_eu_product_adr.product_uom_mililiter"
-        />
+        <field name="limited_quantity_uom_id" ref="uom.product_uom_milliliter" />
         <field
             name="packing_instruction_ids"
             eval="[(6, 0, [ref('adr_packing_instruction_P004')])]"
@@ -44123,10 +43406,7 @@
         <field name="classification_code">6F</field>
         <field name="label_ids" eval="[(6, 0, [ref('adr_label_2_1')])]" />
         <field name="limited_quantity">120</field>
-        <field
-            name="limited_quantity_uom_id"
-            ref="l10n_eu_product_adr.product_uom_mililiter"
-        />
+        <field name="limited_quantity_uom_id" ref="uom.product_uom_milliliter" />
         <field
             name="packing_instruction_ids"
             eval="[(6, 0, [ref('adr_packing_instruction_P004')])]"

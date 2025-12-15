@@ -13785,7 +13785,7 @@ msgid "cat:%s"
 msgstr ""
 
 #. module: l10n_eu_product_adr
-#: model:uom.uom,name:l10n_eu_product_adr.product_uom_mililiter
+#: model:uom.uom,name:uom.product_uom_milliliter
 msgid "ml"
 msgstr ""
 

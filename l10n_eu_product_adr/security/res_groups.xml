@@ -1,20 +1,23 @@
 <?xml version="1.0" encoding="utf-8" ?>
-<odoo>
+<odoo noupdate="1">
+    <record model="res.groups.privilege" id="res_groups_privilege_adr_goods">
+        <field name="name">ADR Goods</field>
+        <field name="sequence">100</field>
+        <field name="category_id" ref="base.module_category_services" />
+    </record>
     <record id="group_adr_goods_user" model="res.groups">
         <field name="name">ADR Goods User</field>
-        <field name="category_id" ref="base.module_category_hidden" />
+        <field name="privilege_id" ref="res_groups_privilege_adr_goods" />
     </record>
     <record id="group_adr_goods_admin" model="res.groups">
         <field name="name">ADR Goods Administrator</field>
-        <field name="implied_ids" eval="[(4, ref('group_adr_goods_user'))]" />
-        <field name="category_id" ref="base.module_category_hidden" />
+        <field name="implied_ids" eval="[Command.link(ref('group_adr_goods_user'))]" />
+        <field name="privilege_id" ref="res_groups_privilege_adr_goods" />
     </record>
-    <data noupdate="1">
-        <record id="stock.group_stock_user" model="res.groups">
-            <field name="implied_ids" eval="[(4, ref('group_adr_goods_user'))]" />
-        </record>
-        <record id="base.group_erp_manager" model="res.groups">
-            <field name="implied_ids" eval="[(4, ref('group_adr_goods_admin'))]" />
-        </record>
-    </data>
+    <record id="stock.group_stock_user" model="res.groups">
+        <field name="implied_ids" eval="[Command.link(ref('group_adr_goods_user'))]" />
+    </record>
+    <record id="base.group_erp_manager" model="res.groups">
+        <field name="implied_ids" eval="[Command.link(ref('group_adr_goods_admin'))]" />
+    </record>
 </odoo>

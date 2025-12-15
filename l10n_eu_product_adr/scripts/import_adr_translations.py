@@ -10,7 +10,7 @@
 import importlib.util
 from os import environ
 
-from openpyxl import load_workbook  # pylint: disable=W7936
+from openpyxl import load_workbook
 
 from odoo.tools.misc import file_path
 

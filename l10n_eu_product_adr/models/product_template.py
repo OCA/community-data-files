@@ -56,10 +56,8 @@ class ProductTemplate(models.Model):
             )
 
     def write(self, values):
-        """Delegate dangerous goods fields to variants
-
-        while preventing a sweeping change over variants with different settings
-        """
+        # Delegate dangerous goods fields to variants
+        # while preventing a sweeping change over variants with different settings
         values = values.copy()
         variant_vals = {}
         for field in ("is_dangerous", "adr_goods_id"):

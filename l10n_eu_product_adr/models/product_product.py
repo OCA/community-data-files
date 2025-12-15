@@ -7,7 +7,13 @@ from odoo import api, fields, models
 class ProductProduct(models.Model):
     _inherit = "product.product"
 
-    is_dangerous = fields.Boolean(help="This product belongs to a dangerous class")
+    is_dangerous = fields.Boolean(
+        help="This product belongs to a dangerous class",
+        compute="_compute_is_dangerous",
+        inverse="_inverse_is_dangerous",
+        store=True,
+        readonly=False,
+    )
     adr_goods_id = fields.Many2one("adr.goods", "Dangerous Goods")
     adr_class_id = fields.Many2one(
         "adr.class",
@@ -37,14 +43,15 @@ class ProductProduct(models.Model):
         related="adr_goods_id.tunnel_restriction_code",
     )
 
-    @api.onchange("is_dangerous")
-    def onchange_is_dangerous(self):
-        """Remove the dangerous goods attribute from the product
+    @api.depends("adr_goods_id")
+    def _compute_is_dangerous(self):
+        for product in self:
+            product.is_dangerous = bool(product.adr_goods_id)
 
-        (when is_dangerous is deselected)
-        """
-        if not self.is_dangerous and self.adr_goods_id:
-            self.adr_goods_id = False
+    def _inverse_is_dangerous(self):
+        for product in self:
+            if not product.is_dangerous:
+                product.adr_goods_id = False
 
     @api.model_create_multi
     def create(self, vals_list):

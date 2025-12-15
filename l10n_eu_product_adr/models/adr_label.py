@@ -25,6 +25,7 @@ class AdrLabel(models.Model):
         """Restrict removal of labels in use"""
         for label in self:
             if label.goods_ids:
+                # pylint: disable=no-raise-unlink
                 raise ValidationError(
                     self.env._(
                         "Dangerous Goods Label %(label)s cannot be deleted because it "
