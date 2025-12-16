@@ -24,21 +24,21 @@ class ProductProduct(models.Model):
 
     # To be set manually for the moment. Could eventually be computed after,
     # depending on the dangerous class and the product's weight/captain'sage…
-    limited_amount_id = fields.Many2one("limited.amount")
+    adr_limited_amount_id = fields.Many2one("adr.limited.amount")
 
     # package-related fields
     content_package = fields.Float(string="Content Packaging", digits=(16, 5))
-    dg_unit = fields.Many2one("dangerous.uom")
+    adr_dangerous_uom_id = fields.Many2one("adr.dangerous.uom")
     nag = fields.Char(string="N.A.G.")
     veva_code_empty = fields.Char(string="VeVA Code: Empty packaging")
     veva_code_full = fields.Char(string="VeVA Code: Full package")
 
     # storage-related fields
-    storage_class_id = fields.Many2one("storage.class")
-    packaging_type_id = fields.Many2one("packaging.type")
-    storage_temp_id = fields.Many2one("storage.temp")
+    adr_storage_class_id = fields.Many2one("adr.storage.class")
+    adr_packaging_type_id = fields.Many2one("adr.packaging.type")
+    adr_storage_temp_id = fields.Many2one("adr.storage.temp")
     flash_point = fields.Char(string="Flash point(°C)")
-    wgk_class_id = fields.Many2one("wgk.class")
+    adr_wgk_class_id = fields.Many2one("adr.wgk.class")
     h_no = fields.Char(string="H-No")  # Ho, NoooOOooooO!
 
     envir_hazardous = fields.Selection(

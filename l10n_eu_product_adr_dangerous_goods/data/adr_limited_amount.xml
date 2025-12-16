@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!-- Copyright 2021 Camptocamp SA
+     License AGPL-3.0 or later (http://www.gnu.org/licenses/agpl). -->
+<odoo noupdate="1">
+    <!--adr limited amounts-->
+    <record id="adr_limited_amount_1" model="adr.limited.amount">
+        <field name="name">LQ (Limited Quantity)</field>
+    </record>
+    <record id="adr_limited_amount_2" model="adr.limited.amount">
+        <field name="name">DG (Dangerous Goods)</field>
+    </record>
+</odoo>

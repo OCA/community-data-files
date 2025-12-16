@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!-- Copyright 2021 Camptocamp SA
+     License AGPL-3.0 or later (http://www.gnu.org/licenses/agpl). -->
+<odoo noupdate="1">
+    <!--adr storage classes-->
+    <record id="adr_storage_class_1" model="adr.storage.class">
+        <field name="name">LK 2</field>
+    </record>
+    <record id="adr_storage_class_2" model="adr.storage.class">
+        <field name="name">LK 3</field>
+    </record>
+    <record id="adr_storage_class_3" model="adr.storage.class">
+        <field name="name">LK 4.1</field>
+    </record>
+    <record id="adr_storage_class_4" model="adr.storage.class">
+        <field name="name">LK 4.2</field>
+    </record>
+    <record id="adr_storage_class_5" model="adr.storage.class">
+        <field name="name">LK 4.3</field>
+    </record>
+    <record id="adr_storage_class_6" model="adr.storage.class">
+        <field name="name">LK 5</field>
+    </record>
+    <record id="adr_storage_class_7" model="adr.storage.class">
+        <field name="name">LK 6.1</field>
+    </record>
+    <record id="adr_storage_class_8" model="adr.storage.class">
+        <field name="name">LK 8</field>
+    </record>
+    <record id="adr_storage_class_9" model="adr.storage.class">
+        <field name="name">LK 10,12</field>
+    </record>
+    <record id="adr_storage_class_10" model="adr.storage.class">
+        <field name="name">LK 11,13</field>
+    </record>
+</odoo>

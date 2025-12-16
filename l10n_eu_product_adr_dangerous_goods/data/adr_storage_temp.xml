@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!-- Copyright 2021 Camptocamp SA
+     License AGPL-3.0 or later (http://www.gnu.org/licenses/agpl). -->
+<odoo noupdate="1">
+    <!--adr storage temps-->
+    <record id="adr_storage_temp_1" model="adr.storage.temp">
+        <field name="name">to 25°C</field>
+    </record>
+    <record id="adr_storage_temp_2" model="adr.storage.temp">
+        <field name="name">over 25°C</field>
+    </record>
+    <record id="adr_storage_temp_3" model="adr.storage.temp">
+        <field name="name">to 30°C</field>
+    </record>
+</odoo>

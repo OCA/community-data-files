@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!-- Copyright 2021 Camptocamp SA
+     License AGPL-3.0 or later (http://www.gnu.org/licenses/agpl). -->
+<odoo noupdate="1">
+    <!--adr packaging types-->
+    <record id="adr_packaging_type_1" model="adr.packaging.type">
+        <field name="name">Bottle</field>
+    </record>
+    <record id="adr_packaging_type_2" model="adr.packaging.type">
+        <field name="name">Canister</field>
+    </record>
+    <record id="adr_packaging_type_3" model="adr.packaging.type">
+        <field name="name">Cartridge</field>
+    </record>
+    <record id="adr_packaging_type_4" model="adr.packaging.type">
+        <field name="name">Box</field>
+    </record>
+    <record id="adr_packaging_type_5" model="adr.packaging.type">
+        <field name="name">Bag</field>
+    </record>
+    <record id="adr_packaging_type_6" model="adr.packaging.type">
+        <field name="name">Spray</field>
+    </record>
+    <record id="adr_packaging_type_7" model="adr.packaging.type">
+        <field name="name">Can</field>
+    </record>
+    <record id="adr_packaging_type_8" model="adr.packaging.type">
+        <field name="name">Tube</field>
+    </record>
+</odoo>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!-- Copyright 2021 Camptocamp SA
+     License AGPL-3.0 or later (http://www.gnu.org/licenses/agpl). -->
+<odoo noupdate="1">
+    <!--adr wgk classes-->
+    <record id="adr_wgk_class_1" model="adr.wgk.class">
+        <field name="name">WGK 1</field>
+    </record>
+    <record id="adr_wgk_class_2" model="adr.wgk.class">
+        <field name="name">WGK 2</field>
+    </record>
+    <record id="adr_wgk_class_3" model="adr.wgk.class">
+        <field name="name">WGK 3</field>
+    </record>
+    <record id="adr_wgk_class_4" model="adr.wgk.class">
+        <field name="name">WGK A</field>
+    </record>
+    <record id="adr_wgk_class_5" model="adr.wgk.class">
+        <field name="name">WGK B</field>
+    </record>
+</odoo>

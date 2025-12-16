@@ -6,33 +6,36 @@ class TestProductProduct(BaseCommon):
     def setUpClass(cls):
         super().setUpClass()
         # Create test data for related models
-        cls.limited_amount = cls.env["limited.amount"].create(
+        cls.adr_limited_amount = cls.env["adr.limited.amount"].create(
             {"name": "Test Limited Amount"}
         )
-        cls.dg_unit = cls.env["dangerous.uom"].create({"name": "Test Dangerous UoM"})
-        cls.storage_class = cls.env["storage.class"].create(
+        cls.adr_dangerous_uom = cls.env["adr.dangerous.uom"].create(
+            {"name": "Test Dangerous UoM"}
+        )
+        cls.adr_storage_class = cls.env["adr.storage.class"].create(
             {"name": "Test Storage Class"}
         )
-        cls.packaging_type = cls.env["packaging.type"].create(
+        cls.adr_packaging_type = cls.env["adr.packaging.type"].create(
             {"name": "Test Packaging Type"}
         )
-        cls.storage_temp = cls.env["storage.temp"].create({"name": "Test Storage Temp"})
-        cls.wgk_class = cls.env["wgk.class"].create({"name": "Test WGK Class"})
-
+        cls.adr_storage_temp = cls.env["adr.storage.temp"].create(
+            {"name": "Test Storage Temp"}
+        )
+        cls.adr_wgk_class = cls.env["adr.wgk.class"].create({"name": "Test WGK Class"})
         cls.product = cls.env["product.product"].create(
             {
                 "name": "Test Product",
-                "limited_amount_id": cls.limited_amount.id,
+                "adr_limited_amount_id": cls.adr_limited_amount.id,
                 "content_package": 10.12345,
-                "dg_unit": cls.dg_unit.id,
+                "adr_dangerous_uom_id": cls.adr_dangerous_uom.id,
                 "nag": "Test NAG",
                 "veva_code_empty": "123-Empty",
                 "veva_code_full": "456-Full",
-                "storage_class_id": cls.storage_class.id,
-                "packaging_type_id": cls.packaging_type.id,
-                "storage_temp_id": cls.storage_temp.id,
+                "adr_storage_class_id": cls.adr_storage_class.id,
+                "adr_packaging_type_id": cls.adr_packaging_type.id,
+                "adr_storage_temp_id": cls.adr_storage_temp.id,
                 "flash_point": "-10",
-                "wgk_class_id": cls.wgk_class.id,
+                "adr_wgk_class_id": cls.adr_wgk_class.id,
                 "h_no": "H12345",
                 "envir_hazardous": "yes",
                 "packaging_group": "3",
@@ -48,8 +51,8 @@ class TestProductProduct(BaseCommon):
         """Test creating a product with all the custom fields."""
         # Assert field values
         self.assertEqual(
-            self.product.limited_amount_id,
-            self.limited_amount,
+            self.product.adr_limited_amount_id,
+            self.adr_limited_amount,
             "Limited amount ID does not match the expected value",
         )
         self.assertEqual(
@@ -58,8 +61,8 @@ class TestProductProduct(BaseCommon):
             "Content package value does not match the expected value",
         )
         self.assertEqual(
-            self.product.dg_unit,
-            self.dg_unit,
+            self.product.adr_dangerous_uom_id,
+            self.adr_dangerous_uom,
             "DG unit does not match the expected value",
         )
         self.assertEqual(
@@ -76,18 +79,18 @@ class TestProductProduct(BaseCommon):
             "VEVA code full does not match the expected value",
         )
         self.assertEqual(
-            self.product.storage_class_id,
-            self.storage_class,
+            self.product.adr_storage_class_id,
+            self.adr_storage_class,
             "Storage class ID does not match the expected value",
         )
         self.assertEqual(
-            self.product.packaging_type_id,
-            self.packaging_type,
+            self.product.adr_packaging_type_id,
+            self.adr_packaging_type,
             "Packaging type does not match the expected value",
         )
         self.assertEqual(
-            self.product.storage_temp_id,
-            self.storage_temp,
+            self.product.adr_storage_temp_id,
+            self.adr_storage_temp,
             "Storage temperature does not match the expected value",
         )
         self.assertEqual(
@@ -96,8 +99,8 @@ class TestProductProduct(BaseCommon):
             "Flash point does not match the expected value",
         )
         self.assertEqual(
-            self.product.wgk_class_id,
-            self.wgk_class,
+            self.product.adr_wgk_class_id,
+            self.adr_wgk_class,
             "WGK class does not match the expected value",
         )
         self.assertEqual(
