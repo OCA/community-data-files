@@ -39,10 +39,7 @@ class TestBaseIso3166(common.TransactionCase):
         def fake_get(**kwargs):
             if "alpha_2" in kwargs:
                 raise KeyError("alpha_2 not supported")
-            if kwargs.get("alpha2") == "AD":
-                return SimpleNamespace(
-                    alpha3="AND", numeric="020"
-                )  # fuerza fallback alpha3
+            return SimpleNamespace(alpha3="AND", numeric="020")
 
         with patch("pycountry.countries.get", side_effect=fake_get):
             country.write({"code": "AD"})  # dispara recompute
@@ -55,8 +52,7 @@ class TestBaseIso3166(common.TransactionCase):
 
         # Mock que devuelve objeto sin alpha_3, solo alpha3
         def fake_get(**kwargs):
-            if kwargs.get("alpha_2") == "AD" or kwargs.get("alpha2") == "AD":
-                return SimpleNamespace(alpha3="AND", numeric="020")
+            return SimpleNamespace(alpha3="AND", numeric="020")
 
         with patch("pycountry.countries.get", side_effect=fake_get):
             country.write({"code": "AD"})
@@ -92,8 +88,7 @@ class TestBaseIso3166(common.TransactionCase):
         def historic_get(**kwargs):
             if "alpha_2" in kwargs:
                 raise KeyError("alpha_2 not supported")
-            if kwargs.get("alpha2") == "AD":
-                return SimpleNamespace(alpha3="AND", numeric="020")
+            return SimpleNamespace(alpha3="AND", numeric="020")
 
         with (
             patch("pycountry.countries.get", return_value=None),
