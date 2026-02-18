@@ -56,7 +56,10 @@ class ResPartnerBank(models.Model):
                     bank = self.env["res.bank"].create(vals)
             else:
                 bank = self.env["res.bank"]
-        except schwifty.exceptions.InvalidStructure:
+        except (
+            schwifty.exceptions.InvalidStructure,
+            schwifty.exceptions.InvalidChecksumDigits,
+        ):
             bank = self.env["res.bank"]
         return bank
 
