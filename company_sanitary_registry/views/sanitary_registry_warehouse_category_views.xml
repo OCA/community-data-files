@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<odoo>
+    <record id="sanitary_registry_warehouse_category_tree" model="ir.ui.view">
+        <field name="name">sanitary.registry.warehouse.category.tree</field>
+        <field name="model">sanitary.registry.warehouse.category</field>
+        <field name="arch" type="xml">
+            <tree editable="top">
+                <field name="sanitary_registry_id" />
+                <field name="category_id" />
+                <field name="warehouse_id" />
+            </tree>
+        </field>
+    </record>
+    <record
+        id="sanitary_registry_warehouse_category_action"
+        model="ir.actions.act_window"
+    >
+        <field name="name">Sanitary Registry by Category and Warehouse</field>
+        <field name="res_model">sanitary.registry.warehouse.category</field>
+        <field name="view_mode">tree</field>
+        <field name="view_id" ref="sanitary_registry_warehouse_category_tree" />
+    </record>
+    <menuitem
+        id="sanitary_registry_warehouse_category_menuitem"
+        name="Sanitary Registry by Category and Warehouse"
+        parent="stock.menu_product_in_config_stock"
+        action="sanitary_registry_warehouse_category_action"
+        sequence="100"
+    />
+</odoo>
