@@ -4,7 +4,7 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 18.0\n"
+"Project-Id-Version: Odoo Server 19.0\n"
 "Report-Msgid-Bugs-To: \n"
 "Last-Translator: \n"
 "Language-Team: \n"
@@ -704,6 +704,7 @@ msgstr ""
 
 #. module: l10n_eu_product_adr
 #: model:ir.model.fields,field_description:l10n_eu_product_adr.field_adr_label__goods_ids
+#: model:res.groups.privilege,name:l10n_eu_product_adr.res_groups_privilege_adr_goods
 msgid "ADR Goods"
 msgstr ""
 
@@ -4867,6 +4868,10 @@ msgstr ""
 #: model:ir.model.fields,field_description:l10n_eu_product_adr.field_adr_goods__display_name
 #: model:ir.model.fields,field_description:l10n_eu_product_adr.field_adr_label__display_name
 #: model:ir.model.fields,field_description:l10n_eu_product_adr.field_adr_packing_instruction__display_name
+#: model:ir.model.fields,field_description:l10n_eu_product_adr.field_product_product__display_name
+#: model:ir.model.fields,field_description:l10n_eu_product_adr.field_product_template__display_name
+#: model:ir.model.fields,field_description:l10n_eu_product_adr.field_stock_move__display_name
+#: model:ir.model.fields,field_description:l10n_eu_product_adr.field_stock_picking__display_name
 msgid "Display Name"
 msgstr ""
 
@@ -6020,11 +6025,6 @@ msgid ""
 msgstr ""
 
 #. module: l10n_eu_product_adr
-#: model_terms:ir.ui.view,arch_db:l10n_eu_product_adr.adr_goods_view_search
-msgid "Group By"
-msgstr ""
-
-#. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_2545_S4_4dot2_540_P002/IBC08/LP02/R001_3
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_2545_S4_4dot2_540_P404_0
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_2545_S4_4dot2_540_P410/IBC06_2
@@ -6452,6 +6452,10 @@ msgstr ""
 #: model:ir.model.fields,field_description:l10n_eu_product_adr.field_adr_goods__id
 #: model:ir.model.fields,field_description:l10n_eu_product_adr.field_adr_label__id
 #: model:ir.model.fields,field_description:l10n_eu_product_adr.field_adr_packing_instruction__id
+#: model:ir.model.fields,field_description:l10n_eu_product_adr.field_product_product__id
+#: model:ir.model.fields,field_description:l10n_eu_product_adr.field_product_template__id
+#: model:ir.model.fields,field_description:l10n_eu_product_adr.field_stock_move__id
+#: model:ir.model.fields,field_description:l10n_eu_product_adr.field_stock_picking__id
 msgid "ID"
 msgstr ""
 
@@ -13043,11 +13047,6 @@ msgstr ""
 #. odoo-python
 #: code:addons/l10n_eu_product_adr/models/adr_goods.py:0
 msgid "cat:%s"
-msgstr ""
-
-#. module: l10n_eu_product_adr
-#: model:uom.uom,name:uom.product_uom_milliliter
-msgid "ml"
 msgstr ""
 
 #. module: l10n_eu_product_adr
