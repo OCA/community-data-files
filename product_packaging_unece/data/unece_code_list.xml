@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!-- Copyright 2026 ACSONE SA/NV
+     License AGPL-3.0 or later (https://www.gnu.org/licenses/agpl). -->
+<odoo noupdate="0">
+
+    <record id="unece_packaging_bx" model="unece.code.list">
+        <field name="type">packaging_type</field>
+        <field name="code">BX</field>
+        <field name="name">Box</field>
+        <field name="description">A container with flat sides</field>
+    </record>
+
+    <record id="unece_packaging_ct" model="unece.code.list">
+        <field name="type">packaging_type</field>
+        <field name="code">CT</field>
+        <field name="name">Carton</field>
+        <field name="description">A lightweight box or container</field>
+    </record>
+
+    <record id="unece_packaging_cs" model="unece.code.list">
+        <field name="type">packaging_type</field>
+        <field name="code">CS</field>
+        <field name="name">Case</field>
+        <field name="description">A container or box used for transport</field>
+    </record>
+
+    <record id="unece_packaging_bg" model="unece.code.list">
+        <field name="type">packaging_type</field>
+        <field name="code">BG</field>
+        <field name="name">Bag</field>
+        <field name="description">A flexible container</field>
+    </record>
+
+    <record id="unece_packaging_pl" model="unece.code.list">
+        <field name="type">packaging_type</field>
+        <field name="code">PL</field>
+        <field name="name">Pallet</field>
+        <field name="description">A platform used to transport goods</field>
+    </record>
+
+    <record id="unece_packaging_pk" model="unece.code.list">
+        <field name="type">packaging_type</field>
+        <field name="code">PK</field>
+        <field name="name">Package</field>
+        <field name="description">A general packaging unit</field>
+    </record>
+
+    <record id="unece_packaging_cr" model="unece.code.list">
+        <field name="type">packaging_type</field>
+        <field name="code">CR</field>
+        <field name="name">Crate</field>
+        <field name="description">A rigid container, often wooden</field>
+    </record>
+
+    <record id="unece_packaging_dr" model="unece.code.list">
+        <field name="type">packaging_type</field>
+        <field name="code">DR</field>
+        <field name="name">Drum</field>
+        <field name="description">A cylindrical container</field>
+    </record>
+
+    <record id="unece_packaging_bo" model="unece.code.list">
+        <field name="type">packaging_type</field>
+        <field name="code">BO</field>
+        <field name="name">Bottle</field>
+        <field name="description">A narrow-necked container</field>
+    </record>
+
+    <record id="unece_packaging_cy" model="unece.code.list">
+        <field name="type">packaging_type</field>
+        <field name="code">CY</field>
+        <field name="name">Cylinder</field>
+        <field name="description">A cylindrical container for gases or liquids</field>
+    </record>
+
+</odoo>

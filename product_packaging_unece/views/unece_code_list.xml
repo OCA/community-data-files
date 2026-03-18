@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!-- Copyright 2026 ACSONE SA/NV
+     License AGPL-3.0 or later (https://www.gnu.org/licenses/agpl). -->
+<odoo>
+
+
+    <record id="unece_code_list_search" model="ir.ui.view">
+        <field name="model">unece.code.list</field>
+        <field name="inherit_id" ref="base_unece.unece_code_list_search" />
+        <field name="arch" type="xml">
+            <filter name="inactive" position="before">
+                <filter
+                    name="packaging_type"
+                    string="Packaging Types (UNECE Rec 21)"
+                    domain="[('type', '=', 'packaging_type')]"
+                />
+            </filter>
+        </field>
+    </record>
+
+
+</odoo>
