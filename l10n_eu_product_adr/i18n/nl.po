@@ -13897,3 +13897,8 @@ msgstr "tert-BUTYLISOCYANAAT"
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_2747
 msgid "tert-BUTYLCYCLOHEXYL CHLOROFORMATE"
 msgstr "tert-BUTYLCYCLOHEXYLCHLOORFORMIAAT"
+
+#. module: l10n_eu_product_adr
+#: model:ir.model.fields,field_description:l10n_eu_product_adr.field_product_product__adr_factor
+msgid "Adr Factor"
+msgstr "ADR-factor"

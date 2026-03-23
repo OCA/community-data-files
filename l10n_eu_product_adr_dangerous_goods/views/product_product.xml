@@ -9,6 +9,7 @@
                 <group>
                     <group name="dangerous_packing" string="Dangerous Packaging">
                         <field name="packaging_group" />
+                        <field name="adr_factor" readonly="0" />
                         <label for="content_package" />
                         <div>
                             <field name="content_package" required="is_dangerous" />
