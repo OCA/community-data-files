@@ -4,13 +4,10 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 16.0+e\n"
+"Project-Id-Version: Odoo Server 16.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-03-19 13:09+0000\n"
-"PO-Revision-Date: 2026-03-19 13:09+0000\n"
 "Last-Translator: \n"
 "Language-Team: \n"
-"Language: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
@@ -29,13 +26,10 @@ msgstr ""
 
 #. module: product_packaging_unece
 #: model:ir.model.fields,help:product_packaging_unece.field_product_packaging_level__unece_type_ids
-#, fuzzy
 msgid ""
 "Select the Packaging Type Codes of the official nomenclature of the United "
 "Nations Economic Commission for Europe (UNECE), DataElement Rec 21)"
 msgstr ""
-"Nomenclature standard de la Commission économique des Nations Unies pour "
-"l'Europe (UNECE)."
 
 #. module: product_packaging_unece
 #: model:ir.model.fields,field_description:product_packaging_unece.field_unece_code_list__type
@@ -51,12 +45,3 @@ msgstr ""
 #: model:ir.model,name:product_packaging_unece.model_unece_code_list
 msgid "UNECE nomenclatures"
 msgstr ""
-
-#~ msgid "Product Packaging"
-#~ msgstr "Conditionnement des produits"
-
-#~ msgid "UNECE Code"
-#~ msgstr "Code UNECE"
-
-#~ msgid "Update related packaging"
-#~ msgstr "Mettre à jour les conditionnements liés"
