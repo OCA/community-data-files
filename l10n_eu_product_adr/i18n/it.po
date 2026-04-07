@@ -722,6 +722,7 @@ msgstr "ADIPONITRILE"
 
 #. module: l10n_eu_product_adr
 #: model:ir.model.fields,field_description:l10n_eu_product_adr.field_adr_label__goods_ids
+#: model:res.groups.privilege,name:l10n_eu_product_adr.res_groups_privilege_adr_goods
 msgid "ADR Goods"
 msgstr "Merci ADR"
 
@@ -1219,8 +1220,8 @@ msgstr ""
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_2733_1L
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_2733_5L
 msgid ""
-"AMINES, FLAMMABLE, CORROSIVE, N.O.S. or POLYAMINES, FLAMMABLE, CORROSIVE, N."
-"O.S."
+"AMINES, FLAMMABLE, CORROSIVE, N.O.S. or POLYAMINES, FLAMMABLE, CORROSIVE, "
+"N.O.S."
 msgstr ""
 "AMMINE, INFIAMMABILI, CORROSIVE, N.A.S. o POLIAMMINE, INFIAMMABILI, "
 "CORROSIVE, N.A.S."
@@ -1829,8 +1830,8 @@ msgstr "ARSINA, ADSORBITA"
 msgid ""
 "ARTICLES CONTAINING A SUBSTANCE LIABLE TO SPONTANEOUS COMBUSTION, N.O.S."
 msgstr ""
-"ARTICOLI CONTENENTI UNA SOSTANZA CHE PUÒ ESSERE COMBUSTIBILE SPONTANEA, N.A."
-"S."
+"ARTICOLI CONTENENTI UNA SOSTANZA CHE PUÒ ESSERE COMBUSTIBILE SPONTANEA, "
+"N.A.S."
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_3543
@@ -1985,6 +1986,11 @@ msgstr "Liquido regolamentato per l'aviazione, n.a.s."
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_3335
 msgid "Aviation regulated solid, n.o.s."
 msgstr "Aviation regulated solido, n.o.s."
+
+#. module: l10n_eu_product_adr
+#: model:ir.model.fields.selection,name:l10n_eu_product_adr.selection__adr_goods__tunnel_restriction_code__b
+msgid "B"
+msgstr ""
 
 #. module: l10n_eu_product_adr
 #: model:ir.model.fields.selection,name:l10n_eu_product_adr.selection__adr_goods__tunnel_restriction_code__b/d
@@ -2618,6 +2624,11 @@ msgstr "CLORURO DI BUTIRRILE"
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_3496
 msgid "Batteries, nickel-metal hydride"
 msgstr "Batterie, nichel-metallo idruro"
+
+#. module: l10n_eu_product_adr
+#: model:ir.model.fields.selection,name:l10n_eu_product_adr.selection__adr_goods__tunnel_restriction_code__c
+msgid "C"
+msgstr ""
 
 #. module: l10n_eu_product_adr
 #: model:ir.model.fields.selection,name:l10n_eu_product_adr.selection__adr_goods__tunnel_restriction_code__c/d
@@ -4339,6 +4350,11 @@ msgid "Created on"
 msgstr "Creato il"
 
 #. module: l10n_eu_product_adr
+#: model:ir.model.fields.selection,name:l10n_eu_product_adr.selection__adr_goods__tunnel_restriction_code__d
+msgid "D"
+msgstr ""
+
+#. module: l10n_eu_product_adr
 #: model:ir.model.fields.selection,name:l10n_eu_product_adr.selection__adr_goods__tunnel_restriction_code__d/e
 msgid "D/E"
 msgstr "D/E"
@@ -5090,8 +5106,17 @@ msgstr ""
 #: model:ir.model.fields,field_description:l10n_eu_product_adr.field_adr_goods__display_name
 #: model:ir.model.fields,field_description:l10n_eu_product_adr.field_adr_label__display_name
 #: model:ir.model.fields,field_description:l10n_eu_product_adr.field_adr_packing_instruction__display_name
+#: model:ir.model.fields,field_description:l10n_eu_product_adr.field_product_product__display_name
+#: model:ir.model.fields,field_description:l10n_eu_product_adr.field_product_template__display_name
+#: model:ir.model.fields,field_description:l10n_eu_product_adr.field_stock_move__display_name
+#: model:ir.model.fields,field_description:l10n_eu_product_adr.field_stock_picking__display_name
 msgid "Display Name"
 msgstr "Nome visualizzato"
+
+#. module: l10n_eu_product_adr
+#: model:ir.model.fields.selection,name:l10n_eu_product_adr.selection__adr_goods__tunnel_restriction_code__e
+msgid "E"
+msgstr ""
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_3256_F2_3_274/560_P099/IBC99_3
@@ -5661,8 +5686,8 @@ msgid ""
 "EXTRACTS, FLAVOURING, LIQUID (having a flash-point below 23 °C and viscous "
 "according to 2.2.3.1.4) (vapour pressure at 50 °C more than 110 kPa)"
 msgstr ""
-"ESTRATTI, AROMI, LIQUIDI (aventi un punto di infiammabilità inferiore a 23 °"
-"C e viscosi secondo 2.2.3.1.4) (pressione di vapore a 50 °C superiore a 110 "
+"ESTRATTI, AROMI, LIQUIDI (aventi un punto di infiammabilità inferiore a 23 "
+"°C e viscosi secondo 2.2.3.1.4) (pressione di vapore a 50 °C superiore a 110 "
 "kPa)"
 
 #. module: l10n_eu_product_adr
@@ -5671,8 +5696,8 @@ msgid ""
 "EXTRACTS, FLAVOURING, LIQUID (having a flash-point below 23 °C and viscous "
 "according to 2.2.3.1.4) (vapour pressure at 50 °C not more than 110 kPa)"
 msgstr ""
-"ESTRATTI, AROMI, LIQUIDI (aventi un punto di infiammabilità inferiore a 23 °"
-"C e viscosi secondo 2.2.3.1.4) (pressione di vapore a 50 °C non superiore a "
+"ESTRATTI, AROMI, LIQUIDI (aventi un punto di infiammabilità inferiore a 23 "
+"°C e viscosi secondo 2.2.3.1.4) (pressione di vapore a 50 °C non superiore a "
 "110 kPa)"
 
 #. module: l10n_eu_product_adr
@@ -6357,11 +6382,6 @@ msgstr ""
 "Gas, compresi gas e vapori compressi, liquefatti e disciolti sotto pressione "
 
 #. module: l10n_eu_product_adr
-#: model_terms:ir.ui.view,arch_db:l10n_eu_product_adr.adr_goods_view_search
-msgid "Group By"
-msgstr "Raggruppa per"
-
-#. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_2545_S4_4dot2_540_P002/IBC08/LP02/R001_3
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_2545_S4_4dot2_540_P404_0
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_2545_S4_4dot2_540_P410/IBC06_2
@@ -6522,7 +6542,8 @@ msgstr "ESANOLI"
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_0118
 msgid "HEXOLITE (HEXOTOL), dry or wetted with less than 15% water, by mass"
-msgstr "ESOLITE (ESOTOL), secco o inumidito con meno del 15% di acqua, in massa"
+msgstr ""
+"ESOLITE (ESOTOL), secco o inumidito con meno del 15% di acqua, in massa"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_0393
@@ -6815,6 +6836,10 @@ msgstr "Fieno, paglia o bhusa"
 #: model:ir.model.fields,field_description:l10n_eu_product_adr.field_adr_goods__id
 #: model:ir.model.fields,field_description:l10n_eu_product_adr.field_adr_label__id
 #: model:ir.model.fields,field_description:l10n_eu_product_adr.field_adr_packing_instruction__id
+#: model:ir.model.fields,field_description:l10n_eu_product_adr.field_product_product__id
+#: model:ir.model.fields,field_description:l10n_eu_product_adr.field_product_template__id
+#: model:ir.model.fields,field_description:l10n_eu_product_adr.field_stock_move__id
+#: model:ir.model.fields,field_description:l10n_eu_product_adr.field_stock_picking__id
 msgid "ID"
 msgstr "ID"
 
@@ -8022,7 +8047,8 @@ msgstr "ALCOOL METALLICO"
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_1971
 msgid ""
 "METHANE, COMPRESSED or NATURAL GAS, COMPRESSED with high methane content"
-msgstr "METANO, COMPRESSO o GAS NATURALE, COMPRESSO ad alto contenuto di metano"
+msgstr ""
+"METANO, COMPRESSO o GAS NATURALE, COMPRESSO ad alto contenuto di metano"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_1972
@@ -8717,8 +8743,8 @@ msgid ""
 "than 110 kPa)"
 msgstr ""
 "SOLUZIONE DI NITROCELLULOSA, INFIAMMABILE con non più del 12,6% di azoto, in "
-"massa secca, e non più del 55% di nitrocellulosa (pressione di vapore a 50 °"
-"C superiore a 110 kPa)"
+"massa secca, e non più del 55% di nitrocellulosa (pressione di vapore a 50 "
+"°C superiore a 110 kPa)"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_2059_D_3_198/531/640D_1L_P001/IBC02/R001_2
@@ -8728,8 +8754,8 @@ msgid ""
 "more than 110 kPa)"
 msgstr ""
 "SOLUZIONE DI NITROCELLULOSA, INFIAMMABILE con non più del 12,6% di azoto, in "
-"massa secca, e non più del 55% di nitrocellulosa (pressione di vapore a 50 °"
-"C non superiore a 110 kPa)"
+"massa secca, e non più del 55% di nitrocellulosa (pressione di vapore a 50 "
+"°C non superiore a 110 kPa)"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_2556
@@ -9527,8 +9553,8 @@ msgid ""
 msgstr ""
 "VERNICE (comprese vernici, lacche, smalti, mordenti, gomme lacca, vernici, "
 "lucidanti, riempitivi liquidi e basi per lacche liquide) o MATERIALE "
-"CORRELATO ALLA VERNICE (compresi i composti diluenti e riducenti per vernici)"
-" (con un punto di infiammabilità inferiore a 23 °C e viscoso secondo "
+"CORRELATO ALLA VERNICE (compresi i composti diluenti e riducenti per "
+"vernici) (con un punto di infiammabilità inferiore a 23 °C e viscoso secondo "
 "2.2.3.1.4) (pressione di vapore a 50 °C superiore a 110 kPa)"
 
 #. module: l10n_eu_product_adr
@@ -9542,9 +9568,9 @@ msgid ""
 msgstr ""
 "VERNICE (comprese vernici, lacche, smalti, mordenti, gomme lacca, vernici, "
 "lucidanti, riempitivi liquidi e basi per lacche liquide) o MATERIALE "
-"CORRELATO ALLA VERNICE (compresi diluenti e composti riducenti per vernici) ("
-"con un punto di infiammabilità inferiore a 23 °C e viscosi secondo 2.2.3.1.4)"
-" (pressione di vapore a 50 °C non superiore a 110 kPa)"
+"CORRELATO ALLA VERNICE (compresi diluenti e composti riducenti per vernici) "
+"(con un punto di infiammabilità inferiore a 23 °C e viscosi secondo "
+"2.2.3.1.4) (pressione di vapore a 50 °C non superiore a 110 kPa)"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_1263_F1_3_163/367/640C/650_5L_P001_2
@@ -9556,8 +9582,8 @@ msgid ""
 msgstr ""
 "VERNICE (comprese vernici, lacche, smalti, mordenti, gomme laccate, vernici, "
 "lucidanti, riempitivi liquidi e basi per lacche liquide) o MATERIALI "
-"CORRELATI ALLA VERNICE (compresi diluenti e composti riducenti per vernici) ("
-"pressione di vapore a 50 °C superiore a 110 kPa)"
+"CORRELATI ALLA VERNICE (compresi diluenti e composti riducenti per vernici) "
+"(pressione di vapore a 50 °C superiore a 110 kPa)"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_1263_F1_3_163/367/640D/650_5L_P001/IBC02/R001_2
@@ -9569,8 +9595,8 @@ msgid ""
 msgstr ""
 "VERNICE (comprese vernici, lacche, smalti, mordenti, gomme laccate, vernici, "
 "lucidanti, riempitivi liquidi e basi per lacche liquide) o MATERIALI "
-"CORRELATI ALLA VERNICE (compresi diluenti e composti riducenti per vernici) ("
-"pressione di vapore a 50 °C non superiore a 110 kPa)"
+"CORRELATI ALLA VERNICE (compresi diluenti e composti riducenti per vernici) "
+"(pressione di vapore a 50 °C non superiore a 110 kPa)"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_3470
@@ -9771,8 +9797,8 @@ msgid ""
 "PERFUMERY PRODUCTS with flammable solvents (vapour pressure at 50 °C more "
 "than 110 kPa)"
 msgstr ""
-"PRODOTTI DI PROFUMERIA con solventi infiammabili (pressione di vapore a 50 °"
-"C superiore a 110 kPa)"
+"PRODOTTI DI PROFUMERIA con solventi infiammabili (pressione di vapore a 50 "
+"°C superiore a 110 kPa)"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_1266_F1_3_640D/163_5L_P001/IBC02/R001_2
@@ -9780,8 +9806,8 @@ msgid ""
 "PERFUMERY PRODUCTS with flammable solvents (vapour pressure at 50 °C not "
 "more than 110 kPa)"
 msgstr ""
-"PRODOTTI DI PROFUMERIA con solventi infiammabili (pressione di vapore a 50 °"
-"C non superiore a 110 kPa)"
+"PRODOTTI DI PROFUMERIA con solventi infiammabili (pressione di vapore a 50 "
+"°C non superiore a 110 kPa)"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_3214
@@ -10864,8 +10890,8 @@ msgid ""
 "RADIOACTIVE MATERIAL, SURFACE CONTAMINATED OBJECTS (SCO-I or SCO-II), non "
 "fissile or fissile-excepted"
 msgstr ""
-"MATERIALE RADIOATTIVO, OGGETTI CONTAMINATI SUPERFICIALMENTE (SCO-I o SCO-II)"
-", non fissili o fissili esenti"
+"MATERIALE RADIOATTIVO, OGGETTI CONTAMINATI SUPERFICIALMENTE (SCO-I o SCO-"
+"II), non fissili o fissili esenti"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_3331
@@ -11178,7 +11204,8 @@ msgstr "OLIO DI COLOFONIA (pressione di vapore a 50 °C superiore a 110 kPa)"
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_1286_F1_3_640D_5L_P001/IBC02/R001_2
 msgid "ROSIN OIL (vapour pressure at 50 °C not more than 110 kPa)"
-msgstr "OLIO DI COLOFONIA (pressione di vapore a 50 °C non superiore a 110 kPa)"
+msgstr ""
+"OLIO DI COLOFONIA (pressione di vapore a 50 °C non superiore a 110 kPa)"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_1345
@@ -11284,7 +11311,8 @@ msgstr "CAMPIONI, ESPLOSIVI, diversi dall'innesco esplosivo"
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_1386
 msgid "SEED CAKE with more than 1.5% oil and not more than 11% moisture"
-msgstr "PANETTO DI SEMI con più dell'1,5% di olio e non più dell'11% di umidità"
+msgstr ""
+"PANETTO DI SEMI con più dell'1,5% di olio e non più dell'11% di umidità"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_2217
@@ -12162,8 +12190,8 @@ msgid ""
 "50 °C not more than 110 kPa)"
 msgstr ""
 "CATRAMI LIQUIDI, compresi gli oli stradali e i bitumi tagliati (aventi un "
-"punto di infiammabilità inferiore a 23 °C e viscosi secondo 2.2.3.1.4) ("
-"pressione di vapore a 50 °C non superiore a 110 kPa)"
+"punto di infiammabilità inferiore a 23 °C e viscosi secondo 2.2.3.1.4) "
+"(pressione di vapore a 50 °C non superiore a 110 kPa)"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_1999_F1_3_5L_P001/R001_3
@@ -12173,8 +12201,8 @@ msgid ""
 "°C more than 110 kPa)"
 msgstr ""
 "CATRAMI, LIQUIDI, compresi gli oli stradali e i bitumi tagliati (aventi un "
-"punto di infiammabilità inferiore a 23 °C e viscosi secondo 2.2.3.1.4) ("
-"pressione di vapore a 50 °C superiore a 110 kPa)"
+"punto di infiammabilità inferiore a 23 °C e viscosi secondo 2.2.3.1.4) "
+"(pressione di vapore a 50 °C superiore a 110 kPa)"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_1999_F1_3_640C_5L_P001_2
@@ -13805,11 +13833,6 @@ msgid "cat:%s"
 msgstr "cat: %s"
 
 #. module: l10n_eu_product_adr
-#: model:uom.uom,name:uom.product_uom_milliliter
-msgid "ml"
-msgstr "ml"
-
-#. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_1110
 msgid "n-AMYL METHYL KETONE"
 msgstr "n-AMILMETILCHETONE"
@@ -13915,3 +13938,9 @@ msgstr "isocianato di terz-butile"
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_2747
 msgid "tert-BUTYLCYCLOHEXYL CHLOROFORMATE"
 msgstr "tert-BUTILCICLOESIL CLOROFORMIATO"
+
+#~ msgid "Group By"
+#~ msgstr "Raggruppa per"
+
+#~ msgid "ml"
+#~ msgstr "ml"

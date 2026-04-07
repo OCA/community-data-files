@@ -715,6 +715,7 @@ msgstr "ADIPONITRIL"
 
 #. module: l10n_eu_product_adr
 #: model:ir.model.fields,field_description:l10n_eu_product_adr.field_adr_label__goods_ids
+#: model:res.groups.privilege,name:l10n_eu_product_adr.res_groups_privilege_adr_goods
 msgid "ADR Goods"
 msgstr ""
 
@@ -1210,8 +1211,8 @@ msgstr ""
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_2733_1L
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_2733_5L
 msgid ""
-"AMINES, FLAMMABLE, CORROSIVE, N.O.S. or POLYAMINES, FLAMMABLE, CORROSIVE, N."
-"O.S."
+"AMINES, FLAMMABLE, CORROSIVE, N.O.S. or POLYAMINES, FLAMMABLE, CORROSIVE, "
+"N.O.S."
 msgstr ""
 "AMINE, ENTZÜNDBAR, ÄTZEND, N.A.G. oder POLYAMINE, ENTZÜNDBAR, ÄTZEND, N.A.G."
 
@@ -1724,8 +1725,8 @@ msgid ""
 "ARSENIC COMPOUND, LIQUID, N.O.S., inorganic, including: Arsenates, n.o.s., "
 "Arsenites, n.o.s.; and Arsenic sulphides, n.o.s."
 msgstr ""
-"ARSENVERBINDUNG, FLÜSSIG, N.A.G., anorganisch, einschließlich Arsenate, n.a."
-"g., Arsenite, n.a.g. und Arsensulfide, n.a.g."
+"ARSENVERBINDUNG, FLÜSSIG, N.A.G., anorganisch, einschließlich Arsenate, "
+"n.a.g., Arsenite, n.a.g. und Arsensulfide, n.a.g."
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_1557
@@ -1856,8 +1857,8 @@ msgstr "GEGENSTÄNDE, DIE ORGANISCHES PEROXID ENTHALTEN, N.A.G."
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_3544
 msgid "ARTICLES CONTAINING OXIDIZING SUBSTANCE, N.O.S."
 msgstr ""
-"GEGENSTÄNDE, DIE EINEN ENTZÜNDEND (OXIDIEREND) WIRKENDEN STOFF ENTHALTEN, N."
-"A.G."
+"GEGENSTÄNDE, DIE EINEN ENTZÜNDEND (OXIDIEREND) WIRKENDEN STOFF ENTHALTEN, "
+"N.A.G."
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_3539
@@ -1965,8 +1966,13 @@ msgstr ""
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_3335
 msgid "Aviation regulated solid, n.o.s."
 msgstr ""
-"Fester Stoff, den für die Luftfahrt geltenden Vorschriften unterliegend, n.a."
-"g."
+"Fester Stoff, den für die Luftfahrt geltenden Vorschriften unterliegend, "
+"n.a.g."
+
+#. module: l10n_eu_product_adr
+#: model:ir.model.fields.selection,name:l10n_eu_product_adr.selection__adr_goods__tunnel_restriction_code__b
+msgid "B"
+msgstr ""
 
 #. module: l10n_eu_product_adr
 #: model:ir.model.fields.selection,name:l10n_eu_product_adr.selection__adr_goods__tunnel_restriction_code__b/d
@@ -2604,6 +2610,11 @@ msgstr "BUTYRYLCHLORID"
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_3496
 msgid "Batteries, nickel-metal hydride"
 msgstr "Batterien, Nickelmetallhydrid"
+
+#. module: l10n_eu_product_adr
+#: model:ir.model.fields.selection,name:l10n_eu_product_adr.selection__adr_goods__tunnel_restriction_code__c
+msgid "C"
+msgstr ""
 
 #. module: l10n_eu_product_adr
 #: model:ir.model.fields.selection,name:l10n_eu_product_adr.selection__adr_goods__tunnel_restriction_code__c/d
@@ -3571,8 +3582,8 @@ msgid ""
 "CLINICAL WASTE, UNSPECIFIED, N.O.S. or (BIO) MEDICAL WASTE, N.O.S. or "
 "REGULATED MEDICAL WASTE, N.O.S."
 msgstr ""
-"KLINISCHER ABFALL, UNSPEZIFIZIERT, N.A.G. oder (BIO)MEDIZINISCHER ABFALL, N."
-"A.G. oder UNTER DIE VORSCHRIFTEN FALLENDER MEDIZINISCHER ABFALL, N.A.G."
+"KLINISCHER ABFALL, UNSPEZIFIZIERT, N.A.G. oder (BIO)MEDIZINISCHER ABFALL, "
+"N.A.G. oder UNTER DIE VORSCHRIFTEN FALLENDER MEDIZINISCHER ABFALL, N.A.G."
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_3291_I3_6dot2/2dot2_565_P621/IBC620/LP621_2
@@ -3580,9 +3591,9 @@ msgid ""
 "CLINICAL WASTE, UNSPECIFIED, N.O.S. or (BIO) MEDICAL WASTE, N.O.S. or "
 "REGULATED MEDICAL WASTE, N.O.S., in refrigerated liquid nitrogen"
 msgstr ""
-"KLINISCHER ABFALL UNSPEZIFIZIERT, N.A.G. oder (BIO)MEDIZINISCHER ABFALL, N.A."
-"G. oder UNTER DIE VORSCHRIFTEN FALLENDER MEDIZINISCHER ABFALL, N.A.G., in "
-"tiefgekühlt verflüssigtem Stickstoff"
+"KLINISCHER ABFALL UNSPEZIFIZIERT, N.A.G. oder (BIO)MEDIZINISCHER ABFALL, "
+"N.A.G. oder UNTER DIE VORSCHRIFTEN FALLENDER MEDIZINISCHER ABFALL, N.A.G., "
+"in tiefgekühlt verflüssigtem Stickstoff"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_1023
@@ -4304,6 +4315,11 @@ msgstr ""
 #: model:ir.model.fields,field_description:l10n_eu_product_adr.field_adr_label__create_date
 #: model:ir.model.fields,field_description:l10n_eu_product_adr.field_adr_packing_instruction__create_date
 msgid "Created on"
+msgstr ""
+
+#. module: l10n_eu_product_adr
+#: model:ir.model.fields.selection,name:l10n_eu_product_adr.selection__adr_goods__tunnel_restriction_code__d
+msgid "D"
 msgstr ""
 
 #. module: l10n_eu_product_adr
@@ -5058,8 +5074,17 @@ msgstr ""
 #: model:ir.model.fields,field_description:l10n_eu_product_adr.field_adr_goods__display_name
 #: model:ir.model.fields,field_description:l10n_eu_product_adr.field_adr_label__display_name
 #: model:ir.model.fields,field_description:l10n_eu_product_adr.field_adr_packing_instruction__display_name
+#: model:ir.model.fields,field_description:l10n_eu_product_adr.field_product_product__display_name
+#: model:ir.model.fields,field_description:l10n_eu_product_adr.field_product_template__display_name
+#: model:ir.model.fields,field_description:l10n_eu_product_adr.field_stock_move__display_name
+#: model:ir.model.fields,field_description:l10n_eu_product_adr.field_stock_picking__display_name
 msgid "Display Name"
 msgstr "Anzeigename"
+
+#. module: l10n_eu_product_adr
+#: model:ir.model.fields.selection,name:l10n_eu_product_adr.selection__adr_goods__tunnel_restriction_code__e
+msgid "E"
+msgstr ""
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_3256_F2_3_274/560_P099/IBC99_3
@@ -6305,11 +6330,6 @@ msgid ""
 msgstr ""
 
 #. module: l10n_eu_product_adr
-#: model_terms:ir.ui.view,arch_db:l10n_eu_product_adr.adr_goods_view_search
-msgid "Group By"
-msgstr ""
-
-#. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_2545_S4_4dot2_540_P002/IBC08/LP02/R001_3
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_2545_S4_4dot2_540_P404_0
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_2545_S4_4dot2_540_P410/IBC06_2
@@ -6761,6 +6781,10 @@ msgstr "Heu oder Stroh oder Bhusa"
 #: model:ir.model.fields,field_description:l10n_eu_product_adr.field_adr_goods__id
 #: model:ir.model.fields,field_description:l10n_eu_product_adr.field_adr_label__id
 #: model:ir.model.fields,field_description:l10n_eu_product_adr.field_adr_packing_instruction__id
+#: model:ir.model.fields,field_description:l10n_eu_product_adr.field_product_product__id
+#: model:ir.model.fields,field_description:l10n_eu_product_adr.field_product_template__id
+#: model:ir.model.fields,field_description:l10n_eu_product_adr.field_stock_move__id
+#: model:ir.model.fields,field_description:l10n_eu_product_adr.field_stock_picking__id
 msgid "ID"
 msgstr ""
 
@@ -12546,8 +12570,8 @@ msgid ""
 "equal to 1000 ml/m3 and saturated vapour concentration greater than or equal "
 "to 10 LC50"
 msgstr ""
-"BEIM EINATMEN GIFTIGER FLÜSSIGER STOFF, ENTZÜNDEND (OXIDIEREND) WIRKEND, N.A."
-"G., mit einem LC50-Wert von höchstens 1000 ml/m³ und einer gesättigten "
+"BEIM EINATMEN GIFTIGER FLÜSSIGER STOFF, ENTZÜNDEND (OXIDIEREND) WIRKEND, "
+"N.A.G., mit einem LC50-Wert von höchstens 1000 ml/m³ und einer gesättigten "
 "Dampfkonzentration von mindestens 10 LC50"
 
 #. module: l10n_eu_product_adr
@@ -12557,8 +12581,8 @@ msgid ""
 "equal to 200 ml/m3 and saturated vapour concentration greater than or equal "
 "to 500 LC50"
 msgstr ""
-"BEIM EINATMEN GIFTIGER FLÜSSIGER STOFF, ENTZÜNDEND (OXIDIEREND) WIRKEND, N.A."
-"G., mit einem LC50-Wert von höchstens 200 ml/m³ und einer gesättigten "
+"BEIM EINATMEN GIFTIGER FLÜSSIGER STOFF, ENTZÜNDEND (OXIDIEREND) WIRKEND, "
+"N.A.G., mit einem LC50-Wert von höchstens 200 ml/m³ und einer gesättigten "
 "Dampfkonzentration von mindestens 500 LC50"
 
 #. module: l10n_eu_product_adr
@@ -12568,8 +12592,8 @@ msgid ""
 "lower than or equal to 1000 ml/m³ and saturated vapour concentration greater "
 "than or equal to 10 LC50"
 msgstr ""
-"BEIM EINATMEN GIFTIGER FLÜSSIGER STOFF, MIT WASSER REAGIEREND, ENTZÜNDBAR, N."
-"A.G., mit einem LC50-Wert von höchstens 1000 ml/m3 und einer gesättigten "
+"BEIM EINATMEN GIFTIGER FLÜSSIGER STOFF, MIT WASSER REAGIEREND, ENTZÜNDBAR, "
+"N.A.G., mit einem LC50-Wert von höchstens 1000 ml/m3 und einer gesättigten "
 "Dampfkonzentration von mindestens 10 LC50"
 
 #. module: l10n_eu_product_adr
@@ -12579,8 +12603,8 @@ msgid ""
 "lower than or equal to 200 ml/m³ and saturated vapour concentration greater "
 "than or equal to 500 LC50"
 msgstr ""
-"BEIM EINATMEN GIFTIGER FLÜSSIGER STOFF, MIT WASSER REAGIEREND, ENTZÜNDBAR, N."
-"A.G., mit einem LC50-Wert von höchstens 200 ml/m3 und einer gesättigten "
+"BEIM EINATMEN GIFTIGER FLÜSSIGER STOFF, MIT WASSER REAGIEREND, ENTZÜNDBAR, "
+"N.A.G., mit einem LC50-Wert von höchstens 200 ml/m3 und einer gesättigten "
 "Dampfkonzentration von mindestens 500 LC50"
 
 #. module: l10n_eu_product_adr
@@ -13736,11 +13760,6 @@ msgstr "beta-NAPHTHYLAMIN, FEST"
 #. odoo-python
 #: code:addons/l10n_eu_product_adr/models/adr_goods.py:0
 msgid "cat:%s"
-msgstr ""
-
-#. module: l10n_eu_product_adr
-#: model:uom.uom,name:uom.product_uom_milliliter
-msgid "ml"
 msgstr ""
 
 #. module: l10n_eu_product_adr
