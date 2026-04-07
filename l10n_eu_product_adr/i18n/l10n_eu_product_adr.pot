@@ -1888,6 +1888,11 @@ msgid "Aviation regulated solid, n.o.s."
 msgstr ""
 
 #. module: l10n_eu_product_adr
+#: model:ir.model.fields.selection,name:l10n_eu_product_adr.selection__adr_goods__tunnel_restriction_code__b
+msgid "B"
+msgstr ""
+
+#. module: l10n_eu_product_adr
 #: model:ir.model.fields.selection,name:l10n_eu_product_adr.selection__adr_goods__tunnel_restriction_code__b/d
 msgid "B/D"
 msgstr ""
@@ -2507,6 +2512,11 @@ msgstr ""
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_3496
 msgid "Batteries, nickel-metal hydride"
+msgstr ""
+
+#. module: l10n_eu_product_adr
+#: model:ir.model.fields.selection,name:l10n_eu_product_adr.selection__adr_goods__tunnel_restriction_code__c
+msgid "C"
 msgstr ""
 
 #. module: l10n_eu_product_adr
@@ -4141,6 +4151,11 @@ msgid "Created on"
 msgstr ""
 
 #. module: l10n_eu_product_adr
+#: model:ir.model.fields.selection,name:l10n_eu_product_adr.selection__adr_goods__tunnel_restriction_code__d
+msgid "D"
+msgstr ""
+
+#. module: l10n_eu_product_adr
 #: model:ir.model.fields.selection,name:l10n_eu_product_adr.selection__adr_goods__tunnel_restriction_code__d/e
 msgid "D/E"
 msgstr ""
@@ -4873,6 +4888,11 @@ msgstr ""
 #: model:ir.model.fields,field_description:l10n_eu_product_adr.field_stock_move__display_name
 #: model:ir.model.fields,field_description:l10n_eu_product_adr.field_stock_picking__display_name
 msgid "Display Name"
+msgstr ""
+
+#. module: l10n_eu_product_adr
+#: model:ir.model.fields.selection,name:l10n_eu_product_adr.selection__adr_goods__tunnel_restriction_code__e
+msgid "E"
 msgstr ""
 
 #. module: l10n_eu_product_adr
