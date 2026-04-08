@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
-"PO-Revision-Date: 2025-02-05 12:07+0000\n"
+"PO-Revision-Date: 2026-04-08 13:45+0000\n"
 "Last-Translator: mymage <stefano.consolaro@mymage.it>\n"
 "Language-Team: none\n"
 "Language: it\n"
@@ -14,7 +14,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.6.2\n"
+"X-Generator: Weblate 5.15.2\n"
 
 #. module: l10n_eu_product_adr_dangerous_goods
 #: model:ir.model.fields.selection,name:l10n_eu_product_adr_dangerous_goods.selection__product_product__label_first__12
@@ -26,62 +26,62 @@ msgstr "9A"
 #. module: l10n_eu_product_adr_dangerous_goods
 #: model:ir.model,name:l10n_eu_product_adr_dangerous_goods.model_adr_dangerous_uom
 msgid "ADR Dangerous UOM"
-msgstr ""
+msgstr "UdM pericolosità ADR"
 
 #. module: l10n_eu_product_adr_dangerous_goods
 #: model:ir.model,name:l10n_eu_product_adr_dangerous_goods.model_adr_limited_amount
 msgid "ADR Limited Amount"
-msgstr ""
+msgstr "Valore limitato ADR"
 
 #. module: l10n_eu_product_adr_dangerous_goods
 #: model:ir.model,name:l10n_eu_product_adr_dangerous_goods.model_adr_packaging_type
 msgid "ADR Packaging"
-msgstr ""
+msgstr "Imballaggio ADR"
 
 #. module: l10n_eu_product_adr_dangerous_goods
 #: model:ir.model,name:l10n_eu_product_adr_dangerous_goods.model_adr_storage_class
 msgid "ADR Storage Class"
-msgstr ""
+msgstr "Classe stoccaggio ADR"
 
 #. module: l10n_eu_product_adr_dangerous_goods
 #: model:ir.model,name:l10n_eu_product_adr_dangerous_goods.model_adr_storage_temp
 msgid "ADR Storage Temp"
-msgstr ""
+msgstr "Temperatura stoccaggio ADR"
 
 #. module: l10n_eu_product_adr_dangerous_goods
 #: model:ir.model,name:l10n_eu_product_adr_dangerous_goods.model_adr_wgk_class
 msgid "ADR WGK Class"
-msgstr ""
+msgstr "Classe WGK ADR"
 
 #. module: l10n_eu_product_adr_dangerous_goods
 #: model:ir.model.fields,field_description:l10n_eu_product_adr_dangerous_goods.field_product_product__adr_dangerous_uom_id
 msgid "Adr Dangerous Uom"
-msgstr ""
+msgstr "UdM pericolosità ADR"
 
 #. module: l10n_eu_product_adr_dangerous_goods
 #: model:ir.model.fields,field_description:l10n_eu_product_adr_dangerous_goods.field_product_product__adr_limited_amount_id
 msgid "Adr Limited Amount"
-msgstr ""
+msgstr "Valore limite ADR"
 
 #. module: l10n_eu_product_adr_dangerous_goods
 #: model:ir.model.fields,field_description:l10n_eu_product_adr_dangerous_goods.field_product_product__adr_packaging_type_id
 msgid "Adr Packaging Type"
-msgstr ""
+msgstr "Tipo imballaggio ADR"
 
 #. module: l10n_eu_product_adr_dangerous_goods
 #: model:ir.model.fields,field_description:l10n_eu_product_adr_dangerous_goods.field_product_product__adr_storage_class_id
 msgid "Adr Storage Class"
-msgstr ""
+msgstr "Classe stoccaggio ADR"
 
 #. module: l10n_eu_product_adr_dangerous_goods
 #: model:ir.model.fields,field_description:l10n_eu_product_adr_dangerous_goods.field_product_product__adr_storage_temp_id
 msgid "Adr Storage Temp"
-msgstr ""
+msgstr "Temperatura stoccaggio ADR"
 
 #. module: l10n_eu_product_adr_dangerous_goods
 #: model:ir.model.fields,field_description:l10n_eu_product_adr_dangerous_goods.field_product_product__adr_wgk_class_id
 msgid "Adr Wgk Class"
-msgstr ""
+msgstr "Classe WGK ADR"
 
 #. module: l10n_eu_product_adr_dangerous_goods
 #: model:ir.model.fields,field_description:l10n_eu_product_adr_dangerous_goods.field_product_product__content_package
@@ -147,7 +147,7 @@ msgstr "Identificazione rischio"
 #. module: l10n_eu_product_adr_dangerous_goods
 #: model:ir.model.fields.selection,name:l10n_eu_product_adr_dangerous_goods.selection__product_product__packaging_group__2
 msgid "I"
-msgstr ""
+msgstr "I"
 
 #. module: l10n_eu_product_adr_dangerous_goods
 #: model:ir.model.fields,field_description:l10n_eu_product_adr_dangerous_goods.field_adr_dangerous_uom__id
