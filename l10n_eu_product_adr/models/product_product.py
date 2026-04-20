@@ -3,6 +3,8 @@
 # License AGPL-3.0 or later (https://www.gnu.org/licenses/agpl)
 from odoo import api, fields, models
 
+from .common import category_points_factor_map, un_number_points_factor_map
+
 
 class ProductProduct(models.Model):
     _inherit = "product.product"
@@ -36,6 +38,20 @@ class ProductProduct(models.Model):
     adr_tunnel_restriction_code = fields.Selection(
         related="adr_goods_id.tunnel_restriction_code",
     )
+    adr_factor = fields.Integer(compute="_compute_adr_factor", store=True)
+
+    @api.depends("adr_goods_id")
+    def _compute_adr_factor(self):
+        for product in self:
+            if product.adr_goods_id:
+                product.adr_factor = un_number_points_factor_map.get(
+                    product.adr_goods_id.un_number,
+                    category_points_factor_map.get(
+                        product.adr_goods_id.transport_category, 0
+                    ),
+                )
+            else:
+                product.adr_factor = 0
 
     @api.onchange("is_dangerous")
     def onchange_is_dangerous(self):
