@@ -19,7 +19,7 @@ msgstr ""
 
 #. module: company_sanitary_registry
 #: model_terms:ir.ui.view,arch_db:company_sanitary_registry.sanitary_registry_template
-msgid "<span>UE</span>"
+msgid "<span>CE</span>"
 msgstr ""
 
 #. module: company_sanitary_registry
@@ -110,6 +110,7 @@ msgid "Sanitary Registry by Category and Warehouse"
 msgstr "Registro sanitario por categoría y almacén"
 
 #. module: company_sanitary_registry
+#. odoo-python
 #: code:addons/company_sanitary_registry/models/sanitary_registry.py:0
 #, python-format
 msgid "There are already sanitary registrations with values %s."
