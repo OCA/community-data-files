@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 16.0\n"
 "Report-Msgid-Bugs-To: \n"
-"PO-Revision-Date: 2024-05-06 14:34+0000\n"
+"PO-Revision-Date: 2026-04-30 10:45+0000\n"
 "Last-Translator: mymage <stefano.consolaro@mymage.it>\n"
 "Language-Team: none\n"
 "Language: it\n"
@@ -14,7 +14,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.17\n"
+"X-Generator: Weblate 5.15.2\n"
 
 #. module: company_sanitary_registry
 #: model_terms:ir.ui.view,arch_db:company_sanitary_registry.sanitary_registry_template
@@ -24,7 +24,7 @@ msgstr "<span>CE</span>"
 #. module: company_sanitary_registry
 #: model:ir.model.fields,field_description:company_sanitary_registry.field_sanitary_registry_warehouse_category__category_id
 msgid "Category"
-msgstr ""
+msgstr "Categoria"
 
 #. module: company_sanitary_registry
 #: model:ir.model,name:company_sanitary_registry.model_res_company
@@ -34,61 +34,61 @@ msgstr "Aziende"
 #. module: company_sanitary_registry
 #: model:ir.model.fields,field_description:company_sanitary_registry.field_sanitary_registry_warehouse_category__category_complete_name
 msgid "Complete Name"
-msgstr ""
+msgstr "Nome completo"
 
 #. module: company_sanitary_registry
 #: model:ir.model.fields,field_description:company_sanitary_registry.field_sanitary_registry__create_uid
 #: model:ir.model.fields,field_description:company_sanitary_registry.field_sanitary_registry_warehouse_category__create_uid
 msgid "Created by"
-msgstr ""
+msgstr "Creato da"
 
 #. module: company_sanitary_registry
 #: model:ir.model.fields,field_description:company_sanitary_registry.field_sanitary_registry__create_date
 #: model:ir.model.fields,field_description:company_sanitary_registry.field_sanitary_registry_warehouse_category__create_date
 msgid "Created on"
-msgstr ""
+msgstr "Creato il"
 
 #. module: company_sanitary_registry
 #: model:ir.model.fields,field_description:company_sanitary_registry.field_sanitary_registry__display_name
 #: model:ir.model.fields,field_description:company_sanitary_registry.field_sanitary_registry_warehouse_category__display_name
 msgid "Display Name"
-msgstr ""
+msgstr "Nome visualizzato"
 
 #. module: company_sanitary_registry
 #: model:ir.model.fields,field_description:company_sanitary_registry.field_sanitary_registry__id
 #: model:ir.model.fields,field_description:company_sanitary_registry.field_sanitary_registry_warehouse_category__id
 msgid "ID"
-msgstr ""
+msgstr "ID"
 
 #. module: company_sanitary_registry
 #: model:ir.model.fields,field_description:company_sanitary_registry.field_sanitary_registry____last_update
 #: model:ir.model.fields,field_description:company_sanitary_registry.field_sanitary_registry_warehouse_category____last_update
 msgid "Last Modified on"
-msgstr ""
+msgstr "Ultima modifica il"
 
 #. module: company_sanitary_registry
 #: model:ir.model.fields,field_description:company_sanitary_registry.field_sanitary_registry__write_uid
 #: model:ir.model.fields,field_description:company_sanitary_registry.field_sanitary_registry_warehouse_category__write_uid
 msgid "Last Updated by"
-msgstr ""
+msgstr "Ultimo aggiornamento di"
 
 #. module: company_sanitary_registry
 #: model:ir.model.fields,field_description:company_sanitary_registry.field_sanitary_registry__write_date
 #: model:ir.model.fields,field_description:company_sanitary_registry.field_sanitary_registry_warehouse_category__write_date
 msgid "Last Updated on"
-msgstr ""
+msgstr "Ultimo aggiornamento il"
 
 #. module: company_sanitary_registry
 #: model:ir.model.fields,field_description:company_sanitary_registry.field_res_company__sanitary_registry
 #: model:ir.model.fields,field_description:company_sanitary_registry.field_sanitary_registry__name
 msgid "Name"
-msgstr ""
+msgstr "Nome"
 
 #. module: company_sanitary_registry
 #: model:ir.actions.act_window,name:company_sanitary_registry.action_sanitary_registry
 #: model:ir.ui.menu,name:company_sanitary_registry.menu_action_sanitary_registry
 msgid "Sanitary Registries"
-msgstr ""
+msgstr "Registri sanitari"
 
 #. module: company_sanitary_registry
 #: model:ir.model,name:company_sanitary_registry.model_sanitary_registry
@@ -100,22 +100,22 @@ msgstr "Registro sanitario"
 #. module: company_sanitary_registry
 #: model:ir.model,name:company_sanitary_registry.model_sanitary_registry_warehouse_category
 msgid "Sanitary Registry Warehouse Category"
-msgstr ""
+msgstr "Categoria magazzino registro sanitario"
 
 #. module: company_sanitary_registry
 #: model:ir.actions.act_window,name:company_sanitary_registry.sanitary_registry_warehouse_category_action
 #: model:ir.ui.menu,name:company_sanitary_registry.sanitary_registry_warehouse_category_menuitem
 msgid "Sanitary Registry by Category and Warehouse"
-msgstr ""
+msgstr "Registro sanitario per categoria e magazzino"
 
 #. module: company_sanitary_registry
 #. odoo-python
 #: code:addons/company_sanitary_registry/models/sanitary_registry.py:0
 #, python-format
 msgid "There are already sanitary registrations with values %s."
-msgstr ""
+msgstr "Ci sono già delle registrazioni sanitarie con valori %s."
 
 #. module: company_sanitary_registry
 #: model:ir.model.fields,field_description:company_sanitary_registry.field_sanitary_registry_warehouse_category__warehouse_id
 msgid "Warehouse"
-msgstr ""
+msgstr "Magazzino"
