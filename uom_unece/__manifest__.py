@@ -4,7 +4,7 @@
 
 {
     "name": "Product UoM UNECE",
-    "version": "16.0.1.3.0",
+    "version": "16.0.1.3.1",
     "category": "Sales",
     "license": "AGPL-3",
     "development_status": "Production/Stable",
