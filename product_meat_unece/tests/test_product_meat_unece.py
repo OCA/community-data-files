@@ -8,7 +8,7 @@ from odoo.tests.common import SavepointCase
 class TestProductMeatUnece(SavepointCase):
     @classmethod
     def setUpClass(cls):
-        super(TestProductMeatUnece, cls).setUpClass()
+        super().setUpClass()
 
         # MODELS
         cls.unece_code_list_model = cls.env["unece.code.list"]

@@ -1,3 +1,7 @@
+.. image:: https://odoo-community.org/readme-banner-image
+   :target: https://odoo-community.org/get-involved?utm_source=readme
+   :alt: Odoo Community Association
+
 ==================
 Product Meat Unece
 ==================
@@ -13,25 +17,27 @@ Product Meat Unece
 .. |badge1| image:: https://img.shields.io/badge/maturity-Beta-yellow.png
     :target: https://odoo-community.org/page/development-status
     :alt: Beta
-.. |badge2| image:: https://img.shields.io/badge/licence-AGPL--3-blue.png
+.. |badge2| image:: https://img.shields.io/badge/license-AGPL--3-blue.png
     :target: http://www.gnu.org/licenses/agpl-3.0-standalone.html
     :alt: License: AGPL-3
 .. |badge3| image:: https://img.shields.io/badge/github-OCA%2Fcommunity--data--files-lightgray.png?logo=github
-    :target: https://github.com/OCA/community-data-files/tree/13.0/product_meat_unece
+    :target: https://github.com/OCA/community-data-files/tree/19.0/product_meat_unece
     :alt: OCA/community-data-files
 .. |badge4| image:: https://img.shields.io/badge/weblate-Translate%20me-F47D42.png
-    :target: https://translation.odoo-community.org/projects/community-data-files-13-0/community-data-files-13-0-product_meat_unece
+    :target: https://translation.odoo-community.org/projects/community-data-files-19-0/community-data-files-19-0-product_meat_unece
     :alt: Translate me on Weblate
 .. |badge5| image:: https://img.shields.io/badge/runboat-Try%20me-875A7B.png
-    :target: https://runboat.odoo-community.org/builds?repo=OCA/community-data-files&target_branch=13.0
+    :target: https://runboat.odoo-community.org/builds?repo=OCA/community-data-files&target_branch=19.0
     :alt: Try me on Runboat
 
 |badge1| |badge2| |badge3| |badge4| |badge5|
 
-This module adds the `UNECE Meat Carcasses and Cuts Classification <https://www.unece.org/trade/agr/standard/meat/meat_e.html>`_ standardized by the
-`United Nations Economic Commission for Europe <https://www.unece.org>`_
-(which has 56 members states in Europe, America and Central Asia, cf
-`Wikipedia <https://en.wikipedia.org/wiki/United_Nations_Economic_Commission_for_Europe>`_.
+This module adds the `UNECE Meat Carcasses and Cuts
+Classification <https://www.unece.org/trade/agr/standard/meat/meat_e.html>`__
+standardized by the `United Nations Economic Commission for
+Europe <https://www.unece.org>`__ (which has 56 members states in
+Europe, America and Central Asia, cf
+`Wikipedia <https://en.wikipedia.org/wiki/United_Nations_Economic_Commission_for_Europe>`__.
 These code lists are sometimes called UNCL (United Nations Code List).
 
 **Table of contents**
@@ -42,26 +48,26 @@ These code lists are sometimes called UNCL (United Nations Code List).
 Usage
 =====
 
-On product templates, a new page allows to set the UNECE meat field.
-The 20 digits code is automatically computed.
+On product templates, a new page allows to set the UNECE meat field. The
+20 digits code is automatically computed.
 
 Known issues / Roadmap
 ======================
 
-* Implement Caprine Meat
-* Implement Chicken Meat
-* Implement Deer Meat
-* Implement Duck Meat
-* Implement Edible Meat co-products
-* Implement Llama/alpaca Meat
-* Implement Ovine Meat
-* Implement Porcine Meat
-* Implement Processes Poultry Meat
-* Implement Rabbit meat
-* Implement Turkey Meat
-* Implement Goose Meat
-* Implement Horse Meat
-* Implement Veal Meat
+- Implement Caprine Meat
+- Implement Chicken Meat
+- Implement Deer Meat
+- Implement Duck Meat
+- Implement Edible Meat co-products
+- Implement Llama/alpaca Meat
+- Implement Ovine Meat
+- Implement Porcine Meat
+- Implement Processes Poultry Meat
+- Implement Rabbit meat
+- Implement Turkey Meat
+- Implement Goose Meat
+- Implement Horse Meat
+- Implement Veal Meat
 
 Bug Tracker
 ===========
@@ -69,7 +75,7 @@ Bug Tracker
 Bugs are tracked on `GitHub Issues <https://github.com/OCA/community-data-files/issues>`_.
 In case of trouble, please check there if your issue has already been reported.
 If you spotted it first, help us to smash it by providing a detailed and welcomed
-`feedback <https://github.com/OCA/community-data-files/issues/new?body=module:%20product_meat_unece%0Aversion:%2013.0%0A%0A**Steps%20to%20reproduce**%0A-%20...%0A%0A**Current%20behavior**%0A%0A**Expected%20behavior**>`_.
+`feedback <https://github.com/OCA/community-data-files/issues/new?body=module:%20product_meat_unece%0Aversion:%2019.0%0A%0A**Steps%20to%20reproduce**%0A-%20...%0A%0A**Current%20behavior**%0A%0A**Expected%20behavior**>`_.
 
 Do not contact contributors directly about support or help with technical issues.
 
@@ -77,17 +83,17 @@ Credits
 =======
 
 Authors
-~~~~~~~
+-------
 
 * ACSONE SA/NV
 
 Contributors
-~~~~~~~~~~~~
+------------
 
-* Thomas Binsfeld (ACSONE) <thomas.binsfeld@acsone.eu>
+- Thomas Binsfeld (ACSONE) <thomas.binsfeld@acsone.eu>
 
 Maintainers
-~~~~~~~~~~~
+-----------
 
 This module is maintained by the OCA.
 
@@ -99,6 +105,6 @@ OCA, or the Odoo Community Association, is a nonprofit organization whose
 mission is to support the collaborative development of Odoo features and
 promote its widespread use.
 
-This module is part of the `OCA/community-data-files <https://github.com/OCA/community-data-files/tree/13.0/product_meat_unece>`_ project on GitHub.
+This module is part of the `OCA/community-data-files <https://github.com/OCA/community-data-files/tree/19.0/product_meat_unece>`_ project on GitHub.
 
 You are welcome to contribute. To learn how please visit https://odoo-community.org/page/Contribute.
