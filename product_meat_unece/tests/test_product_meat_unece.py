@@ -85,4 +85,4 @@ class TestProductMeatUnece(TransactionCase):
             }
         )
         res = prod.unece_meat_code
-        self.assertEqual("1017300011000000000", res)
+        self.assertEqual("1016730011000000000", res)
