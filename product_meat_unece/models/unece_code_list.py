@@ -1,7 +1,7 @@
 # Copyright 2020 ACSONE SA/NV
 # License AGPL-3.0 or later (http://www.gnu.org/licenses/agpl).
 
-from odoo import _, api, fields, models
+from odoo import api, fields, models
 from odoo.exceptions import ValidationError
 
 
@@ -23,7 +23,22 @@ class UneceCodeList(models.Model):
             ("meat_weight_range", "Weight range"),
             ("meat_packing", "Packing"),
             ("meat_conformity_assessment", "Conformity assessment"),
-        ]
+        ],
+        ondelete={
+            "meat_species": "cascade",
+            "meat_product_cut": "cascade",
+            "meat_refrigeration": "cascade",
+            "meat_bovine_category": "cascade",
+            "meat_production_system": "cascade",
+            "meat_feeding_system": "cascade",
+            "meat_slaughter_system": "cascade",
+            "meat_post_slaughter_system": "cascade",
+            "meat_fat_thickness": "cascade",
+            "meat_bovine_quality_system": "cascade",
+            "meat_weight_range": "cascade",
+            "meat_packing": "cascade",
+            "meat_conformity_assessment": "cascade",
+        },
     )
 
     @api.model
@@ -60,8 +75,10 @@ class UneceCodeList(models.Model):
             required_code_length = unece_meat_code_lengths.get(rec.type)
             if len(rec.code) != required_code_length:
                 raise ValidationError(
-                    _(
-                        'The code "{code}" doesn\'t match the required code length for '
-                        "this type ({required_length})."
-                    ).format(code=rec.code, required_length=required_code_length)
+                    self.env._(
+                        'The code "%(code)s" doesn\'t match the required code length '
+                        "for this type (%(required_length)s).",
+                        code=rec.code,
+                        required_length=required_code_length,
+                    )
                 )

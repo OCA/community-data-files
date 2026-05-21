@@ -106,10 +106,16 @@ class ProductTemplate(models.Model):
     )
 
     @api.model
+    def _valid_field_parameter(self, field, name):
+        if name == "unece_meat_code":
+            return True
+        return super()._valid_field_parameter(field, name)
+
+    @api.model
     def _get_unece_meat_fields(self):
         res = []
         for f in self._fields.values():
-            if f._attrs.get("unece_meat_code"):
+            if getattr(f, "unece_meat_code", False):
                 res.append(f)
         return res
 
