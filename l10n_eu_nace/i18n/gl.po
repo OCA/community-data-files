@@ -6,45 +6,47 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 16.0\n"
 "Report-Msgid-Bugs-To: \n"
-"Last-Translator: Automatically generated\n"
+"PO-Revision-Date: 2026-05-23 17:46+0000\n"
+"Last-Translator: Pablo Castelo <pablocv@gmx.es>\n"
 "Language-Team: none\n"
 "Language: gl\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 5.15.2\n"
 
 #. module: l10n_eu_nace
 #: model_terms:ir.ui.view,arch_db:l10n_eu_nace.partner_industry_nace_wizard_view_form
 msgid "Cancel"
-msgstr ""
+msgstr "Cancelar"
 
 #. module: l10n_eu_nace
 #: model:ir.model.fields,field_description:l10n_eu_nace.field_res_partner_industry_eu_nace_wizard__create_uid
 msgid "Created by"
-msgstr ""
+msgstr "Creado por"
 
 #. module: l10n_eu_nace
 #: model:ir.model.fields,field_description:l10n_eu_nace.field_res_partner_industry_eu_nace_wizard__create_date
 msgid "Created on"
-msgstr ""
+msgstr "Creado o"
 
 #. module: l10n_eu_nace
 #: model:ir.model.fields,field_description:l10n_eu_nace.field_res_partner_industry_eu_nace_wizard__display_name
 msgid "Display Name"
-msgstr ""
+msgstr "Mostrar Nome"
 
 #. module: l10n_eu_nace
 #: model:ir.model.fields,field_description:l10n_eu_nace.field_res_partner_industry_eu_nace_wizard__id
 msgid "ID"
-msgstr ""
+msgstr "ID"
 
 #. module: l10n_eu_nace
 #: model:ir.actions.act_window,name:l10n_eu_nace.res_partner_nace_import_act_window
 #: model:ir.ui.menu,name:l10n_eu_nace.res_partner_nace_import_menu
 #: model_terms:ir.ui.view,arch_db:l10n_eu_nace.partner_industry_nace_wizard_view_form
 msgid "Import NACE industries"
-msgstr ""
+msgstr "Importar industrias NACE"
 
 #. module: l10n_eu_nace
 #: model_terms:ir.ui.view,arch_db:l10n_eu_nace.partner_industry_nace_wizard_view_form
@@ -53,30 +55,34 @@ msgid ""
 "                        create new industries or update existing ones with their\n"
 "                        translations for all active languages in the system."
 msgstr ""
+"Importar industrias NACE do ShowVoc API. Isto\n"
+"                        creará novas industrias ou actualizará aquelas con a "
+"súa\n"
+"                        tradución para todos os idiomas activos no sistema."
 
 #. module: l10n_eu_nace
 #: model:ir.model.fields,field_description:l10n_eu_nace.field_res_partner_industry_eu_nace_wizard____last_update
 msgid "Last Modified on"
-msgstr ""
+msgstr "Última Modificación o"
 
 #. module: l10n_eu_nace
 #: model:ir.model.fields,field_description:l10n_eu_nace.field_res_partner_industry_eu_nace_wizard__write_uid
 msgid "Last Updated by"
-msgstr ""
+msgstr "Última actualización por"
 
 #. module: l10n_eu_nace
 #: model:ir.model.fields,field_description:l10n_eu_nace.field_res_partner_industry_eu_nace_wizard__write_date
 msgid "Last Updated on"
-msgstr ""
+msgstr "Última Actualización o"
 
 #. module: l10n_eu_nace
 #. odoo-python
 #: code:addons/l10n_eu_nace/wizard/res_partner_industry_eu_nace_wizard.py:0
 #, python-format
 msgid "Partner Industries by EU NACE"
-msgstr ""
+msgstr "Industrias asociadas por NACE da UE"
 
 #. module: l10n_eu_nace
 #: model:ir.model,name:l10n_eu_nace.model_res_partner_industry_eu_nace_wizard
 msgid "Partner Industry by EU NACE Wizard"
-msgstr ""
+msgstr "Industria asociada por Asistente de NÁCEA da UE"
