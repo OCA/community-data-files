@@ -6,35 +6,37 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 16.0\n"
 "Report-Msgid-Bugs-To: \n"
-"Last-Translator: Automatically generated\n"
+"PO-Revision-Date: 2026-05-23 17:46+0000\n"
+"Last-Translator: Pablo Castelo <pablocv@gmx.es>\n"
 "Language-Team: none\n"
 "Language: gl\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 5.15.2\n"
 
 #. module: base_iso3166
 #: model:ir.model,name:base_iso3166.model_res_country
 msgid "Country"
-msgstr ""
+msgstr "País"
 
 #. module: base_iso3166
 #: model:ir.model.fields,field_description:base_iso3166.field_res_country__code_alpha3
 msgid "Country Code (3-letter)"
-msgstr ""
+msgstr "Código de país (3- letras)"
 
 #. module: base_iso3166
 #: model:ir.model.fields,field_description:base_iso3166.field_res_country__code_numeric
 msgid "Country Code (numeric)"
-msgstr ""
+msgstr "Código de país (numérico)"
 
 #. module: base_iso3166
 #: model:ir.model.fields,help:base_iso3166.field_res_country__code_alpha3
 msgid "ISO 3166-1 alpha-3 (three-letter) code for the country"
-msgstr ""
+msgstr "Código ISO 3166-1 alfa-3 (tres letras) do país"
 
 #. module: base_iso3166
 #: model:ir.model.fields,help:base_iso3166.field_res_country__code_numeric
 msgid "ISO 3166-1 numeric code for the country"
-msgstr ""
+msgstr "Código numérico ISO 3166-1 do país"
