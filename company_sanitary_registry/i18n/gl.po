@@ -1,0 +1,119 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* company_sanitary_registry
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 16.0\n"
+"Report-Msgid-Bugs-To: \n"
+"Last-Translator: Automatically generated\n"
+"Language-Team: none\n"
+"Language: gl\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+
+#. module: company_sanitary_registry
+#: model_terms:ir.ui.view,arch_db:company_sanitary_registry.sanitary_registry_template
+msgid "<span>CE</span>"
+msgstr ""
+
+#. module: company_sanitary_registry
+#: model:ir.model.fields,field_description:company_sanitary_registry.field_sanitary_registry_warehouse_category__category_id
+msgid "Category"
+msgstr ""
+
+#. module: company_sanitary_registry
+#: model:ir.model,name:company_sanitary_registry.model_res_company
+msgid "Companies"
+msgstr ""
+
+#. module: company_sanitary_registry
+#: model:ir.model.fields,field_description:company_sanitary_registry.field_sanitary_registry_warehouse_category__category_complete_name
+msgid "Complete Name"
+msgstr ""
+
+#. module: company_sanitary_registry
+#: model:ir.model.fields,field_description:company_sanitary_registry.field_sanitary_registry__create_uid
+#: model:ir.model.fields,field_description:company_sanitary_registry.field_sanitary_registry_warehouse_category__create_uid
+msgid "Created by"
+msgstr ""
+
+#. module: company_sanitary_registry
+#: model:ir.model.fields,field_description:company_sanitary_registry.field_sanitary_registry__create_date
+#: model:ir.model.fields,field_description:company_sanitary_registry.field_sanitary_registry_warehouse_category__create_date
+msgid "Created on"
+msgstr ""
+
+#. module: company_sanitary_registry
+#: model:ir.model.fields,field_description:company_sanitary_registry.field_sanitary_registry__display_name
+#: model:ir.model.fields,field_description:company_sanitary_registry.field_sanitary_registry_warehouse_category__display_name
+msgid "Display Name"
+msgstr ""
+
+#. module: company_sanitary_registry
+#: model:ir.model.fields,field_description:company_sanitary_registry.field_sanitary_registry__id
+#: model:ir.model.fields,field_description:company_sanitary_registry.field_sanitary_registry_warehouse_category__id
+msgid "ID"
+msgstr ""
+
+#. module: company_sanitary_registry
+#: model:ir.model.fields,field_description:company_sanitary_registry.field_sanitary_registry____last_update
+#: model:ir.model.fields,field_description:company_sanitary_registry.field_sanitary_registry_warehouse_category____last_update
+msgid "Last Modified on"
+msgstr ""
+
+#. module: company_sanitary_registry
+#: model:ir.model.fields,field_description:company_sanitary_registry.field_sanitary_registry__write_uid
+#: model:ir.model.fields,field_description:company_sanitary_registry.field_sanitary_registry_warehouse_category__write_uid
+msgid "Last Updated by"
+msgstr ""
+
+#. module: company_sanitary_registry
+#: model:ir.model.fields,field_description:company_sanitary_registry.field_sanitary_registry__write_date
+#: model:ir.model.fields,field_description:company_sanitary_registry.field_sanitary_registry_warehouse_category__write_date
+msgid "Last Updated on"
+msgstr ""
+
+#. module: company_sanitary_registry
+#: model:ir.model.fields,field_description:company_sanitary_registry.field_res_company__sanitary_registry
+#: model:ir.model.fields,field_description:company_sanitary_registry.field_sanitary_registry__name
+msgid "Name"
+msgstr ""
+
+#. module: company_sanitary_registry
+#: model:ir.actions.act_window,name:company_sanitary_registry.action_sanitary_registry
+#: model:ir.ui.menu,name:company_sanitary_registry.menu_action_sanitary_registry
+msgid "Sanitary Registries"
+msgstr ""
+
+#. module: company_sanitary_registry
+#: model:ir.model,name:company_sanitary_registry.model_sanitary_registry
+#: model:ir.model.fields,field_description:company_sanitary_registry.field_res_company__sanitary_registry_id
+#: model:ir.model.fields,field_description:company_sanitary_registry.field_sanitary_registry_warehouse_category__sanitary_registry_id
+msgid "Sanitary Registry"
+msgstr ""
+
+#. module: company_sanitary_registry
+#: model:ir.model,name:company_sanitary_registry.model_sanitary_registry_warehouse_category
+msgid "Sanitary Registry Warehouse Category"
+msgstr ""
+
+#. module: company_sanitary_registry
+#: model:ir.actions.act_window,name:company_sanitary_registry.sanitary_registry_warehouse_category_action
+#: model:ir.ui.menu,name:company_sanitary_registry.sanitary_registry_warehouse_category_menuitem
+msgid "Sanitary Registry by Category and Warehouse"
+msgstr ""
+
+#. module: company_sanitary_registry
+#. odoo-python
+#: code:addons/company_sanitary_registry/models/sanitary_registry.py:0
+#, python-format
+msgid "There are already sanitary registrations with values %s."
+msgstr ""
+
+#. module: company_sanitary_registry
+#: model:ir.model.fields,field_description:company_sanitary_registry.field_sanitary_registry_warehouse_category__warehouse_id
+msgid "Warehouse"
+msgstr ""
