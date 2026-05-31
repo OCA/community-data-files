@@ -6,7 +6,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
-"Last-Translator: Automatically generated\n"
+"PO-Revision-Date: 2026-05-31 09:46+0000\n"
+"Last-Translator: Matjaz Mozetic <matjaz@luxim.si>\n"
 "Language-Team: none\n"
 "Language: sl\n"
 "MIME-Version: 1.0\n"
@@ -14,38 +15,39 @@ msgstr ""
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: nplurals=4; plural=n%100==1 ? 0 : n%100==2 ? 1 : n%100==3 || "
 "n%100==4 ? 2 : 3;\n"
+"X-Generator: Weblate 5.15.2\n"
 
 #. module: l10n_eu_nace
 #: model_terms:ir.ui.view,arch_db:l10n_eu_nace.partner_industry_nace_wizard_view_form
 msgid "Cancel"
-msgstr ""
+msgstr "Prekliči"
 
 #. module: l10n_eu_nace
 #: model:ir.model.fields,field_description:l10n_eu_nace.field_res_partner_industry_eu_nace_wizard__create_uid
 msgid "Created by"
-msgstr ""
+msgstr "Ustvaril"
 
 #. module: l10n_eu_nace
 #: model:ir.model.fields,field_description:l10n_eu_nace.field_res_partner_industry_eu_nace_wizard__create_date
 msgid "Created on"
-msgstr ""
+msgstr "Ustvarjeno"
 
 #. module: l10n_eu_nace
 #: model:ir.model.fields,field_description:l10n_eu_nace.field_res_partner_industry_eu_nace_wizard__display_name
 msgid "Display Name"
-msgstr ""
+msgstr "Prikazani naziv"
 
 #. module: l10n_eu_nace
 #: model:ir.model.fields,field_description:l10n_eu_nace.field_res_partner_industry_eu_nace_wizard__id
 msgid "ID"
-msgstr ""
+msgstr "ID"
 
 #. module: l10n_eu_nace
 #: model:ir.actions.act_window,name:l10n_eu_nace.res_partner_nace_import_act_window
 #: model:ir.ui.menu,name:l10n_eu_nace.res_partner_nace_import_menu
 #: model_terms:ir.ui.view,arch_db:l10n_eu_nace.partner_industry_nace_wizard_view_form
 msgid "Import NACE industries"
-msgstr ""
+msgstr "Uvoz panog po klasifikaciji NACE"
 
 #. module: l10n_eu_nace
 #: model_terms:ir.ui.view,arch_db:l10n_eu_nace.partner_industry_nace_wizard_view_form
@@ -54,24 +56,28 @@ msgid ""
 "                        create new industries or update existing ones with their\n"
 "                        translations for all active languages in the system."
 msgstr ""
+"Uvozi panoge NACE iz API-ja ShowVoc. S tem boš\n"
+"                        ustvaril nove panoge ali posodobil obstoječe z "
+"njihovimi\n"
+"                        prevodi za vse aktivne jezike v sistemu."
 
 #. module: l10n_eu_nace
 #: model:ir.model.fields,field_description:l10n_eu_nace.field_res_partner_industry_eu_nace_wizard__write_uid
 msgid "Last Updated by"
-msgstr ""
+msgstr "Zadnjič posodobil"
 
 #. module: l10n_eu_nace
 #: model:ir.model.fields,field_description:l10n_eu_nace.field_res_partner_industry_eu_nace_wizard__write_date
 msgid "Last Updated on"
-msgstr ""
+msgstr "Zadnjič posodobljeno"
 
 #. module: l10n_eu_nace
 #. odoo-python
 #: code:addons/l10n_eu_nace/wizard/res_partner_industry_eu_nace_wizard.py:0
 msgid "Partner Industries by EU NACE"
-msgstr ""
+msgstr "Panoge partnerjev po klasifikaciji NACE EU"
 
 #. module: l10n_eu_nace
 #: model:ir.model,name:l10n_eu_nace.model_res_partner_industry_eu_nace_wizard
 msgid "Partner Industry by EU NACE Wizard"
-msgstr ""
+msgstr "Čarovnik za panoge partnerjev po klasifikaciji NACE EU"
