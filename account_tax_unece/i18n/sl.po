@@ -6,7 +6,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 19.0\n"
 "Report-Msgid-Bugs-To: \n"
-"Last-Translator: Automatically generated\n"
+"PO-Revision-Date: 2026-07-02 07:48+0000\n"
+"Last-Translator: Matjaz Mozetic <matjaz@luxim.si>\n"
 "Language-Team: none\n"
 "Language: sl\n"
 "MIME-Version: 1.0\n"
@@ -14,25 +15,26 @@ msgstr ""
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: nplurals=4; plural=n%100==1 ? 0 : n%100==2 ? 1 : n%100==3 || "
 "n%100==4 ? 2 : 3;\n"
+"X-Generator: Weblate 5.15.2\n"
 
 #. module: account_tax_unece
 #: model:ir.model,name:account_tax_unece.model_res_company
 msgid "Companies"
-msgstr ""
+msgstr "Družbe"
 
 #. module: account_tax_unece
 #: model:ir.model.fields,field_description:account_tax_unece.field_account_tax__display_name
 #: model:ir.model.fields,field_description:account_tax_unece.field_res_company__display_name
 #: model:ir.model.fields,field_description:account_tax_unece.field_unece_code_list__display_name
 msgid "Display Name"
-msgstr ""
+msgstr "Prikazani naziv"
 
 #. module: account_tax_unece
 #: model:ir.model.fields,field_description:account_tax_unece.field_account_tax__id
 #: model:ir.model.fields,field_description:account_tax_unece.field_res_company__id
 #: model:ir.model.fields,field_description:account_tax_unece.field_unece_code_list__id
 msgid "ID"
-msgstr ""
+msgstr "ID"
 
 #. module: account_tax_unece
 #: model:ir.model.fields,help:account_tax_unece.field_account_tax__unece_categ_id
@@ -40,6 +42,8 @@ msgid ""
 "Select the Tax Category Code of the official nomenclature of the United "
 "Nations Economic Commission for Europe (UNECE), DataElement 5305"
 msgstr ""
+"Izberite kodo davčne kategorije iz uradne nomenklature Evropske gospodarske "
+"komisije Združenih narodov (UNECE), podatkovni element 5305"
 
 #. module: account_tax_unece
 #: model:ir.model.fields,help:account_tax_unece.field_account_tax__unece_type_id
@@ -47,50 +51,52 @@ msgid ""
 "Select the Tax Type Code of the official nomenclature of the United Nations "
 "Economic Commission for Europe (UNECE), DataElement 5153"
 msgstr ""
+"Izberite kodo vrste davka iz uradne nomenklature Evropske gospodarske "
+"komisije Združenih narodov (UNECE), podatkovni element 5153"
 
 #. module: account_tax_unece
 #: model:ir.model,name:account_tax_unece.model_account_tax
 msgid "Tax"
-msgstr ""
+msgstr "Davek"
 
 #. module: account_tax_unece
 #: model:ir.model.fields.selection,name:account_tax_unece.selection__unece_code_list__type__tax_categ
 #: model_terms:ir.ui.view,arch_db:account_tax_unece.unece_code_list_search
 msgid "Tax Categories (UNCL 5305)"
-msgstr ""
+msgstr "Davčne kategorije (UNCL 5305)"
 
 #. module: account_tax_unece
 #: model:ir.model.fields.selection,name:account_tax_unece.selection__unece_code_list__type__tax_type
 #: model_terms:ir.ui.view,arch_db:account_tax_unece.unece_code_list_search
 msgid "Tax Types (UNCL 5153)"
-msgstr ""
+msgstr "Vrste davkov (UNCL 5153)"
 
 #. module: account_tax_unece
 #: model:ir.model.fields,field_description:account_tax_unece.field_unece_code_list__type
 msgid "Type"
-msgstr ""
+msgstr "Tip"
 
 #. module: account_tax_unece
 #: model:ir.model.fields,field_description:account_tax_unece.field_account_tax__unece_categ_code
 msgid "UNECE Category Code"
-msgstr ""
+msgstr "Koda kategorije UNECE"
 
 #. module: account_tax_unece
 #: model:ir.model.fields,field_description:account_tax_unece.field_account_tax__unece_categ_id
 msgid "UNECE Tax Category"
-msgstr ""
+msgstr "Davčna kategorija UNECE"
 
 #. module: account_tax_unece
 #: model:ir.model.fields,field_description:account_tax_unece.field_account_tax__unece_type_id
 msgid "UNECE Tax Type"
-msgstr ""
+msgstr "Vrsta davka UNECE"
 
 #. module: account_tax_unece
 #: model:ir.model.fields,field_description:account_tax_unece.field_account_tax__unece_type_code
 msgid "UNECE Type Code"
-msgstr ""
+msgstr "Tip kode UNECE"
 
 #. module: account_tax_unece
 #: model:ir.model,name:account_tax_unece.model_unece_code_list
 msgid "UNECE nomenclatures"
-msgstr ""
+msgstr "Nomenklature UNECE"
