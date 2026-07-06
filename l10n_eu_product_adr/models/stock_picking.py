@@ -13,7 +13,7 @@ class StockPicking(models.Model):
         digits="Product Unit of Measure",
     )
 
-    @api.depends("move_lines.product_id", "move_lines.product_uom_qty")
+    @api.depends("move_ids.product_id", "move_ids.product_uom_qty")
     def _compute_adr_points(self):
         for picking in self:
-            picking.adr_points = sum(sm.adr_points for sm in picking.move_lines)
+            picking.adr_points = sum(picking.move_ids.mapped("adr_points"))
