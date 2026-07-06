@@ -13,8 +13,8 @@
                     />
                     <field name="active" invisible="1" />
                     <group>
-                        <group colspan="4" col="2" string="Name and description">
-                            <field name="name" nolabel="1" widget="text" />
+                        <group colspan="4" col="4" string="Name and description">
+                            <field name="name" colspan="4" widget="text" nolabel="1" />
                         </group>
                         <group string="Classification">
                             <field name="un_number" />

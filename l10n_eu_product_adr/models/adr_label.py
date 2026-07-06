@@ -27,9 +27,11 @@ class AdrLabel(models.Model):
             if label.goods_ids:
                 raise ValidationError(
                     _(
-                        "Dangerous Goods Label %s cannot be deleted because "
-                        "it is in use on one or more dangerous goods: %s"
+                        "Dangerous Goods Label {label} cannot be deleted because it "
+                        "is in use on one or more dangerous goods: {labels}"
+                    ).format(
+                        label=label.name,
+                        labels=", ".join(label.goods_ids.mapped("un_number")),
                     )
-                    % (label.name, ", ".join(label.goods_ids.mapped("un_number")))
                 )
         return super().unlink()
