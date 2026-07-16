@@ -17,6 +17,10 @@
                             name="unece_categ_id"
                             options="{'no_create': True, 'no_create_edit': True}"
                         />
+                        <field
+                            name="unece_vatex_id"
+                            options="{'no_create': True, 'no_create_edit': True}"
+                        />
                     </group>
                 </page>
             </notebook>

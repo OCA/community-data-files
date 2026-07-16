@@ -4,7 +4,7 @@
 
 {
     "name": "Account Tax UNECE",
-    "version": "16.0.1.3.0",
+    "version": "16.0.2.0.0",
     "category": "Accounting & Finance",
     "license": "LGPL-3",
     "development_status": "Production/Stable",
@@ -16,8 +16,10 @@
     "data": [
         "views/account_tax.xml",
         "views/account_tax_template.xml",
+        "views/unece_code_list.xml",
         "data/unece_tax_type.xml",
         "data/unece_tax_categ.xml",
+        "data/unece_tax_vatex.xml",
     ],
     "installable": True,
 }
