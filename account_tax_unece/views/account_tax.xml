@@ -20,6 +20,13 @@
                         name="unece_categ_id"
                         context="{'default_type': 'tax_categ'}"
                     />
+                    <field
+                        name="unece_vatex_id"
+                        options="{'no_create': True, 'no_create_edit': True}"
+                        attrs="{'invisible': ['|', '|', ('unece_type_code', '!=', 'VAT'), ('unece_categ_code', 'in', ('S', 'Z', False)), ('type_tax_use', '!=', 'sale')], 'required': [('unece_type_code', '=', 'VAT'), ('unece_categ_code', 'not in', ('S', 'Z')), ('type_tax_use', '=', 'sale')]}"
+                    />
+                    <field name="unece_type_code" invisible="1" />
+                    <field name="unece_categ_code" invisible="1" />
                 </group>
             </group>
         </field>
@@ -30,10 +37,10 @@
         <field name="inherit_id" ref="account.view_tax_tree" />
         <field name="arch" type="xml">
             <field name="description" position="after">
-                    <field name="unece_type_id" optional="hide" />
-                    <field name="unece_categ_id" optional="hide" />
+                <field name="unece_type_id" optional="hide" />
+                <field name="unece_categ_id" optional="hide" />
+                <field name="unece_vatex_id" optional="hide" />
             </field>
         </field>
     </record>
-
 </odoo>
