@@ -23,10 +23,18 @@ class AccountTaxTemplate(models.Model):
         "nomenclature of the United Nations Economic "
         "Commission for Europe (UNECE), DataElement 5305",
     )
+    unece_vatex_id = fields.Many2one(
+        "unece.code.list",
+        string="VAT Exemption Reason",
+        domain=[("type", "=", "tax_vatex")],
+        help="Select the VAT Exemption Reason Code (VATEX) of the official "
+        "nomenclature of the European Union.",
+    )
 
     def _get_tax_vals(self, company, tax_template_to_tax):
         self.ensure_one()
         res = super()._get_tax_vals(company, tax_template_to_tax)
         res["unece_type_id"] = self.unece_type_id.id
         res["unece_categ_id"] = self.unece_categ_id.id
+        res["unece_vatex_id"] = self.unece_vatex_id.id
         return res
