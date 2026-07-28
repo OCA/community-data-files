@@ -7,7 +7,8 @@ has 56 members states in Europe, America and Central Asia, cf
 * the UNECE Tax Type code is defined in the
   `DataElement 5153 <http://www.unece.org/trade/untdid/d97b/uncl/uncl5153.htm>`_,
 * the UNECE Tax Category Code is defined in the
-  `DataElement 5305 <http://www.unece.org/trade/untdid/d97a/uncl/uncl5305.htm>`_.
+  `DataElement 5305 <http://www.unece.org/trade/untdid/d97a/uncl/uncl5305.htm>`_,
+* the VAT Exemption code (VATEX) defined by the European Union, cf the official `VATEX code list <https://ec.europa.eu/digital-building-blocks/sites/spaces/DIGITAL/pages/467108974/>`_.
 
 This codification is part of the UNCL (United Nations Code List). This
 codification is used for example in the two main international standards for
