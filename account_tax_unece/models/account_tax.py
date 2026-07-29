@@ -74,7 +74,8 @@ class AccountTax(models.Model):
         }
         for tax in self:
             if (
-                tax.unece_type_id
+                tax.type_tax_use == "sale"
+                and tax.unece_type_id
                 and tax.unece_type_id.code == "VAT"
                 and tax.unece_categ_id
                 and tax.unece_categ_id.code in automap
