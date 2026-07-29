@@ -1,0 +1,806 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<odoo>
+    <!--  Source : https://ec.europa.eu/digital-building-blocks/sites/spaces/DIGITAL/pages/467108974/Registry+of+supporting+artefacts+to+implement+EN16931  -->
+    <record id="tax_vatex_eu_79_c" model="unece.code.list">
+        <field name="type">tax_vatex</field>
+        <field name="code">VATEX-EU-79-C</field>
+        <field
+            name="name"
+        >Exempt based on article 79, point c of Council Directive 2006/112/EC</field>
+        <field
+            name="description"
+        >Exemptions relating to repayment of expenditures. Repayment of expenditure is not an exemption in the sense of the VAT Directive but may be handled as such in the context of the EN16931.</field>
+    </record>
+    <record id="tax_vatex_eu_132" model="unece.code.list">
+        <field name="type">tax_vatex</field>
+        <field name="code">VATEX-EU-132</field>
+        <field
+            name="name"
+        >Exempt based on article 132 of Council Directive 2006/112/EC</field>
+        <field
+            name="description"
+        >Exemptions for certain activities in public interest.</field>
+    </record>
+    <record id="tax_vatex_eu_132_1a" model="unece.code.list">
+        <field name="type">tax_vatex</field>
+        <field name="code">VATEX-EU-132-1A</field>
+        <field
+            name="name"
+        >Exempt based on article 132, section 1 (a) of Council Directive 2006/112/EC</field>
+        <field
+            name="description"
+        >The supply by the public postal services of services other than passenger transport and telecommunications services, and the supply of goods incidental thereto.</field>
+    </record>
+    <record id="tax_vatex_eu_132_1b" model="unece.code.list">
+        <field name="type">tax_vatex</field>
+        <field name="code">VATEX-EU-132-1B</field>
+        <field
+            name="name"
+        >Exempt based on article 132, section 1 (b) of Council Directive 2006/112/EC</field>
+        <field
+            name="description"
+        >Hospital and medical care and closely related activities undertaken by bodies governed by public law or, under social conditions comparable with those applicable to bodies governed by public law, by hospitals, centres for medical treatment or diagnosis and other duly recognised establishments of a similar nature</field>
+    </record>
+    <record id="tax_vatex_eu_132_1c" model="unece.code.list">
+        <field name="type">tax_vatex</field>
+        <field name="code">VATEX-EU-132-1C</field>
+        <field
+            name="name"
+        >Exempt based on article 132, section 1 (c) of Council Directive 2006/112/EC</field>
+        <field
+            name="description"
+        >The provision of medical care in the exercise of the medical and paramedical professions as defined by the Member State concerned.</field>
+    </record>
+    <record id="tax_vatex_eu_132_1d" model="unece.code.list">
+        <field name="type">tax_vatex</field>
+        <field name="code">VATEX-EU-132-1D</field>
+        <field
+            name="name"
+        >Exempt based on article 132, section 1 (d) of Council Directive 2006/112/EC</field>
+        <field name="description">The supply of human organs, blood and milk.</field>
+    </record>
+    <record id="tax_vatex_eu_132_1e" model="unece.code.list">
+        <field name="type">tax_vatex</field>
+        <field name="code">VATEX-EU-132-1E</field>
+        <field
+            name="name"
+        >Exempt based on article 132, section 1 (e) of Council Directive 2006/112/EC</field>
+        <field
+            name="description"
+        >The supply of services by dental technicians in their professional capacity and the supply of dental prostheses by dentists and dental technicians.</field>
+    </record>
+    <record id="tax_vatex_eu_132_1f" model="unece.code.list">
+        <field name="type">tax_vatex</field>
+        <field name="code">VATEX-EU-132-1F</field>
+        <field
+            name="name"
+        >Exempt based on article 132, section 1 (f) of Council Directive 2006/112/EC</field>
+        <field
+            name="description"
+        >The supply of services by independent groups of persons, who are carrying on an activity which is exempt from VAT or in relation to which they are not taxable persons, for the purpose of rendering their members the services directly necessary for the exercise of that activity, where those groups merely claim from their members exact reimbursement of their share of the joint expenses, provided that such exemption is not likely to cause distortion of competition.</field>
+    </record>
+    <record id="tax_vatex_eu_132_1g" model="unece.code.list">
+        <field name="type">tax_vatex</field>
+        <field name="code">VATEX-EU-132-1G</field>
+        <field
+            name="name"
+        >Exempt based on article 132, section 1 (g) of Council Directive 2006/112/EC</field>
+        <field
+            name="description"
+        >The supply of services and of goods closely linked to welfare and social security work, including those supplied by old people's homes, by bodies governed by public law or by other bodies recognised by the Member State concerned as being devoted to social wellbeing.</field>
+    </record>
+    <record id="tax_vatex_eu_132_1h" model="unece.code.list">
+        <field name="type">tax_vatex</field>
+        <field name="code">VATEX-EU-132-1H</field>
+        <field
+            name="name"
+        >Exempt based on article 132, section 1 (h) of Council Directive 2006/112/EC</field>
+        <field
+            name="description"
+        >The supply of services and of goods closely linked to the protection of children and young persons by bodies governed by public law or by other organisations recognised by the Member State concerned as being devoted to social wellbeing;</field>
+    </record>
+    <record id="tax_vatex_eu_132_1i" model="unece.code.list">
+        <field name="type">tax_vatex</field>
+        <field name="code">VATEX-EU-132-1I</field>
+        <field
+            name="name"
+        >Exempt based on article 132, section 1 (i) of Council Directive 2006/112/EC</field>
+        <field
+            name="description"
+        >The provision of children's or young people's education, school or university education, vocational training or retraining, including the supply of services and of goods closely related thereto, by bodies
+governed by public law having such as their aim or by other organisations recognised by the Member State concerned as having similar objects.</field>
+    </record>
+    <record id="tax_vatex_eu_132_1j" model="unece.code.list">
+        <field name="type">tax_vatex</field>
+        <field name="code">VATEX-EU-132-1J</field>
+        <field
+            name="name"
+        >Exempt based on article 132, section 1 (j) of Council Directive 2006/112/EC</field>
+        <field
+            name="description"
+        >Tuition given privately by teachers and covering school or university education.</field>
+    </record>
+    <record id="tax_vatex_eu_132_1k" model="unece.code.list">
+        <field name="type">tax_vatex</field>
+        <field name="code">VATEX-EU-132-1K</field>
+        <field
+            name="name"
+        >Exempt based on article 132, section 1 (k) of Council Directive 2006/112/EC</field>
+        <field
+            name="description"
+        >The supply of staff by religious or philosophical institutions for the purpose of the activities referred to in points (b), (g), (h) and (i) and with a view to spiritual welfare.</field>
+    </record>
+    <record id="tax_vatex_eu_132_1l" model="unece.code.list">
+        <field name="type">tax_vatex</field>
+        <field name="code">VATEX-EU-132-1L</field>
+        <field
+            name="name"
+        >Exempt based on article 132, section 1 (l) of Council Directive 2006/112/EC</field>
+        <field
+            name="description"
+        >The supply of services, and the supply of goods closely linked thereto, to their members in their common interest in return for a subscription fixed in accordance with their rules by non-profitmaking organisations with aims of a political, trade-union, religious, patriotic, philosophical, philanthropic or civic nature, provided that this exemption is not likely to cause distortion of competition.</field>
+    </record>
+    <record id="tax_vatex_eu_132_1m" model="unece.code.list">
+        <field name="type">tax_vatex</field>
+        <field name="code">VATEX-EU-132-1M</field>
+        <field
+            name="name"
+        >Exempt based on article 132, section 1 (m) of Council Directive 2006/112/EC</field>
+        <field
+            name="description"
+        >The supply of certain services closely linked to sport or physical education by non-profit-making organisations to persons taking part in sport or physical education.</field>
+    </record>
+    <record id="tax_vatex_eu_132_1n" model="unece.code.list">
+        <field name="type">tax_vatex</field>
+        <field name="code">VATEX-EU-132-1N</field>
+        <field
+            name="name"
+        >Exempt based on article 132, section 1 (n) of Council Directive 2006/112/EC</field>
+        <field
+            name="description"
+        >The supply of certain cultural services, and the supply of goods closely linked thereto, by bodies governed by public law or by other cultural bodies recognised by the Member State concerned.</field>
+    </record>
+    <record id="tax_vatex_eu_132_1o" model="unece.code.list">
+        <field name="type">tax_vatex</field>
+        <field name="code">VATEX-EU-132-1O</field>
+        <field
+            name="name"
+        >Exempt based on article 132, section 1 (o) of Council Directive 2006/112/EC</field>
+        <field
+            name="description"
+        >The supply of services and goods, by organisations whose activities are exempt pursuant to points (b), (g), (h), (i), (l), (m) and (n), in connection with fund-raising events organised exclusively for their
+own benefit, provided that exemption is not likely to cause distortion of competition.</field>
+    </record>
+    <record id="tax_vatex_eu_132_1p" model="unece.code.list">
+        <field name="type">tax_vatex</field>
+        <field name="code">VATEX-EU-132-1P</field>
+        <field
+            name="name"
+        >Exempt based on article 132, section 1 (p) of Council Directive 2006/112/EC</field>
+        <field
+            name="description"
+        >The supply of transport services for sick or injured persons in vehicles specially designed for the purpose, by duly authorised bodies.</field>
+    </record>
+    <record id="tax_vatex_eu_132_1q" model="unece.code.list">
+        <field name="type">tax_vatex</field>
+        <field name="code">VATEX-EU-132-1Q</field>
+        <field
+            name="name"
+        >Exempt based on article 132, section 1 (q) of Council Directive 2006/112/EC</field>
+        <field
+            name="description"
+        >The activities, other than those of a commercial nature, carried out by public radio and television bodies.</field>
+    </record>
+    <record id="tax_vatex_eu_135_1" model="unece.code.list">
+        <field name="type">tax_vatex</field>
+        <field name="code">VATEX-EU-135-1</field>
+        <field
+            name="name"
+        >Exempt based on article 135, section 1 of Council Directive 2006/112/EC</field>
+        <field name="description">Exemptions for other activities listed</field>
+    </record>
+    <record id="tax_vatex_eu_143" model="unece.code.list">
+        <field name="type">tax_vatex</field>
+        <field name="code">VATEX-EU-143</field>
+        <field
+            name="name"
+        >Exempt based on article 143 of Council Directive 2006/112/EC</field>
+        <field name="description">Exemptions on importation.</field>
+    </record>
+    <record id="tax_vatex_eu_143_1a" model="unece.code.list">
+        <field name="type">tax_vatex</field>
+        <field name="code">VATEX-EU-143-1A</field>
+        <field
+            name="name"
+        >Exempt based on article 143, section 1 (a) of Council Directive 2006/112/EC</field>
+        <field
+            name="description"
+        >The final importation of goods of which the supply by a taxable person would in all circumstances be exempt within their respective territory.</field>
+    </record>
+    <record id="tax_vatex_eu_143_1b" model="unece.code.list">
+        <field name="type">tax_vatex</field>
+        <field name="code">VATEX-EU-143-1B</field>
+        <field
+            name="name"
+        >Exempt based on article 143, section 1 (b) of Council Directive 2006/112/EC</field>
+        <field
+            name="description"
+        >The final importation of goods governed by Council Directives 69/169/EEC (1), 83/181/EEC (2) and 2006/79/EC (3).</field>
+    </record>
+    <record id="tax_vatex_eu_143_1c" model="unece.code.list">
+        <field name="type">tax_vatex</field>
+        <field name="code">VATEX-EU-143-1C</field>
+        <field
+            name="name"
+        >Exempt based on article 143, section 1 (c) of Council Directive 2006/112/EC</field>
+        <field
+            name="description"
+        >The final importation of goods, in free circulation from a third territory forming part of the Community customs territory, which would be entitled to exemption under point (b) if they had been imported within the meaning of the first paragraph of Article 30</field>
+    </record>
+    <record id="tax_vatex_eu_143_1d" model="unece.code.list">
+        <field name="type">tax_vatex</field>
+        <field name="code">VATEX-EU-143-1D</field>
+        <field
+            name="name"
+        >Exempt based on article 143, section 1 (d) of Council Directive 2006/112/EC</field>
+        <field
+            name="description"
+        >The importation of goods dispatched or transported from a third territory or a third country into a Member State other than that in which the dispatch or transport of the goods ends, where the supply of such goods by the importer designated or recognised under Article 201 as liable for payment of VAT is exempt under Article 138.</field>
+    </record>
+    <record id="tax_vatex_eu_143_1e" model="unece.code.list">
+        <field name="type">tax_vatex</field>
+        <field name="code">VATEX-EU-143-1E</field>
+        <field
+            name="name"
+        >Exempt based on article 143, section 1 (e) of Council Directive 2006/112/EC</field>
+        <field
+            name="description"
+        >The reimportation, by the person who exported them, of goods in the state in which they were exported, where those goods are exempt from customs duties.</field>
+    </record>
+    <record id="tax_vatex_eu_143_1f" model="unece.code.list">
+        <field name="type">tax_vatex</field>
+        <field name="code">VATEX-EU-143-1F</field>
+        <field
+            name="name"
+        >Exempt based on article 143, section 1 (f) of Council Directive 2006/112/EC</field>
+        <field
+            name="description"
+        >The importation, under diplomatic and consular arrangements, of goods which are exempt from customs duties.</field>
+    </record>
+    <record id="tax_vatex_eu_143_1fa" model="unece.code.list">
+        <field name="type">tax_vatex</field>
+        <field name="code">VATEX-EU-143-1FA</field>
+        <field
+            name="name"
+        >Exempt based on article 143, section 1 (fa) of Council Directive 2006/112/EC</field>
+        <field
+            name="description"
+        >The importation of goods by the European Community, the European Atomic Energy Community, the European Central Bank or the European Investment Bank, or by the bodies set up by the Communities to which the Protocol of 8 April 1965 on the privileges and immunities of the European Communities applies, within the limits and under the conditions of that Protocol and the agreements for its implementation or the headquarters agreements, in so far as it does not lead to distortion of  competition;</field>
+    </record>
+    <record id="tax_vatex_eu_143_1g" model="unece.code.list">
+        <field name="type">tax_vatex</field>
+        <field name="code">VATEX-EU-143-1G</field>
+        <field
+            name="name"
+        >Exempt based on article 143, section 1 (g) of Council Directive 2006/112/EC</field>
+        <field
+            name="description"
+        >The importation of goods by international bodies, other than those referred to in point (fa), recognised as such by the public authorities of the host Member State, or by members of such bodies, within the limits and under the conditions laid down by the international conventions establishing the bodies or by headquarters agreements;</field>
+    </record>
+    <record id="tax_vatex_eu_143_1h" model="unece.code.list">
+        <field name="type">tax_vatex</field>
+        <field name="code">VATEX-EU-143-1H</field>
+        <field
+            name="name"
+        >Exempt based on article 143, section 1 (h) of Council Directive 2006/112/EC</field>
+        <field
+            name="description"
+        >The importation of goods, into Member States party to the North Atlantic Treaty, by the armed forces of other States party to that Treaty for the use of those forces or the civilian staff accompanying them or for supplying their messes or canteens where such forces take part in the common defence effort.</field>
+    </record>
+    <record id="tax_vatex_eu_143_1i" model="unece.code.list">
+        <field name="type">tax_vatex</field>
+        <field name="code">VATEX-EU-143-1I</field>
+        <field
+            name="name"
+        >Exempt based on article 143, section 1 (i) of Council Directive 2006/112/EC</field>
+        <field
+            name="description"
+        >The importation of goods by the armed forces of the United Kingdom stationed in the island of Cyprus pursuant to the Treaty of Establishment concerning the Republic of Cyprus, dated 16 August 1960, which are for the use of those forces or the civilian staff accompanying them or for supplying their messes or canteens.</field>
+    </record>
+    <record id="tax_vatex_eu_143_1j" model="unece.code.list">
+        <field name="type">tax_vatex</field>
+        <field name="code">VATEX-EU-143-1J</field>
+        <field
+            name="name"
+        >Exempt based on article 143, section 1 (j) of Council Directive 2006/112/EC</field>
+        <field
+            name="description"
+        >The importation into ports, by sea fishing undertakings, of their catches, unprocessed or after undergoing preservation for marketing but before being supplied.</field>
+    </record>
+    <record id="tax_vatex_eu_143_1k" model="unece.code.list">
+        <field name="type">tax_vatex</field>
+        <field name="code">VATEX-EU-143-1K</field>
+        <field
+            name="name"
+        >Exempt based on article 143, section 1 (k) of Council Directive 2006/112/EC</field>
+        <field name="description">The importation of gold by central banks.</field>
+    </record>
+    <record id="tax_vatex_eu_143_1l" model="unece.code.list">
+        <field name="type">tax_vatex</field>
+        <field name="code">VATEX-EU-143-1L</field>
+        <field
+            name="name"
+        >Exempt based on article 143, section 1 (l) of Council Directive 2006/112/EC</field>
+        <field
+            name="description"
+        >The importation of gas through a natural gas system or any network connected to such a system or fed in from a vessel transporting gas into a natural gas system or any upstream pipeline network, of electricity or of heat or cooling energy through heating or cooling networks.</field>
+    </record>
+    <record id="tax_vatex_eu_144" model="unece.code.list">
+        <field name="type">tax_vatex</field>
+        <field name="code">VATEX-EU-144</field>
+        <field
+            name="name"
+        >Exempt based on article 144 of Council Directive 2006/112/EC</field>
+        <field
+            name="description"
+        >Member States shall exempt the supply of services relating to the importation of goods where the value of such services is included in the taxable amount in accordance with Article 86(1)(b)</field>
+    </record>
+    <record id="tax_vatex_eu_146_1e" model="unece.code.list">
+        <field name="type">tax_vatex</field>
+        <field name="code">VATEX-EU-146-1E</field>
+        <field
+            name="name"
+        >Exempt based on article 146 section 1 (e) of Council Directive 2006/112/EC</field>
+        <field
+            name="description"
+        >the supply of services, including transport and ancillary transactions,
+but excluding the supply of services exempted in accordance with
+Articles 132 and 135, where these are directly connected with the
+exportation or importation of goods covered by Article 61 and
+Article 157(1)(a).</field>
+    </record>
+    <record id="tax_vatex_eu_148" model="unece.code.list">
+        <field name="type">tax_vatex</field>
+        <field name="code">VATEX-EU-148</field>
+        <field
+            name="name"
+        >Exempt based on article 148 of Council Directive 2006/112/EC</field>
+        <field name="description">Exemptions related to international transport.</field>
+    </record>
+    <record id="tax_vatex_eu_148_a" model="unece.code.list">
+        <field name="type">tax_vatex</field>
+        <field name="code">VATEX-EU-148-A</field>
+        <field
+            name="name"
+        >Exempt based on article 148, section (a) of Council Directive 2006/112/EC</field>
+        <field
+            name="description"
+        >Fuel supplies for commercial international transport vessels</field>
+    </record>
+    <record id="tax_vatex_eu_148_b" model="unece.code.list">
+        <field name="type">tax_vatex</field>
+        <field name="code">VATEX-EU-148-B</field>
+        <field
+            name="name"
+        >Exempt based on article 148, section (b) of Council Directive 2006/112/EC</field>
+        <field
+            name="description"
+        >Fuel supplies for fighting ships in international transport.</field>
+    </record>
+    <record id="tax_vatex_eu_148_c" model="unece.code.list">
+        <field name="type">tax_vatex</field>
+        <field name="code">VATEX-EU-148-C</field>
+        <field
+            name="name"
+        >Exempt based on article 148, section (c) of Council Directive 2006/112/EC</field>
+        <field
+            name="description"
+        >Maintenance, modification, chartering and hiring of international transport vessels.</field>
+    </record>
+    <record id="tax_vatex_eu_148_d" model="unece.code.list">
+        <field name="type">tax_vatex</field>
+        <field name="code">VATEX-EU-148-D</field>
+        <field
+            name="name"
+        >Exempt based on article 148, section (d) of Council Directive 2006/112/EC</field>
+        <field
+            name="description"
+        >Supply to of other services to commercial international transport vessels.</field>
+    </record>
+    <record id="tax_vatex_eu_148_e" model="unece.code.list">
+        <field name="type">tax_vatex</field>
+        <field name="code">VATEX-EU-148-E</field>
+        <field
+            name="name"
+        >Exempt based on article 148, section (e) of Council Directive 2006/112/EC</field>
+        <field
+            name="description"
+        >Fuel supplies for aircraft on international routes.</field>
+    </record>
+    <record id="tax_vatex_eu_148_f" model="unece.code.list">
+        <field name="type">tax_vatex</field>
+        <field name="code">VATEX-EU-148-F</field>
+        <field
+            name="name"
+        >Exempt based on article 148, section (f) of Council Directive 2006/112/EC</field>
+        <field
+            name="description"
+        >Maintenance, modification, chartering and hiring of aircraft on international routes.</field>
+    </record>
+    <record id="tax_vatex_eu_148_g" model="unece.code.list">
+        <field name="type">tax_vatex</field>
+        <field name="code">VATEX-EU-148-G</field>
+        <field
+            name="name"
+        >Exempt based on article 148, section (g) of Council Directive 2006/112/EC</field>
+        <field
+            name="description"
+        >Supply to of other services to aircraft on international routes.</field>
+    </record>
+    <record id="tax_vatex_eu_151" model="unece.code.list">
+        <field name="type">tax_vatex</field>
+        <field name="code">VATEX-EU-151</field>
+        <field
+            name="name"
+        >Exempt based on article 151 of Council Directive 2006/112/EC</field>
+        <field
+            name="description"
+        >Exemptions relating to certain Transactions treated as exports.</field>
+    </record>
+    <record id="tax_vatex_eu_151_1a" model="unece.code.list">
+        <field name="type">tax_vatex</field>
+        <field name="code">VATEX-EU-151-1A</field>
+        <field
+            name="name"
+        >Exempt based on article 151, section 1 (a) of Council Directive 2006/112/EC</field>
+        <field
+            name="description"
+        >The supply of goods or services under diplomatic and consular arrangements.</field>
+    </record>
+    <record id="tax_vatex_eu_151_1aa" model="unece.code.list">
+        <field name="type">tax_vatex</field>
+        <field name="code">VATEX-EU-151-1AA</field>
+        <field
+            name="name"
+        >Exempt based on article 151, section 1 (aa) of Council Directive 2006/112/EC</field>
+        <field
+            name="description"
+        >The supply of goods or services to the European Community, the European Atomic Energy Community, the European Central Bank or the European Investment Bank, or to the bodies set up by the Communities to which the Protocol of 8 April 1965 on the privileges and immunities of the European Communities applies, within the limits and under the conditions of that Protocol and the agreements for its implementation or the headquarters agreements, in so far as it does not lead to distortion of competition.</field>
+    </record>
+    <record id="tax_vatex_eu_151_1b" model="unece.code.list">
+        <field name="type">tax_vatex</field>
+        <field name="code">VATEX-EU-151-1B</field>
+        <field
+            name="name"
+        >Exempt based on article 151, section 1 (b) of Council Directive 2006/112/EC</field>
+        <field
+            name="description"
+        >The supply of goods or services to international bodies, other than those referred to in point (aa), recognised as such by the public authorities of the host Member States, and to members of such bodies, within the limits and under the conditions laid down by the international conventions establishing the bodies or by headquarters agreements.</field>
+    </record>
+    <record id="tax_vatex_eu_151_1c" model="unece.code.list">
+        <field name="type">tax_vatex</field>
+        <field name="code">VATEX-EU-151-1C</field>
+        <field
+            name="name"
+        >Exempt based on article 151, section 1 (c) of Council Directive 2006/112/EC</field>
+        <field
+            name="description"
+        >The supply of goods or services within a Member State which is a party to the North Atlantic Treaty, intended either for the armed forces of other States party to that Treaty for the use of those forces, or of the civilian staff accompanying them, or for supplying their messes or canteens when such forces take part in the common defence effort.</field>
+    </record>
+    <record id="tax_vatex_eu_151_1d" model="unece.code.list">
+        <field name="type">tax_vatex</field>
+        <field name="code">VATEX-EU-151-1D</field>
+        <field
+            name="name"
+        >Exempt based on article 151, section 1 (d) of Council Directive 2006/112/EC</field>
+        <field
+            name="description"
+        >The supply of goods or services to another Member State, intended for the armed forces of any State which is a party to the North Atlantic Treaty, other than the Member State of destination itself, for the use of those forces, or of the civilian staff accompanying them, or for supplying their messes or canteens when such forces take part in the common defence effort.</field>
+    </record>
+    <record id="tax_vatex_eu_151_1e" model="unece.code.list">
+        <field name="type">tax_vatex</field>
+        <field name="code">VATEX-EU-151-1E</field>
+        <field
+            name="name"
+        >Exempt based on article 151, section 1 (e) of Council Directive 2006/112/EC</field>
+        <field name="description">false</field>
+    </record>
+    <record id="tax_vatex_eu_153" model="unece.code.list">
+        <field name="type">tax_vatex</field>
+        <field name="code">VATEX-EU-153</field>
+        <field
+            name="name"
+        >Exempt based on article 153 of Council Directive 2006/112/EC</field>
+        <field name="description">false</field>
+    </record>
+    <record id="tax_vatex_eu_159" model="unece.code.list">
+        <field name="type">tax_vatex</field>
+        <field name="code">VATEX-EU-159</field>
+        <field
+            name="name"
+        >Exempt based on article 159 of Council Directive 2006/112/EC</field>
+        <field
+            name="description"
+        >Member States may exempt the supply of services relating to the supply of goods referred to in Article 156, Article 157(1)(b) or Article 158.</field>
+    </record>
+    <record id="tax_vatex_eu_309" model="unece.code.list">
+        <field name="type">tax_vatex</field>
+        <field name="code">VATEX-EU-309</field>
+        <field
+            name="name"
+        >Exempt based on article 309 of Council Directive 2006/112/EC</field>
+        <field name="description">Travel agents performed outside of EU.</field>
+    </record>
+    <record id="tax_vatex_eu_ae" model="unece.code.list">
+        <field name="type">tax_vatex</field>
+        <field name="code">VATEX-EU-AE</field>
+        <field name="name">Reverse charge</field>
+        <field
+            name="description"
+        >Supports EN 16931-1 rule BR-AE-10. Only use with VAT category code AE.</field>
+    </record>
+    <record id="tax_vatex_eu_d" model="unece.code.list">
+        <field name="type">tax_vatex</field>
+        <field name="code">VATEX-EU-D</field>
+        <field name="name">Travel agents VAT scheme</field>
+        <field name="description">Only use with VAT category code E</field>
+    </record>
+    <record id="tax_vatex_eu_f" model="unece.code.list">
+        <field name="type">tax_vatex</field>
+        <field name="code">VATEX-EU-F</field>
+        <field name="name">Second hand goods VAT scheme</field>
+        <field
+            name="description"
+        >Second-hand goods - Indication that the VAT margin scheme for second-hand goods has been applied. Only use with VAT category code E.</field>
+    </record>
+    <record id="tax_vatex_eu_g" model="unece.code.list">
+        <field name="type">tax_vatex</field>
+        <field name="code">VATEX-EU-G</field>
+        <field name="name">Export outside the EU</field>
+        <field
+            name="description"
+        >Supports EN 16931-1 rule BR-G-10. Only use with VAT category code G.</field>
+    </record>
+    <record id="tax_vatex_eu_i" model="unece.code.list">
+        <field name="type">tax_vatex</field>
+        <field name="code">VATEX-EU-I</field>
+        <field name="name">Works of art VAT scheme</field>
+        <field
+            name="description"
+        >Works of art - Indication that the VAT margin scheme for works of art has been applied. Only use with VAT category code E.</field>
+    </record>
+    <record id="tax_vatex_eu_ic" model="unece.code.list">
+        <field name="type">tax_vatex</field>
+        <field name="code">VATEX-EU-IC</field>
+        <field name="name">Intra-community supply</field>
+        <field
+            name="description"
+        >Supports EN 16931-1 rule BR-IC-10. Only use with VAT category code K.</field>
+    </record>
+    <record id="tax_vatex_eu_j" model="unece.code.list">
+        <field name="type">tax_vatex</field>
+        <field name="code">VATEX-EU-J</field>
+        <field name="name">Collectors items and antiques VAT scheme</field>
+        <field
+            name="description"
+        >Collectors' items and antiques - Indication that the VAT margin scheme for collector’s items and antiques has been applied. Only use with VAT category code E.</field>
+    </record>
+    <record id="tax_vatex_eu_o" model="unece.code.list">
+        <field name="type">tax_vatex</field>
+        <field name="code">VATEX-EU-O</field>
+        <field name="name">Not subject to VAT</field>
+        <field
+            name="description"
+        >Supports EN 16931-1 rule BR-O-10. Only use with VAT category code O.</field>
+    </record>
+    <record id="tax_vatex_fr_franchise" model="unece.code.list">
+        <field name="type">tax_vatex</field>
+        <field name="code">VATEX-FR-FRANCHISE</field>
+        <field name="name">France domestic VAT franchise in base</field>
+        <field
+            name="description"
+        >VAT exemption for micro-companies when revenue is lower than a threshold. For domestic invoicing in France.</field>
+    </record>
+    <record id="tax_vatex_fr_cnwvat" model="unece.code.list">
+        <field name="type">tax_vatex</field>
+        <field name="code">VATEX-FR-CNWVAT</field>
+        <field
+            name="name"
+        >France domestic credit notes without VAT, due to supplier forfeit of VAT for discount</field>
+        <field
+            name="description"
+        >France domestic credit notes without VAT, due to supplier forfeit of VAT for discount. For domestic credit notes only in France.</field>
+    </record>
+    <record id="tax_vatex_fr_cgi261_1" model="unece.code.list">
+        <field name="type">tax_vatex</field>
+        <field name="code">VATEX-FR-CGI261-1</field>
+        <field name="name">Exempt based on 1 of article 261 of the CGI</field>
+        <field
+            name="description"
+        >Only for domestic invoicing in France. Cf https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000054374042</field>
+    </record>
+    <record id="tax_vatex_fr_cgi261_2" model="unece.code.list">
+        <field name="type">tax_vatex</field>
+        <field name="code">VATEX-FR-CGI261-2</field>
+        <field name="name">Exempt based on 2 of article 261 of the CGI</field>
+        <field
+            name="description"
+        >Only for domestic invoicing in France. Cf https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000054374042</field>
+    </record>
+    <record id="tax_vatex_fr_cgi261_3" model="unece.code.list">
+        <field name="type">tax_vatex</field>
+        <field name="code">VATEX-FR-CGI261-3</field>
+        <field name="name">Exempt based on 3 of article 261 of the CGI</field>
+        <field
+            name="description"
+        >Only for domestic invoicing in France. Cf https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000054374042</field>
+    </record>
+    <record id="tax_vatex_fr_cgi261_4" model="unece.code.list">
+        <field name="type">tax_vatex</field>
+        <field name="code">VATEX-FR-CGI261-4</field>
+        <field name="name">Exempt based on 4 of article 261 of the CGI</field>
+        <field
+            name="description"
+        >Only for domestic invoicing in France. Cf https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000054374042</field>
+    </record>
+    <record id="tax_vatex_fr_cgi261_5" model="unece.code.list">
+        <field name="type">tax_vatex</field>
+        <field name="code">VATEX-FR-CGI261-5</field>
+        <field name="name">Exempt based on 5 of article 261 of the CGI</field>
+        <field
+            name="description"
+        >Only for domestic invoicing in France. Cf https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000054374042</field>
+    </record>
+    <record id="tax_vatex_fr_cgi261_7" model="unece.code.list">
+        <field name="type">tax_vatex</field>
+        <field name="code">VATEX-FR-CGI261-7</field>
+        <field name="name">Exempt based on 7 of article 261 of the CGI</field>
+        <field
+            name="description"
+        >Only for domestic invoicing in France. Cf https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000054374042</field>
+    </record>
+    <record id="tax_vatex_fr_cgi261_8" model="unece.code.list">
+        <field name="type">tax_vatex</field>
+        <field name="code">VATEX-FR-CGI261-8</field>
+        <field name="name">Exempt based on 8 of article 261 of the CGI</field>
+        <field
+            name="description"
+        >Only for domestic invoicing in France. Cf https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000054374042</field>
+    </record>
+    <record id="tax_vatex_fr_cgi261a" model="unece.code.list">
+        <field name="type">tax_vatex</field>
+        <field name="code">VATEX-FR-CGI261A</field>
+        <field name="name">Exempt based on article 261 A of the CGI</field>
+        <field
+            name="description"
+        >Only for domestic invoicing in France. Repealed by law n°2026-103 dated february 19th 2026 article 17</field>
+    </record>
+    <record id="tax_vatex_fr_cgi261b" model="unece.code.list">
+        <field name="type">tax_vatex</field>
+        <field name="code">VATEX-FR-CGI261B</field>
+        <field name="name">Exempt based on article 261 B of the CGI</field>
+        <field
+            name="description"
+        >Only for domestic invoicing in France. Cf https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000042914688</field>
+    </record>
+    <record id="tax_vatex_fr_cgi261c_1" model="unece.code.list">
+        <field name="type">tax_vatex</field>
+        <field name="code">VATEX-FR-CGI261C-1</field>
+        <field name="name">Exempt based on 1° of article 261 C of the CGI</field>
+        <field
+            name="description"
+        >Only for domestic invoicing in France. Cf https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000041467574</field>
+    </record>
+    <record id="tax_vatex_fr_cgi261c_2" model="unece.code.list">
+        <field name="type">tax_vatex</field>
+        <field name="code">VATEX-FR-CGI261C-2</field>
+        <field name="name">Exempt based on 2° of article 261 C of the CGI</field>
+        <field
+            name="description"
+        >Only for domestic invoicing in France. Cf https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000041467574</field>
+    </record>
+    <record id="tax_vatex_fr_cgi261c_3" model="unece.code.list">
+        <field name="type">tax_vatex</field>
+        <field name="code">VATEX-FR-CGI261C-3</field>
+        <field name="name">Exempt based on 3° of article 261 C of the CGI</field>
+        <field
+            name="description"
+        >Only for domestic invoicing in France. Cf https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000041467574</field>
+    </record>
+    <record id="tax_vatex_fr_cgi261d_1" model="unece.code.list">
+        <field name="type">tax_vatex</field>
+        <field name="code">VATEX-FR-CGI261D-1</field>
+        <field name="name">Exempt based on 1° of article 261 D of the CGI</field>
+        <field
+            name="description"
+        >Only for domestic invoicing in France. Cf https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000048827285</field>
+    </record>
+    <record id="tax_vatex_fr_cgi261d_1bis" model="unece.code.list">
+        <field name="type">tax_vatex</field>
+        <field name="code">VATEX-FR-CGI261D-1BIS</field>
+        <field name="name">Exempt based on 1°bis of article 261 D of the CGI</field>
+        <field
+            name="description"
+        >Only for domestic invoicing in France. Cf https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000048827285</field>
+    </record>
+    <record id="tax_vatex_fr_cgi261d_2" model="unece.code.list">
+        <field name="type">tax_vatex</field>
+        <field name="code">VATEX-FR-CGI261D-2</field>
+        <field name="name">Exempt based on 2° of article 261 D of the CGI</field>
+        <field
+            name="description"
+        >Only for domestic invoicing in France. Cf https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000048827285</field>
+    </record>
+    <record id="tax_vatex_fr_cgi261d_3" model="unece.code.list">
+        <field name="type">tax_vatex</field>
+        <field name="code">VATEX-FR-CGI261D-3</field>
+        <field name="name">Exempt based on 3° of article 261 D of the CGI</field>
+        <field
+            name="description"
+        >Only for domestic invoicing in France. Cf https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000048827285</field>
+    </record>
+    <record id="tax_vatex_fr_cgi261d_4" model="unece.code.list">
+        <field name="type">tax_vatex</field>
+        <field name="code">VATEX-FR-CGI261D-4</field>
+        <field name="name">Exempt based on 4° of article 261 D of the CGI</field>
+        <field
+            name="description"
+        >Only for domestic invoicing in France. Cf https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000048827285</field>
+    </record>
+    <record id="tax_vatex_fr_cgi261e_1" model="unece.code.list">
+        <field name="type">tax_vatex</field>
+        <field name="code">VATEX-FR-CGI261E-1</field>
+        <field name="name">Exempt based on 1° of article 261 E of the CGI</field>
+        <field
+            name="description"
+        >Only for domestic invoicing in France. Cf https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000051200678</field>
+    </record>
+    <record id="tax_vatex_fr_cgi261e_2" model="unece.code.list">
+        <field name="type">tax_vatex</field>
+        <field name="code">VATEX-FR-CGI261E-2</field>
+        <field name="name">Exempt based on 2° of article 261 E of the CGI</field>
+        <field
+            name="description"
+        >Only for domestic invoicing in France. Cf https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000051200678</field>
+    </record>
+    <record id="tax_vatex_fr_cgi277a" model="unece.code.list">
+        <field name="type">tax_vatex</field>
+        <field name="code">VATEX-FR-CGI277A</field>
+        <field name="name">Exempt based on article 277 A of the CGI</field>
+        <field
+            name="description"
+        >Only for domestic invoicing in France. Cf https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000051203238</field>
+    </record>
+    <record id="tax_vatex_fr_cgi275" model="unece.code.list">
+        <field name="type">tax_vatex</field>
+        <field name="code">VATEX-FR-CGI275</field>
+        <field name="name">Exempt based on article 275 of the CGI</field>
+        <field
+            name="description"
+        >Only for domestic invoicing in France. Cf https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000041471102</field>
+    </record>
+    <record id="tax_vatex_fr_298sexdeciesa" model="unece.code.list">
+        <field name="type">tax_vatex</field>
+        <field name="code">VATEX-FR-298SEXDECIESA</field>
+        <field name="name">Exempt based on article 298 sexdecies A of the CGI</field>
+        <field
+            name="description"
+        >Only for domestic invoicing in France. Cf https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000006304536</field>
+    </record>
+    <record id="tax_vatex_fr_cgi295" model="unece.code.list">
+        <field name="type">tax_vatex</field>
+        <field name="code">VATEX-FR-CGI295</field>
+        <field name="name">Exempt based on article 295 of the CGI</field>
+        <field
+            name="description"
+        >Only for domestic invoicing in France. Cf https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000053545643</field>
+    </record>
+    <record id="tax_vatex_fr_ae" model="unece.code.list">
+        <field name="type">tax_vatex</field>
+        <field name="code">VATEX-FR-AE</field>
+        <field name="name">Exempt based on 2 of article 283 of the CGI</field>
+        <field
+            name="description"
+        >Only for domestic invoicing in France. Cf https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000051214570</field>
+    </record>
+</odoo>

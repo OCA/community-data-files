@@ -21,6 +21,7 @@ class ResCompany(models.Model):
             [
                 "unece_type_code",
                 "unece_categ_code",
+                "unece_vatex_code",
                 "tax_exigibility",
                 "amount",
                 "amount_type",
@@ -32,6 +33,7 @@ class ResCompany(models.Model):
             res[tax["id"]] = {
                 "unece_type_code": tax["unece_type_code"] or None,
                 "unece_categ_code": tax["unece_categ_code"] or None,
+                "unece_vatex_code": tax["unece_vatex_code"] or None,
                 "unece_due_date_code": None,
                 "amount_type": tax["amount_type"],
                 "amount": tax["amount"],

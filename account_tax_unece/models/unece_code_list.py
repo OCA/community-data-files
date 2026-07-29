@@ -12,9 +12,11 @@ class UneceCodeList(models.Model):
         selection_add=[
             ("tax_type", "Tax Types (UNCL 5153)"),
             ("tax_categ", "Tax Categories (UNCL 5305)"),
+            ("tax_vatex", "VAT Exemption Reason Codes"),
         ],
         ondelete={
             "tax_type": "cascade",
             "tax_categ": "cascade",
+            "tax_vatex": "cascade",
         },
     )
