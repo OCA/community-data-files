@@ -55,6 +55,13 @@ msgstr ""
 "komisije Združenih narodov (UNECE), podatkovni element 5153"
 
 #. module: account_tax_unece
+#: model:ir.model.fields,help:account_tax_unece.field_account_tax__unece_vatex_id
+msgid ""
+"Select the VAT Exemption Reason Code (VATEX) of the official nomenclature of "
+"the European Union."
+msgstr ""
+
+#. module: account_tax_unece
 #: model:ir.model,name:account_tax_unece.model_account_tax
 msgid "Tax"
 msgstr "Davek"
@@ -100,3 +107,23 @@ msgstr "Tip kode UNECE"
 #: model:ir.model,name:account_tax_unece.model_unece_code_list
 msgid "UNECE nomenclatures"
 msgstr "Nomenklature UNECE"
+
+#. module: account_tax_unece
+#: model:ir.model.fields,field_description:account_tax_unece.field_account_tax__unece_vatex_id
+msgid "VAT Exemption Reason"
+msgstr ""
+
+#. module: account_tax_unece
+#: model:ir.model.fields,field_description:account_tax_unece.field_account_tax__unece_vatex_code
+msgid "VAT Exemption Reason Code"
+msgstr ""
+
+#. module: account_tax_unece
+#: model:ir.model.fields.selection,name:account_tax_unece.selection__unece_code_list__type__tax_vatex
+msgid "VAT Exemption Reason Codes"
+msgstr ""
+
+#. module: account_tax_unece
+#: model_terms:ir.ui.view,arch_db:account_tax_unece.unece_code_list_search
+msgid "VAT Exemption Reasons"
+msgstr ""

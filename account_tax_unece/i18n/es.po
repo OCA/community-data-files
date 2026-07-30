@@ -22,6 +22,20 @@ msgid "Companies"
 msgstr "Compañías"
 
 #. module: account_tax_unece
+#: model:ir.model.fields,field_description:account_tax_unece.field_account_tax__display_name
+#: model:ir.model.fields,field_description:account_tax_unece.field_res_company__display_name
+#: model:ir.model.fields,field_description:account_tax_unece.field_unece_code_list__display_name
+msgid "Display Name"
+msgstr ""
+
+#. module: account_tax_unece
+#: model:ir.model.fields,field_description:account_tax_unece.field_account_tax__id
+#: model:ir.model.fields,field_description:account_tax_unece.field_res_company__id
+#: model:ir.model.fields,field_description:account_tax_unece.field_unece_code_list__id
+msgid "ID"
+msgstr ""
+
+#. module: account_tax_unece
 #: model:ir.model.fields,help:account_tax_unece.field_account_tax__unece_categ_id
 msgid ""
 "Select the Tax Category Code of the official nomenclature of the United "
@@ -40,6 +54,13 @@ msgstr ""
 "Seleccione el Código de Tipo de Impuesto de la nomenclatura oficial de la "
 "Comisión Económica para Europa de las Naciones Unidas (UNECE), Elemento de "
 "Datos 5153"
+
+#. module: account_tax_unece
+#: model:ir.model.fields,help:account_tax_unece.field_account_tax__unece_vatex_id
+msgid ""
+"Select the VAT Exemption Reason Code (VATEX) of the official nomenclature of "
+"the European Union."
+msgstr ""
 
 #. module: account_tax_unece
 #: model:ir.model,name:account_tax_unece.model_account_tax
@@ -87,6 +108,26 @@ msgstr "Código de tipo CEPE (UNECE)"
 #: model:ir.model,name:account_tax_unece.model_unece_code_list
 msgid "UNECE nomenclatures"
 msgstr "Nomenclaturas de la UNECE"
+
+#. module: account_tax_unece
+#: model:ir.model.fields,field_description:account_tax_unece.field_account_tax__unece_vatex_id
+msgid "VAT Exemption Reason"
+msgstr ""
+
+#. module: account_tax_unece
+#: model:ir.model.fields,field_description:account_tax_unece.field_account_tax__unece_vatex_code
+msgid "VAT Exemption Reason Code"
+msgstr ""
+
+#. module: account_tax_unece
+#: model:ir.model.fields.selection,name:account_tax_unece.selection__unece_code_list__type__tax_vatex
+msgid "VAT Exemption Reason Codes"
+msgstr ""
+
+#. module: account_tax_unece
+#: model_terms:ir.ui.view,arch_db:account_tax_unece.unece_code_list_search
+msgid "VAT Exemption Reasons"
+msgstr ""
 
 #~ msgid "Templates for Taxes"
 #~ msgstr "Plantillas para impuestos"
