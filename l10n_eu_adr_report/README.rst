@@ -10,9 +10,9 @@ ADR Products Report
    !! source digest: sha256:1a1e2ba33c5eff51eafea1156cf6271810366d675b81aa7a8c51dc4816d947d1
    !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 
-.. |badge1| image:: https://img.shields.io/badge/maturity-Alpha-red.png
+.. |badge1| image:: https://img.shields.io/badge/maturity-Beta-yellow.png
     :target: https://odoo-community.org/page/development-status
-    :alt: Alpha
+    :alt: Beta
 .. |badge2| image:: https://img.shields.io/badge/licence-AGPL--3-blue.png
     :target: http://www.gnu.org/licenses/agpl-3.0-standalone.html
     :alt: License: AGPL-3
@@ -28,17 +28,29 @@ ADR Products Report
 
 |badge1| |badge2| |badge3| |badge4| |badge5|
 
-Report for delivery of dangerous goods. We assume that product can be
+Print the multimodal dangerous goods form (ADR) of a delivery order.
 
-.. IMPORTANT::
-   This is an alpha version, the data model and design can change at any time without warning.
-   Only for development or testing purpose, do not use in production.
-   `More details on development status <https://odoo-community.org/page/development-status>`_
+The report lists every dangerous product of the picking with its UN
+number, proper shipping name, class and packing instruction, and sums
+the transport points per transport category as defined by ADR 1.1.3.6.3.
+When the total exceeds 1,000 points, the exemption of ADR 1.1.3.6 no
+longer applies and the report says so.
 
 **Table of contents**
 
 .. contents::
    :local:
+
+Usage
+=====
+
+Open a delivery order holding at least one product flagged as dangerous,
+then choose *Print > Dangerous Delivery Report*.
+
+The reported quantity is the demanded quantity while the transfer is not
+done, and the done quantity once it is. The reported mass is the product
+weight multiplied by that quantity; products carrying no weight are
+reported by quantity.
 
 Known issues / Roadmap
 ======================
@@ -68,6 +80,15 @@ Authors
 -------
 
 * Camptocamp
+* ACSONE SA/NV
+
+Contributors
+------------
+
+- Vyshnevska Iryna <i.vyshnevska@mobilunity.com>
+- `ACSONE SA/NV <https://acsone.eu>`__:
+
+  - Stéphane Mangin <stephane.mangin@acsone.eu>
 
 Maintainers
 -----------

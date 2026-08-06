@@ -1,13 +1,14 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <odoo>
-    <report
-        string="Dangerous Delivery Report"
-        id="action_report_dangerous_delivery"
-        model="stock.picking"
-        report_type="qweb-pdf"
-        name="l10n_eu_adr_report.report_delivery_dangerous"
-        file="l10n_eu_adr_report.report_delivery_dangerous"
-    />
+    <record id="action_report_dangerous_delivery" model="ir.actions.report">
+        <field name="name">Dangerous Delivery Report</field>
+        <field name="model">stock.picking</field>
+        <field name="report_type">qweb-pdf</field>
+        <field name="report_name">l10n_eu_adr_report.report_delivery_dangerous</field>
+        <field name="report_file">l10n_eu_adr_report.report_delivery_dangerous</field>
+        <field name="binding_model_id" ref="stock.model_stock_picking" />
+        <field name="binding_type">report</field>
+    </record>
     <template id="report_delivery_adr_details">
         <table class="table table-condensed adr-report adr_details">
             <tbody>
