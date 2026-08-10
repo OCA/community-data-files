@@ -1,0 +1,210 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* base_iso7010
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 18.0+e\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-05-05 21:06+0000\n"
+"PO-Revision-Date: 2025-05-05 22:38+0000\n"
+"Last-Translator: \n"
+"Language-Team: Dutch\n"
+"Language: nl\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#. module: base_iso7010
+#: model:ir.model.fields,field_description:base_iso7010.field_iso7010_symbol__active
+msgid "Active"
+msgstr "Actief"
+
+#. module: base_iso7010
+#: model_terms:ir.ui.view,arch_db:base_iso7010.view_iso7010_symbol_search
+msgid "Archived"
+msgstr "Gearchiveerd"
+
+#. module: base_iso7010
+#: model:ir.model.fields,field_description:base_iso7010.field_iso7010_symbol__category
+#: model_terms:ir.ui.view,arch_db:base_iso7010.view_iso7010_symbol_search
+msgid "Category"
+msgstr "Categorie"
+
+#. module: base_iso7010
+#: model:ir.model.fields,field_description:base_iso7010.field_iso7010_symbol__create_uid
+msgid "Created by"
+msgstr "Aangemaakt door"
+
+#. module: base_iso7010
+#: model:ir.model.fields,field_description:base_iso7010.field_iso7010_symbol__create_date
+msgid "Created on"
+msgstr "Aangemaakt op"
+
+#. module: base_iso7010
+#: model:ir.model.fields,field_description:base_iso7010.field_iso7010_symbol__description
+#: model_terms:ir.ui.view,arch_db:base_iso7010.view_iso7010_symbol_form
+msgid "Description"
+msgstr "Beschrijving"
+
+#. module: base_iso7010
+#: model:ir.model.fields,field_description:base_iso7010.field_iso7010_symbol__display_name
+msgid "Display Name"
+msgstr "Weergavenaam"
+
+#. module: base_iso7010
+#: model_terms:ir.ui.view,arch_db:base_iso7010.view_iso7010_symbol_search
+msgid "Emergency"
+msgstr "Noodgeval"
+
+#. module: base_iso7010
+#: model:ir.model.fields.selection,name:base_iso7010.selection__iso7010_symbol__category__emergency
+msgid "Emergency Escape/First-Aid (Green Square)"
+msgstr "Nooduitgang/Eerste Hulp (Groen Vierkant)"
+
+#. module: base_iso7010
+#: model_terms:ir.ui.view,arch_db:base_iso7010.view_iso7010_symbol_search
+msgid "Fire"
+msgstr "Brand"
+
+#. module: base_iso7010
+#: model:ir.model.fields.selection,name:base_iso7010.selection__iso7010_symbol__category__fire
+msgid "Fire Equipment (Red Square)"
+msgstr "Brandbestrijdingsmateriaal (Rood Vierkant)"
+
+#. module: base_iso7010
+#: model_terms:ir.ui.view,arch_db:base_iso7010.view_iso7010_symbol_search
+msgid "Group By"
+msgstr "Groeperen op"
+
+#. module: base_iso7010
+#: model:ir.model.fields,field_description:base_iso7010.field_iso7010_symbol__id
+msgid "ID"
+msgstr "ID"
+
+#. module: base_iso7010
+#: model:ir.model,name:base_iso7010.model_iso7010_symbol
+msgid "ISO 7010 Safety Symbol"
+msgstr "ISO 7010 Veiligheidssymbool"
+
+#. module: base_iso7010
+#: model_terms:ir.ui.view,arch_db:base_iso7010.view_iso7010_symbol_form
+msgid "ISO 7010 Symbol"
+msgstr "ISO 7010 Symbool"
+
+#. module: base_iso7010
+#: model:ir.actions.act_window,name:base_iso7010.action_iso7010_symbol
+#: model:ir.ui.menu,name:base_iso7010.menu_iso7010_symbol
+#: model_terms:ir.ui.view,arch_db:base_iso7010.view_iso7010_symbol_list
+msgid "ISO 7010 Symbols"
+msgstr "ISO 7010 Symbolen"
+
+#. module: base_iso7010
+#: model:ir.model.constraint,message:base_iso7010.constraint_iso7010_symbol_iso_code_uniq
+msgid "ISO Code must be unique!"
+msgstr "ISO Code moet uniek zijn!"
+
+#. module: base_iso7010
+#: model:ir.ui.menu,name:base_iso7010.menu_iso7010_symbol_root
+msgid "ISO Standards"
+msgstr "ISO Standaarden"
+
+#. module: base_iso7010
+#: model:ir.model.fields,help:base_iso7010.field_iso7010_symbol__image
+msgid "Image representation of the symbol (preferably SVG)."
+msgstr "Afbeelding van het symbool (bij voorkeur SVG)."
+
+#. module: base_iso7010
+#: model_terms:ir.actions.act_window,help:base_iso7010.action_iso7010_symbol
+msgid ""
+"Install the specific 'base_iso7010_data_*' modules (e.g., 'base_iso7010_data_mandatory')\n"
+"              to load symbol data for the categories you need."
+msgstr ""
+"Installeer de specifieke 'base_iso7010_data_*' modules (bijv. 'base_iso7010_data_mandatory')\n"
+"              om symboolgegevens te laden voor de categorieën die u nodig heeft."
+
+#. module: base_iso7010
+#: model:ir.model.fields,field_description:base_iso7010.field_iso7010_symbol__iso_code
+msgid "Iso Code"
+msgstr "Iso Code"
+
+#. module: base_iso7010
+#: model:ir.model.fields,field_description:base_iso7010.field_iso7010_symbol__write_uid
+msgid "Last Updated by"
+msgstr "Laatst bijgewerkt door"
+
+#. module: base_iso7010
+#: model:ir.model.fields,field_description:base_iso7010.field_iso7010_symbol__write_date
+msgid "Last Updated on"
+msgstr "Laatst bijgewerkt op"
+
+#. module: base_iso7010
+#: model_terms:ir.ui.view,arch_db:base_iso7010.view_iso7010_symbol_search
+msgid "Mandatory"
+msgstr "Gebod"
+
+#. module: base_iso7010
+#: model:ir.model.fields.selection,name:base_iso7010.selection__iso7010_symbol__category__mandatory
+msgid "Mandatory Action (Blue Circle)"
+msgstr "Gebodsactie (Blauwe Cirkel)"
+
+#. module: base_iso7010
+#: model:ir.model.fields,help:base_iso7010.field_iso7010_symbol__name
+msgid "Meaning of the symbol, e.g., 'Wear eye protection'."
+msgstr "Betekenis van het symbool, bijv. 'Draag oogbescherming'."
+
+#. module: base_iso7010
+#: model:ir.model.fields,field_description:base_iso7010.field_iso7010_symbol__name
+msgid "Name"
+msgstr "Naam"
+
+#. module: base_iso7010
+#: model_terms:ir.actions.act_window,help:base_iso7010.action_iso7010_symbol
+msgid "No ISO 7010 symbols found."
+msgstr "Geen ISO 7010 symbolen gevonden."
+
+#. module: base_iso7010
+#: model:ir.model.fields,help:base_iso7010.field_iso7010_symbol__description
+msgid "Optional further details about the symbol or its usage."
+msgstr "Optionele verdere details over het symbool of het gebruik ervan."
+
+#. module: base_iso7010
+#: model_terms:ir.ui.view,arch_db:base_iso7010.view_iso7010_symbol_search
+msgid "Prohibition"
+msgstr "Verbod"
+
+#. module: base_iso7010
+#: model:ir.model.fields.selection,name:base_iso7010.selection__iso7010_symbol__category__prohibition
+msgid "Prohibition (Red Circle with Slash)"
+msgstr "Verbod (Rode Cirkel met Streep)"
+
+#. module: base_iso7010
+#: model_terms:ir.ui.view,arch_db:base_iso7010.view_iso7010_symbol_search
+msgid "Search ISO 7010 Symbols"
+msgstr "Zoek ISO 7010 Symbolen"
+
+#. module: base_iso7010
+#: model:ir.model.fields.selection,name:base_iso7010.selection__iso7010_symbol__category__supplementary
+msgid "Supplementary (Usually Rectangular)"
+msgstr "Aanvullend (Meestal Rechthoekig)"
+
+#. module: base_iso7010
+#: model:ir.model.fields,field_description:base_iso7010.field_iso7010_symbol__image
+msgid "Symbol Image"
+msgstr "Symbool Afbeelding"
+
+#. module: base_iso7010
+#: model:ir.model.fields,help:base_iso7010.field_iso7010_symbol__iso_code
+msgid "The official ISO 7010 code, e.g., M001, W002, P003, E001, F001."
+msgstr "De officiële ISO 7010 code, bijv. M001, W002, P003, E001, F001."
+
+#. module: base_iso7010
+#: model_terms:ir.ui.view,arch_db:base_iso7010.view_iso7010_symbol_search
+msgid "Warning"
+msgstr "Waarschuwing"
+
+#. module: base_iso7010
+#: model:ir.model.fields.selection,name:base_iso7010.selection__iso7010_symbol__category__warning
+msgid "Warning (Yellow Triangle)"
+msgstr "Waarschuwing (Gele Driehoek)"

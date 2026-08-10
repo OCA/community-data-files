@@ -1,0 +1,3 @@
+id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
+access_iso7010_symbol_user,iso7010.symbol user,model_iso7010_symbol,base.group_user,1,0,0,0
+access_iso7010_symbol_admin,iso7010.symbol admin,model_iso7010_symbol,base.group_system,1,1,1,1

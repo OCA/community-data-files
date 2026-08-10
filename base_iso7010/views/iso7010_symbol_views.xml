@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<odoo>
+    <record id="view_iso7010_symbol_list" model="ir.ui.view">
+        <field name="name">iso7010.symbol.list</field>
+        <field name="model">iso7010.symbol</field>
+        <field name="type">list</field>
+        <field name="arch" type="xml">
+            <list
+                string="ISO 7010 Symbols"
+                editable="bottom"
+                create="false"
+                delete="false"
+            >
+                <field
+                    name="image"
+                    widget="image"
+                    options="{'size': [0, 40]}"
+                    class="oe_avatar"
+                />
+                <field name="iso_code" readonly="1" />
+                <field name="name" readonly="1" />
+                <field name="category" readonly="1" />
+                <field name="active" />
+            </list>
+        </field>
+    </record>
+
+    <record id="view_iso7010_symbol_form" model="ir.ui.view">
+        <field name="name">iso7010.symbol.form</field>
+        <field name="model">iso7010.symbol</field>
+        <field name="arch" type="xml">
+            <form string="ISO 7010 Symbol" create="false" edit="false" delete="false">
+                <sheet>
+                    <field name="active" widget="boolean_toggle" class="oe_right" />
+                    <field
+                        name="image"
+                        widget="image"
+                        class="oe_avatar oe_left"
+                        options="{'size': [0, 128]}"
+                        readonly="1"
+                    />
+                    <div class="oe_title">
+                        <label for="name" class="oe_edit_only" />
+                        <h1>
+                            <field name="name" readonly="1" />
+                        </h1>
+                        <h2>
+                            <field name="iso_code" readonly="1" />
+                        </h2>
+                    </div>
+                    <group>
+                        <group>
+                            <field name="category" readonly="1" />
+                        </group>
+                    </group>
+                    <notebook>
+                        <page string="Description" name="description">
+                            <field name="description" readonly="1" />
+                        </page>
+                    </notebook>
+                </sheet>
+            </form>
+        </field>
+    </record>
+
+    <record id="view_iso7010_symbol_search" model="ir.ui.view">
+        <field name="name">iso7010.symbol.search</field>
+        <field name="model">iso7010.symbol</field>
+        <field name="arch" type="xml">
+            <search string="Search ISO 7010 Symbols">
+                <field name="name" />
+                <field name="iso_code" />
+                <field name="description" />
+                <filter
+                    string="Mandatory"
+                    name="filter_mandatory"
+                    domain="[('category', '=', 'mandatory')]"
+                />
+                <filter
+                    string="Warning"
+                    name="filter_warning"
+                    domain="[('category', '=', 'warning')]"
+                />
+                <filter
+                    string="Prohibition"
+                    name="filter_prohibition"
+                    domain="[('category', '=', 'prohibition')]"
+                />
+                <filter
+                    string="Emergency"
+                    name="filter_emergency"
+                    domain="[('category', '=', 'emergency')]"
+                />
+                <filter
+                    string="Fire"
+                    name="filter_fire"
+                    domain="[('category', '=', 'fire')]"
+                />
+                <filter
+                    string="Archived"
+                    name="inactive"
+                    domain="[('active', '=', False)]"
+                />
+                <group expand="0" string="Group By">
+                    <filter
+                        string="Category"
+                        name="group_by_category"
+                        context="{'group_by': 'category'}"
+                    />
+                </group>
+            </search>
+        </field>
+    </record>
+
+    <record id="action_iso7010_symbol" model="ir.actions.act_window">
+        <field name="name">ISO 7010 Symbols</field>
+        <field name="res_model">iso7010.symbol</field>
+        <field name="view_mode">list,form</field>
+        <field name="search_view_id" ref="view_iso7010_symbol_search" />
+        <field name="help" type="html">
+            <p class="o_view_nocontent_smiling_face">
+            No ISO 7010 symbols found.
+          </p>
+            <p>
+            Install the specific 'base_iso7010_data_*' modules (e.g., 'base_iso7010_data_mandatory')
+            to load symbol data for the categories you need.
+          </p>
+        </field>
+    </record>
+
+    <menuitem
+        id="menu_iso7010_symbol_root"
+        name="ISO Standards"
+        parent="base.menu_administration"
+        sequence="500"
+        groups="base.group_system"
+    />
+    <menuitem
+        id="menu_iso7010_symbol"
+        name="ISO 7010 Symbols"
+        action="action_iso7010_symbol"
+        parent="menu_iso7010_symbol_root"
+        sequence="10"
+        groups="base.group_system"
+    />
+</odoo>
