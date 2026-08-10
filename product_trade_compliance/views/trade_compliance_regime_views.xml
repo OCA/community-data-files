@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<odoo>
+    <record id="view_trade_compliance_regime_tree" model="ir.ui.view">
+        <field name="name">trade.compliance.regime.tree</field>
+        <field name="model">trade.compliance.regime</field>
+        <field name="arch" type="xml">
+            <list>
+                <field name="name" />
+                <field name="description" />
+            </list>
+        </field>
+    </record>
+    <record id="view_trade_compliance_regime_form" model="ir.ui.view">
+        <field name="name">trade.compliance.regime.form</field>
+        <field name="model">trade.compliance.regime</field>
+        <field name="arch" type="xml">
+            <form>
+                <sheet>
+                    <div class="oe_button_box" name="button_box" />
+                    <widget
+                        name="web_ribbon"
+                        title="Archived"
+                        bg_color="text-bg-danger"
+                        invisible="active"
+                    />
+                    <group>
+                        <group>
+                            <field name="active" invisible="1" />
+                            <field name="name" />
+                        </group>
+                        <group>
+                            <field name="description" />
+                        </group>
+                    </group>
+                </sheet>
+            </form>
+        </field>
+    </record>
+    <record id="view_trade_compliance_regime_search" model="ir.ui.view">
+        <field name="name">trade.compliance.regime.search</field>
+        <field name="model">trade.compliance.regime</field>
+        <field name="arch" type="xml">
+            <search>
+                <field name="name" />
+                <field name="description" />
+                <filter
+                    string="Archived"
+                    name="inactive"
+                    domain="[('active', '=', False)]"
+                />
+            </search>
+        </field>
+    </record>
+    <record id="action_trade_compliance_regime" model="ir.actions.act_window">
+        <field name="name">Trade Compliance Regimes</field>
+        <field name="res_model">trade.compliance.regime</field>
+        <field name="view_mode">list,form</field>
+    </record>
+</odoo>

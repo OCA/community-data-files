@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<odoo>
+    <menuitem
+        id="menu_trade_compliance_root"
+        name="Trade Compliance"
+        parent="stock.menu_stock_config_settings"
+        sequence="100"
+    />
+    <menuitem
+        id="menu_trade_compliance_regime"
+        name="Regimes"
+        parent="menu_trade_compliance_root"
+        action="action_trade_compliance_regime"
+        sequence="10"
+    />
+    <menuitem
+        id="menu_trade_compliance_code"
+        name="Compliance Codes"
+        parent="menu_trade_compliance_root"
+        action="action_trade_compliance_code"
+        sequence="20"
+    />
+</odoo>
