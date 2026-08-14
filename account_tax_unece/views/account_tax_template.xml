@@ -17,6 +17,11 @@
                             name="unece_categ_id"
                             options="{'no_create': True, 'no_create_edit': True}"
                         />
+                        <field
+                            name="unece_vatex_id"
+                            options="{'no_create': True, 'no_create_edit': True}"
+                            attrs="{'invisible': [('type_tax_use', '!=', 'sale')]}"
+                        />
                     </group>
                 </page>
             </notebook>
