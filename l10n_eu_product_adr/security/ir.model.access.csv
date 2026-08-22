@@ -1,0 +1,9 @@
+id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
+access_adr_goods_user,access_adr_goods,model_adr_goods,group_adr_goods_user,1,0,0,0
+access_adr_goods_manager,access_adr_goods,model_adr_goods,group_adr_goods_admin,1,1,1,1
+access_adr_class_user,access_adr_class,model_adr_class,group_adr_goods_user,1,0,0,0
+access_adr_class_manager,access_adr_class,model_adr_class,group_adr_goods_admin,1,1,1,1
+access_adr_label_user,access_adr_label,model_adr_label,group_adr_goods_user,1,0,0,0
+access_adr_label_manager,access_adr_label,model_adr_label,group_adr_goods_admin,1,1,1,1
+access_adr_packing_instruction_user,access_adr_packing_instruction,model_adr_packing_instruction,group_adr_goods_user,1,0,0,0
+access_adr_packing_instruction_manager,access_adr_packing_instruction,model_adr_packing_instruction,group_adr_goods_admin,1,1,1,1
