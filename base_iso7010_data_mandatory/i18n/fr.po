@@ -1,0 +1,676 @@
+# Translation of base_iso7010_data_mandatory for French
+# Copyright (C) 2025 bosd
+# This file is distributed under the same license as the base_iso7010_data_mandatory module.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: base_iso7010_data_mandatory 18.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-05-05 22:14+0000\n"
+"PO-Revision-Date: 2025-05-05 22:14+0000\n"
+"Last-Translator: bosd <>\n"
+"Language-Team: French\n"
+"Language: fr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+
+#. module: base_iso7010_data_mandatory
+#: model:iso7010.symbol,name:base_iso7010_data_mandatory.iso7010_symbol_m001
+msgid "General mandatory action sign"
+msgstr "Obligation générale"
+
+#. module: base_iso7010_data_mandatory
+#: model:iso7010.symbol,description:base_iso7010_data_mandatory.iso7010_symbol_m001
+msgid "Indicates that a mandatory action (unspecified) is required."
+msgstr "Indique qu'une action obligatoire (non spécifiée) est requise."
+
+#. module: base_iso7010_data_mandatory
+#: model:iso7010.symbol,name:base_iso7010_data_mandatory.iso7010_symbol_m002
+msgid "Refer to instruction manual/booklet"
+msgstr "Consulter la notice d'instruction/le manuel"
+
+#. module: base_iso7010_data_mandatory
+#: model:iso7010.symbol,description:base_iso7010_data_mandatory.iso7010_symbol_m002
+msgid "Indicates that the instruction manual or booklet must be read."
+msgstr "Indique que la notice d'instruction ou le manuel doit être lu."
+
+#. module: base_iso7010_data_mandatory
+#: model:iso7010.symbol,name:base_iso7010_data_mandatory.iso7010_symbol_m003
+msgid "Wear hearing protection"
+msgstr "Protection obligatoire de l'ouïe"
+
+#. module: base_iso7010_data_mandatory
+#: model:iso7010.symbol,description:base_iso7010_data_mandatory.iso7010_symbol_m003
+msgid "Indicates that hearing protection must be worn."
+msgstr "Indique qu'une protection auditive doit être portée."
+
+#. module: base_iso7010_data_mandatory
+#: model:iso7010.symbol,name:base_iso7010_data_mandatory.iso7010_symbol_m004
+msgid "Wear eye protection"
+msgstr "Protection obligatoire des yeux"
+
+#. module: base_iso7010_data_mandatory
+#: model:iso7010.symbol,description:base_iso7010_data_mandatory.iso7010_symbol_m004
+msgid "Indicates that eye protection must be worn."
+msgstr "Indique qu'une protection oculaire doit être portée."
+
+#. module: base_iso7010_data_mandatory
+#: model:iso7010.symbol,name:base_iso7010_data_mandatory.iso7010_symbol_m005
+msgid "Connect an earth terminal to the ground"
+msgstr "Connecter une borne de terre à la terre"
+
+#. module: base_iso7010_data_mandatory
+#: model:iso7010.symbol,description:base_iso7010_data_mandatory.iso7010_symbol_m005
+msgid "Indicates that an earth terminal must be connected to the ground."
+msgstr "Indique qu'une borne de terre doit être connectée à la terre."
+
+#. module: base_iso7010_data_mandatory
+#: model:iso7010.symbol,name:base_iso7010_data_mandatory.iso7010_symbol_m006
+msgid "Disconnect mains plug from electrical outlet"
+msgstr "Débrancher la fiche secteur de la prise électrique"
+
+#. module: base_iso7010_data_mandatory
+#: model:iso7010.symbol,description:base_iso7010_data_mandatory.iso7010_symbol_m006
+msgid "Indicates that the mains plug must be disconnected from the electrical outlet."
+msgstr "Indique que la fiche secteur doit être débranchée de la prise électrique."
+
+#. module: base_iso7010_data_mandatory
+#: model:iso7010.symbol,name:base_iso7010_data_mandatory.iso7010_symbol_m007
+msgid "Wear opaque eye protection"
+msgstr "Protection obligatoire des yeux (opaque)"
+
+#. module: base_iso7010_data_mandatory
+#: model:iso7010.symbol,description:base_iso7010_data_mandatory.iso7010_symbol_m007
+msgid "Indicates that opaque eye protection must be worn (e.g., for welding)."
+msgstr "Indique qu'une protection oculaire opaque doit être portée (par ex. pour le soudage)."
+
+#. module: base_iso7010_data_mandatory
+#: model:iso7010.symbol,name:base_iso7010_data_mandatory.iso7010_symbol_m008
+msgid "Wear safety footwear"
+msgstr "Protection obligatoire des pieds"
+
+#. module: base_iso7010_data_mandatory
+#: model:iso7010.symbol,description:base_iso7010_data_mandatory.iso7010_symbol_m008
+msgid "Indicates that safety footwear must be worn."
+msgstr "Indique que des chaussures de sécurité doivent être portées."
+
+#. module: base_iso7010_data_mandatory
+#: model:iso7010.symbol,name:base_iso7010_data_mandatory.iso7010_symbol_m009
+msgid "Wear protective gloves"
+msgstr "Protection obligatoire des mains"
+
+#. module: base_iso7010_data_mandatory
+#: model:iso7010.symbol,description:base_iso7010_data_mandatory.iso7010_symbol_m009
+msgid "Indicates that protective gloves must be worn."
+msgstr "Indique que des gants de protection doivent être portés."
+
+#. module: base_iso7010_data_mandatory
+#: model:iso7010.symbol,name:base_iso7010_data_mandatory.iso7010_symbol_m010
+msgid "Wear protective clothing"
+msgstr "Protection obligatoire du corps"
+
+#. module: base_iso7010_data_mandatory
+#: model:iso7010.symbol,description:base_iso7010_data_mandatory.iso7010_symbol_m010
+msgid "Indicates that protective clothing must be worn."
+msgstr "Indique que des vêtements de protection doivent être portés."
+
+#. module: base_iso7010_data_mandatory
+#: model:iso7010.symbol,name:base_iso7010_data_mandatory.iso7010_symbol_m011
+msgid "Wash your hands"
+msgstr "Se laver les mains"
+
+#. module: base_iso7010_data_mandatory
+#: model:iso7010.symbol,description:base_iso7010_data_mandatory.iso7010_symbol_m011
+msgid "Indicates that hands must be washed."
+msgstr "Indique que les mains doivent être lavées."
+
+#. module: base_iso7010_data_mandatory
+#: model:iso7010.symbol,name:base_iso7010_data_mandatory.iso7010_symbol_m012
+msgid "Use handrail"
+msgstr "Utiliser la main courante"
+
+#. module: base_iso7010_data_mandatory
+#: model:iso7010.symbol,description:base_iso7010_data_mandatory.iso7010_symbol_m012
+msgid "Indicates that the handrail must be used."
+msgstr "Indique que la main courante doit être utilisée."
+
+#. module: base_iso7010_data_mandatory
+#: model:iso7010.symbol,name:base_iso7010_data_mandatory.iso7010_symbol_m013
+msgid "Wear face shield"
+msgstr "Protection obligatoire du visage"
+
+#. module: base_iso7010_data_mandatory
+#: model:iso7010.symbol,description:base_iso7010_data_mandatory.iso7010_symbol_m013
+msgid "Indicates that a face shield must be worn."
+msgstr "Indique qu'un écran facial doit être porté."
+
+#. module: base_iso7010_data_mandatory
+#: model:iso7010.symbol,name:base_iso7010_data_mandatory.iso7010_symbol_m014
+msgid "Wear safety helmet"
+msgstr "Protection obligatoire de la tête"
+
+#. module: base_iso7010_data_mandatory
+#: model:iso7010.symbol,description:base_iso7010_data_mandatory.iso7010_symbol_m014
+msgid "Indicates that a safety helmet must be worn."
+msgstr "Indique qu'un casque de protection doit être porté."
+
+#. module: base_iso7010_data_mandatory
+#: model:iso7010.symbol,name:base_iso7010_data_mandatory.iso7010_symbol_m015
+msgid "Wear high visibility clothing"
+msgstr "Porter des vêtements à haute visibilité"
+
+#. module: base_iso7010_data_mandatory
+#: model:iso7010.symbol,description:base_iso7010_data_mandatory.iso7010_symbol_m015
+msgid "Indicates that high visibility clothing must be worn."
+msgstr "Indique que des vêtements à haute visibilité doivent être portés."
+
+#. module: base_iso7010_data_mandatory
+#: model:iso7010.symbol,name:base_iso7010_data_mandatory.iso7010_symbol_m016
+msgid "Wear mask"
+msgstr "Port du masque obligatoire"
+
+#. module: base_iso7010_data_mandatory
+#: model:iso7010.symbol,description:base_iso7010_data_mandatory.iso7010_symbol_m016
+msgid "Indicates that a mask (covering mouth and nose) must be worn."
+msgstr "Indique qu'un masque (couvrant la bouche et le nez) doit être porté."
+
+#. module: base_iso7010_data_mandatory
+#: model:iso7010.symbol,name:base_iso7010_data_mandatory.iso7010_symbol_m017
+msgid "Wear respiratory protection"
+msgstr "Protection obligatoire des voies respiratoires"
+
+#. module: base_iso7010_data_mandatory
+#: model:iso7010.symbol,description:base_iso7010_data_mandatory.iso7010_symbol_m017
+msgid "Indicates that respiratory protection must be worn."
+msgstr "Indique qu'une protection respiratoire doit être portée."
+
+#. module: base_iso7010_data_mandatory
+#: model:iso7010.symbol,name:base_iso7010_data_mandatory.iso7010_symbol_m018
+msgid "Wear safety harness"
+msgstr "Harnais de sécurité obligatoire"
+
+#. module: base_iso7010_data_mandatory
+#: model:iso7010.symbol,description:base_iso7010_data_mandatory.iso7010_symbol_m018
+msgid "Indicates that a safety harness must be worn."
+msgstr "Indique qu'un harnais de sécurité doit être porté."
+
+#. module: base_iso7010_data_mandatory
+#: model:iso7010.symbol,name:base_iso7010_data_mandatory.iso7010_symbol_m019
+msgid "Wear a welding mask"
+msgstr "Porter un masque de soudage"
+
+#. module: base_iso7010_data_mandatory
+#: model:iso7010.symbol,description:base_iso7010_data_mandatory.iso7010_symbol_m019
+msgid "Indicates that a welding mask must be worn."
+msgstr "Indique qu'un masque de soudage doit être porté."
+
+#. module: base_iso7010_data_mandatory
+#: model:iso7010.symbol,name:base_iso7010_data_mandatory.iso7010_symbol_m020
+msgid "Wear safety belts"
+msgstr "Porter les ceintures de sécurité"
+
+#. module: base_iso7010_data_mandatory
+#: model:iso7010.symbol,description:base_iso7010_data_mandatory.iso7010_symbol_m020
+msgid "Indicates that safety belts must be worn."
+msgstr "Indique que les ceintures de sécurité doivent être portées."
+
+#. module: base_iso7010_data_mandatory
+#: model:iso7010.symbol,name:base_iso7010_data_mandatory.iso7010_symbol_m021
+msgid "Disconnect before carrying out maintenance or repair"
+msgstr "Débrancher avant intervention"
+
+#. module: base_iso7010_data_mandatory
+#: model:iso7010.symbol,description:base_iso7010_data_mandatory.iso7010_symbol_m021
+msgid "Indicates that the equipment must be disconnected from the energy source before carrying out maintenance or repair."
+msgstr "Indique que l'équipement doit être déconnecté de la source d'énergie avant d'effectuer la maintenance ou la réparation."
+
+#. module: base_iso7010_data_mandatory
+#: model:iso7010.symbol,name:base_iso7010_data_mandatory.iso7010_symbol_m022
+msgid "Use barrier cream"
+msgstr "Utiliser une crème barrière"
+
+#. module: base_iso7010_data_mandatory
+#: model:iso7010.symbol,description:base_iso7010_data_mandatory.iso7010_symbol_m022
+msgid "Indicates that barrier cream must be used."
+msgstr "Indique qu'une crème barrière doit être utilisée."
+
+#. module: base_iso7010_data_mandatory
+#: model:iso7010.symbol,name:base_iso7010_data_mandatory.iso7010_symbol_m023
+msgid "Use footbridge"
+msgstr "Utiliser la passerelle"
+
+#. module: base_iso7010_data_mandatory
+#: model:iso7010.symbol,description:base_iso7010_data_mandatory.iso7010_symbol_m023
+msgid "Indicates that the footbridge must be used."
+msgstr "Indique que la passerelle doit être utilisée."
+
+#. module: base_iso7010_data_mandatory
+#: model:iso7010.symbol,name:base_iso7010_data_mandatory.iso7010_symbol_m024
+msgid "Use this walkway"
+msgstr "Utiliser ce passage"
+
+#. module: base_iso7010_data_mandatory
+#: model:iso7010.symbol,description:base_iso7010_data_mandatory.iso7010_symbol_m024
+msgid "Indicates that this walkway must be used."
+msgstr "Indique que ce passage doit être utilisé."
+
+#. module: base_iso7010_data_mandatory
+#: model:iso7010.symbol,name:base_iso7010_data_mandatory.iso7010_symbol_m025
+msgid "Protect infants' eyes with opaque eye protection"
+msgstr "Protéger les yeux des nourrissons avec une protection oculaire opaque"
+
+#. module: base_iso7010_data_mandatory
+#: model:iso7010.symbol,description:base_iso7010_data_mandatory.iso7010_symbol_m025
+msgid "Indicates that infants' eyes must be protected with opaque eye protection."
+msgstr "Indique que les yeux des nourrissons doivent être protégés avec une protection oculaire opaque."
+
+#. module: base_iso7010_data_mandatory
+#: model:iso7010.symbol,name:base_iso7010_data_mandatory.iso7010_symbol_m026
+msgid "Use protective apron"
+msgstr "Utiliser un tablier de protection"
+
+#. module: base_iso7010_data_mandatory
+#: model:iso7010.symbol,description:base_iso7010_data_mandatory.iso7010_symbol_m026
+msgid "Indicates that a protective apron must be worn."
+msgstr "Indique qu'un tablier de protection doit être porté."
+
+
+#. module: base_iso7010_data_mandatory
+#: model:iso7010.symbol,name:base_iso7010_data_mandatory.iso7010_symbol_m028
+msgid "install locks and keep locked"
+msgstr "installer des serrures et maintenir verrouillé"
+
+#. module: base_iso7010_data_mandatory
+#: model:iso7010.symbol,description:base_iso7010_data_mandatory.iso7010_symbol_m028
+msgid "Indicates that locks must be installed and kept locked."
+msgstr "Indique que des serrures doivent être installées et maintenues verrouillées."
+
+#. module: base_iso7010_data_mandatory
+#: model:iso7010.symbol,name:base_iso7010_data_mandatory.iso7010_symbol_m029
+msgid "sound your horn"
+msgstr "actionner votre avertisseur sonore"
+
+#. module: base_iso7010_data_mandatory
+#: model:iso7010.symbol,description:base_iso7010_data_mandatory.iso7010_symbol_m029
+msgid "Indicates that the horn must be sounded."
+msgstr "Indique que l'avertisseur sonore doit être actionné."
+
+#. module: base_iso7010_data_mandatory
+#: model:iso7010.symbol,name:base_iso7010_data_mandatory.iso7010_symbol_m030
+msgid "place trash in the bin"
+msgstr "jeter les déchets dans la poubelle"
+
+#. module: base_iso7010_data_mandatory
+#: model:iso7010.symbol,description:base_iso7010_data_mandatory.iso7010_symbol_m030
+msgid "Indicates that trash must be placed in the bin."
+msgstr "Indique que les déchets doivent être jetés dans la poubelle."
+
+#. module: base_iso7010_data_mandatory
+#: model:iso7010.symbol,name:base_iso7010_data_mandatory.iso7010_symbol_m031
+msgid "use guard to protect from injury from the table saw"
+msgstr "utiliser le protecteur pour éviter les blessures de la scie circulaire"
+
+#. module: base_iso7010_data_mandatory
+#: model:iso7010.symbol,description:base_iso7010_data_mandatory.iso7010_symbol_m031
+msgid "Indicates that the guard must be used to protect from injury from the table saw."
+msgstr "Indique que le protecteur doit être utilisé pour éviter les blessures causées par la scie circulaire."
+
+#. module: base_iso7010_data_mandatory
+#: model:iso7010.symbol,name:base_iso7010_data_mandatory.iso7010_symbol_m032
+msgid "use footwear with anti-static or anti-spark features"
+msgstr "utiliser des chaussures avec des caractéristiques antistatiques ou anti-étincelles"
+
+#. module: base_iso7010_data_mandatory
+#: model:iso7010.symbol,description:base_iso7010_data_mandatory.iso7010_symbol_m032
+msgid "Indicates that footwear with anti-static or anti-spark features must be used."
+msgstr "Indique que des chaussures avec des caractéristiques antistatiques ou anti-étincelles doivent être utilisées."
+
+#. module: base_iso7010_data_mandatory
+#: model:iso7010.symbol,name:base_iso7010_data_mandatory.iso7010_symbol_m033
+msgid "lower safety restraining bar on ski chairlift"
+msgstr "abaisser la barre de sécurité du télésiège"
+
+#. module: base_iso7010_data_mandatory
+#: model:iso7010.symbol,description:base_iso7010_data_mandatory.iso7010_symbol_m033
+msgid "Indicates that the safety restraining bar on the ski chairlift must be lowered."
+msgstr "Indique que la barre de sécurité du télésiège doit être abaissée."
+
+#. module: base_iso7010_data_mandatory
+#: model:iso7010.symbol,name:base_iso7010_data_mandatory.iso7010_symbol_m034
+msgid "raise safety restraining bar on ski chairlift"
+msgstr "lever la barre de sécurité du télésiège"
+
+#. module: base_iso7010_data_mandatory
+#: model:iso7010.symbol,description:base_iso7010_data_mandatory.iso7010_symbol_m034
+msgid "Indicates that the safety restraining bar on the ski chairlift must be raised."
+msgstr "Indique que la barre de sécurité du télésiège doit être levée."
+
+#. module: base_iso7010_data_mandatory
+#: model:iso7010.symbol,name:base_iso7010_data_mandatory.iso7010_symbol_m035
+msgid "exit towpath after falling"
+msgstr "quitter le chemin de halage après une chute"
+
+#. module: base_iso7010_data_mandatory
+#: model:iso7010.symbol,description:base_iso7010_data_mandatory.iso7010_symbol_m035
+msgid "Indicates that the towpath must be exited after falling."
+msgstr "Indique que le chemin de halage doit être quitté après une chute."
+
+#. module: base_iso7010_data_mandatory
+#: model:iso7010.symbol,name:base_iso7010_data_mandatory.iso7010_symbol_m036
+msgid "keep ski tips up"
+msgstr "garder les spatules de ski relevées"
+
+#. module: base_iso7010_data_mandatory
+#: model:iso7010.symbol,description:base_iso7010_data_mandatory.iso7010_symbol_m036
+msgid "Indicates that ski tips must be kept up."
+msgstr "Indique que les spatules de ski doivent être maintenues relevées."
+
+#. module: base_iso7010_data_mandatory
+#: model:iso7010.symbol,name:base_iso7010_data_mandatory.iso7010_symbol_m037
+msgid "close and secure the hatch (lifeboat launch sequence)"
+msgstr "fermer et sécuriser l'écoutille (séquence de mise à l'eau de l'embarcation de sauvetage)"
+
+#. module: base_iso7010_data_mandatory
+#: model:iso7010.symbol,description:base_iso7010_data_mandatory.iso7010_symbol_m037
+msgid "Indicates that the hatch must be closed and secured (lifeboat launch sequence)."
+msgstr "Indique que l'écoutille doit être fermée et sécurisée (séquence de mise à l'eau de l'embarcation de sauvetage)."
+
+#. module: base_iso7010_data_mandatory
+#: model:iso7010.symbol,name:base_iso7010_data_mandatory.iso7010_symbol_m038
+msgid "start the motor (lifeboat launch sequence)"
+msgstr "démarrer le moteur (séquence de mise à l'eau de l'embarcation de sauvetage)"
+
+#. module: base_iso7010_data_mandatory
+#: model:iso7010.symbol,description:base_iso7010_data_mandatory.iso7010_symbol_m038
+msgid "Indicates that the motor must be started (lifeboat launch sequence)."
+msgstr "Indique que le moteur doit être démarré (séquence de mise à l'eau de l'embarcation de sauvetage)."
+
+#. module: base_iso7010_data_mandatory
+#: model:iso7010.symbol,name:base_iso7010_data_mandatory.iso7010_symbol_m039
+msgid "lower the lifeboat to the water (lifeboat launch sequence)"
+msgstr "mettre l'embarcation de sauvetage à l'eau (séquence de mise à l'eau de l'embarcation de sauvetage)"
+
+#. module: base_iso7010_data_mandatory
+#: model:iso7010.symbol,description:base_iso7010_data_mandatory.iso7010_symbol_m040
+# msgid previously "Indicates that the safety bolt or locking bolt must be inserted."
+msgid "Indicates that the lifeboat must be lowered to the water (lifeboat launch sequence)."
+msgstr "Indique que l'embarcation de sauvetage doit être mise à l'eau (séquence de mise à l'eau de l'embarcation de sauvetage)."
+
+#. module: base_iso7010_data_mandatory
+#: model:iso7010.symbol,name:base_iso7010_data_mandatory.iso7010_symbol_m041
+# msgid previously "Insert body prop / Insert mechanical lock"
+msgid "lower the rescue boat to the water (lifeboat launch sequence)"
+msgstr "mettre le canot de secours à l'eau (séquence de mise à l'eau de l'embarcation de sauvetage)"
+
+#. module: base_iso7010_data_mandatory
+#: model:iso7010.symbol,description:base_iso7010_data_mandatory.iso7010_symbol_m041
+# msgid previously "Indicates that the body prop or mechanical lock must be inserted."
+msgid "Indicates that the rescue boat must be lowered to the water (lifeboat launch sequence)."
+msgstr "Indique que le canot de secours doit être mis à l'eau (séquence de mise à l'eau de l'embarcation de sauvetage)."
+
+#. module: base_iso7010_data_mandatory
+#: model:iso7010.symbol,name:base_iso7010_data_mandatory.iso7010_symbol_m042
+# msgid previously "Read instructions before using the safety device"
+msgid "release the hooks holding the lifeboat (lifeboat launch sequence)"
+msgstr "libérer les crocs retenant l'embarcation de sauvetage (séquence de mise à l'eau de l'embarcation de sauvetage)"
+
+#. module: base_iso7010_data_mandatory
+#: model:iso7010.symbol,description:base_iso7010_data_mandatory.iso7010_symbol_m042
+# msgid previously "Indicates that the instructions must be read before using the safety device."
+msgid "Indicates that the hooks holding the lifeboat must be released (lifeboat launch sequence)."
+msgstr "Indique que les crocs retenant l'embarcation de sauvetage doivent être libérés (séquence de mise à l'eau de l'embarcation de sauvetage)."
+
+#. module: base_iso7010_data_mandatory
+#: model:iso7010.symbol,name:base_iso7010_data_mandatory.iso7010_symbol_m043
+# msgid previously "Use fall protection equipment"
+msgid "start the water spray for the lifeboat (lifeboat launch sequence)"
+msgstr "démarrer le système de pulvérisation d'eau de l'embarcation de sauvetage (séquence de mise à l'eau de l'embarcation de sauvetage)"
+
+#. module: base_iso7010_data_mandatory
+#: model:iso7010.symbol,description:base_iso7010_data_mandatory.iso7010_symbol_m043
+# msgid previously "Indicates that fall protection equipment must be used."
+msgid "Indicates that the water spray for the lifeboat must be started (lifeboat launch sequence)."
+msgstr "Indique que le système de pulvérisation d'eau de l'embarcation de sauvetage doit être démarré (séquence de mise à l'eau de l'embarcation de sauvetage)."
+
+#. module: base_iso7010_data_mandatory
+#: model:iso7010.symbol,name:base_iso7010_data_mandatory.iso7010_symbol_m044
+# msgid previously "Use rescue equipment"
+msgid "start the air supply for the lifeboat (lifeboat launch sequence)"
+msgstr "démarrer l'alimentation en air de l'embarcation de sauvetage (séquence de mise à l'eau de l'embarcation de sauvetage)"
+
+#. module: base_iso7010_data_mandatory
+#: model:iso7010.symbol,description:base_iso7010_data_mandatory.iso7010_symbol_m044
+# msgid previously "Indicates that rescue equipment must be used."
+msgid "Indicates that the air supply for the lifeboat must be started (lifeboat launch sequence)."
+msgstr "Indique que l'alimentation en air de l'embarcation de sauvetage doit être démarrée (séquence de mise à l'eau de l'embarcation de sauvetage)."
+
+#. module: base_iso7010_data_mandatory
+#: model:iso7010.symbol,name:base_iso7010_data_mandatory.iso7010_symbol_m045
+# msgid previously "Check pressure gauge"
+msgid "release the ropes (gripes) (lifeboat launch sequence)"
+msgstr "larguer les saisines (gripes) (séquence de mise à l'eau de l'embarcation de sauvetage)"
+
+#. module: base_iso7010_data_mandatory
+#: model:iso7010.symbol,description:base_iso7010_data_mandatory.iso7010_symbol_m045
+# msgid previously "Indicates that the pressure gauge must be checked."
+msgid "Indicates that the ropes (gripes) must be released (lifeboat launch sequence)."
+msgstr "Indique que les saisines (gripes) doivent être larguées (séquence de mise à l'eau de l'embarcation de sauvetage)."
+
+#. module: base_iso7010_data_mandatory
+#: model:iso7010.symbol,name:base_iso7010_data_mandatory.iso7010_symbol_m046
+# msgid previously "Inspect fire extinguisher"
+msgid "secure gas cylinders"
+msgstr "arrimer les bouteilles de gaz"
+
+#. module: base_iso7010_data_mandatory
+#: model:iso7010.symbol,description:base_iso7010_data_mandatory.iso7010_symbol_m046
+# msgid previously "Indicates that the fire extinguisher must be inspected."
+msgid "Indicates that gas cylinders must be secured."
+msgstr "Indique que les bouteilles de gaz doivent être arrimées."
+
+#. module: base_iso7010_data_mandatory
+#: model:iso7010.symbol,name:base_iso7010_data_mandatory.iso7010_symbol_m047
+# msgid previously "Use litter bin / Dispose of rubbish correctly"
+msgid "use breathing equipment (SCBA)"
+msgstr "utiliser un appareil respiratoire (ARI)"
+
+#. module: base_iso7010_data_mandatory
+#: model:iso7010.symbol,description:base_iso7010_data_mandatory.iso7010_symbol_m047
+# msgid previously "Indicates that the litter bin must be used or rubbish disposed of correctly."
+msgid "Indicates that breathing equipment (SCBA) must be used."
+msgstr "Indique qu'un appareil respiratoire (ARI) doit être utilisé."
+
+#. module: base_iso7010_data_mandatory
+#: model:iso7010.symbol,name:base_iso7010_data_mandatory.iso7010_symbol_m048
+# msgid previously "Wear protective footwear against planting knife injuries"
+msgid "use gas detector"
+msgstr "utiliser un détecteur de gaz"
+
+#. module: base_iso7010_data_mandatory
+#: model:iso7010.symbol,description:base_iso7010_data_mandatory.iso7010_symbol_m048
+# msgid previously "Indicates that protective footwear against planting knife injuries must be worn."
+msgid "Indicates that a gas detector must be used."
+msgstr "Indique qu'un détecteur de gaz doit être utilisé."
+
+
+#. module: base_iso7010_data_mandatory
+#: model:iso7010.symbol,name:base_iso7010_data_mandatory.iso7010_symbol_m050
+# msgid previously "Open protective cover"
+msgid "exit sled-toboggan to the left"
+msgstr "quitter la luge par la gauche"
+
+#. module: base_iso7010_data_mandatory
+#: model:iso7010.symbol,description:base_iso7010_data_mandatory.iso7010_symbol_m050
+# msgid previously "Indicates that the protective cover must be opened."
+msgid "Indicates that the sled-toboggan must be exited to the left."
+msgstr "Indique que la sortie de la luge doit se faire par la gauche."
+
+#. module: base_iso7010_data_mandatory
+#: model:iso7010.symbol,name:base_iso7010_data_mandatory.iso7010_symbol_m051
+# msgid previously "Wear high-visibility vest"
+msgid "exit sled-toboggan to the right"
+msgstr "quitter la luge par la droite"
+
+#. module: base_iso7010_data_mandatory
+#: model:iso7010.symbol,description:base_iso7010_data_mandatory.iso7010_symbol_m051
+# msgid previously "Indicates that a high-visibility vest must be worn."
+msgid "Indicates that the sled-toboggan must be exited to the right."
+msgstr "Indique que la sortie de la luge doit se faire par la droite."
+
+#. module: base_iso7010_data_mandatory
+#: model:iso7010.symbol,name:base_iso7010_data_mandatory.iso7010_symbol_m052
+# msgid previously "Wear respiratory protection suitable for respiratory infectious agents"
+msgid "keep a safe distance between sleds (toboggans)"
+msgstr "garder une distance de sécurité entre les luges"
+
+#. module: base_iso7010_data_mandatory
+#: model:iso7010.symbol,description:base_iso7010_data_mandatory.iso7010_symbol_m052
+# msgid previously "Indicates that specific respiratory protection suitable for infectious agents (e.g., FFP mask) must be worn."
+msgid "Indicates that a safe distance must be kept between sleds (toboggans)."
+msgstr "Indique qu'une distance de sécurité doit être maintenue entre les luges."
+
+#. module: base_iso7010_data_mandatory
+#: model:iso7010.symbol,name:base_iso7010_data_mandatory.iso7010_symbol_m053
+# msgid previously "Keep passageway clear"
+msgid "wear personal floatation device (PFD) (lifejacket)"
+msgstr "porter un équipement individuel de flottaison (EIF) (gilet de sauvetage)"
+
+#. module: base_iso7010_data_mandatory
+#: model:iso7010.symbol,description:base_iso7010_data_mandatory.iso7010_symbol_m053
+# msgid previously "Indicates that the passageway must be kept clear."
+msgid "Indicates that a personal floatation device (PFD) (lifejacket) must be worn."
+msgstr "Indique qu'un équipement individuel de flottaison (EIF) (gilet de sauvetage) doit être porté."
+
+#. module: base_iso7010_data_mandatory
+#: model:iso7010.symbol,name:base_iso7010_data_mandatory.iso7010_symbol_m054
+# msgid previously "Maintain social distancing"
+msgid "supervise children during aquatic activities"
+msgstr "surveiller les enfants pendant les activités aquatiques"
+
+#. module: base_iso7010_data_mandatory
+#: model:iso7010.symbol,description:base_iso7010_data_mandatory.iso7010_symbol_m054
+# msgid previously "Indicates that social distancing must be maintained."
+msgid "Indicates that children must be supervised during aquatic activities."
+msgstr "Indique que les enfants doivent être surveillés pendant les activités aquatiques."
+
+#. module: base_iso7010_data_mandatory
+#: model:iso7010.symbol,name:base_iso7010_data_mandatory.iso7010_symbol_m055
+# msgid previously "Keep distance"
+msgid "Keep out of the reach of children"
+msgstr "Tenir hors de portée des enfants"
+
+#. module: base_iso7010_data_mandatory
+#: model:iso7010.symbol,description:base_iso7010_data_mandatory.iso7010_symbol_m055
+# msgid previously "Indicates that a specific distance must be kept."
+msgid "Indicates that item must be kept out of the reach of children."
+msgstr "Indique que l'article doit être tenu hors de portée des enfants."
+
+#. module: base_iso7010_data_mandatory
+#: model:iso7010.symbol,name:base_iso7010_data_mandatory.iso7010_symbol_m056
+# msgid previously "Do not touch face"
+msgid "Ventilate before and during entering"
+msgstr "Ventiler avant et pendant l'entrée"
+
+#. module: base_iso7010_data_mandatory
+#: model:iso7010.symbol,description:base_iso7010_data_mandatory.iso7010_symbol_m056
+# msgid previously "Indicates that touching the face is prohibited/must be avoided."
+msgid "Indicates that ventilation must occur before and during entering."
+msgstr "Indique que la ventilation doit avoir lieu avant et pendant l'entrée."
+
+#. module: base_iso7010_data_mandatory
+#: model:iso7010.symbol,name:base_iso7010_data_mandatory.iso7010_symbol_m057
+# msgid previously "Sanitize hands"
+msgid "Ensure continuous ventilation"
+msgstr "Assurer une ventilation continue"
+
+#. module: base_iso7010_data_mandatory
+#: model:iso7010.symbol,description:base_iso7010_data_mandatory.iso7010_symbol_m057
+# msgid previously "Indicates that hands must be sanitized."
+msgid "Indicates that continuous ventilation must be ensured."
+msgstr "Indique qu'une ventilation continue doit être assurée."
+
+#. module: base_iso7010_data_mandatory
+#: model:iso7010.symbol,name:base_iso7010_data_mandatory.iso7010_symbol_m058
+# msgid previously "Wear medical face mask"
+msgid "Entry only with supervisor outside"
+msgstr "Entrée uniquement avec surveillant à l'extérieur"
+
+#. module: base_iso7010_data_mandatory
+#: model:iso7010.symbol,description:base_iso7010_data_mandatory.iso7010_symbol_m058
+# msgid previously "Indicates that a medical face mask must be worn."
+msgid "Indicates that entry is permitted only with a supervisor outside."
+msgstr "Indique que l'entrée n'est autorisée qu'avec un surveillant à l'extérieur."
+
+#. module: base_iso7010_data_mandatory
+#: model:iso7010.symbol,name:base_iso7010_data_mandatory.iso7010_symbol_m059
+# msgid previously "Clean and disinfect frequently touched objects and surfaces"
+msgid "Wear laboratory coat"
+msgstr "Porter une blouse de laboratoire"
+
+#. module: base_iso7010_data_mandatory
+#: model:iso7010.symbol,description:base_iso7010_data_mandatory.iso7010_symbol_m059
+# msgid previously "Indicates that frequently touched objects and surfaces must be cleaned and disinfected."
+msgid "Indicates that a laboratory coat must be worn."
+msgstr "Indique qu'une blouse de laboratoire doit être portée."
+
+#. module: base_iso7010_data_mandatory
+#: model:iso7010.symbol,name:base_iso7010_data_mandatory.iso7010_symbol_m060
+# msgid previously "Mandatory screening before entry"
+msgid "Hold the trolley handle"
+msgstr "Tenir la poignée du chariot"
+
+#. module: base_iso7010_data_mandatory
+#: model:iso7010.symbol,description:base_iso7010_data_mandatory.iso7010_symbol_m060
+# msgid previously "Indicates that screening (e.g., temperature check) is mandatory before entry."
+msgid "Indicates that the trolley handle must be held."
+msgstr "Indique que la poignée du chariot doit être tenue."
+
+#. module: base_iso7010_data_mandatory
+#: model:iso7010.symbol,name:base_iso7010_data_mandatory.iso7010_symbol_m061
+# msgid previously "Record contact information"
+msgid "Disinfect your hands"
+msgstr "Désinfectez vos mains"
+
+#. module: base_iso7010_data_mandatory
+#: model:iso7010.symbol,description:base_iso7010_data_mandatory.iso7010_symbol_m061
+# msgid previously "Indicates that contact information must be recorded."
+msgid "Indicates that hands must be disinfected."
+msgstr "Indique que les mains doivent être désinfectées."
+
+#. module: base_iso7010_data_mandatory
+#: model:iso7010.symbol,name:base_iso7010_data_mandatory.iso7010_symbol_m062
+# msgid previously "Wait here"
+msgid "Disinfect surface"
+msgstr "Désinfecter la surface"
+
+#. module: base_iso7010_data_mandatory
+#: model:iso7010.symbol,description:base_iso7010_data_mandatory.iso7010_symbol_m062
+# msgid previously "Indicates where to wait (e.g., in a queue)."
+msgid "Indicates that the surface must be disinfected."
+msgstr "Indique que la surface doit être désinfectée."
+
+#. module: base_iso7010_data_mandatory
+#: model:iso7010.symbol,name:base_iso7010_data_mandatory.iso7010_symbol_m070
+# msgid previously "Direct ventilation only"
+msgid "Use lamp in luminaire with shield"
+msgstr "Utiliser une lampe dans un luminaire avec écran de protection"
+
+#. module: base_iso7010_data_mandatory
+#: model:iso7010.symbol,description:base_iso7010_data_mandatory.iso7010_symbol_m070
+# msgid previously "Indicates that only direct ventilation should be used."
+msgid "Indicates that a lamp in a luminaire with shield must be used."
+msgstr "Indique qu'une lampe dans un luminaire avec écran de protection doit être utilisée."
+
+#. module: base_iso7010_data_mandatory
+#: model:iso7010.symbol,name:base_iso7010_data_mandatory.iso7010_symbol_m071
+# msgid previously "Use oil-resistant gloves"
+msgid "Use anti-tip restraints"
+msgstr "Utiliser les dispositifs anti-basculement"
+
+#. module: base_iso7010_data_mandatory
+#: model:iso7010.symbol,description:base_iso7010_data_mandatory.iso7010_symbol_m071
+# msgid previously "Indicates that oil-resistant gloves must be worn."
+msgid "Indicates that anti-tip restraints must be used."
+msgstr "Indique que les dispositifs anti-basculement doivent être utilisés."
