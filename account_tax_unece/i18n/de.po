@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 14.0\n"
 "Report-Msgid-Bugs-To: \n"
-"PO-Revision-Date: 2025-09-18 08:45+0000\n"
+"PO-Revision-Date: 2026-09-04 13:08+0000\n"
 "Last-Translator: Bastian Günther <mail@bastian-guenther.de>\n"
 "Language-Team: none\n"
 "Language: de\n"
@@ -14,7 +14,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.10.4\n"
+"X-Generator: Weblate 5.15.2\n"
 
 #. module: account_tax_unece
 #: model:ir.model,name:account_tax_unece.model_res_company
@@ -50,6 +50,8 @@ msgid ""
 "Select the VAT Exemption Reason Code (VATEX) of the official nomenclature of "
 "the European Union."
 msgstr ""
+"Wählen Sie den Code für den Grund der Steuerbefreiung (VATEX) aus der "
+"offiziellen Nomenklatur der Europäischen Union aus."
 
 #. module: account_tax_unece
 #: model:ir.model,name:account_tax_unece.model_account_tax
@@ -114,19 +116,19 @@ msgstr "UNECE-Nomenklaturen"
 #: model:ir.model.fields,field_description:account_tax_unece.field_account_tax__unece_vatex_id
 #: model:ir.model.fields,field_description:account_tax_unece.field_account_tax_template__unece_vatex_id
 msgid "VAT Exemption Reason"
-msgstr ""
+msgstr "Umsatzsteuerbefreiungsgrund"
 
 #. module: account_tax_unece
 #: model:ir.model.fields,field_description:account_tax_unece.field_account_tax__unece_vatex_code
 msgid "VAT Exemption Reason Code"
-msgstr ""
+msgstr "Umsatzsteuerbefreiungsgrund als Code"
 
 #. module: account_tax_unece
 #: model:ir.model.fields.selection,name:account_tax_unece.selection__unece_code_list__type__tax_vatex
 msgid "VAT Exemption Reason Codes"
-msgstr ""
+msgstr "Umsatzsteuerbefreiungsgründe als Codes"
 
 #. module: account_tax_unece
 #: model_terms:ir.ui.view,arch_db:account_tax_unece.unece_code_list_search
 msgid "VAT Exemption Reasons"
-msgstr ""
+msgstr "Umsatzsteuerbefreiungsgründe"
