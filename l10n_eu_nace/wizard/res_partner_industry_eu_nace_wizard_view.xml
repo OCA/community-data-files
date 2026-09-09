@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!-- Copyright 2024 Moduon
+     License LGPL-3.0 or later (https://www.gnu.org/licenses/lgpl.html). -->
+<odoo>
+    <record id="partner_industry_nace_wizard_view_form" model="ir.ui.view">
+        <field name="name">re.partner.industry.nace.wizard.view.form</field>
+        <field name="model">res.partner.industry.eu.nace.wizard</field>
+        <field name="arch" type="xml">
+            <form string="Import NACE industries">
+                <sheet>
+                    <p>
+                        Import NACE industries from ShowVoc API. This will
+                        create new industries or update existing ones with their
+                        translations for all active languages in the system.
+                    </p>
+                </sheet>
+                <footer>
+                    <button
+                        type="object"
+                        name="action_partner_industry_eu_nace"
+                        string="Import NACE industries"
+                        class="btn-primary"
+                    />
+                    <button string="Cancel" class="btn-secondary" special="cancel" />
+                </footer>
+            </form>
+        </field>
+    </record>
+
+    <record model="ir.actions.act_window" id="res_partner_nace_import_act_window">
+        <field name="name">Import NACE industries</field>
+        <field name="type">ir.actions.act_window</field>
+        <field name="res_model">res.partner.industry.eu.nace.wizard</field>
+        <field name="view_mode">form</field>
+        <field name="target">new</field>
+    </record>
+
+    <record model="ir.ui.menu" id="res_partner_nace_import_menu">
+        <field name="name">Import NACE industries</field>
+        <field name="parent_id" ref="contacts.res_partner_menu_config" />
+        <field name="action" ref="res_partner_nace_import_act_window" />
+        <field name="sequence" eval="20" />
+    </record>
+
+    <!-- After installation of the module, open the wizard -->
+    <record id="open_nace_import_wizad" model="ir.actions.todo">
+        <field name="action_id" ref="res_partner_nace_import_act_window" />
+    </record>
+</odoo>
