@@ -3,7 +3,7 @@
 
 import requests
 
-from odoo import models
+from odoo import api, models
 
 ENDPOINT = "https://publications.europa.eu/webapi/rdf/sparql"
 # List of languages imported in previous versions of the module.
@@ -53,13 +53,14 @@ class ResPartnerIndustryEUNaceWizard(models.TransientModel):
     _name = "res.partner.industry.eu.nace.wizard"
     _description = "Partner Industry by EU NACE Wizard"
 
+    @api.private
     def get_languages(self):
         """Return a list of tuples with the language code and the language name
         in uppercase. If the language is not in the allowed languages list,
         the language code is replaced by "EN". Always adds the "en_US"
         language for the query to work properly."""
         self.ensure_one()
-        active_languages = self.env["res.lang"].search([]).mapped("code")
+        active_languages = [lang[0] for lang in self.env["res.lang"].get_installed()]
         languages = [(lang, lang.split("_")[0].upper()) for lang in active_languages]
         valid_languages = [
             lang if lang[1] in ALLOWED_LANGUAGES else (lang[0], "EN")
@@ -144,7 +145,7 @@ class ResPartnerIndustryEUNaceWizard(models.TransientModel):
         nace_ids = self.env["res.partner.industry"]
         nace_json = nace_data.json()
         bindings = nace_json.get("results", {}).get("bindings", {})
-        all_naces = nace_ids.search_read([], ["full_name"])
+        all_naces = nace_ids.search_read([("full_name", "!=", False)], ["full_name"])
         nace_map = {
             nace.get("full_name").split(" - ")[0]: nace.get("id") for nace in all_naces
         }
@@ -175,6 +176,7 @@ class ResPartnerIndustryEUNaceWizard(models.TransientModel):
                 )
         return nace_ids
 
+    @api.private
     def update_partner_industry_eu_nace(self):
         languages = self.get_languages()
         headers = {
