@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 19.0\n"
 "Report-Msgid-Bugs-To: \n"
-"PO-Revision-Date: 2026-07-02 07:48+0000\n"
+"PO-Revision-Date: 2026-09-12 07:46+0000\n"
 "Last-Translator: Matjaz Mozetic <matjaz@luxim.si>\n"
 "Language-Team: none\n"
 "Language: sl\n"
@@ -60,6 +60,8 @@ msgid ""
 "Select the VAT Exemption Reason Code (VATEX) of the official nomenclature of "
 "the European Union."
 msgstr ""
+"Izberite kodo razloga za oprostitev DDV (VATEX) iz uradne nomenklature "
+"Evropske unije."
 
 #. module: account_tax_unece
 #: model:ir.model,name:account_tax_unece.model_account_tax
@@ -111,19 +113,19 @@ msgstr "Nomenklature UNECE"
 #. module: account_tax_unece
 #: model:ir.model.fields,field_description:account_tax_unece.field_account_tax__unece_vatex_id
 msgid "VAT Exemption Reason"
-msgstr ""
+msgstr "Razlog za oprostitev DDV"
 
 #. module: account_tax_unece
 #: model:ir.model.fields,field_description:account_tax_unece.field_account_tax__unece_vatex_code
 msgid "VAT Exemption Reason Code"
-msgstr ""
+msgstr "Koda razloga za oprostitev DDV"
 
 #. module: account_tax_unece
 #: model:ir.model.fields.selection,name:account_tax_unece.selection__unece_code_list__type__tax_vatex
 msgid "VAT Exemption Reason Codes"
-msgstr ""
+msgstr "Kode razlogov za oprostitev DDV"
 
 #. module: account_tax_unece
 #: model_terms:ir.ui.view,arch_db:account_tax_unece.unece_code_list_search
 msgid "VAT Exemption Reasons"
-msgstr ""
+msgstr "Razlogi za oprostitev DDV"
