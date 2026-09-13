@@ -20,27 +20,30 @@
             <kanban>
                 <field name="id" />
                 <templates>
-                    <t t-name="card">
+                    <t t-name="card" class="p-0">
                         <div
-                            t-attf-class="oe_kanban_global_click"
-                            style="min-width:450px;min-height:80px"
+                            t-attf-class="oe_kanban_global_click d-flex align-items-center gap-3 p-2 overflow-hidden"
                         >
-                            <div class="o_kanban_image_fill position-relative w-100">
+                            <div
+                                class="o_kanban_image flex-shrink-0 d-flex align-items-center justify-content-center"
+                            >
                                 <field
                                     name="image"
-                                    t-if="record.image"
-                                    class="o_image_64_contain mw-100"
+                                    t-if="record.image.raw_value"
                                     widget="image"
-                                    options="{'preview_image': 'image', 'img_class': 'object-fit-contain'}"
+                                    options="{'preview_image': 'image', 'img_class': 'o_image_64_contain mw-100'}"
+                                    alt="Label"
                                 />
                             </div>
-                            <div class="oe_kanban_details">
-                                <p>
+                            <div
+                                class="oe_kanban_details flex-grow-1 min-w-0 text-wrap text-break overflow-hidden"
+                            >
+                                <p class="mb-1">
                                     <strong>
                                         <field name="code" />
                                     </strong>
                                 </p>
-                                <p>
+                                <p class="mb-0">
                                     <field name="name" />
                                 </p>
                             </div>
