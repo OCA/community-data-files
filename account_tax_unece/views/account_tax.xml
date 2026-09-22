@@ -21,12 +21,13 @@
                         name="unece_categ_id"
                         context="{'default_type': 'tax_categ'}"
                         options="{'no_create': True, 'no_create_edit': True}"
+                        required="type_tax_use == 'sale' and unece_type_code == 'VAT' and active"
                     />
                     <field
                         name="unece_vatex_id"
                         options="{'no_create': True, 'no_create_edit': True}"
-                        invisible="unece_type_code != 'VAT' or unece_categ_code in ('S', 'Z', False) or type_tax_use != 'sale'"
-                        required="unece_type_code == 'VAT' and unece_categ_code not in ('S', 'Z') and type_tax_use == 'sale'"
+                        invisible="type_tax_use != 'sale' or unece_type_code != 'VAT' or unece_categ_code not in ('E', 'G', 'K', 'O', 'AE')"
+                        required="type_tax_use == 'sale' and unece_type_code == 'VAT' and unece_categ_code in ('E', 'G', 'K', 'O', 'AE') and active"
                     />
                     <field name="unece_type_code" invisible="1" />
                     <field name="unece_categ_code" invisible="1" />
