@@ -38,6 +38,24 @@ class AccountTax(models.Model):
         readonly=True,
         string="UNECE Category Code",
     )
+    unece_charge_reason_id = fields.Many2one(
+        "unece.code.list",
+        string="UNECE Allowance/Charge Reason",
+        domain=[("type", "=", "charge_reason")],
+        ondelete="restrict",
+        help="Select the Allowance/Charge Reason Code of the official "
+        "nomenclature of the United Nations Economic "
+        "Commission for Europe (UNECE), DataElement 7161. It is used by "
+        "e-invoicing formats when a non-VAT tax (eco-participation, "
+        "private copy levy, etc) is reported as a charge: the reason code "
+        "of a charge comes from UNCL 7161, not from the tax type (UNCL 5153).",
+    )
+    unece_charge_reason_code = fields.Char(
+        related="unece_charge_reason_id.code",
+        store=True,
+        readonly=True,
+        string="UNECE Allowance/Charge Reason Code",
+    )
     # VATEX is not part of the UNECE nomenclature
     # but as the field if a many2one to unece.code.list
     # I still use the "unece_" prefix on the field name
