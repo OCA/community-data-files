@@ -1,0 +1,5 @@
+id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
+access_trade_compliance_regime_user,access_trade_compliance_regime_user,model_trade_compliance_regime,base.group_user,1,0,0,0
+access_trade_compliance_regime_manager,access_trade_compliance_regime_manager,model_trade_compliance_regime,stock.group_stock_manager,1,1,1,1
+access_trade_compliance_code_user,access_trade_compliance_code_user,model_trade_compliance_code,base.group_user,1,0,0,0
+access_trade_compliance_code_manager,access_trade_compliance_code_manager,model_trade_compliance_code,stock.group_stock_manager,1,1,1,1

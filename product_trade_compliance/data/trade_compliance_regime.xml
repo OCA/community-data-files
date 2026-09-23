@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<odoo noupdate="1">
+    <record id="regime_us_ear" model="trade.compliance.regime">
+        <field name="name">US-EAR</field>
+        <field
+            name="description"
+        >United States Export Administration Regulations (EAR) - Commerce Control List (CCL)</field>
+    </record>
+    <record id="regime_eu_dual" model="trade.compliance.regime">
+        <field name="name">EU-DUAL</field>
+        <field
+            name="description"
+        >European Union Dual-Use Regulation (EU) 2021/821</field>
+    </record>
+</odoo>

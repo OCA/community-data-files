@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<odoo>
+    <record id="view_product_template_form" model="ir.ui.view">
+        <field name="name">product.template.form.trade.compliance</field>
+        <field name="model">product.template</field>
+        <field name="inherit_id" ref="product.product_template_only_form_view" />
+        <field name="arch" type="xml">
+            <xpath expr="//notebook" position="inside">
+                <page string="Trade Compliance" name="trade_compliance">
+                    <group>
+                        <group>
+                            <field name="compliance_code_id" />
+                            <field name="compliance_regime_id" />
+                        </group>
+                        <group>
+                            <field
+                                name="compliance_code_description"
+                                nolabel="1"
+                                placeholder="Code description will appear here..."
+                            />
+                        </group>
+                    </group>
+                </page>
+            </xpath>
+        </field>
+    </record>
+</odoo>
