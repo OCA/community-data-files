@@ -667,7 +667,7 @@
         <field name="numeric_code">967</field>
     </record>
     <record id="base.ZIG" model="res.currency">
-        <field name="full_name">Zimbabwe Dollar</field>
-        <field name="numeric_code">932</field>
+        <field name="full_name">Zimbabwe Gold</field>
+        <field name="numeric_code">924</field>
     </record>
 </odoo>
