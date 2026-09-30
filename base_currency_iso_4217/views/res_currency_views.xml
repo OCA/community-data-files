@@ -10,9 +10,8 @@
         <field name="model">res.currency</field>
         <field name="inherit_id" ref='base.view_currency_tree' />
         <field name="arch" type="xml">
-            <field name="symbol" position="after">
-                <field name="full_name" />
-                <field name="numeric_code" />
+            <field name="full_name" position="after">
+                <field name="numeric_code" optional="show" />
             </field>
         </field>
     </record>
@@ -21,8 +20,7 @@
         <field name="model">res.currency</field>
         <field name="inherit_id" ref='base.view_currency_form' />
         <field name="arch" type="xml">
-            <field name="name" position="after">
-                <field name="full_name" />
+            <field name="full_name" position="after">
                 <field name="numeric_code" />
             </field>
         </field>
