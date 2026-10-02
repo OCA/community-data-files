@@ -1,2 +1,3 @@
 - Matthieu Méquignon \<<matthieu.mequignon@camptocamp.com>\>
 - Do Anh Duy \<<duyda@trobz.com>\>
+- Edilio Escalona \<<e.escalona@binhex.cloud>\>
