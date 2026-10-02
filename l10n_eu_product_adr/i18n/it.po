@@ -272,8 +272,7 @@ msgstr "2-(2-AMINOETOSSI)ETANOLO"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_3317
-msgid ""
-"2-AMINO-4,6-DINITROPHENOL, WETTED with not less than 20% water, by mass"
+msgid "2-AMINO-4,6-DINITROPHENOL, WETTED with not less than 20% water, by mass"
 msgstr ""
 "2-AMINO-4,6-DINITROFENOLO, BAGNATO con non meno del 20% di acqua, in massa"
 
@@ -710,8 +709,8 @@ msgstr ""
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_1133_F1_3_640C_5L_P001_2
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_1133_F1_3_640D_5L_P001/IBC02/R001_2
 msgid ""
-"ADHESIVES containing flammable liquid (vapour pressure at 50 °C more than110"
-" kPa)"
+"ADHESIVES containing flammable liquid (vapour pressure at 50 °C more than110 "
+"kPa)"
 msgstr ""
 "ADESIVI contenenti liquido infiammabile (pressione di vapore a 50 °C "
 "superiore a 110 kPa)"
@@ -741,6 +740,11 @@ msgstr "Utente merci ADR"
 #: model:ir.model.fields,field_description:l10n_eu_product_adr.field_stock_picking__adr_points
 msgid "ADR Points"
 msgstr "Punti ADR"
+
+#. module: l10n_eu_product_adr
+#: model_terms:ir.ui.view,arch_db:l10n_eu_product_adr.adr_label_kanban_form
+msgid "ADR label image"
+msgstr ""
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_3510
@@ -963,7 +967,8 @@ msgstr "AMMIDI DI METALLI ALCALINI"
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_1391
 msgid "ALKALI METAL DISPERSION or ALKALINE EARTH METAL DISPERSION"
-msgstr "DISPERSIONE DI METALLI ALCALI o DISPERSIONE DI METALLI ALCALINO-TERROSI"
+msgstr ""
+"DISPERSIONE DI METALLI ALCALI o DISPERSIONE DI METALLI ALCALINO-TERROSI"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_3482
@@ -1053,8 +1058,8 @@ msgstr ""
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_2585
 msgid ""
-"ALKYLSULPHONIC ACIDS, SOLID or ARYLSULPHONIC ACIDS, SOLID with not more than"
-" 5% free sulphuric acid"
+"ALKYLSULPHONIC ACIDS, SOLID or ARYLSULPHONIC ACIDS, SOLID with not more than "
+"5% free sulphuric acid"
 msgstr ""
 "ALKYLSULPHONIC ACIDS, SOLIDO or ARYLSULPHONIC ACIDS, SOLIDO with not more "
 "than 5% free sulphuric acid"
@@ -1275,8 +1280,8 @@ msgstr ""
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_2073
 msgid ""
-"AMMONIA SOLUTION, relative density less than 0.880 at 15  °C  in water, with"
-" more than 35% but not more than 50% ammonia"
+"AMMONIA SOLUTION, relative density less than 0.880 at 15  °C  in water, with "
+"more than 35% but not more than 50% ammonia"
 msgstr ""
 "SOLUZIONE DI AMMONIACA, densità relativa inferiore a 0,880 a 15 °C in acqua, "
 "con più del 35% ma non più del 50% di ammoniaca"
@@ -1360,11 +1365,11 @@ msgstr "FERTILIZZANTE A BASE DI NITRATO DI AMMONIO"
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_2071
 msgid ""
-"AMMONIUM NITRATE BASED FERTILIZER, uniform mixtures of the "
-"nitrogen/phosphate, nitrogen/potash or nitrogen/phosphate/potash type, "
-"containing not more than 70% ammonium nitrate and not more than 0.4% total "
-"combustible/organic material calculated as carbon or with not more than 45% "
-"ammonium nitrate and unrestricted combustible material"
+"AMMONIUM NITRATE BASED FERTILIZER, uniform mixtures of the nitrogen/"
+"phosphate, nitrogen/potash or nitrogen/phosphate/potash type, containing not "
+"more than 70% ammonium nitrate and not more than 0.4% total combustible/"
+"organic material calculated as carbon or with not more than 45% ammonium "
+"nitrate and unrestricted combustible material"
 msgstr ""
 "FERTILIZZANTE A BASE DI NITRATO DI AMMONIO, miscele uniformi del tipo azoto/"
 "fosfato, azoto/potassio o azoto/fosfato/potassio, contenenti non più del 70% "
@@ -1966,6 +1971,11 @@ msgid "Active"
 msgstr "Attiva"
 
 #. module: l10n_eu_product_adr
+#: model:ir.model.fields,field_description:l10n_eu_product_adr.field_product_product__adr_factor
+msgid "Adr Factor"
+msgstr ""
+
+#. module: l10n_eu_product_adr
 #: model:ir.model.fields,field_description:l10n_eu_product_adr.field_product_product__adr_goods_on_variants
 #: model:ir.model.fields,field_description:l10n_eu_product_adr.field_product_template__adr_goods_on_variants
 msgid "Adr Goods On Variants"
@@ -1985,6 +1995,11 @@ msgstr "Liquido regolamentato per l'aviazione, n.a.s."
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_3335
 msgid "Aviation regulated solid, n.o.s."
 msgstr "Aviation regulated solido, n.o.s."
+
+#. module: l10n_eu_product_adr
+#: model:ir.model.fields.selection,name:l10n_eu_product_adr.selection__adr_goods__tunnel_restriction_code__b
+msgid "B"
+msgstr ""
 
 #. module: l10n_eu_product_adr
 #: model:ir.model.fields.selection,name:l10n_eu_product_adr.selection__adr_goods__tunnel_restriction_code__b/d
@@ -2231,8 +2246,7 @@ msgstr "SOSTANZA BIOLOGICA, CATEGORIA B (solo materiale animale)"
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_2782
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_2782_1L
 msgid ""
-"BIPYRIDILIUM PESTICIDE, LIQUID, FLAMMABLE, TOXIC, flash-point less than 23 "
-"°C"
+"BIPYRIDILIUM PESTICIDE, LIQUID, FLAMMABLE, TOXIC, flash-point less than 23 °C"
 msgstr ""
 "PESTICIDA BIPIRIDILIO, LIQUIDO, INFIAMMABILE, TOSSICO, punto di "
 "infiammabilità inferiore a 23 °C"
@@ -2278,8 +2292,8 @@ msgstr "BISOLFITI, SOLUZIONE ACQUOSA, N.A.S."
 msgid ""
 "BLACK POWDER (GUNPOWDER), COMPRESSED or BLACK POWDER (GUNPOWDER), IN PELLETS"
 msgstr ""
-"POLVERE NERA (POLVERE DA SPARO), COMPRESSA o POLVERE NERA (POLVERE DA SPARO)"
-", IN PELLET"
+"POLVERE NERA (POLVERE DA SPARO), COMPRESSA o POLVERE NERA (POLVERE DA "
+"SPARO), IN PELLET"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_0027
@@ -2621,6 +2635,11 @@ msgid "Batteries, nickel-metal hydride"
 msgstr "Batterie, nichel-metallo idruro"
 
 #. module: l10n_eu_product_adr
+#: model:ir.model.fields.selection,name:l10n_eu_product_adr.selection__adr_goods__tunnel_restriction_code__c
+msgid "C"
+msgstr ""
+
+#. module: l10n_eu_product_adr
 #: model:ir.model.fields.selection,name:l10n_eu_product_adr.selection__adr_goods__tunnel_restriction_code__c/d
 msgid "C/D"
 msgstr "C/D"
@@ -2737,8 +2756,8 @@ msgstr ""
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_3486
 msgid ""
-"CALCIUM HYPOCHLORITE MIXTURE, DRY, CORROSIVE with more than 10% but not more"
-" than 39% available chlorine"
+"CALCIUM HYPOCHLORITE MIXTURE, DRY, CORROSIVE with more than 10% but not more "
+"than 39% available chlorine"
 msgstr ""
 "MISCELA DI IPOCLORITO DI CALCIO, SECCA, CORROSIVA con più del 10% ma non più "
 "del 39% di cloro disponibile"
@@ -3043,7 +3062,8 @@ msgstr "CASSE, COMBUSTIBILE, VUOTE, SENZA INNESCO"
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_2969
 msgid "CASTOR BEANS or CASTOR MEAL or CASTOR POMACE or CASTOR FLAKE"
-msgstr "SEMI DI RICINO o FARINA DI RICINO o SANSA DI RICINO o FIOCCHI DI RICINO"
+msgstr ""
+"SEMI DI RICINO o FARINA DI RICINO o SANSA DI RICINO o FIOCCHI DI RICINO"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_1719_1L
@@ -3347,8 +3367,8 @@ msgstr "CHLORODIFLUORO-METHANE (GAS REFRIGERANTE R 22)"
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_1973
 msgid ""
 "CHLORODIFLUORO-METHANE AND CHLOROPENTAFLUORO-ETHANE MIXTURE with fixed "
-"boiling point, with approximately 49% chlorodifluoromethane (REFRIGERANT GAS"
-" R 502)"
+"boiling point, with approximately 49% chlorodifluoromethane (REFRIGERANT GAS "
+"R 502)"
 msgstr ""
 "CHLORODIFLUORO-METHANE AND CHLOROPENTAFLUORO-ETHANE MIXTURE with fixed "
 "boiling point, with approximately 49% chlorodifluoromethane (GAS "
@@ -3763,8 +3783,7 @@ msgstr "ARSENITO DI RAME"
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_2776
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_2776_1L
 msgid ""
-"COPPER BASED PESTICIDE, LIQUID, FLAMMABLE, TOXIC, flash-point less than 23 "
-"°C"
+"COPPER BASED PESTICIDE, LIQUID, FLAMMABLE, TOXIC, flash-point less than 23 °C"
 msgstr ""
 "PESTICIDA A BASE DI RAME, LIQUIDO, INFIAMMABILE, TOSSICO, punto di "
 "infiammabilità inferiore a 23 °C"
@@ -4206,8 +4225,8 @@ msgstr "CICLOTETRAMETILENE-TETRA-NITRAMMINA (HMX; OTTOGENO), DESENSIBILIZZATO"
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_0226
 msgid ""
-"CYCLOTETRAMETHYLENE-TETRANITRAMINE (HMX; OCTOGEN), WETTED with not less than"
-" 15% water, by mass"
+"CYCLOTETRAMETHYLENE-TETRANITRAMINE (HMX; OCTOGEN), WETTED with not less than "
+"15% water, by mass"
 msgstr ""
 "CICLOTETRAMETILENE-TETRANITRAMMINA (HMX; OTTOGENO), BAGNATO con almeno il "
 "15% di acqua, in massa"
@@ -4251,6 +4270,13 @@ msgid "Calcium oxide"
 msgstr "Calcium ossido"
 
 #. module: l10n_eu_product_adr
+#. odoo-python
+#: code:addons/l10n_eu_product_adr/scripts/import_adr_multilang_xlsx.py:0
+#, python-format
+msgid "Cannot parse limited quantity: %(value)s (%(row)s)"
+msgstr ""
+
+#. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_1845
 msgid "Carbon dioxide, solid (Dry ice)"
 msgstr "Carbon diossido, solido (Dry ice)"
@@ -4288,8 +4314,8 @@ msgstr "Codice"
 #: model:ir.model.fields,help:l10n_eu_product_adr.field_adr_goods__un_number
 msgid ""
 "Contains the UN number: of the dangerous substance or article if the "
-"substance or article has been assigned its own specific UN number; or of the"
-" generic or n.o.s. entry to which the dangerous substances or articles not "
+"substance or article has been assigned its own specific UN number; or of the "
+"generic or n.o.s. entry to which the dangerous substances or articles not "
 "mentioned by name shall be assigned in accordance with the criteria "
 "('decision trees') of Part 2."
 msgstr ""
@@ -4302,12 +4328,12 @@ msgstr ""
 #. module: l10n_eu_product_adr
 #: model:ir.model.fields,help:l10n_eu_product_adr.field_adr_goods__name
 msgid ""
-"Contains, in upper case characters, the name of the substance or article, if"
-" the substance or article has been assigned its own specific UN number, or "
-"of the generic or n.o.s. entry to which it has been assigned in accordance "
-"with the criteria ('decision trees') of Part 2. This name shall be used as "
-"the proper shipping name or, when applicable, as part of the proper shipping"
-" name (see 3.1.2 for further details on the proper shipping name)."
+"Contains, in upper case characters, the name of the substance or article, if "
+"the substance or article has been assigned its own specific UN number, or of "
+"the generic or n.o.s. entry to which it has been assigned in accordance with "
+"the criteria ('decision trees') of Part 2. This name shall be used as the "
+"proper shipping name or, when applicable, as part of the proper shipping "
+"name (see 3.1.2 for further details on the proper shipping name)."
 msgstr ""
 "Contiene, in caratteri maiuscoli, il nome della sostanza o dell'articolo, se "
 "alla sostanza o all'articolo è stato assegnato un proprio numero NU "
@@ -4324,6 +4350,13 @@ msgid "Corrosive substances"
 msgstr "Sostanze corrosive"
 
 #. module: l10n_eu_product_adr
+#. odoo-python
+#: code:addons/l10n_eu_product_adr/scripts/import_adr_multilang_xlsx.py:0
+#, python-format
+msgid "Could not transform row %(row)s: %(exception)s"
+msgstr ""
+
+#. module: l10n_eu_product_adr
 #: model:ir.model.fields,field_description:l10n_eu_product_adr.field_adr_class__create_uid
 #: model:ir.model.fields,field_description:l10n_eu_product_adr.field_adr_goods__create_uid
 #: model:ir.model.fields,field_description:l10n_eu_product_adr.field_adr_label__create_uid
@@ -4338,6 +4371,11 @@ msgstr "Creato da"
 #: model:ir.model.fields,field_description:l10n_eu_product_adr.field_adr_packing_instruction__create_date
 msgid "Created on"
 msgstr "Creato il"
+
+#. module: l10n_eu_product_adr
+#: model:ir.model.fields.selection,name:l10n_eu_product_adr.selection__adr_goods__tunnel_restriction_code__d
+msgid "D"
+msgstr ""
 
 #. module: l10n_eu_product_adr
 #: model:ir.model.fields.selection,name:l10n_eu_product_adr.selection__adr_goods__tunnel_restriction_code__d/e
@@ -4411,8 +4449,8 @@ msgstr "DEUTERIO, COMPRESSO"
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_3150
 msgid ""
-"DEVICES, SMALL, HYDROCARBON GAS POWERED or HYDROCARBON GAS REFILLS FOR SMALL"
-" DEVICES with release device"
+"DEVICES, SMALL, HYDROCARBON GAS POWERED or HYDROCARBON GAS REFILLS FOR SMALL "
+"DEVICES with release device"
 msgstr ""
 "DISPOSITIVI, PICCOLI, ALIMENTATI A GAS IDROCARBURI o RICARICHE DI GAS "
 "IDROCARBURI PER PICCOLI DISPOSITIVI con dispositivo di rilascio"
@@ -4853,8 +4891,8 @@ msgstr "DINITROFENOLATI, BAGNATI con almeno il 15% di acqua, in massa"
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_0077
 msgid ""
-"DINITROPHENOLATES, alkali metals, dry or wetted with less than 15% water, by"
-" mass"
+"DINITROPHENOLATES, alkali metals, dry or wetted with less than 15% water, by "
+"mass"
 msgstr ""
 "DINITROFENOLATI, metalli alcalini, secchi o umidificati con meno del 15% di "
 "acqua, in massa"
@@ -4992,8 +5030,7 @@ msgstr "DODECILTRICLORO-SILANO"
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_2801_1L
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_2801_5L
 msgid ""
-"DYE, LIQUID, CORROSIVE, N.O.S. or DYE INTERMEDIATE, LIQUID, CORROSIVE, "
-"N.O.S."
+"DYE, LIQUID, CORROSIVE, N.O.S. or DYE INTERMEDIATE, LIQUID, CORROSIVE, N.O.S."
 msgstr ""
 "COLORANTE LIQUIDO CORROSIVO, N.A.S. o COLORANTE INTERMEDIO, LIQUIDO, "
 "CORROSIVO, N.A.S."
@@ -5051,14 +5088,13 @@ msgid "Dangerous Goods Label"
 msgstr "Etichetta merci pericolose"
 
 #. module: l10n_eu_product_adr
+#. odoo-python
 #: code:addons/l10n_eu_product_adr/models/adr_label.py:0
 #, python-format
 msgid ""
-"Dangerous Goods Label %s cannot be deleted because it is in use on one or "
-"more dangerous goods: %s"
+"Dangerous Goods Label %(label)s cannot be deleted because it is in use on "
+"one or more dangerous goods: %(labels)s"
 msgstr ""
-"Etichetta merci pericolose %s non può essere eliminata perché è in uso su "
-"una o più merci pericolose: %s"
 
 #. module: l10n_eu_product_adr
 #: model:ir.actions.act_window,name:l10n_eu_product_adr.adr_label_action
@@ -5092,12 +5128,22 @@ msgstr ""
 #: model:ir.model.fields,field_description:l10n_eu_product_adr.field_adr_goods__display_name
 #: model:ir.model.fields,field_description:l10n_eu_product_adr.field_adr_label__display_name
 #: model:ir.model.fields,field_description:l10n_eu_product_adr.field_adr_packing_instruction__display_name
-#: model:ir.model.fields,field_description:l10n_eu_product_adr.field_product_product__display_name
-#: model:ir.model.fields,field_description:l10n_eu_product_adr.field_product_template__display_name
-#: model:ir.model.fields,field_description:l10n_eu_product_adr.field_stock_move__display_name
-#: model:ir.model.fields,field_description:l10n_eu_product_adr.field_stock_picking__display_name
 msgid "Display Name"
 msgstr "Nome visualizzato"
+
+#. module: l10n_eu_product_adr
+#. odoo-python
+#: code:addons/l10n_eu_product_adr/scripts/import_adr_multilang_xlsx.py:0
+#, python-format
+msgid ""
+"Duplicate xml ids:\n"
+" %s"
+msgstr ""
+
+#. module: l10n_eu_product_adr
+#: model:ir.model.fields.selection,name:l10n_eu_product_adr.selection__adr_goods__tunnel_restriction_code__e
+msgid "E"
+msgstr ""
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_3256_F2_3_274/560_P099/IBC99_3
@@ -5123,8 +5169,8 @@ msgstr ""
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_3257_M9_9_274/643/668_P099/IBC99_3
 msgid ""
 "ELEVATED TEMPERATURE LIQUID, N.O.S., at or above 100 °C and below its flash-"
-"point (including molten metals, molten salts, etc.), filled at a temperature"
-" higher than 190 °C"
+"point (including molten metals, molten salts, etc.), filled at a temperature "
+"higher than 190 °C"
 msgstr ""
 "LIQUIDO AD ALTA TEMPERATURA, N.A.S., pari o superiore a 100 °C e inferiore "
 "al suo punto di infiammabilità (compresi metalli fusi, sali fusi, ecc.), "
@@ -5167,8 +5213,8 @@ msgstr ""
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_3528
 msgid ""
 "ENGINE, INTERNAL COMBUSTION, FLAMMABLE LIQUID POWERED or ENGINE, FUEL CELL, "
-"FLAMMABLE LIQUID POWERED or MACHINERY, INTERNAL COMBUSTION, FLAMMABLE LIQUID"
-" POWERED or MACHINERY, FUEL CELL, FLAMMABLE LIQUID POWERED"
+"FLAMMABLE LIQUID POWERED or MACHINERY, INTERNAL COMBUSTION, FLAMMABLE LIQUID "
+"POWERED or MACHINERY, FUEL CELL, FLAMMABLE LIQUID POWERED"
 msgstr ""
 "MOTORE, A COMBUSTIONE INTERNA, A LIQUIDO INFIAMMABILE o MOTORE, A CELLA A "
 "COMBUSTIBILE, A LIQUIDO INFIAMMABILE o MACCHINARIO, A COMBUSTIONE INTERNA, A "
@@ -5505,8 +5551,8 @@ msgstr ""
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_3070
 msgid ""
-"ETHYLENE OXIDE AND DICHLORODIFLUORO-METHANE MIXTURE with not more than 12.5%"
-" ethylene oxide"
+"ETHYLENE OXIDE AND DICHLORODIFLUORO-METHANE MIXTURE with not more than 12.5% "
+"ethylene oxide"
 msgstr ""
 "MISCELA DI OSSIDO DI ETILENE E DICLORODIFLUOROMETANO con non più del 12,5% "
 "di ossido di etilene"
@@ -5549,9 +5595,9 @@ msgstr ""
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_3138
 msgid ""
-"ETHYLENE, ACETYLENE AND PROPYLENE MIXTURE, REFRIGERATED LIQUID containing at"
-" least 71.5% ethylene with not more than 22.5% acetylene and not more than "
-"6% propylene"
+"ETHYLENE, ACETYLENE AND PROPYLENE MIXTURE, REFRIGERATED LIQUID containing at "
+"least 71.5% ethylene with not more than 22.5% acetylene and not more than 6% "
+"propylene"
 msgstr ""
 "MISCELA DI ETILENE, ACETILENE E PROPILENE, LIQUIDO REFRIGERATO contenente "
 "almeno il 71,5% di etilene con non più del 22,5% di acetilene e non più del "
@@ -5644,8 +5690,7 @@ msgstr ""
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_1169_F1_3_601/640C_5L_P001_2
-msgid ""
-"EXTRACTS, AROMATIC, LIQUID (vapour pressure at 50 °C more than 110 kPa)"
+msgid "EXTRACTS, AROMATIC, LIQUID (vapour pressure at 50 °C more than 110 kPa)"
 msgstr ""
 "ESTRATTI AROMATICO LIQUIDO (pressione di vapore a 50 °C superiore a 110 kPa)"
 
@@ -5668,8 +5713,8 @@ msgid ""
 "EXTRACTS, FLAVOURING, LIQUID (having a flash-point below 23 °C and viscous "
 "according to 2.2.3.1.4) (vapour pressure at 50 °C more than 110 kPa)"
 msgstr ""
-"ESTRATTI, AROMI, LIQUIDI (aventi un punto di infiammabilità inferiore a 23 °"
-"C e viscosi secondo 2.2.3.1.4) (pressione di vapore a 50 °C superiore a 110 "
+"ESTRATTI, AROMI, LIQUIDI (aventi un punto di infiammabilità inferiore a 23 "
+"°C e viscosi secondo 2.2.3.1.4) (pressione di vapore a 50 °C superiore a 110 "
 "kPa)"
 
 #. module: l10n_eu_product_adr
@@ -5678,8 +5723,8 @@ msgid ""
 "EXTRACTS, FLAVOURING, LIQUID (having a flash-point below 23 °C and viscous "
 "according to 2.2.3.1.4) (vapour pressure at 50 °C not more than 110 kPa)"
 msgstr ""
-"ESTRATTI, AROMI, LIQUIDI (aventi un punto di infiammabilità inferiore a 23 °"
-"C e viscosi secondo 2.2.3.1.4) (pressione di vapore a 50 °C non superiore a "
+"ESTRATTI, AROMI, LIQUIDI (aventi un punto di infiammabilità inferiore a 23 "
+"°C e viscosi secondo 2.2.3.1.4) (pressione di vapore a 50 °C non superiore a "
 "110 kPa)"
 
 #. module: l10n_eu_product_adr
@@ -5692,8 +5737,7 @@ msgstr ""
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_1197_F1_3_601/640D_5L_P001/IBC02/R001_2
 msgid ""
-"EXTRACTS, FLAVOURING, LIQUID (vapour pressure at 50 °C not more than 110 "
-"kPa)"
+"EXTRACTS, FLAVOURING, LIQUID (vapour pressure at 50 °C not more than 110 kPa)"
 msgstr ""
 "ESTRATTI, AROMI, LIQUIDI (pressione di vapore a 50 °C non superiore a 110 "
 "kPa)"
@@ -6217,8 +6261,7 @@ msgstr "Flammable solidi"
 #. module: l10n_eu_product_adr
 #: model:adr.class,name:l10n_eu_product_adr.adr_class_4_1
 msgid ""
-"Flammable solids, self-reactive substances, and solid desensitized "
-"explosives"
+"Flammable solids, self-reactive substances, and solid desensitized explosives"
 msgstr ""
 "Flammable solidi, self-reactive substances, and solido desensitized "
 "explosives"
@@ -6248,8 +6291,7 @@ msgstr ""
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_3167
-msgid ""
-"GAS SAMPLE, NON-PRESSURIZED, FLAMMABLE, N.O.S., not refrigerated liquid"
+msgid "GAS SAMPLE, NON-PRESSURIZED, FLAMMABLE, N.O.S., not refrigerated liquid"
 msgstr ""
 "CAMPIONE DI GAS, NON PRESSURIZZATO, INFIAMMABILE, N.A.S., liquido non "
 "refrigerato"
@@ -6352,8 +6394,8 @@ msgstr ""
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_0114
 msgid ""
-"GUANYLNITROSAMINO-GUANYLTETRAZENE (TETRAZENE), WETTED with not less than 30%"
-" water, or mixture of alcohol and water, by mass"
+"GUANYLNITROSAMINO-GUANYLTETRAZENE (TETRAZENE), WETTED with not less than 30% "
+"water, or mixture of alcohol and water, by mass"
 msgstr ""
 "GUANYLNITROSAMINO-GUANYLTETRAZENE (TETRAZENE), BAGNATO con almeno il 30% di "
 "acqua, o miscela di alcol e acqua, in massa"
@@ -6532,7 +6574,8 @@ msgstr "ESANOLI"
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_0118
 msgid "HEXOLITE (HEXOTOL), dry or wetted with less than 15% water, by mass"
-msgstr "ESOLITE (ESOTOL), secco o inumidito con meno del 15% di acqua, in massa"
+msgstr ""
+"ESOLITE (ESOTOL), secco o inumidito con meno del 15% di acqua, in massa"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_0393
@@ -6589,8 +6632,8 @@ msgstr "MISCELA DI IDROCARBURI GASSATI, COMPRESSI, N.A.S."
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_1965
 msgid ""
-"HYDROCARBON GAS MIXTURE, LIQUEFIED, N.O.S. such as mixtures A, A01, A02, A0,"
-" A1, B1, B2, B or C"
+"HYDROCARBON GAS MIXTURE, LIQUEFIED, N.O.S. such as mixtures A, A01, A02, A0, "
+"A1, B1, B2, B or C"
 msgstr ""
 "MISCELA DI GAS IDROCARBURI, LIQUEFATTI, N.A.S. come miscele A, A01, A02, A0, "
 "A1, B1, B2, B o C"
@@ -6611,8 +6654,7 @@ msgstr ""
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_3295_F1_3_640D_1L_P001/IBC02/R001_2
 msgid ""
-"HYDROCARBONS, LIQUID, N.O.S. (vapour pressure at 50 °C not more than 110 "
-"kPa)"
+"HYDROCARBONS, LIQUID, N.O.S. (vapour pressure at 50 °C not more than 110 kPa)"
 msgstr ""
 "IDROCARBURI LIQUIDI, N.A.S. (pressione di vapore a 50 °C non superiore a 110 "
 "kPa)"
@@ -6626,8 +6668,8 @@ msgstr "ACIDO CLORIDRICO"
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_1613
 msgid ""
-"HYDROCYANIC ACID, AQUEOUS SOLUTION (HYDROGEN CYANIDE, AQUEOUS SOLUTION) with"
-" not more than 20% hydrogen cyanide"
+"HYDROCYANIC ACID, AQUEOUS SOLUTION (HYDROGEN CYANIDE, AQUEOUS SOLUTION) with "
+"not more than 20% hydrogen cyanide"
 msgstr ""
 "ACIDO CIANIDRICO, SOLUZIONE ACQUOSA (CIANURO DI IDROGENO, SOLUZIONE ACQUOSA) "
 "con non più del 20% di cianuro di idrogeno"
@@ -6677,8 +6719,7 @@ msgstr "CLORURO DI IDROGENO, LIQUIDO REFRIGERATO"
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_3294
 msgid ""
-"HYDROGEN CYANIDE, SOLUTION IN ALCOHOL with not more than 45% hydrogen "
-"cyanide"
+"HYDROGEN CYANIDE, SOLUTION IN ALCOHOL with not more than 45% hydrogen cyanide"
 msgstr ""
 "CIANURO DI IDROGENO, SOLUZIONE IN ALCOOL con non più del 45% di cianuro di "
 "idrogeno"
@@ -6706,8 +6747,8 @@ msgstr "FLUORURO DI IDROGENO ANIDRO"
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_3468
 msgid ""
 "HYDROGEN IN A METAL HYDRIDE STORAGE SYSTEM or HYDROGEN IN A METAL HYDRIDE "
-"STORAGE SYSTEM CONTAINED IN EQUIPMENT or HYDROGEN IN A METAL HYDRIDE STORAGE"
-" SYSTEM PACKED WITH EQUIPMENT"
+"STORAGE SYSTEM CONTAINED IN EQUIPMENT or HYDROGEN IN A METAL HYDRIDE STORAGE "
+"SYSTEM PACKED WITH EQUIPMENT"
 msgstr ""
 "IDROGENO IN UN SISTEMA DI STOCCAGGIO DI IDRURI METALLICI o IDROGENO IN UN "
 "SISTEMA DI STOCCAGGIO DI IDRURI METALLICI CONTENUTO IN UN'APPARECCHIATURA o "
@@ -6731,8 +6772,8 @@ msgstr ""
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_2014
 msgid ""
-"HYDROGEN PEROXIDE, AQUEOUS SOLUTION with not less than 20% but not more than"
-" 60% hydrogen peroxide (stabilized as necessary)"
+"HYDROGEN PEROXIDE, AQUEOUS SOLUTION with not less than 20% but not more than "
+"60% hydrogen peroxide (stabilized as necessary)"
 msgstr ""
 "PEROSSIDO DI IDROGENO, SOLUZIONE ACQUOSA con non meno del 20% ma non più del "
 "60% di perossido di idrogeno (stabilizzato se necessario)"
@@ -6827,10 +6868,6 @@ msgstr "Fieno, paglia o bhusa"
 #: model:ir.model.fields,field_description:l10n_eu_product_adr.field_adr_goods__id
 #: model:ir.model.fields,field_description:l10n_eu_product_adr.field_adr_label__id
 #: model:ir.model.fields,field_description:l10n_eu_product_adr.field_adr_packing_instruction__id
-#: model:ir.model.fields,field_description:l10n_eu_product_adr.field_product_product__id
-#: model:ir.model.fields,field_description:l10n_eu_product_adr.field_product_template__id
-#: model:ir.model.fields,field_description:l10n_eu_product_adr.field_stock_move__id
-#: model:ir.model.fields,field_description:l10n_eu_product_adr.field_stock_picking__id
 msgid "ID"
 msgstr "ID"
 
@@ -6857,8 +6894,7 @@ msgstr ""
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_2900_I2_6dot2/2dot2_318_P620_0
 msgid ""
-"INFECTIOUS SUBSTANCE, AFFECTING ANIMALS only, in refrigerated liquid "
-"nitrogen"
+"INFECTIOUS SUBSTANCE, AFFECTING ANIMALS only, in refrigerated liquid nitrogen"
 msgstr ""
 "SOSTANZA INFETTIVA, CHE COLPISCE SOLO GLI ANIMALI, in azoto liquido "
 "refrigerato"
@@ -6875,8 +6911,7 @@ msgstr "SOSTANZA INFETTIVA CHE COLPISCE L'UOMO (solo materiale animale)"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_2814_I1_6dot2/2dot2_318_P620_0
-msgid ""
-"INFECTIOUS SUBSTANCE, AFFECTING HUMANS, in refrigerated liquid nitrogen"
+msgid "INFECTIOUS SUBSTANCE, AFFECTING HUMANS, in refrigerated liquid nitrogen"
 msgstr "SOSTANZA INFETTIVA CHE COLPISCE L'UOMO, in azoto liquido refrigerato"
 
 #. module: l10n_eu_product_adr
@@ -7160,8 +7195,8 @@ msgstr "ISOPROPILBENZENE"
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_2907
 msgid ""
-"ISOSORBIDE DINITRATE MIXTURE with not less than 60% lactose, mannose, starch"
-" or calcium hydrogen phosphate"
+"ISOSORBIDE DINITRATE MIXTURE with not less than 60% lactose, mannose, starch "
+"or calcium hydrogen phosphate"
 msgstr ""
 "MISCELA DI ISOSORBIDE DINITRATE con non meno del 60% di lattosio, mannosio, "
 "amido o calcio idrogeno fosfato"
@@ -7187,6 +7222,29 @@ msgstr "Indica se la configurazione ADR è diversa per ogni variante."
 #: model:adr.label,name:l10n_eu_product_adr.adr_label_6_2
 msgid "Infectious substances"
 msgstr "Sostanze infettive"
+
+#. module: l10n_eu_product_adr
+#. odoo-python
+#: code:addons/l10n_eu_product_adr/scripts/import_adr_multilang_xlsx.py:0
+#, python-format
+msgid "Invalid label %(label)s in cell value %(value)s"
+msgstr ""
+
+#. module: l10n_eu_product_adr
+#. odoo-python
+#: code:addons/l10n_eu_product_adr/scripts/import_adr_multilang_xlsx.py:0
+#, python-format
+msgid "Invalid transport category %(category)s in cell value %(value)s"
+msgstr ""
+
+#. module: l10n_eu_product_adr
+#. odoo-python
+#: code:addons/l10n_eu_product_adr/scripts/import_adr_multilang_xlsx.py:0
+#, python-format
+msgid ""
+"Invalid tunnel restriction code %(tunnel_restriction)s in cell value "
+"%(value)s"
+msgstr ""
 
 #. module: l10n_eu_product_adr
 #: model:ir.model.fields,field_description:l10n_eu_product_adr.field_product_product__is_dangerous
@@ -7411,8 +7469,8 @@ msgstr "IDRURO DI LITIO E ALLUMINIO, ETEREO"
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_3536
 msgid ""
-"LITHIUM BATTERIES INSTALLED IN CARGO TRANSPORT UNIT lithium ion batteries or"
-" lithium metal batteries"
+"LITHIUM BATTERIES INSTALLED IN CARGO TRANSPORT UNIT lithium ion batteries or "
+"lithium metal batteries"
 msgstr ""
 "BATTERIE AL LITIO INSTALLATE NELL'UNITÀ DI TRASPORTO MERCI batterie agli "
 "ioni di litio o batterie al litio metallico"
@@ -7464,8 +7522,8 @@ msgstr ""
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_3481
 msgid ""
-"LITHIUM ION BATTERIES CONTAINED IN EQUIPMENT or LITHIUM ION BATTERIES PACKED"
-" WITH EQUIPMENT (including lithium ion polymer batteries)"
+"LITHIUM ION BATTERIES CONTAINED IN EQUIPMENT or LITHIUM ION BATTERIES PACKED "
+"WITH EQUIPMENT (including lithium ion polymer batteries)"
 msgstr ""
 "BATTERIE AGLI IONI DI LITIO CONTENUTE NELL'APPARECCHIATURA o BATTERIE AGLI "
 "IONI DI LITIO IMBALLATE CON L'APPARECCHIATURA (comprese le batterie ai "
@@ -7512,11 +7570,6 @@ msgid "LONDON PURPLE"
 msgstr "LONDRA VIOLA"
 
 #. module: l10n_eu_product_adr
-#: model_terms:ir.ui.view,arch_db:l10n_eu_product_adr.adr_label_kanban_form
-msgid "Label image"
-msgstr "Immagine etichetta"
-
-#. module: l10n_eu_product_adr
 #: model:ir.model.fields,field_description:l10n_eu_product_adr.field_adr_goods__label_ids
 #: model:ir.model.fields,field_description:l10n_eu_product_adr.field_product_product__adr_label_ids
 #: model:ir.model.fields,field_description:l10n_eu_product_adr.field_product_template__adr_label_ids
@@ -7524,18 +7577,6 @@ msgstr "Immagine etichetta"
 #: model_terms:ir.ui.view,arch_db:l10n_eu_product_adr.product_template_form_view
 msgid "Labels"
 msgstr "Etichette"
-
-#. module: l10n_eu_product_adr
-#: model:ir.model.fields,field_description:l10n_eu_product_adr.field_adr_class____last_update
-#: model:ir.model.fields,field_description:l10n_eu_product_adr.field_adr_goods____last_update
-#: model:ir.model.fields,field_description:l10n_eu_product_adr.field_adr_label____last_update
-#: model:ir.model.fields,field_description:l10n_eu_product_adr.field_adr_packing_instruction____last_update
-#: model:ir.model.fields,field_description:l10n_eu_product_adr.field_product_product____last_update
-#: model:ir.model.fields,field_description:l10n_eu_product_adr.field_product_template____last_update
-#: model:ir.model.fields,field_description:l10n_eu_product_adr.field_stock_move____last_update
-#: model:ir.model.fields,field_description:l10n_eu_product_adr.field_stock_picking____last_update
-msgid "Last Modified on"
-msgstr "Ultima modifica il"
 
 #. module: l10n_eu_product_adr
 #: model:ir.model.fields,field_description:l10n_eu_product_adr.field_adr_class__write_uid
@@ -7676,8 +7717,7 @@ msgstr "MANEB o PREPARAZIONE DI MANEB con almeno il 60% di maneb"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_2968
-msgid ""
-"MANEB, STABILIZED or MANEB PREPARATION, STABILIZED against self-heating"
+msgid "MANEB, STABILIZED or MANEB PREPARATION, STABILIZED against self-heating"
 msgstr ""
 "MANEB, STABILIZZATO o PREPARAZIONE DI MANEB, STABILIZZATA contro "
 "l'autoriscaldamento"
@@ -7695,8 +7735,8 @@ msgstr "RESINATO DI MANGANESE"
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_0133
 msgid ""
-"MANNITOL HEXANITRATE (NITROMANNITE), WETTED with not less than 40% water, or"
-" mixture of alcohol and water, by mass"
+"MANNITOL HEXANITRATE (NITROMANNITE), WETTED with not less than 40% water, or "
+"mixture of alcohol and water, by mass"
 msgstr ""
 "ESANITRATO DI MANNITOLO (NITROMANNITE), BAGNATO con almeno il 40% di acqua, "
 "o una miscela di alcol e acqua, in massa"
@@ -7848,8 +7888,8 @@ msgstr "PESTICIDA A BASE DI MERCURIO, LIQUIDO, TOSSICO"
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_3011_100ml
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_3011_5L
 msgid ""
-"MERCURY BASED PESTICIDE, LIQUID, TOXIC, FLAMMABLE, flash-point not less than"
-" 23 °C"
+"MERCURY BASED PESTICIDE, LIQUID, TOXIC, FLAMMABLE, flash-point not less than "
+"23 °C"
 msgstr ""
 "PESTICIDA A BASE DI MERCURIO, LIQUIDO, TOSSICO, INFIAMMABILE, punto di "
 "infiammabilità non inferiore a 23 °C"
@@ -8058,7 +8098,8 @@ msgstr "ALCOOL METALLICO"
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_1971
 msgid ""
 "METHANE, COMPRESSED or NATURAL GAS, COMPRESSED with high methane content"
-msgstr "METANO, COMPRESSO o GAS NATURALE, COMPRESSO ad alto contenuto di metano"
+msgstr ""
+"METANO, COMPRESSO o GAS NATURALE, COMPRESSO ad alto contenuto di metano"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_1972
@@ -8530,8 +8571,7 @@ msgstr ""
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_1655
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_1655_500g
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_1655_5kg
-msgid ""
-"NICOTINE COMPOUND, SOLID, N.O.S. or NICOTINE PREPARATION, SOLID, N.O.S."
+msgid "NICOTINE COMPOUND, SOLID, N.O.S. or NICOTINE PREPARATION, SOLID, N.O.S."
 msgstr ""
 "NICOTINE COMPOUND, SOLIDO, N.O.S. or NICOTINE PREPARATION, SOLIDO, N.O.S."
 
@@ -8608,8 +8648,8 @@ msgstr "ACIDO NITRICO, ROSSO FUMANTE"
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_2031_CO1_8/5dot1_1L_P001/IBC02_2
 msgid ""
-"NITRIC ACID, other than red fuming, with at least 65%, but not more than 70%"
-" nitric acid"
+"NITRIC ACID, other than red fuming, with at least 65%, but not more than 70% "
+"nitric acid"
 msgstr ""
 "ACIDO NITRICO, diverso dal rosso fumante, con almeno il 65%, ma non più del "
 "70% di acido nitrico"
@@ -8740,8 +8780,8 @@ msgstr ""
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_2059_D_3_198/531_5L_P001/IBC03/LP01/R001_3
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_2059_D_3_198/531_P001_1
 msgid ""
-"NITROCELLULOSE SOLUTION, FLAMMABLE with not more than 12.6% nitrogen, by dry"
-" mass, and not more than 55% nitrocellulose"
+"NITROCELLULOSE SOLUTION, FLAMMABLE with not more than 12.6% nitrogen, by dry "
+"mass, and not more than 55% nitrocellulose"
 msgstr ""
 "SOLUZIONE DI NITROCELLULOSA, INFIAMMABILE con non più del 12,6% di azoto, in "
 "massa secca, e non più del 55% di nitrocellulosa"
@@ -8749,24 +8789,24 @@ msgstr ""
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_2059_D_3_198/531/640C_1L_P001/IBC02_2
 msgid ""
-"NITROCELLULOSE SOLUTION, FLAMMABLE with not more than 12.6% nitrogen, by dry"
-" mass, and not more than 55% nitrocellulose (vapour pressure at 50 °C more "
+"NITROCELLULOSE SOLUTION, FLAMMABLE with not more than 12.6% nitrogen, by dry "
+"mass, and not more than 55% nitrocellulose (vapour pressure at 50 °C more "
 "than 110 kPa)"
 msgstr ""
 "SOLUZIONE DI NITROCELLULOSA, INFIAMMABILE con non più del 12,6% di azoto, in "
-"massa secca, e non più del 55% di nitrocellulosa (pressione di vapore a 50 °"
-"C superiore a 110 kPa)"
+"massa secca, e non più del 55% di nitrocellulosa (pressione di vapore a 50 "
+"°C superiore a 110 kPa)"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_2059_D_3_198/531/640D_1L_P001/IBC02/R001_2
 msgid ""
-"NITROCELLULOSE SOLUTION, FLAMMABLE with not more than 12.6% nitrogen, by dry"
-" mass, and not more than 55% nitrocellulose (vapour pressure at 50 °C not "
+"NITROCELLULOSE SOLUTION, FLAMMABLE with not more than 12.6% nitrogen, by dry "
+"mass, and not more than 55% nitrocellulose (vapour pressure at 50 °C not "
 "more than 110 kPa)"
 msgstr ""
 "SOLUZIONE DI NITROCELLULOSA, INFIAMMABILE con non più del 12,6% di azoto, in "
-"massa secca, e non più del 55% di nitrocellulosa (pressione di vapore a 50 °"
-"C non superiore a 110 kPa)"
+"massa secca, e non più del 55% di nitrocellulosa (pressione di vapore a 50 "
+"°C non superiore a 110 kPa)"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_2556
@@ -8816,8 +8856,8 @@ msgstr ""
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_2557
 msgid ""
-"NITROCELLULOSE, with not more than 12.6% nitrogen, by dry mass, MIXTURE WITH"
-" or WITHOUT PLASTICIZER, WITH or WITHOUT PIGMENT"
+"NITROCELLULOSE, with not more than 12.6% nitrogen, by dry mass, MIXTURE WITH "
+"or WITHOUT PLASTICIZER, WITH or WITHOUT PIGMENT"
 msgstr ""
 "NITROCELLULOSA, con non più del 12,6% di azoto, sulla massa secca, MISCELA "
 "CON o SENZA PLASTIFICANTE, CON o SENZA PIGMENTE"
@@ -8860,8 +8900,8 @@ msgstr "AZOTO, LIQUIDO REFRIGERATO"
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_3343
 msgid ""
-"NITROGLYCERIN MIXTURE, DESENSITIZED, LIQUID, FLAMMABLE, N.O.S. with not more"
-" than 30% nitroglycerin, by mass"
+"NITROGLYCERIN MIXTURE, DESENSITIZED, LIQUID, FLAMMABLE, N.O.S. with not more "
+"than 30% nitroglycerin, by mass"
 msgstr ""
 "MISCELA DI NITROGLICERINA, DESENSIBILIZZATA, LIQUIDA, INFIAMMABILE, N.A.S. "
 "con non più del 30% di nitroglicerina, in massa"
@@ -8878,8 +8918,8 @@ msgstr ""
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_3319
 msgid ""
-"NITROGLYCERIN MIXTURE, DESENSITIZED, SOLID, N.O.S. with more than 2% but not"
-" more than 10% nitroglycerin, by mass"
+"NITROGLYCERIN MIXTURE, DESENSITIZED, SOLID, N.O.S. with more than 2% but not "
+"more than 10% nitroglycerin, by mass"
 msgstr ""
 "NITROGLYCERIN MIXTURE, DESENSITIZED, SOLIDO, N.O.S. with more than 2% but "
 "not more than 10% nitroglycerin, by mass"
@@ -9231,8 +9271,8 @@ msgstr "ORGANOARSENIC COMPOUND, SOLIDO, N.O.S."
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_2762
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_2762_1L
 msgid ""
-"ORGANOCHLORINE PESTICIDE, LIQUID, FLAMMABLE, TOXIC, flash-point less than 23"
-" °C"
+"ORGANOCHLORINE PESTICIDE, LIQUID, FLAMMABLE, TOXIC, flash-point less than 23 "
+"°C"
 msgstr ""
 "PESTICIDA ORGANOCLORURO, LIQUIDO, INFIAMMABILE, TOSSICO, punto di "
 "infiammabilità inferiore a 23 °C"
@@ -9808,8 +9848,8 @@ msgid ""
 "PERFUMERY PRODUCTS with flammable solvents (vapour pressure at 50 °C more "
 "than 110 kPa)"
 msgstr ""
-"PRODOTTI DI PROFUMERIA con solventi infiammabili (pressione di vapore a 50 °"
-"C superiore a 110 kPa)"
+"PRODOTTI DI PROFUMERIA con solventi infiammabili (pressione di vapore a 50 "
+"°C superiore a 110 kPa)"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_1266_F1_3_640D/163_5L_P001/IBC02/R001_2
@@ -9817,8 +9857,8 @@ msgid ""
 "PERFUMERY PRODUCTS with flammable solvents (vapour pressure at 50 °C not "
 "more than 110 kPa)"
 msgstr ""
-"PRODOTTI DI PROFUMERIA con solventi infiammabili (pressione di vapore a 50 °"
-"C non superiore a 110 kPa)"
+"PRODOTTI DI PROFUMERIA con solventi infiammabili (pressione di vapore a 50 "
+"°C non superiore a 110 kPa)"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_3214
@@ -9905,8 +9945,8 @@ msgstr "DISTILLATI DI PETROLIO, N.A.S. o PRODOTTI PETROLIFERI, N.A.S."
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_1268_F1_3_640D/664_1L_P001/IBC02/R001_2
 msgid ""
-"PETROLEUM DISTILLATES, N.O.S. or PETROLEUM PRODUCTS, N.O.S. (vapour pressure"
-" at 50 °C more than 110 kPa)"
+"PETROLEUM DISTILLATES, N.O.S. or PETROLEUM PRODUCTS, N.O.S. (vapour pressure "
+"at 50 °C more than 110 kPa)"
 msgstr ""
 "DISTILLATI DI PETROLIO, N.A.S. o PRODOTTI PETROLIFERI, N.A.S. (pressione di "
 "vapore a 50 °C superiore a 110 kPa)"
@@ -9914,8 +9954,8 @@ msgstr ""
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_1268_F1_3_640C/664_1L_P001_2
 msgid ""
-"PETROLEUM DISTILLATES, N.O.S. or PETROLEUM PRODUCTS, N.O.S. (vapour pressure"
-" at 50 °C not more than 110 kPa)"
+"PETROLEUM DISTILLATES, N.O.S. or PETROLEUM PRODUCTS, N.O.S. (vapour pressure "
+"at 50 °C not more than 110 kPa)"
 msgstr ""
 "DISTILLATI DI PETROLIO, N.A.S. o PRODOTTI PETROLIFERI, N.A.S. (pressione di "
 "vapore a 50 °C non superiore a 110 kPa)"
@@ -10272,8 +10312,8 @@ msgstr "POLYESTER RESIN KIT, solido base material"
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_3151
 msgid ""
-"POLYHALOGENATED BIPHENYLS, LIQUID or HALOGENATED MONOMETHYLDIPHENYLMETHANES,"
-" LIQUID or POLYHALOGENATED TERPHENYLS, LIQUID"
+"POLYHALOGENATED BIPHENYLS, LIQUID or HALOGENATED MONOMETHYLDIPHENYLMETHANES, "
+"LIQUID or POLYHALOGENATED TERPHENYLS, LIQUID"
 msgstr ""
 "BIFENILI POLIALOGENATI, LIQUIDI o MONOMETILDIFENILMETANI ALOGENATI, LIQUIDI "
 "o TERFENILI POLIALOGENATI, LIQUIDI"
@@ -10490,8 +10530,8 @@ msgstr "POTASSIUM SODIUM ALLOYS, SOLIDO"
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_1382
 msgid ""
-"POTASSIUM SULPHIDE, ANHYDROUS or POTASSIUM SULPHIDE with less than 30% water"
-" of crystallization"
+"POTASSIUM SULPHIDE, ANHYDROUS or POTASSIUM SULPHIDE with less than 30% water "
+"of crystallization"
 msgstr ""
 "SOLFURO DI POTASSIO ANIDRO o SOLFURO DI POTASSIO con meno del 30% di acqua "
 "di cristallizzazione"
@@ -10550,8 +10590,8 @@ msgstr "INNESCHI TUBOLARI"
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_1210_F1_3_163/367_500ml_P001_1
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_1210_F1_3_163/367_5L_P001/IBC03/LP01/R001_3
 msgid ""
-"PRINTING INK, flammable or PRINTING INK RELATED MATERIAL (including printing"
-" ink thinning or reducing compound), flammable"
+"PRINTING INK, flammable or PRINTING INK RELATED MATERIAL (including printing "
+"ink thinning or reducing compound), flammable"
 msgstr ""
 "INCHIOSTRO DA STAMPA, infiammabile o MATERIALE CORRELATO ALL'INCHIOSTRO DA "
 "STAMPA (compreso il composto diluente o riducente per inchiostro da stampa), "
@@ -10560,10 +10600,10 @@ msgstr ""
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_1210_F1_3_163/367_5L_P001/R001_3
 msgid ""
-"PRINTING INK, flammable or PRINTING INK RELATED MATERIAL (including printing"
-" ink thinning or reducing compound), flammable (having a flash-point below "
-"23 °C and viscous according to 2.2.3.1.4) (vapour pressure at 50 °C more "
-"than 110 kPa)"
+"PRINTING INK, flammable or PRINTING INK RELATED MATERIAL (including printing "
+"ink thinning or reducing compound), flammable (having a flash-point below 23 "
+"°C and viscous according to 2.2.3.1.4) (vapour pressure at 50 °C more than "
+"110 kPa)"
 msgstr ""
 "INCHIOSTRO DA STAMPA, infiammabile o MATERIALE CORRELATO ALL'INCHIOSTRO DA "
 "STAMPA (compreso il composto diluente o riducente per inchiostro da stampa), "
@@ -10573,10 +10613,10 @@ msgstr ""
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_1210_F1_3_163/367_5L_P001/IBC02/R001_3
 msgid ""
-"PRINTING INK, flammable or PRINTING INK RELATED MATERIAL (including printing"
-" ink thinning or reducing compound), flammable (having a flash-point below "
-"23 °C and viscous according to 2.2.3.1.4) (vapour pressure at 50 °C not more"
-" than 110 kPa)"
+"PRINTING INK, flammable or PRINTING INK RELATED MATERIAL (including printing "
+"ink thinning or reducing compound), flammable (having a flash-point below 23 "
+"°C and viscous according to 2.2.3.1.4) (vapour pressure at 50 °C not more "
+"than 110 kPa)"
 msgstr ""
 "INCHIOSTRO DA STAMPA, infiammabile o MATERIALE CORRELATO ALL'INCHIOSTRO DA "
 "STAMPA (compreso il composto diluente o riducente per inchiostro da stampa), "
@@ -10586,9 +10626,9 @@ msgstr ""
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_1210_F1_3_163/640C/367_5L_P001_2
 msgid ""
-"PRINTING INK, flammable or PRINTING INK RELATED MATERIAL (including printing"
-" ink thinning or reducing compound), flammable (vapour pressure at 50 °C "
-"more than 110 kPa)"
+"PRINTING INK, flammable or PRINTING INK RELATED MATERIAL (including printing "
+"ink thinning or reducing compound), flammable (vapour pressure at 50 °C more "
+"than 110 kPa)"
 msgstr ""
 "INCHIOSTRO DA STAMPA, infiammabile o MATERIALE CORRELATO ALL'INCHIOSTRO DA "
 "STAMPA (compreso il composto diluente o riducente per inchiostro da stampa), "
@@ -10597,9 +10637,9 @@ msgstr ""
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_1210_F1_3_163/640D/367_5L_P001/IBC02/R001_2
 msgid ""
-"PRINTING INK, flammable or PRINTING INK RELATED MATERIAL (including printing"
-" ink thinning or reducing compound), flammable (vapour pressure at 50 °C not"
-" more than 110 kPa)"
+"PRINTING INK, flammable or PRINTING INK RELATED MATERIAL (including printing "
+"ink thinning or reducing compound), flammable (vapour pressure at 50 °C not "
+"more than 110 kPa)"
 msgstr ""
 "INCHIOSTRO DA STAMPA, infiammabile o MATERIALE CORRELATO ALL'INCHIOSTRO DA "
 "STAMPA (compreso il composto diluente o riducente per inchiostro da stampa), "
@@ -10750,8 +10790,8 @@ msgstr "PESTICIDA PIRETROIDE, LIQUIDO, TOSSICO"
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_3351_100ml
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_3351_5L
 msgid ""
-"PYRETHROID PESTICIDE, LIQUID, TOXIC, FLAMMABLE, flash-point not less than 23"
-" °C"
+"PYRETHROID PESTICIDE, LIQUID, TOXIC, FLAMMABLE, flash-point not less than 23 "
+"°C"
 msgstr ""
 "PESTICIDA PIRETROIDE, LIQUIDO, TOSSICO, INFIAMMABILE, punto di "
 "infiammabilità non inferiore a 23 °C"
@@ -10811,14 +10851,14 @@ msgid "Packing Instructions"
 msgstr "Istruzioni per l'imballaggio"
 
 #. module: l10n_eu_product_adr
-#: model:ir.model,name:l10n_eu_product_adr.model_product_product
+#: model:ir.model,name:l10n_eu_product_adr.model_product_template
 msgid "Product"
 msgstr "Prodotto"
 
 #. module: l10n_eu_product_adr
-#: model:ir.model,name:l10n_eu_product_adr.model_product_template
-msgid "Product Template"
-msgstr "Modello prodotto"
+#: model:ir.model,name:l10n_eu_product_adr.model_product_product
+msgid "Product Variant"
+msgstr ""
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_2656
@@ -10867,8 +10907,8 @@ msgstr "MATERIALE RADIOATTIVO, BASSA ATTIVITÀ SPECIFICA (LSA-II), FISSILE"
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_3321
 msgid ""
-"RADIOACTIVE MATERIAL, LOW SPECIFIC ACTIVITY (LSA-II), non fissile or "
-"fissile-excepted"
+"RADIOACTIVE MATERIAL, LOW SPECIFIC ACTIVITY (LSA-II), non fissile or fissile-"
+"excepted"
 msgstr ""
 "MATERIALE RADIOATTIVO, BASSA ATTIVITÀ SPECIFICA (LSA-II), non fissile o "
 "fissile eccetto"
@@ -10890,8 +10930,7 @@ msgstr "MATERIALE RADIOATTIVO, BASSA ATTIVITÀ SPECIFICA, (LSA-III), FISSILE"
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_3326
 msgid ""
-"RADIOACTIVE MATERIAL, SURFACE CONTAMINATED OBJECTS (SCO-I or SCO-II), "
-"FISSILE"
+"RADIOACTIVE MATERIAL, SURFACE CONTAMINATED OBJECTS (SCO-I or SCO-II), FISSILE"
 msgstr ""
 "MATERIALE RADIOATTIVO, OGGETTI CONTAMINATI IN SUPERFICIE (SCO-I o SCO-II), "
 "FISSILI"
@@ -10902,8 +10941,8 @@ msgid ""
 "RADIOACTIVE MATERIAL, SURFACE CONTAMINATED OBJECTS (SCO-I or SCO-II), non "
 "fissile or fissile-excepted"
 msgstr ""
-"MATERIALE RADIOATTIVO, OGGETTI CONTAMINATI SUPERFICIALMENTE (SCO-I o SCO-II)"
-", non fissili o fissili esenti"
+"MATERIALE RADIOATTIVO, OGGETTI CONTAMINATI SUPERFICIALMENTE (SCO-I o SCO-"
+"II), non fissili o fissili esenti"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_3331
@@ -11024,9 +11063,9 @@ msgstr ""
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_3338
 msgid ""
-"REFRIGERANT GAS R 407A (Difluoromethane, pentafluoroethane, and "
-"1,1,1,2-tetrafluoroethane zeotropic mixture with approximately 20% "
-"difluoromethane and 40% pentafluoroethane)"
+"REFRIGERANT GAS R 407A (Difluoromethane, pentafluoroethane, and 1,1,1,2-"
+"tetrafluoroethane zeotropic mixture with approximately 20% difluoromethane "
+"and 40% pentafluoroethane)"
 msgstr ""
 "GAS REFRIGERANTE R 407A (Difluoromethane, pentafluoroethane, and 1,1,1,2-"
 "tetrafluoroethane zeotropic mixture with approximately 20% difluoromethane "
@@ -11035,9 +11074,9 @@ msgstr ""
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_3339
 msgid ""
-"REFRIGERANT GAS R 407B (Difluoromethane, pentafluoroethane, and "
-"1,1,1,2-tetrafluoroethane zeotropic mixture with approximately 10% "
-"difluoromethane and 70% pentafluoroethane)"
+"REFRIGERANT GAS R 407B (Difluoromethane, pentafluoroethane, and 1,1,1,2-"
+"tetrafluoroethane zeotropic mixture with approximately 10% difluoromethane "
+"and 70% pentafluoroethane)"
 msgstr ""
 "GAS REFRIGERANTE R 407B (Difluoromethane, pentafluoroethane, and 1,1,1,2-"
 "tetrafluoroethane zeotropic mixture with approximately 10% difluoromethane "
@@ -11046,9 +11085,9 @@ msgstr ""
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_3340
 msgid ""
-"REFRIGERANT GAS R 407C (Difluoromethane, pentafluoroethane, and "
-"1,1,1,2-tetrafluoroethane zeotropic mixture with approximately "
-"23%difluoromethane and 25% pentafluoroethane)"
+"REFRIGERANT GAS R 407C (Difluoromethane, pentafluoroethane, and 1,1,1,2-"
+"tetrafluoroethane zeotropic mixture with approximately 23%difluoromethane "
+"and 25% pentafluoroethane)"
 msgstr ""
 "GAS REFRIGERANTE R 407C (Difluoromethane, pentafluoroethane, and 1,1,1,2-"
 "tetrafluoroethane zeotropic mixture with approximately 23%difluoromethane "
@@ -11216,7 +11255,8 @@ msgstr "OLIO DI COLOFONIA (pressione di vapore a 50 °C superiore a 110 kPa)"
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_1286_F1_3_640D_5L_P001/IBC02/R001_2
 msgid "ROSIN OIL (vapour pressure at 50 °C not more than 110 kPa)"
-msgstr "OLIO DI COLOFONIA (pressione di vapore a 50 °C non superiore a 110 kPa)"
+msgstr ""
+"OLIO DI COLOFONIA (pressione di vapore a 50 °C non superiore a 110 kPa)"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_1345
@@ -11322,7 +11362,8 @@ msgstr "CAMPIONI, ESPLOSIVI, diversi dall'innesco esplosivo"
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_1386
 msgid "SEED CAKE with more than 1.5% oil and not more than 11% moisture"
-msgstr "PANETTO DI SEMI con più dell'1,5% di olio e non più dell'11% di umidità"
+msgstr ""
+"PANETTO DI SEMI con più dell'1,5% di olio e non più dell'11% di umidità"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_2217
@@ -12072,8 +12113,8 @@ msgstr "PESTICIDA NITROFENOLO SOSTITUITO, LIQUIDO, TOSSICO"
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_3013_100ml
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_3013_5L
 msgid ""
-"SUBSTITUTED NITROPHENOL PESTICIDE, LIQUID, TOXIC, FLAMMABLE, flash-point not"
-" less than 23 °C"
+"SUBSTITUTED NITROPHENOL PESTICIDE, LIQUID, TOXIC, FLAMMABLE, flash-point not "
+"less than 23 °C"
 msgstr ""
 "PESTICIDA NITROFENOLO SOSTITUITO, LIQUIDO, TOSSICO, INFIAMMABILE, punto di "
 "infiammabilità non inferiore a 23 °C"
@@ -12207,8 +12248,8 @@ msgstr ""
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_1999_F1_3_5L_P001/R001_3
 msgid ""
 "TARS, LIQUID, including road oils, and cutback bitumens (having a flash-"
-"point below 23 °C and viscous according to 2.2.3.1.4) (vapour pressure at 50"
-" °C more than 110 kPa)"
+"point below 23 °C and viscous according to 2.2.3.1.4) (vapour pressure at 50 "
+"°C more than 110 kPa)"
 msgstr ""
 "CATRAMI, LIQUIDI, compresi gli oli stradali e i bitumi tagliati (aventi un "
 "punto di infiammabilità inferiore a 23 °C e viscosi secondo 2.2.3.1.4) "
@@ -12404,8 +12445,8 @@ msgstr "PESTICIDA TIOCARBAMMATO, LIQUIDO, TOSSICO"
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_3005_100ml
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_3005_5L
 msgid ""
-"THIOCARBAMATE PESTICIDE, LIQUID, TOXIC, FLAMMABLE, flash-point not less than"
-" 23 °C"
+"THIOCARBAMATE PESTICIDE, LIQUID, TOXIC, FLAMMABLE, flash-point not less than "
+"23 °C"
 msgstr ""
 "PESTICIDA TIOCARBAMMATO, LIQUIDO, TOSSICO, INFIAMMABILE, punto di "
 "infiammabilità non inferiore a 23 °C"
@@ -12562,8 +12603,8 @@ msgstr ""
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_3390
 msgid ""
 "TOXIC BY INHALATION LIQUID, CORROSIVE, N.O.S. with an LC50 lower than or "
-"equal to 1000 ml/m3 and saturated vapour concentration greater than or equal"
-" to 10 LC50"
+"equal to 1000 ml/m3 and saturated vapour concentration greater than or equal "
+"to 10 LC50"
 msgstr ""
 "LIQUIDO TOSSICO PER INALAZIONE, CORROSIVO, N.A.S. con una LC50 inferiore o "
 "uguale a 1000 ml/m3 e una concentrazione di vapore saturo maggiore o uguale "
@@ -12595,8 +12636,8 @@ msgstr ""
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_3383
 msgid ""
 "TOXIC BY INHALATION LIQUID, FLAMMABLE, N.O.S.  with an LC50 lower than or "
-"equal to  200 ml/m3 and saturated vapour concentration greater than or equal"
-" to 500 LC50"
+"equal to  200 ml/m3 and saturated vapour concentration greater than or equal "
+"to 500 LC50"
 msgstr ""
 "LIQUIDO TOSSICO PER INALAZIONE, INFIAMMABILE, N.A.S. con una LC50 inferiore "
 "o uguale a 200 ml/m3 e una concentrazione di vapore saturo superiore o "
@@ -12635,8 +12676,8 @@ msgstr ""
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_3388
 msgid ""
 "TOXIC BY INHALATION LIQUID, OXIDIZING, N.O.S. with an LC50  lower than or "
-"equal to 1000 ml/m3 and saturated vapour concentration greater than or equal"
-" to 10 LC50"
+"equal to 1000 ml/m3 and saturated vapour concentration greater than or equal "
+"to 10 LC50"
 msgstr ""
 "LIQUIDO TOSSICO PER INALAZIONE, COMBURENTE, N.A.S. con una LC50 inferiore o "
 "uguale a 1000 ml/m3 e una concentrazione di vapore saturo maggiore o uguale "
@@ -12657,8 +12698,8 @@ msgstr ""
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_3491
 msgid ""
 "TOXIC BY INHALATION LIQUID, WATER-REACTIVE, FLAMMABLE, N.O.S. with an LC50 "
-"lower than or equal to 1000 ml/m³ and saturated vapour concentration greater"
-" than or equal to 10 LC50"
+"lower than or equal to 1000 ml/m³ and saturated vapour concentration greater "
+"than or equal to 10 LC50"
 msgstr ""
 "LIQUIDO TOSSICO PER INALAZIONE, IDROREATTIVO, INFIAMMABILE, N.A.S. con una "
 "LC50 inferiore o uguale a 1000 ml/m³ e una concentrazione di vapore saturo "
@@ -12848,8 +12889,7 @@ msgstr "PESTICIDA TRIAZINO, LIQUIDO, TOSSICO"
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_2997_100ml
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_2997_5L
 msgid ""
-"TRIAZINE PESTICIDE, LIQUID, TOXIC, FLAMMABLE, flash-point not less than 23 "
-"°C"
+"TRIAZINE PESTICIDE, LIQUID, TOXIC, FLAMMABLE, flash-point not less than 23 °C"
 msgstr ""
 "PESTICIDA TRIAZINICO, LIQUIDO, TOSSICO, INFIAMMABILE, punto di "
 "infiammabilità non inferiore a 23 °C"
@@ -13116,8 +13156,7 @@ msgstr ""
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_0154
 msgid ""
-"TRINITROPHENOL (PICRIC ACID), dry or wetted with less than 30% water, by "
-"mass"
+"TRINITROPHENOL (PICRIC ACID), dry or wetted with less than 30% water, by mass"
 msgstr ""
 "TRINITROFENOLO (ACIDO PICRICO), secco o umidificato con meno del 30% di "
 "acqua, in massa"
@@ -13240,11 +13279,12 @@ msgstr ""
 "su colli, contenitori, cisterne-container, cisterne mobili, CGEM e veicoli.)"
 
 #. module: l10n_eu_product_adr
+#. odoo-python
 #: code:addons/l10n_eu_product_adr/models/product_template.py:0
 #, python-format
 msgid ""
-"There are different dangerous goods configured on this product's variant, so"
-" you cannot update the dangerous goods from here. Please reconfigure each "
+"There are different dangerous goods configured on this product's variant, so "
+"you cannot update the dangerous goods from here. Please reconfigure each "
 "variant separately."
 msgstr ""
 "Per questa variante di prodotto sono configurate diverse merci pericolose, "
@@ -13302,6 +13342,7 @@ msgid "UN Number"
 msgstr "Numero NU"
 
 #. module: l10n_eu_product_adr
+#. odoo-python
 #: code:addons/l10n_eu_product_adr/models/adr_goods.py:0
 #, python-format
 msgid "UN Number %s is invalid because it does not have a length of 4."
@@ -13341,6 +13382,21 @@ msgstr "NITRATO DI UREA, BAGNATO con almeno il 20% di acqua, in massa"
 msgid "UREA NITRATE, dry or wetted with less than 20% water, by mass"
 msgstr ""
 "NITRATO DI UREA, secco o umidificato con meno del 20% di acqua, in massa"
+
+#. module: l10n_eu_product_adr
+#. odoo-python
+#: code:addons/l10n_eu_product_adr/scripts/import_adr_multilang_xlsx.py:0
+#, python-format
+msgid "Unknown uom %(uom_name)s in limited quantity %(value)s (%(row)s)"
+msgstr ""
+
+#. module: l10n_eu_product_adr
+#. odoo-python
+#: code:addons/l10n_eu_product_adr/scripts/import_adr_multilang_xlsx.py:0
+#, python-format
+msgid ""
+"Unknown value for transport code/tunnel restriction code: %(value) (%(row))"
+msgstr ""
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_2058
@@ -13567,8 +13623,7 @@ msgstr ""
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_1306_F1_3_640C_5L_P001_2
-msgid ""
-"WOOD PRESERVATIVES, LIQUID (vapour pressure at 50 °C more than 110 kPa)"
+msgid "WOOD PRESERVATIVES, LIQUID (vapour pressure at 50 °C more than 110 kPa)"
 msgstr ""
 "CONSERVANTI DEL LEGNO, LIQUIDI (pressione di vapore a 50 °C superiore a 110 "
 "kPa)"
@@ -13645,8 +13700,7 @@ msgstr "NITRITO DI ZINCO E AMMONIO"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_1712
-msgid ""
-"ZINC ARSENATE, ZINC ARSENITE or ZINC ARSENATE AND ZINC ARSENITE MIXTURE"
+msgid "ZINC ARSENATE, ZINC ARSENITE or ZINC ARSENATE AND ZINC ARSENITE MIXTURE"
 msgstr ""
 "ARSENATO DI ZINCO, ARSENITO DI ZINCO o MISCELA DI ARSENATO DI ZINCO E "
 "ARSENITO DI ZINCO"
@@ -13779,8 +13833,8 @@ msgstr ""
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_1308_F1_3_640D_1L_P001/R001_2
 msgid ""
-"ZIRCONIUM SUSPENDED IN A FLAMMABLE LIQUID (vapour pressure at 50 °C not more"
-" than 110 kPa)"
+"ZIRCONIUM SUSPENDED IN A FLAMMABLE LIQUID (vapour pressure at 50 °C not more "
+"than 110 kPa)"
 msgstr ""
 "ZIRCONIO SOSPESO IN UN LIQUIDO INFIAMMABILE (pressione di vapore a 50 °C non "
 "superiore a 110 kPa)"
@@ -13841,6 +13895,7 @@ msgid "beta-NAPHTHYLAMINE, SOLID"
 msgstr "beta-NAFTILAMMINA, SOLIDA"
 
 #. module: l10n_eu_product_adr
+#. odoo-python
 #: code:addons/l10n_eu_product_adr/models/adr_goods.py:0
 #, python-format
 msgid "cat:%s"
@@ -13938,10 +13993,11 @@ msgid "p-NITROSODIMETHYL-ANILINE"
 msgstr "p-NITROSODIMETIL-ANILINA"
 
 #. module: l10n_eu_product_adr
+#. odoo-python
 #: code:addons/l10n_eu_product_adr/models/adr_goods.py:0
 #, python-format
-msgid "qty:%s %s"
-msgstr "q.tà: %s %s"
+msgid "qty:%(limited_quantity)s %(limited_quantity_uom_id)s"
+msgstr ""
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_3255
@@ -13957,3 +14013,24 @@ msgstr "isocianato di terz-butile"
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_2747
 msgid "tert-BUTYLCYCLOHEXYL CHLOROFORMATE"
 msgstr "tert-BUTILCICLOESIL CLOROFORMIATO"
+
+#, python-format
+#~ msgid ""
+#~ "Dangerous Goods Label %s cannot be deleted because it is in use on one or "
+#~ "more dangerous goods: %s"
+#~ msgstr ""
+#~ "Etichetta merci pericolose %s non può essere eliminata perché è in uso su "
+#~ "una o più merci pericolose: %s"
+
+#~ msgid "Label image"
+#~ msgstr "Immagine etichetta"
+
+#~ msgid "Last Modified on"
+#~ msgstr "Ultima modifica il"
+
+#~ msgid "Product Template"
+#~ msgstr "Modello prodotto"
+
+#, python-format
+#~ msgid "qty:%s %s"
+#~ msgstr "q.tà: %s %s"
