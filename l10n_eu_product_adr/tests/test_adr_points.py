@@ -41,3 +41,28 @@ class TestAdrPoints(TestStockCommon):
         # UoM qty 5000 / UoM factor 1000 * factor 3
         self.assertEqual(picking.move_ids[2].adr_points, 15)
         self.assertEqual(picking.adr_points, 424)
+
+    def test_adr_points_custom_factor(self):
+        """The points follow the factor stored on the product"""
+        self.kgB.adr_factor = 10
+        form = Form(self.env["stock.picking"], view="stock.view_picking_form")
+        form.picking_type_id = self.warehouse.out_type_id
+        with form.move_ids_without_package.new() as move:
+            move.product_id = self.kgB
+            move.product_uom_qty = 3
+        picking = form.save()
+        # UoM qty 3 * overridden factor 10
+        self.assertEqual(picking.move_ids.adr_points, 30)
+        self.assertEqual(picking.adr_points, 30)
+
+    def test_adr_points_recompute_on_factor_change(self):
+        """Existing moves follow a later change of the factor"""
+        form = Form(self.env["stock.picking"], view="stock.view_picking_form")
+        form.picking_type_id = self.warehouse.out_type_id
+        with form.move_ids_without_package.new() as move:
+            move.product_id = self.kgB
+            move.product_uom_qty = 3
+        picking = form.save()
+        self.assertEqual(picking.move_ids.adr_points, 9)
+        self.kgB.adr_factor = 10
+        self.assertEqual(picking.move_ids.adr_points, 30)

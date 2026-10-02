@@ -4,7 +4,7 @@
 {
     "name": "ADR Dangerous Goods",
     "summary": "Allows to set appropriate danger class and components",
-    "version": "17.0.1.0.0",
+    "version": "17.0.1.1.0",
     "category": "Inventory/Delivery",
     "website": "https://github.com/OCA/community-data-files",
     "author": "Opener B.V., Camptocamp, Odoo Community Association (OCA)",
@@ -12,6 +12,7 @@
     "application": False,
     "installable": True,
     "depends": ["stock"],
+    "pre_init_hook": "pre_init_hook",
     "development_status": "Beta",
     "data": [
         "data/uom.uom.csv",

@@ -2,3 +2,4 @@
 - Vyshnevska Iryna \<<i.vyshnevska@mobilunity.com>\>
 - Isaac Gallart \<<igallart@puntsistemes.es>\>
 - Chau Le \<<chaulb@trobz.com>\>
+- Edilio Escalona \<<e.escalona@binhex.cloud>\>
