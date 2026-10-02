@@ -17,55 +17,6 @@ msgstr ""
 "X-Generator: Weblate 4.17\n"
 
 #. module: l10n_eu_product_adr_dangerous_goods
-#: model:ir.model.fields.selection,name:l10n_eu_product_adr_dangerous_goods.selection__product_product__label_first__2
-#: model:ir.model.fields.selection,name:l10n_eu_product_adr_dangerous_goods.selection__product_product__label_second__2
-#: model:ir.model.fields.selection,name:l10n_eu_product_adr_dangerous_goods.selection__product_product__label_third__2
-msgid "2.1"
-msgstr "2.1"
-
-#. module: l10n_eu_product_adr_dangerous_goods
-#: model:ir.model.fields.selection,name:l10n_eu_product_adr_dangerous_goods.selection__product_product__label_first__3
-#: model:ir.model.fields.selection,name:l10n_eu_product_adr_dangerous_goods.selection__product_product__label_second__3
-#: model:ir.model.fields.selection,name:l10n_eu_product_adr_dangerous_goods.selection__product_product__label_third__3
-msgid "2.2"
-msgstr "2.2"
-
-#. module: l10n_eu_product_adr_dangerous_goods
-#: model:ir.model.fields.selection,name:l10n_eu_product_adr_dangerous_goods.selection__product_product__label_first__5
-#: model:ir.model.fields.selection,name:l10n_eu_product_adr_dangerous_goods.selection__product_product__label_second__5
-#: model:ir.model.fields.selection,name:l10n_eu_product_adr_dangerous_goods.selection__product_product__label_third__5
-msgid "4.1"
-msgstr "4.1"
-
-#. module: l10n_eu_product_adr_dangerous_goods
-#: model:ir.model.fields.selection,name:l10n_eu_product_adr_dangerous_goods.selection__product_product__label_first__6
-#: model:ir.model.fields.selection,name:l10n_eu_product_adr_dangerous_goods.selection__product_product__label_second__6
-#: model:ir.model.fields.selection,name:l10n_eu_product_adr_dangerous_goods.selection__product_product__label_third__6
-msgid "4.2"
-msgstr "4.2"
-
-#. module: l10n_eu_product_adr_dangerous_goods
-#: model:ir.model.fields.selection,name:l10n_eu_product_adr_dangerous_goods.selection__product_product__label_first__7
-#: model:ir.model.fields.selection,name:l10n_eu_product_adr_dangerous_goods.selection__product_product__label_second__7
-#: model:ir.model.fields.selection,name:l10n_eu_product_adr_dangerous_goods.selection__product_product__label_third__7
-msgid "4.3"
-msgstr "4.3"
-
-#. module: l10n_eu_product_adr_dangerous_goods
-#: model:ir.model.fields.selection,name:l10n_eu_product_adr_dangerous_goods.selection__product_product__label_first__8
-#: model:ir.model.fields.selection,name:l10n_eu_product_adr_dangerous_goods.selection__product_product__label_second__8
-#: model:ir.model.fields.selection,name:l10n_eu_product_adr_dangerous_goods.selection__product_product__label_third__8
-msgid "5.1"
-msgstr "5.1"
-
-#. module: l10n_eu_product_adr_dangerous_goods
-#: model:ir.model.fields.selection,name:l10n_eu_product_adr_dangerous_goods.selection__product_product__label_first__9
-#: model:ir.model.fields.selection,name:l10n_eu_product_adr_dangerous_goods.selection__product_product__label_second__9
-#: model:ir.model.fields.selection,name:l10n_eu_product_adr_dangerous_goods.selection__product_product__label_third__9
-msgid "5.2"
-msgstr "5.2"
-
-#. module: l10n_eu_product_adr_dangerous_goods
 #: model:ir.model.fields.selection,name:l10n_eu_product_adr_dangerous_goods.selection__product_product__label_first__12
 #: model:ir.model.fields.selection,name:l10n_eu_product_adr_dangerous_goods.selection__product_product__label_second__12
 #: model:ir.model.fields.selection,name:l10n_eu_product_adr_dangerous_goods.selection__product_product__label_third__12
@@ -141,6 +92,11 @@ msgstr "H-No"
 #: model:ir.model.fields,field_description:l10n_eu_product_adr_dangerous_goods.field_product_product__hazard_ind
 msgid "Hazard identification"
 msgstr "Identificación de riesgos"
+
+#. module: l10n_eu_product_adr_dangerous_goods
+#: model:ir.model.fields.selection,name:l10n_eu_product_adr_dangerous_goods.selection__product_product__packaging_group__2
+msgid "I"
+msgstr ""
 
 #. module: l10n_eu_product_adr_dangerous_goods
 #: model:ir.model.fields,field_description:l10n_eu_product_adr_dangerous_goods.field_dangerous_uom__id
@@ -323,6 +279,27 @@ msgstr "a 25°C"
 #: model:storage.temp,name:l10n_eu_product_adr_dangerous_goods.storage_temp_3
 msgid "to 30°C"
 msgstr "a 30°C"
+
+#~ msgid "2.1"
+#~ msgstr "2.1"
+
+#~ msgid "2.2"
+#~ msgstr "2.2"
+
+#~ msgid "4.1"
+#~ msgstr "4.1"
+
+#~ msgid "4.2"
+#~ msgstr "4.2"
+
+#~ msgid "4.3"
+#~ msgstr "4.3"
+
+#~ msgid "5.1"
+#~ msgstr "5.1"
+
+#~ msgid "5.2"
+#~ msgstr "5.2"
 
 #~ msgid "Last Modified on"
 #~ msgstr "Última modificación el"
