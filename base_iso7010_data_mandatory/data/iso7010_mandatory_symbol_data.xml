@@ -1,0 +1,844 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<odoo noupdate="1">
+    <record id="iso7010_symbol_m001" model="iso7010.symbol">
+        <field name="name">General mandatory action sign</field>
+        <field
+            name="description"
+        >Indicates that a mandatory action (unspecified) is required.</field>
+        <field name="iso_code">M001</field>
+        <field name="category">mandatory</field>
+        <field
+            name="image"
+            type="base64"
+            file="base_iso7010_data_mandatory/static/img/ISO_7010_M001.svg"
+        />
+    </record>
+
+    <record id="iso7010_symbol_m002" model="iso7010.symbol">
+        <field name="name">Refer to instruction manual/booklet</field>
+        <field
+            name="description"
+        >Indicates that the instruction manual or booklet must be read.</field>
+        <field name="iso_code">M002</field>
+        <field name="category">mandatory</field>
+        <field
+            name="image"
+            type="base64"
+            file="base_iso7010_data_mandatory/static/img/ISO_7010_M002.svg"
+        />
+    </record>
+
+    <record id="iso7010_symbol_m003" model="iso7010.symbol">
+        <field name="name">Wear hearing protection</field>
+        <field
+            name="description"
+        >Indicates that hearing protection must be worn.</field>
+        <field name="iso_code">M003</field>
+        <field name="category">mandatory</field>
+        <field
+            name="image"
+            type="base64"
+            file="base_iso7010_data_mandatory/static/img/ISO_7010_M003.svg"
+        />
+    </record>
+
+    <record id="iso7010_symbol_m004" model="iso7010.symbol">
+        <field name="name">Wear eye protection</field>
+        <field name="description">Indicates that eye protection must be worn.</field>
+        <field name="iso_code">M004</field>
+        <field name="category">mandatory</field>
+        <field
+            name="image"
+            type="base64"
+            file="base_iso7010_data_mandatory/static/img/ISO_7010_M004.svg"
+        />
+    </record>
+
+    <record id="iso7010_symbol_m005" model="iso7010.symbol">
+        <field name="name">Connect an earth terminal to the ground</field>
+        <field
+            name="description"
+        >Indicates that an earth terminal must be connected to the ground.</field>
+        <field name="iso_code">M005</field>
+        <field name="category">mandatory</field>
+        <field
+            name="image"
+            type="base64"
+            file="base_iso7010_data_mandatory/static/img/ISO_7010_M005.svg"
+        />
+    </record>
+
+    <record id="iso7010_symbol_m006" model="iso7010.symbol">
+        <field name="name">Disconnect mains plug from electrical outlet</field>
+        <field
+            name="description"
+        >Indicates that the mains plug must be disconnected from the electrical outlet.</field>
+        <field name="iso_code">M006</field>
+        <field name="category">mandatory</field>
+        <field
+            name="image"
+            type="base64"
+            file="base_iso7010_data_mandatory/static/img/ISO_7010_M006.svg"
+        />
+    </record>
+
+    <record id="iso7010_symbol_m007" model="iso7010.symbol">
+        <field name="name">Wear opaque eye protection</field>
+        <field
+            name="description"
+        >Indicates that opaque eye protection must be worn (e.g., for welding).</field>
+        <field name="iso_code">M007</field>
+        <field name="category">mandatory</field>
+        <field
+            name="image"
+            type="base64"
+            file="base_iso7010_data_mandatory/static/img/ISO_7010_M007.svg"
+        />
+    </record>
+
+    <record id="iso7010_symbol_m008" model="iso7010.symbol">
+        <field name="name">Wear safety footwear</field>
+        <field name="description">Indicates that safety footwear must be worn.</field>
+        <field name="iso_code">M008</field>
+        <field name="category">mandatory</field>
+        <field
+            name="image"
+            type="base64"
+            file="base_iso7010_data_mandatory/static/img/ISO_7010_M008.svg"
+        />
+    </record>
+
+    <record id="iso7010_symbol_m009" model="iso7010.symbol">
+        <field name="name">Wear protective gloves</field>
+        <field name="description">Indicates that protective gloves must be worn.</field>
+        <field name="iso_code">M009</field>
+        <field name="category">mandatory</field>
+        <field
+            name="image"
+            type="base64"
+            file="base_iso7010_data_mandatory/static/img/ISO_7010_M009.svg"
+        />
+    </record>
+
+    <record id="iso7010_symbol_m010" model="iso7010.symbol">
+        <field name="name">Wear protective clothing</field>
+        <field
+            name="description"
+        >Indicates that protective clothing must be worn.</field>
+        <field name="iso_code">M010</field>
+        <field name="category">mandatory</field>
+        <field
+            name="image"
+            type="base64"
+            file="base_iso7010_data_mandatory/static/img/ISO_7010_M010.svg"
+        />
+    </record>
+
+    <record id="iso7010_symbol_m011" model="iso7010.symbol">
+        <field name="name">Wash your hands</field>
+        <field name="description">Indicates that hands must be washed.</field>
+        <field name="iso_code">M011</field>
+        <field name="category">mandatory</field>
+        <field
+            name="image"
+            type="base64"
+            file="base_iso7010_data_mandatory/static/img/ISO_7010_M011.svg"
+        />
+    </record>
+
+    <record id="iso7010_symbol_m012" model="iso7010.symbol">
+        <field name="name">Use handrail</field>
+        <field name="description">Indicates that the handrail must be used.</field>
+        <field name="iso_code">M012</field>
+        <field name="category">mandatory</field>
+        <field
+            name="image"
+            type="base64"
+            file="base_iso7010_data_mandatory/static/img/ISO_7010_M012.svg"
+        />
+    </record>
+
+    <record id="iso7010_symbol_m013" model="iso7010.symbol">
+        <field name="name">Wear face shield</field>
+        <field name="description">Indicates that a face shield must be worn.</field>
+        <field name="iso_code">M013</field>
+        <field name="category">mandatory</field>
+        <field
+            name="image"
+            type="base64"
+            file="base_iso7010_data_mandatory/static/img/ISO_7010_M013.svg"
+        />
+    </record>
+
+    <record id="iso7010_symbol_m014" model="iso7010.symbol">
+        <field name="name">Wear safety helmet</field>
+        <field name="description">Indicates that a safety helmet must be worn.</field>
+        <field name="iso_code">M014</field>
+        <field name="category">mandatory</field>
+        <field
+            name="image"
+            type="base64"
+            file="base_iso7010_data_mandatory/static/img/ISO_7010_M014.svg"
+        />
+    </record>
+
+    <record id="iso7010_symbol_m015" model="iso7010.symbol">
+        <field name="name">Wear high-visibility clothing</field>
+        <field
+            name="description"
+        >Indicates that high-visibility clothing must be worn.</field>
+        <field name="iso_code">M015</field>
+        <field name="category">mandatory</field>
+        <field
+            name="image"
+            type="base64"
+            file="base_iso7010_data_mandatory/static/img/ISO_7010_M015.svg"
+        />
+    </record>
+
+    <record id="iso7010_symbol_m016" model="iso7010.symbol">
+        <field name="name">Wear mask</field>
+        <field
+            name="description"
+        >Indicates that a mask (covering mouth and nose) must be worn.</field>
+        <field name="iso_code">M016</field>
+        <field name="category">mandatory</field>
+        <field
+            name="image"
+            type="base64"
+            file="base_iso7010_data_mandatory/static/img/ISO_7010_M016.svg"
+        />
+    </record>
+
+    <record id="iso7010_symbol_m017" model="iso7010.symbol">
+        <field name="name">Wear respiratory protection</field>
+        <field
+            name="description"
+        >Indicates that respiratory protection must be worn.</field>
+        <field name="iso_code">M017</field>
+        <field name="category">mandatory</field>
+        <field
+            name="image"
+            type="base64"
+            file="base_iso7010_data_mandatory/static/img/ISO_7010_M017.svg"
+        />
+    </record>
+
+    <record id="iso7010_symbol_m018" model="iso7010.symbol">
+        <field name="name">Wear safety harness</field>
+        <field name="description">Indicates that a safety harness must be worn.</field>
+        <field name="iso_code">M018</field>
+        <field name="category">mandatory</field>
+        <field
+            name="image"
+            type="base64"
+            file="base_iso7010_data_mandatory/static/img/ISO_7010_M018.svg"
+        />
+    </record>
+
+    <record id="iso7010_symbol_m019" model="iso7010.symbol">
+        <field name="name">Wear a welding mask</field>
+        <field name="description">Indicates that a welding mask must be worn.</field>
+        <field name="iso_code">M019</field>
+        <field name="category">mandatory</field>
+        <field
+            name="image"
+            type="base64"
+            file="base_iso7010_data_mandatory/static/img/ISO_7010_M019.svg"
+        />
+    </record>
+
+    <record id="iso7010_symbol_m020" model="iso7010.symbol">
+        <field name="name">Fasten seat belt</field>
+        <field name="description">Indicates that the seat belt must be fastened.</field>
+        <field name="iso_code">M020</field>
+        <field name="category">mandatory</field>
+        <field
+            name="image"
+            type="base64"
+            file="base_iso7010_data_mandatory/static/img/ISO_7010_M020.svg"
+        />
+    </record>
+
+    <record id="iso7010_symbol_m021" model="iso7010.symbol">
+        <field name="name">Disconnect before carrying out maintenance or repair</field>
+        <field
+            name="description"
+        >Indicates that the equipment must be disconnected from the energy source before carrying out maintenance or repair.</field>
+        <field name="iso_code">M021</field>
+        <field name="category">mandatory</field>
+        <field
+            name="image"
+            type="base64"
+            file="base_iso7010_data_mandatory/static/img/ISO_7010_M021.svg"
+        />
+    </record>
+
+    <record id="iso7010_symbol_m022" model="iso7010.symbol">
+        <field name="name">Use protective cream</field>
+        <field name="description">Indicates that protective cream must be used.</field>
+        <field name="iso_code">M022</field>
+        <field name="category">mandatory</field>
+        <field
+            name="image"
+            type="base64"
+            file="base_iso7010_data_mandatory/static/img/ISO_7010_M022.svg"
+        />
+    </record>
+
+    <record id="iso7010_symbol_m023" model="iso7010.symbol">
+        <field name="name">Use footbridge</field>
+        <field name="description">Indicates that the footbridge must be used.</field>
+        <field name="iso_code">M023</field>
+        <field name="category">mandatory</field>
+        <field
+            name="image"
+            type="base64"
+            file="base_iso7010_data_mandatory/static/img/ISO_7010_M023.svg"
+        />
+    </record>
+
+    <record id="iso7010_symbol_m024" model="iso7010.symbol">
+        <field name="name">Use this walkway</field>
+        <field name="description">Indicates that this walkway must be used.</field>
+        <field name="iso_code">M024</field>
+        <field name="category">mandatory</field>
+        <field
+            name="image"
+            type="base64"
+            file="base_iso7010_data_mandatory/static/img/ISO_7010_M024.svg"
+        />
+    </record>
+
+    <record id="iso7010_symbol_m025" model="iso7010.symbol">
+        <field name="name">Protect infants' eyes with opaque eye protection</field>
+        <field
+            name="description"
+        >Indicates that infants' eyes must be protected with opaque eye protection.</field>
+        <field name="iso_code">M025</field>
+        <field name="category">mandatory</field>
+        <field
+            name="image"
+            type="base64"
+            file="base_iso7010_data_mandatory/static/img/ISO_7010_M025.svg"
+        />
+    </record>
+
+    <record id="iso7010_symbol_m026" model="iso7010.symbol">
+        <field name="name">Use protective apron</field>
+        <field
+            name="description"
+        >Indicates that a protective apron must be worn.</field>
+        <field name="iso_code">M026</field>
+        <field name="category">mandatory</field>
+        <field
+            name="image"
+            type="base64"
+            file="base_iso7010_data_mandatory/static/img/ISO_7010_M026.svg"
+        />
+    </record>
+
+    <record id="iso7010_symbol_m028" model="iso7010.symbol">
+        <field name="name">install locks and keep locked</field>
+        <field
+            name="description"
+        >Indicates that locks must be installed and kept locked.</field>
+        <field name="iso_code">M028</field>
+        <field name="category">mandatory</field>
+        <field
+            name="image"
+            type="base64"
+            file="base_iso7010_data_mandatory/static/img/ISO_7010_M028.svg"
+        />
+    </record>
+
+    <record id="iso7010_symbol_m029" model="iso7010.symbol">
+        <field name="name">sound your horn</field>
+        <field name="description">Indicates that the horn must be sounded.</field>
+        <field name="iso_code">M029</field>
+        <field name="category">mandatory</field>
+        <field
+            name="image"
+            type="base64"
+            file="base_iso7010_data_mandatory/static/img/ISO_7010_M029.svg"
+        />
+    </record>
+
+    <record id="iso7010_symbol_m030" model="iso7010.symbol">
+        <field name="name">place trash in the bin</field>
+        <field
+            name="description"
+        >Indicates that trash must be placed in the bin.</field>
+        <field name="iso_code">M030</field>
+        <field name="category">mandatory</field>
+        <field
+            name="image"
+            type="base64"
+            file="base_iso7010_data_mandatory/static/img/ISO_7010_M030.svg"
+        />
+    </record>
+
+    <record id="iso7010_symbol_m031" model="iso7010.symbol">
+        <field name="name">use guard to protect from injury from the table saw</field>
+        <field
+            name="description"
+        >Indicates that the guard must be used to protect from injury from the table saw.</field>
+        <field name="iso_code">M031</field>
+        <field name="category">mandatory</field>
+        <field
+            name="image"
+            type="base64"
+            file="base_iso7010_data_mandatory/static/img/ISO_7010_M031.svg"
+        />
+    </record>
+
+    <record id="iso7010_symbol_m032" model="iso7010.symbol">
+        <field name="name">use footwear with anti-static or anti-spark features</field>
+        <field
+            name="description"
+        >Indicates that footwear with anti-static or anti-spark features must be used.</field>
+        <field name="iso_code">M032</field>
+        <field name="category">mandatory</field>
+        <field
+            name="image"
+            type="base64"
+            file="base_iso7010_data_mandatory/static/img/ISO_7010_M032.svg"
+        />
+    </record>
+
+    <record id="iso7010_symbol_m033" model="iso7010.symbol">
+        <field name="name">lower safety restraining bar on ski chairlift</field>
+        <field
+            name="description"
+        >Indicates that the safety restraining bar on the ski chairlift must be lowered.</field>
+        <field name="iso_code">M033</field>
+        <field name="category">mandatory</field>
+        <field
+            name="image"
+            type="base64"
+            file="base_iso7010_data_mandatory/static/img/ISO_7010_M033.svg"
+        />
+    </record>
+
+    <record id="iso7010_symbol_m034" model="iso7010.symbol">
+        <field name="name">raise safety restraining bar on ski chairlift</field>
+        <field
+            name="description"
+        >Indicates that the safety restraining bar on the ski chairlift must be raised.</field>
+        <field name="iso_code">M034</field>
+        <field name="category">mandatory</field>
+        <field
+            name="image"
+            type="base64"
+            file="base_iso7010_data_mandatory/static/img/ISO_7010_M034.svg"
+        />
+    </record>
+
+    <record id="iso7010_symbol_m035" model="iso7010.symbol">
+        <field name="name">exit towpath after falling</field>
+        <field
+            name="description"
+        >Indicates that the towpath must be exited after falling.</field>
+        <field name="iso_code">M035</field>
+        <field name="category">mandatory</field>
+        <field
+            name="image"
+            type="base64"
+            file="base_iso7010_data_mandatory/static/img/ISO_7010_M035.svg"
+        />
+    </record>
+
+    <record id="iso7010_symbol_m036" model="iso7010.symbol">
+        <field name="name">keep ski tips up</field>
+        <field name="description">Indicates that ski tips must be kept up.</field>
+        <field name="iso_code">M036</field>
+        <field name="category">mandatory</field>
+        <field
+            name="image"
+            type="base64"
+            file="base_iso7010_data_mandatory/static/img/ISO_7010_M036.svg"
+        />
+    </record>
+
+    <record id="iso7010_symbol_m037" model="iso7010.symbol">
+        <field name="name">close and secure the hatch (lifeboat launch sequence)</field>
+        <field
+            name="description"
+        >Indicates that the hatch must be closed and secured (lifeboat launch sequence).</field>
+        <field name="iso_code">M037</field>
+        <field name="category">mandatory</field>
+        <field
+            name="image"
+            type="base64"
+            file="base_iso7010_data_mandatory/static/img/ISO_7010_M037.svg"
+        />
+    </record>
+
+    <record id="iso7010_symbol_m038" model="iso7010.symbol">
+        <field name="name">start the motor (lifeboat launch sequence)</field>
+        <field
+            name="description"
+        >Indicates that the motor must be started (lifeboat launch sequence).</field>
+        <field name="iso_code">M038</field>
+        <field name="category">mandatory</field>
+        <field
+            name="image"
+            type="base64"
+            file="base_iso7010_data_mandatory/static/img/ISO_7010_M038.svg"
+        />
+    </record>
+
+    <record id="iso7010_symbol_m039" model="iso7010.symbol">
+        <field
+            name="name"
+        >lower the lifeboat to the water (lifeboat launch sequence)</field>
+        <field
+            name="description"
+        >Indicates that the lifeboat must be lowered to the water (lifeboat launch sequence).</field>
+        <field name="iso_code">M039</field>
+        <field name="category">mandatory</field>
+        <field
+            name="image"
+            type="base64"
+            file="base_iso7010_data_mandatory/static/img/ISO_7010_M039.svg"
+        />
+    </record>
+
+    <record id="iso7010_symbol_m040" model="iso7010.symbol">
+        <field
+            name="name"
+        >lower the lifeboat to the water (lifeboat launch sequence)</field>
+        <field
+            name="description"
+        >Indicates that the lifeboat must be lowered to the water (lifeboat launch sequence).</field>
+        <field name="iso_code">M040</field>
+        <field name="category">mandatory</field>
+        <field
+            name="image"
+            type="base64"
+            file="base_iso7010_data_mandatory/static/img/ISO_7010_M040.svg"
+        />
+    </record>
+
+    <record id="iso7010_symbol_m041" model="iso7010.symbol">
+        <field
+            name="name"
+        >lower the rescue boat to the water (lifeboat launch sequence)</field>
+        <field
+            name="description"
+        >Indicates that the rescue boat must be lowered to the water (lifeboat launch sequence).</field>
+        <field name="iso_code">M041</field>
+        <field name="category">mandatory</field>
+        <field
+            name="image"
+            type="base64"
+            file="base_iso7010_data_mandatory/static/img/ISO_7010_M041.svg"
+        />
+    </record>
+
+    <record id="iso7010_symbol_m042" model="iso7010.symbol">
+        <field
+            name="name"
+        >release the hooks holding the lifeboat (lifeboat launch sequence)</field>
+        <field
+            name="description"
+        >Indicates that the hooks holding the lifeboat must be released (lifeboat launch sequence).</field>
+        <field name="iso_code">M042</field>
+        <field name="category">mandatory</field>
+        <field
+            name="image"
+            type="base64"
+            file="base_iso7010_data_mandatory/static/img/ISO_7010_M042.svg"
+        />
+    </record>
+
+    <record id="iso7010_symbol_m043" model="iso7010.symbol">
+        <field
+            name="name"
+        >start the water spray for the lifeboat (lifeboat launch sequence)</field>
+        <field
+            name="description"
+        >Indicates that the water spray for the lifeboat must be started (lifeboat launch sequence).</field>
+        <field name="iso_code">M043</field>
+        <field name="category">mandatory</field>
+        <field
+            name="image"
+            type="base64"
+            file="base_iso7010_data_mandatory/static/img/ISO_7010_M043.svg"
+        />
+    </record>
+
+    <record id="iso7010_symbol_m044" model="iso7010.symbol">
+        <field
+            name="name"
+        >start the air supply for the lifeboat (lifeboat launch sequence)</field>
+        <field
+            name="description"
+        >Indicates that the air supply for the lifeboat must be started (lifeboat launch sequence).</field>
+        <field name="iso_code">M044</field>
+        <field name="category">mandatory</field>
+        <field
+            name="image"
+            type="base64"
+            file="base_iso7010_data_mandatory/static/img/ISO_7010_M044.svg"
+        />
+    </record>
+
+    <record id="iso7010_symbol_m045" model="iso7010.symbol">
+        <field name="name">release the ropes (gripes) (lifeboat launch sequence)</field>
+        <field
+            name="description"
+        >Indicates that the ropes (gripes) must be released (lifeboat launch sequence).</field>
+        <field name="iso_code">M045</field>
+        <field name="category">mandatory</field>
+        <field
+            name="image"
+            type="base64"
+            file="base_iso7010_data_mandatory/static/img/ISO_7010_M045.svg"
+        />
+    </record>
+
+    <record id="iso7010_symbol_m046" model="iso7010.symbol">
+        <field name="name">secure gas cylinders</field>
+        <field name="description">Indicates that gas cylinders must be secured.</field>
+        <field name="iso_code">M046</field>
+        <field name="category">mandatory</field>
+        <field
+            name="image"
+            type="base64"
+            file="base_iso7010_data_mandatory/static/img/ISO_7010_M046.svg"
+        />
+    </record>
+
+    <record id="iso7010_symbol_m047" model="iso7010.symbol">
+        <field name="name">use breathing equipment (SCBA)</field>
+        <field
+            name="description"
+        >Indicates that breathing equipment (SCBA) must be used.</field>
+        <field name="iso_code">M047</field>
+        <field name="category">mandatory</field>
+        <field
+            name="image"
+            type="base64"
+            file="base_iso7010_data_mandatory/static/img/ISO_7010_M047.svg"
+        />
+    </record>
+
+    <record id="iso7010_symbol_m048" model="iso7010.symbol">
+        <field name="name">use gas detector</field>
+        <field name="description">Indicates that a gas detector must be used.</field>
+        <field name="iso_code">M048</field>
+        <field name="category">mandatory</field>
+        <field
+            name="image"
+            type="base64"
+            file="base_iso7010_data_mandatory/static/img/ISO_7010_M048.svg"
+        />
+    </record>
+
+    <record id="iso7010_symbol_m050" model="iso7010.symbol">
+        <field name="name">exit sled-toboggan to the left</field>
+        <field
+            name="description"
+        >Indicates that the sled-toboggan must be exited to the left.</field>
+        <field name="iso_code">M050</field>
+        <field name="category">mandatory</field>
+        <field
+            name="image"
+            type="base64"
+            file="base_iso7010_data_mandatory/static/img/ISO_7010_M050.svg"
+        />
+    </record>
+
+    <record id="iso7010_symbol_m051" model="iso7010.symbol">
+        <field name="name">exit sled-toboggan to the right</field>
+        <field
+            name="description"
+        >Indicates that the sled-toboggan must be exited to the right.</field>
+        <field name="iso_code">M051</field>
+        <field name="category">mandatory</field>
+        <field
+            name="image"
+            type="base64"
+            file="base_iso7010_data_mandatory/static/img/ISO_7010_M051.svg"
+        />
+    </record>
+
+    <record id="iso7010_symbol_m052" model="iso7010.symbol">
+        <field name="name">keep a safe distance between sleds (toboggans)</field>
+        <field
+            name="description"
+        >Indicates that a safe distance must be kept between sleds (toboggans).</field>
+        <field name="iso_code">M052</field>
+        <field name="category">mandatory</field>
+        <field
+            name="image"
+            type="base64"
+            file="base_iso7010_data_mandatory/static/img/ISO_7010_M052.svg"
+        />
+    </record>
+
+    <record id="iso7010_symbol_m053" model="iso7010.symbol">
+        <field name="name">wear personal floatation device (PFD) (lifejacket)</field>
+        <field
+            name="description"
+        >Indicates that a personal floatation device (PFD) (lifejacket) must be worn.</field>
+        <field name="iso_code">M053</field>
+        <field name="category">mandatory</field>
+        <field
+            name="image"
+            type="base64"
+            file="base_iso7010_data_mandatory/static/img/ISO_7010_M053.svg"
+        />
+    </record>
+
+    <record id="iso7010_symbol_m054" model="iso7010.symbol">
+        <field name="name">supervise children during aquatic activities</field>
+        <field
+            name="description"
+        >Indicates that children must be supervised during aquatic activities.</field>
+        <field name="iso_code">M054</field>
+        <field name="category">mandatory</field>
+        <field
+            name="image"
+            type="base64"
+            file="base_iso7010_data_mandatory/static/img/ISO_7010_M054.svg"
+        />
+    </record>
+
+    <record id="iso7010_symbol_m055" model="iso7010.symbol">
+        <field name="name">Keep out of the reach of children</field>
+        <field
+            name="description"
+        >Indicates that item must be kept out of the reach of children.</field>
+        <field name="iso_code">M055</field>
+        <field name="category">mandatory</field>
+        <field
+            name="image"
+            type="base64"
+            file="base_iso7010_data_mandatory/static/img/ISO_7010_M055.svg"
+        />
+    </record>
+
+    <record id="iso7010_symbol_m056" model="iso7010.symbol">
+        <field name="name">Ventilate before and during entering</field>
+        <field
+            name="description"
+        >Indicates that ventilation must occur before and during entering.</field>
+        <field name="iso_code">M056</field>
+        <field name="category">mandatory</field>
+        <field
+            name="image"
+            type="base64"
+            file="base_iso7010_data_mandatory/static/img/ISO_7010_M056.svg"
+        />
+    </record>
+
+    <record id="iso7010_symbol_m057" model="iso7010.symbol">
+        <field name="name">Ensure continuous ventilation</field>
+        <field
+            name="description"
+        >Indicates that continuous ventilation must be ensured.</field>
+        <field name="iso_code">M057</field>
+        <field name="category">mandatory</field>
+        <field
+            name="image"
+            type="base64"
+            file="base_iso7010_data_mandatory/static/img/ISO_7010_M057.svg"
+        />
+    </record>
+
+    <record id="iso7010_symbol_m058" model="iso7010.symbol">
+        <field name="name">Entry only with supervisor outside</field>
+        <field
+            name="description"
+        >Indicates that entry is permitted only with a supervisor outside.</field>
+        <field name="iso_code">M058</field>
+        <field name="category">mandatory</field>
+        <field
+            name="image"
+            type="base64"
+            file="base_iso7010_data_mandatory/static/img/ISO_7010_M058.svg"
+        />
+    </record>
+
+    <record id="iso7010_symbol_m059" model="iso7010.symbol">
+        <field name="name">Wear laboratory coat</field>
+        <field name="description">Indicates that a laboratory coat must be worn.</field>
+        <field name="iso_code">M059</field>
+        <field name="category">mandatory</field>
+        <field
+            name="image"
+            type="base64"
+            file="base_iso7010_data_mandatory/static/img/ISO_7010_M059.svg"
+        />
+    </record>
+
+    <record id="iso7010_symbol_m060" model="iso7010.symbol">
+        <field name="name">Hold the trolley handle</field>
+        <field
+            name="description"
+        >Indicates that the trolley handle must be held.</field>
+        <field name="iso_code">M060</field>
+        <field name="category">mandatory</field>
+        <field
+            name="image"
+            type="base64"
+            file="base_iso7010_data_mandatory/static/img/ISO_7010_M060.svg"
+        />
+    </record>
+
+    <record id="iso7010_symbol_m061" model="iso7010.symbol">
+        <field name="name">Disinfect your hands</field>
+        <field name="description">Indicates that hands must be disinfected.</field>
+        <field name="iso_code">M061</field>
+        <field name="category">mandatory</field>
+        <field
+            name="image"
+            type="base64"
+            file="base_iso7010_data_mandatory/static/img/ISO_7010_M061.svg"
+        />
+    </record>
+
+    <record id="iso7010_symbol_m062" model="iso7010.symbol">
+        <field name="name">Disinfect surface</field>
+        <field
+            name="description"
+        >Indicates that the surface must be disinfected.</field>
+        <field name="iso_code">M062</field>
+        <field name="category">mandatory</field>
+        <field
+            name="image"
+            type="base64"
+            file="base_iso7010_data_mandatory/static/img/ISO_7010_M062.svg"
+        />
+    </record>
+
+    <record id="iso7010_symbol_m070" model="iso7010.symbol">
+        <field name="name">Use lamp in luminaire with shield</field>
+        <field
+            name="description"
+        >Indicates that a lamp in a luminaire with shield must be used.</field>
+        <field name="iso_code">M070</field>
+        <field name="category">mandatory</field>
+        <field
+            name="image"
+            type="base64"
+            file="base_iso7010_data_mandatory/static/img/ISO_7010_M070.svg"
+        />
+    </record>
+
+    <record id="iso7010_symbol_m071" model="iso7010.symbol">
+        <field name="name">Use anti-tip restraints</field>
+        <field
+            name="description"
+        >Indicates that anti-tip restraints must be used.</field>
+        <field name="iso_code">M071</field>
+        <field name="category">mandatory</field>
+        <field
+            name="image"
+            type="base64"
+            file="base_iso7010_data_mandatory/static/img/ISO_7010_M071.svg"
+        />
+    </record>
+</odoo>
