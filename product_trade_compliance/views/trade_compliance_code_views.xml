@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<odoo>
+    <record id="view_trade_compliance_code_tree" model="ir.ui.view">
+        <field name="name">trade.compliance.code.tree</field>
+        <field name="model">trade.compliance.code</field>
+        <field name="arch" type="xml">
+            <list>
+                <field name="name" />
+                <field name="regime_id" />
+                <field name="description" />
+            </list>
+        </field>
+    </record>
+    <record id="view_trade_compliance_code_form" model="ir.ui.view">
+        <field name="name">trade.compliance.code.form</field>
+        <field name="model">trade.compliance.code</field>
+        <field name="arch" type="xml">
+            <form>
+                <sheet>
+                    <div class="oe_button_box" name="button_box" />
+                    <widget
+                        name="web_ribbon"
+                        title="Archived"
+                        bg_color="text-bg-danger"
+                        invisible="active"
+                    />
+                    <group>
+                        <group>
+                            <field name="active" invisible="1" />
+                            <field name="name" />
+                            <field name="regime_id" />
+                        </group>
+                        <group>
+                            <field name="description" />
+                        </group>
+                    </group>
+                </sheet>
+            </form>
+        </field>
+    </record>
+    <record id="view_trade_compliance_code_search" model="ir.ui.view">
+        <field name="name">trade.compliance.code.search</field>
+        <field name="model">trade.compliance.code</field>
+        <field name="arch" type="xml">
+            <search>
+                <field name="name" />
+                <field name="regime_id" />
+                <field name="description" />
+                <filter
+                    string="US-EAR"
+                    name="filter_us_ear"
+                    domain="[('regime_id.name', '=', 'US-EAR')]"
+                />
+                <filter
+                    string="EU-DUAL"
+                    name="filter_eu_dual"
+                    domain="[('regime_id.name', '=', 'EU-DUAL')]"
+                />
+                <separator />
+                <filter
+                    string="Archived"
+                    name="inactive"
+                    domain="[('active', '=', False)]"
+                />
+                <group expand="0" string="Group By">
+                    <filter
+                        string="Regime"
+                        name="group_by_regime"
+                        context="{'group_by': 'regime_id'}"
+                    />
+                </group>
+            </search>
+        </field>
+    </record>
+    <record id="action_trade_compliance_code" model="ir.actions.act_window">
+        <field name="name">Trade Compliance Codes</field>
+        <field name="res_model">trade.compliance.code</field>
+        <field name="view_mode">list,form</field>
+        <field name="context">{'search_default_group_by_regime': 1}</field>
+    </record>
+</odoo>
