@@ -106,7 +106,6 @@ class TestBaseIso3166(common.TransactionCase):
             if "alpha_2" in kwargs:
                 raise KeyError("alpha_2 fail")
             # Fallback alpha2 called, returns None (not found)
-            return None
 
         # We patch both because the loop continues to historic_countries if
         # first one fails/returns None. We want to ensure the final result is
