@@ -4,10 +4,12 @@
 from types import SimpleNamespace
 from unittest.mock import patch
 
-from odoo.tests import common
+from odoo.addons.base.tests.common import BaseCommon
 
 
-class TestBaseIso3166(common.TransactionCase):
+class TestBaseIso3166(BaseCommon):
+    _test_user_groups = None
+
     def test_iso_3166(self):
         country = self.env.ref("base.ad")
         self.assertEqual(country.code_alpha3, "AND")
