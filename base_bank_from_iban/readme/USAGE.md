@@ -1,9 +1,7 @@
-To use this module, you need to:
+1. Open a contact and its bank accounts.
+2. Create or edit an account and enter an IBAN.
+3. The bank name, BIC/SWIFT and country are filled automatically.
 
-1.  Go to Partner
-2.  Click *Bank Account(s)* in "Invoicing" page.
-3.  Create/modify IBAN bank account.
-4.  When you put the bank account number, module extracts bank digits
-    from the format of the country, and try to match an existing bank by
-    country and code.
-5.  If there's a match, the bank is selected automatically.
+This also applies when creating or updating accounts through imports or
+the API, and when using the manual bank setup wizard. If a valid IBAN
+has no bank in the registry, only its country can be identified.
