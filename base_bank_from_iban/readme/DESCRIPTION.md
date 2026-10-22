@@ -1,6 +1,6 @@
-This module adds a code to bank definition for using it as matching for
-filling the bank from the IBAN bank account number. It uses the existing
-by country bank mapping in standard Odoo
-(<https://github.com/odoo/odoo/blob/f5ffcf7feec5526a483f8ddd240648c084351008/addons/base_iban/models/res_partner_bank.py#L105-L175>),
-taken from ISO 3166-1 -\> IBAN template, as described here:
-<http://en.wikipedia.org/wiki/International_Bank_Account_Number#IBAN_formats_by_country>
+Automatically fills the bank name, BIC/SWIFT and country on bank accounts
+from their IBAN using the bank registry provided by schwifty.
+
+In Odoo 20, these details are stored directly on the bank account;
+there is no separate bank record. Explicit values supplied when creating
+or updating an account are preserved.
