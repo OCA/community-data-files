@@ -23,7 +23,7 @@ addon | version | maintainers | summary
 --- | --- | --- | ---
 [account_payment_unece](account_payment_unece/) | 19.0.1.0.0 | <a href='https://github.com/alexis-via'><img src='https://github.com/alexis-via.png' width='32' height='32' style='border-radius:50%;' alt='alexis-via'/></a> | UNECE nomenclature for the payment methods
 [account_tax_unece](account_tax_unece/) | 19.0.2.0.0 | <a href='https://github.com/alexis-via'><img src='https://github.com/alexis-via.png' width='32' height='32' style='border-radius:50%;' alt='alexis-via'/></a> | UNECE nomenclature for taxes
-[base_bank_from_iban](base_bank_from_iban/) | 19.0.1.0.1 |  | Bank from IBAN
+[base_bank_from_iban](base_bank_from_iban/) | 19.0.1.0.2 |  | Bank from IBAN
 [base_iso3166](base_iso3166/) | 19.0.1.0.0 |  | ISO 3166
 [base_unece](base_unece/) | 19.0.1.0.0 | <a href='https://github.com/astirpe'><img src='https://github.com/astirpe.png' width='32' height='32' style='border-radius:50%;' alt='astirpe'/></a> <a href='https://github.com/alexis-via'><img src='https://github.com/alexis-via.png' width='32' height='32' style='border-radius:50%;' alt='alexis-via'/></a> | Base module for UNECE code lists
 [l10n_eu_product_adr](l10n_eu_product_adr/) | 19.0.1.0.0 |  | Allows to set appropriate danger class and components
