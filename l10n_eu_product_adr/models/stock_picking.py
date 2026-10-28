@@ -10,7 +10,7 @@ class StockPicking(models.Model):
     adr_points = fields.Float(
         compute="_compute_adr_points",
         string="ADR Points",
-        digits="Product Unit of Measure",
+        digits="Product Unit",
     )
 
     @api.depends("move_ids.product_id", "move_ids.product_uom_qty")
