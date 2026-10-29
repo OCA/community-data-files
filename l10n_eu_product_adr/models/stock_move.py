@@ -13,7 +13,7 @@ class StockMove(models.Model):
     adr_points = fields.Float(
         compute="_compute_adr_points",
         string="ADR Points",
-        digits="Product Unit of Measure",
+        digits="Product Unit",
         compute_sudo=True,
     )
 
@@ -24,9 +24,7 @@ class StockMove(models.Model):
         Set the ADR points for the weight or quantity of the given moves,
         multiplied by the factor derived from their UN number or transport category.
         """
-        precision = self.env["decimal.precision"].precision_get(
-            "Product Unit of Measure"
-        )
+        precision = self.env["decimal.precision"].precision_get("Product Unit")
         for sm in self:
             if not sm.product_id.adr_goods_id:
                 sm.adr_points = 0

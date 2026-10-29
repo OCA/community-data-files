@@ -50,7 +50,7 @@ class AdrGoods(models.Model):
             "vehicles.)"
         ),
     )
-    limited_quantity = fields.Float(digits="Product Unit of Measure")
+    limited_quantity = fields.Float(digits="Product Unit")
     limited_quantity_uom_id = fields.Many2one("uom.uom", string="Limited Quantity UoM")
     packing_instruction_ids = fields.Many2many(
         comodel_name="adr.packing.instruction",
