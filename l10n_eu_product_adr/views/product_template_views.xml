@@ -26,14 +26,15 @@
                         >Dangerous goods settings differ per variant of this product. Please configure the dangerous goods settings on each variant.</div>
                     </group>
                     <group name="adr" invisible="adr_goods_on_variants">
-                        <group colspan="4" col="4" string="Name and description">
+                        <group string="Name and description" colspan="2">
                             <field name="adr_goods_on_variants" invisible="1" />
                             <field
                                 name="adr_goods_id"
                                 required="is_storable and is_dangerous"
                                 options="{'no_create': True}"
-                                colspan="4"
+                                colspan="2"
                                 nolabel="1"
+                                class="text-break text-wrap w-100"
                             />
                         </group>
                         <group string="Classification">
@@ -53,8 +54,13 @@
                             <field name="adr_transport_category" />
                             <field name="adr_tunnel_restriction_code" />
                         </group>
-                        <group colspan="4" col="2" string="Labels">
-                            <field name="adr_label_ids" nolabel="1" mode="kanban" />
+                        <group string="Labels" colspan="2" col="2">
+                            <field
+                                name="adr_label_ids"
+                                nolabel="1"
+                                colspan="2"
+                                mode="kanban"
+                            />
                         </group>
                     </group>
                 </page>

@@ -13,8 +13,14 @@
                     />
                     <field name="active" invisible="1" />
                     <group>
-                        <group colspan="4" col="4" string="Name and description">
-                            <field name="name" colspan="4" widget="text" nolabel="1" />
+                        <group string="Name and description" colspan="2">
+                            <field
+                                name="name"
+                                widget="text"
+                                nolabel="1"
+                                colspan="2"
+                                class="text-break text-wrap w-100"
+                            />
                         </group>
                         <group string="Classification">
                             <field name="un_number" />
@@ -45,10 +51,11 @@
                                 options="{'no_create': True}"
                             />
                         </group>
-                        <group colspan="4" col="2" string="Labels">
+                        <group string="Labels" colspan="2" col="2">
                             <field
                                 name="label_ids"
                                 nolabel="1"
+                                colspan="2"
                                 options="{'no_create': True}"
                                 mode="kanban"
                             />
