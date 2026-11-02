@@ -7,69 +7,70 @@ msgstr ""
 "Project-Id-Version: Odoo Server 17.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-08-04 19:39+0000\n"
-"PO-Revision-Date: 2025-08-04 19:39+0000\n"
-"Last-Translator: \n"
+"PO-Revision-Date: 2026-11-02 12:46+0000\n"
+"Last-Translator: DantePereyra <dante.pereyra@ciclosmontecastelo.com>\n"
 "Language-Team: \n"
-"Language: \n"
+"Language: es\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
-"Plural-Forms: \n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 5.15.2\n"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_3159
 msgid "1,1,1,2-TETRAFLUOROETHANE (REFRIGERANT GAS R 134a)"
-msgstr ""
+msgstr "1,1,1,2-TETRAFLUORETANO (GAS REFRIGERANTE R 134a)"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_2831
 msgid "1,1,1-TRICHLOROETHANE"
-msgstr ""
+msgstr "1,1,1-TRICloroetano"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_2035
 msgid "1,1,1-TRIFLUOROETHANE (REFRIGERANT GAS R 143a)"
-msgstr ""
+msgstr "1,1,1-TRIFLUOROETANO (GAS REFRIGERANTE R 143a)"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_1702
 msgid "1,1,2,2-TETRACHLOROETHANE"
-msgstr ""
+msgstr "1,1,2,2-TETRACLOROETANO"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_2650
 msgid "1,1-DICHLORO-1-NITROETHANE"
-msgstr ""
+msgstr "1,1-DICLORO-1-NITROETANO"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_2362
 msgid "1,1-DICHLOROETHANE"
-msgstr ""
+msgstr "1,1-DICLOROETANO"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_1030
 msgid "1,1-DIFLUOROETHANE (REFRIGERANT GAS R 152a)"
-msgstr ""
+msgstr "1,1-DIFLUOROETANO (GAS REFRIGERANTE R 152a)"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_1959
 msgid "1,1-DIFLUOROETHYLENE (REFRIGERANT GAS R 1132a)"
-msgstr ""
+msgstr "1,1-DIFLUOROETILENO (GAS REFRIGERANTE R 1132a)"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_2377
 msgid "1,1-DIMETHOXYETHANE"
-msgstr ""
+msgstr "1,1-DIMETOXIETANO"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_2498
 msgid "1,2,3,6-TETRAHYDRO-BENZALDEHYDE"
-msgstr ""
+msgstr "1,2,3,6-TETRAHIDROBENZALDEHÍDO"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_2410
 msgid "1,2,3,6-TETRAHYDROPYRIDINE"
-msgstr ""
+msgstr "1,2,3,6-TETRAHIDROPIRIDINA"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_3022
