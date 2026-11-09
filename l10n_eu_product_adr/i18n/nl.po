@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: Odoo Server 14.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-05-18 12:39+0000\n"
-"PO-Revision-Date: 2026-11-09 11:20+0000\n"
+"PO-Revision-Date: 2026-11-09 13:46+0000\n"
 "Last-Translator: Bosd <c5e2fd43-d292-4c90-9d1f-74ff3436329a@anonaddy.me>\n"
 "Language-Team: \n"
 "Language: nl\n"
@@ -3631,7 +3631,7 @@ msgid ""
 msgstr ""
 "BESCHERMLAK, OPLOSSING (met inbegrip van oppervlaktebehandelingen of lakken, "
 "gebruikt voor industriële of andere doeleinden, zoals grondlagen voor "
-"voertuigkoetswerken, bekledingen voor tonnen of vaten)  (met een vlampunt "
+"voertuigkoetswerken, bekledingen voor tonnen of vaten) (met een vlampunt "
 "lager dan 23°C en viskeus volgens 2.2.3.1.4) (dampspanning bij 50 °C niet "
 "hoger dan 110 kPa)"
 
@@ -6345,7 +6345,7 @@ msgstr ""
 msgid ""
 "Gases, including compressed, liquified, and dissolved under pressure gases "
 "and vapors "
-msgstr "Gassen"
+msgstr "Gassen "
 
 #. module: l10n_eu_product_adr
 #: model_terms:ir.ui.view,arch_db:l10n_eu_product_adr.adr_goods_view_search
@@ -9561,7 +9561,7 @@ msgstr ""
 "VERF (met inbegrip van verf, lakverf, email, beits, schellakoplossing, "
 "vernis, polijstmiddel, vloeibaar plamuur, vloeibare lakbasis) of VERF-"
 "VERWANTE PRODUCTEN (met inbegrip van verdunners en oplosmiddelen voor "
-"verven)  (dampspanning bij 50 °C hoger dan 110 kPa)"
+"verven) (dampspanning bij 50 °C hoger dan 110 kPa)"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_1263_F1_3_163/367/640D/650_5L_P001/IBC02/R001_2
