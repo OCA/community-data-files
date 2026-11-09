@@ -39,7 +39,7 @@ class AdrGoods(models.Model):
             "shipping name)."
         ),
     )
-    class_id = fields.Many2one(comodel_name="adr.class", string="Class", required=True)
+    class_id = fields.Many2one(comodel_name="adr.class", required=True)
     classification_code = fields.Char()
     label_ids = fields.Many2many(
         comodel_name="adr.label",
