@@ -6,20 +6,22 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 19.0\n"
 "Report-Msgid-Bugs-To: \n"
-"Last-Translator: Automatically generated\n"
+"PO-Revision-Date: 2026-11-09 13:46+0000\n"
+"Last-Translator: Bosd <c5e2fd43-d292-4c90-9d1f-74ff3436329a@anonaddy.me>\n"
 "Language-Team: none\n"
 "Language: nl\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 5.15.2\n"
 
 #. module: l10n_eu_product_adr_dangerous_goods
 #: model:ir.model.fields.selection,name:l10n_eu_product_adr_dangerous_goods.selection__product_product__label_first__12
 #: model:ir.model.fields.selection,name:l10n_eu_product_adr_dangerous_goods.selection__product_product__label_second__12
 #: model:ir.model.fields.selection,name:l10n_eu_product_adr_dangerous_goods.selection__product_product__label_third__12
 msgid "9A"
-msgstr ""
+msgstr "9A"
 
 #. module: l10n_eu_product_adr_dangerous_goods
 #: model:ir.model,name:l10n_eu_product_adr_dangerous_goods.model_adr_dangerous_uom
@@ -84,7 +86,7 @@ msgstr ""
 #. module: l10n_eu_product_adr_dangerous_goods
 #: model:ir.model.fields,field_description:l10n_eu_product_adr_dangerous_goods.field_product_product__content_package
 msgid "Content Packaging"
-msgstr ""
+msgstr "Inhoud verpakking"
 
 #. module: l10n_eu_product_adr_dangerous_goods
 #: model:ir.model.fields,field_description:l10n_eu_product_adr_dangerous_goods.field_adr_dangerous_uom__create_uid
@@ -94,7 +96,7 @@ msgstr ""
 #: model:ir.model.fields,field_description:l10n_eu_product_adr_dangerous_goods.field_adr_storage_temp__create_uid
 #: model:ir.model.fields,field_description:l10n_eu_product_adr_dangerous_goods.field_adr_wgk_class__create_uid
 msgid "Created by"
-msgstr ""
+msgstr "Aangemaakt door"
 
 #. module: l10n_eu_product_adr_dangerous_goods
 #: model:ir.model.fields,field_description:l10n_eu_product_adr_dangerous_goods.field_adr_dangerous_uom__create_date
@@ -104,12 +106,12 @@ msgstr ""
 #: model:ir.model.fields,field_description:l10n_eu_product_adr_dangerous_goods.field_adr_storage_temp__create_date
 #: model:ir.model.fields,field_description:l10n_eu_product_adr_dangerous_goods.field_adr_wgk_class__create_date
 msgid "Created on"
-msgstr ""
+msgstr "Aangemaakt op"
 
 #. module: l10n_eu_product_adr_dangerous_goods
 #: model_terms:ir.ui.view,arch_db:l10n_eu_product_adr_dangerous_goods.product_normal_form_view
 msgid "Dangerous Packaging"
-msgstr ""
+msgstr "Gevaarlijke verpakking"
 
 #. module: l10n_eu_product_adr_dangerous_goods
 #: model:ir.model.fields,field_description:l10n_eu_product_adr_dangerous_goods.field_adr_dangerous_uom__display_name
@@ -120,32 +122,32 @@ msgstr ""
 #: model:ir.model.fields,field_description:l10n_eu_product_adr_dangerous_goods.field_adr_wgk_class__display_name
 #: model:ir.model.fields,field_description:l10n_eu_product_adr_dangerous_goods.field_product_product__display_name
 msgid "Display Name"
-msgstr ""
+msgstr "Schermnaam"
 
 #. module: l10n_eu_product_adr_dangerous_goods
 #: model:ir.model.fields,field_description:l10n_eu_product_adr_dangerous_goods.field_product_product__envir_hazardous
 msgid "Environmentally hazardous"
-msgstr ""
+msgstr "Milieugevaarlijk"
 
 #. module: l10n_eu_product_adr_dangerous_goods
 #: model:ir.model.fields,field_description:l10n_eu_product_adr_dangerous_goods.field_product_product__flash_point
 msgid "Flash point(°C)"
-msgstr ""
+msgstr "Vlampunt (°C)"
 
 #. module: l10n_eu_product_adr_dangerous_goods
 #: model:ir.model.fields,field_description:l10n_eu_product_adr_dangerous_goods.field_product_product__h_no
 msgid "H-No"
-msgstr ""
+msgstr "H-nummer"
 
 #. module: l10n_eu_product_adr_dangerous_goods
 #: model:ir.model.fields,field_description:l10n_eu_product_adr_dangerous_goods.field_product_product__hazard_ind
 msgid "Hazard identification"
-msgstr ""
+msgstr "Gevaarsidentificatie"
 
 #. module: l10n_eu_product_adr_dangerous_goods
 #: model:ir.model.fields.selection,name:l10n_eu_product_adr_dangerous_goods.selection__product_product__packaging_group__2
 msgid "I"
-msgstr ""
+msgstr "I"
 
 #. module: l10n_eu_product_adr_dangerous_goods
 #: model:ir.model.fields,field_description:l10n_eu_product_adr_dangerous_goods.field_adr_dangerous_uom__id
@@ -156,32 +158,32 @@ msgstr ""
 #: model:ir.model.fields,field_description:l10n_eu_product_adr_dangerous_goods.field_adr_wgk_class__id
 #: model:ir.model.fields,field_description:l10n_eu_product_adr_dangerous_goods.field_product_product__id
 msgid "ID"
-msgstr ""
+msgstr "ID"
 
 #. module: l10n_eu_product_adr_dangerous_goods
 #: model:ir.model.fields.selection,name:l10n_eu_product_adr_dangerous_goods.selection__product_product__packaging_group__3
 msgid "II"
-msgstr ""
+msgstr "II"
 
 #. module: l10n_eu_product_adr_dangerous_goods
 #: model:ir.model.fields.selection,name:l10n_eu_product_adr_dangerous_goods.selection__product_product__packaging_group__4
 msgid "III"
-msgstr ""
+msgstr "III"
 
 #. module: l10n_eu_product_adr_dangerous_goods
 #: model:ir.model.fields,field_description:l10n_eu_product_adr_dangerous_goods.field_product_product__label_first
 msgid "Label 1"
-msgstr ""
+msgstr "Etiket 1"
 
 #. module: l10n_eu_product_adr_dangerous_goods
 #: model:ir.model.fields,field_description:l10n_eu_product_adr_dangerous_goods.field_product_product__label_second
 msgid "Label 2"
-msgstr ""
+msgstr "Etiket 2"
 
 #. module: l10n_eu_product_adr_dangerous_goods
 #: model:ir.model.fields,field_description:l10n_eu_product_adr_dangerous_goods.field_product_product__label_third
 msgid "Label 3"
-msgstr ""
+msgstr "Etiket 3"
 
 #. module: l10n_eu_product_adr_dangerous_goods
 #: model:ir.model.fields,field_description:l10n_eu_product_adr_dangerous_goods.field_adr_dangerous_uom__write_uid
@@ -191,7 +193,7 @@ msgstr ""
 #: model:ir.model.fields,field_description:l10n_eu_product_adr_dangerous_goods.field_adr_storage_temp__write_uid
 #: model:ir.model.fields,field_description:l10n_eu_product_adr_dangerous_goods.field_adr_wgk_class__write_uid
 msgid "Last Updated by"
-msgstr ""
+msgstr "Laatst bijgewerkt door"
 
 #. module: l10n_eu_product_adr_dangerous_goods
 #: model:ir.model.fields,field_description:l10n_eu_product_adr_dangerous_goods.field_adr_dangerous_uom__write_date
@@ -201,12 +203,12 @@ msgstr ""
 #: model:ir.model.fields,field_description:l10n_eu_product_adr_dangerous_goods.field_adr_storage_temp__write_date
 #: model:ir.model.fields,field_description:l10n_eu_product_adr_dangerous_goods.field_adr_wgk_class__write_date
 msgid "Last Updated on"
-msgstr ""
+msgstr "Laatst bijgewerkt op"
 
 #. module: l10n_eu_product_adr_dangerous_goods
 #: model:ir.model.fields,field_description:l10n_eu_product_adr_dangerous_goods.field_product_product__nag
 msgid "N.A.G."
-msgstr ""
+msgstr "N.E.G."
 
 #. module: l10n_eu_product_adr_dangerous_goods
 #: model:ir.model.fields,field_description:l10n_eu_product_adr_dangerous_goods.field_adr_dangerous_uom__name
@@ -216,74 +218,74 @@ msgstr ""
 #: model:ir.model.fields,field_description:l10n_eu_product_adr_dangerous_goods.field_adr_storage_temp__name
 #: model:ir.model.fields,field_description:l10n_eu_product_adr_dangerous_goods.field_adr_wgk_class__name
 msgid "Name"
-msgstr ""
+msgstr "Naam"
 
 #. module: l10n_eu_product_adr_dangerous_goods
 #: model:ir.model.fields.selection,name:l10n_eu_product_adr_dangerous_goods.selection__product_product__envir_hazardous__no
 msgid "No"
-msgstr ""
+msgstr "Nee"
 
 #. module: l10n_eu_product_adr_dangerous_goods
 #: model:ir.model.fields,field_description:l10n_eu_product_adr_dangerous_goods.field_product_product__packaging_group
 msgid "Packaging Group"
-msgstr ""
+msgstr "Verpakkingsgroep"
 
 #. module: l10n_eu_product_adr_dangerous_goods
 #: model:ir.model,name:l10n_eu_product_adr_dangerous_goods.model_product_product
 msgid "Product Variant"
-msgstr ""
+msgstr "Productvariant"
 
 #. module: l10n_eu_product_adr_dangerous_goods
 #: model_terms:ir.ui.view,arch_db:l10n_eu_product_adr_dangerous_goods.product_normal_form_view
 msgid "Storage"
-msgstr ""
+msgstr "Opslag"
 
 #. module: l10n_eu_product_adr_dangerous_goods
 #: model:ir.model.fields,field_description:l10n_eu_product_adr_dangerous_goods.field_product_product__voc
 msgid "VOC in%"
-msgstr ""
+msgstr "VOS in %"
 
 #. module: l10n_eu_product_adr_dangerous_goods
 #: model:ir.model.fields,field_description:l10n_eu_product_adr_dangerous_goods.field_product_product__veva_code_empty
 msgid "VeVA Code: Empty packaging"
-msgstr ""
+msgstr "VeVA-code: Lege verpakking"
 
 #. module: l10n_eu_product_adr_dangerous_goods
 #: model:ir.model.fields,field_description:l10n_eu_product_adr_dangerous_goods.field_product_product__veva_code_full
 msgid "VeVA Code: Full package"
-msgstr ""
+msgstr "VeVA-code: Volle verpakking"
 
 #. module: l10n_eu_product_adr_dangerous_goods
 #: model:ir.model.fields.selection,name:l10n_eu_product_adr_dangerous_goods.selection__product_product__envir_hazardous__yes
 msgid "Yes"
-msgstr ""
+msgstr "Ja"
 
 #. module: l10n_eu_product_adr_dangerous_goods
 #: model:adr.dangerous.uom,name:l10n_eu_product_adr_dangerous_goods.adr_dangerous_uom_3
 msgid "g (Gramm)"
-msgstr ""
+msgstr "g (Gram)"
 
 #. module: l10n_eu_product_adr_dangerous_goods
 #: model:adr.dangerous.uom,name:l10n_eu_product_adr_dangerous_goods.adr_dangerous_uom_2
 msgid "kg (Kilogramm)"
-msgstr ""
+msgstr "kg (Kilogram)"
 
 #. module: l10n_eu_product_adr_dangerous_goods
 #: model:adr.dangerous.uom,name:l10n_eu_product_adr_dangerous_goods.adr_dangerous_uom_1
 msgid "l (Liter)"
-msgstr ""
+msgstr "l (Liter)"
 
 #. module: l10n_eu_product_adr_dangerous_goods
 #: model:adr.storage.temp,name:l10n_eu_product_adr_dangerous_goods.adr_storage_temp_2
 msgid "over 25°C"
-msgstr ""
+msgstr "boven 25°C"
 
 #. module: l10n_eu_product_adr_dangerous_goods
 #: model:adr.storage.temp,name:l10n_eu_product_adr_dangerous_goods.adr_storage_temp_1
 msgid "to 25°C"
-msgstr ""
+msgstr "tot 25°C"
 
 #. module: l10n_eu_product_adr_dangerous_goods
 #: model:adr.storage.temp,name:l10n_eu_product_adr_dangerous_goods.adr_storage_temp_3
 msgid "to 30°C"
-msgstr ""
+msgstr "tot 30°C"
