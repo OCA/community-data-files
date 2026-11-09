@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: Odoo Server 14.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-05-18 12:39+0000\n"
-"PO-Revision-Date: 2026-11-09 10:58+0000\n"
+"PO-Revision-Date: 2026-11-09 11:20+0000\n"
 "Last-Translator: Bosd <c5e2fd43-d292-4c90-9d1f-74ff3436329a@anonaddy.me>\n"
 "Language-Team: \n"
 "Language: nl\n"
@@ -3794,7 +3794,7 @@ msgstr "KOPERCYANIDE"
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_1363
 msgid "COPRA"
-msgstr ""
+msgstr "KOPRA"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_0104
@@ -4138,7 +4138,7 @@ msgstr "CYCLOHEXYLMERCAPTAAN"
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_2357
 msgid "CYCLOHEXYLAMINE"
-msgstr ""
+msgstr "CYCLOHEXYLAMINE"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_1763
@@ -4163,7 +4163,7 @@ msgstr "CYCLOPENTAAN"
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_2244
 msgid "CYCLOPENTANOL"
-msgstr ""
+msgstr "CYCLOPENTANOL"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_2245
@@ -4266,7 +4266,7 @@ msgstr "Classificatiecode"
 #: model:ir.model.fields,field_description:l10n_eu_product_adr.field_adr_label__code
 #: model:ir.model.fields,field_description:l10n_eu_product_adr.field_adr_packing_instruction__code
 msgid "Code"
-msgstr ""
+msgstr "Code"
 
 #. module: l10n_eu_product_adr
 #: model:ir.model.fields,help:l10n_eu_product_adr.field_adr_goods__un_number
@@ -4277,6 +4277,11 @@ msgid ""
 "mentioned by name shall be assigned in accordance with the criteria "
 "('decision trees') of Part 2."
 msgstr ""
+"Bevat het VN-nummer: van de gevaarlijke stof of het gevaarlijke voorwerp als "
+"aan de stof of het voorwerp een specifiek VN-nummer is toegekend; of van de "
+"generieke of n.e.g.-positie waaraan de niet met name genoemde gevaarlijke "
+"stoffen of voorwerpen moeten worden ingedeeld overeenkomstig de criteria "
+"('beslissingsbomen') van deel 2."
 
 #. module: l10n_eu_product_adr
 #: model:ir.model.fields,help:l10n_eu_product_adr.field_adr_goods__name
@@ -4288,6 +4293,13 @@ msgid ""
 "proper shipping name or, when applicable, as part of the proper shipping "
 "name (see 3.1.2 for further details on the proper shipping name)."
 msgstr ""
+"Bevat, in hoofdletters, de naam van de stof of het voorwerp als aan de stof "
+"of het voorwerp een specifiek VN-nummer is toegekend, of van de generieke of "
+"n.e.g.-positie waaraan deze is ingedeeld overeenkomstig de criteria "
+"('beslissingsbomen') van deel 2. Deze naam moet worden gebruikt als de "
+"officiële vervoersnaam of, indien van toepassing, als onderdeel van de "
+"officiële vervoersnaam (zie 3.1.2 voor meer details over de officiële "
+"vervoersnaam)."
 
 #. module: l10n_eu_product_adr
 #: model:adr.class,name:l10n_eu_product_adr.adr_class_8
@@ -4301,7 +4313,7 @@ msgstr "Bijtende stoffen"
 #: model:ir.model.fields,field_description:l10n_eu_product_adr.field_adr_label__create_uid
 #: model:ir.model.fields,field_description:l10n_eu_product_adr.field_adr_packing_instruction__create_uid
 msgid "Created by"
-msgstr ""
+msgstr "Aangemaakt door"
 
 #. module: l10n_eu_product_adr
 #: model:ir.model.fields,field_description:l10n_eu_product_adr.field_adr_class__create_date
@@ -4309,17 +4321,17 @@ msgstr ""
 #: model:ir.model.fields,field_description:l10n_eu_product_adr.field_adr_label__create_date
 #: model:ir.model.fields,field_description:l10n_eu_product_adr.field_adr_packing_instruction__create_date
 msgid "Created on"
-msgstr ""
+msgstr "Aangemaakt op"
 
 #. module: l10n_eu_product_adr
 #: model:ir.model.fields.selection,name:l10n_eu_product_adr.selection__adr_goods__tunnel_restriction_code__d
 msgid "D"
-msgstr ""
+msgstr "D"
 
 #. module: l10n_eu_product_adr
 #: model:ir.model.fields.selection,name:l10n_eu_product_adr.selection__adr_goods__tunnel_restriction_code__d/e
 msgid "D/E"
-msgstr ""
+msgstr "D/E"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_3363
@@ -4399,12 +4411,12 @@ msgstr ""
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_2841
 msgid "DI-n-AMYLAMINE"
-msgstr ""
+msgstr "DI-n-AMYLAMINE"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_2248
 msgid "DI-n-BUTYLAMINE"
-msgstr ""
+msgstr "DI-n-BUTYLAMINE"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_2384
@@ -4425,7 +4437,7 @@ msgstr "DIALLYLETHER"
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_2359
 msgid "DIALLYLAMINE"
-msgstr ""
+msgstr "DIALLYLAMINE"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_0074
@@ -4470,7 +4482,7 @@ msgstr "DIBUTYLETHERS"
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_2873
 msgid "DIBUTYLAMINOETHANOL"
-msgstr ""
+msgstr "DIBUTYLAMINOETHANOL"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_1764
@@ -4565,7 +4577,7 @@ msgstr "DICYCLOHEXYLAMMONIUMNITRIET"
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_2565
 msgid "DICYCLOHEXYLAMINE"
-msgstr ""
+msgstr "DICYCLOHEXYLAMINE"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_2048
@@ -4619,7 +4631,7 @@ msgstr "DIETHYLSULFIDE"
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_1154
 msgid "DIETHYLAMINE"
-msgstr ""
+msgstr "DIETHYLAMINE"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_2049
@@ -4668,7 +4680,7 @@ msgstr "DIISOBUTYLKETON"
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_2361
 msgid "DIISOBUTYLAMINE"
-msgstr ""
+msgstr "DIISOBUTYLAMINE"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_2050
@@ -4688,7 +4700,7 @@ msgstr "DIISOPROPYLETHER"
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_1158
 msgid "DIISOPROPYLAMINE"
-msgstr ""
+msgstr "DIISOPROPYLAMINE"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_2521
@@ -4779,7 +4791,7 @@ msgstr "DIMETHYLHYDRAZINE, ASYMMETRISCH"
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_1598
 msgid "DINITRO-o-CRESOL"
-msgstr ""
+msgstr "DINITRO-o-CRESOL"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_1596
@@ -4805,7 +4817,7 @@ msgstr "DISTIKSTOFTETROXIDE (STIKSTOFDIOXIDE)"
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_0489
 msgid "DINITROGLYCOLURIL (DINGU)"
-msgstr ""
+msgstr "DINITROGLYCOLURIL (DINGU)"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_1599_100ml
@@ -4925,7 +4937,7 @@ msgstr "DIPROPYLKETON"
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_2383
 msgid "DIPROPYLAMINE"
-msgstr ""
+msgstr "DIPROPYLAMINE"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_1903
@@ -5035,6 +5047,8 @@ msgid ""
 "Dangerous Goods Label %(label)s cannot be deleted because it is in use on "
 "one or more dangerous goods: %(labels)s"
 msgstr ""
+"Gevaarsetiket %(label)s kan niet worden verwijderd omdat het in gebruik is "
+"bij een of meer gevaarlijke goederen: %(labels)s"
 
 #. module: l10n_eu_product_adr
 #: model:ir.actions.act_window,name:l10n_eu_product_adr.adr_label_action
@@ -5059,6 +5073,9 @@ msgid ""
 "Dangerous goods settings differ per variant of this product. Please "
 "configure the dangerous goods settings on each variant."
 msgstr ""
+"De instellingen voor gevaarlijke goederen verschillen per variant van dit "
+"product. Configureer de instellingen voor gevaarlijke goederen op elke "
+"variant."
 
 #. module: l10n_eu_product_adr
 #: model:ir.model.fields,field_description:l10n_eu_product_adr.field_adr_class__display_name
@@ -5071,7 +5088,7 @@ msgstr "Schermnaam"
 #. module: l10n_eu_product_adr
 #: model:ir.model.fields.selection,name:l10n_eu_product_adr.selection__adr_goods__tunnel_restriction_code__e
 msgid "E"
-msgstr ""
+msgstr "E"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_3256_F2_3_274/560_P099/IBC99_3
@@ -5361,7 +5378,7 @@ msgstr "ETHYLACETYLEEN, GESTABILISEERD"
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_1036
 msgid "ETHYLAMINE"
-msgstr ""
+msgstr "ETHYLAMINE"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_2270
@@ -5720,7 +5737,7 @@ msgstr "IJZER(III)NITRAAT"
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_1323
 msgid "FERROCERIUM"
-msgstr ""
+msgstr "FERROCERIUM"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_1408
@@ -6096,7 +6113,7 @@ msgstr "FURALDEHYDEN (furfural)"
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_2389
 msgid "FURAN"
-msgstr ""
+msgstr "FURAAN"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_2874
@@ -6106,7 +6123,7 @@ msgstr "FURFURYLALCOHOL"
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_2526
 msgid "FURFURYLAMINE"
-msgstr ""
+msgstr "FURFURYLAMINE"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_0103
@@ -6196,7 +6213,7 @@ msgstr ""
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_2803
 msgid "GALLIUM"
-msgstr ""
+msgstr "GALLIUM"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_1202_F1_3_640M/664_5L_P001/IBC03/LP01/R001_3
@@ -6282,7 +6299,7 @@ msgstr "GLYCEROL-alfa-MONOCHLOORHYDRINE"
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_2622
 msgid "GLYCIDALDEHYDE"
-msgstr ""
+msgstr "GLYCIDALDEHYDE"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_0110
@@ -6333,7 +6350,7 @@ msgstr "Gassen"
 #. module: l10n_eu_product_adr
 #: model_terms:ir.ui.view,arch_db:l10n_eu_product_adr.adr_goods_view_search
 msgid "Group By"
-msgstr ""
+msgstr "Groeperen op"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_2545_S4_4dot2_540_P002/IBC08/LP02/R001_3
@@ -6445,7 +6462,7 @@ msgstr "HEXAFLUORPROPEEN (KOELGAS R 1216)"
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_1207
 msgid "HEXALDEHYDE"
-msgstr ""
+msgstr "HEXALDEHYDE"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_2281
@@ -6502,7 +6519,7 @@ msgstr ""
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_0393
 msgid "HEXOTONAL"
-msgstr ""
+msgstr "HEXOTONAAL"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_1784
@@ -6789,7 +6806,7 @@ msgstr "Hooi, stro of Bhusa"
 #: model:ir.model.fields,field_description:l10n_eu_product_adr.field_adr_label__id
 #: model:ir.model.fields,field_description:l10n_eu_product_adr.field_adr_packing_instruction__id
 msgid "ID"
-msgstr ""
+msgstr "ID"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_0121
@@ -6954,7 +6971,7 @@ msgstr "ISOBUTYLPROPIONAAT"
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_1214
 msgid "ISOBUTYLAMINE"
-msgstr ""
+msgstr "ISOBUTYLAMINE"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_1055
@@ -7115,7 +7132,7 @@ msgstr "ISOPROPYLPROPIONAAT"
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_1221
 msgid "ISOPROPYLAMINE"
-msgstr ""
+msgstr "ISOPROPYLAMINE"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_1918
@@ -7145,7 +7162,7 @@ msgstr "Afbeelding"
 #: model:ir.model.fields,help:l10n_eu_product_adr.field_product_product__adr_goods_on_variants
 #: model:ir.model.fields,help:l10n_eu_product_adr.field_product_template__adr_goods_on_variants
 msgid "Indicates whether the adr configuration is different for each variant."
-msgstr ""
+msgstr "Geeft aan of de ADR-configuratie per variant verschilt."
 
 #. module: l10n_eu_product_adr
 #: model:adr.class,name:l10n_eu_product_adr.adr_class_6_2
@@ -7359,7 +7376,7 @@ msgstr ""
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_1415
 msgid "LITHIUM"
-msgstr ""
+msgstr "LITHIUM"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_1410
@@ -7473,7 +7490,7 @@ msgstr "LITHIUMSILICIUM"
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_1621
 msgid "LONDON PURPLE"
-msgstr ""
+msgstr "LONDENS PURPER"
 
 #. module: l10n_eu_product_adr
 #: model:ir.model.fields,field_description:l10n_eu_product_adr.field_adr_goods__label_ids
@@ -7490,7 +7507,7 @@ msgstr "Etiketten"
 #: model:ir.model.fields,field_description:l10n_eu_product_adr.field_adr_label__write_uid
 #: model:ir.model.fields,field_description:l10n_eu_product_adr.field_adr_packing_instruction__write_uid
 msgid "Last Updated by"
-msgstr ""
+msgstr "Laatst bijgewerkt door"
 
 #. module: l10n_eu_product_adr
 #: model:ir.model.fields,field_description:l10n_eu_product_adr.field_adr_class__write_date
@@ -7498,7 +7515,7 @@ msgstr ""
 #: model:ir.model.fields,field_description:l10n_eu_product_adr.field_adr_label__write_date
 #: model:ir.model.fields,field_description:l10n_eu_product_adr.field_adr_packing_instruction__write_date
 msgid "Last Updated on"
-msgstr ""
+msgstr "Laatst bijgewerkt op"
 
 #. module: l10n_eu_product_adr
 #: model:ir.model.fields,field_description:l10n_eu_product_adr.field_adr_goods__limited_quantity
@@ -7512,7 +7529,7 @@ msgstr "Beperkte Hoeveelheid"
 #: model:ir.model.fields,field_description:l10n_eu_product_adr.field_product_product__adr_limited_quantity_uom_id
 #: model:ir.model.fields,field_description:l10n_eu_product_adr.field_product_template__adr_limited_quantity_uom_id
 msgid "Limited Quantity UoM"
-msgstr ""
+msgstr "Maateenheid beperkte hoeveelheid"
 
 #. module: l10n_eu_product_adr
 #: model:adr.label,name:l10n_eu_product_adr.adr_label_9A
@@ -7965,7 +7982,7 @@ msgstr "BRANDBARE METAALZOUTEN VAN ORGANISCHE VERBINDINGEN, N.E.G."
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_1332
 msgid "METALDEHYDE"
-msgstr ""
+msgstr "METALDEHYDE"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_3208
@@ -8026,7 +8043,7 @@ msgstr "METHAANSULFONYLCHLORIDE"
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_1230
 msgid "METHANOL"
-msgstr ""
+msgstr "METHANOL"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_2605
@@ -8265,7 +8282,7 @@ msgstr "METHYLDICHLOORSILAAN"
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_1244
 msgid "METHYLHYDRAZINE"
-msgstr ""
+msgstr "METHYLHYDRAZINE"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_2461
@@ -8345,7 +8362,7 @@ msgstr "N,N-DIETHYLETHYLEENDIAMINE"
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_2432
 msgid "N,N-DIETHYLANILINE"
-msgstr ""
+msgstr "N,N-DIETHYLANILINE"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_2264
@@ -8360,7 +8377,7 @@ msgstr "N,N-DIMETHYLFORMAMIDE"
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_2253
 msgid "N,N-DIMETHYLANILINE"
-msgstr ""
+msgstr "N,N-DIMETHYLANILINE"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_2690
@@ -8370,22 +8387,22 @@ msgstr "N,n-BUTYLIMIDAZOOL"
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_2815
 msgid "N-AMINOETHYLPIPERAZINE"
-msgstr ""
+msgstr "N-AMINOETHYLPIPERAZINE"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_2738
 msgid "N-BUTYLANILINE"
-msgstr ""
+msgstr "N-BUTYLANILINE"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_2274
 msgid "N-ETHYL-N-BENZYLANILINE"
-msgstr ""
+msgstr "N-ETHYL-N-BENZYLANILINE"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_2272
 msgid "N-ETHYLANILINE"
-msgstr ""
+msgstr "N-ETHYLANILINE"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_2753
@@ -8405,12 +8422,12 @@ msgstr "N-ETHYLTOLUIDINEN"
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_2294
 msgid "N-METHYLANILINE"
-msgstr ""
+msgstr "N-METHYLANILINE"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_2945
 msgid "N-METHYLBUTYLAMINE"
-msgstr ""
+msgstr "N-METHYLBUTYLAMINE"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_1334
@@ -8465,7 +8482,7 @@ msgstr "NIKKELNITRIET"
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_1654
 msgid "NICOTINE"
-msgstr ""
+msgstr "NICOTINE"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_3144
@@ -9043,7 +9060,7 @@ msgstr "OCTOLIET, droog of bevochtigd met minder dan 15 massa-% water"
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_0496
 msgid "OCTONAL"
-msgstr ""
+msgstr "OCTONAAL"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_1191
@@ -9598,12 +9615,12 @@ msgstr ""
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_2213
 msgid "PARAFORMALDEHYDE"
-msgstr ""
+msgstr "PARAFORMALDEHYDE"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_1264
 msgid "PARALDEHYDE"
-msgstr ""
+msgstr "PARALDEHYDE"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_1380
@@ -10185,7 +10202,7 @@ msgstr "PIPERAZINE (diethyleendiamine)"
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_2401
 msgid "PIPERIDINE"
-msgstr ""
+msgstr "PIPERIDINE"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_3314
@@ -10608,7 +10625,7 @@ msgstr "VOORTDRIJVENDE STOF, VAST"
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_1275
 msgid "PROPIONALDEHYDE"
-msgstr ""
+msgstr "PROPIONALDEHYDE"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_1848
@@ -10643,7 +10660,7 @@ msgstr "PROPYLFORMIATEN"
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_1277
 msgid "PROPYLAMINE"
-msgstr ""
+msgstr "PROPYLAMINE"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_1077
@@ -10712,7 +10729,7 @@ msgstr "PESTICIDE, PYRETHROÏDE, VAST, GIFTIG"
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_1282
 msgid "PYRIDINE"
-msgstr ""
+msgstr "PYRIDINE"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_3194
@@ -10747,7 +10764,7 @@ msgstr "PYROSULFURYLCHLORIDE"
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_1922
 msgid "PYRROLIDINE"
-msgstr ""
+msgstr "PYRROLIDINE"
 
 #. module: l10n_eu_product_adr
 #: model:ir.model.fields,field_description:l10n_eu_product_adr.field_adr_goods__packing_instruction_ids
@@ -10759,12 +10776,12 @@ msgstr "Verpakkingsinstructies"
 #. module: l10n_eu_product_adr
 #: model:ir.model,name:l10n_eu_product_adr.model_product_template
 msgid "Product"
-msgstr ""
+msgstr "Product"
 
 #. module: l10n_eu_product_adr
 #: model:ir.model,name:l10n_eu_product_adr.model_product_product
 msgid "Product Variant"
-msgstr ""
+msgstr "Productvariant"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_2656
@@ -11074,7 +11091,7 @@ msgstr ""
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_2876
 msgid "RESORCINOL"
-msgstr ""
+msgstr "RESORCINOL"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_0174
@@ -11211,7 +11228,7 @@ msgstr "RUBBERSOLUTIE (dampspanning bij 50 °C niet hoger dan 110 kPa)"
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_1423
 msgid "RUBIDIUM"
-msgstr ""
+msgstr "RUBIDIUM"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_2678
@@ -12265,7 +12282,7 @@ msgstr "TETRAFLUORMETHAAN (KOELGAS R 14)"
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_2056
 msgid "TETRAHYDROFURAN"
-msgstr ""
+msgstr "TETRAHYDROFURAAN"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_2943
@@ -12301,7 +12318,7 @@ msgstr "TETRAMETHYLSILAAN"
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_0207
 msgid "TETRANITROANILINE"
-msgstr ""
+msgstr "TETRANITROANILINE"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_1510
@@ -12773,7 +12790,7 @@ msgstr "TRIALLYLBORAAT"
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_2610
 msgid "TRIALLYLAMINE"
-msgstr ""
+msgstr "TRIALLYLAMINE"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_2764
@@ -12811,7 +12828,7 @@ msgstr "PESTICIDE, TRIAZINEVERBINDING, VAST, GIFTIG"
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_2542
 msgid "TRIBUTYLAMINE"
-msgstr ""
+msgstr "TRIBUTYLAMINE"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_3254
@@ -12872,7 +12889,7 @@ msgstr "TRIETHYLFOSFIET"
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_1296
 msgid "TRIETHYLAMINE"
-msgstr ""
+msgstr "TRIETHYLAMINE"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_2259
@@ -12969,12 +12986,12 @@ msgstr "TRIMETHYLHEXAMETHYLEENDI AMINEN"
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_0216
 msgid "TRINITRO-m-CRESOL"
-msgstr ""
+msgstr "TRINITRO-m-CRESOL"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_0153
 msgid "TRINITROANILINE (PICRAMIDE)"
-msgstr ""
+msgstr "TRINITROANILINE (PICRAMIDE)"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_0213
@@ -13126,7 +13143,7 @@ msgstr ""
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_2260
 msgid "TRIPROPYLAMINE"
-msgstr ""
+msgstr "TRIPROPYLAMINE"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_2057_1L
@@ -13143,7 +13160,7 @@ msgstr "TRIS-(1-AZIRIDINYL)-FOSFINEOXIDE, OPLOSSING"
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_0390
 msgid "TRITONAL"
-msgstr ""
+msgstr "TRITONAAL"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_2196
@@ -13169,7 +13186,7 @@ msgstr "Textielafval, vochtig"
 #. module: l10n_eu_product_adr
 #: model:ir.model.fields,help:l10n_eu_product_adr.field_adr_label__goods_ids
 msgid "The dangerous goods to which this label is applied"
-msgstr ""
+msgstr "De gevaarlijke goederen waarop dit etiket van toepassing is"
 
 #. module: l10n_eu_product_adr
 #: model:ir.model.fields,help:l10n_eu_product_adr.field_adr_goods__label_ids
@@ -13191,6 +13208,9 @@ msgid ""
 "you cannot update the dangerous goods from here. Please reconfigure each "
 "variant separately."
 msgstr ""
+"Er zijn verschillende gevaarlijke goederen geconfigureerd op de varianten "
+"van dit product, waardoor u de gevaarlijke goederen vanaf hier niet kunt "
+"bijwerken. Configureer elke variant afzonderlijk opnieuw."
 
 #. module: l10n_eu_product_adr
 #: model:ir.model.fields,help:l10n_eu_product_adr.field_product_product__is_dangerous
@@ -13285,7 +13305,7 @@ msgstr "UREUMNITRAAT, droog of bevochtigd met minder dan 20 massa-% water"
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_2058
 msgid "VALERALDEHYDE"
-msgstr ""
+msgstr "VALERALDEHYDE"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_2502
@@ -13533,7 +13553,7 @@ msgstr "XANTHATEN"
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_2036
 msgid "XENON"
-msgstr ""
+msgstr "XENON"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_2591
@@ -13780,12 +13800,12 @@ msgstr "beta-NAFTYLAMINE, VAST"
 #. odoo-python
 #: code:addons/l10n_eu_product_adr/models/adr_goods.py:0
 msgid "cat:%s"
-msgstr ""
+msgstr "cat:%s"
 
 #. module: l10n_eu_product_adr
 #: model:uom.uom,name:l10n_eu_product_adr.product_uom_mililiter
 msgid "ml"
-msgstr ""
+msgstr "ml"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_1110
@@ -13815,7 +13835,7 @@ msgstr "n-BUTYLMETHACRYLAAT, GESTABILISEERD"
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_1125
 msgid "n-BUTYLAMINE"
-msgstr ""
+msgstr "n-BUTYLAMINE"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_2247
@@ -13825,7 +13845,7 @@ msgstr "n-DECAAN"
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_3056
 msgid "n-HEPTALDEHYDE"
-msgstr ""
+msgstr "n-HEPTALDEHYDE"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_2278
@@ -13877,7 +13897,7 @@ msgstr "p-NITROSODIMETHYLANILINE"
 #. odoo-python
 #: code:addons/l10n_eu_product_adr/models/adr_goods.py:0
 msgid "qty:%(limited_quantity)s %(limited_quantity_uom_id)s"
-msgstr ""
+msgstr "aantal:%(limited_quantity)s %(limited_quantity_uom_id)s"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_3255
