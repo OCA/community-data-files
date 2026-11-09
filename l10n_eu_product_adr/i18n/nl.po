@@ -7,19 +7,20 @@ msgstr ""
 "Project-Id-Version: Odoo Server 14.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-05-18 12:39+0000\n"
-"PO-Revision-Date: 2021-05-18 12:39+0000\n"
-"Last-Translator: \n"
+"PO-Revision-Date: 2026-11-09 11:20+0000\n"
+"Last-Translator: Bosd <c5e2fd43-d292-4c90-9d1f-74ff3436329a@anonaddy.me>\n"
 "Language-Team: \n"
-"Language: \n"
+"Language: nl\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
-"Plural-Forms: \n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 5.15.2\n"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_3159
 msgid "1,1,1,2-TETRAFLUOROETHANE (REFRIGERANT GAS R 134a)"
-msgstr "1,1,1,2-TETRAFLUORETHAAN (KOELGAS R 134a)"
+msgstr "1,1,1,2-TETRAFLUORETHAAN (KOUDEMIDDEL R 134a)"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_2831
@@ -29,37 +30,37 @@ msgstr "1,1,1-TRICHLOORETHAAN"
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_2035
 msgid "1,1,1-TRIFLUOROETHANE (REFRIGERANT GAS R 143a)"
-msgstr "1,1,1-TRIFLUORETHAAN (KOELGAS R 143A)"
+msgstr "1,1,1-TRIFLUORETHAAN (KOUDEMIDDEL R 143a)"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_1702
 msgid "1,1,2,2-TETRACHLOROETHANE"
-msgstr "1,1,2,2-TETRACHLOORETHAAN (acetyleentetrachloride)"
+msgstr "1,1,2,2-TETRACHLOORETHAAN"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_2650
 msgid "1,1-DICHLORO-1-NITROETHANE"
-msgstr "1,1-DICHLOOR-1-NITROETHAAN"
+msgstr "1,1-DICHLOOR-1-NITRO-ETHAAN"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_2362
 msgid "1,1-DICHLOROETHANE"
-msgstr "1,1-DICHLOORETHAAN (ethylideenchloride)"
+msgstr "1,1-DICHLOORETHAAN"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_1030
 msgid "1,1-DIFLUOROETHANE (REFRIGERANT GAS R 152a)"
-msgstr "1,1-DIFLUORETHAAN (KOELGAS R 152A)"
+msgstr "1,1-DIFLUORETHAAN (KOUDEMIDDEL R 152a)"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_1959
 msgid "1,1-DIFLUOROETHYLENE (REFRIGERANT GAS R 1132a)"
-msgstr "1,1-DIFLUORETHYLEEN (1,1-DIFLUORETHEEN) (KOELGAS R 1132A)"
+msgstr "1,1-DIFLUORETHYLEEN (KOUDEMIDDEL R 1132a)"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_2377
 msgid "1,1-DIMETHOXYETHANE"
-msgstr "1,1-DIMETHOXYETHAAN"
+msgstr "1,1-DIMETHOXY-ETHAAN"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_2498
@@ -69,7 +70,7 @@ msgstr "1,2,3,6-TETRAHYDROBENZALDEHYDE"
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_2410
 msgid "1,2,3,6-TETRAHYDROPYRIDINE"
-msgstr ""
+msgstr "1,2,3,6-TETRAHYDROPYRIDINE"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_3022
@@ -79,17 +80,17 @@ msgstr "1,2-BUTYLEENOXIDE, GESTABILISEERD"
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_2372
 msgid "1,2-DI-(DIMETHYLAMINO) ETHANE"
-msgstr "1,2-BIS-(DIMETHYLAMINO)-ETHAAN"
+msgstr "1,2-DI-(DIMETHYLAMINO)ETHAAN"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_2648
 msgid "1,2-DIBROMOBUTAN-3-ONE"
-msgstr "1,2-DIBROOMBUTANON-3"
+msgstr "1,2-DIBROOMBUTAAN-3-ON"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_1958
 msgid "1,2-DICHLORO-1,1,2,2-TETRAFLUOROETHANE (REFRIGERANT GAS R 114)"
-msgstr "1,2-DICHLOOR-1,1,2,2-TETRAFLUORETHAAN (KOELGAS R 114)"
+msgstr "1,2-DICHLOOR-1,1,2,2-TETRAFLUORETHAAN (KOUDEMIDDEL R 114)"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_1150
@@ -99,12 +100,12 @@ msgstr "1,2-DICHLOORETHYLEEN"
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_1279
 msgid "1,2-DICHLOROPROPANE"
-msgstr "1,2-DICHLOORPROPAAN (PROPYLEENDICHLORIDE)"
+msgstr "1,2-DICHLOORPROPAAN"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_2252
 msgid "1,2-DIMETHOXYETHANE"
-msgstr "1,2-DIMETHOXYETHAAN"
+msgstr "1,2-DIMETHOXY-ETHAAN"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_2752
@@ -119,7 +120,7 @@ msgstr "1,2-PROPYLEENDIAMINE"
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_2325
 msgid "1,3,5-TRIMETHYLBENZENE"
-msgstr "1,3,5-TRIMETHYLBENZEEN (mesityleen)"
+msgstr "1,3,5-TRIMETHYLBENZEEN"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_2649
@@ -129,17 +130,17 @@ msgstr "1,3-DICHLOORACETON"
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_2750
 msgid "1,3-DICHLOROPROPANOL-2"
-msgstr "1,3-DICHLOORPROPANOL-2 (alfa-dichloorhydrine)"
+msgstr "1,3-DICHLOORPROPANOL-2"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_2379
 msgid "1,3-DIMETHYLBUTYLAMINE"
-msgstr ""
+msgstr "1,3-DIMETHYLBUTYLAMINE"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_2716
 msgid "1,4-BUTYNEDIOL"
-msgstr "BUTYNDIOL-1,4"
+msgstr "1,4-BUTYNDIOL"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_2518
@@ -159,37 +160,37 @@ msgstr "1-BROOM-3-METHYLBUTAAN"
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_1126
 msgid "1-BROMOBUTANE"
-msgstr "1-BROOMBUTAAN (n-butylbromide)"
+msgstr "1-BROOMBUTAAN"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_2517
 msgid "1-CHLORO-1,1-DIFLUOROETHANE (REFRIGERANT GAS R 142b)"
-msgstr "1-CHLOOR-1,1-DIFLUORETHAAN (KOELGAS R 142B)"
+msgstr "1-CHLOOR-1,1-DIFLUORETHAAN (KOUDEMIDDEL R 142b)"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_1021
 msgid "1-CHLORO-1,2,2,2-TETRAFLUOROETHANE (REFRIGERANT GAS R 124)"
-msgstr "1-CHLOOR-1,2,2,2-TETRAFLUORETHAAN (KOELGAS R 124)"
+msgstr "1-CHLOOR-1,2,2,2-TETRAFLUORETHAAN (KOUDEMIDDEL R 124)"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_1983
 msgid "1-CHLORO-2,2,2-TRIFLUOROETHANE (REFRIGERANT GAS R 133a)"
-msgstr "1-CHLOOR-2,2,2-TRIFLUORETHAAN (KOELGAS R 133A)"
+msgstr "1-CHLOOR-2,2,2-TRIFLUORETHAAN (KOUDEMIDDEL R 133a)"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_1278
 msgid "1-CHLOROPROPANE"
-msgstr "1-CHLOORPROPAAN (propylchloride)"
+msgstr "1-CHLOORPROPAAN"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_2386
 msgid "1-ETHYLPIPERIDINE"
-msgstr ""
+msgstr "1-ETHYLPIPERIDINE"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_2370
 msgid "1-HEXENE"
-msgstr "HEXEEN-1"
+msgstr "1-HEXEEN"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_0508
@@ -197,38 +198,38 @@ msgid ""
 "1-HYDROXY-BENZOTRIAZOLE, ANHYDROUS, dry or wetted with less than 20% water, "
 "by mass"
 msgstr ""
-"1-HYDROXYBENZOTRIAZOL, WATERVRIJ, droog of bevochtigd met minder dan 20 "
+"1-HYDROXYBENZOTRIAZOOL, WATERVRIJ, droog of bevochtigd met minder dan 20 "
 "massa-% water"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_3092
 msgid "1-METHOXY-2-PROPANOL"
-msgstr ""
+msgstr "1-METHOXY-2-PROPANOL"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_2399
 msgid "1-METHYLPIPERIDINE"
-msgstr ""
+msgstr "1-METHYLPIPERIDINE"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_1108
 msgid "1-PENTENE (n-AMYLENE)"
-msgstr "PENTEEN-1 (n-AMYLEEN)"
+msgstr "1-PENTEEN (n-AMYLEEN)"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_2705
 msgid "1-PENTOL"
-msgstr "1-PENTOL (3-methylpenteen-2-yn-4-ol-1)"
+msgstr "1-PENTOL"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_0504
 msgid "1H-TETRAZOLE"
-msgstr "1H-TETRAZOL"
+msgstr "1H-TETRAZOOL"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_3474
 msgid "1‑HYDROXYBENZOTRIAZOLE MONOHYDRATE"
-msgstr "1-HYDROXYBENZOTRIAZOL-MONOHYDRAAT"
+msgstr "1-HYDROXYBENZOTRIAZOOL-MONOHYDRAAT"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_3371
@@ -238,7 +239,7 @@ msgstr "2-METHYLBUTANAL"
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_1916
 msgid "2,2'-DICHLORODIETHYL ETHER"
-msgstr "2,2'-DICHLOORDIETHYLETHER"
+msgstr "2,2'-DICHLOORDI-ETHYLETHER"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_2044
@@ -248,7 +249,7 @@ msgstr "2,2-DIMETHYLPROPAAN"
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_2376
 msgid "2,3-DIHYDROPYRAN"
-msgstr ""
+msgstr "2,3-DIHYDROPYRAAN"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_2457
@@ -258,17 +259,17 @@ msgstr "2,3-DIMETHYLBUTAAN"
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_3418
 msgid "2,4-TOLUYLENEDIAMINE SOLUTION"
-msgstr "2,4-TOLUEENDIAMINE, OPLOSSING"
+msgstr "2,4-TOLUYLEENDIAMINE, OPLOSSING"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_1709
 msgid "2,4-TOLUYLENEDIAMINE, SOLID"
-msgstr "2,4-TOLUEENDIAMINE, VAST"
+msgstr "2,4-TOLUYLEENDIAMINE, VAST"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_3055
 msgid "2-(2-AMINOETHOXY)ETHANOL"
-msgstr ""
+msgstr "2-(2-AMINO-ETHOXY)ETHANOL"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_3317
@@ -283,7 +284,7 @@ msgstr "2-AMINO-4-CHLOORFENOL"
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_2946
 msgid "2-AMINO-5-DIETHYLAMINOPENTANE"
-msgstr "2-AMINO-5-DIETHYLAMINOPENTAAN"
+msgstr "2-AMINO-5-DI-ETHYLAMINOPENTAAN"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_3241
@@ -308,12 +309,12 @@ msgstr "2-BROOMPENTAAN"
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_2232
 msgid "2-CHLOROETHANAL"
-msgstr "2-CHLOORETHANAL (chlooracetaldehyde)"
+msgstr "2-CHLOORETHANAL"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_2356
 msgid "2-CHLOROPROPANE"
-msgstr "2-CHLOORPROPAAN (isopropylchloride)"
+msgstr "2-CHLOORPROPAAN"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_2456
@@ -323,7 +324,7 @@ msgstr "2-CHLOORPROPEEN"
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_2511
 msgid "2-CHLOROPROPIONIC ACID"
-msgstr "alfa-CHLOORPROPIONZUUR"
+msgstr "2-CHLOORPROPIONZUUR"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_2822
@@ -333,7 +334,7 @@ msgstr "2-CHLOORPYRIDINE"
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_2686
 msgid "2-DIETHYL-AMINOETHANOL"
-msgstr "2-DIETHYLAMINOETHANOL"
+msgstr "2-DI-ETHYLAMINO-ETHANOL"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_2378
@@ -343,27 +344,27 @@ msgstr "2-DIMETHYLAMINOACETONITRIL"
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_2051
 msgid "2-DIMETHYLAMINO-ETHANOL"
-msgstr "2-DIMETHYLAMINOETHANOL"
+msgstr "2-DIMETHYLAMINO-ETHANOL"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_3302
 msgid "2-DIMETHYLAMINOETHYL ACRYLATE"
-msgstr "2-DIMETHYLAMINOETHYLACRYLAAT"
+msgstr "2-DIMETHYLAMINO-ETHYLACRYLAAT"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_2522
 msgid "2-DIMETHYLAMINOETHYL METHACRYLATE"
-msgstr "2-DIMETHYLAMINOETHYLMETHACRYLAAT"
+msgstr "2-DIMETHYLAMINO-ETHYLMETHACRYLAAT"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_2273
 msgid "2-ETHYLANILINE"
-msgstr ""
+msgstr "2-ETHYLANILINE"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_2275
 msgid "2-ETHYLBUTANOL"
-msgstr ""
+msgstr "2-ETHYLBUTANOL"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_1177
@@ -373,7 +374,7 @@ msgstr "2-ETHYLBUTYLACETAAT"
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_1178
 msgid "2-ETHYLBUTYRALDEHYDE"
-msgstr ""
+msgstr "2-ETHYLBUTYRALDEHYDE"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_2748
@@ -383,7 +384,7 @@ msgstr "2-ETHYLHEXYLCHLOORFORMIAAT"
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_2276
 msgid "2-ETHYLHEXYLAMINE"
-msgstr ""
+msgstr "2-ETHYLHEXYLAMINE"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_2390
@@ -408,17 +409,17 @@ msgstr "2-METHYL-2-HEPTAANTHIOL"
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_2300
 msgid "2-METHYL-5-ETHYLPYRIDINE"
-msgstr ""
+msgstr "2-METHYL-5-ETHYLPYRIDINE"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_2301
 msgid "2-METHYLFURAN"
-msgstr ""
+msgstr "2-METHYLFURAAN"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_2560
 msgid "2-METHYLPENTAN-2-OL"
-msgstr "2-METHYLPENTANOL-2"
+msgstr "2-METHYLPENTAAN-2-OL"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_2942
@@ -428,12 +429,12 @@ msgstr "2-TRIFLUORMETHYLANILINE"
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_2269
 msgid "3,3'-IMINODIPROPYLAMINE"
-msgstr "3,3'-IMINOBISPROPYLAMINE (dipropyleentriamine)"
+msgstr "3,3'-IMINODIPROPYLAMINE"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_2374
 msgid "3,3-DIETHOXYPROPENE"
-msgstr "3,3-DIETHOXYPROPEEN"
+msgstr "3,3-DI-ETHOXYPROPEEN"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_2345
@@ -443,7 +444,7 @@ msgstr "3-BROOMPROPYN"
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_2236
 msgid "3-CHLORO-4-METHYLPHENYL ISOCYANATE, LIQUID"
-msgstr "3-CHLOOR-4-METHYLFENYLISO- CYANAAT, VLOEIBAAR"
+msgstr "3-CHLOOR-4-METHYLFENYLISOCYANAAT, VLOEIBAAR"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_3428
@@ -458,12 +459,12 @@ msgstr "3-CHLOORPROPANOL-1"
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_2684
 msgid "3-DIETHYLAMINO-PROPYLAMINE"
-msgstr "3-(DIETHYLAMINO)-PROPYLAMINE"
+msgstr "3-DI-ETHYLAMINOPROPYLAMINE"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_2561
 msgid "3-METHYL-1-BUTENE"
-msgstr "3-METHYL-1-BUTEEN (isoamyleen-1) (isopropylethyleen)"
+msgstr "3-METHYL-1-BUTEEN"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_2397
@@ -488,12 +489,12 @@ msgstr "4,4'-DIAMINODIFENYLMETHAAN"
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_3410
 msgid "4-CHLORO-o-TOLUIDINE HYDROCHLORIDE  SOLUTION"
-msgstr "4-CHLOOR-o-TOLUIDINE-HYDROCHLORIDE, OPLOSSING"
+msgstr "4-CHLOOR-o-TOLUÏDINEHYDROCHLORIDE, OPLOSSING"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_1579
 msgid "4-CHLORO-o-TOLUIDINE HYDROCHLORIDE, SOLID"
-msgstr "4-CHLOOR-o-TOLUIDINEHYDROCHLORIDE, VAST"
+msgstr "4-CHLOOR-o-TOLUÏDINEHYDROCHLORIDE, VAST"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_2293
@@ -513,12 +514,12 @@ msgstr "4-NITROFENYLHYDRAZINE, met ten minste 30 massa-% water"
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_2785
 msgid "4-THIAPENTANAL"
-msgstr "4-THIAPENTANAL [3-(methylthio)propanal]"
+msgstr "4-THIAPENTANAL"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_0448
 msgid "5-MERCAPTOTETRAZOL-1-ACETIC ACID"
-msgstr "5-MERCAPTOTETRAZOL-1-AZIJNZUUR"
+msgstr "5-MERCAPTOTETRAZOOL-1-AZIJNZUUR"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_2302
@@ -528,63 +529,62 @@ msgstr "5-METHYLHEXAAN-2-ON"
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_0385
 msgid "5-NITROBENZOTRIAZOL"
-msgstr ""
+msgstr "5-NITROBENZOTRIAZOOL"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_2956
 msgid "5-tert-BUTYL-2,4,6-TRINITRO-m-XYLENE (MUSK XYLENE)"
-msgstr "5-tert-BUTYL-2,4,6-TRINITRO-m-XYLEEN (MUSKUS-XYLEEN)"
+msgstr "5-tert-BUTYL-2,4,6-TRINITRO-m-XYLEEN (MUSK XYLEEN)"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_2940
 msgid "9-PHOSPHABICYCLO-NONANES (CYCLOOCTADIENE PHOSPHINES)"
-msgstr "9-FOSFABICYCLONONANEN (CYCLOOCTADIEENFOSFINEN)"
+msgstr "9-FOSFABICYCLONONANEN (CYCLOOCTADIËENFOSFINES)"
 
 #. module: l10n_eu_product_adr
 #: model:ir.model.constraint,message:l10n_eu_product_adr.constraint_adr_class_code_unique
 msgid "A dangerous goods class with this code already exists"
-msgstr "Een gevaarlijke-goederenklasse met deze code bestaat al"
+msgstr "Er bestaat al een gevaarlijke goederen-klasse met deze code"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_1088
 msgid "ACETAL"
-msgstr "ACETAL (1,1-diethoxyethaan)"
+msgstr "ACETAAL"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_1089
 msgid "ACETALDEHYDE"
-msgstr "ACEETALDEHYDE (ethanal)"
+msgstr "ACETALDEHYDE"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_1841
 msgid "ACETALDEHYDE AMMONIA"
-msgstr "ACEETALDEHYDEAMMONIAK"
+msgstr "ACETALDEHYDE-AMMONIAK"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_2332
 msgid "ACETALDEHYDE OXIME"
-msgstr "ACETALDOXIME"
+msgstr "ACETALDEHYDEOXIM"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_2790_5L
 msgid "ACETIC ACID SOLUTION, more than 10% and less than 50% acid, by mass"
 msgstr ""
-"AZIJNZUUR, OPLOSSING, met meer dan 10 massa-%, maar minder dan 50 massa-% "
-"zuur"
+"AZIJNZUUR, OPLOSSING met meer dan 10 massa-% doch minder dan 50 massa-% zuur"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_2790_1L
 msgid ""
 "ACETIC ACID SOLUTION, not less than 50% but not more than 80% acid, by mass"
 msgstr ""
-"AZIJNZUUR, OPLOSSING met ten minste 50 massa-% en niet meer dan 80 massa-% "
+"AZIJNZUUR, OPLOSSING met ten minste 50 massa-% doch niet meer dan 80 massa-% "
 "zuur"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_2789
 msgid ""
 "ACETIC ACID, GLACIAL or ACETIC ACID SOLUTION, more than 80% acid, by mass"
-msgstr "IJSAZIJN of AZIJNZUUR, OPLOSSING met meer dan 80 massa-% zuur"
+msgstr "AZIJNZUUR, IJSVRIJ of AZIJNZUUR, OPLOSSING met meer dan 80 massa-% zuur"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_1715
@@ -609,7 +609,7 @@ msgstr "ACETONOLIËN"
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_1648
 msgid "ACETONITRILE"
-msgstr "ACETONITRIL (methylcyanide)"
+msgstr "ACETONITRIL"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_1716
@@ -624,7 +624,7 @@ msgstr "ACETYLCHLORIDE"
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_1898
 msgid "ACETYL IODIDE"
-msgstr "ACETYLJODIDE"
+msgstr "ACETYLJOODIDE"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_2621
@@ -634,27 +634,27 @@ msgstr "ACETYLMETHYLCARBINOL"
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_1001
 msgid "ACETYLENE, DISSOLVED"
-msgstr "ACETYLEEN, OPGELOST (ETHYN, OPGELOST)"
+msgstr "ACETYLEEN, OPGELOST"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_3374
 msgid "ACETYLENE, SOLVENT FREE"
-msgstr "ACETYLEEN, OPLOSMIDDELVRIJ (ETHYN, OPLOSMIDDELVRIJ)"
+msgstr "ACETYLEEN, ZONDER OPLOSMIDDEL"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_2713
 msgid "ACRIDINE"
-msgstr ""
+msgstr "ACRIDINE"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_2607
 msgid "ACROLEIN DIMER, STABILIZED"
-msgstr "ACROLEINE DIMEER, GESTABILISEERD"
+msgstr "ACROLEÏNEDIMEER, GESTABILISEERD"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_1092
 msgid "ACROLEIN, STABILIZED"
-msgstr "ACROLEINE, GESTABILISEERD"
+msgstr "ACROLEÏNE, GESTABILISEERD"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_3426
@@ -674,12 +674,12 @@ msgstr "ACRYLZUUR, GESTABILISEERD"
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_1093
 msgid "ACRYLONITRILE, STABILIZED"
-msgstr "ACRYLNITRIL, GESTABILISEERD"
+msgstr "ACRYLONITRIL, GESTABILISEERD"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_1133_F1_3_500ml_P001_1
 msgid "ADHESIVES containing flammable liquid"
-msgstr "LIJMEN, met brandbare vloeistof"
+msgstr "KLEEFSTOFFEN die brandbare vloeistof bevatten"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_1133_F1_3_5L_P001/R001_3
@@ -687,8 +687,8 @@ msgid ""
 "ADHESIVES containing flammable liquid (having a flash-point below 23 °C and "
 "viscous according to 2.2.3.1.4) (vapour pressure at 50 °C more than 110 kPa)"
 msgstr ""
-"LIJMEN, met brandbare vloeistof (met een vlampunt lager dan 23 °C en viskeus "
-"volgens 2.2.3.1.4) (dampspanning bij 50 °C hoger dan 110 kPa)"
+"KLEEFSTOFFEN die brandbare vloeistof bevatten (met een vlampunt lager dan 23 "
+"°C en viskeus volgens 2.2.3.1.4) (dampspanning bij 50 °C meer dan 110 kPa)"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_1133_F1_3_5L_P001/IBC02/R001_3
@@ -697,8 +697,9 @@ msgid ""
 "viscous according to 2.2.3.1.4) (vapour pressure at 50 °C not more than 110 "
 "kPa)"
 msgstr ""
-"LIJMEN, met brandbare vloeistof (met een vlampunt lager dan 23 °C en viskeus "
-"volgens 2.2.3.1.4) (dampspanning bij 50 °C niet hoger dan 110 kPa)"
+"KLEEFSTOFFEN die brandbare vloeistof bevatten (met een vlampunt lager dan 23 "
+"°C en viskeus volgens 2.2.3.1.4) (dampspanning bij 50 °C niet meer dan 110 "
+"kPa)"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_1133_F1_3_5L_P001/IBC03/LP01/R001_3
@@ -707,7 +708,9 @@ msgstr ""
 msgid ""
 "ADHESIVES containing flammable liquid (vapour pressure at 50 °C more than110 "
 "kPa)"
-msgstr "LIJMEN, met brandbare vloeistof"
+msgstr ""
+"KLEEFSTOFFEN die brandbare vloeistof bevatten (dampspanning bij 50 °C meer "
+"dan 110 kPa)"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_2205
@@ -718,23 +721,23 @@ msgstr "ADIPONITRIL"
 #: model:ir.model.fields,field_description:l10n_eu_product_adr.field_adr_label__goods_ids
 #: model:res.groups.privilege,name:l10n_eu_product_adr.res_groups_privilege_adr_goods
 msgid "ADR Goods"
-msgstr ""
+msgstr "ADR-goederen"
 
 #. module: l10n_eu_product_adr
 #: model:res.groups,name:l10n_eu_product_adr.group_adr_goods_admin
 msgid "ADR Goods Administrator"
-msgstr ""
+msgstr "Beheerder ADR-goederen"
 
 #. module: l10n_eu_product_adr
 #: model:res.groups,name:l10n_eu_product_adr.group_adr_goods_user
 msgid "ADR Goods User"
-msgstr ""
+msgstr "Gebruiker ADR-goederen"
 
 #. module: l10n_eu_product_adr
 #: model:ir.model.fields,field_description:l10n_eu_product_adr.field_stock_move__adr_points
 #: model:ir.model.fields,field_description:l10n_eu_product_adr.field_stock_picking__adr_points
 msgid "ADR Points"
-msgstr "ADR Punten"
+msgstr "ADR-punten"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_3510
@@ -844,7 +847,7 @@ msgstr "SPUITBUSSEN (AËROSOLEN), giftig, oxiderend, bijtend"
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_1002
 msgid "AIR, COMPRESSED"
-msgstr "LUCHT, SAMENGEPERST (PERSLUCHT)"
+msgstr "LUCHT, SAMENGEPERST"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_1003
@@ -857,13 +860,13 @@ msgid ""
 "AIRCRAFT HYDRAULIC POWER UNIT FUEL TANK (containing a mixture of anhydrous "
 "hydrazine and methylhydrazine) (M86 fuel)"
 msgstr ""
-"BRANDSTOFRESERVOIR VOOR HYDRAULISCH AGGREGAAT VOOR VLIEGTUIGEN (dat een "
-"mengsel van methylhydrazine en watervrije hydrazine bevat) (M86 brandstof)"
+"BRANDSTOFTANK VOOR HYDRAULISCH AGGREGAAT VAN LUCHTVAARTUIG (bevat een "
+"mengsel van watervrije hydrazine en methylhydrazine) (M86 brandstof)"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_3274
 msgid "ALCOHOLATES SOLUTION, N.O.S., in alcohol"
-msgstr "ALCOHOLATEN, OPLOSSING in alcohol, N.E.G."
+msgstr "ALCOHOLATEN, OPLOSSING, N.E.G., in alcohol"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_3065_F1_3_144/145/247_5L_P001/IBC03/R001_3
@@ -871,13 +874,13 @@ msgid ""
 "ALCOHOLIC BEVERAGES, with more than 24% but not more than 70% alcohol by "
 "volume"
 msgstr ""
-"ALCOHOLISCHE DRANKEN met meer dan 24 volume-% en niet meer dan 70 volume-% "
-"alcohol"
+"ALCOHOLISCHE DRANKEN, met meer dan 24 volume-% doch niet meer dan 70 volume-"
+"% alcohol"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_3065_F1_3_5L_P001/IBC02/R001_2
 msgid "ALCOHOLIC BEVERAGES, with more than 70% alcohol by volume"
-msgstr "ALCOHOLISCHE DRANKEN met meer dan 70 volume-% alcohol"
+msgstr "ALCOHOLISCHE DRANKEN, met meer dan 70 volume-% alcohol"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_1986
@@ -894,12 +897,12 @@ msgstr "ALCOHOLEN, N.E.G."
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_1987_F1_3_274/601/640C_1L_P001_2
 msgid "ALCOHOLS, N.O.S. (vapour pressure at 50 °C more than 110 kPa)"
-msgstr "ALCOHOLEN, N.E.G. (dampspanning bij 50 °C hoger dan 110 kPa)"
+msgstr "ALCOHOLEN, N.E.G. (dampspanning bij 50 °C meer dan 110 kPa)"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_1987_F1_3_274/601/640D_1L_P001/IBC02/R001_2
 msgid "ALCOHOLS, N.O.S. (vapour pressure at 50 °C not more than 110 kPa)"
-msgstr "ALCOHOLEN, N.E.G. (dampspanning bij 50 °C niet hoger dan 110 kPa)"
+msgstr "ALCOHOLEN, N.E.G. (dampspanning bij 50 °C niet meer dan 110 kPa)"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_1988
@@ -917,39 +920,38 @@ msgstr "ALDEHYDEN, N.E.G."
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_1989_F1_3_274/640C_1L_P001_2
 msgid "ALDEHYDES, N.O.S. (vapour pressure at 50 °C more than 110 kPa)"
-msgstr "ALDEHYDEN, N.E.G. (dampspanning bij 50 °C hoger dan 110 kPa)"
+msgstr "ALDEHYDEN, N.E.G. (dampspanning bij 50 °C meer dan 110 kPa)"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_1989_F1_3_274/640D_1L_P001/IBC02/R001_2
 msgid "ALDEHYDES, N.O.S. (vapour pressure at 50 °C not more than 110 kPa)"
-msgstr "ALDEHYDEN, N.E.G. (dampspanning bij 50 °C niet hoger dan 110 kPa)"
+msgstr "ALDEHYDEN, N.E.G. (dampspanning bij 50 °C niet meer dan 110 kPa)"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_2839
 msgid "ALDOL"
-msgstr "ALDOL (BETA-HYDROXYBUTYRALDEHYDE)"
+msgstr "ALDOL"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_3206_SC4_4dot2/8_182/274_P002/IBC08/R001_3
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_3206_SC4_4dot2/8_182/274_P410/IBC05_2
 msgid "ALKALI METAL ALCOHOLATES, SELF-HEATING, CORROSIVE, N.O.S."
-msgstr ""
-"ALCOHOLATEN VAN ALKALIMETALEN, VOOR ZELFVERHITTING VATBAAR, BIJTEND, N.E.G."
+msgstr "ALKLAIMETAALALCOHOLATEN, VOOR ZELFVERHITTING VATBAAR, BIJTEND, N.E.G."
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_1421
 msgid "ALKALI METAL ALLOY, LIQUID, N.O.S."
-msgstr "LEGERING VAN ALKALIMETALEN, VLOEIBAAR, N.E.G."
+msgstr "ALKALIMETAALLEGERING, VLOEIBAAR, N.E.G."
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_1389
 msgid "ALKALI METAL AMALGAM, LIQUID"
-msgstr "AMALGAAM VAN ALKALIMETALEN, VLOEIBAAR"
+msgstr "ALKALIMETAALAMALGAAM, VLOEIBAAR"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_3401
 msgid "ALKALI METAL AMALGAM, SOLID"
-msgstr "AMALGAAM VAN ALKALIMETALEN, VAST"
+msgstr "ALKALIMETAALAMALGAAM, VAST"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_1390
@@ -959,7 +961,7 @@ msgstr "ALKALIMETAALAMIDEN"
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_1391
 msgid "ALKALI METAL DISPERSION or ALKALINE EARTH METAL DISPERSION"
-msgstr "DISPERSIE VAN AARDALKALI- METALEN of DISPERSIE VAN ALKALIMETALEN"
+msgstr "ALKALIMETAALDISPERSIE of AARDALKALIMETAALDISPERSIE"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_3482
@@ -967,58 +969,56 @@ msgid ""
 "ALKALI METAL DISPERSION, FLAMMABLE or ALKALINE EARTH METAL DISPERSION, "
 "FLAMMABLE"
 msgstr ""
-"DISPERSIE VAN ALKALIMETALEN, BRANDBAAR of DISPERSIE VAN AARDALKALIMETALEN, "
-"BRANDBAAR"
+"ALKALIMETAALDISPERSIE, BRANDBAAR of AARDALKALIMETAALDISPERSIE, BRANDBAAR"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_3402
 msgid "ALKALINE  EARTH METAL AMALGAM, SOLID"
-msgstr "AMALGAAM VAN AARDALKALIMETALEN, VAST"
+msgstr "AARDALKALIMETAALAMALGAAM, VAST"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_3205_S4_4dot2_183/274_P002/IBC08/LP02/R001_3
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_3205_S4_4dot2_183/274_P410/IBC06_2
 msgid "ALKALINE EARTH METAL ALCOHOLATES, N.O.S."
-msgstr "ALCOHOLATEN VAN AARDALKALIMETALEN, N.E.G."
+msgstr "AARDALKALIMETAALALCOHOLATEN, N.E.G."
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_1393
 msgid "ALKALINE EARTH METAL ALLOY, N.O.S."
-msgstr "LEGERING VAN AARDALKALIMETALEN, N.E.G."
+msgstr "AARDALKALIMETAALLEGERING, N.E.G."
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_1392
 msgid "ALKALINE EARTH METAL AMALGAM, LIQUID"
-msgstr "AMALGAAM VAN AARDALKALI- METALEN, VLOEIBAAR"
+msgstr "AARDALKALIMETAALAMALGAAM, VLOEIBAAR"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_3140
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_3140_100ml
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_3140_5L
 msgid "ALKALOIDS, LIQUID, N.O.S. or ALKALOID SALTS, LIQUID, N.O.S."
-msgstr "ALKALOÏDEN, VLOEIBAAR, N.E.G. of ALKALOÏDEZOUTEN, VLOEIBAAR, N.E.G."
+msgstr "ALKALOÏDEN, VLOEIBAAR, N.E.G. of ALKALOÏDZOUTEN, VLOEIBAAR, N.E.G."
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_1544
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_1544_500g
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_1544_5kg
 msgid "ALKALOIDS, SOLID, N.O.S. or ALKALOID SALTS, SOLID, N.O.S."
-msgstr "ALKALOÏDEN, VAST, N.E.G. of ALKALOÏDEZOUTEN, VAST, N.E.G."
+msgstr "ALKALOÏDEN, VAST, N.E.G. of ALKALOÏDZOUTEN, VAST, N.E.G."
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_3145
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_3145_1L
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_3145_5L
 msgid "ALKYLPHENOLS, LIQUID, N.O.S. (including C2-C12 homologues)"
-msgstr ""
-"ALKYLFENOLEN, VLOEIBAAR, N.E.G. (met inbegrip van de C2 tot C12 homologen)"
+msgstr "ALKYLFENOLEN, VLOEIBAAR, N.E.G. (inclusief C2-C12 homologen)"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_2430
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_2430_1kg
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_2430_5kg
 msgid "ALKYLPHENOLS, SOLID, N.O.S. (including C2-C12 homologues)"
-msgstr "ALKYLFENOLEN, VAST, N.E.G. (met inbegrip van de C2 tot C12 homologen)"
+msgstr "ALKYLFENOLEN, VAST, N.E.G. (inclusief C2-C12 homologen)"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_2584
@@ -1026,7 +1026,7 @@ msgid ""
 "ALKYLSULPHONIC ACIDS, LIQUID or ARYLSULPHONIC ACIDS, LIQUID with more than "
 "5% free sulphuric acid"
 msgstr ""
-"ALKYLSULFONZUREN, VLOEIBAAR of ARYLSULFONZUREN, VLOEIBAAR, met meer dan 5 % "
+"ALKYLSULFONZUREN, VLOEIBAAR of ARYLSULFONZUREN, VLOEIBAAR met meer dan 5% "
 "vrij zwavelzuur"
 
 #. module: l10n_eu_product_adr
@@ -1035,8 +1035,8 @@ msgid ""
 "ALKYLSULPHONIC ACIDS, LIQUID or ARYLSULPHONIC ACIDS, LIQUID with not more "
 "than 5% free sulphuric acid"
 msgstr ""
-"ALKYLSULFONZUREN, VLOEIBAAR of ARYLSULFONZUREN, VLOEIBAAR, met niet meer dan "
-"5 % vrij zwavelzuur"
+"ALKYLSULFONZUREN, VLOEIBAAR of ARYLSULFONZUREN, VLOEIBAAR met ten hoogste 5% "
+"vrij zwavelzuur"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_2583
@@ -1044,7 +1044,7 @@ msgid ""
 "ALKYLSULPHONIC ACIDS, SOLID or ARYLSULPHONIC ACIDS, SOLID with more than 5% "
 "free sulphuric acid"
 msgstr ""
-"ALKYLSULFONZUREN, VAST of ARYLSULFONZUREN, VAST, met meer dan 5 % vrij "
+"ALKYLSULFONZUREN, VAST of ARYLSULFONZUREN, VAST met meer dan 5% vrij "
 "zwavelzuur"
 
 #. module: l10n_eu_product_adr
@@ -1053,7 +1053,7 @@ msgid ""
 "ALKYLSULPHONIC ACIDS, SOLID or ARYLSULPHONIC ACIDS, SOLID with not more than "
 "5% free sulphuric acid"
 msgstr ""
-"ALKYLSULFONZUREN, VAST of ARYLSULFONZUREN, VAST, met niet meer dan 5 % vrij "
+"ALKYLSULFONZUREN, VAST of ARYLSULFONZUREN, VAST met ten hoogste 5% vrij "
 "zwavelzuur"
 
 #. module: l10n_eu_product_adr
@@ -1104,7 +1104,7 @@ msgstr "ALLYLGLYCIDYLETHER"
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_1723
 msgid "ALLYL IODIDE"
-msgstr "ALLYLJODIDE"
+msgstr "ALLYLJOODIDE"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_1545
@@ -1114,7 +1114,7 @@ msgstr "ALLYLISOTHIOCYANAAT, GESTABILISEERD"
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_2334
 msgid "ALLYLAMINE"
-msgstr ""
+msgstr "ALLYLAMINE"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_1724
@@ -1179,19 +1179,19 @@ msgstr "ALUMINIUMFOSFIDE"
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_3048
 msgid "ALUMINIUM PHOSPHIDE PESTICIDE"
-msgstr "ALUMINIUMFOSFIDE, PESTICIDE"
+msgstr "ALUMINIUMFOSFIDE BESTRIJDINGSMIDDEL"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_1309_1kg
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_1309_5kg
 msgid "ALUMINIUM POWDER, COATED"
-msgstr "ALUMINIUMPOEDER, GECOAT"
+msgstr "ALUMINIUMPOEDER, BEKLEED"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_1396_1kg
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_1396_500g
 msgid "ALUMINIUM POWDER, UNCOATED"
-msgstr "ALUMINIUMPOEDER, NIET GECOAT"
+msgstr "ALUMINIUMPOEDER, NIET-BEKLEED"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_2715
@@ -1201,15 +1201,13 @@ msgstr "ALUMINIUMRESINAAT"
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_1398
 msgid "ALUMINIUM SILICON POWDER, UNCOATED"
-msgstr "ALUMINIUMSILICIUMPOEDER, NIET GECOAT"
+msgstr "ALUMINIUMSILICIUMPOEDER, NIET-BEKLEED"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_3170_1kg
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_3170_500g
 msgid "ALUMINIUM SMELTING BY-PRODUCTS or ALUMINIUM REMELTING BY-PRODUCTS"
-msgstr ""
-"BIJPRODUCTEN VAN DE ALUMINIUMFABRICAGE of BIJPRODUCTEN VAN HET OMSMELTEN VAN "
-"ALUMININIUM"
+msgstr "ALUMINIUMSMELTBIJPRODUCTEN of ALUMINIUMHERSMELTBIJPRODUCTEN"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_2733
@@ -1264,8 +1262,8 @@ msgid ""
 "AMMONIA SOLUTION, relative density between 0.880 and 0.957 at 15 °C in "
 "water, with more than 10% but not more than 35% ammonia"
 msgstr ""
-"AMMONIAK, OPLOSSING in water, met een densiteit bij 15 °C tussen 0,880 en "
-"0,957 en met meer dan 10 % maar niet meer dan 35 % ammoniak"
+"AMMONIAK, OPLOSSING in water, met een relatieve dichtheid tussen 0,880 en "
+"0,957 bij 15 °C, met meer dan 10% doch niet meer dan 35% ammoniak"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_2073
@@ -1273,8 +1271,8 @@ msgid ""
 "AMMONIA SOLUTION, relative density less than 0.880 at 15  °C  in water, with "
 "more than 35% but not more than 50% ammonia"
 msgstr ""
-"AMMONIAK, OPLOSSING in water, met een densiteit bij 15 °C lager dan 0,880, "
-"die meer dan 35 % maar niet meer dan 50 % ammoniak bevat"
+"AMMONIAK, OPLOSSING in water, met een relatieve dichtheid van minder dan "
+"0,880 bij 15 °C, met meer dan 35% doch niet meer dan 50% ammoniak"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_3318
@@ -1282,8 +1280,8 @@ msgid ""
 "AMMONIA SOLUTION, relative density less than 0.880 at 15 °C in water, with "
 "more than 50% ammonia"
 msgstr ""
-"AMMONIAK, OPLOSSING in water, met een densiteit bij 15 °C lager dan 0.880, "
-"die meer dan 50 % ammoniak bevat"
+"AMMONIAK, OPLOSSING in water, met een relatieve dichtheid van minder dan "
+"0,880 bij 15 °C, met meer dan 50% ammoniak"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_1005
@@ -1319,23 +1317,23 @@ msgstr "AMMONIUMFLUORIDE"
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_2854
 msgid "AMMONIUM FLUOROSILICATE"
-msgstr "AMMONIUMFLUOROSILICAAT"
+msgstr "AMMONIUMFLUORSILICAAT"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_2506
 msgid "AMMONIUM HYDROGEN SULPHATE"
-msgstr "AMMONIUMWATERSTOFSULFAAT (ammoniumbisulfaat)"
+msgstr "AMMONIUMWATERSTOFSULFAAT"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_2817_1L
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_2817_5L
 msgid "AMMONIUM HYDROGENDIFLUORIDE SOLUTION"
-msgstr "AMMONIUMWATERSTOFDIFLUORIDE, OPLOSSING (ammoniumbifluoride, oplossing)"
+msgstr "AMMONIUMWATERSTOFDIFLUORIDE, OPLOSSING"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_1727
 msgid "AMMONIUM HYDROGENDIFLUORIDE, SOLID"
-msgstr "AMMONIUMWATERSTOFDIFLUORIDE, VAST (ammoniumbifluoride, vast)"
+msgstr "AMMONIUMWATERSTOFDIFLUORIDE, VAST"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_2859
@@ -1345,15 +1343,12 @@ msgstr "AMMONIUMMETAVANADAAT"
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_0222
 msgid "AMMONIUM NITRATE"
-msgstr ""
-"AMMONIUMNITRAAT dat meer dan 0,2 % brandbare stoffen bevat (inclusief om het "
-"even welke organisch stof, berekend als koolstof), met uitzondering van elke "
-"andere stof"
+msgstr "AMMONIUMNITRAAT"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_2067
 msgid "AMMONIUM NITRATE BASED FERTILIZER"
-msgstr "AMMONIUMNITRAATHOUDENDE MESTSTOFFEN"
+msgstr "KUNSTMEST OP BASIS VAN AMMONIUMNITRAAT"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_2071
@@ -1364,9 +1359,11 @@ msgid ""
 "organic material calculated as carbon or with not more than 45% ammonium "
 "nitrate and unrestricted combustible material"
 msgstr ""
-"Ammoniumnitraathoudende meststoffen, homogene mengsels van het type stikstof/"
-"fosfaat, stikstof/kalium of stikstof/fosfaat/kalium : - met ten hoogste 70 % "
-"ammoniumnitraat en een totaal gehalte aan brandbare stoffen (inclu"
+"KUNSTMEST OP BASIS VAN AMMONIUMNITRAAT, homogene mengsels van het type "
+"stikstof/fosfaat, stikstof/kali of stikstof/fosfaat/kali, met niet meer dan "
+"70% ammoniumnitraat en niet meer dan 0,4% totaal brandbaar/organisch "
+"materiaal berekend als koolstof of met niet meer dan 45% ammoniumnitraat en "
+"onbeperkt brandbaar materiaal"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_3375_O1_5dot1_309_P505/IBC02_2
@@ -1374,8 +1371,8 @@ msgid ""
 "AMMONIUM NITRATE EMULSION or SUSPENSION or GEL, intermediate for blasting "
 "explosives, liquid"
 msgstr ""
-"AMMONIUMNITRAAT-EMULSIE of AMMONIUMNITRAAT-SUSPENSIE of AMMONIUMNITRAAT-GEL, "
-"die dient voor de vervaardiging van springstoffen, vloeibaar"
+"AMMONIUMNITRAAT-EMULSIE of SUSPENSIE of GEL, grondstof voor springstoffen, "
+"vloeibaar"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_3375_O2_5dot1_309_P505/IBC02_2
@@ -1383,8 +1380,8 @@ msgid ""
 "AMMONIUM NITRATE EMULSION or SUSPENSION or GEL, intermediate for blasting "
 "explosives, solid"
 msgstr ""
-"AMMONIUMNITRAAT-EMULSIE of AMMONIUMNITRAAT-SUSPENSIE of AMMONIUMNITRAAT-GEL, "
-"die dient voor de vervaardiging van springstoffen, vast"
+"AMMONIUMNITRAAT-EMULSIE of SUSPENSIE of GEL, grondstof voor springstoffen, "
+"vast"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_1942
@@ -1393,9 +1390,9 @@ msgid ""
 "any organic substance calculated as carbon, to the exclusion of any other "
 "added substance"
 msgstr ""
-"AMMONIUMNITRAAT dat in totaal niet meer dan 0,2 % brandbare stoffen bevat "
-"(inclusief om het even welke organische stof, berekend als koolstof), met "
-"uitzondering van elke andere stof"
+"AMMONIUMNITRAAT met ten hoogste 0,2% brandbare stoffen, met inbegrip van "
+"organische stoffen berekend als koolstof, onder uitsluiting van elke andere "
+"toegevoegde stof"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_2426
@@ -1403,8 +1400,8 @@ msgid ""
 "AMMONIUM NITRATE, LIQUID, hot concentrated solution, in a concentration of "
 "more than 80% but not more than 93%"
 msgstr ""
-"AMMONIUMNITRAAT, VLOEIBAAR, warme geconcentreerde oplossing met een "
-"concentratie van meer dan 80 % maar niet meer dan 93 %"
+"AMMONIUMNITRAAT, VLOEIBAAR, hete geconcentreerde oplossing, in een "
+"concentratie van meer dan 80% doch niet meer dan 93%"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_0402
@@ -1420,12 +1417,12 @@ msgstr "AMMONIUMPERSULFAAT"
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_0004_1dot1D_1_P112a/P112b/P112c_1
 msgid "AMMONIUM PICRATE dry or wetted with less than 10% water, by mass"
-msgstr "AMMONIUMPIKRAAT, droog of bevochtigd met minder dan 10 massa-% water"
+msgstr "AMMONIUMPICRAAT droog of bevochtigd met minder dan 10 massa-% water"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_1310
 msgid "AMMONIUM PICRATE, WETTED with not less than 10% water, by mass"
-msgstr "AMMONIUMPIKRAAT, BEVOCHTIGD met ten minste 10 massa-% water"
+msgstr "AMMONIUMPICRAAT, BEVOCHTIGD met ten minste 10 massa-% water"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_2818_1L
@@ -1450,9 +1447,7 @@ msgstr "AMMONIUMSULFIDE, OPLOSSING"
 msgid ""
 "AMMUNITION, ILLUMINATING with or without burster, expelling charge or "
 "propelling charge"
-msgstr ""
-"LICHTMUNITIE, met of zonder verspreidings-, uitstoot- of voortdrijvende "
-"lading"
+msgstr "MUNITIE, LICHTGEVEND met of zonder spring-, uitstoot- of drijflading"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_0009
@@ -1461,9 +1456,7 @@ msgstr ""
 msgid ""
 "AMMUNITION, INCENDIARY with or without burster, expelling charge or "
 "propelling charge"
-msgstr ""
-"BRANDMUNITIE, met of zonder verspreidings-, uitstoot- of voortdrijvende "
-"lading"
+msgstr "MUNITIE, BRANDSTICHEND met of zonder spring-, uitstoot- of drijflading"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_0243
@@ -1472,8 +1465,7 @@ msgid ""
 "AMMUNITION, INCENDIARY, WHITE PHOSPHORUS with burster, expelling charge or "
 "propelling charge"
 msgstr ""
-"BRANDMUNITIE, WITTE FOSFOR, met verspreidings-, uitstoot- of voortdrijvende "
-"lading"
+"MUNITIE, BRANDSTICHEND, WITTE FOSFOR met spring-, uitstoot- of drijflading"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_0247
@@ -1481,19 +1473,19 @@ msgid ""
 "AMMUNITION, INCENDIARY, liquid or gel, with burster, expelling charge or "
 "propelling charge"
 msgstr ""
-"BRANDMUNITIE, met vloeistof of gel, met verspreidings-, uitstoot- of "
-"voortdrijvende lading"
+"MUNITIE, BRANDSTICHEND, vloeibaar of als gel, met spring-, uitstoot- of "
+"drijflading"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_0362
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_0488
 msgid "AMMUNITION, PRACTICE"
-msgstr "OEFENMUNITIE"
+msgstr "MUNITIE, OEFEN-"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_0363
 msgid "AMMUNITION, PROOF"
-msgstr "MUNITIE VOOR BEPROEVINGEN"
+msgstr "MUNITIE, BEPROEVINGS-"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_0015_1dot2G_1_P130/LP101_1
@@ -1502,8 +1494,7 @@ msgstr "MUNITIE VOOR BEPROEVINGEN"
 msgid ""
 "AMMUNITION, SMOKE with or without burster, expelling charge or propelling "
 "charge"
-msgstr ""
-"ROOKMUNITIE, met of zonder verspreidings-, uitstoot- of voortdrijvende lading"
+msgstr "MUNITIE, ROOK met of zonder spring-, uitstoot- of drijflading"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_0303_1dot4G_1dot4/6dot1_P130/LP101_2
@@ -1511,8 +1502,8 @@ msgid ""
 "AMMUNITION, SMOKE with or without burster, expelling charge or propelling "
 "charge,  containing toxic by inhalation substances"
 msgstr ""
-"ROOKMUNITIE, met of zonder verspreidings-, uitstoot- of  voortdrijvende "
-"lading, bevat stoffen die giftig zijn bij het inademen"
+"MUNITIE, ROOK met of zonder spring-, uitstoot- of drijflading, bevattende "
+"bij inademing giftige stoffen"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_0015_1dot2G_1/8_P130/LP101_1
@@ -1522,8 +1513,8 @@ msgid ""
 "AMMUNITION, SMOKE with or without burster, expelling charge or propelling "
 "charge, containing corrosive substances"
 msgstr ""
-"ROOKMUNITIE, met of zonder verspreidings-, uitstoot- of voortdrijvende "
-"lading, bevat bijtende stoffen"
+"MUNITIE, ROOK met of zonder spring-, uitstoot- of drijflading, bevattende "
+"bijtende stoffen"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_0015_1dot2G_1/6dot1_P130/LP101_1
@@ -1532,8 +1523,8 @@ msgid ""
 "AMMUNITION, SMOKE with or without burster, expelling charge or propelling "
 "charge, containing toxic by inhalation substances"
 msgstr ""
-"ROOKMUNITIE, met of zonder verspreidings-, uitstoot- of voortdrijvende "
-"lading, bevat stoffen die giftig zijn bij het inademen"
+"MUNITIE, ROOK met of zonder spring-, uitstoot- of drijflading, bevattende "
+"bij inademing giftige stoffen"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_0245
@@ -1541,9 +1532,7 @@ msgstr ""
 msgid ""
 "AMMUNITION, SMOKE, WHITE PHOSPHORUS with burster, expelling charge or "
 "propelling charge"
-msgstr ""
-"ROOKMUNITIE, WITTE FOSFOR, met verspreidings-, uitstoot- of voortdrijvende "
-"lading"
+msgstr "MUNITIE, ROOK, WITTE FOSFOR met spring-, uitstoot- of drijflading"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_0018
@@ -1552,9 +1541,7 @@ msgstr ""
 msgid ""
 "AMMUNITION, TEAR-PRODUCING with burster, expelling charge or propelling "
 "charge"
-msgstr ""
-"TRAANVERWEKKENDE MUNITIE, met verspreidings-, uitstoot- of voortdrijvende "
-"lading"
+msgstr "MUNITIE, TRAANVERWEKKEND met spring-, uitstoot- of drijflading"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_2017
@@ -1562,15 +1549,14 @@ msgid ""
 "AMMUNITION, TEAR-PRODUCING, NON-EXPLOSIVE without burster or expelling "
 "charge, non-fuzed"
 msgstr ""
-"MUNITIE, TRAANVERWEKKEND, NIET ONTPLOFBAAR, zonder verspreidingslading of "
-"uitstootlading en zonder ontsteker"
+"MUNITIE, TRAANVERWEKKEND, NIET-ONTPLOFBAAR zonder spring- of uitstootlading, "
+"zonder ontsteekinrichting"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_0020
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_0021
 msgid "AMMUNITION, TOXIC with burster, expelling charge or propelling charge"
-msgstr ""
-"MUNITIE, GIFTIG, met verspreidings-, uitstoot- of voortdrijvende lading"
+msgstr "MUNITIE, GIFTIG met spring-, uitstoot- of drijflading"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_2016
@@ -1578,8 +1564,8 @@ msgid ""
 "AMMUNITION, TOXIC, NON-EXPLOSIVE without burster or expelling charge, non-"
 "fuzed"
 msgstr ""
-"MUNITIE, GIFTIG, NIET ONTPLOFBAAR, zonder verspreidingslading of "
-"uitstootlading en zonder ontsteker"
+"MUNITIE, GIFTIG, NIET-ONTPLOFBAAR zonder spring- of uitstootlading, zonder "
+"ontsteekinrichting"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_1104
@@ -1589,7 +1575,7 @@ msgstr "AMYLACETATEN"
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_2819
 msgid "AMYL ACID PHOSPHATE"
-msgstr "AMYLFOSFAAT"
+msgstr "AMYLWATERSTOFFOSFAAT"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_2620
@@ -1599,7 +1585,7 @@ msgstr "AMYLBUTYRATEN"
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_1107
 msgid "AMYL CHLORIDE"
-msgstr "AMYLCHLORIDEN"
+msgstr "AMYLCHLORIDE"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_1109
@@ -1609,23 +1595,23 @@ msgstr "AMYLFORMIATEN"
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_1111
 msgid "AMYL MERCAPTAN"
-msgstr "AMYLMERCAPTANEN"
+msgstr "AMYLMERCAPTAAN"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_1112
 msgid "AMYL NITRATE"
-msgstr "AMYLNITRATEN"
+msgstr "AMYLNITRAAT"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_1113
 msgid "AMYL NITRITE"
-msgstr "AMYLNITRIETEN"
+msgstr "AMYLNITRIET"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_1106_1L
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_1106_5L
 msgid "AMYLAMINE"
-msgstr "AMYLAMINEN"
+msgstr "AMYLAMINE"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_1728
@@ -1635,7 +1621,7 @@ msgstr "AMYLTRICHLOORSILAAN"
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_1547
 msgid "ANILINE"
-msgstr ""
+msgstr "ANILINE"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_1548
@@ -1650,7 +1636,7 @@ msgstr "ANISIDINEN"
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_2222
 msgid "ANISOLE"
-msgstr "ANISOL (fenylmethylether)"
+msgstr "ANISOOL"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_1729
@@ -1660,12 +1646,12 @@ msgstr "ANISOYLCHLORIDE"
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_3141
 msgid "ANTIMONY COMPOUND, INORGANIC, LIQUID, N.O.S."
-msgstr "ANORGANISCHE ANTIMOONVERBINDING, VLOEIBAAR, N.E.G."
+msgstr "ANTIMOONVERBINDING, ANORGANISCH, VLOEIBAAR, N.E.G."
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_1549
 msgid "ANTIMONY COMPOUND, INORGANIC, SOLID, N.O.S."
-msgstr "ANORGANISCHE ANTIMOONVERBINDING, VAST, N.E.G."
+msgstr "ANTIMOONVERBINDING, ANORGANISCH, VAST, N.E.G."
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_1550
@@ -1691,7 +1677,7 @@ msgstr "ANTIMOONPENTAFLUORIDE"
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_1551
 msgid "ANTIMONY POTASSIUM TARTRATE"
-msgstr "ANTIMOON-KALIUMTARTRAAT"
+msgstr "ANTIMOONKALIUMTARTRAAT"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_2871
@@ -1716,7 +1702,7 @@ msgstr "ARGON, STERK GEKOELD, VLOEIBAAR"
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_1558
 msgid "ARSENIC"
-msgstr "ARSEEN (ARSENICUM)"
+msgstr "ARSEEN"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_1553
@@ -1741,8 +1727,8 @@ msgid ""
 "ARSENIC COMPOUND, LIQUID, N.O.S., inorganic, including: Arsenates, n.o.s., "
 "Arsenites, n.o.s.; and Arsenic sulphides, n.o.s."
 msgstr ""
-"ARSEENVERBINDING, VLOEIBAAR, N.E.G., anorganisch (meer in het bijzonder "
-"arsenaten, arsenieten en arseensulfiden)"
+"ARSEENVERBINDING, VLOEIBAAR, N.E.G., anorganisch, waaronder: Arsenaten, "
+"n.e.g., Arsenieten, n.e.g., en Arseensulfiden, n.e.g."
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_1557
@@ -1752,8 +1738,8 @@ msgid ""
 "ARSENIC COMPOUND, SOLID, N.O.S., inorganic, including: Arsenates, n.o.s.; "
 "Arsenites, n.o.s.; and Arsenic sulphides, n.o.s."
 msgstr ""
-"ARSEENVERBINDING, VAST, N.E.G., anorganisch (arsenaten, arsenieten en "
-"arseensulfiden)"
+"ARSEENVERBINDING, VAST, N.E.G., anorganisch, waaronder: Arsenaten, n.e.g., "
+"Arsenieten, n.e.g., en Arseensulfiden, n.e.g."
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_1559
@@ -1773,7 +1759,7 @@ msgstr "ARSEENTRIOXIDE"
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_1562
 msgid "ARSENICAL DUST"
-msgstr "ARSEENSTOF"
+msgstr "ARSEENHOUDEND STOF"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_2760
@@ -1781,7 +1767,7 @@ msgstr "ARSEENSTOF"
 msgid ""
 "ARSENICAL PESTICIDE, LIQUID, FLAMMABLE, TOXIC, flash-point less than 23 °C"
 msgstr ""
-"PESTICIDE, ARSEENVERBINDING, VLOEIBAAR, BRANDBAAR, GIFTIG, met een vlampunt "
+"ARSEENHOUDEND BESTRIJDINGSMIDDEL, VLOEIBAAR, BRANDBAAR, GIFTIG, vlampunt "
 "lager dan 23 °C"
 
 #. module: l10n_eu_product_adr
@@ -1789,7 +1775,7 @@ msgstr ""
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_2994_100ml
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_2994_5L
 msgid "ARSENICAL PESTICIDE, LIQUID, TOXIC"
-msgstr "PESTICIDE, ARSEENVERBINDING, VLOEIBAAR, GIFTIG"
+msgstr "ARSEENHOUDEND BESTRIJDINGSMIDDEL, VLOEIBAAR, GIFTIG"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_2993
@@ -1799,32 +1785,31 @@ msgid ""
 "ARSENICAL PESTICIDE, LIQUID, TOXIC, FLAMMABLE, flash-point not less than 23 "
 "°C"
 msgstr ""
-"PESTICIDE, ARSEENVERBINDING, VLOEIBAAR, GIFTIG, BRANDBAAR, met een vlampunt "
-"gelijk aan of hoger dan 23 °C"
+"ARSEENHOUDEND BESTRIJDINGSMIDDEL, VLOEIBAAR, GIFTIG, BRANDBAAR, vlampunt "
+"niet lager dan 23 °C"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_2759
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_2759_500g
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_2759_5kg
 msgid "ARSENICAL PESTICIDE, SOLID, TOXIC"
-msgstr "PESTICIDE, ARSEENVERBINDING, VAST, GIFTIG"
+msgstr "ARSEENHOUDEND BESTRIJDINGSMIDDEL, VAST, GIFTIG"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_2188
 msgid "ARSINE"
-msgstr "ARSEENWATERSTOF (ARSINE)"
+msgstr "ARSINE"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_3522
 msgid "ARSINE, ADSORBED"
-msgstr "ARSEENWATERSTOF (ARSINE), GEADSORBEERD"
+msgstr "ARSINE, GEADSORBEERD"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_3542
 msgid ""
 "ARTICLES CONTAINING A SUBSTANCE LIABLE TO SPONTANEOUS COMBUSTION, N.O.S."
-msgstr ""
-"VOORWERPEN DIE VOOR ZELFONTBRANDING VATBARE VASTE STOF BEVATTEN, N.E.G."
+msgstr "VOORWERPEN DIE EEN VOOR ZELFONTBRANDING VATBARE STOF BEVATTEN, N.E.G."
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_3543
@@ -1838,7 +1823,7 @@ msgstr ""
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_3547
 msgid "ARTICLES CONTAINING CORROSIVE SUBSTANCE, N.O.S."
-msgstr "VOORWERPEN DIE BIJTENDE STOF BEVATTEN, N.E.G."
+msgstr "VOORWERPEN DIE EEN BIJTENDE STOF BEVATTEN, N.E.G."
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_3537
@@ -1848,12 +1833,12 @@ msgstr "VOORWERPEN DIE BRANDBAAR GAS BEVATTEN, N.E.G."
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_3540
 msgid "ARTICLES CONTAINING FLAMMABLE LIQUID, N.O.S."
-msgstr "VOORWERPEN DIE BRANDBARE VLOEISTOF BEVATTEN, N.E.G."
+msgstr "VOORWERPEN DIE EEN BRANDBARE VLOEISTOF BEVATTEN, N.E.G."
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_3541
 msgid "ARTICLES CONTAINING FLAMMABLE SOLID, N.O.S."
-msgstr "VOORWERPEN DIE BRANDBARE VASTE STOF BEVATTEN N.E.G."
+msgstr "VOORWERPEN DIE EEN BRANDBARE VASTE STOF BEVATTEN, N.E.G."
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_3548
@@ -1868,27 +1853,27 @@ msgstr "VOORWERPEN DIE NIET-BRANDBAAR, NIET-GIFTIG GAS BEVATTEN, N.E.G."
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_3545
 msgid "ARTICLES CONTAINING ORGANIC PEROXIDE, N.O.S."
-msgstr "VOORWERPEN DIE ORGANISCH PEROXIDE BEVATTEN, N.E.G."
+msgstr "VOORWERPEN DIE EEN ORGANISCHE PEROXIDE BEVATTEN, N.E.G."
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_3544
 msgid "ARTICLES CONTAINING OXIDIZING SUBSTANCE, N.O.S."
-msgstr "VOORWERPEN DIE OXIDERENDE STOF BEVATTEN, N.E.G."
+msgstr "VOORWERPEN DIE EEN OXIDERENDE STOF BEVATTEN, N.E.G."
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_3539
 msgid "ARTICLES CONTAINING TOXIC GAS, N.O.S."
-msgstr "VOORWERPEN DIE GIFTIG GAS BEVATTEN, N.E.G."
+msgstr "VOORWERPEN DIE EEN GIFTIG GAS BEVATTEN, N.E.G."
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_3546
 msgid "ARTICLES CONTAINING TOXIC SUBSTANCE, N.O.S."
-msgstr "VOORWERPEN DIE GIFTIGE STOF BEVATTEN, N.E.G."
+msgstr "VOORWERPEN DIE EEN GIFTIGE STOF BEVATTEN, N.E.G."
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_0486
 msgid "ARTICLES, EXPLOSIVE, EXTREMELY INSENSITIVE (ARTICLES, EEI)"
-msgstr "ONTPLOFBARE VOORWERPEN, EXTREEM WEINIG GEVOELIG (VOORWERPEN, EEI)"
+msgstr "VOORWERPEN, ONTPLOFBAAR, UITERST ONGEVOELIG (VOORWERPEN, EEI)"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_0349
@@ -1911,20 +1896,20 @@ msgstr "ONTPLOFBARE VOORWERPEN, EXTREEM WEINIG GEVOELIG (VOORWERPEN, EEI)"
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_0471
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_0472
 msgid "ARTICLES, EXPLOSIVE, N.O.S."
-msgstr "ONTPLOFBARE VOORWERPEN, N.E.G."
+msgstr "VOORWERPEN, ONTPLOFBAAR, N.E.G."
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_3164
 msgid ""
 "ARTICLES, PRESSURIZED, PNEUMATIC or HYDRAULIC (containing non-flammable gas)"
 msgstr ""
-"VOORWERPEN ONDER PNEUMATISCHE DRUK of VOORWERPEN ONDER HYDRAULISCHE DRUK "
-"(die een niet brandbaar gas bevatten)"
+"VOORWERPEN ONDER DRUK, PNEUMATISCH of HYDRAULISCH (bevattende niet-brandbaar "
+"gas)"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_0380
 msgid "ARTICLES, PYROPHORIC"
-msgstr "PYROFORE VOORWERPEN"
+msgstr "VOORWERPEN, PYROFOOR"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_0428
@@ -1933,77 +1918,77 @@ msgstr "PYROFORE VOORWERPEN"
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_0431
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_0432
 msgid "ARTICLES, PYROTECHNIC for technical purposes"
-msgstr "PYROTECHNISCHE VOORWERPEN voor technische doeleinden"
+msgstr "VOORWERPEN, PYROTECHNISCH voor technische doeleinden"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_2212
 msgid ""
 "ASBESTOS, AMPHIBOLE (amosite, tremolite, actinolite, anthophyllite, "
 "crocidolite)"
-msgstr "ASBEST, BLAUW (crocidoliet) of ASBEST, BRUIN (amosiet, mysoriet)"
+msgstr ""
+"ASBEST, AMFIBOOL (amosiet, tremoliet, actinoliet, anthofylliet, crocidoliet)"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_2590
 msgid "ASBESTOS, CHRYSOTILE"
-msgstr "ASBEST, WIT (chrysotiel, actinoliet, anthofylliet, tremoliet)"
+msgstr "ASBEST, CHRYSOTIEL"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_3242
 msgid "AZODICARBONAMIDE"
-msgstr ""
+msgstr "AZODICARBONAMIDE"
 
 #. module: l10n_eu_product_adr
 #: model:ir.model.fields,field_description:l10n_eu_product_adr.field_adr_goods__active
 #: model_terms:ir.ui.view,arch_db:l10n_eu_product_adr.adr_goods_view_search
 msgid "Active"
-msgstr ""
+msgstr "Actief"
 
 #. module: l10n_eu_product_adr
 #: model:ir.model.fields,field_description:l10n_eu_product_adr.field_product_product__adr_goods_on_variants
 #: model:ir.model.fields,field_description:l10n_eu_product_adr.field_product_template__adr_goods_on_variants
 msgid "Adr Goods On Variants"
-msgstr ""
+msgstr "ADR-goederen op varianten"
 
 #. module: l10n_eu_product_adr
 #: model_terms:ir.ui.view,arch_db:l10n_eu_product_adr.adr_goods_view_form
 msgid "Archived"
-msgstr ""
+msgstr "Gearchiveerd"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_3334
 msgid "Aviation regulated liquid, n.o.s."
-msgstr "Vloeistof, onderworpen aan de voorschriften voor de luchtvaart, n.e.g."
+msgstr "Voor de luchtvaart gereglementeerde vloeistof, n.e.g."
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_3335
 msgid "Aviation regulated solid, n.o.s."
-msgstr ""
-"Vaste stof, onderworpen aan de voorschriften voor de luchtvaart, n.e.g."
+msgstr "Voor de luchtvaart gereglementeerde vaste stof, n.e.g."
 
 #. module: l10n_eu_product_adr
 #: model:ir.model.fields.selection,name:l10n_eu_product_adr.selection__adr_goods__tunnel_restriction_code__b
 msgid "B"
-msgstr ""
+msgstr "B"
 
 #. module: l10n_eu_product_adr
 #: model:ir.model.fields.selection,name:l10n_eu_product_adr.selection__adr_goods__tunnel_restriction_code__b/d
 msgid "B/D"
-msgstr ""
+msgstr "B/D"
 
 #. module: l10n_eu_product_adr
 #: model:ir.model.fields.selection,name:l10n_eu_product_adr.selection__adr_goods__tunnel_restriction_code__b/e
 msgid "B/E"
-msgstr ""
+msgstr "B/E"
 
 #. module: l10n_eu_product_adr
 #: model:ir.model.fields.selection,name:l10n_eu_product_adr.selection__adr_goods__tunnel_restriction_code__b1000c
 msgid "B1000C"
-msgstr ""
+msgstr "B1000C"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_1400
 msgid "BARIUM"
-msgstr ""
+msgstr "BARIUM"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_1854
@@ -2050,7 +2035,7 @@ msgstr "BARIUMCYANIDE"
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_2741
 msgid "BARIUM HYPOCHLORITE with more than 22% available chlorine"
-msgstr "BARIUMHYPOCHLORIET, met meer dan 22 % actief chloor"
+msgstr "BARIUMHYPOCHLORIET met meer dan 22% actieve chloor"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_1446
@@ -2086,43 +2071,42 @@ msgstr "BARIUMPEROXIDE"
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_3292
 msgid "BATTERIES, CONTAINING SODIUM, or CELLS, CONTAINING SODIUM"
-msgstr "NATRIUMBATTERIJEN of NATRIUMCELLEN"
+msgstr "BATTERIJEN, NATRIUM BEVATTEND, of CELLEN, NATRIUM BEVATTEND"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_3028
 msgid "BATTERIES, DRY, CONTAINING POTASSIUM HYDROXIDE SOLID, electric storage"
-msgstr "BATTERIJEN (ACCUMULATOREN), DROOG, MET VAST KALIUMHYDROXIDE"
+msgstr "BATTERIJEN, DROOG, MET VASTE KALIUMHYDROXIDE, accumulator"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_2794
 msgid "BATTERIES, WET, FILLED WITH ACID, electric storage"
-msgstr "BATTERIJEN (ACCUMULATOREN), NAT, GEVULD MET ZURE ELEKTROLYT"
+msgstr "ACCUMULATOREN, GEVULD MET ZUUR, elektrisch"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_2795
 msgid "BATTERIES, WET, FILLED WITH ALKALI, electric storage"
-msgstr "BATTERIJEN (ACCUMULATOREN), NAT, GEVULD MET ALKALISCHE ELEKTROLYT"
+msgstr "ACCUMULATOREN, GEVULD MET LOOG, elektrisch"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_2800
 msgid "BATTERIES, WET, NON-SPILLABLE, electric storage"
-msgstr "BATTERIJEN (ACCUMULATOREN), NAT, VAN HET GESLOTEN TYPE"
+msgstr "ACCUMULATOREN, NIET-LEKKEND, elektrisch"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_2797
 msgid "BATTERY FLUID, ALKALI"
-msgstr ""
-"ACCUMULATORVLOEISTOF, ALKALISCH (ELEKTROLYT VOOR BATTERIJEN, ALKALISCH)"
+msgstr "ACCUVLOEISTOF, BASISCH"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_3171
 msgid "BATTERY-POWERED VEHICLE or BATTERY-POWERED EQUIPMENT"
-msgstr "Voertuig met accuvoeding of apparaat met accuvoeding"
+msgstr "VOERTUIG MET BATTERIJVOEDING of UITRUSTING MET BATTERIJVOEDING"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_1990
 msgid "BENZALDEHYDE"
-msgstr ""
+msgstr "BENZALDEHYDE"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_1114
@@ -2137,7 +2121,7 @@ msgstr "BENZEENSULFONYLCHLORIDE"
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_1885
 msgid "BENZIDINE"
-msgstr ""
+msgstr "BENZIDINE"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_2224
@@ -2152,12 +2136,12 @@ msgstr "BENZOCHINON"
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_2226
 msgid "BENZOTRICHLORIDE"
-msgstr "BENZOTRICHLORIDE (trichloormethylbenzeen)"
+msgstr "BENZOTRICHLORIDE"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_2338
 msgid "BENZOTRIFLUORIDE"
-msgstr ""
+msgstr "BENZOTRIFLUORIDE"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_1736
@@ -2182,12 +2166,12 @@ msgstr "BENZYLCHLOORFORMIAAT"
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_2653
 msgid "BENZYL IODIDE"
-msgstr "BENZYLJODIDE"
+msgstr "BENZYLJOODIDE"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_2619
 msgid "BENZYLDIMETHYLAMINE"
-msgstr ""
+msgstr "BENZYLDIMETHYLAMINE"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_1886
@@ -2215,7 +2199,7 @@ msgstr "BERYLLIUMPOEDER"
 msgid ""
 "BICYCLO[2.2.1]HEPTA-2,5-DIENE, STABILIZED (2,5-NORBORNADIENE, STABILIZED)"
 msgstr ""
-"BICYCLO-[2,2,1]-HEPTADIEEN-2,5, GESTABILISEERD (NORBORNADIEEN-2,5, "
+"BICYCLO[2.2.1]HEPTA-2,5-DIEEN, GESTABILISEERD (2,5-NORBORNADIEEN, "
 "GESTABILISEERD)"
 
 #. module: l10n_eu_product_adr
@@ -2226,7 +2210,7 @@ msgstr "BIOLOGISCHE STOF, CATEGORIE B"
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_3373_I4_6dot2_319_P650_-_animal_material
 msgid "BIOLOGICAL SUBSTANCE, CATEGORY B (animal material only)"
-msgstr "BIOLOGISCHE STOF, CATEGORIE B (enkel dierlijke stoffen)"
+msgstr "BIOLOGISCHE STOF, CATEGORIE B (uitsluitend dierlijk materiaal)"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_2782
@@ -2234,15 +2218,15 @@ msgstr "BIOLOGISCHE STOF, CATEGORIE B (enkel dierlijke stoffen)"
 msgid ""
 "BIPYRIDILIUM PESTICIDE, LIQUID, FLAMMABLE, TOXIC, flash-point less than 23 °C"
 msgstr ""
-"PESTICIDE, BIPYRIDILIUMVERBINDING, VLOEIBAAR, BRANDBAAR, GIFTIG, met een "
-"vlampunt lager dan 23 °C"
+"BIPYRIDYLIUM-BESTRIJDINGSMIDDEL, VLOEIBAAR, BRANDBAAR, GIFTIG, vlampunt "
+"lager dan 23 °C"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_3016
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_3016_100ml
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_3016_5L
 msgid "BIPYRIDILIUM PESTICIDE, LIQUID, TOXIC"
-msgstr "PESTICIDE, PIPYRIDILIUMVERBINDING, VLOEIBAAR, GIFTIG"
+msgstr "BIPYRIDYLIUM-BESTRIJDINGSMIDDEL, VLOEIBAAR, GIFTIG"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_3015
@@ -2252,21 +2236,21 @@ msgid ""
 "BIPYRIDILIUM PESTICIDE, LIQUID, TOXIC, FLAMMABLE, flash-point not less than "
 "23 °C"
 msgstr ""
-"PESTICIDE, PIPYRIDILIUMVERBINDING, VLOEIBAAR, GIFTIG, BRANDBAAR, met een "
-"vlampunt gelijk aan of hoger dan 23 °C"
+"BIPYRIDYLIUM-BESTRIJDINGSMIDDEL, VLOEIBAAR, GIFTIG, BRANDBAAR, vlampunt niet "
+"lager dan 23 °C"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_2781
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_2781_500g
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_2781_5kg
 msgid "BIPYRIDILIUM PESTICIDE, SOLID, TOXIC"
-msgstr "PESTICIDE, BIPYRIDILIUMVERBINDING, VAST, GIFTIG"
+msgstr "BIPYRIDYLIUM-BESTRIJDINGSMIDDEL, VAST, GIFTIG"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_2837_1L
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_2837_5L
 msgid "BISULPHATES, AQUEOUS SOLUTION"
-msgstr "WATERSTOFSULFATEN, OPLOSSING IN WATER (bisulfaten, oplossing in water)"
+msgstr "WATERSTOFSULFATEN, OPLOSSING IN WATER"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_2693
@@ -2277,18 +2261,18 @@ msgstr "WATERSTOFSULFIETEN, OPLOSSING IN WATER, N.E.G."
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_0028
 msgid ""
 "BLACK POWDER (GUNPOWDER), COMPRESSED or BLACK POWDER (GUNPOWDER), IN PELLETS"
-msgstr "ZWART BUSKRUIT, GEPERST of ZWART BUSKRUIT, IN PELLETS"
+msgstr "ZWART KRUIT (BUSKRUIT), GEPERST of ZWART KRUIT (BUSKRUIT), IN KORRELS"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_0027
 msgid "BLACK POWDER (GUNPOWDER), granular or as a meal"
-msgstr "ZWART BUSKRUIT, korrels of poeder"
+msgstr "ZWART KRUIT (BUSKRUIT), korrelig of als meel"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_0399
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_0400
 msgid "BOMBS WITH FLAMMABLE LIQUID with bursting charge"
-msgstr "BOMMEN, BRANDBARE VLOEISTOF BEVATTEND, met springlading"
+msgstr "BOMMEN MET BRANDBARE VLOEISTOF met springlading"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_0033
@@ -2296,7 +2280,7 @@ msgstr "BOMMEN, BRANDBARE VLOEISTOF BEVATTEND, met springlading"
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_0035
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_0291
 msgid "BOMBS with bursting charge"
-msgstr "BOMMEN, met springlading"
+msgstr "BOMMEN met springlading"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_0037
@@ -2311,25 +2295,25 @@ msgstr "FLITSLICHTBOMMEN"
 msgid ""
 "BOMBS, SMOKE, NON-EXPLOSIVE with corrosive liquid, without initiating device"
 msgstr ""
-"ROOKBOMMEN, NIET ONTPLOFBAAR, die een bijtende vloeistof bevatten, zonder "
-"ontsteker"
+"BOMMEN, ROOK, NIET-ONTPLOFBAAR met bijtende vloeistof, zonder "
+"ontsteekinrichting"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_0225
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_0268
 msgid "BOOSTERS WITH DETONATOR"
-msgstr "OVERDRACHTSLADINGEN MET SLAGPIJPJE"
+msgstr "OVERDRACHTSLADINGEN MET DETONATOR"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_0042
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_0283
 msgid "BOOSTERS without detonator"
-msgstr "OVERDRACHTSLADINGEN, zonder slagpijpje"
+msgstr "OVERDRACHTSLADINGEN zonder detonator"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_1312
 msgid "BORNEOL"
-msgstr ""
+msgstr "BORNEOL"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_2692
@@ -2349,53 +2333,53 @@ msgstr "BOORTRIFLUORIDE"
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_1742
 msgid "BORON TRIFLUORIDE ACETIC ACID COMPLEX, LIQUID"
-msgstr "BOORTRIFLUORIDE-AZIJNZUUR-COMPLEX, VLOEIBAAR"
+msgstr "BOORTRIFLUORIDE-AZIJNZUURCOMPLEX, VLOEIBAAR"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_3419
 msgid "BORON TRIFLUORIDE ACETIC ACID COMPLEX, SOLID"
-msgstr "BOORTRIFLUORIDE-AZIJNZUUR-COMPLEX, VAST"
+msgstr "BOORTRIFLUORIDE-AZIJNZUURCOMPLEX, VAST"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_2604
 msgid "BORON TRIFLUORIDE DIETHYL ETHERATE"
-msgstr "BOORTRIFLUORIDE-DIETHYLETHERAAT (boortrifluoride-ether-complex)"
+msgstr "BOORTRIFLUORIDEDI-ETHYLETHERAAT"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_2851
 msgid "BORON TRIFLUORIDE DIHYDRATE"
-msgstr "BOORTRIFLUORIDE-DIHYDRAAT"
+msgstr "BOORTRIFLUORIDEDIHYDRAAT"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_2965
 msgid "BORON TRIFLUORIDE DIMETHYL ETHERATE"
-msgstr "BOORTRIFLUORIDE-DIMETHYLETHERAAT"
+msgstr "BOORTRIFLUORIDEDIMETHYLETHERAAT"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_1743
 msgid "BORON TRIFLUORIDE PROPIONIC ACID COMPLEX, LIQUID"
-msgstr "BOORTRIFLUORIDE-PROPIONZUUR-COMPLEX, VLOEIBAAR"
+msgstr "BOORTRIFLUORIDE-PROPIONZUURCOMPLEX, VLOEIBAAR"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_3420
 msgid "BORON TRIFLUORIDE PROPIONIC ACID COMPLEX, SOLID"
-msgstr "BOORTRIFLUORIDE-PROPIONZUUR-COMPLEX, VAST"
+msgstr "BOORTRIFLUORIDE-PROPIONZUURCOMPLEX, VAST"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_3519
 msgid "BORON TRIFLUORIDE, ADSORBED"
-msgstr "BOORTRICHLORIDE, GEADSORBEERD"
+msgstr "BOORTRIFLUORIDE, GEADSORBEERD"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_3213_1L
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_3213_5L
 msgid "BROMATES, INORGANIC, AQUEOUS SOLUTION, N.O.S."
-msgstr "ANORGANISCHE BROMATEN, OPLOSSING IN WATER, N.E.G."
+msgstr "BROMATEN, ANORGANISCH, OPLOSSING IN WATER, N.E.G."
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_1450
 msgid "BROMATES, INORGANIC, N.O.S."
-msgstr "ANORGANISCHE BROMATEN, N.E.G."
+msgstr "BROMATEN, ANORGANISCH, N.E.G."
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_2901
@@ -2461,7 +2445,7 @@ msgstr "BROOMCHLOORMETHAAN"
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_2515
 msgid "BROMOFORM"
-msgstr ""
+msgstr "BROMOFORM"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_2342
@@ -2477,22 +2461,22 @@ msgstr "BROOMPROPANEN"
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_2419
 msgid "BROMOTRIFLUORO-ETHYLENE"
-msgstr "BROOMTRIFLUORETHYLEEN (BROOMTRIFLUORETHEEN)"
+msgstr "BROOMTRIFLUORETHYLEEN"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_1009
 msgid "BROMOTRIFLUORO-METHANE (REFRIGERANT GAS R 13B1)"
-msgstr "BROOMTRIFLUORMETHAAN (KOELGAS R 13B1)"
+msgstr "BROOMTRIFLUORMETHAAN (KOUDEMIDDEL R 13B1)"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_1570
 msgid "BRUCINE"
-msgstr ""
+msgstr "BRUCINE"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_0043
 msgid "BURSTERS, explosive"
-msgstr "VERSPREIDINGSLADINGEN, ontplofbaar"
+msgstr "SPRINGLADINGEN, ontplofbaar"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_1010
@@ -2501,10 +2485,9 @@ msgid ""
 "having a vapour pressure at 70 °C not exceeding 1.1 Mpa (11 bar) and a "
 "density at 50 °C not lower than 0.525 kg/l"
 msgstr ""
-"BUTADIENEN, GESTABILISEERD of MENGSEL VAN BUTADIENEN EN KOOLWATERSTOFFEN, "
-"GESTABILISEERD, die een dampspanning bij 70 °C bezitten van niet meer dan "
-"1,1 MPa (11 bar) en een dichtheid bij 50 °C die niet lager mag zijn dan "
-"0,525 kg/l"
+"BUTADIËNEN, GESTABILISEERD of BUTADIËNEN EN KOOLWATERSTOFFEN, MENGSEL, "
+"GESTABILISEERD, met een dampspanning bij 70 °C van ten hoogste 1,1 MPa (11 "
+"bar) en een dichtheid bij 50 °C van ten minste 0,525 kg/l"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_1011
@@ -2514,7 +2497,7 @@ msgstr "BUTAAN"
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_2346
 msgid "BUTANEDIONE"
-msgstr "BUTAANDION (diacetyl)"
+msgstr "BUTAANDION"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_1120_1L
@@ -2531,7 +2514,7 @@ msgstr "BUTYLACETATEN"
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_1718
 msgid "BUTYL ACID PHOSPHATE"
-msgstr "BUTYLFOSFAAT"
+msgstr "BUTYLWATERSTOFFOSFAAT"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_2348
@@ -2572,7 +2555,7 @@ msgstr "BUTYLBENZENEN"
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_1012
 msgid "BUTYLENES MIXTURE or 1-BUTYLENE or cis-2-BUTYLENE or trans-2-BUTYLENE"
-msgstr "1-BUTEEN of CIS-2-BUTEEN of TRANS-2-BUTEEN of MENGSELS VAN BUTENEN"
+msgstr "BUTYLEEN, MENGSEL of 1-BUTYLEEN of cis-2-BUTYLEEN of trans-2-BUTYLEEN"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_2667
@@ -2587,12 +2570,12 @@ msgstr "BUTYLTRICHLOORSILAAN"
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_1129
 msgid "BUTYRALDEHYDE"
-msgstr ""
+msgstr "BUTYRALDEHYDE"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_2840
 msgid "BUTYRALDOXIME"
-msgstr ""
+msgstr "BUTYRALDOXIM"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_2820
@@ -2617,32 +2600,32 @@ msgstr "BUTYRYLCHLORIDE"
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_3496
 msgid "Batteries, nickel-metal hydride"
-msgstr "Nikkel-metaalhydride-batterijen"
+msgstr "Batterijen, nikkel-metaalhydride"
 
 #. module: l10n_eu_product_adr
 #: model:ir.model.fields.selection,name:l10n_eu_product_adr.selection__adr_goods__tunnel_restriction_code__c
 msgid "C"
-msgstr ""
+msgstr "C"
 
 #. module: l10n_eu_product_adr
 #: model:ir.model.fields.selection,name:l10n_eu_product_adr.selection__adr_goods__tunnel_restriction_code__c/d
 msgid "C/D"
-msgstr ""
+msgstr "C/D"
 
 #. module: l10n_eu_product_adr
 #: model:ir.model.fields.selection,name:l10n_eu_product_adr.selection__adr_goods__tunnel_restriction_code__c/e
 msgid "C/E"
-msgstr ""
+msgstr "C/E"
 
 #. module: l10n_eu_product_adr
 #: model:ir.model.fields.selection,name:l10n_eu_product_adr.selection__adr_goods__tunnel_restriction_code__c5000d
 msgid "C5000D"
-msgstr ""
+msgstr "C5000D"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_1572
 msgid "CACODYLIC ACID"
-msgstr "KAKODYLZUUR"
+msgstr "CACODYLZUUR"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_2570
@@ -2675,7 +2658,7 @@ msgstr "CESIUMNITRAAT"
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_1401
 msgid "CALCIUM"
-msgstr ""
+msgstr "CALCIUM"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_1573
@@ -2712,7 +2695,7 @@ msgstr "CALCIUMCHLORIET"
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_1403
 msgid "CALCIUM CYANAMIDE with more than 0.1% calcium carbide"
-msgstr "CALCIUMCYAANAMIDE met meer dan 0,1 massa-% calciumcarbide"
+msgstr "CALCIUMCYAANAMIDE met meer dan 0,1% calciumcarbide"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_1575
@@ -2722,7 +2705,7 @@ msgstr "CALCIUMCYANIDE"
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_1923
 msgid "CALCIUM DITHIONITE (CALCIUM HYDROSULPHITE)"
-msgstr "CALCIUMDITHIONIET"
+msgstr "CALCIUMDITHIONIET (CALCIUMHYDROSULFIET)"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_1404
@@ -2735,8 +2718,8 @@ msgid ""
 "CALCIUM HYPOCHLORITE MIXTURE, DRY with more than 10% but not more than 39% "
 "available chlorine"
 msgstr ""
-"CALCIUMHYPOCHLORIET, DROOG, MENGSEL, met meer dan 10 % en niet meer dan 39 % "
-"actief chloor."
+"CALCIUMHYPOCHLORIET, MENGSEL, DROOG met meer dan 10% doch niet meer dan 39% "
+"actieve chloor"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_3486
@@ -2744,8 +2727,8 @@ msgid ""
 "CALCIUM HYPOCHLORITE MIXTURE, DRY, CORROSIVE with more than 10% but not more "
 "than 39% available chlorine"
 msgstr ""
-"CALCIUMHYPOCHLORIET, DROOG MENGSEL, BIJTEND, met meer dan 10 % maar niet "
-"meer dan 39 % actief chloor"
+"CALCIUMHYPOCHLORIET, MENGSEL, DROOG, BIJTEND met meer dan 10% doch niet meer "
+"dan 39% actieve chloor"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_1748_1kg
@@ -2754,8 +2737,8 @@ msgid ""
 "CALCIUM HYPOCHLORITE, DRY or CALCIUM HYPOCHLORITE MIXTURE, DRY with more "
 "than 39% available chlorine (8.8% available oxygen)"
 msgstr ""
-"CALCIUMHYPOCHLORIET, DROOG of CALCIUMHYPOCHLORIET, DROOG, MENGSEL, met meer "
-"dan 39 % actief chloor (8,8 % actieve zuurstof),"
+"CALCIUMHYPOCHLORIET, DROOG of CALCIUMHYPOCHLORIET, MENGSEL, DROOG met meer "
+"dan 39% actieve chloor (8,8% actieve zuurstof)"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_3485
@@ -2763,8 +2746,8 @@ msgid ""
 "CALCIUM HYPOCHLORITE, DRY, CORROSIVE or CALCIUM HYPOCHLORITE MIXTURE, DRY, "
 "CORROSIVE with more than 39% available chlorine (8.8% available oxygen)"
 msgstr ""
-"CALCIUMHYPOCHLORIET, DROOG, BIJTEND of CALCIUMHYPOCHLORIET, DROOG MENGSEL, "
-"BIJTEND, met meer dan 39 % actief chloor (8,8 % actieve zuurstof)"
+"CALCIUMHYPOCHLORIET, DROOG, BIJTEND of CALCIUMHYPOCHLORIET, MENGSEL, DROOG, "
+"BIJTEND met meer dan 39% actieve chloor (8,8% actieve zuurstof)"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_3487_1kg
@@ -2774,7 +2757,7 @@ msgid ""
 "MIXTURE, CORROSIVE with not less than 5.5% but not more than 16% water"
 msgstr ""
 "CALCIUMHYPOCHLORIET, GEHYDRATEERD, BIJTEND of CALCIUMHYPOCHLORIET, "
-"GEHYDRATEERD MENGSEL, BIJTEND, met ten minste 5,5 % maar niet meer dan 16 % "
+"GEHYDRATEERD MENGSEL, BIJTEND met ten minste 5,5% doch niet meer dan 16% "
 "water"
 
 #. module: l10n_eu_product_adr
@@ -2784,13 +2767,13 @@ msgid ""
 "CALCIUM HYPOCHLORITE, HYDRATED, or CALCIUM HYPOCHLORITE, HYDRATED MIXTURE, "
 "with not less than 5.5% but not more than 16% water"
 msgstr ""
-"CALCIUMHYPOCHLORIET, GEHYDRATEERD of CALCIUMHYPOCHLORIET, GEHYDRATEERD, "
-"MENGSEL, met ten minste 5,5 % en niet meer dan 16 % water"
+"CALCIUMHYPOCHLORIET, GEHYDRATEERD of CALCIUMHYPOCHLORIET, GEHYDRATEERD "
+"MENGSEL met ten minste 5,5% doch niet meer dan 16% water"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_2844
 msgid "CALCIUM MANGANESE SILICON"
-msgstr "CALCIUMMANGAANSILICIDE"
+msgstr "CALCIUMMANGAANSILICIUM"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_1454
@@ -2825,7 +2808,7 @@ msgstr "CALCIUMRESINAAT"
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_1314
 msgid "CALCIUM RESINATE, FUSED"
-msgstr "CALCIUMRESINAAT, GESMOLTEN en gestold"
+msgstr "CALCIUMRESINAAT, GESMOLTEN"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_1405_1kg
@@ -2853,7 +2836,7 @@ msgstr "KAMFER, synthetisch"
 msgid ""
 "CAPACITOR, ASYMMETRIC (with an energy storage capacity greater than 0.3Wh)"
 msgstr ""
-"CONDENSATOR, ASYMMETRISCH  (met een energieopslagcapaciteit groter dan 0.3 "
+"CONDENSATOR, ASYMMETRISCH (met een energieopslagcapaciteit van meer dan 0,3 "
 "Wh)"
 
 #. module: l10n_eu_product_adr
@@ -2862,7 +2845,7 @@ msgid ""
 "CAPACITOR, ELECTRIC DOUBLE LAYER (with an energy storage capacity greater "
 "than 0.3Wh)"
 msgstr ""
-"CONDENSATOR, elektrisch, dubbellaags (met een energieopslagcapaciteit vna "
+"CONDENSATOR, ELEKTRISCHE DUBBELLAAG (met een energieopslagcapaciteit van "
 "meer dan 0,3 Wh)"
 
 #. module: l10n_eu_product_adr
@@ -2876,7 +2859,7 @@ msgstr "CAPRONZUUR"
 msgid ""
 "CARBAMATE PESTICIDE, LIQUID, FLAMMABLE, TOXIC, flash-point less than 23 °C"
 msgstr ""
-"PESTICIDE, CARBAMAAT, VLOEIBAAR, BRANDBAAR, GIFTIG, met een vlampunt lager "
+"CARBAMAAT-BESTRIJDINGSMIDDEL, VLOEIBAAR, BRANDBAAR, GIFTIG, vlampunt lager "
 "dan 23 °C"
 
 #. module: l10n_eu_product_adr
@@ -2884,7 +2867,7 @@ msgstr ""
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_2992_100ml
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_2992_5L
 msgid "CARBAMATE PESTICIDE, LIQUID, TOXIC"
-msgstr "PESTICIDE, CARBAMAAT, VLOEIBAAR, GIFTIG"
+msgstr "CARBAMAAT-BESTRIJDINGSMIDDEL, VLOEIBAAR, GIFTIG"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_2991
@@ -2894,47 +2877,45 @@ msgid ""
 "CARBAMATE PESTICIDE, LIQUID, TOXIC, FLAMMABLE, flash-point not less than 23 "
 "°C"
 msgstr ""
-"PESTICIDE, CARBAMAAT, VLOEIBAAR, GIFTIG, BRANDBAAR, met een vlampunt gelijk "
-"aan of hoger dan 23 °C"
+"CARBAMAAT-BESTRIJDINGSMIDDEL, VLOEIBAAR, GIFTIG, BRANDBAAR, vlampunt niet "
+"lager dan 23 °C"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_2757
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_2757_500g
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_2757_5kg
 msgid "CARBAMATE PESTICIDE, SOLID, TOXIC"
-msgstr "PESTICIDE, CARBAMAAT, VAST, GIFTIG"
+msgstr "CARBAMAAT-BESTRIJDINGSMIDDEL, VAST, GIFTIG"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_1013
 msgid "CARBON DIOXIDE"
-msgstr "KOOLSTOFDIOXIDE (KOOLDIOXIDE) (KOOLZUUR)"
+msgstr "KOOLDIOXIDE"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_2187
 msgid "CARBON DIOXIDE, REFRIGERATED LIQUID"
-msgstr ""
-"KOOLSTOFDIOXIDE, STERK GEKOELD, VLOEIBAAR (KOOLDIOXIDE, STERK GEKOELD, "
-"VLOEIBAAR) (KOOLZUUR, STERK GEKOELD, VLOEIBAAR)"
+msgstr "KOOLDIOXIDE, STERK GEKOELD, VLOEIBAAR"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_1131
 msgid "CARBON DISULPHIDE"
-msgstr "KOOLSTOFDISULFIDE (ZWAVELKOOLSTOF)"
+msgstr "KOOLSTOFDISULFIDE"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_1016
 msgid "CARBON MONOXIDE, COMPRESSED"
-msgstr "KOOLMONOXIDE, SAMENGEPERST (KOOLSTOFMONOXIDE, SAMENGEPERST)"
+msgstr "KOOLMONOXIDE, SAMENGEPERST"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_2516
 msgid "CARBON TETRABROMIDE"
-msgstr "TETRABROOMKOOLSTOF"
+msgstr "KOOLSTOFTETRABROMIDE"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_1846
 msgid "CARBON TETRACHLORIDE"
-msgstr "TETRACHLOORKOOLSTOF"
+msgstr "KOOLSTOFTETRACHLORIDE"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_1362
@@ -2945,7 +2926,7 @@ msgstr "KOOL, GEACTIVEERD"
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_1361_S2_4dot2_665_P002/IBC08/LP02/R001_4
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_1361_S2_4dot2_P002/IBC06_2
 msgid "CARBON, animal or vegetable origin"
-msgstr "KOOL of ROET, van dierlijke of plantaardige oorsprong"
+msgstr "KOOLSTOF, van dierlijke of plantaardige oorsprong"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_2417
@@ -2961,7 +2942,7 @@ msgstr "CARBONYLSULFIDE"
 #: model:ir.model.fields.selection,name:l10n_eu_product_adr.selection__adr_goods__transport_category__carriage_prohibited
 #: model:ir.model.fields.selection,name:l10n_eu_product_adr.selection__adr_goods__tunnel_restriction_code__carriage_prohibited
 msgid "CARRIAGE PROHIBITED"
-msgstr ""
+msgstr "VERVOER VERBODEN"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_0005_1dot1F_1_P130_1
@@ -2971,19 +2952,19 @@ msgstr ""
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_0348
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_0412
 msgid "CARTRIDGES FOR WEAPONS with bursting charge"
-msgstr "PATRONEN VOOR WAPENS, met springlading"
+msgstr "PATRONEN VOOR WAPENS met springlading"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_0326
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_0413
 msgid "CARTRIDGES FOR WEAPONS, BLANK"
-msgstr "LOSSE PATRONEN VOOR WAPENS"
+msgstr "PATRONEN VOOR WAPENS, LOSSE"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_0327
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_0338
 msgid "CARTRIDGES FOR WEAPONS, BLANK or CARTRIDGES, SMALL ARMS, BLANK"
-msgstr "LOSSE PATRONEN VOOR WAPENS of LOSSE PATRONEN VOOR KLEINKALIBERWAPENS"
+msgstr "PATRONEN VOOR WAPENS, LOSSE of PATRONEN VOOR HANDVUURWAPENS, LOSSE"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_0014
@@ -2991,8 +2972,8 @@ msgid ""
 "CARTRIDGES FOR WEAPONS, BLANK or CARTRIDGES, SMALL ARMS, BLANK or CARTRIDGE "
 "FOR TOOLS, BLANK"
 msgstr ""
-"LOSSE PATRONEN VOOR WAPENS of LOSSE PATRONEN VOOR KLEINKALIBERWAPENS of "
-"LOSSE PATRONEN VOOR GEREEDSCHAP"
+"PATRONEN VOOR WAPENS, LOSSE of PATRONEN VOOR HANDVUURWAPENS, LOSSE of "
+"PATRONEN VOOR GEREEDSCHAP, LOSSE"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_0328
@@ -3005,20 +2986,19 @@ msgstr "PATRONEN VOOR WAPENS, MET INERT PROJECTIEL"
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_0417
 msgid "CARTRIDGES FOR WEAPONS, INERT PROJECTILE or CARTRIDGES, SMALL ARMS"
 msgstr ""
-"PATRONEN VOOR WAPENS, MET INERT PROJECTIEL of PATRONEN VOOR "
-"KLEINKALIBERWAPENS"
+"PATRONEN VOOR WAPENS, MET INERT PROJECTIEL of PATRONEN VOOR HANDVUURWAPENS"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_0049
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_0050
 msgid "CARTRIDGES, FLASH"
-msgstr "FLITSLICHTPATRONEN"
+msgstr "PATRONEN, FLITSLICHT-"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_0277
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_0278
 msgid "CARTRIDGES, OIL WELL"
-msgstr "PATRONEN VOOR OLIEBORINGEN"
+msgstr "PATRONEN VOOR OLIEBRONNEN"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_0275
@@ -3026,31 +3006,31 @@ msgstr "PATRONEN VOOR OLIEBORINGEN"
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_0323
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_0381
 msgid "CARTRIDGES, POWER DEVICE"
-msgstr "PATRONEN VOOR TECHNISCHE DOELEINDEN"
+msgstr "PATRONEN VOOR AANDRIJVINGSMECHANISMEN"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_0054
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_0312
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_0405
 msgid "CARTRIDGES, SIGNAL"
-msgstr "SEINPATRONEN"
+msgstr "PATRONEN, SIGNAAL-"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_0055
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_0379
 msgid "CASES, CARTRIDGE, EMPTY, WITH PRIMER"
-msgstr "PATROONHULZEN, LEEG, MET ONTSTEKER"
+msgstr "HULZEN, PATROON-, LEEG, MET SLAGHOEDJE"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_0446
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_0447
 msgid "CASES, COMBUSTIBLE, EMPTY, WITHOUT PRIMER"
-msgstr "PATROONHULZEN, MEEBRANDEND, LEEG, ZONDER ONTSTEKER"
+msgstr "KARDOUZEN, VERBRANDBAAR, LEEG, ZONDER SLAGHOEDJE"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_2969
 msgid "CASTOR BEANS or CASTOR MEAL or CASTOR POMACE or CASTOR FLAKE"
-msgstr "RICINUSZAAD of RICINUSMEEL of RICINUSKOEKEN of RICINUSVLOKKEN"
+msgstr "RICINUSZADEN of RICINUSMEEL of RICINUSKOEKEN of RICINUSSCHILFERS"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_1719_1L
@@ -3062,23 +3042,22 @@ msgstr "BIJTENDE ALKALISCHE VLOEISTOF, N.E.G."
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_2000
 msgid "CELLULOID in block, rods, rolls, sheets, tubes, etc., except scrap"
 msgstr ""
-"CELLULOID in blokken, staven, rollen, bladen, buizen, enz. (met uitzondering "
-"van afvalstoffen)"
+"CELLULOÏDE in blokken, staven, rollen, platen, buizen enz., behalve afval"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_2002
 msgid "CELLULOID, SCRAP"
-msgstr "CELLULOIDAFVAL"
+msgstr "CELLULOÏDE, AFVAL"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_1333
 msgid "CERIUM, slabs, ingots or rods"
-msgstr "CERIUM, platen, staven, baren"
+msgstr "CERIUM, plakken, baren of staven"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_3078
 msgid "CERIUM, turnings or gritty powder"
-msgstr "CERIUM, spanen of schuurpoeder"
+msgstr "CERIUM, draaisel of grof poeder"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_0457
@@ -3091,7 +3070,7 @@ msgstr "SPRINGLADINGEN, KUNSTSTOFGEBONDEN"
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_0048
 msgid "CHARGES, DEMOLITION"
-msgstr "SPRINGLADINGEN"
+msgstr "SPRINGLADINGEN, VERNIELELIJK"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_0056
@@ -3104,7 +3083,7 @@ msgstr "DIEPTEBOMMEN"
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_0444
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_0445
 msgid "CHARGES, EXPLOSIVE, COMMERCIAL without detonator"
-msgstr "SPRINGLADINGEN VOOR INDUSTRIËLE DOELEINDEN, zonder slagpijpje"
+msgstr "SPRINGLADINGEN, COMMERCIEEL zonder detonator"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_0271
@@ -3112,47 +3091,47 @@ msgstr "SPRINGLADINGEN VOOR INDUSTRIËLE DOELEINDEN, zonder slagpijpje"
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_0415
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_0491
 msgid "CHARGES, PROPELLING"
-msgstr "VOORTDRIJVENDE LADINGEN"
+msgstr "DRIJFLADINGEN"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_0242
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_0279
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_0414
 msgid "CHARGES, PROPELLING, FOR CANNON"
-msgstr "VOORTDRIJVENDE LADINGEN VOOR GESCHUT"
+msgstr "DRIJFLADINGEN VOOR KANONNEN"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_0059
 msgid "CHARGES, SHAPED without detonator"
-msgstr "HOLLE LADINGEN, zonder slagpijpje"
+msgstr "HOLLE LADINGEN zonder detonator"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_0237
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_0288
 msgid "CHARGES, SHAPED, FLEXIBLE, LINEAR"
-msgstr "HOLLE LADINGEN, BUIGZAAM, GESTREKT"
+msgstr "HOLLE LADINGEN, FLEXIBEL, LINEAIR"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_0439
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_0440
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_0441
 msgid "CHARGES, SHAPED, without detonator"
-msgstr "HOLLE LADINGEN, zonder slagpijpje"
+msgstr "HOLLE LADINGEN, zonder detonator"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_0060
 msgid "CHARGES, SUPPLEMENTARY, EXPLOSIVE"
-msgstr "AANVULLINGSSPRINGLADINGEN"
+msgstr "EXTRA SPRINGLADINGEN"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_3316
 msgid "CHEMICAL KIT or FIRST AID KIT"
-msgstr "CHEMISCHE REAGENTIASET of SET VOOR EERSTE HULP"
+msgstr "CHEMISCHE SET of EHBO-SET"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_3315
 msgid "CHEMICAL SAMPLE, TOXIC"
-msgstr "MONSTER VAN CHEMISCHE STOF, GIFTIG"
+msgstr "CHEMISCH MONSTER, GIFTIG"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_3503
@@ -3187,7 +3166,7 @@ msgstr "CHEMISCHE STOF ONDER DRUK, GIFTIG, N.E.G."
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_2075
 msgid "CHLORAL, ANHYDROUS, STABILIZED"
-msgstr "CHLORAAL, WATERVRIJ, GESTABILISEERD"
+msgstr "CHLOORAL, WATERVRIJ, GESTABILISEERD"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_1458_1kg
@@ -3205,23 +3184,23 @@ msgstr "CHLORAAT EN MAGNESIUMCHLORIDE, MENGSEL, OPLOSSING"
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_1459_1kg
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_1459_5kg
 msgid "CHLORATE AND MAGNESIUM CHLORIDE MIXTURE, SOLID"
-msgstr "CHLORAAT EN MAGNESIUM- CHLORIDE, MENGSEL, VAST"
+msgstr "CHLORAAT EN MAGNESIUMCHLORIDE, MENGSEL, VAST"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_3210_1L
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_3210_5L
 msgid "CHLORATES, INORGANIC, AQUEOUS SOLUTION, N.O.S."
-msgstr "ANORGANISCHE CHLORATEN, OPLOSSING IN WATER, N.E.G."
+msgstr "CHLORATEN, ANORGANISCH, OPLOSSING IN WATER, N.E.G."
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_1461
 msgid "CHLORATES, INORGANIC, N.O.S."
-msgstr "ANORGANISCHE CHLORATEN, N.E.G."
+msgstr "CHLORATEN, ANORGANISCH, N.E.G."
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_2626
 msgid "CHLORIC ACID, AQUEOUS SOLUTION with not more than 10% chloric acid"
-msgstr "CHLOORZUUR, OPLOSSING IN WATER met niet meer dan 10 % chloorzuur"
+msgstr "CHLOORZUUR, OPLOSSING IN WATER met ten hoogste 10% chloorzuur"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_1017
@@ -3252,7 +3231,7 @@ msgstr "CHLORIET, OPLOSSING"
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_1462
 msgid "CHLORITES, INORGANIC, N.O.S."
-msgstr "ANORGANISCHE CHLORIETEN, N.E.G."
+msgstr "CHLORIETEN, ANORGANISCH, N.E.G."
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_1750
@@ -3272,7 +3251,7 @@ msgstr "CHLOORAZIJNZUUR, VAST"
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_3416
 msgid "CHLOROACETO-PHENONE, LIQUID"
-msgstr "CHLOORACETOFENON, VLOEIBAAR (fenacylchloride, vloeibaar)"
+msgstr "CHLOORACETOFENON, VLOEIBAAR"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_1695
@@ -3287,7 +3266,7 @@ msgstr "CHLOORACETONITRIL"
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_1697
 msgid "CHLOROACETOPHENONE, SOLID"
-msgstr "CHLOORACETOFENON, VAST (fenacylchloride, vast)"
+msgstr "CHLOORACETOFENON, VAST"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_1752
@@ -3312,7 +3291,7 @@ msgstr "CHLOORANISIDINEN"
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_1134
 msgid "CHLOROBENZENE"
-msgstr "CHLOORBENZEEN (fenylchloride)"
+msgstr "CHLOORBENZEEN"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_2234
@@ -3332,7 +3311,7 @@ msgstr "CHLOORBENZYLCHLORIDEN, VAST"
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_1127
 msgid "CHLOROBUTANES"
-msgstr "CHLOORBUTANEN (butylchloriden)"
+msgstr "CHLOORBUTANEN"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_2669_100ml
@@ -3348,7 +3327,7 @@ msgstr "CHLOORCRESOLEN, VAST"
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_1018
 msgid "CHLORODIFLUORO-METHANE (REFRIGERANT GAS R 22)"
-msgstr "CHLOORDIFLUORMETHAAN (KOELGAS R 22)"
+msgstr "CHLOORDIFLUORMETHAAN (KOUDEMIDDEL R 22)"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_1973
@@ -3357,13 +3336,13 @@ msgid ""
 "boiling point, with approximately 49% chlorodifluoromethane (REFRIGERANT GAS "
 "R 502)"
 msgstr ""
-"MENGSEL VAN CHLOORDIFLUORMETHAAN EN CHLOORPENTAFLUORETHAAN (KOELGAS R 502), "
-"met een vast kookpunt , dat ca. 49 % chloordifluormethaan bevat"
+"CHLOORDIFLUORMETHAAN EN CHLOORPENTAFLUORETHAAN, MENGSEL met constant "
+"kookpunt, met ongeveer 49% chloordifluormethaan (KOUDEMIDDEL R 502)"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_1974
 msgid "CHLORODIFLUOROBROMO-METHANE (REFRIGERANT GAS R 12B1)"
-msgstr "BROOMCHLOORDIFLUORMETHAAN (KOELGAS R 12B1)"
+msgstr "CHLOORDIFLUORBROOMMETHAAN (KOUDEMIDDEL R 12B1)"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_1577
@@ -3378,7 +3357,7 @@ msgstr "CHLOORDINITROBENZENEN, VAST"
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_1888
 msgid "CHLOROFORM"
-msgstr ""
+msgstr "CHLOROFORM"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_2742
@@ -3428,7 +3407,7 @@ msgstr "CHLOORNITROTOLUENEN, VAST"
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_1020
 msgid "CHLOROPENTAFLUORO-ETHANE (REFRIGERANT GAS R 115)"
-msgstr "CHLOORPENTAFLUORETHAAN (KOELGAS R 115)"
+msgstr "CHLOORPENTAFLUORETHAAN (KOUDEMIDDEL R 115)"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_2904
@@ -3458,35 +3437,34 @@ msgstr "CHLOORFENYLTRICHLOORSILAAN"
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_1580
 msgid "CHLOROPICRIN"
-msgstr "CHLOORPIKRINE"
+msgstr "CHLOORPICRINE"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_1581
 msgid "CHLOROPICRIN AND METHYL BROMIDE MIXTURE with more than 2% chloropicrin"
-msgstr ""
-"MENGSEL VAN CHLOORPIKRINE EN METHYLBROMIDE met meer dan 2 % chloorpikrine"
+msgstr "CHLOORPICRINE EN METHYLBROMIDE, MENGSEL met meer dan 2% chloorpicrine"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_1582
 msgid "CHLOROPICRIN AND METHYL CHLORIDE MIXTURE"
-msgstr "MENGSEL VAN CHLOORPIKRINE EN METHYLCHLORIDE"
+msgstr "CHLOORPICRINE EN METHYLCHLORIDE, MENGSEL"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_1583
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_1583_100ml
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_1583_5L
 msgid "CHLOROPICRIN MIXTURE, N.O.S."
-msgstr "CHLOORPIKRINE, MENGSEL, N.E.G."
+msgstr "CHLOORPICRINE, MENGSEL, N.E.G."
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_2507
 msgid "CHLOROPLATINIC ACID, SOLID"
-msgstr "HEXACHLOORPLATINAZUUR, VAST"
+msgstr "CHLOORPLATINAZUUR, VAST"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_1991
 msgid "CHLOROPRENE, STABILIZED"
-msgstr "CHLOROPREEN, GESTABILISEERD"
+msgstr "CHLOORPREEN, GESTABILISEERD"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_2986
@@ -3516,12 +3494,12 @@ msgstr "CHLOORSILANEN, GIFTIG, BIJTEND, N.E.G."
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_2988
 msgid "CHLOROSILANES, WATER-REACTIVE, FLAMMABLE, CORROSIVE, N.O.S."
-msgstr "CHLOORSILANEN, REACTIEF MET WATER, BRANDBAAR, BIJTEND, N.E.G."
+msgstr "CHLOORSILANEN, DIE MET WATER REAGEREN, BRANDBAAR, BIJTEND, N.E.G."
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_1754
 msgid "CHLOROSULPHONIC ACID (with or without sulphur trioxide)"
-msgstr "CHLOORSULFONZUUR met of zonder zwaveltrioxide"
+msgstr "CHLOORSULFONZUUR (met of zonder zwaveltrioxide)"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_2238
@@ -3817,7 +3795,7 @@ msgstr "KOPERCYANIDE"
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_1363
 msgid "COPRA"
-msgstr ""
+msgstr "KOPRA"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_0104
@@ -4161,7 +4139,7 @@ msgstr "CYCLOHEXYLMERCAPTAAN"
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_2357
 msgid "CYCLOHEXYLAMINE"
-msgstr ""
+msgstr "CYCLOHEXYLAMINE"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_1763
@@ -4186,7 +4164,7 @@ msgstr "CYCLOPENTAAN"
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_2244
 msgid "CYCLOPENTANOL"
-msgstr ""
+msgstr "CYCLOPENTANOL"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_2245
@@ -4289,7 +4267,7 @@ msgstr "Classificatiecode"
 #: model:ir.model.fields,field_description:l10n_eu_product_adr.field_adr_label__code
 #: model:ir.model.fields,field_description:l10n_eu_product_adr.field_adr_packing_instruction__code
 msgid "Code"
-msgstr ""
+msgstr "Code"
 
 #. module: l10n_eu_product_adr
 #: model:ir.model.fields,help:l10n_eu_product_adr.field_adr_goods__un_number
@@ -4300,6 +4278,11 @@ msgid ""
 "mentioned by name shall be assigned in accordance with the criteria "
 "('decision trees') of Part 2."
 msgstr ""
+"Bevat het VN-nummer: van de gevaarlijke stof of het gevaarlijke voorwerp als "
+"aan de stof of het voorwerp een specifiek VN-nummer is toegekend; of van de "
+"generieke of n.e.g.-positie waaraan de niet met name genoemde gevaarlijke "
+"stoffen of voorwerpen moeten worden ingedeeld overeenkomstig de criteria "
+"('beslissingsbomen') van deel 2."
 
 #. module: l10n_eu_product_adr
 #: model:ir.model.fields,help:l10n_eu_product_adr.field_adr_goods__name
@@ -4311,6 +4294,13 @@ msgid ""
 "proper shipping name or, when applicable, as part of the proper shipping "
 "name (see 3.1.2 for further details on the proper shipping name)."
 msgstr ""
+"Bevat, in hoofdletters, de naam van de stof of het voorwerp als aan de stof "
+"of het voorwerp een specifiek VN-nummer is toegekend, of van de generieke of "
+"n.e.g.-positie waaraan deze is ingedeeld overeenkomstig de criteria "
+"('beslissingsbomen') van deel 2. Deze naam moet worden gebruikt als de "
+"officiële vervoersnaam of, indien van toepassing, als onderdeel van de "
+"officiële vervoersnaam (zie 3.1.2 voor meer details over de officiële "
+"vervoersnaam)."
 
 #. module: l10n_eu_product_adr
 #: model:adr.class,name:l10n_eu_product_adr.adr_class_8
@@ -4324,7 +4314,7 @@ msgstr "Bijtende stoffen"
 #: model:ir.model.fields,field_description:l10n_eu_product_adr.field_adr_label__create_uid
 #: model:ir.model.fields,field_description:l10n_eu_product_adr.field_adr_packing_instruction__create_uid
 msgid "Created by"
-msgstr ""
+msgstr "Aangemaakt door"
 
 #. module: l10n_eu_product_adr
 #: model:ir.model.fields,field_description:l10n_eu_product_adr.field_adr_class__create_date
@@ -4332,17 +4322,17 @@ msgstr ""
 #: model:ir.model.fields,field_description:l10n_eu_product_adr.field_adr_label__create_date
 #: model:ir.model.fields,field_description:l10n_eu_product_adr.field_adr_packing_instruction__create_date
 msgid "Created on"
-msgstr ""
+msgstr "Aangemaakt op"
 
 #. module: l10n_eu_product_adr
 #: model:ir.model.fields.selection,name:l10n_eu_product_adr.selection__adr_goods__tunnel_restriction_code__d
 msgid "D"
-msgstr ""
+msgstr "D"
 
 #. module: l10n_eu_product_adr
 #: model:ir.model.fields.selection,name:l10n_eu_product_adr.selection__adr_goods__tunnel_restriction_code__d/e
 msgid "D/E"
-msgstr ""
+msgstr "D/E"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_3363
@@ -4422,12 +4412,12 @@ msgstr ""
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_2841
 msgid "DI-n-AMYLAMINE"
-msgstr ""
+msgstr "DI-n-AMYLAMINE"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_2248
 msgid "DI-n-BUTYLAMINE"
-msgstr ""
+msgstr "DI-n-BUTYLAMINE"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_2384
@@ -4448,7 +4438,7 @@ msgstr "DIALLYLETHER"
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_2359
 msgid "DIALLYLAMINE"
-msgstr ""
+msgstr "DIALLYLAMINE"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_0074
@@ -4493,7 +4483,7 @@ msgstr "DIBUTYLETHERS"
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_2873
 msgid "DIBUTYLAMINOETHANOL"
-msgstr ""
+msgstr "DIBUTYLAMINOETHANOL"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_1764
@@ -4588,7 +4578,7 @@ msgstr "DICYCLOHEXYLAMMONIUMNITRIET"
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_2565
 msgid "DICYCLOHEXYLAMINE"
-msgstr ""
+msgstr "DICYCLOHEXYLAMINE"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_2048
@@ -4642,7 +4632,7 @@ msgstr "DIETHYLSULFIDE"
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_1154
 msgid "DIETHYLAMINE"
-msgstr ""
+msgstr "DIETHYLAMINE"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_2049
@@ -4691,7 +4681,7 @@ msgstr "DIISOBUTYLKETON"
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_2361
 msgid "DIISOBUTYLAMINE"
-msgstr ""
+msgstr "DIISOBUTYLAMINE"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_2050
@@ -4711,7 +4701,7 @@ msgstr "DIISOPROPYLETHER"
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_1158
 msgid "DIISOPROPYLAMINE"
-msgstr ""
+msgstr "DIISOPROPYLAMINE"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_2521
@@ -4802,7 +4792,7 @@ msgstr "DIMETHYLHYDRAZINE, ASYMMETRISCH"
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_1598
 msgid "DINITRO-o-CRESOL"
-msgstr ""
+msgstr "DINITRO-o-CRESOL"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_1596
@@ -4828,7 +4818,7 @@ msgstr "DISTIKSTOFTETROXIDE (STIKSTOFDIOXIDE)"
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_0489
 msgid "DINITROGLYCOLURIL (DINGU)"
-msgstr ""
+msgstr "DINITROGLYCOLURIL (DINGU)"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_1599_100ml
@@ -4948,7 +4938,7 @@ msgstr "DIPROPYLKETON"
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_2383
 msgid "DIPROPYLAMINE"
-msgstr ""
+msgstr "DIPROPYLAMINE"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_1903
@@ -5058,6 +5048,8 @@ msgid ""
 "Dangerous Goods Label %(label)s cannot be deleted because it is in use on "
 "one or more dangerous goods: %(labels)s"
 msgstr ""
+"Gevaarsetiket %(label)s kan niet worden verwijderd omdat het in gebruik is "
+"bij een of meer gevaarlijke goederen: %(labels)s"
 
 #. module: l10n_eu_product_adr
 #: model:ir.actions.act_window,name:l10n_eu_product_adr.adr_label_action
@@ -5082,6 +5074,9 @@ msgid ""
 "Dangerous goods settings differ per variant of this product. Please "
 "configure the dangerous goods settings on each variant."
 msgstr ""
+"De instellingen voor gevaarlijke goederen verschillen per variant van dit "
+"product. Configureer de instellingen voor gevaarlijke goederen op elke "
+"variant."
 
 #. module: l10n_eu_product_adr
 #: model:ir.model.fields,field_description:l10n_eu_product_adr.field_adr_class__display_name
@@ -5098,7 +5093,7 @@ msgstr "Schermnaam"
 #. module: l10n_eu_product_adr
 #: model:ir.model.fields.selection,name:l10n_eu_product_adr.selection__adr_goods__tunnel_restriction_code__e
 msgid "E"
-msgstr ""
+msgstr "E"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_3256_F2_3_274/560_P099/IBC99_3
@@ -5388,7 +5383,7 @@ msgstr "ETHYLACETYLEEN, GESTABILISEERD"
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_1036
 msgid "ETHYLAMINE"
-msgstr ""
+msgstr "ETHYLAMINE"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_2270
@@ -5747,7 +5742,7 @@ msgstr "IJZER(III)NITRAAT"
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_1323
 msgid "FERROCERIUM"
-msgstr ""
+msgstr "FERROCERIUM"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_1408
@@ -6123,7 +6118,7 @@ msgstr "FURALDEHYDEN (furfural)"
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_2389
 msgid "FURAN"
-msgstr ""
+msgstr "FURAAN"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_2874
@@ -6133,7 +6128,7 @@ msgstr "FURFURYLALCOHOL"
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_2526
 msgid "FURFURYLAMINE"
-msgstr ""
+msgstr "FURFURYLAMINE"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_0103
@@ -6223,7 +6218,7 @@ msgstr ""
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_2803
 msgid "GALLIUM"
-msgstr ""
+msgstr "GALLIUM"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_1202_F1_3_640M/664_5L_P001/IBC03/LP01/R001_3
@@ -6309,7 +6304,7 @@ msgstr "GLYCEROL-alfa-MONOCHLOORHYDRINE"
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_2622
 msgid "GLYCIDALDEHYDE"
-msgstr ""
+msgstr "GLYCIDALDEHYDE"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_0110
@@ -6467,7 +6462,7 @@ msgstr "HEXAFLUORPROPEEN (KOELGAS R 1216)"
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_1207
 msgid "HEXALDEHYDE"
-msgstr ""
+msgstr "HEXALDEHYDE"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_2281
@@ -6524,7 +6519,7 @@ msgstr ""
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_0393
 msgid "HEXOTONAL"
-msgstr ""
+msgstr "HEXOTONAAL"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_1784
@@ -6815,7 +6810,7 @@ msgstr "Hooi, stro of Bhusa"
 #: model:ir.model.fields,field_description:l10n_eu_product_adr.field_stock_move__id
 #: model:ir.model.fields,field_description:l10n_eu_product_adr.field_stock_picking__id
 msgid "ID"
-msgstr ""
+msgstr "ID"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_0121
@@ -6980,7 +6975,7 @@ msgstr "ISOBUTYLPROPIONAAT"
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_1214
 msgid "ISOBUTYLAMINE"
-msgstr ""
+msgstr "ISOBUTYLAMINE"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_1055
@@ -7141,7 +7136,7 @@ msgstr "ISOPROPYLPROPIONAAT"
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_1221
 msgid "ISOPROPYLAMINE"
-msgstr ""
+msgstr "ISOPROPYLAMINE"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_1918
@@ -7171,7 +7166,7 @@ msgstr "Afbeelding"
 #: model:ir.model.fields,help:l10n_eu_product_adr.field_product_product__adr_goods_on_variants
 #: model:ir.model.fields,help:l10n_eu_product_adr.field_product_template__adr_goods_on_variants
 msgid "Indicates whether the adr configuration is different for each variant."
-msgstr ""
+msgstr "Geeft aan of de ADR-configuratie per variant verschilt."
 
 #. module: l10n_eu_product_adr
 #: model:adr.class,name:l10n_eu_product_adr.adr_class_6_2
@@ -7385,7 +7380,7 @@ msgstr ""
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_1415
 msgid "LITHIUM"
-msgstr ""
+msgstr "LITHIUM"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_1410
@@ -7499,7 +7494,7 @@ msgstr "LITHIUMSILICIUM"
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_1621
 msgid "LONDON PURPLE"
-msgstr ""
+msgstr "LONDENS PURPER"
 
 #. module: l10n_eu_product_adr
 #: model:ir.model.fields,field_description:l10n_eu_product_adr.field_adr_goods__label_ids
@@ -7516,7 +7511,7 @@ msgstr "Etiketten"
 #: model:ir.model.fields,field_description:l10n_eu_product_adr.field_adr_label__write_uid
 #: model:ir.model.fields,field_description:l10n_eu_product_adr.field_adr_packing_instruction__write_uid
 msgid "Last Updated by"
-msgstr ""
+msgstr "Laatst bijgewerkt door"
 
 #. module: l10n_eu_product_adr
 #: model:ir.model.fields,field_description:l10n_eu_product_adr.field_adr_class__write_date
@@ -7524,7 +7519,7 @@ msgstr ""
 #: model:ir.model.fields,field_description:l10n_eu_product_adr.field_adr_label__write_date
 #: model:ir.model.fields,field_description:l10n_eu_product_adr.field_adr_packing_instruction__write_date
 msgid "Last Updated on"
-msgstr ""
+msgstr "Laatst bijgewerkt op"
 
 #. module: l10n_eu_product_adr
 #: model:ir.model.fields,field_description:l10n_eu_product_adr.field_adr_goods__limited_quantity
@@ -7538,7 +7533,7 @@ msgstr "Beperkte Hoeveelheid"
 #: model:ir.model.fields,field_description:l10n_eu_product_adr.field_product_product__adr_limited_quantity_uom_id
 #: model:ir.model.fields,field_description:l10n_eu_product_adr.field_product_template__adr_limited_quantity_uom_id
 msgid "Limited Quantity UoM"
-msgstr ""
+msgstr "Maateenheid beperkte hoeveelheid"
 
 #. module: l10n_eu_product_adr
 #: model:adr.label,name:l10n_eu_product_adr.adr_label_9A
@@ -7991,7 +7986,7 @@ msgstr "BRANDBARE METAALZOUTEN VAN ORGANISCHE VERBINDINGEN, N.E.G."
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_1332
 msgid "METALDEHYDE"
-msgstr ""
+msgstr "METALDEHYDE"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_3208
@@ -8052,7 +8047,7 @@ msgstr "METHAANSULFONYLCHLORIDE"
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_1230
 msgid "METHANOL"
-msgstr ""
+msgstr "METHANOL"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_2605
@@ -8291,7 +8286,7 @@ msgstr "METHYLDICHLOORSILAAN"
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_1244
 msgid "METHYLHYDRAZINE"
-msgstr ""
+msgstr "METHYLHYDRAZINE"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_2461
@@ -8371,7 +8366,7 @@ msgstr "N,N-DIETHYLETHYLEENDIAMINE"
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_2432
 msgid "N,N-DIETHYLANILINE"
-msgstr ""
+msgstr "N,N-DIETHYLANILINE"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_2264
@@ -8386,7 +8381,7 @@ msgstr "N,N-DIMETHYLFORMAMIDE"
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_2253
 msgid "N,N-DIMETHYLANILINE"
-msgstr ""
+msgstr "N,N-DIMETHYLANILINE"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_2690
@@ -8396,22 +8391,22 @@ msgstr "N,n-BUTYLIMIDAZOOL"
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_2815
 msgid "N-AMINOETHYLPIPERAZINE"
-msgstr ""
+msgstr "N-AMINOETHYLPIPERAZINE"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_2738
 msgid "N-BUTYLANILINE"
-msgstr ""
+msgstr "N-BUTYLANILINE"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_2274
 msgid "N-ETHYL-N-BENZYLANILINE"
-msgstr ""
+msgstr "N-ETHYL-N-BENZYLANILINE"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_2272
 msgid "N-ETHYLANILINE"
-msgstr ""
+msgstr "N-ETHYLANILINE"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_2753
@@ -8431,12 +8426,12 @@ msgstr "N-ETHYLTOLUIDINEN"
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_2294
 msgid "N-METHYLANILINE"
-msgstr ""
+msgstr "N-METHYLANILINE"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_2945
 msgid "N-METHYLBUTYLAMINE"
-msgstr ""
+msgstr "N-METHYLBUTYLAMINE"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_1334
@@ -8491,7 +8486,7 @@ msgstr "NIKKELNITRIET"
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_1654
 msgid "NICOTINE"
-msgstr ""
+msgstr "NICOTINE"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_3144
@@ -9069,7 +9064,7 @@ msgstr "OCTOLIET, droog of bevochtigd met minder dan 15 massa-% water"
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_0496
 msgid "OCTONAL"
-msgstr ""
+msgstr "OCTONAAL"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_1191
@@ -9624,12 +9619,12 @@ msgstr ""
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_2213
 msgid "PARAFORMALDEHYDE"
-msgstr ""
+msgstr "PARAFORMALDEHYDE"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_1264
 msgid "PARALDEHYDE"
-msgstr ""
+msgstr "PARALDEHYDE"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_1380
@@ -10211,7 +10206,7 @@ msgstr "PIPERAZINE (diethyleendiamine)"
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_2401
 msgid "PIPERIDINE"
-msgstr ""
+msgstr "PIPERIDINE"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_3314
@@ -10634,7 +10629,7 @@ msgstr "VOORTDRIJVENDE STOF, VAST"
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_1275
 msgid "PROPIONALDEHYDE"
-msgstr ""
+msgstr "PROPIONALDEHYDE"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_1848
@@ -10669,7 +10664,7 @@ msgstr "PROPYLFORMIATEN"
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_1277
 msgid "PROPYLAMINE"
-msgstr ""
+msgstr "PROPYLAMINE"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_1077
@@ -10738,7 +10733,7 @@ msgstr "PESTICIDE, PYRETHROÏDE, VAST, GIFTIG"
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_1282
 msgid "PYRIDINE"
-msgstr ""
+msgstr "PYRIDINE"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_3194
@@ -10773,7 +10768,7 @@ msgstr "PYROSULFURYLCHLORIDE"
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_1922
 msgid "PYRROLIDINE"
-msgstr ""
+msgstr "PYRROLIDINE"
 
 #. module: l10n_eu_product_adr
 #: model:ir.model.fields,field_description:l10n_eu_product_adr.field_adr_goods__packing_instruction_ids
@@ -10785,12 +10780,12 @@ msgstr "Verpakkingsinstructies"
 #. module: l10n_eu_product_adr
 #: model:ir.model,name:l10n_eu_product_adr.model_product_template
 msgid "Product"
-msgstr ""
+msgstr "Product"
 
 #. module: l10n_eu_product_adr
 #: model:ir.model,name:l10n_eu_product_adr.model_product_product
 msgid "Product Variant"
-msgstr ""
+msgstr "Productvariant"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_2656
@@ -11100,7 +11095,7 @@ msgstr ""
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_2876
 msgid "RESORCINOL"
-msgstr ""
+msgstr "RESORCINOL"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_0174
@@ -11237,7 +11232,7 @@ msgstr "RUBBERSOLUTIE (dampspanning bij 50 °C niet hoger dan 110 kPa)"
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_1423
 msgid "RUBIDIUM"
-msgstr ""
+msgstr "RUBIDIUM"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_2678
@@ -12291,7 +12286,7 @@ msgstr "TETRAFLUORMETHAAN (KOELGAS R 14)"
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_2056
 msgid "TETRAHYDROFURAN"
-msgstr ""
+msgstr "TETRAHYDROFURAAN"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_2943
@@ -12327,7 +12322,7 @@ msgstr "TETRAMETHYLSILAAN"
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_0207
 msgid "TETRANITROANILINE"
-msgstr ""
+msgstr "TETRANITROANILINE"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_1510
@@ -12799,7 +12794,7 @@ msgstr "TRIALLYLBORAAT"
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_2610
 msgid "TRIALLYLAMINE"
-msgstr ""
+msgstr "TRIALLYLAMINE"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_2764
@@ -12837,7 +12832,7 @@ msgstr "PESTICIDE, TRIAZINEVERBINDING, VAST, GIFTIG"
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_2542
 msgid "TRIBUTYLAMINE"
-msgstr ""
+msgstr "TRIBUTYLAMINE"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_3254
@@ -12898,7 +12893,7 @@ msgstr "TRIETHYLFOSFIET"
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_1296
 msgid "TRIETHYLAMINE"
-msgstr ""
+msgstr "TRIETHYLAMINE"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_2259
@@ -12995,12 +12990,12 @@ msgstr "TRIMETHYLHEXAMETHYLEENDI AMINEN"
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_0216
 msgid "TRINITRO-m-CRESOL"
-msgstr ""
+msgstr "TRINITRO-m-CRESOL"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_0153
 msgid "TRINITROANILINE (PICRAMIDE)"
-msgstr ""
+msgstr "TRINITROANILINE (PICRAMIDE)"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_0213
@@ -13152,7 +13147,7 @@ msgstr ""
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_2260
 msgid "TRIPROPYLAMINE"
-msgstr ""
+msgstr "TRIPROPYLAMINE"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_2057_1L
@@ -13169,7 +13164,7 @@ msgstr "TRIS-(1-AZIRIDINYL)-FOSFINEOXIDE, OPLOSSING"
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_0390
 msgid "TRITONAL"
-msgstr ""
+msgstr "TRITONAAL"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_2196
@@ -13195,7 +13190,7 @@ msgstr "Textielafval, vochtig"
 #. module: l10n_eu_product_adr
 #: model:ir.model.fields,help:l10n_eu_product_adr.field_adr_label__goods_ids
 msgid "The dangerous goods to which this label is applied"
-msgstr ""
+msgstr "De gevaarlijke goederen waarop dit etiket van toepassing is"
 
 #. module: l10n_eu_product_adr
 #: model:ir.model.fields,help:l10n_eu_product_adr.field_adr_goods__label_ids
@@ -13217,6 +13212,9 @@ msgid ""
 "you cannot update the dangerous goods from here. Please reconfigure each "
 "variant separately."
 msgstr ""
+"Er zijn verschillende gevaarlijke goederen geconfigureerd op de varianten "
+"van dit product, waardoor u de gevaarlijke goederen vanaf hier niet kunt "
+"bijwerken. Configureer elke variant afzonderlijk opnieuw."
 
 #. module: l10n_eu_product_adr
 #: model:ir.model.fields,help:l10n_eu_product_adr.field_product_product__is_dangerous
@@ -13311,7 +13309,7 @@ msgstr "UREUMNITRAAT, droog of bevochtigd met minder dan 20 massa-% water"
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_2058
 msgid "VALERALDEHYDE"
-msgstr ""
+msgstr "VALERALDEHYDE"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_2502
@@ -13559,7 +13557,7 @@ msgstr "XANTHATEN"
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_2036
 msgid "XENON"
-msgstr ""
+msgstr "XENON"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_2591
@@ -13806,7 +13804,7 @@ msgstr "beta-NAFTYLAMINE, VAST"
 #. odoo-python
 #: code:addons/l10n_eu_product_adr/models/adr_goods.py:0
 msgid "cat:%s"
-msgstr ""
+msgstr "cat:%s"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_1110
@@ -13836,7 +13834,7 @@ msgstr "n-BUTYLMETHACRYLAAT, GESTABILISEERD"
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_1125
 msgid "n-BUTYLAMINE"
-msgstr ""
+msgstr "n-BUTYLAMINE"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_2247
@@ -13846,7 +13844,7 @@ msgstr "n-DECAAN"
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_3056
 msgid "n-HEPTALDEHYDE"
-msgstr ""
+msgstr "n-HEPTALDEHYDE"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_2278
@@ -13898,7 +13896,7 @@ msgstr "p-NITROSODIMETHYLANILINE"
 #. odoo-python
 #: code:addons/l10n_eu_product_adr/models/adr_goods.py:0
 msgid "qty:%(limited_quantity)s %(limited_quantity_uom_id)s"
-msgstr ""
+msgstr "aantal:%(limited_quantity)s %(limited_quantity_uom_id)s"
 
 #. module: l10n_eu_product_adr
 #: model:adr.goods,name:l10n_eu_product_adr.adr_goods_3255
