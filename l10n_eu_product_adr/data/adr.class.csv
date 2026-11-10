@@ -1,0 +1,17 @@
+id,code,name
+adr_class_1,1,Explosives
+adr_class_2,2,"Gases, including compressed, liquified, and dissolved under pressure gases and vapors "
+adr_class_2_1,2.1,Flammable gases
+adr_class_2_2,2.2,Non-toxic and non-flammable gases
+adr_class_2_3,2.3,Toxic gases
+adr_class_3,3,Flammable liquids
+adr_class_4_1,4.1,"Flammable solids, self-reactive substances, and solid desensitized explosives"
+adr_class_4_2,4.2,Substances liable to spontaneous combustion
+adr_class_4_3,4.3,"Substances which, in contact with water, emit flammable gases"
+adr_class_5_1,5.1,Oxidizing substances
+adr_class_5_2,5.2,Organic peroxides
+adr_class_6_1,6.1,Toxic substances
+adr_class_6_2,6.2,Infectious substances
+adr_class_7,7,Radioactive material
+adr_class_8,8,Corrosive substances
+adr_class_9,9,Miscellaneous dangerous substances and articles

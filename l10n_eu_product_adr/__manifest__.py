@@ -14,10 +14,10 @@
     "depends": ["stock"],
     "development_status": "Beta",
     "data": [
-        "data/adr_class.xml",
+        "data/adr.class.csv",
         "data/adr_label.xml",
-        "data/adr_packing_instruction.xml",
-        "data/adr_goods.xml",
+        "data/adr.packing.instruction.csv",
+        "data/adr.goods.csv",
         "security/res_groups.xml",
         "security/ir.model.access.csv",
         "views/adr_class_views.xml",
