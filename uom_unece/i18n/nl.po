@@ -1,0 +1,46 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* uom_unece
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 19.0\n"
+"Report-Msgid-Bugs-To: \n"
+"PO-Revision-Date: 2026-05-11 19:45+0000\n"
+"Last-Translator: Bosd <c5e2fd43-d292-4c90-9d1f-74ff3436329a@anonaddy.me>\n"
+"Language-Team: none\n"
+"Language: nl\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 5.15.2\n"
+
+#. module: uom_unece
+#: model:ir.model.fields,field_description:uom_unece.field_uom_uom__display_name
+msgid "Display Name"
+msgstr "Schermnaam"
+
+#. module: uom_unece
+#: model:ir.model.fields,field_description:uom_unece.field_uom_uom__id
+msgid "ID"
+msgstr "ID"
+
+#. module: uom_unece
+#: model:ir.model,name:uom_unece.model_uom_uom
+msgid "Product Unit of Measure"
+msgstr "Product maateenheid"
+
+#. module: uom_unece
+#: model:ir.model.fields,help:uom_unece.field_uom_uom__unece_code
+msgid ""
+"Standard nomenclature of the United Nations Economic Commission for Europe "
+"(UNECE)."
+msgstr ""
+"Standaard nomenclatuur van de Economische Commissie voor Europa van de "
+"Verenigde Naties (UNECE)."
+
+#. module: uom_unece
+#: model:ir.model.fields,field_description:uom_unece.field_uom_uom__unece_code
+msgid "UNECE Code"
+msgstr "UNECE-code"
