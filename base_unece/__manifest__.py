@@ -4,7 +4,7 @@
 
 {
     "name": "Base UNECE",
-    "version": "19.0.1.0.0",
+    "version": "20.0.1.0.0",
     "category": "Tools",
     "license": "LGPL-3",
     "development_status": "Production/Stable",
@@ -13,6 +13,6 @@
     "maintainers": ["astirpe", "alexis-via"],
     "website": "https://github.com/OCA/community-data-files",
     "depends": ["base"],
-    "data": ["views/unece_code_list.xml", "security/ir.model.access.csv"],
+    "data": ["views/unece_code_list.xml", "security/ir.access.csv"],
     "installable": True,
 }
