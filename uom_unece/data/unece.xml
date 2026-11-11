@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" ?>
+<?xml version="1.0" encoding="UTF-8" ?>
 <odoo>
     <!-- Units -->
     <record id="uom.product_uom_unit" model="uom.uom">
@@ -17,6 +17,9 @@
     </record>
     <record id="uom.product_uom_hour" model="uom.uom">
         <field name="unece_code">HUR</field>
+    </record>
+    <record id="uom.product_uom_minute" model="uom.uom">
+        <field name="unece_code">MIN</field>
     </record>
     <!-- Length -->
     <record id="uom.product_uom_meter" model="uom.uom">
@@ -56,6 +59,9 @@
     </record>
     <record id="uom.product_uom_ton" model="uom.uom">
         <field name="unece_code">TNE</field>
+    </record>
+    <record id="uom.product_uom_kwh" model="uom.uom">
+        <field name="unece_code">KWH</field>
     </record>
     <!-- American weight -->
     <record id="uom.product_uom_lb" model="uom.uom">

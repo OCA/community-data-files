@@ -4,7 +4,7 @@
 
 {
     "name": "Product UoM UNECE",
-    "version": "19.0.1.0.0",
+    "version": "20.0.1.0.0",
     "category": "Sales",
     "license": "AGPL-3",
     "development_status": "Production/Stable",
@@ -13,6 +13,7 @@
     "maintainers": ["astirpe", "alexis-via"],
     "website": "https://github.com/OCA/community-data-files",
     "depends": ["uom"],
+    "excludes": ["account_edi_ubl_cii"],
     "data": ["data/unece.xml", "views/uom_uom.xml"],
     "installable": True,
 }
