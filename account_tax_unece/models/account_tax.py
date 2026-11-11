@@ -1,4 +1,4 @@
-# Copyright 2016-2020 Akretion France (http://www.akretion.com)
+# Copyright 2016-2020 Akretion France (https://www.akretion.com)
 # @author: Alexis de Lattre <alexis.delattre@akretion.com>
 # License LGPL-3.0 or later (https://www.gnu.org/licenses/lgpl).
 
@@ -20,7 +20,6 @@ class AccountTax(models.Model):
     unece_type_code = fields.Char(
         related="unece_type_id.code",
         store=True,
-        readonly=True,
         string="UNECE Type Code",
     )
     unece_categ_id = fields.Many2one(
@@ -35,7 +34,6 @@ class AccountTax(models.Model):
     unece_categ_code = fields.Char(
         related="unece_categ_id.code",
         store=True,
-        readonly=True,
         string="UNECE Category Code",
     )
     # VATEX is not part of the UNECE nomenclature

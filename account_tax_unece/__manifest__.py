@@ -4,7 +4,7 @@
 
 {
     "name": "Account Tax UNECE",
-    "version": "19.0.2.0.0",
+    "version": "20.0.1.0.0",
     "category": "Accounting & Finance",
     "license": "LGPL-3",
     "development_status": "Production/Stable",
