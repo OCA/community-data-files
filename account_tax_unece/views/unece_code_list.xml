@@ -9,7 +9,7 @@
         <field name="model">unece.code.list</field>
         <field name="inherit_id" ref="base_unece.unece_code_list_search" />
         <field name="arch" type="xml">
-            <filter name="inactive" position="before">
+            <field name="type" position="after">
                 <filter
                     name="tax_type"
                     string="Tax Types (UNCL 5153)"
@@ -25,8 +25,7 @@
                     string="VAT Exemption Reasons"
                     domain="[('type', '=', 'tax_vatex')]"
                 />
-                <separator />
-            </filter>
+            </field>
         </field>
     </record>
 </odoo>
