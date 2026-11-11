@@ -1,0 +1,11 @@
+[project]
+name = "odoo-addons-oca-community-data-files"
+version = "20.0.20261111.0"
+dependencies = [
+    "odoo-addon-base_bank_from_iban==20.0.*",
+]
+classifiers=[
+    "Programming Language :: Python",
+    "Framework :: Odoo",
+    "Framework :: Odoo :: 20.0",
+]
