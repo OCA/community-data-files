@@ -1,0 +1,70 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* account_payment_unece
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 19.0\n"
+"Report-Msgid-Bugs-To: \n"
+"PO-Revision-Date: 2026-07-02 07:51+0000\n"
+"Last-Translator: Matjaz Mozetic <matjaz@luxim.si>\n"
+"Language-Team: none\n"
+"Language: sl\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: nplurals=4; plural=n%100==1 ? 0 : n%100==2 ? 1 : n%100==3 || "
+"n%100==4 ? 2 : 3;\n"
+"X-Generator: Weblate 5.15.2\n"
+
+#. module: account_payment_unece
+#: model:ir.model.fields,field_description:account_payment_unece.field_account_payment_method__display_name
+#: model:ir.model.fields,field_description:account_payment_unece.field_unece_code_list__display_name
+msgid "Display Name"
+msgstr "Prikazani naziv"
+
+#. module: account_payment_unece
+#: model:ir.model.fields,field_description:account_payment_unece.field_account_payment_method__id
+#: model:ir.model.fields,field_description:account_payment_unece.field_unece_code_list__id
+msgid "ID"
+msgstr "ID"
+
+#. module: account_payment_unece
+#: model:ir.model.fields.selection,name:account_payment_unece.selection__unece_code_list__type__payment_means
+#: model_terms:ir.ui.view,arch_db:account_payment_unece.unece_code_list_search
+msgid "Payment Means (UNCL 4461)"
+msgstr "Načini plačila (UNCL 4461)"
+
+#. module: account_payment_unece
+#: model:ir.model,name:account_payment_unece.model_account_payment_method
+msgid "Payment Methods"
+msgstr "Načini plačila"
+
+#. module: account_payment_unece
+#: model:ir.model.fields,help:account_payment_unece.field_account_payment_method__unece_id
+msgid ""
+"Standard nomenclature of the United Nations Economic Commission for Europe "
+"(UNECE) defined in UN/EDIFACT Data Element 4461"
+msgstr ""
+"Standardna nomenklatura Evropske gospodarske komisije Združenih narodov "
+"(UNECE), opredeljena v podatkovnem elementu 4461 standarda UN/EDIFACT"
+
+#. module: account_payment_unece
+#: model:ir.model.fields,field_description:account_payment_unece.field_unece_code_list__type
+msgid "Type"
+msgstr "Tip"
+
+#. module: account_payment_unece
+#: model:ir.model.fields,field_description:account_payment_unece.field_account_payment_method__unece_code
+msgid "UNECE Code"
+msgstr "Koda UNECE"
+
+#. module: account_payment_unece
+#: model:ir.model.fields,field_description:account_payment_unece.field_account_payment_method__unece_id
+msgid "UNECE Payment Mean"
+msgstr "UNECE način plačila"
+
+#. module: account_payment_unece
+#: model:ir.model,name:account_payment_unece.model_unece_code_list
+msgid "UNECE nomenclatures"
+msgstr "Nomenklature UNECE"
