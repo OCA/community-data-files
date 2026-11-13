@@ -1,0 +1,132 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* account_tax_unece
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 19.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-07-29 14:57+0000\n"
+"PO-Revision-Date: 2026-07-29 14:57+0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: account_tax_unece
+#: model:ir.model,name:account_tax_unece.model_res_company
+msgid "Companies"
+msgstr "Sociétés"
+
+#. module: account_tax_unece
+#: model:ir.model.fields,field_description:account_tax_unece.field_account_tax__display_name
+#: model:ir.model.fields,field_description:account_tax_unece.field_res_company__display_name
+#: model:ir.model.fields,field_description:account_tax_unece.field_unece_code_list__display_name
+msgid "Display Name"
+msgstr ""
+
+#. module: account_tax_unece
+#: model:ir.model.fields,field_description:account_tax_unece.field_account_tax__id
+#: model:ir.model.fields,field_description:account_tax_unece.field_res_company__id
+#: model:ir.model.fields,field_description:account_tax_unece.field_unece_code_list__id
+msgid "ID"
+msgstr ""
+
+#. module: account_tax_unece
+#: model:ir.model.fields,help:account_tax_unece.field_account_tax__unece_categ_id
+msgid ""
+"Select the Tax Category Code of the official nomenclature of the United "
+"Nations Economic Commission for Europe (UNECE), DataElement 5305"
+msgstr ""
+"Sélectionnez le code de la catégorie de taxe au sein de la nomenclature "
+"officielle de la Commission économique pour l'Europe des Nations unies "
+"(UNECE), DataElement 5305"
+
+#. module: account_tax_unece
+#: model:ir.model.fields,help:account_tax_unece.field_account_tax__unece_type_id
+msgid ""
+"Select the Tax Type Code of the official nomenclature of the United Nations "
+"Economic Commission for Europe (UNECE), DataElement 5153"
+msgstr ""
+"Sélectionnez le code de type de taxe au sein de la nomenclature officielle "
+"de la Commission économique pour l'Europe des Nations unies (UNECE), "
+"DataElement 5153"
+
+#. module: account_tax_unece
+#: model:ir.model.fields,help:account_tax_unece.field_account_tax__unece_vatex_id
+msgid ""
+"Select the VAT Exemption Reason Code (VATEX) of the official nomenclature of "
+"the European Union."
+msgstr ""
+"Sélectionnez le code de motif d'exonération (VATEX) au sein de la "
+"nomenclature officielle de l'Union Européenne."
+
+#. module: account_tax_unece
+#: model:ir.model,name:account_tax_unece.model_account_tax
+msgid "Tax"
+msgstr "Taxe"
+
+#. module: account_tax_unece
+#: model:ir.model.fields.selection,name:account_tax_unece.selection__unece_code_list__type__tax_categ
+#: model_terms:ir.ui.view,arch_db:account_tax_unece.unece_code_list_search
+msgid "Tax Categories (UNCL 5305)"
+msgstr "Catégories de taxes (UNCL 5305)"
+
+#. module: account_tax_unece
+#: model:ir.model.fields.selection,name:account_tax_unece.selection__unece_code_list__type__tax_type
+#: model_terms:ir.ui.view,arch_db:account_tax_unece.unece_code_list_search
+msgid "Tax Types (UNCL 5153)"
+msgstr "Types de taxes (UNCL 5153)"
+
+#. module: account_tax_unece
+#: model:ir.model.fields,field_description:account_tax_unece.field_unece_code_list__type
+msgid "Type"
+msgstr "Type"
+
+#. module: account_tax_unece
+#: model:ir.model.fields,field_description:account_tax_unece.field_account_tax__unece_categ_code
+msgid "UNECE Category Code"
+msgstr "Code de la catégorie UNECE"
+
+#. module: account_tax_unece
+#: model:ir.model.fields,field_description:account_tax_unece.field_account_tax__unece_categ_id
+msgid "UNECE Tax Category"
+msgstr "Catégorie de taxe de l'UNECE"
+
+#. module: account_tax_unece
+#: model:ir.model.fields,field_description:account_tax_unece.field_account_tax__unece_type_id
+msgid "UNECE Tax Type"
+msgstr "Type de taxe de l'UNECE"
+
+#. module: account_tax_unece
+#: model:ir.model.fields,field_description:account_tax_unece.field_account_tax__unece_type_code
+msgid "UNECE Type Code"
+msgstr "Code du type UNECE"
+
+#. module: account_tax_unece
+#: model:ir.model,name:account_tax_unece.model_unece_code_list
+msgid "UNECE nomenclatures"
+msgstr "Nomenclatures UNECE"
+
+#. module: account_tax_unece
+#: model:ir.model.fields,field_description:account_tax_unece.field_account_tax__unece_vatex_id
+msgid "VAT Exemption Reason"
+msgstr "Motif d'exonération de TVA"
+
+#. module: account_tax_unece
+#: model:ir.model.fields,field_description:account_tax_unece.field_account_tax__unece_vatex_code
+msgid "VAT Exemption Reason Code"
+msgstr "Code du motif d'exonération de TVA"
+
+#. module: account_tax_unece
+#: model:ir.model.fields.selection,name:account_tax_unece.selection__unece_code_list__type__tax_vatex
+msgid "VAT Exemption Reason Codes"
+msgstr "Codes des motifs d'exonération de TVA"
+
+#. module: account_tax_unece
+#: model_terms:ir.ui.view,arch_db:account_tax_unece.unece_code_list_search
+msgid "VAT Exemption Reasons"
+msgstr "Motifs d'exonération de TVA"
