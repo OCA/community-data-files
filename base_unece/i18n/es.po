@@ -1,0 +1,108 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* base_unece
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 16.0\n"
+"Report-Msgid-Bugs-To: \n"
+"PO-Revision-Date: 2023-08-02 12:09+0000\n"
+"Last-Translator: Ivorra78 <informatica@totmaterial.es>\n"
+"Language-Team: none\n"
+"Language: es\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 4.17\n"
+
+#. module: base_unece
+#: model:ir.model.fields,field_description:base_unece.field_unece_code_list__active
+msgid "Active"
+msgstr "Activo"
+
+#. module: base_unece
+#: model:ir.model.constraint,message:base_unece.constraint_unece_code_list_type_code_uniq
+msgid "An UNECE code of the same type already exists"
+msgstr "Ya existe un código CEPE (UNECE) del mismo tipo"
+
+#. module: base_unece
+#: model_terms:ir.ui.view,arch_db:base_unece.unece_code_list_form
+#: model_terms:ir.ui.view,arch_db:base_unece.unece_code_list_search
+msgid "Archived"
+msgstr "Archivado"
+
+#. module: base_unece
+#: model:ir.model.fields,field_description:base_unece.field_unece_code_list__code
+msgid "Code"
+msgstr "Código"
+
+#. module: base_unece
+#: model:ir.model.fields,field_description:base_unece.field_unece_code_list__create_uid
+msgid "Created by"
+msgstr "Creado por"
+
+#. module: base_unece
+#: model:ir.model.fields,field_description:base_unece.field_unece_code_list__create_date
+msgid "Created on"
+msgstr "Creado el"
+
+#. module: base_unece
+#: model:ir.model.fields,field_description:base_unece.field_unece_code_list__description
+msgid "Description"
+msgstr "Descripción"
+
+#. module: base_unece
+#: model:ir.model.fields,field_description:base_unece.field_unece_code_list__display_name
+msgid "Display Name"
+msgstr "Nombre a Mostrar"
+
+#. module: base_unece
+#: model_terms:ir.ui.view,arch_db:base_unece.unece_code_list_search
+msgid "Group By"
+msgstr "Agrupado por"
+
+#. module: base_unece
+#: model:ir.model.fields,field_description:base_unece.field_unece_code_list__id
+msgid "ID"
+msgstr "ID (identificación)"
+
+#. module: base_unece
+#: model:ir.model.fields,field_description:base_unece.field_unece_code_list__write_uid
+msgid "Last Updated by"
+msgstr "Actualizado por última vez por"
+
+#. module: base_unece
+#: model:ir.model.fields,field_description:base_unece.field_unece_code_list__write_date
+msgid "Last Updated on"
+msgstr "Última actualización el"
+
+#. module: base_unece
+#: model:ir.model.fields,field_description:base_unece.field_unece_code_list__name
+msgid "Name"
+msgstr "Nombre"
+
+#. module: base_unece
+#: model_terms:ir.ui.view,arch_db:base_unece.unece_code_list_search
+msgid "Name or Code"
+msgstr "Nombre o código"
+
+#. module: base_unece
+#: model:ir.model.fields,field_description:base_unece.field_unece_code_list__type
+#: model_terms:ir.ui.view,arch_db:base_unece.unece_code_list_search
+msgid "Type"
+msgstr "Tipo"
+
+#. module: base_unece
+#: model:ir.actions.act_window,name:base_unece.unece_code_list_action
+#: model:ir.ui.menu,name:base_unece.unece_code_list_menu
+msgid "UNECE Code Lists"
+msgstr "Listas de códigos de la CEPE (UNECE)"
+
+#. module: base_unece
+#: model:ir.model,name:base_unece.model_unece_code_list
+msgid "UNECE nomenclatures"
+msgstr "Nomenclaturas de la UNECE"
+
+#~ msgid "Last Modified on"
+#~ msgstr "Última Modificación el"

@@ -1,0 +1,3 @@
+id,name,model_id,group_id/id,operation,domain
+access_unece_code_list_everybody_read,Read access on unece.code.list to everybody,unece.code.list,,r,
+access_unece_code_list_full,Full access on unece.code.list to Settings group,unece.code.list,base.group_system,crud,

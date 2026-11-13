@@ -1,0 +1,108 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* base_unece
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 14.0\n"
+"Report-Msgid-Bugs-To: \n"
+"PO-Revision-Date: 2021-04-23 19:47+0000\n"
+"Last-Translator: Bosd <c5e2fd43-d292-4c90-9d1f-74ff3436329a@anonaddy.me>\n"
+"Language-Team: none\n"
+"Language: nl\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 4.3.2\n"
+
+#. module: base_unece
+#: model:ir.model.fields,field_description:base_unece.field_unece_code_list__active
+msgid "Active"
+msgstr "Actief"
+
+#. module: base_unece
+#: model:ir.model.constraint,message:base_unece.constraint_unece_code_list_type_code_uniq
+msgid "An UNECE code of the same type already exists"
+msgstr "Een UNECE code van hetzelfde tijpe bestaat al"
+
+#. module: base_unece
+#: model_terms:ir.ui.view,arch_db:base_unece.unece_code_list_form
+#: model_terms:ir.ui.view,arch_db:base_unece.unece_code_list_search
+msgid "Archived"
+msgstr "Gearchiveerd"
+
+#. module: base_unece
+#: model:ir.model.fields,field_description:base_unece.field_unece_code_list__code
+msgid "Code"
+msgstr "Code"
+
+#. module: base_unece
+#: model:ir.model.fields,field_description:base_unece.field_unece_code_list__create_uid
+msgid "Created by"
+msgstr "Aangemaakt door"
+
+#. module: base_unece
+#: model:ir.model.fields,field_description:base_unece.field_unece_code_list__create_date
+msgid "Created on"
+msgstr "Aangemaakt op"
+
+#. module: base_unece
+#: model:ir.model.fields,field_description:base_unece.field_unece_code_list__description
+msgid "Description"
+msgstr "Omschrijving"
+
+#. module: base_unece
+#: model:ir.model.fields,field_description:base_unece.field_unece_code_list__display_name
+msgid "Display Name"
+msgstr "Weergavenaam"
+
+#. module: base_unece
+#: model_terms:ir.ui.view,arch_db:base_unece.unece_code_list_search
+msgid "Group By"
+msgstr "Groeppeer op"
+
+#. module: base_unece
+#: model:ir.model.fields,field_description:base_unece.field_unece_code_list__id
+msgid "ID"
+msgstr "ID"
+
+#. module: base_unece
+#: model:ir.model.fields,field_description:base_unece.field_unece_code_list__write_uid
+msgid "Last Updated by"
+msgstr "Laatste update door"
+
+#. module: base_unece
+#: model:ir.model.fields,field_description:base_unece.field_unece_code_list__write_date
+msgid "Last Updated on"
+msgstr "Laatste update op"
+
+#. module: base_unece
+#: model:ir.model.fields,field_description:base_unece.field_unece_code_list__name
+msgid "Name"
+msgstr "Naam"
+
+#. module: base_unece
+#: model_terms:ir.ui.view,arch_db:base_unece.unece_code_list_search
+msgid "Name or Code"
+msgstr "Naam van de Code"
+
+#. module: base_unece
+#: model:ir.model.fields,field_description:base_unece.field_unece_code_list__type
+#: model_terms:ir.ui.view,arch_db:base_unece.unece_code_list_search
+msgid "Type"
+msgstr "Type"
+
+#. module: base_unece
+#: model:ir.actions.act_window,name:base_unece.unece_code_list_action
+#: model:ir.ui.menu,name:base_unece.unece_code_list_menu
+msgid "UNECE Code Lists"
+msgstr "UNECE Code Lijst"
+
+#. module: base_unece
+#: model:ir.model,name:base_unece.model_unece_code_list
+msgid "UNECE nomenclatures"
+msgstr ""
+
+#~ msgid "Last Modified on"
+#~ msgstr "Laatst gewijzigt op"
