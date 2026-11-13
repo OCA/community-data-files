@@ -20,6 +20,20 @@ msgid "Companies"
 msgstr ""
 
 #. module: account_tax_unece
+#. odoo-python
+#: code:addons/account_tax_unece/models/account_tax.py:0
+msgid ""
+"On VAT tax '%(tax)s' that has UNECE Category '%(unece_categ)s', you must set "
+"a VAT Exemption Reason Code."
+msgstr ""
+
+#. module: account_tax_unece
+#. odoo-python
+#: code:addons/account_tax_unece/models/account_tax.py:0
+msgid "On VAT tax '%s' you must set an UNECE Tax Category."
+msgstr ""
+
+#. module: account_tax_unece
 #: model:ir.model.fields,help:account_tax_unece.field_account_tax__unece_categ_id
 msgid ""
 "Select the Tax Category Code of the official nomenclature of the United "
@@ -43,6 +57,14 @@ msgstr ""
 #. module: account_tax_unece
 #: model:ir.model,name:account_tax_unece.model_account_tax
 msgid "Tax"
+msgstr ""
+
+#. module: account_tax_unece
+#. odoo-python
+#: code:addons/account_tax_unece/models/account_tax.py:0
+msgid ""
+"Tax '%s' has UNECE Tax Category 'VAT' so its Tax Computation should be "
+"'Percentage'."
 msgstr ""
 
 #. module: account_tax_unece
