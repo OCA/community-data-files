@@ -21,11 +21,12 @@
                         name="unece_categ_id"
                         context="{'default_type': 'tax_categ'}"
                         options="{'no_create': True, 'no_create_edit': True}"
+                        attrs="{'required': [('type_tax_use', '=', 'sale'), ('unece_type_code', '=', 'VAT'), ('active', '=', True)]}"
                     />
                     <field
                         name="unece_vatex_id"
                         options="{'no_create': True, 'no_create_edit': True}"
-                        attrs="{'invisible': ['|', '|', ('unece_type_code', '!=', 'VAT'), ('unece_categ_code', 'in', ('S', 'Z', False)), ('type_tax_use', '!=', 'sale')], 'required': [('unece_type_code', '=', 'VAT'), ('unece_categ_code', 'not in', ('S', 'Z')), ('type_tax_use', '=', 'sale')]}"
+                        attrs="{'invisible': ['|', '|', ('type_tax_use', '!=', 'sale'), ('unece_type_code', '!=', 'VAT'), ('unece_categ_code', 'not in', ('E', 'G', 'K', 'O', 'AE'))], 'required': [('type_tax_use', '=', 'sale'), ('unece_type_code', '=', 'VAT'), ('unece_categ_code', 'in', ('E', 'G', 'K', 'O', 'AE'))]}"
                     />
                     <field name="unece_type_code" invisible="1" />
                     <field name="unece_categ_code" invisible="1" />
