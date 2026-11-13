@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 17.0\n"
 "Report-Msgid-Bugs-To: \n"
-"PO-Revision-Date: 2026-07-20 09:46+0000\n"
+"PO-Revision-Date: 2026-11-13 11:46+0000\n"
 "Last-Translator: mymage <stefano.consolaro@mymage.it>\n"
 "Language-Team: none\n"
 "Language: it\n"
@@ -28,12 +28,15 @@ msgid ""
 "On VAT tax '%(tax)s' that has UNECE Category '%(unece_categ)s', you must set "
 "a VAT Exemption Reason Code."
 msgstr ""
+"Per l'aliquota IVA '%(tax)s', che presenta la categoria UNECE '%(unece_categ)"
+"s', è necessario impostare un codice motivo di esenzione IVA."
 
 #. module: account_tax_unece
 #. odoo-python
 #: code:addons/account_tax_unece/models/account_tax.py:0
 msgid "On VAT tax '%s' you must set an UNECE Tax Category."
 msgstr ""
+"Per l'aliquota IVA '%s' è necessario impostare una categoria fiscale UNECE."
 
 #. module: account_tax_unece
 #: model:ir.model.fields,help:account_tax_unece.field_account_tax__unece_categ_id
@@ -76,6 +79,8 @@ msgid ""
 "Tax '%s' has UNECE Tax Category 'VAT' so its Tax Computation should be "
 "'Percentage'."
 msgstr ""
+"L'imposta '%s' ha una categoria fiscale UNECE pari a 'IVA' (VAT), pertanto "
+"il suo metodo di calcolo deve essere 'Percentuale'."
 
 #. module: account_tax_unece
 #: model:ir.model.fields.selection,name:account_tax_unece.selection__unece_code_list__type__tax_categ
