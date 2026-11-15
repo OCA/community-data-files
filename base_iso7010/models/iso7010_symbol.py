@@ -1,4 +1,4 @@
-from odoo import fields, models
+from odoo import api, fields, models
 
 
 class Iso7010Symbol(models.Model):
@@ -48,10 +48,8 @@ class Iso7010Symbol(models.Model):
         ("iso_code_uniq", "unique(iso_code)", "ISO Code must be unique!")
     ]
 
-    def name_get(self):
+    @api.depends("iso_code", "name")
+    def _compute_display_name(self):
         """Include ISO code in the display name"""
-        res = []
         for record in self:
-            name = f"[{record.iso_code}] {record.name}"
-            res.append((record.id, name))
-        return res
+            record.display_name = f"[{record.iso_code}] {record.name}"

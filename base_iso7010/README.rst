@@ -42,12 +42,12 @@ load or reference standard ISO 7010 symbols.
 Key Features
 ------------
 
--  Defines the ``iso7010.symbol`` model with fields for ISO code, name,
-   description, category (mandatory, warning, etc.), and image.
--  Provides basic views (list, form, search) for managing these symbols.
--  Adds a menu item under Settings > Technical > ISO Standards > ISO
-   7010 Symbols (visible to Administrators).
--  Includes necessary access control rules.
+- Defines the ``iso7010.symbol`` model with fields for ISO code, name,
+  description, category (mandatory, warning, etc.), and image.
+- Provides basic views (list, form, search) for managing these symbols.
+- Adds a menu item under Settings > Technical > ISO Standards > ISO 7010
+  Symbols (visible to Administrators).
+- Includes necessary access control rules.
 
 **Table of contents**
 
@@ -118,22 +118,22 @@ a dependency for data-loading or integration modules.
 
 **Developer Usage:**
 
--  Other modules should add ``base_iso7010`` to their dependencies.
--  Use Many2one or Many2many fields in your custom models linking to the
-   ``iso7010.symbol`` model to reference safety symbols. Example:
-   .. code:: python
+- Other modules should add ``base_iso7010`` to their dependencies.
+- Use Many2one or Many2many fields in your custom models linking to the
+  ``iso7010.symbol`` model to reference safety symbols. Example:
+  .. code:: python
 
-      from odoo import fields, models
+     from odoo import fields, models
 
-      class MyModel(models.Model):
-          _name = 'my.model'
+     class MyModel(models.Model):
+         _name = 'my.model'
 
-          required_symbol_id = fields.Many2one('iso7010.symbol', string='Required Symbol')
-          applicable_symbols_ids = fields.Many2many('iso7010.symbol', string='Applicable Symbols')
+         required_symbol_id = fields.Many2one('iso7010.symbol', string='Required Symbol')
+         applicable_symbols_ids = fields.Many2many('iso7010.symbol', string='Applicable Symbols')
 
--  Ensure that appropriate ``base_iso7010_data_*`` modules are also
-   installed in the target database to provide the necessary symbol
-   records for selection in your custom fields.
+- Ensure that appropriate ``base_iso7010_data_*`` modules are also
+  installed in the target database to provide the necessary symbol
+  records for selection in your custom fields.
 
 Known issues / Roadmap
 ======================
@@ -166,7 +166,7 @@ Authors
 Contributors
 ------------
 
--  bosd
+- bosd
 
 Other credits
 -------------
