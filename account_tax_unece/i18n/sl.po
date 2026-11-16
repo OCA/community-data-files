@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
-"PO-Revision-Date: 2026-07-23 06:46+0000\n"
+"PO-Revision-Date: 2026-11-16 13:46+0000\n"
 "Last-Translator: Matjaz Mozetic <matjaz@luxim.si>\n"
 "Language-Team: none\n"
 "Language: sl\n"
@@ -15,7 +15,7 @@ msgstr ""
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: nplurals=4; plural=n%100==1 ? 0 : n%100==2 ? 1 : n%100==3 || "
 "n%100==4 ? 2 : 3;\n"
-"X-Generator: Weblate 5.15.2\n"
+"X-Generator: Weblate 2026.11.2\n"
 
 #. module: account_tax_unece
 #: model:ir.model,name:account_tax_unece.model_res_company
@@ -29,12 +29,14 @@ msgid ""
 "On VAT tax '%(tax)s' that has UNECE Category '%(unece_categ)s', you must set "
 "a VAT Exemption Reason Code."
 msgstr ""
+"Pri davku DDV '%(tax)s', ki ima kategorijo UNECE '%(unece_categ)s', morate "
+"nastaviti kodo razloga za oprostitev plačila DDV."
 
 #. module: account_tax_unece
 #. odoo-python
 #: code:addons/account_tax_unece/models/account_tax.py:0
 msgid "On VAT tax '%s' you must set an UNECE Tax Category."
-msgstr ""
+msgstr "Pri davku DDV '%s' morate nastaviti davčno kategorijo UNECE."
 
 #. module: account_tax_unece
 #: model:ir.model.fields,help:account_tax_unece.field_account_tax__unece_categ_id
@@ -75,6 +77,8 @@ msgid ""
 "Tax '%s' has UNECE Tax Category 'VAT' so its Tax Computation should be "
 "'Percentage'."
 msgstr ""
+"Davek '%s' ima davčno kategorijo UNECE 'VAT', zato mora biti njegov način "
+"obračuna 'Odstotek'."
 
 #. module: account_tax_unece
 #: model:ir.model.fields.selection,name:account_tax_unece.selection__unece_code_list__type__tax_categ
