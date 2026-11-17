@@ -1,0 +1,1008 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!-- Copyright 2020 ACSONE SA/NV
+     License AGPL-3.0 or later (http://www.gnu.org/licenses/agpl). -->
+<odoo noupdate="1">
+    <!--SPECIES-->
+    <record id="unece_meat_species_bovine_beef" model="unece.code.list">
+        <field name="type">meat_species</field>
+        <field name="code">10</field>
+        <field name="name">Bovine (Beef)</field>
+    </record>
+    <record id="unece_meat_species_bovine_veal" model="unece.code.list">
+        <field name="type">meat_species</field>
+        <field name="code">11</field>
+        <field name="name">Bovine (Veal)</field>
+    </record>
+    <record id="unece_meat_species_deer" model="unece.code.list">
+        <field name="type">meat_species</field>
+        <field name="code">20</field>
+        <field name="name">Deer</field>
+    </record>
+    <record id="unece_meat_species_porcine_pork" model="unece.code.list">
+        <field name="type">meat_species</field>
+        <field name="code">30</field>
+        <field name="name">Porcine (Pork)</field>
+    </record>
+    <record id="unece_meat_species_ovine_sheep" model="unece.code.list">
+        <field name="type">meat_species</field>
+        <field name="code">40</field>
+        <field name="name">Ovine (Sheep)</field>
+    </record>
+    <record id="unece_meat_species_caprine_goat" model="unece.code.list">
+        <field name="type">meat_species</field>
+        <field name="code">50</field>
+        <field name="name">Caprine (Goat)</field>
+    </record>
+    <record id="unece_meat_species_llama" model="unece.code.list">
+        <field name="type">meat_species</field>
+        <field name="code">60</field>
+        <field name="name">Llama</field>
+    </record>
+    <record id="unece_meat_species_alpaca" model="unece.code.list">
+        <field name="type">meat_species</field>
+        <field name="code">61</field>
+        <field name="name">Alpaca</field>
+    </record>
+    <record id="unece_meat_species_chicken" model="unece.code.list">
+        <field name="type">meat_species</field>
+        <field name="code">70</field>
+        <field name="name">Chicken</field>
+    </record>
+    <record id="unece_meat_species_turkey" model="unece.code.list">
+        <field name="type">meat_species</field>
+        <field name="code">71</field>
+        <field name="name">Turkey</field>
+    </record>
+    <record id="unece_meat_species_duck" model="unece.code.list">
+        <field name="type">meat_species</field>
+        <field name="code">72</field>
+        <field name="name">Duck</field>
+    </record>
+    <record id="unece_meat_species_goose" model="unece.code.list">
+        <field name="type">meat_species</field>
+        <field name="code">73</field>
+        <field name="name">Goose</field>
+    </record>
+    <record id="unece_meat_species_rabbit" model="unece.code.list">
+        <field name="type">meat_species</field>
+        <field name="code">74</field>
+        <field name="name">Rabbit</field>
+    </record>
+    <record id="unece_meat_species_equine_horse" model="unece.code.list">
+        <field name="type">meat_species</field>
+        <field name="code">80</field>
+        <field name="name">Equine (Horse)</field>
+    </record>
+    <record id="unece_meat_species_edible_meat_co_products" model="unece.code.list">
+        <field name="type">meat_species</field>
+        <field name="code">90</field>
+        <field name="name">Edible meat co-products</field>
+    </record>
+    <record id="unece_meat_species_retail_meat_cuts" model="unece.code.list">
+        <field name="type">meat_species</field>
+        <field name="code">91</field>
+        <field name="name">Retail meat cuts</field>
+    </record>
+    <!--PRODUCT/CUT-->
+    <record id="unece_meat_product_cut_brisket" model="unece.code.list">
+        <field name="type">meat_product_cut</field>
+        <field name="code">1643</field>
+        <field name="name">Brisket</field>
+    </record>
+    <record id="unece_meat_product_cut_brisket_point_end_1" model="unece.code.list">
+        <field name="type">meat_product_cut</field>
+        <field name="code">1650</field>
+        <field name="name">Brisket point end (Bone-in)</field>
+    </record>
+    <record id="unece_meat_product_cut_brisket_point_end_2" model="unece.code.list">
+        <field name="type">meat_product_cut</field>
+        <field name="code">1653</field>
+        <field name="name">Brisket point end (Bone-in)</field>
+    </record>
+    <record id="unece_meat_product_cut_brisket_navel_1" model="unece.code.list">
+        <field name="type">meat_product_cut</field>
+        <field name="code">1660</field>
+        <field name="name">Brisket navel end (Bone-in)</field>
+    </record>
+    <record id="unece_meat_product_cut_brisket_navel_2" model="unece.code.list">
+        <field name="type">meat_product_cut</field>
+        <field name="code">1665</field>
+        <field name="name">Brisket navel end (Bone-in)</field>
+    </record>
+    <record id="unece_meat_product_cut_brisket_point_sternum" model="unece.code.list">
+        <field name="type">meat_product_cut</field>
+        <field name="code">1674</field>
+        <field name="name">Brisket point (sternum)</field>
+    </record>
+    <record id="unece_meat_product_cut_brisket_rib_plate" model="unece.code.list">
+        <field name="type">meat_product_cut</field>
+        <field name="code">1673</field>
+        <field name="name">Brisket rib plate</field>
+    </record>
+    <record id="unece_meat_product_cut_butt_1" model="unece.code.list">
+        <field name="type">meat_product_cut</field>
+        <field name="code">1500</field>
+        <field name="name">Butt</field>
+    </record>
+    <record id="unece_meat_product_cut_butt_2" model="unece.code.list">
+        <field name="type">meat_product_cut</field>
+        <field name="code">1503</field>
+        <field name="name">Butt</field>
+    </record>
+    <record id="unece_meat_product_cut_butt_shank_off" model="unece.code.list">
+        <field name="type">meat_product_cut</field>
+        <field name="code">1510</field>
+        <field name="name">Butt - shank- off</field>
+    </record>
+    <record id="unece_meat_product_cut_butt_and_rump" model="unece.code.list">
+        <field name="type">meat_product_cut</field>
+        <field name="code">1502</field>
+        <field name="name">Butt and rump</field>
+    </record>
+    <record id="unece_meat_product_cut_butt_square_cut" model="unece.code.list">
+        <field name="type">meat_product_cut</field>
+        <field name="code">1520</field>
+        <field name="name">Butt square cut</field>
+    </record>
+    <record id="unece_meat_product_cut_carcase" model="unece.code.list">
+        <field name="type">meat_product_cut</field>
+        <field name="code">1001</field>
+        <field name="name">Carcase</field>
+    </record>
+    <record id="unece_meat_product_cut_chuck_roll_long_bone" model="unece.code.list">
+        <field name="type">meat_product_cut</field>
+        <field name="code">1622</field>
+        <field name="name">Chuck roll- long cut (Bone-in)</field>
+    </record>
+    <record id="unece_meat_product_cut_chuck_square_cut" model="unece.code.list">
+        <field name="type">meat_product_cut</field>
+        <field name="code">1617</field>
+        <field name="name">Chuck - square cut</field>
+    </record>
+    <record id="unece_meat_product_cut_full_rib_set" model="unece.code.list">
+        <field name="type">meat_product_cut</field>
+        <field name="code">1599</field>
+        <field name="name">Full Rib Set</field>
+    </record>
+    <record id="unece_meat_product_cut_forequarter" model="unece.code.list">
+        <field name="type">meat_product_cut</field>
+        <field name="code">1063</field>
+        <field name="name">Forequarter</field>
+    </record>
+    <record id="unece_meat_product_cut_forequarter_flank" model="unece.code.list">
+        <field name="type">meat_product_cut</field>
+        <field name="code">1050</field>
+        <field name="name">Forequarter and flank (pistola forequarter)</field>
+    </record>
+    <record id="unece_meat_product_cut_forequarter_hindquarter" model="unece.code.list">
+        <field name="type">meat_product_cut</field>
+        <field name="code">1680</field>
+        <field name="name">Forequarter / Hindquarter shin – shank</field>
+    </record>
+    <record id="unece_meat_product_cut_hindquarter" model="unece.code.list">
+        <field name="type">meat_product_cut</field>
+        <field name="code">1010</field>
+        <field name="name">Hindquarter</field>
+    </record>
+    <record id="unece_meat_product_cut_loin" model="unece.code.list">
+        <field name="type">meat_product_cut</field>
+        <field name="code">1525</field>
+        <field name="name">Loin (bone-in)</field>
+    </record>
+    <record id="unece_meat_product_cut_neck" model="unece.code.list">
+        <field name="type">meat_product_cut</field>
+        <field name="code">1630</field>
+        <field name="name">Neck</field>
+    </record>
+    <record id="unece_meat_product_cut_pistola_hindquarter" model="unece.code.list">
+        <field name="type">meat_product_cut</field>
+        <field name="code">1020</field>
+        <field name="name">Pistola hindquarter</field>
+    </record>
+    <record id="unece_meat_product_cut_ribs" model="unece.code.list">
+        <field name="type">meat_product_cut</field>
+        <field name="code">1597</field>
+        <field name="name">Ribs</field>
+    </record>
+    <record id="unece_meat_product_cut_ribs_prepared" model="unece.code.list">
+        <field name="type">meat_product_cut</field>
+        <field name="code">1604</field>
+        <field name="name">Ribs-prepared</field>
+    </record>
+    <record id="unece_meat_product_cut_rump_loin" model="unece.code.list">
+        <field name="type">meat_product_cut</field>
+        <field name="code">1540</field>
+        <field name="name">Rump and loin</field>
+    </record>
+    <record id="unece_meat_product_cut_short_ribs" model="unece.code.list">
+        <field name="type">meat_product_cut</field>
+        <field name="code">1694</field>
+        <field name="name">Short ribs</field>
+    </record>
+    <record id="unece_meat_product_cut_shortloin" model="unece.code.list">
+        <field name="type">meat_product_cut</field>
+        <field name="code">1550</field>
+        <field name="name">Shortloin</field>
+    </record>
+    <record id="unece_meat_product_cut_shoulder_foreleg" model="unece.code.list">
+        <field name="type">meat_product_cut</field>
+        <field name="code">1626</field>
+        <field name="name">Shoulder and foreleg</field>
+    </record>
+    <record id="unece_meat_product_cut_side" model="unece.code.list">
+        <field name="type">meat_product_cut</field>
+        <field name="code">1000</field>
+        <field name="name">Side</field>
+    </record>
+    <record id="unece_meat_product_cut_spare_ribs" model="unece.code.list">
+        <field name="type">meat_product_cut</field>
+        <field name="code">1695</field>
+        <field name="name">Spare ribs</field>
+    </record>
+    <record id="unece_meat_product_cut_blade_clod" model="unece.code.list">
+        <field name="type">meat_product_cut</field>
+        <field name="code">2300</field>
+        <field name="name">Blade (clod)</field>
+    </record>
+    <record id="unece_meat_product_cut_blade_bolar" model="unece.code.list">
+        <field name="type">meat_product_cut</field>
+        <field name="code">2302</field>
+        <field name="name">Blade bolar</field>
+    </record>
+    <record id="unece_meat_product_cut_blade_oyster" model="unece.code.list">
+        <field name="type">meat_product_cut</field>
+        <field name="code">2303</field>
+        <field name="name">Blade oyster</field>
+    </record>
+    <record id="unece_meat_product_cut_blade_undercut" model="unece.code.list">
+        <field name="type">meat_product_cut</field>
+        <field name="code">2304</field>
+        <field name="name">Blade undercut</field>
+    </record>
+    <record id="unece_meat_product_cut_bottom_sirloin" model="unece.code.list">
+        <field name="type">meat_product_cut</field>
+        <field name="code">2133</field>
+        <field name="name">Bottom sirloin butt, ball tip</field>
+    </record>
+    <record id="unece_meat_product_cut_brisket_boneless" model="unece.code.list">
+        <field name="type">meat_product_cut</field>
+        <field name="code">2323</field>
+        <field name="name">Brisket (boneless)</field>
+    </record>
+    <record
+        id="unece_meat_product_cut_brisket_point_boneless_1"
+        model="unece.code.list"
+    >
+        <field name="type">meat_product_cut</field>
+        <field name="code">2330</field>
+        <field name="name">Brisket point end (Boneless)</field>
+    </record>
+    <record
+        id="unece_meat_product_cut_brisket_point_boneless_2"
+        model="unece.code.list"
+    >
+        <field name="type">meat_product_cut</field>
+        <field name="code">2333</field>
+        <field name="name">Brisket point end (Boneless)</field>
+    </record>
+    <record
+        id="unece_meat_product_cut_brisket_navel_boneless_1"
+        model="unece.code.list"
+    >
+        <field name="type">meat_product_cut</field>
+        <field name="code">2340</field>
+        <field name="name">Brisket navel end (Boneless)</field>
+    </record>
+    <record
+        id="unece_meat_product_cut_brisket_navel_boneless_2"
+        model="unece.code.list"
+    >
+        <field name="type">meat_product_cut</field>
+        <field name="code">2345</field>
+        <field name="name">Brisket navel end (Boneless)</field>
+    </record>
+    <record id="unece_meat_product_cut_brisket_deckle_off" model="unece.code.list">
+        <field name="type">meat_product_cut</field>
+        <field name="code">2358</field>
+        <field name="name">Brisket deckle off</field>
+    </record>
+    <record id="unece_meat_product_cut_brisket_navel_plate" model="unece.code.list">
+        <field name="type">meat_product_cut</field>
+        <field name="code">2473</field>
+        <field name="name">Brisket navel plate</field>
+    </record>
+    <record
+        id="unece_meat_product_cut_brisket_point_end_deckle_off"
+        model="unece.code.list"
+    >
+        <field name="type">meat_product_cut</field>
+        <field name="code">2353</field>
+        <field name="name">Brisket point end deckle off</field>
+    </record>
+    <record id="unece_meat_product_cut_butt_set" model="unece.code.list">
+        <field name="type">meat_product_cut</field>
+        <field name="code">2483</field>
+        <field name="name">Butt set</field>
+    </record>
+    <record id="unece_meat_product_cut_chuck_crest" model="unece.code.list">
+        <field name="type">meat_product_cut</field>
+        <field name="code">2278</field>
+        <field name="name">Chuck crest</field>
+    </record>
+    <record id="unece_meat_product_cut_chuck_eye_roll" model="unece.code.list">
+        <field name="type">meat_product_cut</field>
+        <field name="code">2268</field>
+        <field name="name">Chuck eye roll</field>
+    </record>
+    <record id="unece_meat_product_cut_chuck_roll" model="unece.code.list">
+        <field name="type">meat_product_cut</field>
+        <field name="code">2275</field>
+        <field name="name">Chuck roll</field>
+    </record>
+    <record id="unece_meat_product_cut_chuck_eye" model="unece.code.list">
+        <field name="type">meat_product_cut</field>
+        <field name="code">2264</field>
+        <field name="name">Chuck eye</field>
+    </record>
+    <record id="unece_meat_product_cut_chuck_roll_long" model="unece.code.list">
+        <field name="type">meat_product_cut</field>
+        <field name="code">2289</field>
+        <field name="name">Chuck roll - long cut</field>
+    </record>
+    <record id="unece_meat_product_cut_chuck_tender" model="unece.code.list">
+        <field name="type">meat_product_cut</field>
+        <field name="code">2310</field>
+        <field name="name">Chuck tender</field>
+    </record>
+    <record id="unece_meat_product_cut_cube_roll_rib_eye" model="unece.code.list">
+        <field name="type">meat_product_cut</field>
+        <field name="code">2240</field>
+        <field name="name">Cube roll (rib eye roll)</field>
+    </record>
+    <record id="unece_meat_product_cut_cutaneus_trunci" model="unece.code.list">
+        <field name="type">meat_product_cut</field>
+        <field name="code">2196</field>
+        <field name="name">Cutaneus trunci (rose)</field>
+    </record>
+    <record id="unece_meat_product_cut_eye_rump" model="unece.code.list">
+        <field name="type">meat_product_cut</field>
+        <field name="code">2093</field>
+        <field name="name">Eye of rump</field>
+    </record>
+    <record id="unece_meat_product_cut_eye_round" model="unece.code.list">
+        <field name="type">meat_product_cut</field>
+        <field name="code">2040</field>
+        <field name="name">Eye round</field>
+    </record>
+    <record id="unece_meat_product_cut_flank_steak" model="unece.code.list">
+        <field name="type">meat_product_cut</field>
+        <field name="code">2210</field>
+        <field name="name">Flank steak</field>
+    </record>
+    <record id="unece_meat_product_cut_shin_shank" model="unece.code.list">
+        <field name="type">meat_product_cut</field>
+        <field name="code">2360</field>
+        <field name="name">Shin-shank forequarter/ hindquarter</field>
+    </record>
+    <record id="unece_meat_product_cut_heel_muscle" model="unece.code.list">
+        <field name="type">meat_product_cut</field>
+        <field name="code">2364</field>
+        <field name="name">Heel muscle</field>
+    </record>
+    <record id="unece_meat_product_cut_inside" model="unece.code.list">
+        <field name="type">meat_product_cut</field>
+        <field name="code">2010</field>
+        <field name="name">Inside</field>
+    </record>
+    <record id="unece_meat_product_cut_inside_cap" model="unece.code.list">
+        <field name="type">meat_product_cut</field>
+        <field name="code">2012</field>
+        <field name="name">Inside cap</field>
+    </record>
+    <record id="unece_meat_product_cut_inside_cap_off" model="unece.code.list">
+        <field name="type">meat_product_cut</field>
+        <field name="code">2011</field>
+        <field name="name">Inside - cap off</field>
+    </record>
+    <record id="unece_meat_product_cut_inside_meat" model="unece.code.list">
+        <field name="type">meat_product_cut</field>
+        <field name="code">2035</field>
+        <field name="name">Inside meat</field>
+    </record>
+    <record id="unece_meat_product_cut_inside_skirt" model="unece.code.list">
+        <field name="type">meat_product_cut</field>
+        <field name="code">2205</field>
+        <field name="name">Inside skirt</field>
+    </record>
+    <record id="unece_meat_product_cut_internal_flank_plate" model="unece.code.list">
+        <field name="type">meat_product_cut</field>
+        <field name="code">2203</field>
+        <field name="name">Internal flank plate</field>
+    </record>
+    <record id="unece_meat_product_cut_knuckle" model="unece.code.list">
+        <field name="type">meat_product_cut</field>
+        <field name="code">2070</field>
+        <field name="name">Knuckle</field>
+    </record>
+    <record id="unece_meat_product_cut_loin_boneless" model="unece.code.list">
+        <field name="type">meat_product_cut</field>
+        <field name="code">2146</field>
+        <field name="name">Loin (boneless)</field>
+    </record>
+    <record id="unece_meat_product_cut_neck_boneless" model="unece.code.list">
+        <field name="type">meat_product_cut</field>
+        <field name="code">2280</field>
+        <field name="name">Neck (boneless)</field>
+    </record>
+    <record id="unece_meat_product_cut_outside_boneless" model="unece.code.list">
+        <field name="type">meat_product_cut</field>
+        <field name="code">2030</field>
+        <field name="name">Outside (boneless)</field>
+    </record>
+    <record id="unece_meat_product_cut_outside_flat_boneless" model="unece.code.list">
+        <field name="type">meat_product_cut</field>
+        <field name="code">2050</field>
+        <field name="name">Outside flat (boneless)</field>
+    </record>
+    <record id="unece_meat_product_cut_outside_meat" model="unece.code.list">
+        <field name="type">meat_product_cut</field>
+        <field name="code">2033</field>
+        <field name="name">Outside meat</field>
+    </record>
+    <record id="unece_meat_product_cut_pectoral_meat" model="unece.code.list">
+        <field name="type">meat_product_cut</field>
+        <field name="code">2329</field>
+        <field name="name">Pectoral meat</field>
+    </record>
+    <record id="unece_meat_product_cut_rump" model="unece.code.list">
+        <field name="type">meat_product_cut</field>
+        <field name="code">2090</field>
+        <field name="name">Rump</field>
+    </record>
+    <record id="unece_meat_product_cut_rump_cap" model="unece.code.list">
+        <field name="type">meat_product_cut</field>
+        <field name="code">2091</field>
+        <field name="name">Rump cap</field>
+    </record>
+    <record id="unece_meat_product_cut_rib_eye_cap" model="unece.code.list">
+        <field name="type">meat_product_cut</field>
+        <field name="code">2229</field>
+        <field name="name">Rib eye cap meat</field>
+    </record>
+    <record
+        id="unece_meat_product_cut_bottom_sirloin_butt_boneless"
+        model="unece.code.list"
+    >
+        <field name="type">meat_product_cut</field>
+        <field name="code">2081</field>
+        <field name="name">Bottom sirloin butt (boneless)</field>
+    </record>
+    <record id="unece_meat_product_cut_sileverside" model="unece.code.list">
+        <field name="type">meat_product_cut</field>
+        <field name="code">2020</field>
+        <field name="name">Silverside</field>
+    </record>
+    <record id="unece_meat_product_cut_spencer_roll" model="unece.code.list">
+        <field name="type">meat_product_cut</field>
+        <field name="code">2230</field>
+        <field name="name">Spencer roll</field>
+    </record>
+    <record id="unece_meat_product_cut_striploin" model="unece.code.list">
+        <field name="type">meat_product_cut</field>
+        <field name="code">2140</field>
+        <field name="name">Striploin</field>
+    </record>
+    <record id="unece_meat_product_cut_shoulder_tender" model="unece.code.list">
+        <field name="type">meat_product_cut</field>
+        <field name="code">2306</field>
+        <field name="name">Shoulder tender</field>
+    </record>
+    <record id="unece_meat_product_cut_tenderloin" model="unece.code.list">
+        <field name="type">meat_product_cut</field>
+        <field name="code">2150</field>
+        <field name="name">Tenderloin</field>
+    </record>
+    <record
+        id="unece_meat_product_cut_tenderloin_side_strap_off"
+        model="unece.code.list"
+    >
+        <field name="type">meat_product_cut</field>
+        <field name="code">2160</field>
+        <field name="name">Tenderloin side strap off</field>
+    </record>
+    <record id="unece_meat_product_cut_thick_flank" model="unece.code.list">
+        <field name="type">meat_product_cut</field>
+        <field name="code">2060</field>
+        <field name="name">Thick flank</field>
+    </record>
+    <record id="unece_meat_product_cut_thick_skirt" model="unece.code.list">
+        <field name="type">meat_product_cut</field>
+        <field name="code">2180</field>
+        <field name="name">Thick skirt</field>
+    </record>
+    <record id="unece_meat_product_cut_thin_flank" model="unece.code.list">
+        <field name="type">meat_product_cut</field>
+        <field name="code">2200</field>
+        <field name="name">Thin flank</field>
+    </record>
+    <record id="unece_meat_product_cut_thin_skirt" model="unece.code.list">
+        <field name="type">meat_product_cut</field>
+        <field name="code">2190</field>
+        <field name="name">Thin skirt (outside skirt)</field>
+    </record>
+    <record id="unece_meat_product_cut_top_sirloin" model="unece.code.list">
+        <field name="type">meat_product_cut</field>
+        <field name="code">2120</field>
+        <field name="name">Top sirloin (top butt)</field>
+    </record>
+    <record id="unece_meat_product_cut_tri_tip" model="unece.code.list">
+        <field name="type">meat_product_cut</field>
+        <field name="code">2131</field>
+        <field name="name">Tri-tip</field>
+    </record>
+    <!--REFRIGERATION-->
+    <record id="unece_meat_refrigeration_not_specified" model="unece.code.list">
+        <field name="type">meat_refrigeration</field>
+        <field name="code">0</field>
+        <field name="name">Not specified</field>
+    </record>
+    <record id="unece_meat_refrigeration_chilled" model="unece.code.list">
+        <field name="type">meat_refrigeration</field>
+        <field name="code">1</field>
+        <field name="name">Chilled</field>
+        <field name="description">
+            Internal product temperature maintained at not less
+            than –1.5°C or more than +7°C at any time following
+            the post-slaughter chilling process.
+        </field>
+    </record>
+    <record id="unece_meat_refrigeration_frozen" model="unece.code.list">
+        <field name="type">meat_refrigeration</field>
+        <field name="code">2</field>
+        <field name="name">Frozen</field>
+        <field name="description">
+            Internal product temperature maintained at not
+            exceeding –12°C at any time after freezing.
+        </field>
+    </record>
+    <record id="unece_meat_refrigeration_deep_frozen" model="unece.code.list">
+        <field name="type">meat_refrigeration</field>
+        <field name="code">3</field>
+        <field name="name">Deep-frozen</field>
+        <field name="description">
+            Internal product temperature maintained at not
+            exceeding –18°C at any time after freezing.
+        </field>
+    </record>
+    <record id="unece_meat_refrigeration_other" model="unece.code.list">
+        <field name="type">meat_refrigeration</field>
+        <field name="code">9</field>
+        <field name="name">Other</field>
+    </record>
+    <!--BOVINE CATEGORY-->
+    <record id="unece_meat_bovine_category_not_specified" model="unece.code.list">
+        <field name="type">meat_bovine_category</field>
+        <field name="code">0</field>
+        <field name="name">Not specified</field>
+    </record>
+    <record id="unece_meat_bovine_category_intact_male" model="unece.code.list">
+        <field name="type">meat_bovine_category</field>
+        <field name="code">1</field>
+        <field name="name">Intact male</field>
+        <field name="description">
+            Evidence of sex traits, greater than 24 months
+        </field>
+    </record>
+    <record id="unece_meat_bovine_category_young_intact_male" model="unece.code.list">
+        <field name="type">meat_bovine_category</field>
+        <field name="code">2</field>
+        <field name="name">Young intact male</field>
+        <field name="description">
+            Less than 24 months
+        </field>
+    </record>
+    <record id="unece_meat_bovine_category_steer" model="unece.code.list">
+        <field name="type">meat_bovine_category</field>
+        <field name="code">3</field>
+        <field name="name">Steer</field>
+        <field name="description">
+            Young castrate
+        </field>
+    </record>
+    <record id="unece_meat_bovine_category_heifer" model="unece.code.list">
+        <field name="type">meat_bovine_category</field>
+        <field name="code">4</field>
+        <field name="name">Heifer</field>
+        <field name="description">
+            Young female, uncalved
+        </field>
+    </record>
+    <record id="unece_meat_bovine_category_steer_and_or_heifer" model="unece.code.list">
+        <field name="type">meat_bovine_category</field>
+        <field name="code">5</field>
+        <field name="name">Steer and/or Heifer</field>
+        <field name="description">
+            Young castrate or young female, uncalved
+        </field>
+    </record>
+    <record id="unece_meat_bovine_category_cow" model="unece.code.list">
+        <field name="type">meat_bovine_category</field>
+        <field name="code">6</field>
+        <field name="name">Cow</field>
+        <field name="description">
+            Mature female
+        </field>
+    </record>
+    <record id="unece_meat_bovine_category_young_bovine" model="unece.code.list">
+        <field name="type">meat_bovine_category</field>
+        <field name="code">7</field>
+        <field name="name">Young bovine</field>
+        <field name="description">
+            6-12 months
+        </field>
+    </record>
+    <record id="unece_meat_bovine_category_steer_or_heifer_old" model="unece.code.list">
+        <field name="type">meat_bovine_category</field>
+        <field name="code">8</field>
+        <field name="name">Steer and/or Heifer older than 24 months</field>
+        <field name="description">
+            Castrate/female (uncalved)
+        </field>
+    </record>
+    <record id="unece_meat_bovine_category_other" model="unece.code.list">
+        <field name="type">meat_bovine_category</field>
+        <field name="code">9</field>
+        <field name="name">Other</field>
+    </record>
+    <!--PRODUCTION SYSTEM-->
+    <record id="unece_meat_production_system_not_specified" model="unece.code.list">
+        <field name="type">meat_production_system</field>
+        <field name="code">0</field>
+        <field name="name">Not specified</field>
+    </record>
+    <record id="unece_meat_production_system_intensive" model="unece.code.list">
+        <field name="type">meat_production_system</field>
+        <field name="code">1</field>
+        <field name="name">Intensive</field>
+        <field name="description">
+            Production methods which include restricted stocking,
+            housing and feeding regimes developed to promote rapid
+            growth.
+        </field>
+    </record>
+    <record id="unece_meat_production_system_extensive" model="unece.code.list">
+        <field name="type">meat_production_system</field>
+        <field name="code">2</field>
+        <field name="name">Extensive</field>
+        <field name="description">
+            Production methods which include relatively unrestricted
+            access to natural forage for the majority of the animals’ lives.
+        </field>
+    </record>
+    <record id="unece_meat_production_system_organic" model="unece.code.list">
+        <field name="type">meat_production_system</field>
+        <field name="code">3</field>
+        <field name="name">Organic</field>
+        <field name="description">
+            Production methods, which conform to the legislation of the
+            importing country concerning organic production.
+        </field>
+    </record>
+    <record id="unece_meat_production_system_other" model="unece.code.list">
+        <field name="type">meat_production_system</field>
+        <field name="code">9</field>
+        <field name="name">Other</field>
+        <field name="description">
+            Can be used to describe any other production system agreed
+            between buyer and seller.
+        </field>
+    </record>
+    <!--FEEDING SYSTEM-->
+    <record id="unece_meat_feeding_system_not_specified" model="unece.code.list">
+        <field name="type">meat_feeding_system</field>
+        <field name="code">0</field>
+        <field name="name">Not specified</field>
+    </record>
+    <record id="unece_meat_feeding_system_grain_fed" model="unece.code.list">
+        <field name="type">meat_feeding_system</field>
+        <field name="code">1</field>
+        <field name="name">Grain fed</field>
+        <field name="description">
+            Grain is the predominant component of the diet
+        </field>
+    </record>
+    <record id="unece_meat_feeding_system_forage_fed" model="unece.code.list">
+        <field name="type">meat_feeding_system</field>
+        <field name="code">2</field>
+        <field name="name">Forage fed</field>
+        <field name="description">
+            Forage is the predominant component of the diet with some
+            grain supplement
+        </field>
+    </record>
+    <record id="unece_meat_feeding_system_exclusive_forage_fed" model="unece.code.list">
+        <field name="type">meat_feeding_system</field>
+        <field name="code">3</field>
+        <field name="name">Exclusively forage fed</field>
+        <field name="description">
+            Forage is the only component of the diet
+        </field>
+    </record>
+    <record id="unece_meat_feeding_system_other" model="unece.code.list">
+        <field name="type">meat_feeding_system</field>
+        <field name="code">9</field>
+        <field name="name">Other</field>
+        <field name="description">
+            Can be used to describe any other feeding system agreed
+            between buyer and seller
+        </field>
+    </record>
+    <!--Slaughter system-->
+    <record id="unece_meat_slaughter_system_not_specified" model="unece.code.list">
+        <field name="type">meat_slaughter_system</field>
+        <field name="code">0</field>
+        <field name="name">Not specified</field>
+    </record>
+    <record id="unece_meat_slaughter_system_conventional" model="unece.code.list">
+        <field name="type">meat_slaughter_system</field>
+        <field name="code">1</field>
+        <field name="name">Conventional</field>
+        <field name="description">
+            Stunning prior to bleeding
+        </field>
+    </record>
+    <record id="unece_meat_slaughter_system_kosher" model="unece.code.list">
+        <field name="type">meat_slaughter_system</field>
+        <field name="code">2</field>
+        <field name="name">Kosher</field>
+        <field name="description">
+            Appropriate ritual slaughter procedures used
+        </field>
+    </record>
+    <record id="unece_meat_slaughter_system_halal" model="unece.code.list">
+        <field name="type">meat_slaughter_system</field>
+        <field name="code">3</field>
+        <field name="name">Halal</field>
+        <field name="description">
+            Appropriate ritual slaughter procedures used
+        </field>
+    </record>
+    <record id="unece_meat_slaughter_system_other" model="unece.code.list">
+        <field name="type">meat_slaughter_system</field>
+        <field name="code">9</field>
+        <field name="name">Other</field>
+        <field name="description">
+            Any other authorized method of slaughter must be agreed
+            between buyer and seller
+        </field>
+    </record>
+    <!--Post-slaughter system-->
+    <record id="unece_meat_post_slaughter_system_not_specified" model="unece.code.list">
+        <field name="type">meat_post_slaughter_system</field>
+        <field name="code">0</field>
+        <field name="name">Not specified</field>
+    </record>
+    <record id="unece_meat_post_slaughter_system_specified" model="unece.code.list">
+        <field name="type">meat_post_slaughter_system</field>
+        <field name="code">1</field>
+        <field name="name">Specified</field>
+        <field name="description">
+            Post-slaughter system specified as agreed between buyer
+            and seller
+        </field>
+    </record>
+    <!--FAT THICKNESS-->
+    <record id="unece_meat_fat_thickness_not_specified" model="unece.code.list">
+        <field name="type">meat_fat_thickness</field>
+        <field name="code">0</field>
+        <field name="name">Not specified</field>
+    </record>
+    <record
+        id="unece_meat_fat_thickness_peeled_denuded_surf_mem_rmv"
+        model="unece.code.list"
+    >
+        <field name="type">meat_fat_thickness</field>
+        <field name="code">1</field>
+        <field name="name">Peeled, denuded, surface membrane removed</field>
+    </record>
+    <record id="unece_meat_fat_thickness_peeled_denuded" model="unece.code.list">
+        <field name="type">meat_fat_thickness</field>
+        <field name="code">2</field>
+        <field name="name">Peeled, denuded</field>
+    </record>
+    <record id="unece_meat_fat_thickness_practically_Free" model="unece.code.list">
+        <field name="type">meat_fat_thickness</field>
+        <field name="code">3</field>
+        <field name="name">Practically free (75% lean/seam surface removed)</field>
+    </record>
+    <record id="unece_meat_fat_thickness_3mm" model="unece.code.list">
+        <field name="type">meat_fat_thickness</field>
+        <field name="code">4</field>
+        <field name="name">3 mm maximum fat thickness or as specified</field>
+    </record>
+    <record id="unece_meat_fat_thickness_5mm" model="unece.code.list">
+        <field name="type">meat_fat_thickness</field>
+        <field name="code">5</field>
+        <field name="name">6 mm maximum fat thickness or as specified</field>
+    </record>
+    <record id="unece_meat_fat_thickness_13mm" model="unece.code.list">
+        <field name="type">meat_fat_thickness</field>
+        <field name="code">6</field>
+        <field name="name">13 mm maximum fat thickness or as specified</field>
+    </record>
+    <record id="unece_meat_fat_thickness_25mm" model="unece.code.list">
+        <field name="type">meat_fat_thickness</field>
+        <field name="code">7</field>
+        <field name="name">25 mm maximum fat thickness or as specified</field>
+    </record>
+    <record id="unece_meat_fat_thickness_chemical_lean" model="unece.code.list">
+        <field name="type">meat_fat_thickness</field>
+        <field name="code">8</field>
+        <field name="name">Chemical lean specified</field>
+    </record>
+    <record id="unece_meat_fat_thickness_other" model="unece.code.list">
+        <field name="type">meat_fat_thickness</field>
+        <field name="code">9</field>
+        <field name="name">Other</field>
+    </record>
+    <!--BOVINE QUALITY SYSTEM-->
+    <record id="unece_meat_bovine_quality_system_not_specified" model="unece.code.list">
+        <field name="type">meat_bovine_quality_system</field>
+        <field name="code">0</field>
+        <field name="name">Not specified</field>
+    </record>
+    <record id="unece_meat_bovine_quality_system_official" model="unece.code.list">
+        <field name="type">meat_bovine_quality_system</field>
+        <field name="code">1</field>
+        <field name="name">Official standards</field>
+        <field name="description">
+            Quality classifications based on official standards
+            at the exporting country
+        </field>
+    </record>
+    <record id="unece_meat_bovine_quality_system_company" model="unece.code.list">
+        <field name="type">meat_bovine_quality_system</field>
+        <field name="code">2</field>
+        <field name="name">Company standards</field>
+        <field name="description">
+            Quality classifications based on sellers’ standards
+        </field>
+    </record>
+    <record id="unece_meat_bovine_quality_system_industry" model="unece.code.list">
+        <field name="type">meat_bovine_quality_system</field>
+        <field name="code">3</field>
+        <field name="name">Industry standards</field>
+        <field name="description">
+            Quality classifications based on industry-wide standards
+        </field>
+    </record>
+    <record id="unece_meat_bovine_quality_system_other" model="unece.code.list">
+        <field name="type">meat_bovine_quality_system</field>
+        <field name="code">9</field>
+        <field name="name">Other</field>
+        <field name="description">
+            Other quality classifications agreed between buyer and
+            seller
+        </field>
+    </record>
+    <!--WEIGHT RANGE-->
+    <record id="unece_meat_weight_range_not_specified" model="unece.code.list">
+        <field name="type">meat_weight_range</field>
+        <field name="code">0</field>
+        <field name="name">Not specified</field>
+    </record>
+    <record id="unece_meat_weight_range_specified" model="unece.code.list">
+        <field name="type">meat_weight_range</field>
+        <field name="code">1</field>
+        <field name="name">Specified</field>
+        <field name="description">
+            Range required
+        </field>
+    </record>
+    <!--PACKING-->
+    <record id="unece_meat_packing_not_specified" model="unece.code.list">
+        <field name="type">meat_packing</field>
+        <field name="code">0</field>
+        <field name="name">Not specified</field>
+    </record>
+    <record id="unece_meat_packing_carcases_without_packaging" model="unece.code.list">
+        <field name="type">meat_packing</field>
+        <field name="code">1</field>
+        <field
+            name="name"
+        >Carcases, half carcases and quarters – without packaging</field>
+    </record>
+    <record id="unece_meat_packing_carcases_with_packaging" model="unece.code.list">
+        <field name="type">meat_packing</field>
+        <field name="code">2</field>
+        <field name="name">Carcases, half carcases and quarters – with packaging</field>
+    </record>
+    <record id="unece_meat_packing_cuts_individual" model="unece.code.list">
+        <field name="type">meat_packing</field>
+        <field name="code">3</field>
+        <field name="name">Cuts – individually wrapped (I.W.)</field>
+    </record>
+    <record id="unece_meat_packing_cuts_bulk" model="unece.code.list">
+        <field name="type">meat_packing</field>
+        <field name="code">4</field>
+        <field name="name">Cuts – bulk packaged (plastic or wax-lined container)</field>
+    </record>
+    <record id="unece_meat_packing_cuts_vacuum" model="unece.code.list">
+        <field name="type">meat_packing</field>
+        <field name="code">5</field>
+        <field name="name">Cuts – vacuum-packed (VAC)</field>
+    </record>
+    <record id="unece_meat_packing_cuts_modified_atm" model="unece.code.list">
+        <field name="type">meat_packing</field>
+        <field name="code">6</field>
+        <field name="name">Cuts – modified atmosphere packaging (MAP)</field>
+    </record>
+    <record id="unece_meat_packing_cuts_other" model="unece.code.list">
+        <field name="type">meat_packing</field>
+        <field name="code">9</field>
+        <field name="name">Other</field>
+    </record>
+    <!--CONFORMITY ASSESSMENT-->
+    <record id="unece_meat_conformity_assessment_not_specified" model="unece.code.list">
+        <field name="type">meat_conformity_assessment</field>
+        <field name="code">0</field>
+        <field name="name">Not specified</field>
+    </record>
+    <record
+        id="unece_meat_conformity_assessment_quality_grade_class"
+        model="unece.code.list"
+    >
+        <field name="type">meat_conformity_assessment</field>
+        <field name="code">1</field>
+        <field
+            name="name"
+        >Quality/grade/classification (quality) conformity assessment</field>
+    </record>
+    <record id="unece_meat_conformity_assessment_trade" model="unece.code.list">
+        <field name="type">meat_conformity_assessment</field>
+        <field name="code">2</field>
+        <field name="name">Trade standard conformity assessment</field>
+    </record>
+    <record id="unece_meat_conformity_assessment_bovine" model="unece.code.list">
+        <field name="type">meat_conformity_assessment</field>
+        <field name="code">3</field>
+        <field
+            name="name"
+        >Bovine /batch identification (bovine /batch ID) conformity assessment</field>
+    </record>
+    <record id="unece_meat_conformity_assessment_quality_trade" model="unece.code.list">
+        <field name="type">meat_conformity_assessment</field>
+        <field name="code">4</field>
+        <field name="name">Quality and trade standard conformity assessment</field>
+    </record>
+    <record
+        id="unece_meat_conformity_assessment_quality_bovine"
+        model="unece.code.list"
+    >
+        <field name="type">meat_conformity_assessment</field>
+        <field name="code">5</field>
+        <field name="name">Quality and bovine /batch ID conformity assessment</field>
+    </record>
+    <record id="unece_meat_conformity_assessment_trade_bovine" model="unece.code.list">
+        <field name="type">meat_conformity_assessment</field>
+        <field name="code">6</field>
+        <field
+            name="name"
+        >Trade standard and bovine /batch ID conformity assessment</field>
+    </record>
+    <record
+        id="unece_meat_conformity_assessment_quality_trade_bovine"
+        model="unece.code.list"
+    >
+        <field name="type">meat_conformity_assessment</field>
+        <field name="code">7</field>
+        <field
+            name="name"
+        >Quality, trade standard, and bovine /batch ID conformity assessment</field>
+    </record>
+    <record id="unece_meat_conformity_assessment_other" model="unece.code.list">
+        <field name="type">meat_conformity_assessment</field>
+        <field name="code">9</field>
+        <field name="name">Other</field>
+    </record>
+</odoo>

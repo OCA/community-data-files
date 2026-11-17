@@ -1,0 +1,139 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* product_meat_unece
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 13.0\n"
+"Report-Msgid-Bugs-To: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: product_meat_unece
+#: model:ir.model.fields,field_description:product_meat_unece.field_product_product__unece_meat_bovine_category_id
+#: model:ir.model.fields,field_description:product_meat_unece.field_product_template__unece_meat_bovine_category_id
+#: model:ir.model.fields.selection,name:product_meat_unece.selection__unece_code_list__type__meat_bovine_category
+msgid "Bovine category"
+msgstr ""
+
+#. module: product_meat_unece
+#: model:ir.model.fields,field_description:product_meat_unece.field_product_product__unece_meat_bovine_quality_system_id
+#: model:ir.model.fields,field_description:product_meat_unece.field_product_template__unece_meat_bovine_quality_system_id
+#: model:ir.model.fields.selection,name:product_meat_unece.selection__unece_code_list__type__meat_bovine_quality_system
+msgid "Bovine quality system"
+msgstr ""
+
+#. module: product_meat_unece
+#: model:ir.model.fields,field_description:product_meat_unece.field_product_product__unece_meat_conformity_assessment_id
+#: model:ir.model.fields,field_description:product_meat_unece.field_product_template__unece_meat_conformity_assessment_id
+#: model:ir.model.fields.selection,name:product_meat_unece.selection__unece_code_list__type__meat_conformity_assessment
+msgid "Conformity assessment"
+msgstr ""
+
+#. module: product_meat_unece
+#: model:ir.model.fields,field_description:product_meat_unece.field_product_product__unece_meat_fat_thickness_id
+#: model:ir.model.fields,field_description:product_meat_unece.field_product_template__unece_meat_fat_thickness_id
+#: model:ir.model.fields.selection,name:product_meat_unece.selection__unece_code_list__type__meat_fat_thickness
+msgid "Fat thickness"
+msgstr ""
+
+#. module: product_meat_unece
+#: model:ir.model.fields,field_description:product_meat_unece.field_product_product__unece_meat_feeding_system_id
+#: model:ir.model.fields,field_description:product_meat_unece.field_product_template__unece_meat_feeding_system_id
+#: model:ir.model.fields.selection,name:product_meat_unece.selection__unece_code_list__type__meat_feeding_system
+msgid "Feeding system"
+msgstr ""
+
+#. module: product_meat_unece
+#: model:ir.model.fields,field_description:product_meat_unece.field_product_product__unece_meat_packing_id
+#: model:ir.model.fields,field_description:product_meat_unece.field_product_template__unece_meat_packing_id
+#: model:ir.model.fields.selection,name:product_meat_unece.selection__unece_code_list__type__meat_packing
+msgid "Packing"
+msgstr ""
+
+#. module: product_meat_unece
+#: model:ir.model.fields,field_description:product_meat_unece.field_product_product__unece_meat_post_slaughter_system_id
+#: model:ir.model.fields,field_description:product_meat_unece.field_product_template__unece_meat_post_slaughter_system_id
+#: model:ir.model.fields.selection,name:product_meat_unece.selection__unece_code_list__type__meat_post_slaughter_system
+msgid "Post-slaughter system"
+msgstr ""
+
+#. module: product_meat_unece
+#: model:ir.model,name:product_meat_unece.model_product_template
+msgid "Product Template"
+msgstr ""
+
+#. module: product_meat_unece
+#: model:ir.model.fields,field_description:product_meat_unece.field_product_product__unece_meat_product_cut_id
+#: model:ir.model.fields,field_description:product_meat_unece.field_product_template__unece_meat_product_cut_id
+#: model:ir.model.fields.selection,name:product_meat_unece.selection__unece_code_list__type__meat_product_cut
+msgid "Product/cut"
+msgstr ""
+
+#. module: product_meat_unece
+#: model:ir.model.fields,field_description:product_meat_unece.field_product_product__unece_meat_production_system_id
+#: model:ir.model.fields,field_description:product_meat_unece.field_product_template__unece_meat_production_system_id
+#: model:ir.model.fields.selection,name:product_meat_unece.selection__unece_code_list__type__meat_production_system
+msgid "Production system"
+msgstr ""
+
+#. module: product_meat_unece
+#: model:ir.model.fields,field_description:product_meat_unece.field_product_product__unece_meat_refrigeration_id
+#: model:ir.model.fields,field_description:product_meat_unece.field_product_template__unece_meat_refrigeration_id
+#: model:ir.model.fields.selection,name:product_meat_unece.selection__unece_code_list__type__meat_refrigeration
+msgid "Refrigeration"
+msgstr ""
+
+#. module: product_meat_unece
+#: model:ir.model.fields,field_description:product_meat_unece.field_product_product__unece_meat_slaughter_system_id
+#: model:ir.model.fields,field_description:product_meat_unece.field_product_template__unece_meat_slaughter_system_id
+#: model:ir.model.fields.selection,name:product_meat_unece.selection__unece_code_list__type__meat_slaughter_system
+msgid "Slaughter system"
+msgstr ""
+
+#. module: product_meat_unece
+#: model:ir.model.fields,field_description:product_meat_unece.field_product_product__unece_meat_species_id
+#: model:ir.model.fields,field_description:product_meat_unece.field_product_template__unece_meat_species_id
+#: model:ir.model.fields.selection,name:product_meat_unece.selection__unece_code_list__type__meat_species
+msgid "Species"
+msgstr ""
+
+#. module: product_meat_unece
+#: code:addons/product_meat_unece/models/unece_code_list.py:0
+#, python-format
+msgid ""
+"The code \"{code}\" doesn't match the required code length for this type "
+"({required_length})."
+msgstr ""
+
+#. module: product_meat_unece
+#: model:ir.model.fields,field_description:product_meat_unece.field_unece_code_list__type
+msgid "Type"
+msgstr ""
+
+#. module: product_meat_unece
+#: model_terms:ir.ui.view,arch_db:product_meat_unece.product_template_form_view
+msgid "UNECE Meat"
+msgstr ""
+
+#. module: product_meat_unece
+#: model:ir.model.fields,field_description:product_meat_unece.field_product_product__unece_meat_code
+#: model:ir.model.fields,field_description:product_meat_unece.field_product_template__unece_meat_code
+msgid "UNECE Meat Code"
+msgstr ""
+
+#. module: product_meat_unece
+#: model:ir.model,name:product_meat_unece.model_unece_code_list
+msgid "UNECE nomenclatures"
+msgstr ""
+
+#. module: product_meat_unece
+#: model:ir.model.fields,field_description:product_meat_unece.field_product_product__unece_meat_weight_range_id
+#: model:ir.model.fields,field_description:product_meat_unece.field_product_template__unece_meat_weight_range_id
+#: model:ir.model.fields.selection,name:product_meat_unece.selection__unece_code_list__type__meat_weight_range
+msgid "Weight range"
+msgstr ""
