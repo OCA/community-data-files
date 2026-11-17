@@ -12,6 +12,6 @@
     "depends": ["base_iban"],
     "development_status": "Mature",
     "data": ["views/res_bank_view.xml"],
-    "external_dependencies": {"python": ["schwifty==2024.4.0"]},
+    "external_dependencies": {"python": ["schwifty>=2026.7.2"]},
     "installable": True,
 }
