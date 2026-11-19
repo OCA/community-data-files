@@ -2,7 +2,7 @@
 # License AGPL-3.0 or later (https://www.gnu.org/licenses/agpl)
 
 from odoo.exceptions import UserError, ValidationError
-from odoo.tests import TransactionCase
+from odoo.tests import Form, TransactionCase
 
 
 class TestAdrModels(TransactionCase):
@@ -158,3 +158,12 @@ class TestAdrModels(TransactionCase):
         self.assertTrue(
             var.adr_goods_id == self.goods1 for var in template.product_variant_ids
         )
+
+    def test_06_onchange_is_dangerous(self):
+        """Unchecking is_dangerous clears the dangerous goods on the template"""
+        template = self.env["product.template"].create(
+            {"name": "Paint", "is_dangerous": True, "adr_goods_id": self.goods1.id}
+        )
+        with Form(template) as form:
+            form.is_dangerous = False
+        self.assertFalse(template.adr_goods_id)

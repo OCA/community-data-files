@@ -69,3 +69,17 @@ class TestAdrPoints(TestStockCommon):
         # UoM qty 5 / UoM factor 1 * adr_factor 3
         self.assertEqual(picking.move_ids[2].adr_points, 15)
         self.assertEqual(picking.adr_points, 424)
+
+    def test_adr_points_non_dangerous_product(self):
+        """A product without dangerous goods does not add ADR points"""
+        product = self.ProductObj.create(
+            {"name": "Harmless", "is_storable": True, "weight": 10.0}
+        )
+        form = Form(self.env["stock.picking"], view="stock.view_picking_form")
+        form.picking_type_id = self.warehouse.out_type_id
+        with form.move_ids.new() as move:
+            move.product_id = product
+            move.product_uom_qty = 2
+        picking = form.save()
+        self.assertEqual(picking.move_ids.adr_points, 0)
+        self.assertEqual(picking.adr_points, 0)
