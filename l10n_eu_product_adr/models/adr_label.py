@@ -13,7 +13,7 @@ class AdrLabel(models.Model):
     name = fields.Char(required=True, translate=True)
     code = fields.Char(required=True)
     image = fields.Binary(required=True)
-    class_id = fields.Many2one(comodel_name="adr.class", string="Class", required=True)
+    class_id = fields.Many2one(comodel_name="adr.class", required=True)
     goods_ids = fields.Many2many(
         comodel_name="adr.goods",
         copy=False,

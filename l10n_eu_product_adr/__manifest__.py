@@ -4,7 +4,7 @@
 {
     "name": "ADR Dangerous Goods",
     "summary": "Allows to set appropriate danger class and components",
-    "version": "19.0.1.0.1",
+    "version": "20.0.1.0.0",
     "category": "Inventory/Delivery",
     "website": "https://github.com/OCA/community-data-files",
     "author": "Opener B.V., Camptocamp, Odoo Community Association (OCA)",
@@ -19,7 +19,7 @@
         "data/adr_packing_instruction.xml",
         "data/adr_goods.xml",
         "security/res_groups.xml",
-        "security/ir.model.access.csv",
+        "security/ir.access.csv",
         "views/adr_class_views.xml",
         "views/adr_goods_views.xml",
         "views/adr_label_views.xml",

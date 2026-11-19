@@ -9,7 +9,7 @@ from .common import TRANSPORT_CATEGORIES, TUNNEL_RESTRICTION_CODES
 class AdrGoods(models.Model):
     _name = "adr.goods"
     _description = "Dangerous Goods"
-    _rec_names_search = ["name", "un_number"]
+    _rec_names_search = ("name", "un_number")
 
     active = fields.Boolean(default=True)
     un_number = fields.Char(
@@ -39,7 +39,7 @@ class AdrGoods(models.Model):
             "shipping name)."
         ),
     )
-    class_id = fields.Many2one(comodel_name="adr.class", string="Class", required=True)
+    class_id = fields.Many2one(comodel_name="adr.class", required=True)
     classification_code = fields.Char()
     label_ids = fields.Many2many(
         comodel_name="adr.label",

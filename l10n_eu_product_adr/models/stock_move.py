@@ -35,7 +35,7 @@ class StockMove(models.Model):
                 reference_qty = sm.product_id.weight * sm.product_uom_qty
             else:
                 # Conflate the reference unit (kilo, liter) with the ADR unit
-                reference_qty = sm.product_uom_qty / sm.product_uom.factor
+                reference_qty = sm.product_uom_qty / sm.uom_id.factor
             adr_factor = un_number_points_factor_map.get(
                 adr_goods.un_number,
                 category_points_factor_map.get(adr_goods.transport_category, 0),

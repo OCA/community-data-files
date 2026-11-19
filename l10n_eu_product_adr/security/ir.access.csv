@@ -1,0 +1,9 @@
+id,name,model_id,group_id/id,operation,domain
+access_adr_goods_user,access_adr_goods,adr.goods,l10n_eu_product_adr.group_adr_goods_user,r,
+access_adr_goods_manager,access_adr_goods,adr.goods,l10n_eu_product_adr.group_adr_goods_admin,crud,
+access_adr_class_user,access_adr_class,adr.class,l10n_eu_product_adr.group_adr_goods_user,r,
+access_adr_class_manager,access_adr_class,adr.class,l10n_eu_product_adr.group_adr_goods_admin,crud,
+access_adr_label_user,access_adr_label,adr.label,l10n_eu_product_adr.group_adr_goods_user,r,
+access_adr_label_manager,access_adr_label,adr.label,l10n_eu_product_adr.group_adr_goods_admin,crud,
+access_adr_packing_instruction_user,access_adr_packing_instruction,adr.packing.instruction,l10n_eu_product_adr.group_adr_goods_user,r,
+access_adr_packing_instruction_manager,access_adr_packing_instruction,adr.packing.instruction,l10n_eu_product_adr.group_adr_goods_admin,crud,

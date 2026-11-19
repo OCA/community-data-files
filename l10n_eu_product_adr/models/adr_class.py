@@ -7,7 +7,7 @@ class AdrClass(models.Model):
     _name = "adr.class"
     _description = "Dangerous Goods Class"
     _order = "code, name"
-    _rec_names_search = ["name", "code"]
+    _rec_names_search = ("name", "code")
 
     code = fields.Char(required=True)
     name = fields.Char(required=True, translate=True)
