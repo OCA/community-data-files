@@ -27,9 +27,9 @@
                         >
                             <div class="o_kanban_image_fill position-relative w-100">
                                 <field
-                                    name="image"
                                     t-if="record.image"
                                     class="o_image_64_contain mw-100"
+                                    name="image"
                                     widget="image"
                                     options="{'preview_image': 'image', 'img_class': 'object-fit-contain'}"
                                 />

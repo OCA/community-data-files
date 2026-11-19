@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8' ?>
+<?xml version="1.0" encoding="UTF-8" ?>
 <odoo>
     <record id="adr_goods_0004_1dot1D_1_P112a/P112b/P112c_1" model="adr.goods">
         <field name="un_number">0004</field>
