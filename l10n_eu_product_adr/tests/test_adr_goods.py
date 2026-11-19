@@ -166,4 +166,7 @@ class TestAdrModels(TransactionCase):
         )
         with Form(template) as form:
             form.is_dangerous = False
+            self.assertFalse(form.adr_goods_id)
+            form.is_dangerous = True
+        self.assertTrue(template.is_dangerous)
         self.assertFalse(template.adr_goods_id)
