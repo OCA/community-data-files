@@ -54,7 +54,11 @@ def migrate(env, version):
         ]
         openupgrade.rename_fields(env, field_specs)
 
-    if not openupgrade.column_exists(env.cr, "product_product", "storage_class_id"):
+    if openupgrade.column_exists(
+        env.cr, "product_product", "storage_class_id"
+    ) and not openupgrade.column_exists(
+        env.cr, "product_product", "adr_storage_class_id"
+    ):
         field_specs = [
             (
                 "product.product",
@@ -65,7 +69,11 @@ def migrate(env, version):
         ]
         openupgrade.rename_fields(env, field_specs)
 
-    if not openupgrade.column_exists(env.cr, "product_product", "packaging_type_id"):
+    if openupgrade.column_exists(
+        env.cr, "product_product", "packaging_type_id"
+    ) and not openupgrade.column_exists(
+        env.cr, "product_product", "adr_packaging_type_id"
+    ):
         field_specs = [
             (
                 "product.product",
@@ -76,7 +84,11 @@ def migrate(env, version):
         ]
         openupgrade.rename_fields(env, field_specs)
 
-    if not openupgrade.column_exists(env.cr, "product_product", "storage_temp_id"):
+    if openupgrade.column_exists(
+        env.cr, "product_product", "storage_temp_id"
+    ) and not openupgrade.column_exists(
+        env.cr, "product_product", "adr_storage_temp_id"
+    ):
         field_specs = [
             (
                 "product.product",
@@ -87,7 +99,9 @@ def migrate(env, version):
         ]
         openupgrade.rename_fields(env, field_specs)
 
-    if not openupgrade.column_exists(env.cr, "product_product", "wgk_class_id"):
+    if openupgrade.column_exists(
+        env.cr, "product_product", "wgk_class_id"
+    ) and not openupgrade.column_exists(env.cr, "product_product", "adr_wgk_class_id"):
         field_specs = [
             (
                 "product.product",
