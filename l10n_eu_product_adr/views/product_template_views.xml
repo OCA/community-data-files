@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<odoo>
+    <record id="product_template_form_view" model="ir.ui.view">
+        <field name="name">product.template.dangerous.class</field>
+        <field name="model">product.template</field>
+        <field name="inherit_id" ref="product.product_template_form_view" />
+        <field name="arch" type="xml">
+            <xpath expr="//div[@name='options']" position="inside">
+                <span
+                    class="d-inline-block"
+                    groups="l10n_eu_product_adr.group_adr_goods_user"
+                >
+                    <field name="is_dangerous" />
+                    <label for="is_dangerous" />
+                </span>
+            </xpath>
+            <xpath expr="//page[last()]" position="after">
+                <page
+                    name="adr"
+                    string="Dangerous Goods"
+                    groups="l10n_eu_product_adr.group_adr_goods_user"
+                    invisible="not is_storable or (not is_dangerous and not adr_goods_on_variants)"
+                >
+                    <group name="adr_on_variants" invisible="not adr_goods_on_variants">
+                        <div
+                        >Dangerous goods settings differ per variant of this product. Please configure the dangerous goods settings on each variant.</div>
+                    </group>
+                    <group name="adr" invisible="adr_goods_on_variants">
+                        <group colspan="4" col="4" string="Name and description">
+                            <field name="adr_goods_on_variants" invisible="1" />
+                            <field
+                                name="adr_goods_id"
+                                required="is_storable and is_dangerous"
+                                options="{'no_create': True}"
+                                colspan="4"
+                                nolabel="1"
+                            />
+                        </group>
+                        <group string="Classification">
+                            <field name="adr_class_id" />
+                            <field name="adr_classification_code" />
+                        </group>
+                        <group string="Transport">
+                            <label for="adr_limited_quantity" />
+                            <div>
+                                <field name="adr_limited_quantity" />
+                                <field name="adr_limited_quantity_uom_id" />
+                            </div>
+                            <field
+                                name="adr_packing_instruction_ids"
+                                widget="many2many_tags"
+                            />
+                            <field name="adr_transport_category" />
+                            <field name="adr_tunnel_restriction_code" />
+                        </group>
+                        <group colspan="4" col="2" string="Labels">
+                            <field name="adr_label_ids" nolabel="1" mode="kanban" />
+                        </group>
+                    </group>
+                </page>
+            </xpath>
+        </field>
+    </record>
+</odoo>
