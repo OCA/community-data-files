@@ -1,0 +1,13 @@
+id,name,model_id,group_id/id,operation,domain
+access_adr_storage_class_user,access_adr_storage_class,adr.storage.class,base.group_user,r,
+access_adr_storage_class_manager,access_adr_storage_class,adr.storage.class,base.group_erp_manager,crud,
+access_adr_packaging_type_user,access_adr_packaging_type,adr.packaging.type,base.group_user,r,
+access_adr_packaging_type_manager,access_adr_packaging_type,adr.packaging.type,base.group_erp_manager,crud,
+access_adr_storage_temp_user,access_adr_storage_temp,adr.storage.temp,base.group_user,r,
+access_adr_storage_temp_manager,access_adr_storage_temp,adr.storage.temp,base.group_erp_manager,crud,
+access_adr_wgk_class_user,access_adr_wgk_class,adr.wgk.class,base.group_user,r,
+access_adr_wgk_class_manager,access_adr_wgk_class,adr.wgk.class,base.group_erp_manager,crud,
+access_adr_limited_amount_user,access_adr_limited_amount,adr.limited.amount,base.group_user,r,
+access_adr_limited_amount_manager,access_adr_limited_amount,adr.limited.amount,base.group_erp_manager,crud,
+access_adr_dang_uom_user,access_adr_dang_uom,adr.dangerous.uom,base.group_user,r,
+access_adr_dang_uom_manager,access_adr_dang_uom,adr.dangerous.uom,base.group_erp_manager,crud,

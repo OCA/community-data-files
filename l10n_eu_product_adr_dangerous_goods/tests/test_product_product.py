@@ -2,6 +2,11 @@ from odoo.addons.base.tests.common import BaseCommon
 
 
 class TestProductProduct(BaseCommon):
+    _test_user_groups = (
+        "base.group_erp_manager",
+        "product.group_product_manager",
+    )
+
     @classmethod
     def setUpClass(cls):
         super().setUpClass()

@@ -2,7 +2,7 @@
 # License AGPL-3.0 or later (http://www.gnu.org/licenses/agpl)
 {
     "name": "l10n Eu Product Adr Dangerous Goods",
-    "version": "19.0.1.0.0",
+    "version": "20.0.1.0.0",
     "category": "Inventory/Delivery",
     "website": "https://github.com/OCA/community-data-files",
     "author": "Camptocamp, Odoo Community Association (OCA)",
@@ -20,9 +20,8 @@
         "data/adr_storage_temp.xml",
         "data/adr_wgk_class.xml",
         # security
-        "security/ir.model.access.csv",
+        "security/ir.access.csv",
         # views
         "views/product_product.xml",
     ],
-    "external_dependencies": {"python": ["openupgradelib"]},
 }
