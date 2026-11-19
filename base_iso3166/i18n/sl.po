@@ -1,0 +1,53 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* base_iso3166
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 19.0\n"
+"Report-Msgid-Bugs-To: \n"
+"PO-Revision-Date: 2026-07-02 07:52+0000\n"
+"Last-Translator: Matjaz Mozetic <matjaz@luxim.si>\n"
+"Language-Team: none\n"
+"Language: sl\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: nplurals=4; plural=n%100==1 ? 0 : n%100==2 ? 1 : n%100==3 || "
+"n%100==4 ? 2 : 3;\n"
+"X-Generator: Weblate 5.15.2\n"
+
+#. module: base_iso3166
+#: model:ir.model,name:base_iso3166.model_res_country
+msgid "Country"
+msgstr "Država"
+
+#. module: base_iso3166
+#: model:ir.model.fields,field_description:base_iso3166.field_res_country__code_alpha3
+msgid "Country Code (3-letter)"
+msgstr "Koda države (3 znaki)"
+
+#. module: base_iso3166
+#: model:ir.model.fields,field_description:base_iso3166.field_res_country__code_numeric
+msgid "Country Code (numeric)"
+msgstr "Koda države (numerična)"
+
+#. module: base_iso3166
+#: model:ir.model.fields,field_description:base_iso3166.field_res_country__display_name
+msgid "Display Name"
+msgstr "Prikazani naziv"
+
+#. module: base_iso3166
+#: model:ir.model.fields,field_description:base_iso3166.field_res_country__id
+msgid "ID"
+msgstr "ID"
+
+#. module: base_iso3166
+#: model:ir.model.fields,help:base_iso3166.field_res_country__code_alpha3
+msgid "ISO 3166-1 alpha-3 (three-letter) code for the country"
+msgstr "Koda ISO 3166-1 alfa-3 (trimestna) za državo"
+
+#. module: base_iso3166
+#: model:ir.model.fields,help:base_iso3166.field_res_country__code_numeric
+msgid "ISO 3166-1 numeric code for the country"
+msgstr "ISO 3166-1 numerična koda države"
