@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" ?>
+<?xml version="1.0" encoding="UTF-8" ?>
 <!-- Copyright 2024 Moduon
      License LGPL-3.0 or later (https://www.gnu.org/licenses/lgpl.html). -->
 <odoo>
@@ -27,7 +27,7 @@
         </field>
     </record>
 
-    <record model="ir.actions.act_window" id="res_partner_nace_import_act_window">
+    <record id="res_partner_nace_import_act_window" model="ir.actions.act_window">
         <field name="name">Import NACE industries</field>
         <field name="type">ir.actions.act_window</field>
         <field name="res_model">res.partner.industry.eu.nace.wizard</field>
@@ -35,7 +35,7 @@
         <field name="target">new</field>
     </record>
 
-    <record model="ir.ui.menu" id="res_partner_nace_import_menu">
+    <record id="res_partner_nace_import_menu" model="ir.ui.menu">
         <field name="name">Import NACE industries</field>
         <field name="parent_id" ref="contacts.res_partner_menu_config" />
         <field name="action" ref="res_partner_nace_import_act_window" />
