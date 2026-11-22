@@ -13,10 +13,12 @@ class UneceCodeList(models.Model):
             ("tax_type", "Tax Types (UNCL 5153)"),
             ("tax_categ", "Tax Categories (UNCL 5305)"),
             ("tax_vatex", "VAT Exemption Reason Codes"),
+            ("charge_reason", "Allowance/Charge Reasons (UNCL 7161)"),
         ],
         ondelete={
             "tax_type": "cascade",
             "tax_categ": "cascade",
             "tax_vatex": "cascade",
+            "charge_reason": "cascade",
         },
     )

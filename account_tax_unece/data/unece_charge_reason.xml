@@ -1,0 +1,1237 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<odoo>
+    <!--  Source : https://service.unece.org/trade/untdid/d16b/tred/tred7161.htm  -->
+    <record id="charge_reason_aa" model="unece.code.list">
+        <field name="type">charge_reason</field>
+        <field name="code">AA</field>
+        <field name="name">Advertising</field>
+        <field name="description">The service of providing advertising.</field>
+    </record>
+    <record id="charge_reason_aaa" model="unece.code.list">
+        <field name="type">charge_reason</field>
+        <field name="code">AAA</field>
+        <field name="name">Telecommunication</field>
+        <field
+            name="description"
+        >The service of providing telecommunication activities and/or faclities.</field>
+    </record>
+    <record id="charge_reason_aac" model="unece.code.list">
+        <field name="type">charge_reason</field>
+        <field name="code">AAC</field>
+        <field name="name">Technical modification</field>
+        <field
+            name="description"
+        >The service of making technical modifications to a product.</field>
+    </record>
+    <record id="charge_reason_aad" model="unece.code.list">
+        <field name="type">charge_reason</field>
+        <field name="code">AAD</field>
+        <field name="name">Job-order production</field>
+        <field name="description">The service of producing to order.</field>
+    </record>
+    <record id="charge_reason_aae" model="unece.code.list">
+        <field name="type">charge_reason</field>
+        <field name="code">AAE</field>
+        <field name="name">Outlays</field>
+        <field
+            name="description"
+        >The service of providing money for outlays on behalf of a trading partner.</field>
+    </record>
+    <record id="charge_reason_aaf" model="unece.code.list">
+        <field name="type">charge_reason</field>
+        <field name="code">AAF</field>
+        <field name="name">Off-premises</field>
+        <field
+            name="description"
+        >The service of providing services outside the premises of the provider.</field>
+    </record>
+    <record id="charge_reason_aah" model="unece.code.list">
+        <field name="type">charge_reason</field>
+        <field name="code">AAH</field>
+        <field name="name">Additional processing</field>
+        <field
+            name="description"
+        >The service of providing additional processing.</field>
+    </record>
+    <record id="charge_reason_aai" model="unece.code.list">
+        <field name="type">charge_reason</field>
+        <field name="code">AAI</field>
+        <field name="name">Attesting</field>
+        <field name="description">The service of certifying validity.</field>
+    </record>
+    <record id="charge_reason_aas" model="unece.code.list">
+        <field name="type">charge_reason</field>
+        <field name="code">AAS</field>
+        <field name="name">Acceptance</field>
+        <field name="description">The service of accepting goods or services.</field>
+    </record>
+    <record id="charge_reason_aat" model="unece.code.list">
+        <field name="type">charge_reason</field>
+        <field name="code">AAT</field>
+        <field name="name">Rush delivery</field>
+        <field name="description">The service to provide a rush delivery.</field>
+    </record>
+    <record id="charge_reason_aav" model="unece.code.list">
+        <field name="type">charge_reason</field>
+        <field name="code">AAV</field>
+        <field name="name">Special construction</field>
+        <field name="description">The service of providing special construction.</field>
+    </record>
+    <record id="charge_reason_aay" model="unece.code.list">
+        <field name="type">charge_reason</field>
+        <field name="code">AAY</field>
+        <field name="name">Airport facilities</field>
+        <field name="description">The service of providing airport facilities.</field>
+    </record>
+    <record id="charge_reason_aaz" model="unece.code.list">
+        <field name="type">charge_reason</field>
+        <field name="code">AAZ</field>
+        <field name="name">Concession</field>
+        <field
+            name="description"
+        >The service allowing a party to use another party's facilities.</field>
+    </record>
+    <record id="charge_reason_aba" model="unece.code.list">
+        <field name="type">charge_reason</field>
+        <field name="code">ABA</field>
+        <field name="name">Compulsory storage</field>
+        <field
+            name="description"
+        >The service provided to hold a compulsory inventory.</field>
+    </record>
+    <record id="charge_reason_abb" model="unece.code.list">
+        <field name="type">charge_reason</field>
+        <field name="code">ABB</field>
+        <field name="name">Fuel removal</field>
+        <field
+            name="description"
+        >Remove or off-load fuel from vehicle, vessel or craft.</field>
+    </record>
+    <record id="charge_reason_abc" model="unece.code.list">
+        <field name="type">charge_reason</field>
+        <field name="code">ABC</field>
+        <field name="name">Into plane</field>
+        <field
+            name="description"
+        >Service of delivering goods to an aircraft from local storage.</field>
+    </record>
+    <record id="charge_reason_abd" model="unece.code.list">
+        <field name="type">charge_reason</field>
+        <field name="code">ABD</field>
+        <field name="name">Overtime</field>
+        <field
+            name="description"
+        >The service of providing labour beyond the established limit of working hours.</field>
+    </record>
+    <record id="charge_reason_abf" model="unece.code.list">
+        <field name="type">charge_reason</field>
+        <field name="code">ABF</field>
+        <field name="name">Tooling</field>
+        <field name="description">The service of providing specific tooling.</field>
+    </record>
+    <record id="charge_reason_abk" model="unece.code.list">
+        <field name="type">charge_reason</field>
+        <field name="code">ABK</field>
+        <field name="name">Miscellaneous</field>
+        <field name="description">Miscellaneous services.</field>
+    </record>
+    <record id="charge_reason_abl" model="unece.code.list">
+        <field name="type">charge_reason</field>
+        <field name="code">ABL</field>
+        <field name="name">Additional packaging</field>
+        <field name="description">The service of providing additional packaging.</field>
+    </record>
+    <record id="charge_reason_abn" model="unece.code.list">
+        <field name="type">charge_reason</field>
+        <field name="code">ABN</field>
+        <field name="name">Dunnage</field>
+        <field
+            name="description"
+        >The service of providing additional padding materials required to secure and
+            protect a cargo within a shipping container.</field>
+    </record>
+    <record id="charge_reason_abr" model="unece.code.list">
+        <field name="type">charge_reason</field>
+        <field name="code">ABR</field>
+        <field name="name">Containerisation</field>
+        <field name="description">The service of packing items into a container.</field>
+    </record>
+    <record id="charge_reason_abs" model="unece.code.list">
+        <field name="type">charge_reason</field>
+        <field name="code">ABS</field>
+        <field name="name">Carton packing</field>
+        <field name="description">The service of packing items into a carton.</field>
+    </record>
+    <record id="charge_reason_abt" model="unece.code.list">
+        <field name="type">charge_reason</field>
+        <field name="code">ABT</field>
+        <field name="name">Hessian wrapped</field>
+        <field name="description">The service of hessian wrapping.</field>
+    </record>
+    <record id="charge_reason_abu" model="unece.code.list">
+        <field name="type">charge_reason</field>
+        <field name="code">ABU</field>
+        <field name="name">Polyethylene wrap packing</field>
+        <field
+            name="description"
+        >The service of packing in polyethylene wrapping.</field>
+    </record>
+    <record id="charge_reason_acf" model="unece.code.list">
+        <field name="type">charge_reason</field>
+        <field name="code">ACF</field>
+        <field name="name">Miscellaneous treatment</field>
+        <field name="description">Miscellaneous treatment service.</field>
+    </record>
+    <record id="charge_reason_acg" model="unece.code.list">
+        <field name="type">charge_reason</field>
+        <field name="code">ACG</field>
+        <field name="name">Enamelling treatment</field>
+        <field name="description">The service of providing enamelling treatment.</field>
+    </record>
+    <record id="charge_reason_ach" model="unece.code.list">
+        <field name="type">charge_reason</field>
+        <field name="code">ACH</field>
+        <field name="name">Heat treatment</field>
+        <field name="description">The service of treating with heat.</field>
+    </record>
+    <record id="charge_reason_aci" model="unece.code.list">
+        <field name="type">charge_reason</field>
+        <field name="code">ACI</field>
+        <field name="name">Plating treatment</field>
+        <field name="description">The service of providing plating treatment.</field>
+    </record>
+    <record id="charge_reason_acj" model="unece.code.list">
+        <field name="type">charge_reason</field>
+        <field name="code">ACJ</field>
+        <field name="name">Painting</field>
+        <field name="description">The service of painting.</field>
+    </record>
+    <record id="charge_reason_ack" model="unece.code.list">
+        <field name="type">charge_reason</field>
+        <field name="code">ACK</field>
+        <field name="name">Polishing</field>
+        <field name="description">The service of polishing.</field>
+    </record>
+    <record id="charge_reason_acl" model="unece.code.list">
+        <field name="type">charge_reason</field>
+        <field name="code">ACL</field>
+        <field name="name">Priming</field>
+        <field name="description">The service of priming.</field>
+    </record>
+    <record id="charge_reason_acm" model="unece.code.list">
+        <field name="type">charge_reason</field>
+        <field name="code">ACM</field>
+        <field name="name">Preservation treatment</field>
+        <field name="description">The service of preservation treatment.</field>
+    </record>
+    <record id="charge_reason_acs" model="unece.code.list">
+        <field name="type">charge_reason</field>
+        <field name="code">ACS</field>
+        <field name="name">Fitting</field>
+        <field name="description">Fitting service.</field>
+    </record>
+    <record id="charge_reason_adc" model="unece.code.list">
+        <field name="type">charge_reason</field>
+        <field name="code">ADC</field>
+        <field name="name">Consolidation</field>
+        <field
+            name="description"
+        >The service of consolidating multiple consignments into one shipment.</field>
+    </record>
+    <record id="charge_reason_ade" model="unece.code.list">
+        <field name="type">charge_reason</field>
+        <field name="code">ADE</field>
+        <field name="name">Bill of lading</field>
+        <field
+            name="description"
+        >The service of providing a bill of lading document.</field>
+    </record>
+    <record id="charge_reason_adj" model="unece.code.list">
+        <field name="type">charge_reason</field>
+        <field name="code">ADJ</field>
+        <field name="name">Airbag</field>
+        <field
+            name="description"
+        >The service of surrounding a product with an air bag.</field>
+    </record>
+    <record id="charge_reason_adk" model="unece.code.list">
+        <field name="type">charge_reason</field>
+        <field name="code">ADK</field>
+        <field name="name">Transfer</field>
+        <field name="description">The service of transferring.</field>
+    </record>
+    <record id="charge_reason_adl" model="unece.code.list">
+        <field name="type">charge_reason</field>
+        <field name="code">ADL</field>
+        <field name="name">Slipsheet</field>
+        <field
+            name="description"
+        >The service of securing a stack of products on a slipsheet.</field>
+    </record>
+    <record id="charge_reason_adm" model="unece.code.list">
+        <field name="type">charge_reason</field>
+        <field name="code">ADM</field>
+        <field name="name">Binding</field>
+        <field name="description">Binding service.</field>
+    </record>
+    <record id="charge_reason_adn" model="unece.code.list">
+        <field name="type">charge_reason</field>
+        <field name="code">ADN</field>
+        <field name="name">Repair or replacement of broken returnable package</field>
+        <field
+            name="description"
+        >The service of repairing or replacing a broken returnable package.</field>
+    </record>
+    <record id="charge_reason_ado" model="unece.code.list">
+        <field name="type">charge_reason</field>
+        <field name="code">ADO</field>
+        <field name="name">Efficient logistics</field>
+        <field
+            name="description"
+        >A code indicating efficient logistics services.</field>
+    </record>
+    <record id="charge_reason_adp" model="unece.code.list">
+        <field name="type">charge_reason</field>
+        <field name="code">ADP</field>
+        <field name="name">Merchandising</field>
+        <field
+            name="description"
+        >A code indicating that merchandising services are in operation.</field>
+    </record>
+    <record id="charge_reason_adq" model="unece.code.list">
+        <field name="type">charge_reason</field>
+        <field name="code">ADQ</field>
+        <field name="name">Product mix</field>
+        <field
+            name="description"
+        >A code indicating that product mixing services are in operation.</field>
+    </record>
+    <record id="charge_reason_adr" model="unece.code.list">
+        <field name="type">charge_reason</field>
+        <field name="code">ADR</field>
+        <field name="name">Other services</field>
+        <field
+            name="description"
+        >A code indicating that other non-specific services are in operation.</field>
+    </record>
+    <record id="charge_reason_adt" model="unece.code.list">
+        <field name="type">charge_reason</field>
+        <field name="code">ADT</field>
+        <field name="name">Pick-up</field>
+        <field
+            name="description"
+        >The service of picking up or collection of goods.</field>
+    </record>
+    <record id="charge_reason_adw" model="unece.code.list">
+        <field name="type">charge_reason</field>
+        <field name="code">ADW</field>
+        <field name="name">Chronic illness</field>
+        <field
+            name="description"
+        >The special services provided due to chronic illness.</field>
+    </record>
+    <record id="charge_reason_ady" model="unece.code.list">
+        <field name="type">charge_reason</field>
+        <field name="code">ADY</field>
+        <field name="name">New product introduction</field>
+        <field
+            name="description"
+        >A service provided by a buyer when introducing a new product from a suppliers
+            range to the range traded by the buyer.</field>
+    </record>
+    <record id="charge_reason_adz" model="unece.code.list">
+        <field name="type">charge_reason</field>
+        <field name="code">ADZ</field>
+        <field name="name">Direct delivery</field>
+        <field name="description">Direct delivery service.</field>
+    </record>
+    <record id="charge_reason_aea" model="unece.code.list">
+        <field name="type">charge_reason</field>
+        <field name="code">AEA</field>
+        <field name="name">Diversion</field>
+        <field name="description">The service of diverting deliverables.</field>
+    </record>
+    <record id="charge_reason_aeb" model="unece.code.list">
+        <field name="type">charge_reason</field>
+        <field name="code">AEB</field>
+        <field name="name">Disconnect</field>
+        <field name="description">The service is a disconnection.</field>
+    </record>
+    <record id="charge_reason_aec" model="unece.code.list">
+        <field name="type">charge_reason</field>
+        <field name="code">AEC</field>
+        <field name="name">Distribution</field>
+        <field name="description">Distribution service.</field>
+    </record>
+    <record id="charge_reason_aed" model="unece.code.list">
+        <field name="type">charge_reason</field>
+        <field name="code">AED</field>
+        <field name="name">Handling of hazardous cargo</field>
+        <field name="description">A service for handling hazardous cargo.</field>
+    </record>
+    <record id="charge_reason_aef" model="unece.code.list">
+        <field name="type">charge_reason</field>
+        <field name="code">AEF</field>
+        <field name="name">Rents and leases</field>
+        <field name="description">The service of renting and/or leasing.</field>
+    </record>
+    <record id="charge_reason_aeh" model="unece.code.list">
+        <field name="type">charge_reason</field>
+        <field name="code">AEH</field>
+        <field name="name">Location differential</field>
+        <field
+            name="description"
+        >Delivery to a different location than previously contracted.</field>
+    </record>
+    <record id="charge_reason_aei" model="unece.code.list">
+        <field name="type">charge_reason</field>
+        <field name="code">AEI</field>
+        <field name="name">Aircraft refueling</field>
+        <field name="description">Fuel being put into the aircraft.</field>
+    </record>
+    <record id="charge_reason_aej" model="unece.code.list">
+        <field name="type">charge_reason</field>
+        <field name="code">AEJ</field>
+        <field name="name">Fuel shipped into storage</field>
+        <field name="description">Fuel being shipped into a storage system.</field>
+    </record>
+    <record id="charge_reason_aek" model="unece.code.list">
+        <field name="type">charge_reason</field>
+        <field name="code">AEK</field>
+        <field name="name">Cash on delivery</field>
+        <field
+            name="description"
+        >The provision of a cash on delivery (COD) service.</field>
+    </record>
+    <record id="charge_reason_ael" model="unece.code.list">
+        <field name="type">charge_reason</field>
+        <field name="code">AEL</field>
+        <field name="name">Small order processing service</field>
+        <field
+            name="description"
+        >A service related to the processing of small orders.</field>
+    </record>
+    <record id="charge_reason_aem" model="unece.code.list">
+        <field name="type">charge_reason</field>
+        <field name="code">AEM</field>
+        <field name="name">Clerical or administrative services</field>
+        <field
+            name="description"
+        >The provision of clerical or administrative services.</field>
+    </record>
+    <record id="charge_reason_aen" model="unece.code.list">
+        <field name="type">charge_reason</field>
+        <field name="code">AEN</field>
+        <field name="name">Guarantee</field>
+        <field name="description">The service of providing a guarantee.</field>
+    </record>
+    <record id="charge_reason_aeo" model="unece.code.list">
+        <field name="type">charge_reason</field>
+        <field name="code">AEO</field>
+        <field name="name">Collection and recycling</field>
+        <field
+            name="description"
+        >The service of collection and recycling products.</field>
+    </record>
+    <record id="charge_reason_aep" model="unece.code.list">
+        <field name="type">charge_reason</field>
+        <field name="code">AEP</field>
+        <field name="name">Copyright fee collection</field>
+        <field name="description">The service of collecting copyright fees.</field>
+    </record>
+    <record id="charge_reason_aes" model="unece.code.list">
+        <field name="type">charge_reason</field>
+        <field name="code">AES</field>
+        <field name="name">Veterinary inspection service</field>
+        <field
+            name="description"
+        >The service of providing veterinary inspection.</field>
+    </record>
+    <record id="charge_reason_aet" model="unece.code.list">
+        <field name="type">charge_reason</field>
+        <field name="code">AET</field>
+        <field name="name">Pensioner service</field>
+        <field
+            name="description"
+        >Special service when the subject is a pensioner.</field>
+    </record>
+    <record id="charge_reason_aeu" model="unece.code.list">
+        <field name="type">charge_reason</field>
+        <field name="code">AEU</field>
+        <field name="name">Medicine free pass holder</field>
+        <field
+            name="description"
+        >Special service when the subject holds a medicine free pass.</field>
+    </record>
+    <record id="charge_reason_aev" model="unece.code.list">
+        <field name="type">charge_reason</field>
+        <field name="code">AEV</field>
+        <field name="name">Environmental protection service</field>
+        <field
+            name="description"
+        >The provision of an environmental protection service.</field>
+    </record>
+    <record id="charge_reason_aew" model="unece.code.list">
+        <field name="type">charge_reason</field>
+        <field name="code">AEW</field>
+        <field name="name">Environmental clean-up service</field>
+        <field
+            name="description"
+        >The provision of an environmental clean-up service.</field>
+    </record>
+    <record id="charge_reason_aex" model="unece.code.list">
+        <field name="type">charge_reason</field>
+        <field name="code">AEX</field>
+        <field
+            name="name"
+        >National cheque processing service outside account area</field>
+        <field
+            name="description"
+        >Service of processing a national cheque outside the ordering customer's bank
+            trading area.</field>
+    </record>
+    <record id="charge_reason_aey" model="unece.code.list">
+        <field name="type">charge_reason</field>
+        <field name="code">AEY</field>
+        <field name="name">National payment service outside account area</field>
+        <field
+            name="description"
+        >Service of processing a national payment to a beneficiary holding an account
+            outside the trading area of the ordering customer's bank.</field>
+    </record>
+    <record id="charge_reason_aez" model="unece.code.list">
+        <field name="type">charge_reason</field>
+        <field name="code">AEZ</field>
+        <field name="name">National payment service within account area</field>
+        <field
+            name="description"
+        >Service of processing a national payment to a beneficiary holding an account
+            within the trading area of the ordering customer's bank.</field>
+    </record>
+    <record id="charge_reason_aj" model="unece.code.list">
+        <field name="type">charge_reason</field>
+        <field name="code">AJ</field>
+        <field name="name">Adjustments</field>
+        <field name="description">The service of making adjustments.</field>
+    </record>
+    <record id="charge_reason_au" model="unece.code.list">
+        <field name="type">charge_reason</field>
+        <field name="code">AU</field>
+        <field name="name">Authentication</field>
+        <field name="description">The service of authenticating.</field>
+    </record>
+    <record id="charge_reason_ca" model="unece.code.list">
+        <field name="type">charge_reason</field>
+        <field name="code">CA</field>
+        <field name="name">Cataloguing</field>
+        <field name="description">The provision of cataloguing services.</field>
+    </record>
+    <record id="charge_reason_cab" model="unece.code.list">
+        <field name="type">charge_reason</field>
+        <field name="code">CAB</field>
+        <field name="name">Cartage</field>
+        <field
+            name="description"
+        >Movement of goods by heavy duty cart or vehicle.</field>
+    </record>
+    <record id="charge_reason_cad" model="unece.code.list">
+        <field name="type">charge_reason</field>
+        <field name="code">CAD</field>
+        <field name="name">Certification</field>
+        <field name="description">The service of certifying.</field>
+    </record>
+    <record id="charge_reason_cae" model="unece.code.list">
+        <field name="type">charge_reason</field>
+        <field name="code">CAE</field>
+        <field name="name">Certificate of conformance</field>
+        <field
+            name="description"
+        >The service of providing a certificate of conformance.</field>
+    </record>
+    <record id="charge_reason_caf" model="unece.code.list">
+        <field name="type">charge_reason</field>
+        <field name="code">CAF</field>
+        <field name="name">Certificate of origin</field>
+        <field
+            name="description"
+        >The service of providing a certificate of origin.</field>
+    </record>
+    <record id="charge_reason_cai" model="unece.code.list">
+        <field name="type">charge_reason</field>
+        <field name="code">CAI</field>
+        <field name="name">Cutting</field>
+        <field name="description">The service of cutting.</field>
+    </record>
+    <record id="charge_reason_caj" model="unece.code.list">
+        <field name="type">charge_reason</field>
+        <field name="code">CAJ</field>
+        <field name="name">Consular service</field>
+        <field name="description">The service provided by consulates.</field>
+    </record>
+    <record id="charge_reason_cak" model="unece.code.list">
+        <field name="type">charge_reason</field>
+        <field name="code">CAK</field>
+        <field name="name">Customer collection</field>
+        <field
+            name="description"
+        >The service of collecting goods by the customer.</field>
+    </record>
+    <record id="charge_reason_cal" model="unece.code.list">
+        <field name="type">charge_reason</field>
+        <field name="code">CAL</field>
+        <field name="name">Payroll payment service</field>
+        <field name="description">Provision of a payroll payment service.</field>
+    </record>
+    <record id="charge_reason_cam" model="unece.code.list">
+        <field name="type">charge_reason</field>
+        <field name="code">CAM</field>
+        <field name="name">Cash transportation</field>
+        <field name="description">Provision of a cash transportation service.</field>
+    </record>
+    <record id="charge_reason_can" model="unece.code.list">
+        <field name="type">charge_reason</field>
+        <field name="code">CAN</field>
+        <field name="name">Home banking service</field>
+        <field name="description">Provision of a home banking service.</field>
+    </record>
+    <record id="charge_reason_cao" model="unece.code.list">
+        <field name="type">charge_reason</field>
+        <field name="code">CAO</field>
+        <field name="name">Bilateral agreement service</field>
+        <field
+            name="description"
+        >Provision of a service as specified in a bilateral special agreement.</field>
+    </record>
+    <record id="charge_reason_cap" model="unece.code.list">
+        <field name="type">charge_reason</field>
+        <field name="code">CAP</field>
+        <field name="name">Insurance brokerage service</field>
+        <field name="description">Provision of an insurance brokerage service.</field>
+    </record>
+    <record id="charge_reason_caq" model="unece.code.list">
+        <field name="type">charge_reason</field>
+        <field name="code">CAQ</field>
+        <field name="name">Cheque generation</field>
+        <field name="description">Provision of a cheque generation service.</field>
+    </record>
+    <record id="charge_reason_car" model="unece.code.list">
+        <field name="type">charge_reason</field>
+        <field name="code">CAR</field>
+        <field name="name">Preferential merchandising location</field>
+        <field
+            name="description"
+        >Service of assigning a preferential location for merchandising.</field>
+    </record>
+    <record id="charge_reason_cas" model="unece.code.list">
+        <field name="type">charge_reason</field>
+        <field name="code">CAS</field>
+        <field name="name">Crane</field>
+        <field name="description">The service of providing a crane.</field>
+    </record>
+    <record id="charge_reason_cat" model="unece.code.list">
+        <field name="type">charge_reason</field>
+        <field name="code">CAT</field>
+        <field name="name">Special colour service</field>
+        <field
+            name="description"
+        >Providing a colour which is different from the default colour.</field>
+    </record>
+    <record id="charge_reason_cau" model="unece.code.list">
+        <field name="type">charge_reason</field>
+        <field name="code">CAU</field>
+        <field name="name">Sorting</field>
+        <field name="description">The provision of sorting services.</field>
+    </record>
+    <record id="charge_reason_cav" model="unece.code.list">
+        <field name="type">charge_reason</field>
+        <field name="code">CAV</field>
+        <field name="name">Battery collection and recycling</field>
+        <field
+            name="description"
+        >The service of collecting and recycling batteries.</field>
+    </record>
+    <record id="charge_reason_caw" model="unece.code.list">
+        <field name="type">charge_reason</field>
+        <field name="code">CAW</field>
+        <field name="name">Product take back fee</field>
+        <field
+            name="description"
+        >The fee the consumer must pay the manufacturer to take back the product.</field>
+    </record>
+    <record id="charge_reason_cax" model="unece.code.list">
+        <field name="type">charge_reason</field>
+        <field name="code">CAX</field>
+        <field name="name">Quality control released</field>
+        <field
+            name="description"
+        >Informs the stockholder it is free to distribute the quality controlled passed goods.</field>
+    </record>
+    <record id="charge_reason_cay" model="unece.code.list">
+        <field name="type">charge_reason</field>
+        <field name="code">CAY</field>
+        <field name="name">Quality control held</field>
+        <field
+            name="description"
+        >Instructs the stockholder to withhold distribution of the goods until the manufacturer has completed a quality control assessment.</field>
+    </record>
+    <record id="charge_reason_caz" model="unece.code.list">
+        <field name="type">charge_reason</field>
+        <field name="code">CAZ</field>
+        <field name="name">Quality control embargo</field>
+        <field
+            name="description"
+        >Instructs the stockholder to withhold distribution of goods which have failed quality control tests.</field>
+    </record>
+    <record id="charge_reason_cd" model="unece.code.list">
+        <field name="type">charge_reason</field>
+        <field name="code">CD</field>
+        <field name="name">Car loading</field>
+        <field name="description">Car loading service.</field>
+    </record>
+    <record id="charge_reason_cg" model="unece.code.list">
+        <field name="type">charge_reason</field>
+        <field name="code">CG</field>
+        <field name="name">Cleaning</field>
+        <field name="description">Cleaning service.</field>
+    </record>
+    <record id="charge_reason_cs" model="unece.code.list">
+        <field name="type">charge_reason</field>
+        <field name="code">CS</field>
+        <field name="name">Cigarette stamping</field>
+        <field name="description">The service of providing cigarette stamping.</field>
+    </record>
+    <record id="charge_reason_ct" model="unece.code.list">
+        <field name="type">charge_reason</field>
+        <field name="code">CT</field>
+        <field name="name">Count and recount</field>
+        <field name="description">The service of doing a count and recount.</field>
+    </record>
+    <record id="charge_reason_dab" model="unece.code.list">
+        <field name="type">charge_reason</field>
+        <field name="code">DAB</field>
+        <field name="name">Layout/design</field>
+        <field name="description">The service of providing layout/design.</field>
+    </record>
+    <record id="charge_reason_dac" model="unece.code.list">
+        <field name="type">charge_reason</field>
+        <field name="code">DAC</field>
+        <field name="name">Assortment allowance</field>
+        <field
+            name="description"
+        >Allowance given when a specific part of a suppliers assortment is purchased by the buyer.</field>
+    </record>
+    <record id="charge_reason_dad" model="unece.code.list">
+        <field name="type">charge_reason</field>
+        <field name="code">DAD</field>
+        <field name="name">Driver assigned unloading</field>
+        <field name="description">The service of unloading by the driver.</field>
+    </record>
+    <record id="charge_reason_daf" model="unece.code.list">
+        <field name="type">charge_reason</field>
+        <field name="code">DAF</field>
+        <field name="name">Debtor bound</field>
+        <field
+            name="description"
+        >A special allowance or charge applicable to a specific debtor.</field>
+    </record>
+    <record id="charge_reason_dag" model="unece.code.list">
+        <field name="type">charge_reason</field>
+        <field name="code">DAG</field>
+        <field name="name">Dealer allowance</field>
+        <field
+            name="description"
+        >An allowance offered by a party dealing a certain brand or brands of products.</field>
+    </record>
+    <record id="charge_reason_dah" model="unece.code.list">
+        <field name="type">charge_reason</field>
+        <field name="code">DAH</field>
+        <field name="name">Allowance transferable to the consumer</field>
+        <field
+            name="description"
+        >An allowance given by the manufacturer which should be transfered to the consumer.</field>
+    </record>
+    <record id="charge_reason_dai" model="unece.code.list">
+        <field name="type">charge_reason</field>
+        <field name="code">DAI</field>
+        <field name="name">Growth of business</field>
+        <field
+            name="description"
+        >An allowance or charge related to the growth of business over a pre-determined period of time.</field>
+    </record>
+    <record id="charge_reason_daj" model="unece.code.list">
+        <field name="type">charge_reason</field>
+        <field name="code">DAJ</field>
+        <field name="name">Introduction allowance</field>
+        <field
+            name="description"
+        >An allowance related to the introduction of a new product to the range of products traded by a retailer.</field>
+    </record>
+    <record id="charge_reason_dak" model="unece.code.list">
+        <field name="type">charge_reason</field>
+        <field name="code">DAK</field>
+        <field name="name">Multi-buy promotion</field>
+        <field
+            name="description"
+        >A code indicating special conditions related to a multi-buy promotion.</field>
+    </record>
+    <record id="charge_reason_dal" model="unece.code.list">
+        <field name="type">charge_reason</field>
+        <field name="code">DAL</field>
+        <field name="name">Partnership</field>
+        <field
+            name="description"
+        >An allowance or charge related to the establishment and on-going maintenance of a partnership.</field>
+    </record>
+    <record id="charge_reason_dam" model="unece.code.list">
+        <field name="type">charge_reason</field>
+        <field name="code">DAM</field>
+        <field name="name">Return handling</field>
+        <field
+            name="description"
+        >An allowance or change related to the handling of returns.</field>
+    </record>
+    <record id="charge_reason_dan" model="unece.code.list">
+        <field name="type">charge_reason</field>
+        <field name="code">DAN</field>
+        <field name="name">Minimum order not fulfilled charge</field>
+        <field
+            name="description"
+        >Charge levied because the minimum order quantity could not be fulfilled.</field>
+    </record>
+    <record id="charge_reason_dao" model="unece.code.list">
+        <field name="type">charge_reason</field>
+        <field name="code">DAO</field>
+        <field name="name">Point of sales threshold allowance</field>
+        <field
+            name="description"
+        >Allowance for reaching or exceeding an agreed sales threshold at the point of sales.</field>
+    </record>
+    <record id="charge_reason_dap" model="unece.code.list">
+        <field name="type">charge_reason</field>
+        <field name="code">DAP</field>
+        <field name="name">Wholesaling discount</field>
+        <field
+            name="description"
+        >A special discount related to the purchase of products through a wholesaler.</field>
+    </record>
+    <record id="charge_reason_daq" model="unece.code.list">
+        <field name="type">charge_reason</field>
+        <field name="code">DAQ</field>
+        <field name="name">Documentary credits transfer commission</field>
+        <field
+            name="description"
+        >Fee for the transfer of transferable documentary credits.</field>
+    </record>
+    <record id="charge_reason_dl" model="unece.code.list">
+        <field name="type">charge_reason</field>
+        <field name="code">DL</field>
+        <field name="name">Delivery</field>
+        <field name="description">The service of providing delivery.</field>
+    </record>
+    <record id="charge_reason_eg" model="unece.code.list">
+        <field name="type">charge_reason</field>
+        <field name="code">EG</field>
+        <field name="name">Engraving</field>
+        <field name="description">The service of providing engraving.</field>
+    </record>
+    <record id="charge_reason_ep" model="unece.code.list">
+        <field name="type">charge_reason</field>
+        <field name="code">EP</field>
+        <field name="name">Expediting</field>
+        <field name="description">The service of expediting.</field>
+    </record>
+    <record id="charge_reason_er" model="unece.code.list">
+        <field name="type">charge_reason</field>
+        <field name="code">ER</field>
+        <field name="name">Exchange rate guarantee</field>
+        <field name="description">The service of guaranteeing exchange rate.</field>
+    </record>
+    <record id="charge_reason_faa" model="unece.code.list">
+        <field name="type">charge_reason</field>
+        <field name="code">FAA</field>
+        <field name="name">Fabrication</field>
+        <field name="description">The service of providing fabrication.</field>
+    </record>
+    <record id="charge_reason_fab" model="unece.code.list">
+        <field name="type">charge_reason</field>
+        <field name="code">FAB</field>
+        <field name="name">Freight equalization</field>
+        <field name="description">The service of load balancing.</field>
+    </record>
+    <record id="charge_reason_fac" model="unece.code.list">
+        <field name="type">charge_reason</field>
+        <field name="code">FAC</field>
+        <field name="name">Freight extraordinary handling</field>
+        <field
+            name="description"
+        >The service of providing freight's extraordinary handling.</field>
+    </record>
+    <record id="charge_reason_fc" model="unece.code.list">
+        <field name="type">charge_reason</field>
+        <field name="code">FC</field>
+        <field name="name">Freight service</field>
+        <field
+            name="description"
+        >The service of moving goods, by whatever means, from one place to another.</field>
+    </record>
+    <record id="charge_reason_fh" model="unece.code.list">
+        <field name="type">charge_reason</field>
+        <field name="code">FH</field>
+        <field name="name">Filling/handling</field>
+        <field name="description">The service of providing filling/handling.</field>
+    </record>
+    <record id="charge_reason_fi" model="unece.code.list">
+        <field name="type">charge_reason</field>
+        <field name="code">FI</field>
+        <field name="name">Financing</field>
+        <field name="description">The service of providing financing.</field>
+    </record>
+    <record id="charge_reason_gaa" model="unece.code.list">
+        <field name="type">charge_reason</field>
+        <field name="code">GAA</field>
+        <field name="name">Grinding</field>
+        <field name="description">The service of grinding.</field>
+    </record>
+    <record id="charge_reason_haa" model="unece.code.list">
+        <field name="type">charge_reason</field>
+        <field name="code">HAA</field>
+        <field name="name">Hose</field>
+        <field name="description">The service of providing a hose.</field>
+    </record>
+    <record id="charge_reason_hd" model="unece.code.list">
+        <field name="type">charge_reason</field>
+        <field name="code">HD</field>
+        <field name="name">Handling</field>
+        <field name="description">Handling service.</field>
+    </record>
+    <record id="charge_reason_hh" model="unece.code.list">
+        <field name="type">charge_reason</field>
+        <field name="code">HH</field>
+        <field name="name">Hoisting and hauling</field>
+        <field name="description">The service of hoisting and hauling.</field>
+    </record>
+    <record id="charge_reason_iaa" model="unece.code.list">
+        <field name="type">charge_reason</field>
+        <field name="code">IAA</field>
+        <field name="name">Installation</field>
+        <field name="description">The service of installing.</field>
+    </record>
+    <record id="charge_reason_iab" model="unece.code.list">
+        <field name="type">charge_reason</field>
+        <field name="code">IAB</field>
+        <field name="name">Installation and warranty</field>
+        <field
+            name="description"
+        >The service of installing and providing warranty.</field>
+    </record>
+    <record id="charge_reason_id" model="unece.code.list">
+        <field name="type">charge_reason</field>
+        <field name="code">ID</field>
+        <field name="name">Inside delivery</field>
+        <field name="description">The service of providing delivery inside.</field>
+    </record>
+    <record id="charge_reason_if" model="unece.code.list">
+        <field name="type">charge_reason</field>
+        <field name="code">IF</field>
+        <field name="name">Inspection</field>
+        <field name="description">The service of inspection.</field>
+    </record>
+    <record id="charge_reason_ir" model="unece.code.list">
+        <field name="type">charge_reason</field>
+        <field name="code">IR</field>
+        <field name="name">Installation and training</field>
+        <field
+            name="description"
+        >The service of providing installation and training.</field>
+    </record>
+    <record id="charge_reason_is" model="unece.code.list">
+        <field name="type">charge_reason</field>
+        <field name="code">IS</field>
+        <field name="name">Invoicing</field>
+        <field name="description">The service of providing an invoice.</field>
+    </record>
+    <record id="charge_reason_ko" model="unece.code.list">
+        <field name="type">charge_reason</field>
+        <field name="code">KO</field>
+        <field name="name">Koshering</field>
+        <field
+            name="description"
+        >The service of preparing food in accordance with Jewish law.</field>
+    </record>
+    <record id="charge_reason_l1" model="unece.code.list">
+        <field name="type">charge_reason</field>
+        <field name="code">L1</field>
+        <field name="name">Carrier count</field>
+        <field name="description">The service of counting by the carrier.</field>
+    </record>
+    <record id="charge_reason_la" model="unece.code.list">
+        <field name="type">charge_reason</field>
+        <field name="code">LA</field>
+        <field name="name">Labelling</field>
+        <field name="description">Labelling service.</field>
+    </record>
+    <record id="charge_reason_laa" model="unece.code.list">
+        <field name="type">charge_reason</field>
+        <field name="code">LAA</field>
+        <field name="name">Labour</field>
+        <field name="description">The service to provide required labour.</field>
+    </record>
+    <record id="charge_reason_lab" model="unece.code.list">
+        <field name="type">charge_reason</field>
+        <field name="code">LAB</field>
+        <field name="name">Repair and return</field>
+        <field name="description">The service of repairing and returning.</field>
+    </record>
+    <record id="charge_reason_lf" model="unece.code.list">
+        <field name="type">charge_reason</field>
+        <field name="code">LF</field>
+        <field name="name">Legalisation</field>
+        <field name="description">The service of legalising.</field>
+    </record>
+    <record id="charge_reason_mae" model="unece.code.list">
+        <field name="type">charge_reason</field>
+        <field name="code">MAE</field>
+        <field name="name">Mounting</field>
+        <field name="description">The service of mounting.</field>
+    </record>
+    <record id="charge_reason_mi" model="unece.code.list">
+        <field name="type">charge_reason</field>
+        <field name="code">MI</field>
+        <field name="name">Mail invoice</field>
+        <field name="description">The service of mailing an invoice.</field>
+    </record>
+    <record id="charge_reason_ml" model="unece.code.list">
+        <field name="type">charge_reason</field>
+        <field name="code">ML</field>
+        <field name="name">Mail invoice to each location</field>
+        <field
+            name="description"
+        >The service of mailing an invoice to each location.</field>
+    </record>
+    <record id="charge_reason_naa" model="unece.code.list">
+        <field name="type">charge_reason</field>
+        <field name="code">NAA</field>
+        <field name="name">Non-returnable containers</field>
+        <field
+            name="description"
+        >The service of providing non-returnable containers.</field>
+    </record>
+    <record id="charge_reason_oa" model="unece.code.list">
+        <field name="type">charge_reason</field>
+        <field name="code">OA</field>
+        <field name="name">Outside cable connectors</field>
+        <field
+            name="description"
+        >The service of providing outside cable connectors.</field>
+    </record>
+    <record id="charge_reason_pa" model="unece.code.list">
+        <field name="type">charge_reason</field>
+        <field name="code">PA</field>
+        <field name="name">Invoice with shipment</field>
+        <field
+            name="description"
+        >The service of including the invoice with the shipment.</field>
+    </record>
+    <record id="charge_reason_paa" model="unece.code.list">
+        <field name="type">charge_reason</field>
+        <field name="code">PAA</field>
+        <field name="name">Phosphatizing (steel treatment)</field>
+        <field name="description">The service of phosphatizing the steel.</field>
+    </record>
+    <record id="charge_reason_pc" model="unece.code.list">
+        <field name="type">charge_reason</field>
+        <field name="code">PC</field>
+        <field name="name">Packing</field>
+        <field name="description">The service of packing.</field>
+    </record>
+    <record id="charge_reason_pl" model="unece.code.list">
+        <field name="type">charge_reason</field>
+        <field name="code">PL</field>
+        <field name="name">Palletizing</field>
+        <field name="description">The service of palletizing.</field>
+    </record>
+    <record id="charge_reason_prv" model="unece.code.list">
+        <field name="type">charge_reason</field>
+        <field name="code">PRV</field>
+        <field name="name">Price variation</field>
+        <field
+            name="description"
+        >Price variation related to energy and or raw materials cost variation.</field>
+    </record>
+    <record id="charge_reason_rab" model="unece.code.list">
+        <field name="type">charge_reason</field>
+        <field name="code">RAB</field>
+        <field name="name">Repacking</field>
+        <field name="description">The service of repacking.</field>
+    </record>
+    <record id="charge_reason_rac" model="unece.code.list">
+        <field name="type">charge_reason</field>
+        <field name="code">RAC</field>
+        <field name="name">Repair</field>
+        <field name="description">The service of repairing.</field>
+    </record>
+    <record id="charge_reason_rad" model="unece.code.list">
+        <field name="type">charge_reason</field>
+        <field name="code">RAD</field>
+        <field name="name">Returnable container</field>
+        <field
+            name="description"
+        >The service of providing returnable containers.</field>
+    </record>
+    <record id="charge_reason_raf" model="unece.code.list">
+        <field name="type">charge_reason</field>
+        <field name="code">RAF</field>
+        <field name="name">Restocking</field>
+        <field name="description">The service of restocking.</field>
+    </record>
+    <record id="charge_reason_re" model="unece.code.list">
+        <field name="type">charge_reason</field>
+        <field name="code">RE</field>
+        <field name="name">Re-delivery</field>
+        <field name="description">The service of re-delivering.</field>
+    </record>
+    <record id="charge_reason_rf" model="unece.code.list">
+        <field name="type">charge_reason</field>
+        <field name="code">RF</field>
+        <field name="name">Refurbishing</field>
+        <field name="description">The service of refurbishing.</field>
+    </record>
+    <record id="charge_reason_rh" model="unece.code.list">
+        <field name="type">charge_reason</field>
+        <field name="code">RH</field>
+        <field name="name">Rail wagon hire</field>
+        <field name="description">The service of providing rail wagons for hire.</field>
+    </record>
+    <record id="charge_reason_rv" model="unece.code.list">
+        <field name="type">charge_reason</field>
+        <field name="code">RV</field>
+        <field name="name">Loading</field>
+        <field name="description">The service of loading goods.</field>
+    </record>
+    <record id="charge_reason_sa" model="unece.code.list">
+        <field name="type">charge_reason</field>
+        <field name="code">SA</field>
+        <field name="name">Salvaging</field>
+        <field name="description">The service of salvaging.</field>
+    </record>
+    <record id="charge_reason_saa" model="unece.code.list">
+        <field name="type">charge_reason</field>
+        <field name="code">SAA</field>
+        <field name="name">Shipping and handling</field>
+        <field name="description">The service of shipping and handling.</field>
+    </record>
+    <record id="charge_reason_sad" model="unece.code.list">
+        <field name="type">charge_reason</field>
+        <field name="code">SAD</field>
+        <field name="name">Special packaging</field>
+        <field name="description">The service of special packaging.</field>
+    </record>
+    <record id="charge_reason_sae" model="unece.code.list">
+        <field name="type">charge_reason</field>
+        <field name="code">SAE</field>
+        <field name="name">Stamping</field>
+        <field name="description">The service of stamping.</field>
+    </record>
+    <record id="charge_reason_sai" model="unece.code.list">
+        <field name="type">charge_reason</field>
+        <field name="code">SAI</field>
+        <field name="name">Consignee unload</field>
+        <field name="description">The service of unloading by the consignee.</field>
+    </record>
+    <record id="charge_reason_sg" model="unece.code.list">
+        <field name="type">charge_reason</field>
+        <field name="code">SG</field>
+        <field name="name">Shrink-wrap</field>
+        <field name="description">The service of shrink-wrapping.</field>
+    </record>
+    <record id="charge_reason_sh" model="unece.code.list">
+        <field name="type">charge_reason</field>
+        <field name="code">SH</field>
+        <field name="name">Special handling</field>
+        <field name="description">The service of special handling.</field>
+    </record>
+    <record id="charge_reason_sm" model="unece.code.list">
+        <field name="type">charge_reason</field>
+        <field name="code">SM</field>
+        <field name="name">Special finish</field>
+        <field name="description">The service of providing a special finish.</field>
+    </record>
+    <record id="charge_reason_su" model="unece.code.list">
+        <field name="type">charge_reason</field>
+        <field name="code">SU</field>
+        <field name="name">Set-up</field>
+        <field name="description">The service of setting-up.</field>
+    </record>
+    <record id="charge_reason_tab" model="unece.code.list">
+        <field name="type">charge_reason</field>
+        <field name="code">TAB</field>
+        <field name="name">Tank renting</field>
+        <field name="description">The service of providing tanks for hire.</field>
+    </record>
+    <record id="charge_reason_tac" model="unece.code.list">
+        <field name="type">charge_reason</field>
+        <field name="code">TAC</field>
+        <field name="name">Testing</field>
+        <field name="description">The service of testing.</field>
+    </record>
+    <record id="charge_reason_tt" model="unece.code.list">
+        <field name="type">charge_reason</field>
+        <field name="code">TT</field>
+        <field name="name">Transportation - third party billing</field>
+        <field
+            name="description"
+        >The service of providing third party billing for transportation.</field>
+    </record>
+    <record id="charge_reason_tv" model="unece.code.list">
+        <field name="type">charge_reason</field>
+        <field name="code">TV</field>
+        <field name="name">Transportation by vendor</field>
+        <field
+            name="description"
+        >The service of providing transportation by the vendor.</field>
+    </record>
+    <record id="charge_reason_v1" model="unece.code.list">
+        <field name="type">charge_reason</field>
+        <field name="code">V1</field>
+        <field name="name">Drop yard</field>
+        <field name="description">The service of delivering goods at the yard.</field>
+    </record>
+    <record id="charge_reason_v2" model="unece.code.list">
+        <field name="type">charge_reason</field>
+        <field name="code">V2</field>
+        <field name="name">Drop dock</field>
+        <field name="description">The service of delivering goods at the dock.</field>
+    </record>
+    <record id="charge_reason_wh" model="unece.code.list">
+        <field name="type">charge_reason</field>
+        <field name="code">WH</field>
+        <field name="name">Warehousing</field>
+        <field
+            name="description"
+        >The service of storing and handling of goods in a warehouse.</field>
+    </record>
+    <record id="charge_reason_xaa" model="unece.code.list">
+        <field name="type">charge_reason</field>
+        <field name="code">XAA</field>
+        <field name="name">Combine all same day shipment</field>
+        <field
+            name="description"
+        >The service of combining all shipments for the same day.</field>
+    </record>
+    <record id="charge_reason_yy" model="unece.code.list">
+        <field name="type">charge_reason</field>
+        <field name="code">YY</field>
+        <field name="name">Split pick-up</field>
+        <field name="description">The service of providing split pick-up.</field>
+    </record>
+    <record id="charge_reason_zzz" model="unece.code.list">
+        <field name="type">charge_reason</field>
+        <field name="code">ZZZ</field>
+        <field name="name">Mutually defined</field>
+        <field
+            name="description"
+        >A code assigned within a code list to be used on an interim basis and as
+            defined among trading partners until a precise code can be assigned to the code
+            list.</field>
+    </record>
+</odoo>
