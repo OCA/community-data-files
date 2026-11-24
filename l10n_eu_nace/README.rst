@@ -1,7 +1,3 @@
-.. image:: https://odoo-community.org/readme-banner-image
-   :target: https://odoo-community.org/get-involved?utm_source=readme
-   :alt: Odoo Community Association
-
 ================================
 European NACE partner categories
 ================================
@@ -17,7 +13,7 @@ European NACE partner categories
 .. |badge1| image:: https://img.shields.io/badge/maturity-Beta-yellow.png
     :target: https://odoo-community.org/page/development-status
     :alt: Beta
-.. |badge2| image:: https://img.shields.io/badge/license-AGPL--3-blue.png
+.. |badge2| image:: https://img.shields.io/badge/licence-AGPL--3-blue.png
     :target: http://www.gnu.org/licenses/agpl-3.0-standalone.html
     :alt: License: AGPL-3
 .. |badge3| image:: https://img.shields.io/badge/github-OCA%2Fcommunity--data--files-lightgray.png?logo=github
@@ -32,8 +28,8 @@ European NACE partner categories
 
 |badge1| |badge2| |badge3| |badge4| |badge5|
 
-This module imports the NACE rev. 2 classification categories as partner
-categories in 23 languages, courtesy of the EU.
+This module imports the NACE Rev. 2.1 classification categories as
+partner categories in 23 languages, courtesy of the EU.
 
 The *Statistical Classification of Economic Activities in the European
 Community* commonly referred to as NACE, is a European industry standard
@@ -60,7 +56,7 @@ form.
 Obtaining updated data
 ----------------------
 
-The data is imported from the new NACE Rev. 2 classification, which is
+The data is imported from the new NACE Rev. 2.1 classification, which is
 hosted in ShowVoc. This is a new platform that replaces the old Eurostat
 RAMON service and uses SPARQL to retrieve the data.
 

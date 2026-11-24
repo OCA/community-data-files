@@ -1,4 +1,4 @@
-This module imports the NACE rev. 2 classification categories as partner
+This module imports the NACE Rev. 2.1 classification categories as partner
 categories in 23 languages, courtesy of the EU.
 
 The *Statistical Classification of Economic Activities in the European

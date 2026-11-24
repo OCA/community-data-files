@@ -4,6 +4,7 @@
 import requests
 
 from odoo import models
+from odoo.exceptions import UserError
 
 ENDPOINT = "https://publications.europa.eu/webapi/rdf/sparql"
 # List of languages imported in previous versions of the module.
@@ -122,9 +123,11 @@ class ResPartnerIndustryEUNaceWizard(models.TransientModel):
                 ?s skos:inScheme :nace2.1 ;
                 {skos_query}
                 skos:notation ?code;
-                skos:broader ?parent;
                 ^skos:member ?Member.
-                ?parent skos:notation ?parentCode .
+                OPTIONAL {{
+                    ?s skos:broader ?parent .
+                    ?parent skos:notation ?parentCode .
+                }}
                 {filter_query}
                 FILTER (?Member = :sections || ?Member = :divisions  ||
                 ?Member = :groups || ?Member = :classes)
@@ -143,10 +146,7 @@ class ResPartnerIndustryEUNaceWizard(models.TransientModel):
         nace_ids = self.env["res.partner.industry"]
         nace_json = nace_data.json()
         bindings = nace_json.get("results", {}).get("bindings", {})
-        all_naces = nace_ids.search_read([], ["full_name"])
-        nace_map = {
-            nace.get("full_name").split(" - ")[0]: nace.get("id") for nace in all_naces
-        }
+        nace_map = nace_ids._get_nace_map()
         for binding in bindings:
             nace_code = binding.get("code", {}).get("value", "")
             nace_id = nace_map.get(nace_code, False)
@@ -159,6 +159,7 @@ class ResPartnerIndustryEUNaceWizard(models.TransientModel):
                         "name": nace_name,
                         "full_name": f"{nace_code} - {nace_name}",
                         "parent_id": parent_id,
+                        "nace_codes": {"nace21": nace_code},
                     }
                 )
                 nace_map[nace_code] = nace.id
@@ -182,13 +183,23 @@ class ResPartnerIndustryEUNaceWizard(models.TransientModel):
             f"+{self.get_base_url()})",
         }
         query = self._create_query(languages)
-        result = requests.get(
-            ENDPOINT,
-            params={"format": "json", "query": query},
-            headers=headers,
-            timeout=120,
-        )
-        result.raise_for_status()
+        try:
+            result = requests.get(
+                ENDPOINT,
+                params={"format": "json", "query": query},
+                headers=headers,
+                timeout=120,
+            )
+            result.raise_for_status()
+            result.json()
+        except (requests.RequestException, ValueError) as error:
+            raise UserError(
+                self.env._(
+                    "Could not download the NACE data from the EU service. "
+                    "Nothing has been changed; please try again later.\n\n%s",
+                    error,
+                )
+            ) from error
         nace_ids = self._create_nace_industry(result, languages)
         return nace_ids
 
