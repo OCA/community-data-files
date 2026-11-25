@@ -18,6 +18,7 @@
         "views/account_tax_template.xml",
         "views/unece_code_list.xml",
         "data/unece_tax_type.xml",
+        "data/unece_charge_reason.xml",
         "data/unece_tax_categ.xml",
         "data/unece_tax_vatex.xml",
     ],
