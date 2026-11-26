@@ -100,6 +100,11 @@ class AccountTax(models.Model):
         "unece_vatex_id",
     )
     def _check_unece_config(self):
+        # vatex_count is used to avoid raising error upon module upgrade
+        # when vatex data is not created yet
+        vatex_count = self.env["unece.code.list"].search_count(
+            [("type", "=", "tax_vatex")]
+        )
         for tax in self:
             if tax.unece_type_id and tax.unece_type_id.code == "VAT":
                 if tax.amount_type != "percent":
@@ -119,7 +124,8 @@ class AccountTax(models.Model):
                             )
                         )
                     if (
-                        tax.unece_categ_id.code in ("E", "G", "K", "O", "AE")
+                        vatex_count
+                        and tax.unece_categ_id.code in ("E", "G", "K", "O", "AE")
                         and not tax.unece_vatex_id
                     ):
                         raise ValidationError(
