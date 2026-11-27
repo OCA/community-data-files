@@ -2,6 +2,7 @@
 # License AGPL-3.0 or later (http://www.gnu.org/licenses/agpl.html).
 
 from odoo import api, fields, models
+from odoo.osv import expression
 
 
 class ResPartnerIndustry(models.Model):
@@ -34,6 +35,28 @@ class ResPartnerIndustry(models.Model):
                 if codes
                 else False
             )
+
+    @api.depends("full_name", "nace_codes")
+    def _compute_display_name(self):
+        # Industries of a classification show their code and name, e.g.
+        # "01.11 - Growing of cereals...", instead of the path of their parents
+        res = super()._compute_display_name()
+        for industry in self:
+            if industry.nace_codes and industry.full_name:
+                industry.display_name = industry.full_name
+        return res
+
+    def _search_display_name(self, operator, value):
+        domain = super()._search_display_name(operator, value)
+        if not value:
+            return domain
+        # Also by code: match the name or the full name, or exclude both
+        aggregator = (
+            expression.AND
+            if operator in expression.NEGATIVE_TERM_OPERATORS
+            else expression.OR
+        )
+        return aggregator([domain, [("full_name", operator, value)]])
 
     @api.model
     def _get_nace_map(self, classification="nace21"):
