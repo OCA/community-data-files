@@ -38,13 +38,13 @@ class ResPartnerBank(models.Model):
             country = self.env["res.country"].search([("code", "=", country_code)])
             if iban.bank:
                 vals = {
-                    "name": iban.bank["name"],
-                    "bic": iban.bank["bic"],
-                    "code": iban.bank["bank_code"],
+                    "name": iban.bank.name,
+                    "bic": iban.bank.bic,
+                    "code": iban.bank.bank_code,
                     "country": country.id,
                 }
                 domain = [
-                    ("code", "=", iban.bank["bank_code"]),
+                    ("code", "=", iban.bank.bank_code),
                     ("country", "=", country.id),
                 ]
                 bank = self.env["res.bank"].search(domain, limit=1)
