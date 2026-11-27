@@ -27,6 +27,14 @@ class TestResPartnerIndustryEUNaceWizard(TransactionCase):
             login="test-manager",
             groups="base.group_system",
         )
+        # The installation already created NACE Rev. 2.1: forget the mocked
+        # codes, so the wizard creates them like new codes from the EU service
+        industry = cls.env["res.partner.industry"]
+        nace_map = industry._get_nace_map()
+        mocked = industry.browse(
+            [nace_map[code] for code in ("01", "01.1", "01.11", "02")]
+        )
+        mocked.write({"active": False, "nace_codes": False})
 
     def activate_langs(self, lang_list):
         lang_ids = self.env["res.lang"]
