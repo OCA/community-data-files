@@ -6,7 +6,7 @@
 
 {
     "name": "European NACE partner categories",
-    "version": "18.0.1.0.1",
+    "version": "18.0.2.0.0",
     "author": "Numérigraphe SARL, Sistheo, Moduon, Odoo Community Association (OCA)",
     "website": "https://github.com/OCA/community-data-files",
     "category": "Localization",
@@ -17,5 +17,6 @@
     "maintainers": ["rafaelbn", "yajo", "edlopen"],
     "depends": ["partner_industry_secondary"],
     "installable": True,
+    "post_init_hook": "post_init_hook",
     "license": "AGPL-3",
 }

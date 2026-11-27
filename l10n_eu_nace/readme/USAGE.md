@@ -4,7 +4,7 @@ form.
 
 ## Obtaining updated data
 
-The data is imported from the new NACE Rev. 2 classification, which is
+The data is imported from the new NACE Rev. 2.1 classification, which is
 hosted in ShowVoc. This is a new platform that replaces the old Eurostat
 RAMON service and uses SPARQL to retrieve the data.
 
